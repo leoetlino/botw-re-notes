@@ -1,0 +1,482 @@
+Points per enemy kill
++------------------------+--------------+
+|         Enemy          | Pts per kill |
++========================+==============+
+| Electric Wizzrobe      |            5 |
+| Fire Wizzrobe          |            5 |
+| Ice Wizzrobe           |            5 |
+| Decayed Guardian       |           12 |
+| Stone Talus            |           15 |
+| Hinox                  |           15 |
+| Yiga Blademaster       |           15 |
+| Black Bokoblin         |           15 |
+| Blizzrobe              |           15 |
+| Meteo Wizzrobe         |           15 |
+| Thunder Wizzrobe       |           15 |
+| Sentry                 |           15 |
+| Black Moblin           |           18 |
+| Guardian Scout III     |           20 |
+| Electric Lizalfos      |           20 |
+| Ice-Breath Lizalfos    |           20 |
+| Black Lizalfos         |           20 |
+| Fire-Breath Lizalfos   |           20 |
+| Golden Bokoblin        |           25 |
+| Stalnox                |           25 |
+| Silver Bokoblin        |           25 |
+| Stone Talus (Luminous) |           25 |
+| Blue Hinox             |           25 |
+| Stone Talus (Rare)     |           30 |
+| Igneo Talus            |           35 |
+| Golden Moblin          |           35 |
+| Guardian Scout IV      |           35 |
+| Guardian Turret        |           35 |
+| Frost Talus            |           35 |
+| Silver Moblin          |           35 |
+| Igneo Talus Titan      |           35 |
+| Black Hinox            |           35 |
+| Silver Lizalfos        |           40 |
+| Golden Lizalfos        |           40 |
+| Molduking              |           50 |
+| Guardian Stalker       |           50 |
+| Guardian Skywatcher    |           50 |
+| Molduga                |           50 |
+| Lynel                  |           50 |
+| Blue-Maned Lynel       |           60 |
+| White-Maned Lynel      |           80 |
+| Master Kohga           |          100 |
+| Golden Lynel           |          120 |
+| Silver Lynel           |          120 |
+| Fireblight Ganon       |          300 |
+| Waterblight Ganon      |          300 |
+| Thunderblight Ganon    |          300 |
+| Windblight Ganon       |          300 |
+| Monk Maz Koshia        |          500 |
+| Dark Beast Ganon       |          800 |
++------------------------+--------------+
+
+Enemy scaling list
+Note: 1 point = 0.014 enemy points
++----------------+-------------------+-------------------+--------------+-------------+
+|    Species     |       From        |        To         | Required pts | (enemy pts) |
++================+===================+===================+==============+=============+
+| BokoblinSeries | Bokoblin          | Blue Bokoblin     |       285.71 |           4 |
+| MoriblinSeries | Moblin            | Blue Moblin       |       785.71 |          11 |
+| BokoblinSeries | Blue Bokoblin     | Black Bokoblin    |      1142.86 |          16 |
+| AssassinSeries | Yiga Footsoldier  | Yiga Blademaster  |      1142.86 |          16 |
+| LizalfosSeries | Lizalfos          | Blue Lizalfos     |      1285.71 |          18 |
+| BokoblinSeries | Black Bokoblin    | Silver Bokoblin   |      2285.71 |          32 |
+| LizalfosSeries | Blue Lizalfos     | Black Lizalfos    |      2285.71 |          32 |
+| MoriblinSeries | Blue Moblin       | Black Moblin      |      2642.86 |          37 |
+| LynelSeries    | Lynel             | Blue-Maned Lynel  |      2785.71 |          39 |
+| LizalfosSeries | Black Lizalfos    | Silver Lizalfos   |      3714.29 |          52 |
+| LynelSeries    | Blue-Maned Lynel  | White-Maned Lynel |      4000.00 |          56 |
+| MoriblinSeries | Black Moblin      | Black Moblin      |      4642.86 |          65 |
+| LynelSeries    | White-Maned Lynel | Silver Lynel      |      6000.00 |          84 |
++----------------+-------------------+-------------------+--------------+-------------+
+
+Weapon scaling list
+Note: 1 point = 0.012 weapon points
++--------------------+------------------------------+-------------------------------+--------------+--------------+
+|       Series       |             From             |              To               | Required pts | (weapon pts) |
++====================+==============================+===============================+==============+==============+
+| UniqueSeries       | Spring-Loaded Hammer         | Spring-Loaded Hammer ⭐       |        83.33 |            1 |
+| UniqueSeries       | Spring-Loaded Hammer ⭐      | Spring-Loaded Hammer ⭐⭐     |       166.67 |            2 |
+| UniqueSeries       | Torch                        | Torch ⭐                      |       166.67 |            2 |
+| AreaSeries         | Tree Branch                  | Tree Branch ⭐                |       166.67 |            2 |
+| AxSeries           | Woodcutter's Axe             | Woodcutter's Axe ⭐           |       166.67 |            2 |
+| BokoblinSeries     | Boko Shield                  | Boko Shield ⭐                |       250.00 |            3 |
+| UniqueSeries       | Hunter's Shield              | Hunter's Shield ⭐            |       250.00 |            3 |
+| UniqueSeries       | Rusty Shield                 | Rusty Shield ⭐               |       250.00 |            3 |
+| SouthernSeries     | Fisherman's Shield           | Fisherman's Shield ⭐         |       250.00 |            3 |
+| HatenoSeries       | Emblazoned Shield            | Emblazoned Shield ⭐          |       250.00 |            3 |
+| AxSeries           | Woodcutter's Axe ⭐          | Woodcutter's Axe ⭐⭐         |       277.78 |         3.33 |
+| BokoblinSeries     | Boko Club                    | Boko Club ⭐                  |       333.33 |            4 |
+| BokoblinSeries     | Boko Bat                     | Boko Bat ⭐                   |       333.33 |            4 |
+| BokoblinSeries     | Boko Spear                   | Boko Spear ⭐                 |       333.33 |            4 |
+| BokoblinSeries     | Boko Bow                     | Boko Bow ⭐                   |       333.33 |            4 |
+| HyliaSeries        | Traveler's Shield            | Traveler's Shield ⭐          |       333.33 |            4 |
+| UniqueSeries       | Torch ⭐                     | Torch ⭐⭐                    |       333.33 |            4 |
+| UniqueSeries       | Soup Ladle                   | Soup Ladle ⭐                 |       333.33 |            4 |
+| UniqueSeries       | Wooden Bow                   | Wooden Bow ⭐                 |       333.33 |            4 |
+| AreaSeries         | Tree Branch ⭐               | Tree Branch ⭐⭐              |       333.33 |            4 |
+| HyliaSeries        | Traveler's Sword             | Traveler's Sword ⭐           |       416.67 |            5 |
+| HyliaSeries        | Traveler's Bow               | Traveler's Bow ⭐             |       416.67 |            5 |
+| FireRodSeries      | Fire Rod                     | Fire Rod ⭐                   |       416.67 |            5 |
+| IceRodSeries       | Ice Rod                      | Ice Rod ⭐                    |       416.67 |            5 |
+| ElectricRodSeries  | Lightning Rod                | Lightning Rod ⭐              |       416.67 |            5 |
+| AxSeries           | Woodcutter's Axe ⭐⭐        | Double Axe                    |       444.44 |         5.33 |
+| BokoblinSeries     | Boko Spear ⭐                | Boko Spear ⭐⭐               |       500.00 |            6 |
+| BokoblinSeries     | Boko Shield ⭐               | Boko Shield ⭐⭐              |       500.00 |            6 |
+| HyliaSeries        | Traveler's Spear             | Traveler's Spear ⭐           |       500.00 |            6 |
+| UniqueSeries       | Rusty Broadsword             | Rusty Broadsword ⭐           |       500.00 |            6 |
+| MoriblinSeries     | Moblin Club                  | Moblin Club ⭐                |       500.00 |            6 |
+| BokoblinSeries     | Boko Bat ⭐                  | Boko Bat ⭐⭐                 |       555.56 |         6.67 |
+| HyliaSeries        | Traveler's Claymore          | Traveler's Claymore ⭐        |       555.56 |         6.67 |
+| BokoblinSeries     | Boko Club ⭐                 | Boko Club ⭐⭐                |       583.33 |            7 |
+| BokoblinSeries     | Boko Bow ⭐                  | Boko Bow ⭐⭐                 |       583.33 |            7 |
+| UniqueSeries       | Soup Ladle ⭐                | Soup Ladle ⭐⭐               |       583.33 |            7 |
+| UniqueSeries       | Wooden Bow ⭐                | Wooden Bow ⭐⭐               |       583.33 |            7 |
+| UniqueSeries       | Hunter's Shield ⭐           | Hunter's Shield ⭐⭐          |       583.33 |            7 |
+| UniqueSeries       | Rusty Shield ⭐              | Rusty Shield ⭐⭐             |       583.33 |            7 |
+| SouthernSeries     | Fisherman's Shield ⭐        | Fisherman's Shield ⭐⭐       |       583.33 |            7 |
+| HatenoSeries       | Emblazoned Shield ⭐         | Emblazoned Shield ⭐⭐        |       583.33 |            7 |
+| BokoblinSeries     | Boko Shield ⭐⭐             | Spiked Boko Shield            |       666.67 |            8 |
+| HyliaSeries        | Traveler's Spear ⭐          | Traveler's Spear ⭐⭐         |       666.67 |            8 |
+| HyliaSeries        | Traveler's Shield ⭐         | Traveler's Shield ⭐⭐        |       666.67 |            8 |
+| UniqueSeries       | Boomerang                    | Boomerang ⭐                  |       666.67 |            8 |
+| UniqueSeries       | Rusty Claymore               | Rusty Claymore ⭐             |       666.67 |            8 |
+| UniqueSeries       | Iron Sledgehammer            | Iron Sledgehammer ⭐          |       666.67 |            8 |
+| FireRodSeries      | Fire Rod ⭐                  | Meteor Rod                    |       666.67 |            8 |
+| IceRodSeries       | Ice Rod ⭐                   | Blizzard Rod                  |       666.67 |            8 |
+| ElectricRodSeries  | Lightning Rod ⭐             | Thunderstorm Rod              |       666.67 |            8 |
+| MoriblinSeries     | Moblin Spear                 | Moblin Spear ⭐               |       666.67 |            8 |
+| HyliaSeries        | Traveler's Sword ⭐          | Traveler's Sword ⭐⭐         |       750.00 |            9 |
+| HyliaSeries        | Traveler's Bow ⭐            | Traveler's Bow ⭐⭐           |       750.00 |            9 |
+| DragonRoostSeries  | Swallow Bow                  | Swallow Bow ⭐                |       750.00 |            9 |
+| HyliaSeries        | Traveler's Claymore ⭐       | Traveler's Claymore ⭐⭐      |       777.77 |         9.33 |
+| UniqueSeries       | Boat Oar                     | Boat Oar ⭐                   |       777.77 |         9.33 |
+| BokoblinSeries     | Boko Club ⭐⭐               | Spiked Boko Club              |       833.33 |           10 |
+| BokoblinSeries     | Boko Bat ⭐⭐                | Spiked Boko Bat               |       833.33 |           10 |
+| BokoblinSeries     | Boko Spear ⭐⭐              | Spiked Boko Spear             |       833.33 |           10 |
+| BokoblinSeries     | Boko Bow ⭐⭐                | Spiked Boko Bow               |       833.33 |           10 |
+| BokoblinSeries     | Spiked Boko Shield           | Spiked Boko Shield ⭐         |       833.33 |           10 |
+| LynelSeries        | Lynel Bow                    | Lynel Bow ⭐                  |       833.33 |           10 |
+| UniqueSeries       | Wooden Mop                   | Wooden Mop ⭐                 |       833.33 |           10 |
+| UniqueSeries       | Rusty Halberd                | Rusty Halberd ⭐              |       833.33 |           10 |
+| KakarikoSeries     | Phrenic Bow                  | Phrenic Bow ⭐                |       833.33 |           10 |
+| FireRodSeries      | Meteor Rod                   | Fire Rod ⭐⭐                 |       833.33 |           10 |
+| IceRodSeries       | Blizzard Rod                 | Ice Rod ⭐⭐                  |       833.33 |           10 |
+| ElectricRodSeries  | Thunderstorm Rod             | Lightning Rod ⭐⭐            |       833.33 |           10 |
+| GoronSeries        | Cobble Crusher               | Cobble Crusher ⭐             |       833.33 |           10 |
+| UniqueSeries       | Farming Hoe                  | Farming Hoe ⭐                |       888.89 |        10.67 |
+| MoriblinSeries     | Moblin Club ⭐               | Moblin Club ⭐⭐              |       888.89 |        10.67 |
+| UniqueSeries       | Rusty Broadsword ⭐          | Rusty Broadsword ⭐⭐         |       916.67 |           11 |
+| FireRodSeries      | Fire Rod ⭐⭐                | Meteor Rod ⭐                 |       916.67 |           11 |
+| IceRodSeries       | Ice Rod ⭐⭐                 | Blizzard Rod ⭐               |       916.67 |           11 |
+| ElectricRodSeries  | Lightning Rod ⭐⭐           | Thunderstorm Rod ⭐           |       916.67 |           11 |
+| HyliaSeries        | Traveler's Claymore ⭐⭐     | Soldier's Claymore            |       944.44 |        11.33 |
+| BokoblinSeries     | Spiked Boko Club             | Spiked Boko Club ⭐           |      1000.00 |           12 |
+| BokoblinSeries     | Spiked Boko Bat              | Spiked Boko Bat ⭐            |      1000.00 |           12 |
+| BokoblinSeries     | Spiked Boko Spear            | Spiked Boko Spear ⭐          |      1000.00 |           12 |
+| BokoblinSeries     | Spiked Boko Bow              | Spiked Boko Bow ⭐            |      1000.00 |           12 |
+| HyliaSeries        | Traveler's Sword ⭐⭐        | Soldier's Broadsword          |      1000.00 |           12 |
+| HyliaSeries        | Traveler's Spear ⭐⭐        | Soldier's Spear               |      1000.00 |           12 |
+| HyliaSeries        | Traveler's Bow ⭐⭐          | Soldier's Bow                 |      1000.00 |           12 |
+| UniqueSeries       | Throwing Spear               | Throwing Spear ⭐             |      1000.00 |           12 |
+| MoriblinSeries     | Moblin Spear ⭐              | Moblin Spear ⭐⭐             |      1000.00 |           12 |
+| AxSeries           | Double Axe                   | Double Axe ⭐                 |      1000.00 |           12 |
+| HyliaSeries        | Traveler's Shield ⭐⭐       | Soldier's Shield              |      1083.33 |           13 |
+| HyliaSeries        | Soldier's Claymore           | Soldier's Claymore ⭐         |      1111.11 |        13.33 |
+| UniqueSeries       | Rusty Claymore ⭐            | Rusty Claymore ⭐⭐           |      1111.11 |        13.33 |
+| UniqueSeries       | Iron Sledgehammer ⭐         | Iron Sledgehammer ⭐⭐        |      1111.11 |        13.33 |
+| LizalfosSeries     | Lizal Boomerang              | Lizal Boomerang ⭐            |      1166.67 |           14 |
+| LizalfosSeries     | Lizal Spear                  | Lizal Spear ⭐                |      1166.67 |           14 |
+| LizalfosSeries     | Lizal Bow                    | Lizal Bow ⭐                  |      1166.67 |           14 |
+| LynelSeries        | Lynel Bow ⭐                 | Lynel Bow ⭐⭐                |      1166.67 |           14 |
+| HyliaSeries        | Soldier's Broadsword         | Soldier's Broadsword ⭐       |      1166.67 |           14 |
+| HyliaSeries        | Soldier's Spear              | Soldier's Spear ⭐            |      1166.67 |           14 |
+| HyliaSeries        | Soldier's Bow                | Soldier's Bow ⭐              |      1166.67 |           14 |
+| OasisSeries        | Golden Bow                   | Golden Bow ⭐                 |      1166.67 |           14 |
+| DragonRoostSeries  | Kite Shield                  | Kite Shield ⭐                |      1166.67 |           14 |
+| UniqueSeries       | Boomerang ⭐                 | Boomerang ⭐⭐                |      1166.67 |           14 |
+| UniqueSeries       | Farmer's Pitchfork           | Farmer's Pitchfork ⭐         |      1166.67 |           14 |
+| AssassinSeries     | Duplex Bow                   | Duplex Bow ⭐                 |      1166.67 |           14 |
+| ZoraSeries         | Silver Longsword             | Silver Longsword ⭐           |      1222.23 |        14.67 |
+| MoriblinSeries     | Moblin Club ⭐⭐             | Spiked Moblin Club            |      1222.23 |        14.67 |
+| BokoblinSeries     | Spiked Boko Shield ⭐        | Spiked Boko Shield ⭐⭐       |      1250.00 |           15 |
+| LizalfosSeries     | Lizal Shield                 | Lizal Shield ⭐               |      1250.00 |           15 |
+| KokiriSeries       | Forest Dweller's Bow         | Forest Dweller's Bow ⭐       |      1250.00 |           15 |
+| ZoraSeries         | Zora Sword                   | Zora Sword ⭐                 |      1250.00 |           15 |
+| ZoraSeries         | Silver Bow                   | Silver Bow ⭐                 |      1250.00 |           15 |
+| DragonRoostSeries  | Feathered Edge               | Feathered Edge ⭐             |      1250.00 |           15 |
+| KakarikoSeries     | Eightfold Blade              | Eightfold Blade ⭐            |      1250.00 |           15 |
+| IceRodSeries       | Blizzard Rod ⭐              | Blizzard Rod ⭐⭐             |      1250.00 |           15 |
+| ElectricRodSeries  | Thunderstorm Rod ⭐          | Thunderstorm Rod ⭐⭐         |      1250.00 |           15 |
+| BokoblinSeries     | Spiked Boko Club ⭐          | Spiked Boko Club ⭐⭐         |      1333.33 |           16 |
+| BokoblinSeries     | Spiked Boko Spear ⭐         | Spiked Boko Spear ⭐⭐        |      1333.33 |           16 |
+| BokoblinSeries     | Spiked Boko Bow ⭐           | Spiked Boko Bow ⭐⭐          |      1333.33 |           16 |
+| HyliaSeries        | Soldier's Shield             | Soldier's Shield ⭐           |      1333.33 |           16 |
+| OasisSeries        | Gerudo Scimitar              | Gerudo Scimitar ⭐            |      1333.33 |           16 |
+| DragonRoostSeries  | Swallow Bow ⭐               | Falcon Bow                    |      1333.33 |           16 |
+| UniqueSeries       | Boat Oar ⭐                  | Boat Oar ⭐⭐                 |      1333.33 |           16 |
+| UniqueSeries       | Wooden Mop ⭐                | Wooden Mop ⭐⭐               |      1333.33 |           16 |
+| UniqueSeries       | Fishing Harpoon              | Fishing Harpoon ⭐            |      1333.33 |           16 |
+| KakarikoSeries     | Shield of the Mind's Eye     | Shield of the Mind's Eye ⭐   |      1333.33 |           16 |
+| FireRodSeries      | Meteor Rod ⭐                | Meteor Rod ⭐⭐               |      1333.33 |           16 |
+| AssassinSeries     | Vicious Sickle               | Vicious Sickle ⭐             |      1333.33 |           16 |
+| MoriblinSeries     | Moblin Spear ⭐⭐            | Spiked Moblin Spear           |      1333.33 |           16 |
+| BokoblinSeries     | Spiked Boko Bat ⭐           | Spiked Boko Bat ⭐⭐          |      1388.89 |        16.67 |
+| UniqueSeries       | Giant Boomerang              | Giant Boomerang ⭐            |      1388.89 |        16.67 |
+| GoronSeries        | Cobble Crusher ⭐            | Cobble Crusher ⭐⭐           |      1388.89 |        16.67 |
+| LynelSeries        | Lynel Bow ⭐⭐               | Mighty Lynel Bow              |      1416.67 |           17 |
+| AssassinSeries     | Duplex Bow ⭐                | Duplex Bow ⭐⭐               |      1416.67 |           17 |
+| LizalfosSeries     | Lizal Boomerang ⭐           | Lizal Boomerang ⭐⭐          |      1500.00 |           18 |
+| LizalfosSeries     | Lizal Spear ⭐               | Lizal Spear ⭐⭐              |      1500.00 |           18 |
+| LizalfosSeries     | Lizal Bow ⭐                 | Lizal Bow ⭐⭐                |      1500.00 |           18 |
+| LizalfosSeries     | Lizal Shield ⭐              | Lizal Shield ⭐⭐             |      1500.00 |           18 |
+| GuardianMiniSeries | Guardian Shield              | Guardian Shield ⭐            |      1500.00 |           18 |
+| HyliaSeries        | Soldier's Broadsword ⭐      | Soldier's Broadsword ⭐⭐     |      1500.00 |           18 |
+| HyliaSeries        | Soldier's Claymore ⭐        | Soldier's Claymore ⭐⭐       |      1500.00 |           18 |
+| HyliaSeries        | Soldier's Spear ⭐           | Soldier's Spear ⭐⭐          |      1500.00 |           18 |
+| HyliaSeries        | Soldier's Bow ⭐             | Soldier's Bow ⭐⭐            |      1500.00 |           18 |
+| ZoraSeries         | Zora Spear                   | Zora Spear ⭐                 |      1500.00 |           18 |
+| ZoraSeries         | Silver Shield                | Silver Shield ⭐              |      1500.00 |           18 |
+| UniqueSeries       | Farming Hoe ⭐               | Farming Hoe ⭐⭐              |      1500.00 |           18 |
+| UniqueSeries       | Rusty Halberd ⭐             | Rusty Halberd ⭐⭐            |      1500.00 |           18 |
+| KakarikoSeries     | Phrenic Bow ⭐               | Phrenic Bow ⭐⭐              |      1500.00 |           18 |
+| MoriblinSeries     | Spiked Moblin Club           | Spiked Moblin Club ⭐         |      1500.00 |           18 |
+| MoriblinSeries     | Spiked Moblin Spear          | Spiked Moblin Spear ⭐        |      1500.00 |           18 |
+| OasisSeries        | Golden Claymore              | Golden Claymore ⭐            |      1555.56 |        18.67 |
+| OasisSeries        | Golden Bow ⭐                | Golden Bow ⭐⭐               |      1583.33 |           19 |
+| ZoraSeries         | Silver Longsword ⭐          | Silver Longsword ⭐⭐         |      1611.11 |        19.33 |
+| BokoblinSeries     | Spiked Boko Spear ⭐⭐       | Dragonbone Boko Spear         |      1666.67 |           20 |
+| LizalfosSeries     | Lizal Shield ⭐⭐            | Reinforced Lizal Shield       |      1666.67 |           20 |
+| GuardianMiniSeries | Guardian Sword               | Guardian Sword ⭐             |      1666.67 |           20 |
+| GuardianMiniSeries | Ancient Battle Axe           | Ancient Battle Axe ⭐         |      1666.67 |           20 |
+| GuardianMiniSeries | Guardian Spear               | Guardian Spear ⭐             |      1666.67 |           20 |
+| LynelSeries        | Mighty Lynel Bow             | Mighty Lynel Bow ⭐           |      1666.67 |           20 |
+| KokiriSeries       | Forest Dweller's Bow ⭐      | Forest Dweller's Bow ⭐⭐     |      1666.67 |           20 |
+| ZoraSeries         | Zora Sword ⭐                | Zora Sword ⭐⭐               |      1666.67 |           20 |
+| ZoraSeries         | Silver Bow ⭐                | Silver Bow ⭐⭐               |      1666.67 |           20 |
+| OasisSeries        | Gerudo Scimitar ⭐           | Gerudo Scimitar ⭐⭐          |      1666.67 |           20 |
+| OasisSeries        | Gerudo Shield                | Gerudo Shield ⭐              |      1666.67 |           20 |
+| DragonRoostSeries  | Feathered Edge ⭐            | Feathered Edge ⭐⭐           |      1666.67 |           20 |
+| DragonRoostSeries  | Feathered Spear              | Feathered Spear ⭐            |      1666.67 |           20 |
+| DragonRoostSeries  | Falcon Bow                   | Swallow Bow ⭐⭐              |      1666.67 |           20 |
+| UniqueSeries       | Frostblade                   | Frostblade ⭐                 |      1666.67 |           20 |
+| UniqueSeries       | Sea-Breeze Boomerang         | Sea-Breeze Boomerang ⭐       |      1666.67 |           20 |
+| UniqueSeries       | Great Frostblade             | Great Frostblade ⭐           |      1666.67 |           20 |
+| UniqueSeries       | Farmer's Pitchfork ⭐        | Farmer's Pitchfork ⭐⭐       |      1666.67 |           20 |
+| KakarikoSeries     | Eightfold Blade ⭐           | Eightfold Blade ⭐⭐          |      1666.67 |           20 |
+| AxSeries           | Double Axe ⭐                | Double Axe ⭐⭐               |      1666.67 |           20 |
+| BokoblinSeries     | Spiked Boko Bat ⭐⭐         | Dragonbone Boko Bat           |      1722.23 |        20.67 |
+| BokoblinSeries     | Spiked Boko Club ⭐⭐        | Dragonbone Boko Club          |      1750.00 |           21 |
+| BokoblinSeries     | Spiked Boko Bow ⭐⭐         | Dragon Bone Boko Bow          |      1750.00 |           21 |
+| BokoblinSeries     | Spiked Boko Shield ⭐⭐      | Dragonbone Boko Shield        |      1750.00 |           21 |
+| LizalfosSeries     | Lizal Boomerang ⭐⭐         | Lizal Forked Boomerang        |      1750.00 |           21 |
+| DragonRoostSeries  | Swallow Bow ⭐⭐             | Falcon Bow ⭐                 |      1750.00 |           21 |
+| AssassinSeries     | Vicious Sickle ⭐            | Vicious Sickle ⭐⭐           |      1750.00 |           21 |
+| UniqueSeries       | Great Thunderblade           | Great Thunderblade ⭐         |      1777.77 |        21.33 |
+| KakarikoSeries     | Eightfold Longblade          | Eightfold Longblade ⭐        |      1777.77 |        21.33 |
+| LizalfosSeries     | Lizal Spear ⭐⭐             | Enhanced Lizal Spear          |      1833.33 |           22 |
+| LizalfosSeries     | Lizal Bow ⭐⭐               | Strengthened Lizal Bow        |      1833.33 |           22 |
+| LizalfosSeries     | Reinforced Lizal Shield      | Reinforced Lizal Shield ⭐    |      1833.33 |           22 |
+| GuardianMiniSeries | Guardian Shield ⭐           | Guardian Shield ⭐⭐          |      1833.33 |           22 |
+| HyliaSeries        | Soldier's Claymore ⭐⭐      | Knight's Claymore             |      1833.33 |           22 |
+| HyliaSeries        | Soldier's Spear ⭐⭐         | Knight's Halberd              |      1833.33 |           22 |
+| KokiriSeries       | Forest Dweller's Sword       | Forest Dweller's Sword ⭐     |      1833.33 |           22 |
+| KokiriSeries       | Forest Dweller's Spear       | Forest Dweller's Spear ⭐     |      1833.33 |           22 |
+| DragonRoostSeries  | Kite Shield ⭐               | Kite Shield ⭐⭐              |      1833.33 |           22 |
+| UniqueSeries       | Thunderblade                 | Thunderblade ⭐               |      1833.33 |           22 |
+| UniqueSeries       | Sword                        | Sword ⭐                      |      1833.33 |           22 |
+| UniqueSeries       | Giant Boomerang ⭐           | Giant Boomerang ⭐⭐          |      1833.33 |           22 |
+| UniqueSeries       | Throwing Spear ⭐            | Throwing Spear ⭐⭐           |      1833.33 |           22 |
+| UniqueSeries       | Fishing Harpoon ⭐           | Fishing Harpoon ⭐⭐          |      1833.33 |           22 |
+| MoriblinSeries     | Spiked Moblin Spear ⭐       | Spiked Moblin Spear ⭐⭐      |      1833.33 |           22 |
+| OasisSeries        | Golden Claymore ⭐           | Golden Claymore ⭐⭐          |      1888.89 |        22.67 |
+| UniqueSeries       | Great Flameblade             | Great Flameblade ⭐           |      1888.89 |        22.67 |
+| MoriblinSeries     | Spiked Moblin Club ⭐        | Spiked Moblin Club ⭐⭐       |      1888.89 |        22.67 |
+| HyliaSeries        | Soldier's Broadsword ⭐⭐    | Knight's Broadsword           |      1916.67 |           23 |
+| HyliaSeries        | Soldier's Bow ⭐⭐           | Knight's Bow                  |      1916.67 |           23 |
+| OasisSeries        | Gerudo Scimitar ⭐⭐         | Moonlight Scimitar            |      1916.67 |           23 |
+| GoronSeries        | Cobble Crusher ⭐⭐          | Stone Smasher                 |      1944.44 |        23.33 |
+| BokoblinSeries     | Dragonbone Boko Club         | Dragonbone Boko Club ⭐       |      2000.00 |           24 |
+| BokoblinSeries     | Dragonbone Boko Bat          | Dragonbone Boko Bat ⭐        |      2000.00 |           24 |
+| BokoblinSeries     | Dragonbone Boko Spear        | Dragonbone Boko Spear ⭐      |      2000.00 |           24 |
+| BokoblinSeries     | Dragon Bone Boko Bow         | Dragon Bone Boko Bow ⭐       |      2000.00 |           24 |
+| LizalfosSeries     | Lizal Forked Boomerang       | Lizal Forked Boomerang ⭐     |      2000.00 |           24 |
+| LizalfosSeries     | Enhanced Lizal Spear         | Enhanced Lizal Spear ⭐       |      2000.00 |           24 |
+| GuardianMiniSeries | Guardian Sword ⭐            | Guardian Sword ⭐⭐           |      2000.00 |           24 |
+| GuardianMiniSeries | Ancient Battle Axe ⭐        | Ancient Battle Axe ⭐⭐       |      2000.00 |           24 |
+| GuardianMiniSeries | Guardian Spear ⭐            | Guardian Spear ⭐⭐           |      2000.00 |           24 |
+| LynelSeries        | Lynel Sword                  | Lynel Sword ⭐                |      2000.00 |           24 |
+| LynelSeries        | Lynel Crusher                | Lynel Crusher ⭐              |      2000.00 |           24 |
+| LynelSeries        | Mighty Lynel Bow ⭐          | Mighty Lynel Bow ⭐⭐         |      2000.00 |           24 |
+| ZoraSeries         | Zora Spear ⭐                | Silverscale Spear             |      2000.00 |           24 |
+| ZoraSeries         | Silverscale Spear            | Zora Spear ⭐⭐               |      2000.00 |           24 |
+| UniqueSeries       | Flameblade                   | Flameblade ⭐                 |      2000.00 |           24 |
+| KakarikoSeries     | Serpentine Spear             | Serpentine Spear ⭐           |      2000.00 |           24 |
+| KakarikoSeries     | Eightfold Longblade ⭐       | Eightfold Longblade ⭐⭐      |      2055.56 |        24.67 |
+| BokoblinSeries     | Dragonbone Boko Shield       | Dragonbone Boko Shield ⭐     |      2083.33 |           25 |
+| LizalfosSeries     | Strengthened Lizal Bow       | Strengthened Lizal Bow ⭐     |      2083.33 |           25 |
+| HyliaSeries        | Soldier's Shield ⭐          | Soldier's Shield ⭐⭐         |      2083.33 |           25 |
+| KokiriSeries       | Forest Dweller's Sword ⭐    | Forest Dweller's Sword ⭐⭐   |      2083.33 |           25 |
+| OasisSeries        | Moonlight Scimitar           | Moonlight Scimitar ⭐         |      2083.33 |           25 |
+| UniqueSeries       | Sea-Breeze Boomerang ⭐      | Sea-Breeze Boomerang ⭐⭐     |      2083.33 |           25 |
+| KakarikoSeries     | Shield of the Mind's Eye ⭐  | Shield of the Mind's Eye ⭐⭐ |      2083.33 |           25 |
+| HyliaSeries        | Knight's Claymore            | Knight's Claymore ⭐          |      2111.11 |        25.33 |
+| UniqueSeries       | Great Frostblade ⭐          | Great Frostblade ⭐⭐         |      2111.11 |        25.33 |
+| HyliaSeries        | Knight's Broadsword          | Knight's Broadsword ⭐        |      2166.67 |           26 |
+| HyliaSeries        | Knight's Halberd             | Knight's Halberd ⭐           |      2166.67 |           26 |
+| HyliaSeries        | Knight's Bow                 | Knight's Bow ⭐               |      2166.67 |           26 |
+| OasisSeries        | Gerudo Shield ⭐             | Gerudo Shield ⭐⭐            |      2166.67 |           26 |
+| UniqueSeries       | Frostblade ⭐                | Frostblade ⭐⭐               |      2166.67 |           26 |
+| AssassinSeries     | Vicious Sickle ⭐⭐          | Demon Carver                  |      2166.67 |           26 |
+| MoriblinSeries     | Spiked Moblin Spear ⭐⭐     | Dragonbone Moblin Spear       |      2166.67 |           26 |
+| AssassinSeries     | Windcleaver                  | Windcleaver ⭐                |      2222.23 |        26.67 |
+| MoriblinSeries     | Spiked Moblin Club ⭐⭐      | Dragonbone Moblin Club        |      2222.23 |        26.67 |
+| LizalfosSeries     | Reinforced Lizal Shield ⭐   | Reinforced Lizal Shield ⭐⭐  |      2250.00 |           27 |
+| DragonRoostSeries  | Falcon Bow ⭐                | Falcon Bow ⭐⭐               |      2250.00 |           27 |
+| UniqueSeries       | Great Thunderblade ⭐        | Great Thunderblade ⭐⭐       |      2277.77 |        27.33 |
+| KakarikoSeries     | Eightfold Longblade ⭐⭐     | Edge of Duality               |      2277.77 |        27.33 |
+| LizalfosSeries     | Lizal Forked Boomerang ⭐    | Lizal Forked Boomerang ⭐⭐   |      2333.33 |           28 |
+| LizalfosSeries     | Enhanced Lizal Spear ⭐      | Enhanced Lizal Spear ⭐⭐     |      2333.33 |           28 |
+| LynelSeries        | Lynel Sword ⭐               | Lynel Sword ⭐⭐              |      2333.33 |           28 |
+| LynelSeries        | Lynel Spear                  | Lynel Spear ⭐                |      2333.33 |           28 |
+| ZoraSeries         | Silver Shield ⭐             | Silver Shield ⭐⭐            |      2333.33 |           28 |
+| OasisSeries        | Moonlight Scimitar ⭐        | Moonlight Scimitar ⭐⭐       |      2333.33 |           28 |
+| DragonRoostSeries  | Feathered Spear ⭐           | Feathered Spear ⭐⭐          |      2333.33 |           28 |
+| UniqueSeries       | Thunderblade ⭐              | Thunderblade ⭐⭐             |      2333.33 |           28 |
+| UniqueSeries       | Sword ⭐                     | Sword ⭐⭐                    |      2333.33 |           28 |
+| UniqueSeries       | Goddess Sword                | Goddess Sword ⭐              |      2333.33 |           28 |
+| UniqueSeries       | Ceremonial Trident           | Ceremonial Trident ⭐         |      2333.33 |           28 |
+| GoronSeries        | Stone Smasher                | Stone Smasher ⭐              |      2333.33 |           28 |
+| GoronSeries        | Drillshaft                   | Drillshaft ⭐                 |      2333.33 |           28 |
+| LynelSeries        | Lynel Crusher ⭐             | Lynel Crusher ⭐⭐            |      2388.89 |        28.67 |
+| HyliaSeries        | Knight's Claymore ⭐         | Knight's Claymore ⭐⭐        |      2388.89 |        28.67 |
+| UniqueSeries       | Great Flameblade ⭐          | Great Flameblade ⭐⭐         |      2388.89 |        28.67 |
+| LizalfosSeries     | Strengthened Lizal Bow ⭐    | Strengthened Lizal Bow ⭐⭐   |      2416.67 |           29 |
+| LynelSeries        | Mighty Lynel Bow ⭐⭐        | Savage Lynel Bow              |      2416.67 |           29 |
+| BokoblinSeries     | Dragonbone Boko Bat ⭐       | Dragonbone Boko Bat ⭐⭐      |      2500.00 |           30 |
+| BokoblinSeries     | Dragonbone Boko Spear ⭐     | Dragonbone Boko Spear ⭐⭐    |      2500.00 |           30 |
+| BokoblinSeries     | Dragon Bone Boko Bow ⭐      | Dragon Bone Boko Bow ⭐⭐     |      2500.00 |           30 |
+| GuardianMiniSeries | Guardian Sword+              | Guardian Sword+ ⭐            |      2500.00 |           30 |
+| GuardianMiniSeries | Ancient Battle Axe+          | Ancient Battle Axe+ ⭐        |      2500.00 |           30 |
+| GuardianMiniSeries | Guardian Spear+              | Guardian Spear+ ⭐            |      2500.00 |           30 |
+| GuardianMiniSeries | Guardian Shield+             | Guardian Shield+ ⭐           |      2500.00 |           30 |
+| LynelSeries        | Lynel Shield                 | Lynel Shield ⭐               |      2500.00 |           30 |
+| HyliaSeries        | Knight's Broadsword ⭐       | Knight's Broadsword ⭐⭐      |      2500.00 |           30 |
+| HyliaSeries        | Knight's Bow ⭐              | Knight's Bow ⭐⭐             |      2500.00 |           30 |
+| KokiriSeries       | Forest Dweller's Shield      | Forest Dweller's Shield ⭐    |      2500.00 |           30 |
+| ZoraSeries         | Zora Spear ⭐⭐              | Silverscale Spear ⭐          |      2500.00 |           30 |
+| UniqueSeries       | Twilight Bow                 | Twilight Bow ⭐               |      2500.00 |           30 |
+| MoriblinSeries     | Dragonbone Moblin Club       | Dragonbone Moblin Club ⭐     |      2500.00 |           30 |
+| MoriblinSeries     | Dragonbone Moblin Spear      | Dragonbone Moblin Spear ⭐    |      2500.00 |           30 |
+| AssassinSeries     | Windcleaver ⭐               | Windcleaver ⭐⭐              |      2555.56 |        30.67 |
+| OasisSeries        | Gerudo Shield ⭐⭐           | Radiant Shield                |      2583.33 |           31 |
+| UniqueSeries       | Flameblade ⭐                | Flameblade ⭐⭐               |      2583.33 |           31 |
+| LizalfosSeries     | Enhanced Lizal Spear ⭐⭐    | Forked Lizal Spear            |      2666.67 |           32 |
+| LizalfosSeries     | Reinforced Lizal Shield ⭐⭐ | Steel Lizal Shield            |      2666.67 |           32 |
+| LynelSeries        | Lynel Spear ⭐               | Lynel Spear ⭐⭐              |      2666.67 |           32 |
+| LynelSeries        | Savage Lynel Bow             | Savage Lynel Bow ⭐           |      2666.67 |           32 |
+| HyliaSeries        | Knight's Claymore ⭐⭐       | Royal Claymore                |      2666.67 |           32 |
+| KokiriSeries       | Forest Dweller's Spear ⭐    | Forest Dweller's Spear ⭐⭐   |      2666.67 |           32 |
+| OasisSeries        | Gerudo Spear                 | Gerudo Spear ⭐               |      2666.67 |           32 |
+| UniqueSeries       | Sword of the Six Sages       | Sword of the Six Sages ⭐     |      2666.67 |           32 |
+| LynelSeries        | Lynel Crusher ⭐⭐           | Mighty Lynel Crusher          |      2722.22 |        32.67 |
+| GoronSeries        | Stone Smasher ⭐             | Stone Smasher ⭐⭐            |      2722.22 |        32.67 |
+| LizalfosSeries     | Lizal Forked Boomerang ⭐⭐  | Lizal Tri-Boomerang           |      2750.00 |           33 |
+| LizalfosSeries     | Strengthened Lizal Bow ⭐⭐  | Steel Lizal Bow               |      2750.00 |           33 |
+| LynelSeries        | Lynel Sword ⭐⭐             | Mighty Lynel Sword            |      2750.00 |           33 |
+| HyliaSeries        | Knight's Broadsword ⭐⭐     | Royal Broadsword              |      2750.00 |           33 |
+| UniqueSeries       | Biggoron's Sword             | Biggoron's Sword ⭐           |      2777.78 |        33.33 |
+| KakarikoSeries     | Edge of Duality              | Edge of Duality ⭐            |      2777.78 |        33.33 |
+| BokoblinSeries     | Dragonbone Boko Club ⭐      | Dragonbone Boko Club ⭐⭐     |      2833.33 |           34 |
+| BokoblinSeries     | Dragonbone Boko Shield ⭐    | Dragonbone Boko Shield ⭐⭐   |      2833.33 |           34 |
+| GuardianMiniSeries | Guardian Sword+ ⭐           | Guardian Sword+ ⭐⭐          |      2833.33 |           34 |
+| GuardianMiniSeries | Ancient Battle Axe+ ⭐       | Ancient Battle Axe+ ⭐⭐      |      2833.33 |           34 |
+| GuardianMiniSeries | Guardian Spear+ ⭐           | Guardian Spear+ ⭐⭐          |      2833.33 |           34 |
+| GuardianMiniSeries | Guardian Shield+ ⭐          | Guardian Shield+ ⭐⭐         |      2833.33 |           34 |
+| HyliaSeries        | Soldier's Shield ⭐⭐        | Knight's Shield               |      2833.33 |           34 |
+| KokiriSeries       | Forest Dweller's Shield ⭐   | Forest Dweller's Shield ⭐⭐  |      2833.33 |           34 |
+| ZoraSeries         | Silverscale Spear ⭐         | Silverscale Spear ⭐⭐        |      2833.33 |           34 |
+| KakarikoSeries     | Serpentine Spear ⭐          | Serpentine Spear ⭐⭐         |      2833.33 |           34 |
+| HyliaSeries        | Royal Claymore               | Royal Claymore ⭐             |      2888.89 |        34.67 |
+| MoriblinSeries     | Dragonbone Moblin Club ⭐    | Dragonbone Moblin Club ⭐⭐   |      2888.89 |        34.67 |
+| LizalfosSeries     | Steel Lizal Shield           | Steel Lizal Shield ⭐         |      2916.67 |           35 |
+| LynelSeries        | Lynel Shield ⭐              | Lynel Shield ⭐⭐             |      2916.67 |           35 |
+| HyliaSeries        | Knight's Bow ⭐⭐            | Royal Bow                     |      2916.67 |           35 |
+| OasisSeries        | Radiant Shield               | Radiant Shield ⭐             |      2916.67 |           35 |
+| UniqueSeries       | Twilight Bow ⭐              | Twilight Bow ⭐⭐             |      2916.67 |           35 |
+| LizalfosSeries     | Lizal Tri-Boomerang          | Lizal Tri-Boomerang ⭐        |      3000.00 |           36 |
+| LizalfosSeries     | Forked Lizal Spear           | Forked Lizal Spear ⭐         |      3000.00 |           36 |
+| LizalfosSeries     | Steel Lizal Bow              | Steel Lizal Bow ⭐            |      3000.00 |           36 |
+| LynelSeries        | Mighty Lynel Sword           | Mighty Lynel Sword ⭐         |      3000.00 |           36 |
+| LynelSeries        | Mighty Lynel Crusher         | Mighty Lynel Crusher ⭐       |      3000.00 |           36 |
+| LynelSeries        | Lynel Spear ⭐⭐             | Mighty Lynel Spear            |      3000.00 |           36 |
+| HyliaSeries        | Royal Broadsword             | Royal Broadsword ⭐           |      3000.00 |           36 |
+| HyliaSeries        | Knight's Halberd ⭐          | Knight's Halberd ⭐⭐         |      3000.00 |           36 |
+| UniqueSeries       | Goddess Sword ⭐             | Goddess Sword ⭐⭐            |      3000.00 |           36 |
+| MoriblinSeries     | Dragonbone Moblin Spear ⭐   | Dragonbone Moblin Spear ⭐⭐  |      3000.00 |           36 |
+| UniqueSeries       | Sword of the Six Sages ⭐    | Sword of the Six Sages ⭐⭐   |      3055.56 |        36.67 |
+| HyliaSeries        | Royal Bow                    | Royal Bow ⭐                  |      3166.67 |           38 |
+| UniqueSeries       | Biggoron's Sword ⭐          | Biggoron's Sword ⭐⭐         |      3166.67 |           38 |
+| KakarikoSeries     | Edge of Duality ⭐           | Edge of Duality ⭐⭐          |      3166.67 |           38 |
+| LynelSeries        | Savage Lynel Bow ⭐          | Savage Lynel Bow ⭐⭐         |      3250.00 |           39 |
+| HyliaSeries        | Royal Claymore ⭐            | Royal Claymore ⭐⭐           |      3277.78 |        39.33 |
+| LizalfosSeries     | Steel Lizal Bow ⭐           | Steel Lizal Bow ⭐⭐          |      3333.33 |           40 |
+| GuardianMiniSeries | Guardian Sword++             | Guardian Sword++ ⭐           |      3333.33 |           40 |
+| GuardianMiniSeries | Ancient Battle Axe++         | Ancient Battle Axe++ ⭐       |      3333.33 |           40 |
+| GuardianMiniSeries | Guardian Spear++             | Guardian Spear++ ⭐           |      3333.33 |           40 |
+| LynelSeries        | Mighty Lynel Spear           | Mighty Lynel Spear ⭐         |      3333.33 |           40 |
+| LynelSeries        | Lynel Shield ⭐⭐            | Mighty Lynel Shield           |      3333.33 |           40 |
+| HyliaSeries        | Knight's Shield              | Knight's Shield ⭐            |      3333.33 |           40 |
+| OasisSeries        | Radiant Shield ⭐            | Radiant Shield ⭐⭐           |      3333.33 |           40 |
+| UniqueSeries       | Fierce Deity Sword           | Fierce Deity Sword ⭐         |      3333.33 |           40 |
+| UniqueSeries       | Ceremonial Trident ⭐        | Ceremonial Trident ⭐⭐       |      3333.33 |           40 |
+| UniqueSeries       | Frostspear                   | Frostspear ⭐                 |      3333.33 |           40 |
+| AssassinSeries     | Demon Carver                 | Demon Carver ⭐               |      3333.33 |           40 |
+| GoronSeries        | Drillshaft ⭐                | Drillshaft ⭐⭐               |      3333.33 |           40 |
+| LizalfosSeries     | Forked Lizal Spear ⭐        | Forked Lizal Spear ⭐⭐       |      3500.00 |           42 |
+| LizalfosSeries     | Steel Lizal Shield ⭐        | Steel Lizal Shield ⭐⭐       |      3500.00 |           42 |
+| GuardianMiniSeries | Guardian Shield++            | Guardian Shield++ ⭐          |      3500.00 |           42 |
+| LynelSeries        | Mighty Lynel Crusher ⭐      | Mighty Lynel Crusher ⭐⭐     |      3500.00 |           42 |
+| GuardianMiniSeries | Ancient Battle Axe++ ⭐      | Ancient Battle Axe++ ⭐⭐     |      3666.67 |           44 |
+| LynelSeries        | Mighty Lynel Sword ⭐        | Mighty Lynel Sword ⭐⭐       |      3666.67 |           44 |
+| LynelSeries        | Mighty Lynel Shield          | Mighty Lynel Shield ⭐        |      3666.67 |           44 |
+| HyliaSeries        | Royal Bow ⭐                 | Royal Bow ⭐⭐                |      3666.67 |           44 |
+| UniqueSeries       | Thunderspear                 | Thunderspear ⭐               |      3666.67 |           44 |
+| UniqueSeries       | Ancient Bow                  | Ancient Bow ⭐                |      3666.67 |           44 |
+| LizalfosSeries     | Lizal Tri-Boomerang ⭐       | Lizal Tri-Boomerang ⭐⭐      |      3750.00 |           45 |
+| HyliaSeries        | Royal Broadsword ⭐          | Royal Broadsword ⭐⭐         |      3750.00 |           45 |
+| GuardianMiniSeries | Guardian Spear++ ⭐          | Guardian Spear++ ⭐⭐         |      3833.33 |           46 |
+| GuardianMiniSeries | Guardian Shield++ ⭐         | Guardian Shield++ ⭐⭐        |      3833.33 |           46 |
+| HyliaSeries        | Knight's Halberd ⭐⭐        | Royal Halberd                 |      3833.33 |           46 |
+| HyliaSeries        | Knight's Shield ⭐           | Knight's Shield ⭐⭐          |      3833.33 |           46 |
+| OasisSeries        | Gerudo Spear ⭐              | Gerudo Spear ⭐⭐             |      3833.33 |           46 |
+| UniqueSeries       | Fierce Deity Sword ⭐        | Fierce Deity Sword ⭐⭐       |      3833.33 |           46 |
+| GuardianMiniSeries | Guardian Sword++ ⭐          | Guardian Sword++ ⭐⭐         |      3916.67 |           47 |
+| LynelSeries        | Mighty Lynel Crusher ⭐⭐    | Savage Lynel Crusher          |      4000.00 |           48 |
+| LynelSeries        | Mighty Lynel Spear ⭐        | Mighty Lynel Spear ⭐⭐       |      4000.00 |           48 |
+| UniqueSeries       | Royal Guard's Sword          | Royal Guard's Sword ⭐        |      4000.00 |           48 |
+| UniqueSeries       | Royal Guard's Claymore       | Royal Guard's Claymore ⭐     |      4000.00 |           48 |
+| UniqueSeries       | Flamespear                   | Flamespear ⭐                 |      4000.00 |           48 |
+| UniqueSeries       | Royal Guard's Bow            | Royal Guard's Bow ⭐          |      4166.67 |           50 |
+| AssassinSeries     | Demon Carver ⭐              | Demon Carver ⭐⭐             |      4166.67 |           50 |
+| LynelSeries        | Mighty Lynel Shield ⭐       | Mighty Lynel Shield ⭐⭐      |      4250.00 |           51 |
+| HyliaSeries        | Knight's Shield ⭐⭐         | Royal Shield                  |      4250.00 |           51 |
+| UniqueSeries       | Ancient Bow ⭐               | Ancient Bow ⭐⭐              |      4250.00 |           51 |
+| LynelSeries        | Mighty Lynel Sword ⭐⭐      | Savage Lynel Sword            |      4333.33 |           52 |
+| LynelSeries        | Savage Lynel Crusher         | Savage Lynel Crusher ⭐       |      4333.33 |           52 |
+| HyliaSeries        | Royal Halberd                | Royal Halberd ⭐              |      4333.33 |           52 |
+| UniqueSeries       | Frostspear ⭐                | Frostspear ⭐⭐               |      4333.33 |           52 |
+| LynelSeries        | Mighty Lynel Spear ⭐⭐      | Savage Lynel Spear            |      4500.00 |           54 |
+| HyliaSeries        | Royal Shield                 | Royal Shield ⭐               |      4583.33 |           55 |
+| LynelSeries        | Mighty Lynel Shield ⭐⭐     | Savage Lynel Shield           |      4750.00 |           57 |
+| LynelSeries        | Savage Lynel Sword           | Savage Lynel Sword ⭐         |      4833.33 |           58 |
+| UniqueSeries       | Thunderspear ⭐              | Thunderspear ⭐⭐             |      4833.33 |           58 |
+| UniqueSeries       | Royal Guard's Bow ⭐         | Royal Guard's Bow ⭐⭐        |      4833.33 |           58 |
+| LynelSeries        | Savage Lynel Crusher ⭐      | Savage Lynel Crusher ⭐⭐     |      4944.44 |        59.33 |
+| LynelSeries        | Savage Lynel Spear           | Savage Lynel Spear ⭐         |      5000.00 |           60 |
+| UniqueSeries       | Royal Guard's Sword ⭐       | Royal Guard's Sword ⭐⭐      |      5000.00 |           60 |
+| UniqueSeries       | Ancient Spear                | Ancient Spear ⭐              |      5000.00 |           60 |
+| UniqueSeries       | Royal Guard's Claymore ⭐    | Royal Guard's Claymore ⭐⭐   |      5111.11 |        61.33 |
+| LynelSeries        | Savage Lynel Shield          | Savage Lynel Shield ⭐        |      5166.67 |           62 |
+| HyliaSeries        | Royal Shield ⭐              | Royal Shield ⭐⭐             |      5166.67 |           62 |
+| UniqueSeries       | Flamespear ⭐                | Flamespear ⭐⭐               |      5166.67 |           62 |
+| UniqueSeries       | Royal Guard's Spear          | Royal Guard's Spear ⭐        |      5333.33 |           64 |
+| UniqueSeries       | Hero's Shield                | Hero's Shield ⭐              |      5416.67 |           65 |
+| HyliaSeries        | Royal Halberd ⭐             | Royal Halberd ⭐⭐            |      5500.00 |           66 |
+| LynelSeries        | Savage Lynel Spear ⭐        | Savage Lynel Spear ⭐⭐       |      5833.33 |           70 |
+| LynelSeries        | Savage Lynel Shield ⭐       | Savage Lynel Shield ⭐⭐      |      5833.33 |           70 |
+| UniqueSeries       | Royal Guard's Shield         | Royal Guard's Shield ⭐       |      5833.33 |           70 |
+| UniqueSeries       | Ancient Shield               | Ancient Shield ⭐             |      5833.33 |           70 |
+| LynelSeries        | Savage Lynel Sword ⭐        | Savage Lynel Sword ⭐⭐       |      6166.67 |           74 |
+| UniqueSeries       | Hero's Shield ⭐             | Hero's Shield ⭐⭐            |      6166.67 |           74 |
+| UniqueSeries       | Ancient Spear ⭐             | Ancient Spear ⭐⭐            |      6500.00 |           78 |
+| UniqueSeries       | Royal Guard's Shield ⭐      | Royal Guard's Shield ⭐⭐     |      6666.67 |           80 |
+| UniqueSeries       | Ancient Shield ⭐            | Ancient Shield ⭐⭐           |      6666.67 |           80 |
+| UniqueSeries       | Royal Guard's Spear ⭐       | Royal Guard's Spear ⭐⭐      |      7000.00 |           84 |
+| UniqueSeries       | Hylian Shield                | Hylian Shield ⭐              |      7500.00 |           90 |
+| UniqueSeries       | Hylian Shield ⭐             | Hylian Shield ⭐⭐            |      9416.67 |          113 |
++--------------------+------------------------------+-------------------------------+--------------+--------------+
