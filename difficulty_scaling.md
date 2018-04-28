@@ -8,10 +8,14 @@
   progressively replaced by more powerful variants as you gain more points.
 
   Whenever an enemy dies, the game increments a 32-bit flag `Defeated_%s_Num`
-  (where `%s` is the actor name) if all of the following conditions are satisfied:
+  (where `%s` is the 'same group actor name' <sup>[check]</sup>)
+  if all of the following conditions are satisfied:
 
   * The current kill count is < 10.
   * The actor does not have the `NotCountDefeatedNum` flag.
+  * *For Monk Maz Koshia*: `Defeated_Priest_Boss_Normal_Num` is 0.
+  * *For Dark Beast Ganon*: It is the first time the boss is beaten. <sup>[check]</sup>
+  * *For Blights*: It is the first time the blight is beaten in the Divine Beast, or in the Illusory Realm. Blights fought in Hyrule Castle will apparently not count. <sup>[check]</sup>
 
   This happens every time *any* enemy dies, even if they don't necessarily play a role
   in the point system (see below) and even if you are not responsible for their death.
@@ -53,7 +57,7 @@
   * Weapon point requirements are satisfied
   * *or* the modifier tier is overridden using `SharpWeaponJudgeType`.
 
-  [1.3.0] In Master Mode, *all* enemies are automatically ranked up one tier by default,
+  [1.3.0] In Master Mode, *all* enemies are automatically ranked up one tier by default post scaling,
   independently of `LevelSensorMode`. Actors can receive two additional parameters:
 
   Parameter | Default | Description
@@ -70,13 +74,17 @@
   Also applies to any weapons held by an enemy since `loadWeaponInfo` is called by `loadActorInfo`.
 
 ## `SharpWeaponJudgeType`
-  This actor property controls the modifier tier that a weapon can receive.
+  This actor property controls the *minimum* modifier tier that a weapon can receive.
   Type: [`enum WeaponModifier`](#weaponmodifier-s32-enum).
 
-  If [scaling](#levelsensormode) is enabled, the weapon will receive modifiers from
-  *at least* the specified tier and may get additional bonuses depending on point status.
+  If [scaling](#levelsensormode) is enabled, the weapon may receive modifiers from an
+  even higher tier if point requirements are met.
 
-  Otherwise, the weapon will get modifiers from *exactly* the specified tier.
+  Otherwise, the weapon will get modifiers from exactly the specified tier.
+
+  For example, 0 ('None') doesn't mean a weapon will never receive a modifier.
+  It just means that the developers haven't forced the weapon to spawn with a blue/yellow modifier.
+  If scaling requirements are satisfied, the weapon will receive blue or yellow modifiers.
 
 ## `WeaponModifier`
 
