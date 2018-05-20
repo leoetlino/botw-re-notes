@@ -7,15 +7,15 @@
   Killing enemies is the only way to receive points. Enemies and weapons will be
   progressively replaced by more powerful variants as you gain more points.
 
-  Whenever an enemy dies, the game increments a 32-bit flag `Defeated_%s_Num`
-  (where `%s` is the 'same group actor name' <sup>[check]</sup>)
+  Whenever an enemy dies, the game increments a flag 'Defeated_{SameGroupActorName}_Num' ^[check]
   if all of the following conditions are satisfied:
 
   * The current kill count is < 10.
-  * The actor does not have the `NotCountDefeatedNum` flag.
-  * *For Monk Maz Koshia*: `Defeated_Priest_Boss_Normal_Num` is 0.
-  * *For Dark Beast Ganon*: It is the first time the boss is beaten. <sup>[check]</sup>
-  * *For Blights*: It is the first time the blight is beaten in the Divine Beast, or in the Illusory Realm. Blights fought in Hyrule Castle will apparently not count. <sup>[check]</sup>
+  * The actor does not have the NotCountDefeatedNum flag.
+  * **For Monk Maz Koshia**: 'Defeated_Priest_Boss_Normal_Num' is 0.
+  * **For Dark Beast Ganon**: It is the first time the boss is beaten. ^[check]
+  * **For Blights**: It is the first time the blight is beaten in the Divine Beast, or in the
+  Illusory Realm. Blights fought in Hyrule Castle will apparently not count. ^[check]
 
   This happens every time *any* enemy dies, even if they don't necessarily play a role
   in the point system (see below) and even if you are not responsible for their death.
@@ -33,45 +33,46 @@
   when a weapon or enemy actor is loaded.
 
 ## Weapons
-  `loadWeaponInfo` is called (i.e. weapons may be scaled) when loading a weapon
-  if the following conditions are true:
+  'loadWeaponInfo' is called (i.e. weapons may be scaled) for a weapon if:
 
-  * *For standalone weapons*: The boolean flag `%s_WeaponDrop_%u` (map, id) is false.
-  * *For weapons attached to Hinox necklaces*: The boolean flag `%s_Necklace_%d_%s_%u`
-    (map, idx, Hinox enemy name, id) is false.
-  * *Scaling is enabled for the actor instance*: The actor property `LevelSensorMode`
-    (found in mubin maps) is >= 1 **or** the enemy is a Guardian Scout (`Enemy_Guardian_Mini`).
+  * **For standalone weapons**: The actor property 'LevelSensorMode' is higher than 1 **and** it wasn't already picked up.
+  * **For treasure chest drops**: Always upon opening or destroying the chest. *
+  * **For Hinox weapons**: The flag `{MapName}_Necklace_{i}_{HinoxName}_{ID}` is false. *
+  * **For other enemy drops**: The flag `{MapName}_WeaponDrop_{ID}` is false, **and** [the actor property 'LevelSensorMode' is higher than 1 *or* the enemy is a Guardian Scout ('Enemy_Guardian_Mini')].
 
-  Note: Weapons that are bought from a shop or given by NPCs cannot receive modifiers.
+  Note: Weapons that are bought from a shop cannot receive modifiers because they do not fit into any of the above cases.
+
+  \* Weapons found on Eventide Island (from chests and the Hinox) seem to be excluded from weapon scaling. TODO: how?
 
 ## Enemies
-  `loadActorInfo` is always called when loading enemies.
+  When loading enemies, the game will always try to scale enemies.
 
-  However, the function won't do anything if `LevelSensorMode` is < 1 and
+  However, the scaling function won't do anything if 'LevelSensorMode' is < 1 and
   will leave the enemy and any weapons they may hold unscaled.
 
   Note: Enemies that are not in any upgrade list (such as elemental Lizalfos) will not
   be scaled, but their weapon can still receive upgrades if:
 
-  * `LevelSensorMode` is non zero.
+  * 'LevelSensorMode' is non zero.
   * Weapon point requirements are satisfied
-  * *or* the modifier tier is overridden using `SharpWeaponJudgeType`.
+  * *or* the modifier tier is overridden using 'SharpWeaponJudgeType'.
 
-  [1.3.0] In Master Mode, *all* enemies are automatically ranked up one tier by default post scaling,
-  independently of `LevelSensorMode`. Actors can receive two additional parameters:
+[1.3.0] In Master Mode, **all** enemies are automatically ranked up one tier by default **post scaling**,
+  independently of 'LevelSensorMode'. Actors can receive two additional parameters:
 
   Parameter | Default | Description
   ----------|---------|------------
-  `IsHardModeActor` | false | Controls whether an enemy only shows up in Master Mode.
-  `DisableRankUpForHardMode` | false | Controls whether the automatic rankup applies to an enemy.
+  IsHardModeActor | false | Controls whether an enemy only shows up in Master Mode.
+  DisableRankUpForHardMode | false | Controls whether the automatic rankup applies to an enemy.
 
-  `IsHardModeActor=True`, `DisableRankUpForHardMode=True` and `LevelSensorMode=0` are combined
-  on some actors to keep low-level enemies in Master Mode (e.g. Red Bokoblin south of the
-  Great Plateau).
+In Master Mode, IsHardModeActor, DisableRankUpForHardMode and LevelSensorMode are combined on some actors to keep low-level enemies in the overworld (e.g. Red Bokoblin south of the Great Plateau).
+
 
 ## `LevelSensorMode`
   This actor property controls whether scaling is enabled for an enemy or weapon.
-  Also applies to any weapons held by an enemy since `loadWeaponInfo` is called by `loadActorInfo`.
+  Also applies to any weapons held by an enemy since 'loadWeaponInfo' is called when an enemy drops their weapon.
+
+Note that this doesn't apply to weapons that are attached to a Hinox's necklace, because Hinoxes use a different underlying enemy actor which overrides the 'on weapon dropped' function and ignores 'LevelSensorMode'.
 
 ## `SharpWeaponJudgeType`
   This actor property controls the *minimum* modifier tier that a weapon can receive.
@@ -119,12 +120,10 @@
 
   A [diff between 1.0.0 and 1.5.0](game_files/1.0.0_1.5.0_LevelSensor.yml.diff) is also in the repo.
 
-  [1.3.0] Flag entries for Golden enemies were added to the kill point table.
-
-  [1.4.0] Flag entries for Igneo Talus Titan and Monk Maz Koshia were added to the kill point table.
-
-  [1.5.0] Weapon entries for the One-Hit Obliterator and Weapon_Sword_503 were added to the
-  weapon scaling list. They cannot receive any modifier.
+  [1.4.0] Flag entries for Golden enemies, Igneo Talus Titan and Monk Maz Koshia were added to
+  the kill point table. Weapon entries for the One-Hit Obliterator and Weapon_Sword_503 were also
+  added to the weapon scaling list. They cannot receive any modifier.
+  (Yes, the developers forgot to add golden enemies to the config in 1.3.0.)
 
 ## `Ecosystem::LevelSensor::calculatePoints`
   Called when loading actors
@@ -269,3 +268,22 @@
     return false;  // cannot scale up
   }
   ```
+
+## The Data
+
+  To make things easier to understand, here are links to:
+
+  * [kill point, enemy scaling and weapon scaling tables](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSlyOD7FLAn1TUBn64Pu8Pld-WOfgcVByuywHMWvBTEV0j8potD1wkBs-MJJXf-gvEkpfItUCMqMk6/pubhtml)
+
+  * an [object map with all the scaling information](https://f.leolam.fr/botw-map/) embedded
+  into the object names.
+
+  This makes it possible to see both the required points for enemy/weapon upgrades,
+  as well as all of the special cases extremely easily.
+
+  For the map, a few special name suffixes were added:
+
+  * `:NO_SCALING`: Enemy or weapon won't be scaled.
+  * `:NO_RANKUP`: Enemy will not be automatically ranked up in master mode.
+  * `:MODIFIER_X`: Weapon will receive at least modifier tier X.
+  * `:OFF_WAIT_REVIVAL`: Enemy or weapon will always respawn even without a blood moon.
