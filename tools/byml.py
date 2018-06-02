@@ -88,7 +88,7 @@ class Byml:
         if node_type == 0xd2:
             return self._parse_f32_node(value)
         if node_type == 0xd3:
-            return self._parse_crc32_node(value)
+            return self._parse_u32_node(value)
         raise ValueError("Unknown node type: 0x%x" % node_type)
 
     def _parse_string_node(self, value: int) -> str:
@@ -129,5 +129,5 @@ class Byml:
     def _parse_f32_node(self, value: int) -> float:
         return struct.unpack('@f', struct.pack('@I', value))[0]
 
-    def _parse_crc32_node(self, value: int) -> int:
-        return value
+    def _parse_u32_node(self, value: int) -> int:
+        return struct.unpack('@I', struct.pack('@I', value))[0]
