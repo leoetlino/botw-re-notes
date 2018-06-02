@@ -39,8 +39,17 @@ the .bxml file extension, but not always.
 ## Misc information
 
 Bootup.pack: SARC archive
+- Cooking
+  * CookData: cooking information (byml). The key names are not very descriptive, though.
 - Ecosystem
   * LevelSensor: enemy and weapon scaling information
+- Map
+  * MainField/Location.mubin (byml): UI map location texts
+  * MainField/Static.mubin (byml): UI map markers? Contains warp information and save flags
+  * CDungeon/Static.mubin: Contains StartPos entries (Map -- dungeon map name, PosName -- often Entrance_1)
+  * MainFieldDungeon/Static.mubin: Same thing, but for Divine Beasts. PosName can be StartDemoEnter (and also EndDemo118_0 for Vah Medoh)
+- UI
+  * MapTex/MainFieldArea.byaml: UI map information (list of tiles e.g. A-0, A-1, map changes with save flags e.g. Tarry Town, Eldin Bridge)
 
 Map: actor locations
 
