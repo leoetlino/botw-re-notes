@@ -38,7 +38,7 @@ the .bxml file extension, but not always.
 
 ## Misc information
 
-Bootup.pack: SARC archive
+Pack/Bootup.pack: SARC archive
 - Cooking
   * CookData: cooking information (byml). The key names are not very descriptive, though.
 - Ecosystem
@@ -50,6 +50,14 @@ Bootup.pack: SARC archive
   * MainFieldDungeon/Static.mubin: Same thing, but for Divine Beasts. PosName can be StartDemoEnter (and also EndDemo118_0 for Vah Medoh)
 - UI
   * MapTex/MainFieldArea.byaml: UI map information (list of tiles e.g. A-0, A-1, map changes with save flags e.g. Tarry Town, Eldin Bridge)
+
+Pack/TitleBG.pack: SARC. Includes files that presumably always stay loaded.
+- Map
+  * [1.5.0] Structure is similar to Map/, except this only contains static mubin files. e.g. MainField/A-1/A-1_Static.mubin (byml)
+- Quest
+  * QuestProduct.bquestpack (byml): All quest information (shrine, sidequest, main quest): name, type, location, quest giver, dependencies, steps, save flags, trigger events, ...
+- WorldMgr
+  * normal.bwinfo: World information. Climates (weather type, sunny/rainy/cloudy/... rates, temperatures, wind, lighting, fog, ignited), cloud generation, sky, sun/moon, ...
 
 Map: actor locations
 
