@@ -43,6 +43,8 @@ Pack/Bootup.pack: SARC archive
   * CookData: cooking information (byml). The key names are not very descriptive, though.
 - Ecosystem
   * LevelSensor: enemy and weapon scaling information
+- Event
+  * EventInfo.product.yml: cutscenes (internally 'Demo'), including FMVs, and dialogue information
 - Map
   * MainField/Location.mubin (byml): UI map location texts
   * MainField/Static.mubin (byml): UI map markers? Contains warp information and save flags
