@@ -47,20 +47,19 @@ class Byml:
         if version != 2:
             raise ValueError("Invalid version: %u (expected 2)" % version)
 
-        self._node_name_array_offset = _uint32(self._data, 4, self._be)
-        self._string_array_offset = _uint32(self._data, 8, self._be)
-        self._root_node_offset = _uint32(self._data, 12, self._be)
+        self._hash_key_table_offset = _uint32(self._data, 4, self._be)
+        self._string_table_offset = _uint32(self._data, 8, self._be)
 
-        self._node_name_array = self._parse_string_array(self._node_name_array_offset)
-        if self._string_array_offset != 0:
-            self._string_array = self._parse_string_array(self._string_array_offset)
+        self._node_name_array = self._parse_string_array(self._hash_key_table_offset)
+        if self._string_table_offset != 0:
+            self._string_array = self._parse_string_array(self._string_table_offset)
 
     def parse(self):
         """Parse the BYML and get the root node with all children."""
-        node_type = self._data[self._root_node_offset]
+        node_type = self._data[_uint32(self._data, 12, self._be)]
         if node_type != 0xc0 and node_type != 0xc1:
             raise ValueError("Invalid root node: expected array or dict, got type 0x%x" % node_type)
-        return self._parse_node(node_type, self._root_node_offset)
+        return self._parse_node(node_type, 12)
 
     def _parse_string_array(self, offset) -> typing.List[str]:
         if self._data[offset] != 0xc2:
@@ -73,26 +72,34 @@ class Byml:
             array.append(_string(self._data, string_offset))
         return array
 
-    def _parse_node(self, node_type, value):
-        logging.info("Parsing node with type=0x%x value=0x%08x" % (node_type, value))
+    def _parse_node(self, node_type, offset):
+        logging.info("Parsing node with type=0x%x offset=0x%08x" % (node_type, offset))
         if node_type == 0xa0:
-            return self._parse_string_node(value)
+            return self._parse_string_node(_uint32(self._data, offset, self._be))
         if node_type == 0xc0:
-            return self._parse_array_node(value)
+            return self._parse_array_node(_uint32(self._data, offset, self._be))
         if node_type == 0xc1:
-            return self._parse_dict_node(value)
+            return self._parse_dict_node(_uint32(self._data, offset, self._be))
         if node_type == 0xd0:
-            return self._parse_bool_node(value)
+            return self._parse_bool_node(offset)
         if node_type == 0xd1:
-            return self._parse_s32_node(value)
+            return self._parse_s32_node(offset)
         if node_type == 0xd2:
-            return self._parse_f32_node(value)
+            return self._parse_f32_node(offset)
         if node_type == 0xd3:
-            return self._parse_u32_node(value)
+            return self._parse_u32_node(offset)
+        if node_type == 0xd4:
+            return self._parse_s64_node(_uint32(self._data, offset, self._be))
+        if node_type == 0xd5:
+            return self._parse_u64_node(_uint32(self._data, offset, self._be))
+        if node_type == 0xd6:
+            return self._parse_f64_node(_uint32(self._data, offset, self._be))
+        if node_type == 0xff:
+            return None
         raise ValueError("Unknown node type: 0x%x" % node_type)
 
-    def _parse_string_node(self, value: int) -> str:
-        return self._string_array[value]
+    def _parse_string_node(self, index: int) -> str:
+        return self._string_array[index]
 
     def _parse_array_node(self, offset: int) -> list:
         size = _uint24(self._data, offset + 1, self._be)
@@ -101,8 +108,7 @@ class Byml:
         value_array_offset: int = offset + _align_up(size, 4) + 4
         for i in range(size):
             node_type = self._data[offset + 4 + i]
-            value = _uint32(self._data, value_array_offset + 4*i, self._be)
-            array.append(self._parse_node(node_type, value))
+            array.append(self._parse_node(node_type, value_array_offset + 4*i))
         return array
 
     def _parse_dict_node(self, offset: int) -> dict:
@@ -115,19 +121,27 @@ class Byml:
             name: str = self._node_name_array[string_index]
 
             node_type = self._data[entry_offset + 3]
-            value = _uint32(self._data, entry_offset + 4, self._be)
-            result[name] = self._parse_node(node_type, value)
+            result[name] = self._parse_node(node_type, entry_offset + 4)
 
         return result
 
-    def _parse_bool_node(self, value: int) -> bool:
-        return value != 0
+    def _parse_bool_node(self, offset: int) -> bool:
+        return self._parse_u32_node(offset) != 0
 
-    def _parse_s32_node(self, value: int) -> int:
-        return struct.unpack('@i', struct.pack('@I', value))[0]
+    def _parse_s32_node(self, offset: int) -> int:
+        return struct.unpack_from(_get_unpack_endian_character(self._be) + 'i', self._data, offset)[0]
 
-    def _parse_f32_node(self, value: int) -> float:
-        return struct.unpack('@f', struct.pack('@I', value))[0]
+    def _parse_f32_node(self, offset: int) -> float:
+        return struct.unpack_from(_get_unpack_endian_character(self._be) + 'f', self._data, offset)[0]
 
-    def _parse_u32_node(self, value: int) -> int:
-        return struct.unpack('@I', struct.pack('@I', value))[0]
+    def _parse_u32_node(self, offset: int) -> int:
+        return _uint32(self._data, offset, self._be)
+
+    def _parse_s64_node(self, offset: int) -> int:
+        return struct.unpack_from(_get_unpack_endian_character(self._be) + 'q', self._data, offset)[0]
+
+    def _parse_u64_node(self, offset: int) -> int:
+        return struct.unpack_from(_get_unpack_endian_character(self._be) + 'Q', self._data, offset)[0]
+
+    def _parse_f64_node(self, offset: int) -> float:
+        return struct.unpack_from(_get_unpack_endian_character(self._be) + 'd', self._data, offset)[0]
