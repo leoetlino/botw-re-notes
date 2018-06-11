@@ -44,8 +44,10 @@ class Byml:
             raise ValueError("Invalid magic: %s (expected 'BY' or 'YB')" % magic)
 
         version = _uint16(self._data, 2, self._be)
-        if version != 2:
-            raise ValueError("Invalid version: %u (expected 2)" % version)
+        if not (1 <= version <= 3):
+            raise ValueError("Invalid version: %u (expected 0-3)" % version)
+        if version == 1 and self._be:
+            raise ValueError("Invalid version: %u-wiiu (expected 0-3)" % version)
 
         self._hash_key_table_offset = _uint32(self._data, 4, self._be)
         self._string_table_offset = _uint32(self._data, 8, self._be)
