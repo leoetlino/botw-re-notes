@@ -26,10 +26,13 @@ These strings are unused in the retail version.
 .rodata.2:0000007101DE98B0                 DCB "num_valid_normal_mode %d/%d, num_valid_hard_mode %d%d",0
 ```
 
-### RomMode (to investigate)
+### Debug tool leftovers (to investigate)
 
-The game calls a sead function to detect RomMode. The result is printed along with AOC (DLC)
+The game calls a sead function to detect the ROM type. The result is printed along with AOC (DLC)
 information.
 
 Some functions (including the SaveMgr) have a 'Show_2017_1st' string which may be related
 to leftover demo code.
+
+There are references to debugging tools like Error (an in-game integrated bug tracker: the
+`ErrorViewerTask` is an actual task) and a stage select mode (`uking::StageSelect` + more strings).
