@@ -14,3 +14,5 @@ with *Super Mario Odyssey*, which does come with full symbols.
 The game also shares most of the al::ByamlIter class and associated utils. Compared to SMO,
 the code in BotW assumes little endian is being used; unused functions -- such as the 64-bit
 value functions and writer -- were eliminated.
+
+It also appears that the game shares eui:: (UI code).
