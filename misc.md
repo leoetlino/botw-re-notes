@@ -28,11 +28,17 @@ These strings are unused in the retail version.
 
 ### Debug tool leftovers (to investigate)
 
-The game calls a sead function to detect the ROM type. The result is printed along with AOC (DLC)
-information.
+The game calls `sead::EnvUtil::getRomType` to get the ROM type.
+The result is printed along with SD card, revision and AOC (DLC) information.
 
-Some functions (including the SaveMgr) have a 'Show_2017_1st' string which may be related
-to leftover demo code.
+The ROM type is loaded from `System/RegionLangMask.txt`. Possible values are:
+
+* "Normal": used in retail versions (at least 1.0.0 and 1.5.0)
+* "Show_2017_1st": demo version?
+* "RID_Demo": ?
+* Anything else is treated as "Normal".
+
+sub_71008A5F3C returns true if type == "Show_2017_1st" or "RID_Demo". Or *(_BYTE *)(a1 + 0x20) != 0.
 
 There are references to debugging tools like Error (an in-game integrated bug tracker: the
 `ErrorViewerTask` is an actual task) and a stage select mode (`uking::StageSelect` + more strings).
