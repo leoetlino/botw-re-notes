@@ -73,3 +73,9 @@ Profiler::Pop("aoc");
 
 The init function calls nn::fs::MountAddOnContent, creates a sead::NinAocFileDevice
 and mounts it with sead::FileDeviceMgr::mount before reading System/AocVersion.txt.
+
+### Collecting crc32 strings
+
+* Track calls to sead::HashCRC32::calcStringHash
+* Check ActorInfo.product.yml
+* Check gamedata files
