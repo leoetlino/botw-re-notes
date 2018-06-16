@@ -1,0 +1,68 @@
+--- game_files/1.0.0_LevelSensor.yml	2018-06-16 16:32:05.878320999 +0200
++++ game_files/1.5.0_LevelSensor.yml	2018-06-16 16:32:10.442163697 +0200
+@@ -37,28 +37,33 @@
+ - {name: Defeated_Enemy_Giant_Junior_Num, point: 15.0}
+ - {name: Defeated_Enemy_Assassin_Middle_Num, point: 15.0}
+ - {name: Defeated_Enemy_Bokoblin_Senior_Num, point: 15.0}
+-- {name: Defeated_Enemy_Wizzrobe_Electric_Senior_Num, point: 15.0}
+-- {name: Defeated_Enemy_Wizzrobe_Fire_Senior_Num, point: 15.0}
+ - {name: Defeated_Enemy_Wizzrobe_Ice_Senior_Num, point: 15.0}
++- {name: Defeated_Enemy_Wizzrobe_Fire_Senior_Num, point: 15.0}
++- {name: Defeated_Enemy_Wizzrobe_Electric_Senior_Num, point: 15.0}
+ - {name: Defeated_RemainsFire_Drone_A_01_Num, point: 15.0}
+ - {name: Defeated_Enemy_Moriblin_Senior_Num, point: 18.0}
+ - {name: Defeated_Enemy_Guardian_Mini_Middle_Num, point: 20.0}
+ - {name: Defeated_Enemy_Lizalfos_Electric_Num, point: 20.0}
+-- {name: Defeated_Enemy_Lizalfos_Fire_Num, point: 20.0}
+-- {name: Defeated_Enemy_Lizalfos_Senior_Num, point: 20.0}
+ - {name: Defeated_Enemy_Lizalfos_Ice_Num, point: 20.0}
+-- {name: Defeated_Enemy_Golem_Middle_Num, point: 25.0}
++- {name: Defeated_Enemy_Lizalfos_Senior_Num, point: 20.0}
++- {name: Defeated_Enemy_Lizalfos_Fire_Num, point: 20.0}
++- {name: Defeated_Enemy_Bokoblin_Gold_Num, point: 25.0}
+ - {name: Defeated_Enemy_Giant_Bone_Num, point: 25.0}
+-- {name: Defeated_Enemy_Giant_Middle_Num, point: 25.0}
+ - {name: Defeated_Enemy_Bokoblin_Dark_Num, point: 25.0}
++- {name: Defeated_Enemy_Golem_Middle_Num, point: 25.0}
++- {name: Defeated_Enemy_Giant_Middle_Num, point: 25.0}
+ - {name: Defeated_Enemy_Golem_Senior_Num, point: 30.0}
+ - {name: Defeated_Enemy_Golem_Fire_Num, point: 35.0}
+-- {name: Defeated_Enemy_Golem_Ice_Num, point: 35.0}
++- {name: Defeated_Enemy_Moriblin_Gold_Num, point: 35.0}
+ - {name: Defeated_Enemy_Guardian_Mini_Senior_Num, point: 35.0}
+ - {name: Defeated_Enemy_Guardian_B_Num, point: 35.0}
+-- {name: Defeated_Enemy_Giant_Senior_Num, point: 35.0}
++- {name: Defeated_Enemy_Golem_Ice_Num, point: 35.0}
+ - {name: Defeated_Enemy_Moriblin_Dark_Num, point: 35.0}
++- {name: Defeated_Enemy_Golem_Fire_R_Num, point: 35.0}
++- {name: Defeated_Enemy_Giant_Senior_Num, point: 35.0}
+ - {name: Defeated_Enemy_Lizalfos_Dark_Num, point: 40.0}
++- {name: Defeated_Enemy_Lizalfos_Gold_Num, point: 40.0}
++- {name: Defeated_Enemy_SandwormR_Num, point: 50.0}
+ - {name: Defeated_Enemy_Guardian_A_Num, point: 50.0}
+ - {name: Defeated_Enemy_Guardian_C_Num, point: 50.0}
+ - {name: Defeated_Enemy_Sandworm_Num, point: 50.0}
+@@ -66,11 +71,13 @@
+ - {name: Defeated_Enemy_Lynel_Middle_Num, point: 60.0}
+ - {name: Defeated_Enemy_Lynel_Senior_Num, point: 80.0}
+ - {name: Defeated_Enemy_Assassin_Senior_Num, point: 100.0}
++- {name: Defeated_Enemy_Lynel_Gold_Num, point: 120.0}
+ - {name: Defeated_Enemy_Lynel_Dark_Num, point: 120.0}
+-- {name: Defeated_Enemy_SiteBoss_Bow_Num, point: 300.0}
+ - {name: Defeated_Enemy_SiteBoss_Lsword_Num, point: 300.0}
+ - {name: Defeated_Enemy_SiteBoss_Spear_Num, point: 300.0}
+ - {name: Defeated_Enemy_SiteBoss_Sword_Num, point: 300.0}
++- {name: Defeated_Enemy_SiteBoss_Bow_Num, point: 300.0}
++- {name: Defeated_Priest_Boss_Normal_Num, point: 500.0}
+ - {name: Defeated_Enemy_GanonBeast_Num, point: 800.0}
+ setting: {Level2EnemyPower: 0.014000000432133675, Level2WeaponPower: 0.012000000104308128}
+ weapon:
+@@ -529,6 +536,8 @@
+ - actorType: WeaponSmallSword
+   actors:
+   - {name: Weapon_Sword_040, plus: -1, value: 1.0}
++  - {name: Weapon_Sword_502, plus: -1, value: 1.0}
++  - {name: Weapon_Sword_503, plus: -1, value: 1.0}
+   - {name: Weapon_Sword_040, plus: 0, value: 2.0}
+   - {name: Weapon_Sword_043, plus: -1, value: 2.0}
+   - {name: Weapon_Sword_040, plus: 1, value: 3.0}
