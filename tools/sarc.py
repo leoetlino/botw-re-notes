@@ -48,6 +48,9 @@ class SARC:
                 break
             self._files[string] = node
 
+    def list_files(self):
+        return self._files.keys()
+
     def extract(self, archive_name: str) -> None:
         name, ext = os.path.splitext(archive_name)
         try: os.mkdir(name)
