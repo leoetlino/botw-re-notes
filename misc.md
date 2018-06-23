@@ -79,3 +79,12 @@ and mounts it with sead::FileDeviceMgr::mount before reading System/AocVersion.t
 * Track calls to sead::HashCRC32::calcStringHash
 * Check ActorInfo.product.yml
 * Check gamedata files
+
+### Mipha's Grace settings
+
+In Link's general params:
+
+* SupportWaterLifeAdd: the amount of extra hearts. 20 in release build.
+* SupportWaterEnergyAdd: the amount of extra stamina. 0 in release build.
+
+Might be interesting to reduce these for a 'harder mode' mod.
