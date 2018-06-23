@@ -27,3 +27,10 @@
 What happens if the ROM type is set to Show_2017_1st or RID_Demo?
 
 Is it possible to get to the stage select screen on release versions?
+
+## One-Hit Kill protection (player actor probably)
+What are the conditions for one-hit kill protection to apply?
+
+NoDeathDamageBase (in Link's bgparam) might be related.
+
+Also worth noting that this is gone in Master Mode.
