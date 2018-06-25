@@ -471,44 +471,18 @@ class StringAssignTransformer(Transformer):
                 return False
 
             # Now match the loop body.
-            def get_array_index_from_nullchar_check(c):
-                if c.op != hr.cit_if:
-                    return None
+            def is_nullchar_check(c):
+                if c.op != hr.cit_if or c.cif.expr.op != hr.cot_eq:
+                    return False
                 if not is_sead_safestringbase_null_char(c.cif.expr.y, vu.cfunc):
-                    return None
-
-                lhs = c.cif.expr.x
-
-                if lhs.op == hr.cot_idx:
-                    # array[index + n]
-                    if lhs.y.op == hr.cot_add:
-                        return (lhs.y.x, lhs.y.y)
-                    # array[index]
-                    return (lhs.y, None)
-
-                # *CAST(array + index)
-                if lhs.op == hr.cot_ptr:
-                    expr = unwrap_cast(lhs.x)
-                    if expr.op == hr.cot_add:
-                        # (array + index) + n
-                        if expr.x.op == hr.cot_add:
-                            return (expr.x.y, expr.y)
-                        # array + index
-                        return (expr.y, None)
-
-                return None
+                    return False
+                return True
 
             def has_first_nullchar_check(c, p): # type: (...) -> bool
-                array_index = get_array_index_from_nullchar_check(c)
-                if not array_index or not array_index[0]:
-                    return False
-                return is_variable(array_index[0], ctx.length_vidx)
+                return is_nullchar_check(c)
 
             def has_second_nullchar_check(c, p): # type: (...) -> bool
-                array_index = get_array_index_from_nullchar_check(c)
-                if not array_index or not array_index[0] or not array_index[1]:
-                    return False
-                return is_variable(array_index[0], ctx.length_vidx) and is_number(array_index[1], 1)
+                return is_nullchar_check(c)
 
             def has_assignment_plus_two(c, p): # type: (...) -> bool
                 if c.op != hr.cot_asg:
