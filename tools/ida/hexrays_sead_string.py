@@ -759,9 +759,10 @@ class MemberFunctionRenamer(Transformer):
 class DynamicCastTransformer(Transformer):
     def run(self, vu, tree, parent): # type: (...) -> None
         class ctx:
-            dynamic_cast_var = None
-            original_var = None
-            type_info_obj = None
+            dynamic_cast_var = None # type: typing.Optional[hr.cexpr_t]
+            original_var = None # type: typing.Optional[hr.cexpr_t]
+            type_info_obj = None # type: typing.Optional[hr.cexpr_t]
+            is_variant_one = False # type: bool
 
         def has_ldar_guard_variable(c, p): # type: (...) -> bool
             if c.op != hr.cot_asg:
@@ -785,6 +786,7 @@ class DynamicCastTransformer(Transformer):
                 return False
             ctx.dynamic_cast_var = my_cexpr_t(c.x)
             ctx.original_var = my_cexpr_t(c.y)
+            ctx.is_variant_one = True
             return True
 
         def has_if(c, p): # type: (...) -> bool
@@ -851,13 +853,84 @@ class DynamicCastTransformer(Transformer):
                 ConstraintChecker(releases_guard_variable),
             ], "dynamic_cast.if").check(c.cif.ithen, c)
 
+
+        def does_set_variable_to_zero(c, p): # type: (...) -> bool
+            if c.op != hr.cot_asg:
+                return False
+            if c.x.op != hr.cot_var:
+                return False
+            if not is_number(c.y, 0):
+                return False
+            return True
+
+        def has_second_if_else_for_variant_2(c, p): # type: (...) -> bool
+            if ctx.is_variant_one:
+                return True
+
+            if c.op != hr.cit_if:
+                return False
+            if not c.cif.ielse:
+                return False
+
+            expr = c.cif.expr
+            if expr.op != hr.cot_var:
+                return False
+
+            ctx.original_var = my_cexpr_t(expr)
+
+            # Check the if body.
+            def has_if_call(c, p): # type: (...) -> bool
+                if c.op != hr.cit_if:
+                    return False
+                if not c.cif.ielse:
+                    return False
+                if c.cif.expr.op != hr.cot_call and c.cif.expr.op != hr.cot_band:
+                    return False
+
+                def set_casted_var_to_original(c, p): # type: (...) -> bool
+                    if c.op != hr.cot_asg:
+                        return False
+                    if c.x.op != hr.cot_var:
+                        return False
+                    if unwrap_cast(c.y).op != hr.cot_var:
+                        return False
+                    if not ctx.original_var or unwrap_cast(c.y).v.idx != ctx.original_var.v.idx:
+                        return False
+
+                    ctx.dynamic_cast_var = my_cexpr_t(c.x)
+                    return True
+
+                # v4 = v2;
+                if not ConstraintVisitor([ConstraintChecker(set_casted_var_to_original)], "dynamic_cast.v2.if.then").check(c.cif.ithen, c):
+                    return False
+
+                # v4 = 0;
+                if not ConstraintVisitor([ConstraintChecker(does_set_variable_to_zero)], "dynamic_cast.v2.if.else").check(c.cif.ielse, c):
+                    return False
+
+                return True
+
+            # if (...) { if (...) v4 = v2;  else v4 = 0; }
+            if not ConstraintVisitor([ConstraintChecker(has_if_call)], "dynamic_cast.if").check(c.cif.ithen, c):
+                return False
+
+            # else { v4 = 0; }
+            if not ConstraintVisitor([ConstraintChecker(does_set_variable_to_zero)], "dynamic_cast.else").check(c.cif.ielse, c):
+                return False
+
+            return True
+
         cv = ConstraintVisitor([
             # v7 = __ldar( (u8*)&`guard variable' );
             ConstraintChecker(has_ldar_guard_variable),
             # dynamic_cast_variable = original_variable;
-            ConstraintChecker(has_var_assignment),
+            ConstraintChecker(has_var_assignment, optional=True),
             # if (!( (u64)&`guard variable' & 1) && (u32)_cxa_guard_acquire_0(&`guard variable')
             ConstraintChecker(has_if),
+
+            # variant 2:
+            # if (original_variable) { ... } else { ... }
+            ConstraintChecker(has_second_if_else_for_variant_2),
         ], "dynamic_cast")
 
         self._types_to_set = [] # type: typing.List[typing.Tuple[int, idaapi.tinfo_t]]
