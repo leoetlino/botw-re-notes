@@ -52,6 +52,22 @@ class SARC:
     def list_files(self):
         return self._files.keys()
 
+    def is_archive(self, name: str) -> bool:
+        node = self._files[name]
+        size = node[1] - node[0]
+        if size < 4:
+            return False
+
+        magic: bytes = self._data[self._doff + node[0]:self._doff + node[0] + 4]
+        if magic == b"SARC":
+            return True
+        if magic == b"Yaz0":
+            if size < 0x15:
+                return False
+            fourcc: bytes = self._data[self._doff + node[0] + 0x11:self._doff + node[0] + 0x15]
+            return fourcc == b"SARC"
+        return False
+
     def get_file_data(self, name: str):
         node = self._files[name]
         return io.BytesIO(self._data[self._doff + node[0]:self._doff + node[1]])
