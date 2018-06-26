@@ -697,12 +697,71 @@ class StringAssignConstantTransformer(Transformer):
             ConstraintChecker(writes_null_char),
         ]
 
+
+class MemberFunctionRenamer(Transformer):
+    def run(self, vu, tree, parent): # type: (...) -> None
+        class ctx:
+            function_ea = 0
+            class_name = ""
+            instance_ptr_ea = 0
+
+        def recognise_call(c, p): # type: (...) -> bool
+            if c.op != hr.cot_call:
+                return False
+            if c.a.size() < 1:
+                return False
+
+            function = c.x
+            if function.op != hr.cot_obj:
+                return False
+            function_name = idaapi.get_name(function.obj_ea)
+            if not function_name.startswith("sub_") and "__auto" not in function_name:
+                return False
+
+            first_arg = unwrap_cast(c.a[0])
+            if first_arg.op != hr.cot_obj:
+                return False
+            name = idaapi.get_name(first_arg.obj_ea)
+            if not name or "::sInstance" not in name:
+                return False
+
+            ctx.function_ea = function.obj_ea
+            ctx.class_name = name.split("::sInstance")[0]
+            ctx.instance_ptr_ea = first_arg.obj_ea
+            return True
+
+        cv = ConstraintVisitor([ConstraintChecker(recognise_call)], "member_fn_renamer")
+        cv.match(tree, parent, lambda l: self._rename_function(ctx.function_ea, ctx.class_name, ctx.instance_ptr_ea))
+
+    def _rename_function(self, function_ea, class_name, instance_ptr_ea): # type: (int, str, int) -> None
+        i = 0
+        function_name = "%s::__auto%d" % (class_name, i)
+        while not idc.MakeNameEx(function_ea, function_name, idaapi.SN_NOWARN):
+            i += 1
+            function_name = "%s::__auto%d" % (class_name, i)
+
+        func_tinfo = idaapi.tinfo_t()
+        if not idaapi.get_tinfo2(function_ea, func_tinfo):
+            return
+
+        arg_tinfo = idaapi.tinfo_t()
+        idaapi.get_tinfo2(instance_ptr_ea, arg_tinfo)
+
+        func_data = idaapi.func_type_data_t()
+        func_tinfo.get_func_details(func_data)
+        func_data[0].type = arg_tinfo
+
+        new_func_tinfo = idaapi.tinfo_t()
+        new_func_tinfo.create_func(func_data)
+        idaapi.apply_tinfo2(function_ea, new_func_tinfo, idaapi.TINFO_DEFINITE)
+
 transformers = [
     StringCtorTransformer(),
     StringEqualsTransformer(),
     StringStartsWithTransformer(),
     StringAssignTransformer(),
     StringAssignConstantTransformer(),
+    MemberFunctionRenamer(),
 ]
 
 class sead_string_ah_t(ida_kernwin.action_handler_t):
