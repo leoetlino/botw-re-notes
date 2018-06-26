@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Originally made by NWPlayer123
 # Heavily edited to be usable as a library, handle little endian and fix broken yaz0 support
+import io
 import os
 import struct
 import sys
@@ -51,6 +52,10 @@ class SARC:
     def list_files(self):
         return self._files.keys()
 
+    def get_file_data(self, name: str):
+        node = self._files[name]
+        return io.BytesIO(self._data[self._doff + node[0]:self._doff + node[1]])
+
     def extract(self, archive_name: str) -> None:
         name, ext = os.path.splitext(archive_name)
         try: os.mkdir(name)
@@ -73,33 +78,34 @@ class SARC:
         end = self._data.find(_NUL_CHAR, offset)
         return self._data[offset:end].decode('utf-8')
 
-def read_file_and_make_sarc(file_name: str) -> typing.Optional[SARC]:
-    with open(file_name, "rb") as f:
-        magic: bytes = f.read(4)
-        if magic == b"Yaz0":
-            f.seek(0x11)
-            first_data_group_fourcc: bytes = f.read(4)
-            f.seek(0)
-            if first_data_group_fourcc != b"SARC":
-                return None
-            data = yaz0.decompress(f)
-        elif magic == b"SARC":
-            f.seek(0)
-            data = f.read()
-        else:
+def read_file_and_make_sarc(f: typing.BinaryIO) -> typing.Optional[SARC]:
+    f.seek(0)
+    magic: bytes = f.read(4)
+    if magic == b"Yaz0":
+        f.seek(0x11)
+        first_data_group_fourcc: bytes = f.read(4)
+        f.seek(0)
+        if first_data_group_fourcc != b"SARC":
             return None
-        return SARC(data)
+        data = yaz0.decompress(f)
+    elif magic == b"SARC":
+        f.seek(0)
+        data = f.read()
+    else:
+        return None
+    return SARC(data)
 
 def extract() -> None:
     if len(sys.argv) != 2:
         sys.stderr.write("Usage: SARCExtract archive.szs\n")
         sys.exit(1)
 
-    s = read_file_and_make_sarc(sys.argv[1])
-    if not s:
-        sys.stderr.write("Unknown File Format!\n")
-        sys.exit(1)
-    s.extract(sys.argv[1])
+    with open(sys.argv[1], "rb") as f:
+        s = read_file_and_make_sarc(f)
+        if not s:
+            sys.stderr.write("Unknown File Format!\n")
+            sys.exit(1)
+        s.extract(sys.argv[1])
 
 if __name__ == "__main__":
     extract()
