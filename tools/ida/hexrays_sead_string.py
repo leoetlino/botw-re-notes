@@ -781,7 +781,7 @@ class DynamicCastTransformer(Transformer):
         def has_var_assignment(c, p): # type: (...) -> bool
             if c.op != hr.cot_asg:
                 return False
-            if c.x.op != hr.cot_var or c.y.op != hr.cot_var:
+            if c.x.op != hr.cot_var or unwrap_cast(c.y).op != hr.cot_var:
                 return False
             ctx.dynamic_cast_var = my_cexpr_t(c.x)
             ctx.original_var = my_cexpr_t(c.y)
