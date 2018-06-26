@@ -755,6 +755,153 @@ class MemberFunctionRenamer(Transformer):
         new_func_tinfo.create_func(func_data)
         idaapi.apply_tinfo2(function_ea, new_func_tinfo, idaapi.TINFO_DEFINITE)
 
+
+class DynamicCastTransformer(Transformer):
+    def run(self, vu, tree, parent): # type: (...) -> None
+        class ctx:
+            dynamic_cast_var = None
+            original_var = None
+            type_info_obj = None
+
+        def has_ldar_guard_variable(c, p): # type: (...) -> bool
+            if c.op != hr.cot_asg:
+                return False
+            lhs = c.x
+            rhs = c.y
+            if lhs.op != hr.cot_var:
+                return False
+            if rhs.op != hr.cot_call:
+                return False
+            if rhs.x.op != hr.cot_helper or str(rhs.x.helper) != "__ldar":
+                return False
+            if rhs.a.size() != 1:
+                return False
+            return True
+
+        def has_var_assignment(c, p): # type: (...) -> bool
+            if c.op != hr.cot_asg:
+                return False
+            if c.x.op != hr.cot_var or c.y.op != hr.cot_var:
+                return False
+            ctx.dynamic_cast_var = my_cexpr_t(c.x)
+            ctx.original_var = my_cexpr_t(c.y)
+            return True
+
+        def has_if(c, p): # type: (...) -> bool
+            if c.op != hr.cit_if:
+                return False
+            expr = c.cif.expr
+            if expr.op != hr.cot_land:
+                return False
+
+            lhs = expr.x # !( (u64)&`guard variable' & 1 )
+            if lhs.op != hr.cot_lnot:
+                return False
+            negated_expr = lhs.x
+            if negated_expr.op != hr.cot_band:
+                return False
+            if not is_number(negated_expr.y, 1):
+                return False
+            if negated_expr.x.op != hr.cot_cast:
+                return False
+            if negated_expr.x.x.op != hr.cot_ref:
+                return False
+            if negated_expr.x.x.x.op != hr.cot_obj:
+                return False
+
+            call = unwrap_cast(expr.y) # _cxa_guard_acquire_0(&`guard variable')
+            if call.op != hr.cot_call:
+                return False
+            if call.a.size() != 1:
+                return False
+            if call.x.op != hr.cot_obj:
+                return False
+            if not idaapi.get_func_name(call.x.obj_ea).startswith("__cxa_guard_acquire"):
+                return False
+
+            if c.cif.ielse:
+                return False
+
+            # Check the if body.
+            def has_assignment_to_rtti_var(c, p): # type: (...) -> bool
+                if c.op != hr.cot_asg:
+                    return False
+                if c.x.op != hr.cot_obj:
+                    return False
+                if unwrap_cast(c.y).op != hr.cot_ref and unwrap_cast(c.y).op != hr.cot_obj:
+                    return False
+                ctx.type_info_obj = my_cexpr_t(c.x)
+                return True
+
+            def releases_guard_variable(c, p): # type: (...) -> bool
+                if c.op != hr.cot_call:
+                    return False
+                if c.a.size() != 1:
+                    return False
+                if c.x.op != hr.cot_obj:
+                    return False
+                if not idaapi.get_func_name(c.x.obj_ea).startswith("__cxa_guard_release"):
+                    return False
+                return True
+
+            return ConstraintVisitor([
+                # sead::DirectResource::getRuntimeTypeInfoStatic(void)::typeInfo = (__int64)&off_71023588A0;
+                ConstraintChecker(has_assignment_to_rtti_var),
+                # _cxa_guard_release_0(&`guard variable');
+                ConstraintChecker(releases_guard_variable),
+            ], "dynamic_cast.if").check(c.cif.ithen, c)
+
+        cv = ConstraintVisitor([
+            # v7 = __ldar( (u8*)&`guard variable' );
+            ConstraintChecker(has_ldar_guard_variable),
+            # dynamic_cast_variable = original_variable;
+            ConstraintChecker(has_var_assignment),
+            # if (!( (u64)&`guard variable' & 1) && (u32)_cxa_guard_acquire_0(&`guard variable')
+            ConstraintChecker(has_if),
+        ], "dynamic_cast")
+
+        self._types_to_set = [] # type: typing.List[typing.Tuple[int, idaapi.tinfo_t]]
+        cv.match(tree, parent, lambda l: self._replace_with_check_helper(ctx, l))
+
+        for vidx, typeinfo in self._types_to_set:
+            vu.set_lvar_type(vu.cfunc.get_lvars()[vidx], typeinfo)
+
+        # Setting variable types resets the ctree, so transform the ctree one more time,
+        # but don't modify variables this time.
+        cv.match(tree, parent, lambda l: self._replace_with_check_helper(ctx, l))
+
+    def _replace_with_check_helper(self, ctx, l): # type: (...) -> None
+        type_name_ea = ctx.type_info_obj.obj_ea
+        name = idaapi.demangle_name(idaapi.get_name(type_name_ea), 0)
+        if not name:
+            name = idaapi.get_name(type_name_ea)
+
+        type_name = name
+        var_type = None
+        if "::getRuntimeTypeInfoStatic(void)::typeInfo" in name:
+            type_name = name.split("::getRuntimeTypeInfoStatic(void)::typeInfo")[0]
+            var_type = idaapi.tinfo_t()
+            idaapi.parse_decl2(idaapi.cvar.idati, type_name + "*;", var_type, idaapi.PT_TYP)
+            if not str(var_type):
+                var_type = None
+
+        call_expr = make_helper_call("void*", "dynamic_cast<" + type_name + ">", ["void*"])
+        call_expr.a.push_back(make_carg_t(ctx.original_var))
+
+        asg_expr = hr.cexpr_t()
+        asg_expr.op = hr.cot_asg
+        asg_expr.x = hr.cexpr_t()
+        asg_expr.x.assign(ctx.dynamic_cast_var)
+        asg_expr.y = call_expr
+        asg_expr.type = var_type if var_type else idaapi.tinfo_t(idaapi.BT_VOID)
+
+        if var_type:
+            self._types_to_set.append((ctx.dynamic_cast_var.v.idx, var_type))
+
+        replace_expr_with(l[0].cexpr, asg_expr)
+        for item in l[1:]:
+            item.cleanup()
+
 transformers = [
     StringCtorTransformer(),
     StringEqualsTransformer(),
@@ -762,6 +909,9 @@ transformers = [
     StringAssignTransformer(),
     StringAssignConstantTransformer(),
     MemberFunctionRenamer(),
+    # Before you get too excited, no, Nintendo uses a custom RTTI implementation
+    # which does NOT include class names :/
+    DynamicCastTransformer(),
 ]
 
 class sead_string_ah_t(ida_kernwin.action_handler_t):
