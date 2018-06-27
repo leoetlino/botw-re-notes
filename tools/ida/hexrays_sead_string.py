@@ -220,6 +220,8 @@ class StringStartsWithTransformer(Transformer):
                 cv = ConstraintVisitor([ConstraintChecker(has_while)], "compare.2b")
                 if not cv.check(c.cif.ielse, c):
                     return False
+                if c.cif.ielse.cblock.back().op == hr.cit_if:
+                    return False
             else:
                 def has_string_assignment(c, p): # type: (...) -> bool
                     if c.op != hr.cot_asg:
