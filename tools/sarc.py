@@ -111,17 +111,22 @@ def read_file_and_make_sarc(f: typing.BinaryIO) -> typing.Optional[SARC]:
         return None
     return SARC(data)
 
-def extract() -> None:
-    if len(sys.argv) != 2:
-        sys.stderr.write("Usage: SARCExtract archive.szs\n")
-        sys.exit(1)
-
-    with open(sys.argv[1], "rb") as f:
+def main(args) -> None:
+    with open(args.sarc, "rb") as f:
         s = read_file_and_make_sarc(f)
         if not s:
             sys.stderr.write("Unknown File Format!\n")
             sys.exit(1)
-        s.extract(sys.argv[1])
+        if args.list:
+            for file in sorted(s.list_files()):
+                print(file)
+        else:
+            s.extract(args.sarc)
 
 if __name__ == "__main__":
-    extract()
+    import argparse
+    parser = argparse.ArgumentParser(description='Tool to extract or list files in a SARC archive.')
+    parser.add_argument('sarc', help='Path to a SARC archive')
+    parser.add_argument('-l', '--list', action='store_true', help='List files instead of extracting. Defaults to false.')
+    args = parser.parse_args()
+    main(args)
