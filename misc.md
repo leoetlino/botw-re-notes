@@ -96,7 +96,7 @@ Derived from `sead::DirectResourceFactoryBase` -> `sead::ResourceFactory` -> `se
 After the usual DirectResourceFactory functions, EntryFactory(Base) has two extra functions
 that return constant values:
 
-| Factory | Constant A | Constant B | Other extensions
+| Factory | sizeof(ResourceClass) | Load Data Alignment | Other extensions
 | --- | --- | --- | --- |
 | Base | 0x20 | 8 | (none)
 | sarc | 0x68 | 0x80 | bactorpack, bmodelsh, beventpack, stera, stats
