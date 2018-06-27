@@ -284,6 +284,26 @@ class StringEqualsTransformer(Transformer):
             items_to_delete = [] # type: list
             this_string_item = None
             constant_item = None
+            is_equal_variant = False
+            sead_string = None # type: typing.Optional[hr.cexpr_t]
+            if_statement = None # type: typing.Optional[hr.cexpr_t]
+
+        def has_assure_termination(c, p): # type: (...) -> bool
+            sead_string = get_safestring_from_assuretermination_call(c)
+            if not sead_string:
+                return False
+            ctx.sead_string = my_cexpr_t(sead_string)
+            ctx.items_to_delete.append(vu.cfunc.body.find_parent_of(c).to_specific_type)
+            return True
+
+        def has_cstr_variable(c, p): # type: (...) -> bool
+            sead_string = get_safestring_from_cstr_access(c)
+            if not sead_string:
+                return False
+            if not ctx.sead_string:
+                ctx.sead_string = my_cexpr_t(sead_string)
+            ctx.items_to_delete.append(vu.cfunc.body.find_parent_of(c).to_specific_type)
+            return True
 
         def has_if(c, p): # type: (...) -> bool
             if c.op != hr.cit_if:
@@ -294,6 +314,7 @@ class StringEqualsTransformer(Transformer):
                 return False
             if not idaapi.is_strlit(idaapi.get_flags(rhs.obj_ea)):
                 return False
+            ctx.if_statement = c.cif
             ctx.this_string_item = my_cexpr_t(lhs)
             ctx.constant_item = my_cexpr_t(rhs)
 
@@ -310,28 +331,55 @@ class StringEqualsTransformer(Transformer):
                 if c.op != hr.cit_do:
                     return False
                 # don't bother matching the loop body -- just match the condition expression
-                if c.cdo.expr.op != hr.cot_sle and c.cdo.expr.op != hr.cot_ule:
+                if c.cdo.expr.x.op != hr.cot_var:
                     return False
-                if c.cdo.expr.x.op != hr.cot_var or not is_number(c.cdo.expr.y, 0x80000):
+                if c.cdo.expr.op == hr.cot_sle or c.cdo.expr.op == hr.cot_ule:
+                    if not is_number(c.cdo.expr.y, 0x80000):
+                        return False
+                elif c.cdo.expr.op == hr.cot_slt or c.cdo.expr.op == hr.cot_ult:
+                    if not is_number(c.cdo.expr.y, 0x80001):
+                        return False
+                else:
                     return False
                 ctx.items_to_delete.append(c)
                 return True
 
-            return ConstraintVisitor([
+            last_item_in_then = c.cif.ithen.cblock.back()
+            if last_item_in_then.op != hr.cit_goto:
+                ctx.is_equal_variant = False
+                return ConstraintVisitor([
+                    ConstraintChecker(has_counter),
+                    ConstraintChecker(has_do_while),
+                ], "equals.inner").check(c.cif.ithen, c)
+            # Otherwise, look after the if.
+            ctx.is_equal_variant = True
+            p.add_temp_constraints([
                 ConstraintChecker(has_counter),
                 ConstraintChecker(has_do_while),
-            ], "equals.inner").check(c.cif.ithen, c)
+            ])
+            return True
 
-        cv = ConstraintVisitor([ConstraintChecker(has_if)], "equals")
+        cv = ConstraintVisitor([
+            ConstraintChecker(has_assure_termination, optional=True),
+            ConstraintChecker(has_assure_termination, optional=True),
+            ConstraintChecker(has_cstr_variable, optional=True),
+            ConstraintChecker(has_if),
+        ], "equals")
         cv.match(tree, parent, lambda l: self._on_match(ctx, l))
 
     def _on_match(self, ctx, matched_items):  # type: (...) -> None
-        cif = matched_items[0].cif
+        if ctx.sead_string:
+            eq = make_helper_call("bool", "sead::SafeString::equals" if ctx.is_equal_variant else "sead::SafeString::notEquals",
+                                  ["const sead::SafeString& lhs", "const char* rhs"])
+            eq.a.push_back(make_carg_t(ctx.sead_string))
+            eq.a.push_back(make_carg_t(ctx.constant_item))
+        else:
+            eq = make_helper_call("bool", "stringEquals" if ctx.is_equal_variant else "stringNotEquals",
+                                  ["const char* lhs", "const char* rhs"])
+            eq.a.push_back(make_carg_t(ctx.this_string_item))
+            eq.a.push_back(make_carg_t(ctx.constant_item))
 
-        eq = make_helper_call("bool", "stringNotEquals", ["const char* lhs", "const char* rhs"])
-        eq.a.push_back(make_carg_t(ctx.this_string_item))
-        eq.a.push_back(make_carg_t(ctx.constant_item))
-        replace_expr_with(cif.expr, eq)
+        replace_expr_with(ctx.if_statement.expr, eq)
 
         for item in ctx.items_to_delete:
             item.cleanup()
