@@ -507,9 +507,10 @@ class StringAssignTransformer(Transformer):
         def has_cstr_assignment(c, p): # type: (...) -> bool
             if c.op != hr.cot_asg:
                 return False
-            if c.x.op != hr.cot_var or c.y.op != hr.cot_add:
+            rhs = unwrap_cast(c.y)
+            if c.x.op != hr.cot_var or rhs.op != hr.cot_add:
                 return False
-            if not is_number(c.y.y, 1):
+            if not is_number(rhs.y, 1):
                 return False
             return True
 
@@ -630,7 +631,6 @@ class StringAssignConstantTransformer(Transformer):
             dst_str_item = None
             dst_cstr_vidx = None # type: typing.Optional[int]
             constant_item = None
-            length_vidx = None # type: typing.Optional[int]
 
         def has_dst_cstr_variable(c, p): # type: (...) -> bool
             ctx.dst_str_item = get_safestring_from_cstr_access(c)
@@ -652,7 +652,7 @@ class StringAssignConstantTransformer(Transformer):
 
             lhs = c.cif.expr.x
             rhs = c.cif.expr.y
-            if not is_variable(lhs, ctx.dst_cstr_vidx) or rhs.op != hr.cot_obj:
+            if rhs.op != hr.cot_obj:
                 return False
 
             if not idaapi.is_strlit(idaapi.get_flags(rhs.obj_ea)):
@@ -665,6 +665,8 @@ class StringAssignConstantTransformer(Transformer):
         cv = ConstraintVisitor([
             # dst_cstr = dst_str.cstr; OR dst_str->cstr
             ConstraintChecker(has_dst_cstr_variable),
+            # [optional assignment]
+            ConstraintChecker(lambda c, p: c.op == hr.cot_asg, optional=True),
             # Part 2 checks
             ConstraintChecker(has_part_2),
         ], "assign_const")
@@ -702,14 +704,13 @@ class StringAssignConstantTransformer(Transformer):
         def has_length_assignment(c, p): # type: (...) -> bool
             if c.op != hr.cot_asg or c.x.op != hr.cot_var:
                 return False
-            ctx.length_vidx = c.x.v.idx
             return True
 
         def has_if(c, p): # type: (...) -> bool
             if c.op != hr.cit_if or (c.cif.expr.op != hr.cot_sge and c.cif.expr.op == hr.cot_uge):
                 return False
             rhs = unwrap_cast(c.cif.expr.y)
-            return is_variable(rhs, ctx.length_vidx)
+            return rhs.op == hr.cot_var or rhs.op == hr.cot_memptr or rhs.op == hr.cot_memref
 
         def has_assignment(c, p): # type: (...) -> bool
             if c.op != hr.cot_asg or c.x.op != hr.cot_var or unwrap_cast(c.y).op != hr.cot_var:
@@ -740,7 +741,7 @@ class StringAssignConstantTransformer(Transformer):
 
         return [
             ConstraintChecker(has_for_loop),
-            ConstraintChecker(has_length_assignment),
+            ConstraintChecker(has_length_assignment, optional=True),
             ConstraintChecker(has_if),
             ConstraintChecker(has_assignment, optional=True),
             ConstraintChecker(has_memcpy),
