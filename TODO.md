@@ -34,3 +34,8 @@ What are the conditions for one-hit kill protection to apply?
 NoDeathDamageBase (in Link's bgparam) might be related.
 
 Also worth noting that this is gone in Master Mode.
+
+## Master Cycle Zero
+- Is it possible to remove the area limitations? (i.e. use the MCZ in the desert)
+
+- Why is it possible to use runes that are obtained from a chest, but not the MCZ?
