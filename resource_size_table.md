@@ -75,22 +75,26 @@ The RSTB is used differently depending on the subsystem:
 * VfxResourceMgr, when loading Effect/%s.esetlist files: must not be zero.
 
 * bfres loading code at 0x7100FE3978 (v1.5.0): unclear, but must not be zero.
-It appears to check whether the file size listed in the RSTB is higher than some other value.
+It appears to check whether the file size listed in the RSTB is larger than the heap size.
 
-* res::ResourceMgrTask code at 0x710120BDE0 (v1.5.0) possibly called during resource load:
-unclear, but must not be zero. It appears to check whether the file size listed in the
-RSTB is higher than some other value.
+* res::ResourceMgrTask::getHeapSizeForResLoad (0x710120BDE0 in v1.5.0): called during resource load.
 
 ```c++
-if ( somePtr + 0x40 <= rstbSize )
-{
-  *(_DWORD *)(arg1 + 4) = ptr2 + rstbSize + 8;
-}
+constant = 0x128 + 0x40;
+if (auto* entry_factory = dynamic_cast<res::EntryFactoryBase>(factory))
+  resSize2 = entry_factory->getResourceSize(param->factory) + constant;
 else
-{
-  *(_DWORD *)(arg1 + 4) = (unsigned int)(float)(unsigned int)(ptr2 + somePtr + 0x48);
-}
+  resSize2 = sizeof(sead::DirectResource) + constant; // 0x20 + 0x168 = 0x188
+
+totalSize = in->allocSize + resSize2;  // in this branch, in->allocSize seems to be always zero...
+if (totalSize <= sizeInTable)
+  out->readHeapSize = loadDataAlignment + sizeInTable + sizeof(void*);
+else
+  out->readHeapSize = (unsigned int)(float)(loadDataAlignment + totalSize + sizeof(void*));
 ```
+
+Unclear what the 0x40 is. Note that the values are also different in the Wii U version
+where constant is 0xe4 and sizeof(sead::DirectResource) is 0x14.
 
 * 0x7100FE1630 (v1.5.0): unclear.
 If the file is loaded by the resource memory or loading thread, or if the file size listed in
