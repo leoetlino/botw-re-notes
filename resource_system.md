@@ -16,7 +16,11 @@ This class is the base class for all object factories that are specific to *Brea
 
 Derived from `sead::DirectResourceFactoryBase` -> `sead::ResourceFactory` -> `sead::TListNode<sead::ResourceFactory*>` -> `sead::ListNode`, `sead::IDisposer`
 
-Complete list (v1.5.0 on Switch):
+### Complete list
+
+These values were extracted from the Switch 1.5.0 executable.
+
+#### Factories - General
 
 | Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
 | --- | --- | --- | --- | --- | --- |
@@ -39,6 +43,10 @@ Complete list (v1.5.0 on Switch):
 | bmscdef | 0x2a8 | 4 | (none) | 1 | 0 |
 | bars | 0xb0 | 0x80 | (none) | 1 | 0 |
 
+#### Factories - ActorParam
+
+| Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
+| --- | --- | --- | --- | --- | --- |
 | bxml | 0x778 | 4 | (none) | 1 | 0x1000 |
 | bgparamlist | 0x2c0 | 4 | (none) | 1 | 0xd318 + 0x800 |
 | bmodellist | 0x7d0 | 4 | (none) | 2 | 0 |
@@ -66,6 +74,10 @@ Complete list (v1.5.0 on Switch):
 | byaml | 0x20 | 4 | (none, this won't match 'byml') | 1 | 0 |
 | bassetting | 0x260 | 4 | (none) | 0 | 0x80000 |
 
+#### Factories - Physics
+
+| Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
+| --- | --- | --- | --- | --- | --- |
 | hkrb | 0x20 | 4 | (none) | 1 | 0x400 |
 | hkrg | 0x20 | 4 | (none) | 1 | 0x400 |
 | hkphyssb | 0x5b0 | 4 | (none) | 1 | 0x100000 |
@@ -74,6 +86,10 @@ Complete list (v1.5.0 on Switch):
 | hktmrb | 0x48 | 4 | (none) | 1 | 0x800 |
 | brgcon | 0x48 | 4 | (none) | 1 | 0x4000 |
 
+#### Factories - Misc 2
+
+| Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
+| --- | --- | --- | --- | --- | --- |
 | esetlist | 0x38 | 0x4000 | (none) | 1 | 0 |
 | bdemo | 0xb20 | 4 | (none) | 1 | 0xb20 |
 | bfevfl | 0x40 | 4 | (none) | 1 | 0x40 |
