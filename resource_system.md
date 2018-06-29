@@ -113,18 +113,18 @@ On the Wii U, sizeof(ResourceBase) = 0x20.
 To load from an archive, set the global resource pack pointer
 (`res::ResourceMgrTask::sInstance->packRes` @ this+0x9c06f0).
 
-Calls to any of the resource loading functions will automatically check whether the
-specified resource exists in the archive. (The resource system gets a sead::ArchiveRes*
-from the resource struct and calls sead::ArchiveRes::getFileImpl() to check.))
-
-If it is, it will be loaded from the archive. (The ResourceBinder will store
-the sead::ArchiveRes pointer.)
-
 The game does not namespace archive contents: they can be accessed as if they were at the
 root of the romfs/content partition.
 
+Calls to any of the resource loading functions will automatically check whether the
+specified resource exists in the archive. (The resource system gets a sead::ArchiveRes*
+from the resource struct and calls sead::ArchiveRes::getFileImpl() to check.)
+
+If it does exist, it will be loaded from the archive.
+(The ResourceBinder will store a `sead::ArchiveRes*`.)
+
 If the file cannot be found in the archive, the game will ignore the active resource pack
-and load from the usual file device.
+and load from the regular file device.
 
 ## Resource Size Table
 
