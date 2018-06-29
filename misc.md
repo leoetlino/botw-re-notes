@@ -96,32 +96,36 @@ Derived from `sead::DirectResourceFactoryBase` -> `sead::ResourceFactory` -> `se
 After the usual DirectResourceFactory functions, EntryFactory(Base) has two extra functions
 that return constant values:
 
-| Factory | sizeof(ResourceClass) | Load Data Alignment | Other extensions
-| --- | --- | --- | --- |
-| Base | 0x20 | 8 | (none)
-| sarc | 0x68 | 0x80 | bactorpack, bmodelsh, beventpack, stera, stats
-| bfres | 0x1a8 | 0x1000 | bfres
-| tex.bfres | 0x38 | 4 | Tex.bfres, Tex{1,2}.bfres, Tex1.{1,2,3,4}.bfres |
-| bcamanim | 0x50 | 0x2000 | |
-| batpl, bnfprl (U?) | 0x40 | 4 | |
-| bplacement (U?) | 0x48 | 4 | |
-| hks, lua (U?) | 0x38 | 4 | |
-| bactcapt (U?) | 0x538 | 4 | |
-| bitemico | 0x60 | 0x2000 | |
-| jpg | 0x80 | 0x2000 | |
-| bmaptex | 0x60 | 0x2000 | |
-| bmapopen, breviewtex, bstftex | 0x60 | 0x2000 | |
-| bgdata | 0x140 | 4 | |
-| bgsvdata | 0x38 | 4 | |
-| hknm2 | 0x48 | 4 | |
-| bmscdef | 0x2a8 | 4 | |
-| bars | 0xb0 | 0x80 | |
-| bdemo | 0xb20 | 4 | |
-| bfevfl | 0x40 | 4 | |
-| bfevtm | 0x40 | 4 | |
-| esetlist | 0x38 | 0x4000 |
-| bassetting | 0x260 | 4 | |
-| byaml | 0x20 | 4 | |
-| baniminfo | 0x2c8 | 4 | |
+| Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
+| --- | --- | --- | --- | --- | --- |
+| Base | 0x20 | 8 | (none) | | |
+| ResourceBase | 0x38 (0x20 on Wii U) | 4 | specifically: Tex.bfres, Tex{1,2}.bfres, Tex1.{1,2,3,4}.bfres, and any resource type without its own factory | 1.0 | 0 |
+| sarc | 0x68 | 0x80 | bactorpack, bmodelsh, beventpack, stera, stats | | |
+| bfres | 0x1a8 | 0x1000 | bfres| | |
+| bcamanim | 0x50 | 0x2000 | | | |
+| batpl, bnfprl (U?) | 0x40 | 4 | | | |
+| bplacement (U?) | 0x48 | 4 | | | |
+| hks, lua (U?) | 0x38 | 4 | | | |
+| bactcapt (U?) | 0x538 | 4 | | | |
+| bitemico | 0x60 | 0x2000 | | | |
+| jpg | 0x80 | 0x2000 | | | |
+| bmaptex | 0x60 | 0x2000 | | | |
+| bmapopen, breviewtex, bstftex | 0x60 | 0x2000 | | | |
+| bgdata | 0x140 | 4 | | | |
+| bgsvdata | 0x38 | 4 | | | |
+| hknm2 | 0x48 | 4 | | | |
+| bmscdef | 0x2a8 | 4 | | | |
+| bars | 0xb0 | 0x80 | | | |
+| bdemo | 0xb20 | 4 | | | |
+| bfevfl | 0x40 | 4 | | | |
+| bfevtm | 0x40 | 4 | | | |
+| esetlist | 0x38 | 0x4000 | | |
+| bassetting | 0x260 | 4 | | | |
+| byaml | 0x20 | 4 | | | |
+| baniminfo | 0x2c8 | 4 | | | |
 
 (this list is incomplete: it's missing tons of factories that are registered in `ActorParam::init`)
+
+For ResourceLoadArg3 (used in model/bfres related code), the factory is hardcoded to be the ResourceBase factory.
+
+For ResourceLoadArg2 (used for actor resources and physics stuff) and ResourceLoadArg (everything else), the factory is determined from the file extension.
