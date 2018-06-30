@@ -8,7 +8,7 @@ import typing
 
 import rstb
 import sarc
-import yaz0
+import yaz0_util
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Parses a RSTB (Resource Size TaBle) file.')
@@ -26,7 +26,7 @@ def parse_args():
 
 def read_rstb(content_dir: str, be: bool) -> rstb.ResourceSizeTable:
     with open("%s/System/Resource/ResourceSizeTable.product.srsizetable" % content_dir, "rb") as file:
-        buf = yaz0.decompress(file)
+        buf = yaz0_util.decompress(file.read())
         return rstb.ResourceSizeTable(buf, be)
 
 def get_name_and_extension(path: str):

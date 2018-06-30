@@ -7,7 +7,7 @@ import struct
 import sys
 import typing
 
-import yaz0
+import yaz0_util
 
 def _get_unpack_endian_character(big_endian: bool):
     return '>' if big_endian else '<'
@@ -103,7 +103,7 @@ def read_file_and_make_sarc(f: typing.BinaryIO) -> typing.Optional[SARC]:
         f.seek(0)
         if first_data_group_fourcc != b"SARC":
             return None
-        data = yaz0.decompress(f)
+        data = yaz0_util.decompress(f.read())
     elif magic == b"SARC":
         f.seek(0)
         data = f.read()
