@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+import argparse
+import io
+import sys
+import typing
+
+import rstb
+import yaz0_util
+
+def read_rstb(path_to_rstb: str, be: bool) -> rstb.ResourceSizeTable:
+    with open(path_to_rstb, 'rb') as file:
+        buf = yaz0_util.decompress(file.read())
+        return rstb.ResourceSizeTable(buf, be)
+
+def write_rstb(table: rstb.ResourceSizeTable, path_to_rstb: str, be: bool) -> None:
+    buf = io.BytesIO()
+    table.write(buf, be)
+    buf.seek(0)
+    with open(path_to_rstb, 'wb+') as file:
+        file.write(yaz0_util.compress(buf.read()))
+
+def rstb_get(args, table: rstb.ResourceSizeTable) -> None:
+    size = table.get_size(args.name)
+    if size != 0:
+        print('%s: %d bytes (0x%08x)' % (args.name, size, size))
+    else:
+        sys.stderr.write('%s: not in table\n' % args.name)
+        sys.exit(2)
+
+def rstb_set(args, table: rstb.ResourceSizeTable) -> None:
+    if not table.is_in_table(args.name):
+        sys.stderr.write('%s: not in table\n' % args.name)
+        sys.exit(1)
+
+    table.set_size(args.name, args.size)
+    write_rstb(table, args.rstb, args.be)
+
+def rstb_add(args, table: rstb.ResourceSizeTable) -> None:
+    if table.is_in_table(args.name):
+        sys.stderr.write('%s: already in table\n' % args.name)
+        sys.exit(3)
+
+    table.set_size(args.name, args.size)
+    write_rstb(table, args.rstb, args.be)
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='A tool to manipulate the RSTB (Resource Size TaBle).')
+    parser.add_argument('rstb', help='Path to a Breath of the Wild RSTB (yaz0 compressed)')
+    parser.add_argument('-b', '--be', action='store_true', help='Use big endian. Defaults to false.')
+
+    subparsers = parser.add_subparsers(dest='command', help='Command')
+    subparsers.required = True
+
+    get_parser = subparsers.add_parser('get', description='Get a resource size from the table')
+    get_parser.add_argument('name', help='Resource name')
+    get_parser.set_defaults(func=rstb_get)
+
+    set_parser = subparsers.add_parser('set', description='Edit an existing entry in the table')
+    set_parser.add_argument('name', help='Resource name')
+    set_parser.add_argument('size', type=lambda n: int(n, 0), help='Resource size')
+    set_parser.set_defaults(func=rstb_set)
+
+    add_parser = subparsers.add_parser('add', description='Add a new entry to the table')
+    add_parser.add_argument('name', help='Resource name')
+    add_parser.add_argument('size', type=lambda n: int(n, 0), help='Resource size')
+    add_parser.set_defaults(func=rstb_add)
+
+    args = parser.parse_args()
+    table = read_rstb(args.rstb, args.be)
+    args.func(args, table)
