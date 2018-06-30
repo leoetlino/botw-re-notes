@@ -3,24 +3,12 @@ import argparse
 import binascii
 import csv
 import os
-import struct
 import sys
 import typing
 
+import rstb
 import sarc
 import yaz0
-
-def _get_unpack_endian_character(big_endian: bool):
-    return '>' if big_endian else '<'
-
-_NUL_CHAR = b"\x00"
-def _read_u32(buf: bytes, offset: int, be: bool) -> int:
-    return struct.unpack_from(_get_unpack_endian_character(be) + 'I', buf, offset)[0]
-def _read_string(buf: bytes, offset: int, be: bool, max_length: int = 0) -> str:
-    end = buf.find(_NUL_CHAR, offset)
-    if max_length:
-        end = min(end, offset + max_length)
-    return buf[offset:end].decode('utf-8')
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Parses a RSTB (Resource Size TaBle) file.')
@@ -36,24 +24,10 @@ def parse_args():
 
     return args
 
-def read_rstb(content_dir: str, be: bool):
-    crc32_map_bytes: typing.Optional[bytes] = None
-    name_map_bytes: typing.Optional[bytes] = None
+def read_rstb(content_dir: str, be: bool) -> rstb.ResourceSizeTable:
     with open("%s/System/Resource/ResourceSizeTable.product.srsizetable" % content_dir, "rb") as file:
         buf = yaz0.decompress(file)
-        if buf[0:4] != b"RSTB":
-            crc32_map_bytes = buf
-        else:
-            crc32_map_size = _read_u32(buf, 4, be)
-            crc32_map_end = 12 + crc32_map_size*8
-            if crc32_map_size >= 1:
-                crc32_map_bytes = buf[12:crc32_map_end]
-
-            name_map_size = _read_u32(buf, 8, be)
-            if name_map_size >= 1:
-                name_map_bytes = buf[crc32_map_end:crc32_map_end+name_map_size*132]
-
-    return (crc32_map_bytes, name_map_bytes)
+        return rstb.ResourceSizeTable(buf, be)
 
 def get_name_and_extension(path: str):
     res_name_without_ext, ext = os.path.splitext(path)
@@ -110,25 +84,19 @@ def main() -> None:
     args = parse_args()
     content_dir = args.content_dir
 
-    crc32_map_bytes, name_map_bytes = read_rstb(content_dir, args.be)
+    table = read_rstb(content_dir, args.be)
     crc32_to_name_map = make_crc32_to_name_map(content_dir)
 
-    entries: typing.List[typing.Tuple[int, str, str, int]] = []
+    entries: typing.List[typing.Tuple[str, str, str, int]] = []
 
-    if crc32_map_bytes:
-        for i in range(int(len(crc32_map_bytes) / 8)):
-            crc32 = _read_u32(crc32_map_bytes, 8*i + 0, args.be)
-            size = _read_u32(crc32_map_bytes, 8*i + 4, args.be)
-            names = crc32_to_name_map.get(crc32, ("(unknown)", "(none)"))
-            entries.append((crc32, names[0], names[1], size))
+    for crc32, size in table.crc32_map.items():
+        names = crc32_to_name_map.get(crc32, ("(unknown)", "(unknown)"))
+        entries.append(("0x%08x" % crc32, names[0], names[1], size))
 
-    if name_map_bytes:
-        for i in range(int(len(name_map_bytes) / 132)):
-            name = _read_string(name_map_bytes, 132*i + 0, args.be, 128)
-            size = _read_u32(name_map_bytes, 132*i + 128, args.be)
-            entries.append((crc32, name, "(none)", size))
+    for name, size in table.name_map.items():
+        entries.append(("0x%08x" % binascii.crc32(name.encode()), name, "(unknown)", size))
 
-    write_csv(args.csv, ["Hash", "Name", "Size"], entries)
+    write_csv(args.csv, ["Hash", "Name", "Full path", "Size"], entries)
 
 if __name__ == "__main__":
     main()
