@@ -108,6 +108,17 @@ For ResourceLoadArg2 (used for actor resources and physics stuff) and ResourceLo
 ResourceBase objects are nothing more than a thin wrapper over the underlying file bytes.
 On the Wii U, sizeof(ResourceBase) = 0x20.
 
+## Loading compressed files
+
+To load compressed files, make sure the extension of the resource file starts with an 's'.
+This prefix indicates the file is yaz0 compressed.
+
+When calling the resource loading functions, drop the s from the path.
+
+The resource system appears to always prepend 's' to the extension and use
+`sead::ResourceMgr::tryLoadWithDecomp` to try loading a compressed version first, before
+falling back to the specified path.
+
 ## Loading from archives
 
 To load from an archive, set the global resource pack pointer
