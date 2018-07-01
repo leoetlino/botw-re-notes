@@ -13,6 +13,7 @@ import yaz0_util
 def parse_args():
     parser = argparse.ArgumentParser(description='Parses a RSTB (Resource Size TaBle) file.')
     parser.add_argument('content_dir', help='Path to a Breath of the Wild content root')
+    parser.add_argument('--aoc', help='Path to a Breath of the Wild AoC root')
     parser.add_argument('-b', '--be', action='store_true', help='Use big endian. Defaults to false.')
     parser.add_argument('--csv', type=argparse.FileType('w'), nargs='?',
                         help='Path to output CSV for size information')
@@ -20,6 +21,10 @@ def parse_args():
 
     if not os.path.isdir(args.content_dir):
         sys.stderr.write("%s is not actually a dir\n" % args.content_dir)
+        sys.exit(1)
+
+    if args.aoc and not os.path.isdir(args.aoc):
+        sys.stderr.write("%s is not actually a dir\n" % args.aoc)
         sys.exit(1)
 
     return args
@@ -34,13 +39,11 @@ def get_name_and_extension(path: str):
     return (res_name_without_ext, ext[1:]) # get rid of the leading dot in extension
 
 Crc32ToNameMap = typing.Dict[int, typing.Tuple[str, str]]
-def make_crc32_to_name_map(content_dir: str) -> Crc32ToNameMap:
-    crc32_to_name_map: Crc32ToNameMap = dict()
-
+def make_crc32_to_name_map(crc32_to_name_map: Crc32ToNameMap, content_dir: str, prefix: str) -> None:
     def add_entry(name: str, full_name: str) -> None:
         crc32 = binascii.crc32(name.encode())
         print("%08x -> (%s, %s)" % (crc32, name, full_name))
-        crc32_to_name_map[crc32] = (name, full_name)
+        crc32_to_name_map[crc32] = (prefix + name, full_name)
 
     def handle_file(res_name: str, full_name: str, stream: typing.Optional[typing.BinaryIO]) -> None:
         add_entry(res_name, full_name=full_name)
@@ -71,8 +74,6 @@ def make_crc32_to_name_map(content_dir: str) -> Crc32ToNameMap:
             with open(host_path, "rb") as f:
                 handle_file(res_name, full_name=res_name, stream=f)
 
-    return crc32_to_name_map
-
 def write_csv(file, header, rows) -> None:
     if not file:
         return
@@ -85,7 +86,10 @@ def main() -> None:
     content_dir = args.content_dir
 
     table = read_rstb(content_dir, args.be)
-    crc32_to_name_map = make_crc32_to_name_map(content_dir)
+    crc32_to_name_map: Crc32ToNameMap = dict()
+    make_crc32_to_name_map(crc32_to_name_map, content_dir, "")
+    if args.aoc:
+        make_crc32_to_name_map(crc32_to_name_map, args.aoc, "Aoc/0010/")
 
     entries: typing.List[typing.Tuple[str, str, str, int]] = []
 
