@@ -20,14 +20,19 @@ Derived from `sead::DirectResourceFactoryBase` -> `sead::ResourceFactory` -> `se
 
 These values were extracted from the Switch 1.5.0 executable.
 
+When a table cell has two values separated by a '/', the first value is for the Switch version
+and the second one for the Wii U.
+
+Otherwise, assume that the value only holds for the Switch version.
+
 #### Factories - General
 
 | Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
 | --- | --- | --- | --- | --- | --- |
-| Base | 0x20 | 8 | (none) | | |
-| ResourceBase\* | 0x38 | 4 | specifically: Tex.bfres, Tex{1,2}.bfres, Tex1.{1,2,3,4}.bfres, and any resource type without its own factory | 1 | 0 |
+| Base | 0x20 / 0x14 | 8 | (none) | | |
+| ResourceBase\* | 0x38 / 0x20 | 4 | specifically: Tex.bfres, Tex{1,2}.bfres, Tex1.{1,2,3,4}.bfres, and any resource type without its own factory | 1 | 0 |
 | sarc | 0x68 | 0x80 | pack, bactorpack, bmodelsh, beventpack, stera, stats | (none) | 1 | 0 |
-| bfres | 0x1a8 | 0x1000 | (none) | 2.5 | 0x400000 |
+| bfres | 0x1a8 / 0x13c | 0x1000 | (none) | 2.5 | 0x400000 |
 | bcamanim | 0x50 | 0x2000 | (none) | 1 | 0x680 |
 | batpl, bnfprl (U?) | 0x40 | 4 | (none) | 1 | 0 |
 | bplacement (U?) | 0x48 | 4 | (none) | 1 | 0 |
@@ -140,6 +145,18 @@ and load from the regular file device.
 ## Resource Size Table
 
 The Resource Size Table (RSTB) contains information about game resource file sizes.
+
+The game uses it to determine how much memory should be allocated when loading a resource.
+
+It is currently unknown how Nintendo determined the values in the RSTB.
+However by RE'ing the resource system it was found that the resource loading heap is,
+at least for the most common factories, just used to allocate the file loading buffer (which
+is as large as the file to load), the C++ resource class and some extra bytes to
+ensure data is aligned correctly in memory.
+
+So a formula that should always work for modifying the listed size is:
+
+    (size rounded up to multiple of 32) + CONSTANT + sizeof(ResourceClass)
 
 ### Table structure
 
