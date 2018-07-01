@@ -212,6 +212,8 @@ from `System/Resource/ResourceSizeTable.product.rsizetable`. After reading the h
 `ResourceInfoContainer::getResourceSize` (non official name) starts by computing the crc32
 for the resource name/path.
 
+**Note**: AoC resources will have `Aoc/0010/` prepended to the resource path on Switch and Wii U.
+
 If a crc32 table is present, the game will do a binary search to find an entry
 for the calculated crc32. If an entry is found, `entry.size` is returned.
 
