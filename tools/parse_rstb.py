@@ -41,11 +41,12 @@ def get_name_and_extension(path: str):
 Crc32ToNameMap = typing.Dict[int, typing.Tuple[str, str]]
 def make_crc32_to_name_map(crc32_to_name_map: Crc32ToNameMap, content_dir: str, prefix: str) -> None:
     def add_entry(name: str, full_name: str) -> None:
-        crc32 = binascii.crc32(name.encode())
+        game_name = prefix + name
+        crc32 = binascii.crc32(game_name.encode())
         if crc32 in crc32_to_name_map:
             return
-        print("%08x -> (%s, %s)" % (crc32, prefix + name, full_name))
-        crc32_to_name_map[crc32] = (prefix + name, full_name)
+        print("%08x -> (%s, %s)" % (crc32, game_name, full_name))
+        crc32_to_name_map[crc32] = (game_name, full_name)
 
     def handle_file(res_name: str, full_name: str, stream: typing.Optional[typing.BinaryIO]) -> None:
         add_entry(res_name, full_name=full_name)
