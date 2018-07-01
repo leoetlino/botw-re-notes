@@ -42,7 +42,9 @@ Crc32ToNameMap = typing.Dict[int, typing.Tuple[str, str]]
 def make_crc32_to_name_map(crc32_to_name_map: Crc32ToNameMap, content_dir: str, prefix: str) -> None:
     def add_entry(name: str, full_name: str) -> None:
         crc32 = binascii.crc32(name.encode())
-        print("%08x -> (%s, %s)" % (crc32, name, full_name))
+        if crc32 in crc32_to_name_map:
+            return
+        print("%08x -> (%s, %s)" % (crc32, prefix + name, full_name))
         crc32_to_name_map[crc32] = (prefix + name, full_name)
 
     def handle_file(res_name: str, full_name: str, stream: typing.Optional[typing.BinaryIO]) -> None:
