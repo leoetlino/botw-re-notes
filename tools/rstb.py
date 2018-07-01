@@ -74,6 +74,13 @@ class ResourceSizeTable:
             crc32 = binascii.crc32(name.encode())
             self.crc32_map[crc32] = size
 
+    def delete_entry(self, name: str) -> None:
+        crc32 = binascii.crc32(name.encode())
+        if crc32 in self.crc32_map:
+            del self.crc32_map[crc32]
+        if name in self.name_map:
+            del self.name_map[name]
+
     def write(self, stream: typing.BinaryIO, be: bool) -> None:
         """Write the RSTB to the specified stream."""
         stream.write(b'RSTB')

@@ -27,6 +27,13 @@ def rstb_get(args, table: rstb.ResourceSizeTable) -> None:
         sys.stderr.write('%s: not in table\n' % args.name)
         sys.exit(2)
 
+def rstb_del(args, table: rstb.ResourceSizeTable) -> None:
+    if not table.is_in_table(args.name):
+        sys.stderr.write('%s: not in table\n' % args.name)
+        sys.exit(1)
+    table.delete_entry(args.name)
+    write_rstb(table, args.rstb, args.be)
+
 def rstb_set(args, table: rstb.ResourceSizeTable) -> None:
     if not table.is_in_table(args.name):
         sys.stderr.write('%s: not in table\n' % args.name)
@@ -64,6 +71,10 @@ if __name__ == '__main__':
     add_parser.add_argument('name', help='Resource name')
     add_parser.add_argument('size', type=lambda n: int(n, 0), help='Resource size')
     add_parser.set_defaults(func=rstb_add)
+
+    del_parser = subparsers.add_parser('del', description='Delete a resource from the table')
+    del_parser.add_argument('name', help='Resource name')
+    del_parser.set_defaults(func=rstb_del)
 
     args = parser.parse_args()
     table = read_rstb(args.rstb, args.be)
