@@ -17,14 +17,11 @@
 ## The Great Plateau barrier (GameDataMgr and actors?)
 - The Great Plateau death barrier
 
-## Map
-- Possible limit for number of byml entries in mubin files (doubtful)
-
 ## Climate (WorldMgr)
 - How the game forces daylight before the first tower is activated
 
 ## Debug stuff
-What happens if the ROM type is set to Show_2017_1st or RID_Demo?
+~~What happens if the ROM type is set to Show_2017_1st or RID_Demo?~~ The game crashes. Why?
 
 Is it possible to get to the stage select screen on release versions?
 
