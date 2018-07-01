@@ -31,28 +31,28 @@ Otherwise, assume that the value only holds for the Switch version.
 | --- | --- | --- | --- | --- | --- |
 | Base | 0x20 / 0x14 | 8 | (none) | | |
 | ResourceBase\* | 0x38 / 0x20 | 4 | specifically: Tex.bfres, Tex{1,2}.bfres, Tex1.{1,2,3,4}.bfres, and any resource type without its own factory | 1 | 0 |
-| sarc | 0x68 | 0x80 | pack, bactorpack, bmodelsh, beventpack, stera, stats | (none) | 1 | 0 |
+| sarc | 0x68 / 0x3c | 0x80 | pack, bactorpack, bmodelsh, beventpack, stera, stats | (none) | 1 | 0 |
 | bfres | 0x1a8 / 0x13c | 0x1000 | (none) | 2.5 | 0x400000 |
-| bcamanim | 0x50 | 0x2000 | (none) | 1 | 0x680 |
-| batpl, bnfprl (U?) | 0x40 | 4 | (none) | 1 | 0 |
+| bcamanim | 0x50 / 0x2c | 0x2000 | (none) | 1 | 0x680 |
+| batpl, bnfprl (U?) | 0x40 / 0x24 | 4 | (none) | 1 | 0 |
 | bplacement (U?) | 0x48 | 4 | (none) | 1 | 0 |
 | hks, lua (U?) | 0x38 | 4 | (none) | 1 | 0 |
 | bactcapt (U?) | 0x538 | 4 | (none) | 1 | 0x1000 |
-| bitemico | 0x60 | 0x2000 | (none) | 1 | 0 |
-| jpg | 0x80 | 0x2000 | (none) | 1 | 0 |
-| bmaptex | 0x60 | 0x2000 | (none) | 1 | 0 |
-| bmapopen, breviewtex, bstftex | 0x60 | 0x2000 | (none) | 1 | 0 |
+| bitemico | 0x60 / 0xd0 | 0x2000 | (none) | 1 | 0 |
+| jpg | 0x80 / 0x174 | 0x2000 | (none) | 1 | 0 |
+| bmaptex | 0x60 / 0xd0 | 0x2000 | (none) | 1 | 0 |
+| bmapopen, breviewtex, bstftex | 0x60 / 0xd0 | 0x2000 | (none) | 1 | 0 |
 | bgdata | 0x140 | 4 | (none) | 5 | 0xc0000 |
 | bgsvdata | 0x38 | 4 | (none) | 1 | 0x300000 |
-| hknm2 | 0x48 | 4 | (none) | 1 | 0xb28 |
+| hknm2 | 0x48 / 0x28 | 4 | (none) | 1 | 0xb28 |
 | bmscdef | 0x2a8 | 4 | (none) | 1 | 0 |
-| bars | 0xb0 | 0x80 | (none) | 1 | 0 |
+| bars | 0xb0 / 0x84 | 0x80 | (none) | 1 | 0 |
 
 #### Factories - ActorParam
 
 | Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
 | --- | --- | --- | --- | --- | --- |
-| bxml | 0x778 | 4 | (none) | 1 | 0x1000 |
+| bxml | 0x778 / 0x4a8 | 4 | (none) | 1 | 0x1000 |
 | bgparamlist | 0x2c0 | 4 | (none) | 1 | 0xd318 + 0x800 |
 | bmodellist | 0x7d0 | 4 | (none) | 2 | 0 |
 | baslist | 0x410 | 4 | (none) | 0 | 0x80000 |
