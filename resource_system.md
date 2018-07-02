@@ -47,7 +47,7 @@ These values were extracted from the Switch 1.5.0 executable.
 When a table cell has two values separated by a '/', the first value is for the Switch version
 and the second one for the Wii U.
 
-Otherwise, assume that the value only holds for the Switch version.
+Otherwise, assume that the value has only been checked for the Switch version.
 
 #### Factories - General
 
@@ -59,17 +59,17 @@ Otherwise, assume that the value only holds for the Switch version.
 | bfres | 0x1a8 / 0x13c | 0x1000 | (none) | 2.5 | 0x400000 |
 | bcamanim | 0x50 / 0x2c | 0x2000 | (none) | 1 | 0x680 |
 | batpl, bnfprl (U?) | 0x40 / 0x24 | 4 | (none) | 1 | 0 |
-| bplacement (U?) | 0x48 | 4 | (none) | 1 | 0 |
-| hks, lua (U?) | 0x38 | 4 | (none) | 1 | 0 |
-| bactcapt (U?) | 0x538 | 4 | (none) | 1 | 0x1000 |
+| bplacement (U?) | 0x48 / 0x14 | 4 | (none) | 1 | 0 |
+| hks, lua (U?) | 0x38 / 0x14 | 4 | (none) | 1 | 0 |
+| bactcapt (U?) | 0x538 / 0x3b4 | 4 | (none) | 1 | 0x1000 |
 | bitemico | 0x60 / 0xd0 | 0x2000 | (none) | 1 | 0 |
 | jpg | 0x80 / 0x174 | 0x2000 | (none) | 1 | 0 |
 | bmaptex | 0x60 / 0xd0 | 0x2000 | (none) | 1 | 0 |
 | bmapopen, breviewtex, bstftex | 0x60 / 0xd0 | 0x2000 | (none) | 1 | 0 |
-| bgdata | 0x140 | 4 | (none) | 5 | 0xc0000 |
-| bgsvdata | 0x38 | 4 | (none) | 1 | 0x300000 |
+| bgdata | 0x140 / 0xcc | 4 | (none) | 5 | 0xc0000 |
+| bgsvdata | 0x38 / 0x14 | 4 | (none) | 1 | 0x300000 |
 | hknm2 | 0x48 / 0x28 | 4 | (none) | 1 | 0xb28 |
-| bmscdef | 0x2a8 | 4 | (none) | 1 | 0 |
+| bmscdef | 0x2a8 / 0x1fc | 4 | (none) | 1 | 0 |
 | bars | 0xb0 / 0x84 | 0x80 | (none) | 1 | 0 |
 
 #### Factories - ActorParam
@@ -77,52 +77,52 @@ Otherwise, assume that the value only holds for the Switch version.
 | Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
 | --- | --- | --- | --- | --- | --- |
 | bxml | 0x778 / 0x4a8 | 4 | (none) | 1 | 0x1000 |
-| bgparamlist | 0x2c0 | 4 | (none) | 1 | 0xd318 + 0x800 |
-| bmodellist | 0x7d0 | 4 | (none) | 2 | 0 |
-| baslist | 0x410 | 4 | (none) | 0 | 0x80000 |
-| baiprog | 0x448 | 4 | (none) | 1 | 0x300000 |
-| bphysics | 0x470 | 4 | (none) | 6 | 0 |
-| bchemical | 0x3c0 | 4 | (none) | 0 | 0x2000 |
-| bas | 0x3c8 | 4 | (none) | 0 | 0x80000 |
-| batcllist | 0x3f0 | 4 | (none) | 1 | 0x2000 |
-| batcl | 0x428 | 4 | (none) | 1 | 0x2000 |
-| baischedule | 0x2b8 | 4 | (none) | 1 | 0x800 |
-| bdmgparam | 0x11d0 | 4 | (none) | 1 | 0x20000 |
-| brgconfiglist | 0x3d0 | 4 | (none) | 1 | 0x2000 |
-| brgconfig | 0x42d8 | 4 | (none) | 1 | 0x20000 |
-| brgbw | 0x2c0 | 4 | (none) | 1 | 0x20000 |
-| bawareness | 0xb38 | 4 | (none) | 1 | 0 |
-| bdrop | 0x320 | 4 | (none) | 1 | 0x5000 |
-| bshop | 0x320 | 4 | (none) | 1 | 0x20000 |
-| brecipe | 0x320 | 4 | (none) | 1 | 0x20000 |
-| blod | 0x3c0 | 4 | (none) | 1 | 0x20000 |
-| bbonectrl | 0x8d0 | 4 | (none) | 1 | 0x40000 |
-| blifecondition | 0x4b0 | 4 | (none) | 1 | 0x20000 |
-| bumii | 0x2b8 | 4 | (none) | 1 | 0 |
-| baniminfo | 0x2c8 | 4 | (none) | 1.5 | 0 |
-| byaml | 0x20 | 4 | (none, this won't match 'byml') | 1 | 0 |
-| bassetting | 0x260 | 4 | (none) | 0 | 0x80000 |
+| bgparamlist | 0x2c0 / 0x248 | 4 | (none) | 1 | 0xd318 + 0x800 |
+| bmodellist | 0x7d0 / 0x508 | 4 | (none) | 2 | 0 |
+| baslist | 0x410 / 0x2f4 | 4 | (none) | 0 | 0x80000 |
+| baiprog | 0x448 / 0x30c | 4 | (none) | 1 | 0x300000 |
+| bphysics | 0x470 / 0x324 | 4 | (none) | 6 | 0 |
+| bchemical | 0x3c0 / 0x2cc | 4 | (none) | 0 | 0x2000 |
+| bas | 0x3c8 / 0x2d0 | 4 | (none) | 0 | 0x80000 |
+| batcllist | 0x3f0 / 0x2e4 | 4 | (none) | 1 | 0x2000 |
+| batcl | 0x428 / 0x344 | 4 | (none) | 1 | 0x2000 |
+| baischedule | 0x2b8 / 0x244 | 4 | (none) | 1 | 0x800 |
+| bdmgparam | 0x11d0 / 0x9f0 | 4 | (none) | 1 | 0x20000 |
+| brgconfiglist | 0x3d0 / 0x2d4 | 4 | (none) | 1 | 0x2000 |
+| brgconfig | 0x42d8 / 0x2acc | 4 | (none) | 1 | 0x20000 |
+| brgbw | 0x2c0 / 0x248 | 4 | (none) | 1 | 0x20000 |
+| bawareness | 0xb38 / 0x70c | 4 | (none) | 1 | 0 |
+| bdrop | 0x320 / 0x27c | 4 | (none) | 1 | 0x5000 |
+| bshop | 0x320 / 0x27c | 4 | (none) | 1 | 0x20000 |
+| brecipe | 0x320 / 0x27c | 4 | (none) | 1 | 0x20000 |
+| blod | 0x3c0 / 0x2cc | 4 | (none) | 1 | 0x20000 |
+| bbonectrl | 0x8d0 / 0x564 | 4 | (none) | 1 | 0x40000 |
+| blifecondition | 0x4b0 / 0x35c | 4 | (none) | 1 | 0x20000 |
+| bumii | 0x2b8 / 0x244 | 4 | (none) | 1 | 0 |
+| baniminfo | 0x2c8 / 0x24c | 4 | (none) | 1.5 | 0 |
+| byaml | 0x20 / 0x14 | 4 | (none, this won't match 'byml') | 1 | 0 |
+| bassetting | 0x260 / 0x1d8 | 4 | (none) | 0 | 0x80000 |
 
 #### Factories - Physics
 
 | Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
 | --- | --- | --- | --- | --- | --- |
-| hkrb | 0x20 | 4 | (none) | 1 | 0x400 |
-| hkrg | 0x20 | 4 | (none) | 1 | 0x400 |
-| hkphyssb | 0x5b0 | 4 | (none) | 1 | 0x100000 |
-| hkcl | 0xe8 | 4 | (none) | 2 | 0x2800 |
-| hksc | 0x140 | 4 | (none) | 1.3 | 0x40000 |
-| hktmrb | 0x48 | 4 | (none) | 1 | 0x800 |
-| brgcon | 0x48 | 4 | (none) | 1 | 0x4000 |
+| hkrb | 0x20 / 0x14 | 4 | (none) | 1 | 0x400 |
+| hkrg | 0x20 / 0x14 | 4 | (none) | 1 | 0x400 |
+| hkphyssb | 0x5b0 / 0x384 | 4 | (none) | 1 | 0x100000 |
+| hkcl | 0xe8 / 0xb8 | 4 | (none) | 2 | 0x2800 |
+| hksc | 0x140 / 0xe8 | 4 | (none) | 1.3 | 0x40000 |
+| hktmrb | 0x48 / 0x28 | 4 | (none) | 1 | 0x800 |
+| brgcon | 0x48 / 0x28 | 4 | (none) | 1 | 0x4000 |
 
 #### Factories - Misc 2
 
 | Extension | sizeof(ResClass) | loadDataAlignment | Other extensions | Multiplier | Constant
 | --- | --- | --- | --- | --- | --- |
-| esetlist | 0x38 | 0x4000 | (none) | 1 | 0 |
-| bdemo | 0xb20 | 4 | (none) | 1 | 0xb20 |
-| bfevfl | 0x40 | 4 | (none) | 1 | 0x40 |
-| bfevtm | 0x40 | 4 | (none) | 1 | 0x40 |
+| esetlist | 0x38 / 0x20 | 0x4000 | (none) | 1 | 0 |
+| bdemo | 0xb20 / 0x6cc | 4 | (none) | 1 | 0xb20 |
+| bfevfl | 0x40 / 0x24 | 4 | (none) | 1 | 0x40 |
+| bfevtm | 0x40 / 0x24 | 4 | (none) | 1 | 0x40 |
 
 
 The function that computes the loading heap size uses `max(loadDataAlignment, 0x20)` as the
