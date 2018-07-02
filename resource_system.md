@@ -142,6 +142,30 @@ If it does exist, it will be loaded from the archive.
 If the file cannot be found in the archive, the game will ignore the active resource pack
 and load from the regular file device.
 
+
+## Heap size
+
+The size of the resource loading heap the system allocates every time a resource is loaded
+depends on the value that is listed in the RSTB (see below).
+
+If lookup fails, the game will fall back to the following formula (Switch on 1.5.0):
+
+```c++
+alignedFileSize = (actualFileSize + 31) & -32;
+
+return factory->getResourceSize()
+     + factory->constant
+     + factory->getLoadDataAlignment()
+     + (signed int)(float)(factory->sizeMultiplier * alignedFileSize)
+     + (factory->sizeMultiplier * alignedFileSize >= 0.0 &&
+        (float)(signed int)(float)(factory->sizeMultiplier * alignedFileSize)
+                        != (float)(sizeMultiplier * factory->sizeMultiplier))
+     + 0x750;
+```
+
+This means that failure to add resource files to the RSTB may result in system instability,
+given that the resource system will often allocate way more memory than needed.
+
 ## Resource Size Table
 
 The Resource Size Table (RSTB) contains information about game resource file sizes.
@@ -157,6 +181,8 @@ ensure data is aligned correctly in memory.
 So a formula that should always work for modifying the listed size is:
 
     (size rounded up to multiple of 32) + CONSTANT + sizeof(ResourceClass)
+
+See below for the resource system constant value, and the factory list for resource class sizes.
 
 ### Table structure
 
