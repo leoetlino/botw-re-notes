@@ -182,8 +182,7 @@ return factory->getResourceSize()
      + factory->getLoadDataAlignment()
      + (signed int)(float)(factory->sizeMultiplier * alignedFileSize)
      + (factory->sizeMultiplier * alignedFileSize >= 0.0 &&
-        (float)(signed int)(float)(factory->sizeMultiplier * alignedFileSize)
-                        != (float)(sizeMultiplier * factory->sizeMultiplier))
+        (float)(signed int)(float)(factory->sizeMultiplier * alignedFileSize) != (float)(sizeMultiplier * alignedFileSize))
      + 0x750;
 ```
 
