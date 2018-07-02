@@ -72,6 +72,10 @@ class SARC:
         node = self._files[name]
         return io.BytesIO(self._data[self._doff + node[0]:self._doff + node[1]])
 
+    def get_file_size(self, name: str) -> int:
+        node = self._files[name]
+        return node[1] - node[0]
+
     def extract(self, archive_name: str) -> None:
         name, ext = os.path.splitext(archive_name)
         try: os.mkdir(name)
