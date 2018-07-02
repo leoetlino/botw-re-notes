@@ -3,6 +3,8 @@
 # Licensed under MIT
 
 import binascii
+import json
+import os
 import struct
 import typing
 
@@ -112,3 +114,31 @@ class ResourceSizeTable:
             if binascii.crc32(existing_name.encode()) == crc32:
                 return True
         return False
+
+class SizeCalculator:
+    def __init__(self) -> None:
+        with open(os.path.join(os.path.dirname(__file__), 'resource_class_sizes.json')) as f:
+            self._factory_info: typing.Dict[str, dict] = json.load(f)
+
+    def calculate_file_size(self, file_name: str, wiiu: bool) -> int:
+        name_without_ext, ext = os.path.splitext(file_name)
+        size = 0
+        if ext.startswith('.s'):
+            with open(file_name, 'rb') as f:
+                f.seek(4)
+                size = _read_u32(f.read(4), offset=0, be=True)
+        else:
+            size = os.path.getsize(file_name)
+
+        # Round up the file size to the nearest multiple of 32.
+        size = (size + 31) & -32
+
+        actual_ext = ext.replace('.s', '.')[1:]
+        if wiiu:
+            size += 0xe4 # res::ResourceMgr constant. Not sure what it is.
+            size += self._factory_info.get(actual_ext, self._factory_info['*'])['size_wiiu']
+        else:
+            size += 0x168
+            size += self._factory_info.get(actual_ext, self._factory_info['*'])['size_nx']
+
+        return size
