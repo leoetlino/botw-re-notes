@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+import argparse
+import sarc
+import sys
+
+def main(args) -> None:
+    with open(args.sarc, "rb") as f:
+        s = sarc.read_file_and_make_sarc(f)
+        if not s:
+            sys.stderr.write("Unknown file format\n")
+            sys.exit(1)
+        if args.list:
+            for file in sorted(s.list_files()):
+                print(file)
+        else:
+            s.extract(args.sarc)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Tool to extract or list files in a SARC archive.')
+    parser.add_argument('sarc', help='Path to a SARC archive')
+    parser.add_argument('-l', '--list', action='store_true', help='List files instead of extracting. Defaults to false.')
+    args = parser.parse_args()
+    main(args)
