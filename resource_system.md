@@ -1,5 +1,29 @@
 # Resource system
 
+## Table of contents
+
+- [Resource system](#resource-system)
+  * [Factories](#factories)
+  * [EntryFactory](#entryfactory)
+    + [Complete list](#complete-list)
+      - [Factories - General](#factories---general)
+      - [Factories - ActorParam](#factories---actorparam)
+      - [Factories - Physics](#factories---physics)
+      - [Factories - Misc 2](#factories---misc-2)
+  * [Loading compressed files](#loading-compressed-files)
+  * [Loading from archives](#loading-from-archives)
+  * [Heap size](#heap-size)
+  * [Resource Size Table](#resource-size-table)
+    + [Table structure](#table-structure)
+      - [Header (optional)](#header--optional-)
+      - [CRC32 table (optional)](#crc32-table--optional-)
+      - [Name table (optional)](#name-table--optional-)
+    + [Game usage](#game-usage)
+      - [Lookup](#lookup)
+      - [Checks](#checks)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## Factories
 
 Factories are an important concept in BotW's resource system. They are C++ classes that are
