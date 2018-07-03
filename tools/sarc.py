@@ -176,9 +176,10 @@ class SARCWriter:
 
         # File data
         data_offset_writer.write_current_offset()
-        for h in sorted_hashes:
+        for i, h in enumerate(sorted_hashes):
             stream.write(self._files[h].data)
-            stream.seek(_align_up(stream.tell()))
+            if i != len(sorted_hashes) - 1:
+                stream.seek(_align_up(stream.tell()))
 
         # Write the final file size.
         file_size_writer.write_current_offset()
