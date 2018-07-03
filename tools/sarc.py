@@ -160,9 +160,10 @@ class SARCWriter:
             stream.write(self._u32(h))
             stream.write(self._u32(0x01000000 | (string_offset >> 2)))
             stream.write(self._u32(data_offset))
-            data_offset += _align_up(len(self._files[h].data))
+            data_offset += len(self._files[h].data)
             stream.write(self._u32(data_offset))
             string_offset += _align_up(len(self._files[h].name) + 1)
+            data_offset = _align_up(data_offset)
 
         # File name table
         stream.write(b'SFNT')

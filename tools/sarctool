@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 import argparse
+import io
+import os
 import sarc
+import shutil
 import sys
+import typing
+import yaz0_util
 
 def sarc_extract(args) -> None:
     with open(args.sarc, "rb") as f:
@@ -20,6 +25,38 @@ def sarc_list(args) -> None:
         for file in sorted(s.list_files()):
             print("%s [0x%x bytes]" % (file, s.get_file_size(file)))
 
+def sarc_create(args) -> None:
+    file_list: typing.List[str] = args.files
+    dest_file: str = args.dest
+    dest_stream: typing.BinaryIO = open(dest_file, 'wb') if dest_file != '-' else sys.stdout.buffer
+    base_path: typing.Optional[str] = args.base_path
+    big_endian = args.be
+
+    writer = sarc.SARCWriter(be=big_endian)
+
+    def add_file(path: str) -> None:
+        with open(path, 'rb') as f:
+            archive_path = path if not base_path else os.path.relpath(path=path, start=base_path)
+            writer.add_file(archive_path, f.read())
+            sys.stderr.write(archive_path + '\n')
+
+    for file in file_list:
+        if os.path.isfile(file):
+            add_file(file)
+        else:
+            for root, dirs, files in os.walk(file, topdown=False):
+                for file_name in files:
+                    add_file(os.path.join(root, file_name))
+
+    buf = io.BytesIO()
+    writer.write(buf)
+    buf.seek(0)
+
+    if os.path.splitext(dest_file)[1].startswith('.s'):
+        dest_stream.write(yaz0_util.compress(buf.getbuffer()))
+    else:
+        shutil.copyfileobj(buf, dest_stream)
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Tool to extract or list files in a SARC archive.')
 
@@ -33,6 +70,13 @@ if __name__ == "__main__":
     l_parser = subparsers.add_parser('list', description='List files in an archive', aliases=['l'])
     l_parser.add_argument('sarc', help='Path to an SARC archive')
     l_parser.set_defaults(func=sarc_list)
+
+    c_parser = subparsers.add_parser('create', description='Create an archive', aliases=['c'])
+    c_parser.add_argument('-b', '--be', action='store_true', help='Use big endian. Defaults to false.')
+    c_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
+    c_parser.add_argument('files', nargs='+', help='Files or directories to include in the archive')
+    c_parser.add_argument('dest', help='Destination archive')
+    c_parser.set_defaults(func=sarc_create)
 
     args = parser.parse_args()
     args.func(args)
