@@ -37,6 +37,7 @@ def sarc_create(args) -> None:
     def add_file(path: str) -> None:
         with open(path, 'rb') as f:
             archive_path = path if not base_path else os.path.relpath(path=path, start=base_path)
+            archive_path = archive_path.replace('\\', '/')
             writer.add_file(archive_path, f.read())
             sys.stderr.write(archive_path + '\n')
 
