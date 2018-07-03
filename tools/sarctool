@@ -3,21 +3,36 @@ import argparse
 import sarc
 import sys
 
-def main(args) -> None:
+def sarc_extract(args) -> None:
     with open(args.sarc, "rb") as f:
         s = sarc.read_file_and_make_sarc(f)
         if not s:
             sys.stderr.write("Unknown file format\n")
             sys.exit(1)
-        if args.list:
-            for file in sorted(s.list_files()):
-                print("%s [0x%x bytes]" % (file, s.get_file_size(file)))
-        else:
-            s.extract(args.sarc)
+        s.extract(args.sarc)
+
+def sarc_list(args) -> None:
+    with open(args.sarc, "rb") as f:
+        s = sarc.read_file_and_make_sarc(f)
+        if not s:
+            sys.stderr.write("Unknown file format\n")
+            sys.exit(1)
+        for file in sorted(s.list_files()):
+            print("%s [0x%x bytes]" % (file, s.get_file_size(file)))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Tool to extract or list files in a SARC archive.')
-    parser.add_argument('sarc', help='Path to a SARC archive')
-    parser.add_argument('-l', '--list', action='store_true', help='List files instead of extracting. Defaults to false.')
+
+    subparsers = parser.add_subparsers(dest='command', help='Command')
+    subparsers.required = True
+
+    x_parser = subparsers.add_parser('extract', description='Extract an archive', aliases=['x'])
+    x_parser.add_argument('sarc', help='Path to an SARC archive')
+    x_parser.set_defaults(func=sarc_extract)
+
+    l_parser = subparsers.add_parser('list', description='List files in an archive', aliases=['l'])
+    l_parser.add_argument('sarc', help='Path to an SARC archive')
+    l_parser.set_defaults(func=sarc_list)
+
     args = parser.parse_args()
-    main(args)
+    args.func(args)
