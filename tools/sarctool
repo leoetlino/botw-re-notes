@@ -25,6 +25,16 @@ def sarc_list(args) -> None:
         for file in sorted(s.list_files()):
             print("%s [0x%x bytes]" % (file, s.get_file_size(file)))
 
+def _write_sarc(writer: sarc.SARCWriter, dest_file: str, dest_stream: typing.BinaryIO) -> None:
+    buf = io.BytesIO()
+    writer.write(buf)
+    buf.seek(0)
+
+    if os.path.splitext(dest_file)[1].startswith('.s'):
+        dest_stream.write(yaz0_util.compress(buf.getbuffer()))
+    else:
+        shutil.copyfileobj(buf, dest_stream)
+
 def sarc_create_or_update(args, update: bool) -> None:
     file_list: typing.List[str] = args.files
     dest_file: str = args.dest
@@ -58,14 +68,7 @@ def sarc_create_or_update(args, update: bool) -> None:
                 for file_name in files:
                     add_file(writer, os.path.join(root, file_name))
 
-    buf = io.BytesIO()
-    writer.write(buf)
-    buf.seek(0)
-
-    if os.path.splitext(dest_file)[1].startswith('.s'):
-        dest_stream.write(yaz0_util.compress(buf.getbuffer()))
-    else:
-        shutil.copyfileobj(buf, dest_stream)
+    _write_sarc(writer, dest_file, dest_stream)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Tool to extract or list files in a SARC archive.')
