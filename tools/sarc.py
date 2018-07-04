@@ -15,8 +15,8 @@ def _get_unpack_endian_character(big_endian: bool):
 _NUL_CHAR = b'\x00'
 
 class SARC:
-    def __init__(self, data: bytes) -> None:
-        self._data = data
+    def __init__(self, data: typing.Union[memoryview, bytes]) -> None:
+        self._data = memoryview(data)
         if data[0:4] != b"SARC":
             raise ValueError("Not a SARC")
         self._be = data[6:8] == b"\xFE\xFF"
@@ -58,19 +58,19 @@ class SARC:
         if size < 4:
             return False
 
-        magic: bytes = self._data[self._doff + node[0]:self._doff + node[0] + 4]
+        magic = self._data[self._doff + node[0]:self._doff + node[0] + 4]
         if magic == b"SARC":
             return True
         if magic == b"Yaz0":
             if size < 0x15:
                 return False
-            fourcc: bytes = self._data[self._doff + node[0] + 0x11:self._doff + node[0] + 0x15]
+            fourcc = self._data[self._doff + node[0] + 0x11:self._doff + node[0] + 0x15]
             return fourcc == b"SARC"
         return False
 
-    def get_file_data(self, name: str):
+    def get_file_data(self, name: str) -> memoryview:
         node = self._files[name]
-        return io.BytesIO(self._data[self._doff + node[0]:self._doff + node[1]])
+        return memoryview(self._data[self._doff + node[0]:self._doff + node[1]])
 
     def get_file_size(self, name: str) -> int:
         node = self._files[name]
@@ -86,17 +86,16 @@ class SARC:
                 os.makedirs(os.path.dirname(filename))
             filedata = self._data[self._doff + node[0]:self._doff + node[1]]
             print(filename)
-            f = open(filename, "wb")
-            f.write(filedata)
-            f.close()
+            with open(filename, 'wb') as f:
+                f.write(filedata) # type: ignore
 
     def _read_u16(self, offset: int) -> int:
         return struct.unpack_from(_get_unpack_endian_character(self._be) + 'H', self._data, offset)[0]
     def _read_u32(self, offset: int) -> int:
         return struct.unpack_from(_get_unpack_endian_character(self._be) + 'I', self._data, offset)[0]
     def _read_string(self, offset: int) -> str:
-        end = self._data.find(_NUL_CHAR, offset)
-        return self._data[offset:end].decode('utf-8')
+        end = self._data.obj.find(_NUL_CHAR, offset) # type: ignore
+        return self._data[offset:end].tobytes().decode('utf-8')
 
 class _PlaceholderOffsetWriter:
     """Writes a placeholder offset value that will be filled later."""
@@ -120,7 +119,7 @@ def _align_up(n: int) -> int:
 class SARCWriter:
     class File(typing.NamedTuple):
         name: str
-        data: bytes
+        data: typing.Union[memoryview, bytes]
 
     def __init__(self, be: bool) -> None:
         self._be = be
@@ -133,7 +132,7 @@ class SARCWriter:
             h = (ord(c) + h * self._hash_multiplier) & 0xffffffff
         return h
 
-    def add_file(self, name: str, data: bytes) -> None:
+    def add_file(self, name: str, data: typing.Union[memoryview, bytes]) -> None:
         self._files[self._hash_file_name(name)] = SARCWriter.File(name, data)
 
     def write(self, stream: typing.BinaryIO) -> None:
@@ -177,7 +176,7 @@ class SARCWriter:
         # File data
         data_offset_writer.write_current_offset()
         for i, h in enumerate(sorted_hashes):
-            stream.write(self._files[h].data)
+            stream.write(self._files[h].data) # type: ignore
             if i != len(sorted_hashes) - 1:
                 stream.seek(_align_up(stream.tell()))
 
