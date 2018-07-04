@@ -135,6 +135,9 @@ class SARCWriter:
     def add_file(self, name: str, data: typing.Union[memoryview, bytes]) -> None:
         self._files[self._hash_file_name(name)] = SARCWriter.File(name, data)
 
+    def delete_file(self, name: str) -> None:
+        del self._files[self._hash_file_name(name)]
+
     def write(self, stream: typing.BinaryIO) -> None:
         # SARC header
         stream.write(b'SARC')
@@ -210,13 +213,14 @@ def read_file_and_make_sarc(f: typing.BinaryIO) -> typing.Optional[SARC]:
         return None
     return SARC(data)
 
-def read_sarc_and_make_writer(f: typing.BinaryIO) -> typing.Optional[SARCWriter]:
+def read_sarc_and_make_writer(f: typing.BinaryIO, filter_fn: typing.Optional[typing.Callable[[str], bool]]) -> typing.Optional[SARCWriter]:
     sarc = read_file_and_make_sarc(f)
     if not sarc:
         return None
 
     writer = SARCWriter(be=sarc._be)
     for file in sarc.list_files():
-        writer.add_file(file, sarc.get_file_data(file))
+        if not filter_fn or filter_fn(file):
+            writer.add_file(file, sarc.get_file_data(file))
 
     return writer
