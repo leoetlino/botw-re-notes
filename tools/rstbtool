@@ -19,7 +19,11 @@ def write_rstb(table: rstb.ResourceSizeTable, path_to_rstb: str, be: bool) -> No
     table.write(buf, be)
     buf.seek(0)
     with open(path_to_rstb, 'wb+') as file:
-        file.write(yaz0_util.compress(buf.read()))
+        _, extension = os.path.splitext(path_to_rstb)
+        if extension.startswith('.s'):
+            file.write(yaz0_util.compress(buf.getbuffer()))
+        else:
+            file.write(buf.getbuffer()) # type: ignore
 
 def parse_size(size_str: str, be: bool) -> int:
     try:
