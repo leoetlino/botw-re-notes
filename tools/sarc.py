@@ -209,3 +209,14 @@ def read_file_and_make_sarc(f: typing.BinaryIO) -> typing.Optional[SARC]:
     else:
         return None
     return SARC(data)
+
+def read_sarc_and_make_writer(f: typing.BinaryIO) -> typing.Optional[SARCWriter]:
+    sarc = read_file_and_make_sarc(f)
+    if not sarc:
+        return None
+
+    writer = SARCWriter(be=sarc._be)
+    for file in sarc.list_files():
+        writer.add_file(file, sarc.get_file_data(file))
+
+    return writer

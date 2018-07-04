@@ -25,16 +25,25 @@ def sarc_list(args) -> None:
         for file in sorted(s.list_files()):
             print("%s [0x%x bytes]" % (file, s.get_file_size(file)))
 
-def sarc_create(args) -> None:
+def sarc_create_or_update(args, update: bool) -> None:
     file_list: typing.List[str] = args.files
     dest_file: str = args.dest
-    dest_stream: typing.BinaryIO = open(dest_file, 'wb') if dest_file != '-' else sys.stdout.buffer
     base_path: typing.Optional[str] = args.base_path
-    big_endian = args.be
 
-    writer = sarc.SARCWriter(be=big_endian)
+    writer: typing.Optional[sarc.SARCWriter] = None
+    if not update:
+        writer = sarc.SARCWriter(be=args.be)
+    else:
+        with open(dest_file, 'rb') as original_sarc_file:
+            writer = sarc.read_sarc_and_make_writer(original_sarc_file)
 
-    def add_file(path: str) -> None:
+    if not writer:
+        sys.stderr.write('error: could not create SARC writer (is the original SARC valid?)\n')
+        sys.exit(1)
+
+    dest_stream: typing.BinaryIO = open(dest_file, 'wb') if dest_file != '-' else sys.stdout.buffer
+
+    def add_file(writer: sarc.SARCWriter, path: str) -> None:
         with open(path, 'rb') as f:
             archive_path = path if not base_path else os.path.relpath(path=path, start=base_path)
             archive_path = archive_path.replace('\\', '/')
@@ -43,11 +52,11 @@ def sarc_create(args) -> None:
 
     for file in file_list:
         if os.path.isfile(file):
-            add_file(file)
+            add_file(writer, file)
         else:
             for root, dirs, files in os.walk(file, topdown=False):
                 for file_name in files:
-                    add_file(os.path.join(root, file_name))
+                    add_file(writer, os.path.join(root, file_name))
 
     buf = io.BytesIO()
     writer.write(buf)
@@ -77,7 +86,13 @@ if __name__ == "__main__":
     c_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
     c_parser.add_argument('files', nargs='+', help='Files or directories to include in the archive')
     c_parser.add_argument('dest', help='Destination archive')
-    c_parser.set_defaults(func=sarc_create)
+    c_parser.set_defaults(func=lambda a: sarc_create_or_update(a, update=False))
+
+    u_parser = subparsers.add_parser('update', description='Update an archive', aliases=['u'])
+    u_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
+    u_parser.add_argument('files', nargs='+', help='Files or directories to add to the archive')
+    u_parser.add_argument('dest', help='Archive to update')
+    u_parser.set_defaults(func=lambda a: sarc_create_or_update(a, update=True))
 
     args = parser.parse_args()
     args.func(args)
