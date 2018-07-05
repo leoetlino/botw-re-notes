@@ -148,6 +148,8 @@ The resource system appears to always prepend 's' to the extension and use
 `sead::ResourceMgr::tryLoadWithDecomp` to try loading a compressed version first, before
 falling back to the specified path.
 
+Exceptions: bfevfl, bcamanim and barslist are always loaded uncompressed (see 0x710120A9F4).
+
 ## Loading from archives
 
 To load from an archive, set the global resource pack pointer
