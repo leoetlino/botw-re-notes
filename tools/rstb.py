@@ -99,6 +99,9 @@ class ResourceSizeTable:
             stream.write(struct.pack('128s', name.encode()))
             stream.write(_to_u32(size, be))
 
+    def get_buffer_size(self) -> int:
+        return (4 + 4 + 4) + 8*len(self.crc32_map) + 132*len(self.name_map)
+
     def is_in_table(self, name: str) -> bool:
         crc32 = binascii.crc32(name.encode())
         if crc32 in self.crc32_map:
