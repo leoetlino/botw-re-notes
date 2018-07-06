@@ -18,7 +18,7 @@ import yaz0_util
 
 ARCHIVE_EXTS = {'sarc', 'pack', 'bactorpack', 'bmodelsh', 'beventpack', 'stera', 'stats',
                 'ssarc', 'spack', 'sbactorpack', 'sbmodelsh', 'sbeventpack', 'sstera', 'sstats',
-                'blarc', 'sblarc'}
+                'blarc', 'sblarc', 'genvb', 'sgenvb'}
 
 def _is_archive_filename(path: Path) -> bool:
     return path.suffix[1:] in ARCHIVE_EXTS

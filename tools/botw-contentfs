@@ -19,7 +19,7 @@ from fuse import FUSE, FuseOSError, Operations # type: ignore
 
 ARCHIVE_EXTS = {'sarc', 'pack', 'bactorpack', 'bmodelsh', 'beventpack', 'stera', 'stats',
                 'ssarc', 'spack', 'sbactorpack', 'sbmodelsh', 'sbeventpack', 'sstera', 'sstats',
-                'blarc', 'sblarc'}
+                'blarc', 'sblarc', 'genvb', 'sgenvb'}
 
 def is_archive_filename(path: PPPath) -> bool:
     return path.suffix[1:] in ARCHIVE_EXTS
