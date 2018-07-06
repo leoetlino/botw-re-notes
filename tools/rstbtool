@@ -1,29 +1,11 @@
 #!/usr/bin/env python3
 import argparse
-import io
 import json
-import os
 import sys
 import typing
 
 import rstb
-import yaz0_util
-
-def read_rstb(path_to_rstb: str, be: bool) -> rstb.ResourceSizeTable:
-    with open(path_to_rstb, 'rb') as file:
-        buf = yaz0_util.decompress(file.read())
-        return rstb.ResourceSizeTable(buf, be)
-
-def write_rstb(table: rstb.ResourceSizeTable, path_to_rstb: str, be: bool) -> None:
-    buf = io.BytesIO()
-    table.write(buf, be)
-    buf.seek(0)
-    with open(path_to_rstb, 'wb+') as file:
-        _, extension = os.path.splitext(path_to_rstb)
-        if extension.startswith('.s'):
-            file.write(yaz0_util.compress(buf.getbuffer()))
-        else:
-            file.write(buf.getbuffer()) # type: ignore
+import rstb_util
 
 def parse_size(size_str: str, be: bool) -> int:
     try:
@@ -44,7 +26,7 @@ def rstb_del(args, table: rstb.ResourceSizeTable) -> None:
         sys.stderr.write('%s: not in table\n' % args.name)
         sys.exit(1)
     table.delete_entry(args.name)
-    write_rstb(table, args.rstb, args.be)
+    rstb_util.write_rstb(table, args.rstb, args.be)
 
 def rstb_set(args, table: rstb.ResourceSizeTable) -> None:
     if not table.is_in_table(args.name):
@@ -56,7 +38,7 @@ def rstb_set(args, table: rstb.ResourceSizeTable) -> None:
     print('%s: current size is %d bytes (0x%08x)' % (args.name, old_size, old_size))
     print('%s: new size is %d bytes (0x%08x)' % (args.name, new_size, new_size))
     table.set_size(args.name, new_size)
-    write_rstb(table, args.rstb, args.be)
+    rstb_util.write_rstb(table, args.rstb, args.be)
 
 def rstb_add(args, table: rstb.ResourceSizeTable) -> None:
     if table.is_in_table(args.name):
@@ -66,7 +48,7 @@ def rstb_add(args, table: rstb.ResourceSizeTable) -> None:
     new_size = parse_size(args.size, args.be)
     print('%s: new size is %d bytes (0x%08x)' % (args.name, new_size, new_size))
     table.set_size(args.name, new_size)
-    write_rstb(table, args.rstb, args.be)
+    rstb_util.write_rstb(table, args.rstb, args.be)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='A tool to manipulate the RSTB (Resource Size TaBle).')
@@ -95,5 +77,5 @@ if __name__ == '__main__':
     del_parser.set_defaults(func=rstb_del)
 
     args = parser.parse_args()
-    table = read_rstb(args.rstb, args.be)
+    table = rstb_util.read_rstb(args.rstb, args.be)
     args.func(args, table)
