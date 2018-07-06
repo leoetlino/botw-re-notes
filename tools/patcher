@@ -87,13 +87,16 @@ def _should_be_listed_in_rstb(resource_path: Path) -> bool:
 def _fix_rstb_resource_size(path: Path, rel_path: Path, table: rstb.ResourceSizeTable, wiiu: bool):
     resource_path = _get_resource_path_for_rstb(rel_path)
     resource_size = size_calculator.calculate_file_size(str(path), wiiu=wiiu)
+    prev_resource_size = 0
 
     notes = []
     if not table.is_in_table(resource_path):
         notes.append(f'{Style.BRIGHT}{Fore.RED}*** NEW ***{Style.RESET_ALL}')
+    else:
+        prev_resource_size = table.get_size(resource_path)
 
-    sys.stderr.write(f'{Fore.WHITE}{rel_path}{Style.RESET_ALL} ({resource_path}) [0x%x bytes] %s\n'
-        % (resource_size, ' '.join(notes)))
+    sys.stderr.write(f'{Fore.WHITE}{rel_path}{Style.RESET_ALL} ({resource_path}) [0x%x -> 0x%x bytes] %s\n'
+        % (prev_resource_size, resource_size, ' '.join(notes)))
     table.set_size(resource_path, resource_size)
 
 def _get_resource_path_for_rstb(rel_path: Path) -> str:
