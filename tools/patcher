@@ -23,6 +23,21 @@ ARCHIVE_EXTS = {'sarc', 'pack', 'bactorpack', 'bmodelsh', 'beventpack', 'stera',
 def _is_archive_filename(path: Path) -> bool:
     return path.suffix[1:] in ARCHIVE_EXTS
 
+def _compress_file(path: Path) -> None:
+    data = bytes()
+    with open(path, 'rb') as f:
+        data = yaz0_util.compress(f.read())
+
+    compressed_path = path
+    if not path.suffix.startswith('.s'):
+        compressed_path = path.with_suffix('.s' + path.suffix[1:])
+
+    with open(compressed_path, 'wb') as f:
+        f.write(data)
+
+    if not path.suffix.startswith('.s'):
+        path.unlink()
+
 def _get_parents_and_path(path: Path):
     for parent in reversed(path.parents):
         yield parent
@@ -74,6 +89,9 @@ def repack_archive(content_dir: Path, archive_path: Path, rel_archive_dir: Path)
     with open(archive_path, 'wb') as archive_file:
         writer.write(archive_file)
 
+    if archive_path.suffix.startswith('.s'):
+        sys.stderr.write('compressing...\n')
+        _compress_file(archive_path)
     shutil.rmtree(temp_archive_dir)
     return True
 
@@ -137,8 +155,8 @@ def make_loadable_layer(content_dir: Path, patch_dir: Path, target_dir: Path, wi
             rel_path = file.relative_to(target_dir)
             # Repack any extracted archive.
             if file.is_dir() and _is_archive_filename(file):
-                repack_archive(content_dir=content_dir, archive_path=file, rel_archive_dir=rel_path)
                 sys.stderr.write('repacking %s...\n' % rel_path)
+                repack_archive(content_dir=content_dir, archive_path=file, rel_archive_dir=rel_path)
             if not file.is_file():
                 continue
 
