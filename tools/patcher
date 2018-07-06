@@ -96,14 +96,19 @@ def repack_archive(content_dir: Path, archive_path: Path, rel_archive_dir: Path)
     return True
 
 _RSTB_PATH_IN_CONTENT = 'System/Resource/ResourceSizeTable.product.srsizetable'
+_RSTB_BLACKLIST = {'Actor/ActorInfo.product.byml'}
 _RSTB_BLACKLIST_SUFFIXES = {'.pack'}
 size_calculator = rstb.SizeCalculator()
 
 def _should_be_listed_in_rstb(resource_path: Path) -> bool:
+    if str(resource_path) in _RSTB_BLACKLIST:
+        return False
     return resource_path.suffix not in _RSTB_BLACKLIST_SUFFIXES
 
 def _fix_rstb_resource_size(path: Path, rel_path: Path, table: rstb.ResourceSizeTable, wiiu: bool):
     resource_path = _get_resource_path_for_rstb(rel_path)
+    if not _should_be_listed_in_rstb(Path(resource_path)):
+        return
     resource_size = size_calculator.calculate_file_size(str(path), wiiu=wiiu)
     prev_resource_size = 0
 
@@ -165,8 +170,7 @@ def make_loadable_layer(content_dir: Path, patch_dir: Path, target_dir: Path, wi
 
 
             # Fix the size in the RSTB *before* compression.
-            if _should_be_listed_in_rstb(rel_path):
-                _fix_rstb_resource_size(path=file, rel_path=rel_path, table=table, wiiu=wiiu)
+            _fix_rstb_resource_size(path=file, rel_path=rel_path, table=table, wiiu=wiiu)
 
             # TODO: automatically compress file types that are managed by the resource system
             # and that are not already in a compressed archive (excluding pack, bfevfl
