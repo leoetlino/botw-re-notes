@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# Copyright 2018 leoetlino <leo@leolam.fr>
+# Licensed under MIT
+
 import os
 import subprocess
 from typing import Union

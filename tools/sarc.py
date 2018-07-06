@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-# Originally made by NWPlayer123
-# Heavily edited to be usable as a library, handle little endian and fix broken yaz0 support
+# Copyright 2018 leoetlino <leo@leolam.fr>
+# Licensed under MIT
+
 import io
 import os
 import struct
@@ -15,6 +16,11 @@ def _get_unpack_endian_character(big_endian: bool):
 _NUL_CHAR = b'\x00'
 
 class SARC:
+    """A simple SARC reader.
+
+    Original implementation by NWPlayer123. This version has been heavily edited
+    to be usable as a library, handle little endian and fix broken yaz0 support.
+    """
     def __init__(self, data: typing.Union[memoryview, bytes]) -> None:
         self._data = memoryview(data)
         if data[0:4] != b"SARC":
