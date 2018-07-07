@@ -164,7 +164,7 @@ def make_loadable_layer(content_dir: Path, patch_dir: Path, target_dir: Path, wi
             rel_path = file.relative_to(target_dir)
             # Repack any extracted archive.
             if file.is_dir() and _is_archive_filename(file):
-                sys.stderr.write('repacking %s...\n' % rel_path)
+                sys.stderr.write(f'repacking {Fore.CYAN}%s{Style.RESET_ALL}...\n' % rel_path)
                 repack_archive(content_dir=content_dir, archive_path=file, rel_archive_dir=rel_path)
             if not file.is_file():
                 continue
