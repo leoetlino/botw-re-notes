@@ -7,6 +7,7 @@ import os
 import struct
 import sys
 import typing
+import yaml
 
 import yaz0_util
 
@@ -125,6 +126,15 @@ class _PlaceholderOffsetWriter:
 def _align_up(n: int) -> int:
     return (n + 3) & -4
 
+_aglenv_file_info: typing.Optional[typing.List[dict]] = None
+def _get_aglenv_file_info() -> typing.List[dict]:
+    global _aglenv_file_info
+    if _aglenv_file_info:
+        return _aglenv_file_info
+    with open(os.path.dirname(os.path.realpath(__file__)) + '/aglenv_file_info.yml', 'r') as f:
+        _aglenv_file_info = yaml.load(f, Loader=yaml.CSafeLoader) # type: ignore
+        return _aglenv_file_info # type: ignore
+
 class SARCWriter:
     class File(typing.NamedTuple):
         name: str
@@ -135,6 +145,13 @@ class SARCWriter:
         self._hash_multiplier = 0x65
         self._files: typing.Dict[int, SARCWriter.File] = dict()
         self._alignment: typing.Dict[str, int] = dict()
+
+        aglenv_file_info = _get_aglenv_file_info()
+        for entry in aglenv_file_info:
+            self.add_alignment_requirement(entry['ext'], entry['align'])
+            self.add_alignment_requirement(entry['bext'], entry['align'])
+        self.add_alignment_requirement('ksky', 8)
+        self.add_alignment_requirement('bksky', 8)
 
     def add_alignment_requirement(self, extension_without_dot: str, alignment: int) -> None:
         self._alignment[extension_without_dot] = abs(alignment)
