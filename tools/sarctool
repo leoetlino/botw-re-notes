@@ -26,8 +26,9 @@ def sarc_list(args) -> None:
             sys.stderr.write("Unknown file format\n")
             sys.exit(1)
         for file in sorted(s.list_files()):
-            size_str = "[0x%x bytes]" % s.get_file_size(file)
-            print("%s%s" % (file, ' ' + size_str if not args.name_only else ''))
+            extra_info = "[0x%x bytes]" % s.get_file_size(file)
+            extra_info += " @ 0x%x" % s.get_file_data_offset(file)
+            print("%s%s" % (file, ' ' + extra_info if not args.name_only else ''))
 
 def _write_sarc(writer: sarc.SARCWriter, dest_file: str, dest_stream: typing.BinaryIO) -> None:
     buf = io.BytesIO()

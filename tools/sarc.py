@@ -82,6 +82,9 @@ class SARC:
         node = self._files[name]
         return node[1] - node[0]
 
+    def get_file_data_offset(self, name: str) -> int:
+        return self._files[name][0]
+
     def extract(self, archive_name: str) -> None:
         name, ext = os.path.splitext(archive_name)
         try: os.mkdir(name)
