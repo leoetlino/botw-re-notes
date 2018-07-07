@@ -134,6 +134,16 @@ class SARCWriter:
         self._be = be
         self._hash_multiplier = 0x65
         self._files: typing.Dict[int, SARCWriter.File] = dict()
+        self._alignment: typing.Dict[str, int] = dict()
+
+    def add_alignment_requirement(self, extension_without_dot: str, alignment: int) -> None:
+        self._alignment[extension_without_dot] = abs(alignment)
+
+    def _align_up_for_file_data(self, name: str, n: int) -> int:
+        ext = os.path.splitext(name)[1][1:]
+        DEFAULT_ALIGNMENT = 4
+        alignment = self._alignment.get(ext, DEFAULT_ALIGNMENT)
+        return (n + alignment - 1) & -alignment
 
     def _hash_file_name(self, name: str) -> int:
         h = 0
@@ -170,11 +180,11 @@ class SARCWriter:
         for h in sorted_hashes:
             stream.write(self._u32(h))
             stream.write(self._u32(0x01000000 | (string_offset >> 2)))
+            data_offset = self._align_up_for_file_data(self._files[h].name, data_offset)
             stream.write(self._u32(data_offset))
             data_offset += len(self._files[h].data)
             stream.write(self._u32(data_offset))
             string_offset += _align_up(len(self._files[h].name) + 1)
-            data_offset = _align_up(data_offset)
 
         # File name table
         stream.write(b'SFNT')
@@ -186,11 +196,11 @@ class SARCWriter:
             stream.seek(_align_up(stream.tell()))
 
         # File data
-        data_offset_writer.write_current_offset()
         for i, h in enumerate(sorted_hashes):
+            stream.seek(self._align_up_for_file_data(self._files[h].name, stream.tell()))
+            if i == 0:
+                data_offset_writer.write_current_offset()
             stream.write(self._files[h].data) # type: ignore
-            if i != len(sorted_hashes) - 1:
-                stream.seek(_align_up(stream.tell()))
 
         # Write the final file size.
         file_size_writer.write_current_offset()
