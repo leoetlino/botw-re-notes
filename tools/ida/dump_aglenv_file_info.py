@@ -9,10 +9,10 @@ import yaml
 # only valid in Switch 1.5.0
 ARRAY_START = 0x00000071024CB7C8
 
-AglenvFileInfo = namedtuple('AglenvFileInfo', 'id i0 ext bext s align i system desc')
-SwitchStruct = struct.Struct('<IIQQQiIQQ')
+AglenvFileInfo = namedtuple('AglenvFileInfo', 'id i0 ext bext s align system desc')
+SwitchStruct = struct.Struct('<IIQQQixxxxQQ')
 
-with open(os.path.dirname(os.path.realpath(__file__)) + '/../aglenv_file_info.yml', 'w') as file:
+with open(os.path.dirname(os.path.realpath(__file__)) + '/../aglenv_file_info.yml', 'wb') as file:
     data = [] # type: list
     ea = ARRAY_START
     while True:

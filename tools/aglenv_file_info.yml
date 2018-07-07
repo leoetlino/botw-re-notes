@@ -1,40 +1,40 @@
-- {id: 3, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 4, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 5, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 6, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 7, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 8, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 9, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 10, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 11, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 12, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 13, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 14, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 15, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 16, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 17, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 18, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, i: 0, system: envobj, desc: 環境オブジェクト}
-- {id: 19, i0: 1, ext: aglenvset, bext: baglenvset, s: null, align: 8, i: 0, system: envset, desc: 環境オブジェクトセレクタ}
-- {id: 32, i0: 3, ext: fmd, bext: genvres, s: areaenv, align: -8192, i: 0, system: areaenv, desc: エリア環境}
-- {id: 0, i0: 1, ext: aglblm, bext: baglblm, s: null, align: 8, i: 0, system: blm, desc: ブルーム}
-- {id: 1, i0: 1, ext: agldof, bext: bagldof, s: null, align: 8, i: 0, system: dof, desc: 被写界深度}
-- {id: 31, i0: 2, ext: ftx, bext: genvres, s: doftex, align: -8192, i: 0, system: dof, desc: 被写界深度用テクスチャ}
-- {id: 2, i0: 1, ext: aglccr, bext: baglccr, s: null, align: 8, i: 0, system: ccr, desc: カラーコレクション}
-- {id: 20, i0: 1, ext: agllmap, bext: bagllmap, s: null, align: 8, i: 0, system: lmap, desc: ライトマップ}
-- {id: 21, i0: 1, ext: gsdw, bext: bgsdw, s: null, align: 8, i: 0, system: sdw, desc: シャドウ}
-- {id: 22, i0: 1, ext: aglshpp, bext: baglshpp, s: null, align: 8, i: 0, system: sdw, desc: シャドウプレパス}
-- {id: 23, i0: 1, ext: glght, bext: bglght, s: null, align: 8, i: 0, system: lght, desc: ライト}
-- {id: 24, i0: 1, ext: pref, bext: bpref, s: null, align: 8, i: 0, system: pref, desc: 平面反射}
-- {id: 25, i0: 1, ext: aglfila, bext: baglfila, s: null, align: 8, i: 0, system: aa, desc: フィルター AA}
-- {id: 26, i0: 1, ext: aglatex, bext: baglatex, s: null, align: 8, i: 0, system: aex, desc: 自動露出補正}
-- {id: 39, i0: 1, ext: agllref, bext: bagllref, s: null, align: 8, i: 0, system: lref, desc: ローカルリフレクション}
-- {id: 35, i0: 4, ext: ofx, bext: bofx, s: null, align: -8192, i: 0, system: ofx, desc: 遮蔽エフェクト}
-- {id: 36, i0: 1, ext: aglclwd, bext: baglclwd, s: null, align: 8, i: 0, system: aglclwd, desc: プロシージャル 雲}
-- {id: 27, i0: 1, ext: aglcube, bext: baglcube, s: null, align: 8, i: 0, system: envmap, desc: 環境マップ - ランタイム}
-- {id: 28, i0: 2, ext: ftx, bext: genvres, s: envmap, align: -8192, i: 0, system: envmap, desc: 環境マップ - リソース}
-- {id: 29, i0: 2, ext: ftx, bext: genvres, s: prjshd, align: -8192, i: 0, system: prjshd, desc: 投影シャドウ}
-- {id: 30, i0: 2, ext: ftx, bext: genvres, s: prjshd2, align: -8192, i: 0, system: prjshd, desc: 投影シャドウ}
-- {id: 33, i0: 1, ext: aglenv, bext: baglenv, s: snap, align: 8, i: 0, system: snap, desc: スナップショット - 環境オブジェクト}
-- {id: 34, i0: 2, ext: ftx, bext: genvres, s: snapenvmap, align: -8192, i: 0, system: snap, desc: スナップショット - 環境マップ}
-- {id: 37, i0: 1, ext: glpbm, bext: bglpbm, s: null, align: 8, i: 0, system: lprobe, desc: ライトプローブ}
-- {id: 38, i0: 1, ext: glpbd, bext: bglpbd, s: null, align: 8, i: 0, system: lprobe, desc: プローブデータ}
+- {id: 3, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 4, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 5, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 6, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 7, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 8, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 9, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 10, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 11, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 12, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 13, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 14, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 15, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 16, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 17, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 18, i0: 1, ext: aglenv, bext: baglenv, s: null, align: 8, system: envobj, desc: 環境オブジェクト}
+- {id: 19, i0: 1, ext: aglenvset, bext: baglenvset, s: null, align: 8, system: envset, desc: 環境オブジェクトセレクタ}
+- {id: 32, i0: 3, ext: fmd, bext: genvres, s: areaenv, align: -8192, system: areaenv, desc: エリア環境}
+- {id: 0, i0: 1, ext: aglblm, bext: baglblm, s: null, align: 8, system: blm, desc: ブルーム}
+- {id: 1, i0: 1, ext: agldof, bext: bagldof, s: null, align: 8, system: dof, desc: 被写界深度}
+- {id: 31, i0: 2, ext: ftx, bext: genvres, s: doftex, align: -8192, system: dof, desc: 被写界深度用テクスチャ}
+- {id: 2, i0: 1, ext: aglccr, bext: baglccr, s: null, align: 8, system: ccr, desc: カラーコレクション}
+- {id: 20, i0: 1, ext: agllmap, bext: bagllmap, s: null, align: 8, system: lmap, desc: ライトマップ}
+- {id: 21, i0: 1, ext: gsdw, bext: bgsdw, s: null, align: 8, system: sdw, desc: シャドウ}
+- {id: 22, i0: 1, ext: aglshpp, bext: baglshpp, s: null, align: 8, system: sdw, desc: シャドウプレパス}
+- {id: 23, i0: 1, ext: glght, bext: bglght, s: null, align: 8, system: lght, desc: ライト}
+- {id: 24, i0: 1, ext: pref, bext: bpref, s: null, align: 8, system: pref, desc: 平面反射}
+- {id: 25, i0: 1, ext: aglfila, bext: baglfila, s: null, align: 8, system: aa, desc: フィルター AA}
+- {id: 26, i0: 1, ext: aglatex, bext: baglatex, s: null, align: 8, system: aex, desc: 自動露出補正}
+- {id: 39, i0: 1, ext: agllref, bext: bagllref, s: null, align: 8, system: lref, desc: ローカルリフレクション}
+- {id: 35, i0: 4, ext: ofx, bext: bofx, s: null, align: -8192, system: ofx, desc: 遮蔽エフェクト}
+- {id: 36, i0: 1, ext: aglclwd, bext: baglclwd, s: null, align: 8, system: aglclwd, desc: プロシージャル 雲}
+- {id: 27, i0: 1, ext: aglcube, bext: baglcube, s: null, align: 8, system: envmap, desc: 環境マップ - ランタイム}
+- {id: 28, i0: 2, ext: ftx, bext: genvres, s: envmap, align: -8192, system: envmap, desc: 環境マップ - リソース}
+- {id: 29, i0: 2, ext: ftx, bext: genvres, s: prjshd, align: -8192, system: prjshd, desc: 投影シャドウ}
+- {id: 30, i0: 2, ext: ftx, bext: genvres, s: prjshd2, align: -8192, system: prjshd, desc: 投影シャドウ}
+- {id: 33, i0: 1, ext: aglenv, bext: baglenv, s: snap, align: 8, system: snap, desc: スナップショット - 環境オブジェクト}
+- {id: 34, i0: 2, ext: ftx, bext: genvres, s: snapenvmap, align: -8192, system: snap, desc: スナップショット - 環境マップ}
+- {id: 37, i0: 1, ext: glpbm, bext: bglpbm, s: null, align: 8, system: lprobe, desc: ライトプローブ}
+- {id: 38, i0: 1, ext: glpbd, bext: bglpbd, s: null, align: 8, system: lprobe, desc: プローブデータ}
