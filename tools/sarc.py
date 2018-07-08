@@ -157,6 +157,9 @@ class SARCWriter:
         self.add_alignment_requirement('ksky', 8)
         self.add_alignment_requirement('bksky', 8)
 
+    def set_big_endian(self, be: bool) -> None:
+        self._be = be
+
     def add_alignment_requirement(self, extension_without_dot: str, alignment: int) -> None:
         self._alignment[extension_without_dot] = abs(alignment)
 

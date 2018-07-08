@@ -68,6 +68,9 @@ def sarc_create_or_update(args, update: bool) -> None:
         sys.stderr.write('error: could not create SARC writer (is the original SARC valid?)\n')
         sys.exit(1)
 
+    if update and args.endian:
+        writer.set_big_endian(args.endian == 'be')
+
     dest_stream: typing.BinaryIO = open(dest_file, 'wb') if dest_file != '-' else sys.stdout.buffer
 
     def add_file(writer: sarc.SARCWriter, path: str) -> None:
@@ -136,6 +139,7 @@ if __name__ == "__main__":
 
     u_parser = subparsers.add_parser('update', description='Update an archive', aliases=['u'])
     u_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
+    u_parser.add_argument('--endian', choices=['le', 'be'], help='Override endianness. By default sarctool keeps the endianness of the original archive.')
     u_parser.add_argument('-a', '--auto-base-path', action='store_true', help='Use the first FILES directory as the base path. Only use this when passing a single FILES argument.')
     u_parser.add_argument('files', nargs='+', help='Files or directories to add to the archive')
     u_parser.add_argument('dest', help='Archive to update')
