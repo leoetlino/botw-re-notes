@@ -141,7 +141,6 @@ def _exit_if_not_dir(path: str):
         sys.exit(1)
 
 def main(content_dir: typing.List[str], target_dir: str, work_dir: typing.Optional[str]) -> None:
-    _exit_if_not_dir(target_dir)
     for directory in content_dir:
         _exit_if_not_dir(directory)
     if work_dir:

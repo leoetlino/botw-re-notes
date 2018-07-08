@@ -329,7 +329,6 @@ def _exit_if_not_dir(path: str):
 
 def main(content_dir: str, target_dir: str, work_dir: typing.Optional[str]) -> None:
     _exit_if_not_dir(content_dir)
-    _exit_if_not_dir(target_dir)
     if work_dir:
         _exit_if_not_dir(work_dir)
 
