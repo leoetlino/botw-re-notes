@@ -112,6 +112,7 @@ def _should_be_listed_in_rstb(resource_path: Path, rel_path: Path) -> bool:
 def _fix_rstb_resource_size(path: Path, rel_path: Path, table: rstb.ResourceSizeTable, wiiu: bool):
     resource_path = _get_resource_path_for_rstb(rel_path)
     if not _should_be_listed_in_rstb(Path(resource_path), rel_path=rel_path):
+        sys.stderr.write(f'{Fore.WHITE}{rel_path}{Style.RESET_ALL} ({resource_path})\n')
         return
     resource_size = size_calculator.calculate_file_size(str(path), wiiu=wiiu)
     prev_resource_size = 0
