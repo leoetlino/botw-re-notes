@@ -255,12 +255,6 @@ class BotWContent(Operations):
         # TODO: error if the parent does not exist?
         return os.makedirs(self.work_dir / _path, mode)
 
-    def statfs(self, partial: str):
-        stv = os.statvfs(self.content_dir)
-        return dict((key, getattr(stv, key)) for key in ('f_bavail', 'f_bfree',
-            'f_blocks', 'f_bsize', 'f_favail', 'f_ffree', 'f_files', 'f_flag',
-            'f_frsize', 'f_namemax'))
-
     def unlink(self, partial: str):
         _path = self._path(partial)
         if not self.work_dir or not os.path.exists(self.work_dir / _path):
