@@ -89,8 +89,11 @@ class Directory(metaclass=abc.ABCMeta):
 
 # To work around a stupid readonly attribute limitation.
 def my_stat(st) -> dict:
-    return dict((key, getattr(st, key)) for key in ('st_atime', 'st_ctime',
-                 'st_blocks', 'st_gid', 'st_mode', 'st_mtime', 'st_nlink', 'st_size', 'st_uid'))
+    d = dict((key, getattr(st, key)) for key in ('st_atime', 'st_ctime',
+             'st_gid', 'st_mode', 'st_mtime', 'st_nlink', 'st_size', 'st_uid'))
+    if os.name != 'nt':
+        d['st_blocks'] = st.st_blocks
+    return d
 
 def change_st_to_directory(st) -> None:
     st['st_mode'] &= ~stat.S_IFREG

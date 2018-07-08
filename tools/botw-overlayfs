@@ -41,8 +41,11 @@ class BotWMergedContent(Operations):
     def getattr(self, path, fh=None):
         real_path = self._real_path(path)
         st = os.lstat(real_path)
-        return dict((key, getattr(st, key)) for key in ('st_atime', 'st_ctime',
-                     'st_blocks', 'st_gid', 'st_mode', 'st_mtime', 'st_nlink', 'st_size', 'st_uid'))
+        d = dict((key, getattr(st, key)) for key in ('st_atime', 'st_ctime',
+                 'st_gid', 'st_mode', 'st_mtime', 'st_nlink', 'st_size', 'st_uid'))
+        if os.name != 'nt':
+            d['st_blocks'] = st.st_blocks
+        return d
 
     def readdir(self, path, fh) -> typing.Iterator[str]:
         entries = set(['.', '..'])
