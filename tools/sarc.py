@@ -134,7 +134,7 @@ def _get_aglenv_file_info() -> typing.List[dict]:
     global _aglenv_file_info
     if _aglenv_file_info:
         return _aglenv_file_info
-    with open(os.path.dirname(os.path.realpath(__file__)) + '/aglenv_file_info.yml', 'r') as f:
+    with open(os.path.dirname(os.path.realpath(__file__)) + '/aglenv_file_info.yml', 'r', encoding='utf-8') as f:
         _aglenv_file_info = yaml.load(f, Loader=yaml.CSafeLoader) # type: ignore
         return _aglenv_file_info # type: ignore
 
