@@ -160,6 +160,36 @@ Usage example:
 
 The patched files can be used on console or with botw-overlayfs.
 
+## botw-edit
+
+Additional requirement: colorama, fusepy (and on Windows, WinFsp)
+
+A convenience wrapper that combines contentfs, overlayfs and patcher.
+
+    botw-edit --content-view CONTENT_VIEW --patched-view PATCHED_VIEW
+              --work-dir WORK_DIR
+              --target {wiiu,switch}
+              CONTENT_DIRECTORIES
+
+CONTENT_VIEW is the path to the directory where the extracted view should be mounted.
+
+WORK_DIR is where files you modify and create will be stored.
+
+PATCHED_VIEW is where the patched view should be mounted. If you use cemu for example,
+this can be the path to the title content directory: `/mlc01/usr/title/00050000/101C9500/content/`
+
+For CONTENT_DIRECTORIES, pass the base content directory, then the update content.
+
+Usage example:
+
+    botw-edit --content-view botw/view/  --patched-view wiiu/mlc01/usr/title/00050000/101C9500/content/
+              --work-dir botw/patches/
+              --target wiiu
+              botw/base/ botw/update/
+
+Then you can edit files in `botw/view/` and test them immediately, without ever having to keep
+unneeded copies or manually create archives.
+
 ## parse_rstb
 
 ```

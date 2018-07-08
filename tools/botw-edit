@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+# Copyright 2018 leoetlino <leo@leolam.fr>
+# Licensed under MIT
+
+import argparse
+from colorama import Fore, Style # type: ignore
+import os
+import subprocess
+import signal
+import sys
+import tempfile
+import typing
+
+def main(content_dir: typing.List[str], content_view: str, work_dir: str, patched_view: str, target: str) -> None:
+    this_dir = os.path.dirname(os.path.abspath(__file__))
+
+    with tempfile.TemporaryDirectory(prefix='botw-edit-') as temp_merged_dir, \
+         tempfile.TemporaryDirectory(prefix='botw-edit-') as patch_dir:
+        def preexec_function():
+            os.setpgrp()
+
+        # Mount overlayfs: content_dirs... -> merged_dir
+        overlayfs_p1 = subprocess.Popen([sys.executable, os.path.join(this_dir, 'botw-overlayfs'),
+                                        *content_dir, temp_merged_dir], stdout=subprocess.DEVNULL,
+                                        preexec_fn=preexec_function)
+        # Mount contentfs: merged_dir work_dir -> content_view (work: work_dir)
+        contentfs_p = subprocess.Popen([sys.executable, os.path.join(this_dir, 'botw-contentfs'),
+                                        temp_merged_dir, content_view, '-w', work_dir],
+                                        stdout=subprocess.DEVNULL, preexec_fn=preexec_function)
+        # Mount overlayfs: content_dirs... patch_dir -> patched_view (work: patch_dir)
+        overlayfs_p2 = subprocess.Popen([sys.executable, os.path.join(this_dir, 'botw-overlayfs'),
+                                         *content_dir, patched_view, '-w', patch_dir],
+                                         stdout=subprocess.DEVNULL, preexec_fn=preexec_function)
+
+        def signal_handler(sig, frame):
+            sys.stderr.write('exiting...\n')
+            for process in [overlayfs_p2, contentfs_p, overlayfs_p1]:
+                process.send_signal(signal.SIGINT)
+                process.wait()
+
+            sys.exit(0)
+
+        signal.signal(signal.SIGINT, signal_handler)
+        sys.stderr.write('Ready.\n')
+        def print_information():
+            sys.stderr.write('\n')
+            sys.stderr.write(f'Content view: {Fore.BLUE}{content_view}{Style.RESET_ALL}\n')
+            sys.stderr.write(f'Work directory: {Fore.BLUE}{work_dir}{Style.RESET_ALL}\n')
+            sys.stderr.write(f'Patched view: {Fore.BLUE}{patched_view}{Style.RESET_ALL}\n')
+            sys.stderr.write('\n')
+            sys.stderr.write(f'{Style.BRIGHT}{Fore.WHITE}To update game files, type \'patch\'{Style.RESET_ALL}\n')
+        print_information()
+
+        while True:
+            cmd = input()
+            if cmd != 'patch':
+                continue
+
+            sys.stderr.write('\n')
+            sys.stderr.write(f'{Style.DIM}--------------- Running patcher ---------------{Style.RESET_ALL}\n')
+            subprocess.run([sys.executable, os.path.join(this_dir, 'patcher'), temp_merged_dir,
+                            work_dir, patch_dir, '--force', '--target', args.target], check=True)
+            sys.stderr.write(f'{Style.BRIGHT}{Fore.GREEN}done.{Style.RESET_ALL}\n')
+            print_information()
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Wrapper for overlayfs and contentfs to allow editing and testing game files easily.')
+    parser.add_argument('content_dir', nargs='+', help='Paths to content directories. Directories take precedence over the ones on their left.')
+    parser.add_argument('--content-view', help='Path to the directory on which the extracted view should be mounted', required=True)
+    parser.add_argument('--work-dir', help='Path to the directory where modified and new files will be stored', required=True)
+    parser.add_argument('--patched-view', help='Path to the patched content view', required=True)
+    parser.add_argument('--target', choices=['wiiu', 'switch'], help='Target platform', required=True)
+    args = parser.parse_args()
+
+    main(args.content_dir, args.content_view, args.work_dir, args.patched_view, args.target)
