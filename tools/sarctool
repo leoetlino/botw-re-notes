@@ -62,7 +62,7 @@ def sarc_create_or_update(args, update: bool) -> None:
             writer.set_min_data_offset(args.data_offset)
     else:
         with open(dest_file, 'rb') as original_sarc_file:
-            writer = sarc.read_sarc_and_make_writer(original_sarc_file)
+            writer = sarc.read_sarc_and_make_writer(original_sarc_file, None)
 
     if not writer:
         sys.stderr.write('error: could not create SARC writer (is the original SARC valid?)\n')
