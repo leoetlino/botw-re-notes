@@ -166,10 +166,25 @@ class SARCWriter:
     def set_min_data_offset(self, offset: int) -> None:
         self._min_data_offset = offset
 
-    def _align_up_for_file_data(self, name: str, n: int) -> int:
-        ext = os.path.splitext(name)[1][1:]
+    def _get_file_alignment_for_new_binary_file(self, file: File) -> int:
+        """Detects alignment requirements for binary files with new nn::util::BinaryFileHeader."""
+        if len(file.data) <= 0x20:
+            return 0
+        bom = file.data[0xc:0xc+2]
+        if bom != b'\xff\xfe' and bom != b'\xfe\xff':
+            return 0
+
+        be = bom == b'\xfe\xff'
+        file_size: int = struct.unpack_from(_get_unpack_endian_character(be) + 'I', file.data, 0x1c)[0]
+        if len(file.data) != file_size:
+            return 0
+        return 1 << file.data[0xe]
+
+    def _align_up_for_file_data(self, file: File, n: int) -> int:
+        ext = os.path.splitext(file.name)[1][1:]
         DEFAULT_ALIGNMENT = 4
         alignment = self._alignment.get(ext, DEFAULT_ALIGNMENT)
+        alignment = max(alignment, self._get_file_alignment_for_new_binary_file(file))
         return (n + alignment - 1) & -alignment
 
     def _hash_file_name(self, name: str) -> int:
@@ -207,7 +222,7 @@ class SARCWriter:
         for h in sorted_hashes:
             stream.write(self._u32(h))
             stream.write(self._u32(0x01000000 | (string_offset >> 2)))
-            data_offset = self._align_up_for_file_data(self._files[h].name, data_offset)
+            data_offset = self._align_up_for_file_data(self._files[h], data_offset)
             stream.write(self._u32(data_offset))
             data_offset += len(self._files[h].data)
             stream.write(self._u32(data_offset))
@@ -226,7 +241,7 @@ class SARCWriter:
         if self._min_data_offset and self._min_data_offset > stream.tell():
             stream.seek(self._min_data_offset)
         for i, h in enumerate(sorted_hashes):
-            stream.seek(self._align_up_for_file_data(self._files[h].name, stream.tell()))
+            stream.seek(self._align_up_for_file_data(self._files[h], stream.tell()))
             if i == 0:
                 data_offset_writer.write_current_offset()
             stream.write(self._files[h].data) # type: ignore
