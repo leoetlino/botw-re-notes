@@ -249,10 +249,15 @@ class SARCWriter:
         file_alignments: typing.List[int] = []
         string_offset = 0
         data_offset = 0
+        # Some files have specific alignment requirements. These must be satisfied by
+        # aligning file offsets *and* the data offset to the maximum alignment value
+        # since file offsets are always relative to the data offset.
+        data_offset_alignment = 1
         for h in sorted_hashes:
             stream.write(self._u32(h))
             stream.write(self._u32(0x01000000 | (string_offset >> 2)))
             alignment = self._get_alignment_for_file_data(self._files[h])
+            data_offset_alignment = max(data_offset_alignment, alignment)
             file_alignments.append(alignment)
             data_offset = _align_up(data_offset, alignment)
             stream.write(self._u32(data_offset))
@@ -270,6 +275,7 @@ class SARCWriter:
             stream.seek(_align_up(stream.tell(), 4))
 
         # File data
+        stream.seek(_align_up(stream.tell(), data_offset_alignment))
         if self._min_data_offset and self._min_data_offset > stream.tell():
             stream.seek(self._min_data_offset)
         for i, h in enumerate(sorted_hashes):
