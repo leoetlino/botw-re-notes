@@ -137,6 +137,12 @@ def sarc_test_repack(args) -> None:
             print('')
             print('!!! mismatch: original: %s @ 0x%x' % (original_offset[0], original_offset[1]))
             print('!!! mismatch: repacked: %s @ 0x%x' % (repacked_offset[0], repacked_offset[1]))
+            alignment = 2
+            aligned_offset = repacked_offset[1]
+            while aligned_offset != original_offset[1]:
+                aligned_offset = (aligned_offset + alignment - 1) & -alignment
+                alignment <<= 1
+            print('!!! mismatch: alignment value seems to be 0x%x' % alignment)
             sys.exit(12)
 
     buf = io.BytesIO()
