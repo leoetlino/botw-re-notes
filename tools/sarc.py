@@ -3,6 +3,7 @@
 # Licensed under MIT
 
 import io
+import json
 from operator import itemgetter
 import os
 import struct
@@ -145,6 +146,14 @@ def _get_aglenv_file_info() -> typing.List[dict]:
         _aglenv_file_info = yaml.load(f, Loader=yaml.CSafeLoader) # type: ignore
         return _aglenv_file_info # type: ignore
 
+_botw_resource_factory_info: typing.Optional[typing.List[dict]] = None
+def _get_botw_resource_factory_info() -> typing.List[dict]:
+    global _botw_resource_factory_info
+    if not _botw_resource_factory_info:
+        with open(os.path.join(os.path.dirname(__file__), 'resource_class_sizes.json')) as f:
+            _botw_resource_factory_info = json.load(f)
+    return _botw_resource_factory_info # type: ignore
+
 class SARCWriter:
     class File(typing.NamedTuple):
         name: str
@@ -163,6 +172,8 @@ class SARCWriter:
             self.add_alignment_requirement(entry['bext'], entry['align'])
         self.add_alignment_requirement('ksky', 8)
         self.add_alignment_requirement('bksky', 8)
+
+        self._botw_resource_factory_info = _get_botw_resource_factory_info()
 
     def set_big_endian(self, be: bool) -> None:
         self._be = be
@@ -191,7 +202,8 @@ class SARCWriter:
         ext = os.path.splitext(file.name)[1][1:]
         DEFAULT_ALIGNMENT = 4
         alignment = self._alignment.get(ext, DEFAULT_ALIGNMENT)
-        alignment = max(alignment, self._get_file_alignment_for_new_binary_file(file))
+        if ext not in self._botw_resource_factory_info:
+            alignment = max(alignment, self._get_file_alignment_for_new_binary_file(file))
         return (n + alignment - 1) & -alignment
 
     def _hash_file_name(self, name: str) -> int:
