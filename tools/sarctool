@@ -186,7 +186,7 @@ if __name__ == "__main__":
     d_parser.add_argument('archive', help='Archive to update')
     d_parser.set_defaults(func=sarc_delete)
 
-    t_parser = subparsers.add_parser('test-repack', description='Test repacking to check for alignment issues', help=argparse.SUPPRESS)
+    t_parser = subparsers.add_parser('test-repack', description='Test repacking to check for potential alignment issues')
     t_parser.add_argument('archive', type=argparse.FileType('rb'), help='Archive to test')
     t_parser.set_defaults(func=sarc_test_repack)
 
