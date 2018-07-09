@@ -63,8 +63,6 @@ def sarc_create_or_update(args, update: bool) -> None:
     writer: typing.Optional[sarc.SARCWriter] = None
     if not update:
         writer = sarc.SARCWriter(be=args.be)
-        if args.data_offset:
-            writer.set_min_data_offset(args.data_offset)
     else:
         with open(dest_file, 'rb') as original_sarc_file:
             writer = sarc.read_sarc_and_make_writer(original_sarc_file, None)
@@ -171,7 +169,6 @@ if __name__ == "__main__":
     c_parser = subparsers.add_parser('create', description='Create an archive', aliases=['c'])
     c_parser.add_argument('-b', '--be', action='store_true', help='Use big endian. Defaults to false.')
     c_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
-    c_parser.add_argument('--data-offset', type=lambda x: int(x, 0), help='Minimum data offset.')
     c_parser.add_argument('files', nargs='+', help='Files or directories to include in the archive')
     c_parser.add_argument('dest', help='Destination archive')
     c_parser.set_defaults(func=lambda a: sarc_create_or_update(a, update=False))

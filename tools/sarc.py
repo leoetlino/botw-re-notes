@@ -164,7 +164,6 @@ class SARCWriter:
         self._hash_multiplier = 0x65
         self._files: typing.Dict[int, SARCWriter.File] = dict()
         self._alignment: typing.Dict[str, int] = dict()
-        self._min_data_offset: typing.Optional[int] = None
 
         aglenv_file_info = _get_aglenv_file_info()
         for entry in aglenv_file_info:
@@ -180,9 +179,6 @@ class SARCWriter:
 
     def add_alignment_requirement(self, extension_without_dot: str, alignment: int) -> None:
         self._alignment[extension_without_dot] = abs(alignment)
-
-    def set_min_data_offset(self, offset: int) -> None:
-        self._min_data_offset = offset
 
     def _get_file_alignment_for_new_binary_file(self, file: File) -> int:
         """Detects alignment requirements for binary files with new nn::util::BinaryFileHeader."""
@@ -276,8 +272,6 @@ class SARCWriter:
 
         # File data
         stream.seek(_align_up(stream.tell(), data_offset_alignment))
-        if self._min_data_offset and self._min_data_offset > stream.tell():
-            stream.seek(self._min_data_offset)
         for i, h in enumerate(sorted_hashes):
             stream.seek(_align_up(stream.tell(), file_alignments[i]))
             if i == 0:
@@ -316,7 +310,6 @@ def read_file_and_make_sarc(f: typing.BinaryIO) -> typing.Optional[SARC]:
 
 def make_writer_from_sarc(sarc: SARC, filter_fn: typing.Optional[typing.Callable[[str], bool]]) -> typing.Optional[SARCWriter]:
     writer = SARCWriter(be=sarc._be)
-    writer.set_min_data_offset(sarc.get_data_offset())
     for file in sarc.list_files():
         if not filter_fn or filter_fn(file):
             writer.add_file(file, sarc.get_file_data(file))
