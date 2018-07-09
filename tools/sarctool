@@ -45,6 +45,12 @@ def sarc_create_or_update(args, update: bool) -> None:
     dest_file: str = args.dest
     base_path: typing.Optional[str] = args.base_path
 
+    if '!!' in dest_file:
+        if len(file_list) != 1:
+            sys.stderr.write('error: cannot detect what the output SARC name should be from file list\n')
+            sys.exit(1)
+        dest_file = dest_file.replace('!!', os.path.normpath(file_list[0]))
+
     if not args.base_path:
         if len(file_list) != 1:
             sys.stderr.write('error: cannot auto detect base path from file list\n')
