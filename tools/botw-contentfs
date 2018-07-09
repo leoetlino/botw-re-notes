@@ -21,7 +21,7 @@ BINARY_MODE = os.O_BINARY if os.name == 'nt' else 0
 
 ARCHIVE_EXTS = {'sarc', 'pack', 'bactorpack', 'bmodelsh', 'beventpack', 'stera', 'stats',
                 'ssarc', 'spack', 'sbactorpack', 'sbmodelsh', 'sbeventpack', 'sstera', 'sstats',
-                'blarc', 'sblarc', 'genvb', 'sgenvb'}
+                'blarc', 'sblarc', 'genvb', 'sgenvb', 'bfarc', 'sbfarc'}
 
 def is_archive_filename(path: PPPath) -> bool:
     return path.suffix[1:] in ARCHIVE_EXTS
