@@ -45,11 +45,7 @@ def sarc_create_or_update(args, update: bool) -> None:
     dest_file: str = args.dest
     base_path: typing.Optional[str] = args.base_path
 
-    if args.base_path and args.auto_base_path:
-        sys.stderr.write('error: --base-path and --auto-base-path are incompatible; choose one\n')
-        sys.exit(1)
-
-    if args.auto_base_path:
+    if not args.base_path:
         if len(file_list) != 1:
             sys.stderr.write('error: cannot auto detect base path from file list\n')
             sys.exit(1)
@@ -134,7 +130,6 @@ if __name__ == "__main__":
     c_parser = subparsers.add_parser('create', description='Create an archive', aliases=['c'])
     c_parser.add_argument('-b', '--be', action='store_true', help='Use big endian. Defaults to false.')
     c_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
-    c_parser.add_argument('-a', '--auto-base-path', action='store_true', help='Use the first FILES directory as the base path. Only use this when passing a single FILES argument.')
     c_parser.add_argument('--data-offset', type=lambda x: int(x, 0), help='Minimum data offset.')
     c_parser.add_argument('files', nargs='+', help='Files or directories to include in the archive')
     c_parser.add_argument('dest', help='Destination archive')
@@ -143,7 +138,6 @@ if __name__ == "__main__":
     u_parser = subparsers.add_parser('update', description='Update an archive', aliases=['u'])
     u_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
     u_parser.add_argument('--endian', choices=['le', 'be'], help='Override endianness. By default sarctool keeps the endianness of the original archive.')
-    u_parser.add_argument('-a', '--auto-base-path', action='store_true', help='Use the first FILES directory as the base path. Only use this when passing a single FILES argument.')
     u_parser.add_argument('files', nargs='+', help='Files or directories to add to the archive')
     u_parser.add_argument('dest', help='Archive to update')
     u_parser.set_defaults(func=lambda a: sarc_create_or_update(a, update=True))
