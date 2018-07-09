@@ -178,6 +178,10 @@ class SARCWriter:
         self.add_alignment_requirement('sharc', 0x1000)
         # BotW: Pack/Bootup.pack/Layout/MultiFilter.ssarc/*.baglmf (AAMP)
         self.add_alignment_requirement('baglmf', 0x80)
+        # BotW: Event/*.beventpack (for some reason, bfevfl are aligned when they don't need to)
+        self.add_alignment_requirement('bfevfl', 0x100)
+        # BotW: Font/*.bfarc/.bffnt
+        self.add_alignment_requirement('bffnt', 0x1000 if not be else 0x2000)
 
         self._botw_resource_factory_info = _get_botw_resource_factory_info()
 
