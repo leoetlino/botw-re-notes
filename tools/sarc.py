@@ -3,6 +3,7 @@
 # Licensed under MIT
 
 import io
+from operator import itemgetter
 import os
 import struct
 import sys
@@ -58,6 +59,12 @@ class SARC:
 
     def get_data_offset(self) -> int:
         return self._doff
+
+    def get_file_offsets(self) -> typing.List[typing.Tuple[str, int]]:
+        offsets: list = []
+        for name, node in self._files.items():
+            offsets.append((name, node[0]))
+        return sorted(offsets, key=itemgetter(1))
 
     def list_files(self):
         return self._files.keys()
@@ -198,6 +205,15 @@ class SARCWriter:
 
     def delete_file(self, name: str) -> None:
         del self._files[self._hash_file_name(name)]
+
+    def get_file_offsets(self) -> typing.List[typing.Tuple[str, int]]:
+        offsets: list = []
+        data_offset = 0
+        for h in sorted(self._files.keys()):
+            data_offset = self._align_up_for_file_data(self._files[h], data_offset)
+            offsets.append((self._files[h].name, data_offset))
+            data_offset += len(self._files[h].data)
+        return offsets
 
     def write(self, stream: typing.BinaryIO) -> None:
         # SARC header
