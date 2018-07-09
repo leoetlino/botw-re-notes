@@ -37,12 +37,11 @@ An important option is `--base-path`. This option lets you remove parts of the p
 For example, if you pass a path like `Mods/BotW/System/Version.txt`, you will likely want to pass
 `--base-path Mods/BotW` to get rid of the leading components.
 
-If you pass only a single directory, you can use `--auto-base-path` (shorthand: `-a`)
-to make it set the base path automatically.
+If only a single directory is passed, the base path is set for you automatically.
 
 So typical usage example:
 
-    sarctool create  ~/botw/Bootup/  ~/botw/ModifiedBootup.pack -a
+    sarctool create  ~/botw/Bootup/  ~/botw/ModifiedBootup.pack
 
 ### Update an archive
 
