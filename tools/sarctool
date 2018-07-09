@@ -138,8 +138,8 @@ def sarc_test_repack(args) -> None:
             alignment = 2
             aligned_offset = repacked_offset[1]
             while aligned_offset != original_offset[1]:
-                aligned_offset = (aligned_offset + alignment - 1) & -alignment
                 alignment <<= 1
+                aligned_offset = (aligned_offset + alignment - 1) & -alignment
             print('!!! mismatch: alignment value seems to be 0x%x' % alignment)
             sys.exit(12)
 
