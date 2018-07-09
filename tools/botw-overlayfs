@@ -12,6 +12,8 @@ import typing
 
 from fuse import FUSE, FuseOSError, Operations # type: ignore
 
+BINARY_MODE = os.O_BINARY if os.name == 'nt' else 0
+
 class BotWMergedContent(Operations):
     """Similar to overlayfs. More assumptions but simpler and should work on Windows."""
 
@@ -106,7 +108,7 @@ class BotWMergedContent(Operations):
         # Check whether the parent path exists.
         self._real_path(parent_dir)
         os.makedirs(self.work_dir + parent_dir, exist_ok=True)
-        return os.open(self.work_dir + path, os.O_RDWR | os.O_CREAT, mode)
+        return os.open(self.work_dir + path, os.O_RDWR | os.O_CREAT | BINARY_MODE, mode)
 
     def read(self, path, length, offset, fh):
         os.lseek(fh, offset, os.SEEK_SET)
@@ -119,7 +121,7 @@ class BotWMergedContent(Operations):
     def truncate(self, path, length, fh=None):
         if not self.work_dir:
             raise FuseOSError(errno.EROFS)
-        with open(self.work_dir + path, 'r+') as f:
+        with open(self.work_dir + path, 'r+b') as f:
             f.truncate(length)
 
     def flush(self, path, fh):

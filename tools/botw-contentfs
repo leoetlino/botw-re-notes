@@ -17,6 +17,8 @@ import typing
 
 from fuse import FUSE, FuseOSError, Operations # type: ignore
 
+BINARY_MODE = os.O_BINARY if os.name == 'nt' else 0
+
 ARCHIVE_EXTS = {'sarc', 'pack', 'bactorpack', 'bmodelsh', 'beventpack', 'stera', 'stats',
                 'ssarc', 'spack', 'sbactorpack', 'sbmodelsh', 'sbeventpack', 'sstera', 'sstats',
                 'blarc', 'sblarc', 'genvb', 'sgenvb'}
@@ -105,7 +107,7 @@ class HostDirectory(Directory):
     def list_files(self, path: PPPath) -> typing.Collection[str]:
         return os.listdir(self._path / path)
     def open_file(self, file: PPPath, flags) -> File:
-        return HostFile(os.open(self._path / file, flags))
+        return HostFile(os.open(self._path / file, flags | BINARY_MODE))
     def get_file_stats(self, path: PPPath) -> dict:
         return my_stat(os.lstat(self._path / path))
 
@@ -290,7 +292,7 @@ class BotWContent(Operations):
                 with open(self.work_dir / _path, 'wb') as target:
                     file = self._get_file(self.content_dir, _path, os.O_RDONLY)
                     target.write(file.read(file.get_size())) # type: ignore
-            return self.fd_map.allocate(HostFile(os.open(self.work_dir / _path, flags)))
+            return self.fd_map.allocate(HostFile(os.open(self.work_dir / _path, flags | BINARY_MODE)))
         return self.fd_map.allocate(self._get_file_from_partial(_path, os.O_RDONLY))
 
     def create(self, partial: str, mode, fi=None):
@@ -299,7 +301,7 @@ class BotWContent(Operations):
         # TODO: error if the parent dir does not exist
         os.makedirs(self.work_dir / self._path(partial).parent, exist_ok=True)
         return self.fd_map.allocate(
-            HostFile(os.open(self.work_dir / self._path(partial), os.O_RDWR | os.O_CREAT, mode)))
+            HostFile(os.open(self.work_dir / self._path(partial), os.O_RDWR | os.O_CREAT | BINARY_MODE, mode)))
 
     def read(self, partial: str, length, offset, fd: int):
         file = self.fd_map.get_entry(fd)
@@ -315,7 +317,7 @@ class BotWContent(Operations):
         _path = self._path(partial)
         if not self.work_dir:
             raise FuseOSError(errno.EROFS)
-        with open(self.work_dir / _path, 'r+') as f:
+        with open(self.work_dir / _path, 'r+b') as f:
             f.truncate(length)
 
     def flush(self, path, fd: int):
