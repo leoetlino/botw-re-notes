@@ -134,8 +134,8 @@ class _PlaceholderOffsetWriter:
     def write_current_offset(self, base: int = 0) -> None:
         self.write_offset(self._stream.tell(), base)
 
-def _align_up(n: int) -> int:
-    return (n + 3) & -4
+def _align_up(n: int, alignment: int) -> int:
+    return (n + alignment - 1) & -alignment
 
 _aglenv_file_info: typing.Optional[typing.List[dict]] = None
 def _get_aglenv_file_info() -> typing.List[dict]:
@@ -198,13 +198,13 @@ class SARCWriter:
             return 0
         return 1 << file.data[0xe]
 
-    def _align_up_for_file_data(self, file: File, n: int) -> int:
+    def _get_alignment_for_file_data(self, file: File) -> int:
         ext = os.path.splitext(file.name)[1][1:]
         DEFAULT_ALIGNMENT = 4
         alignment = self._alignment.get(ext, DEFAULT_ALIGNMENT)
         if ext not in self._botw_resource_factory_info:
             alignment = max(alignment, self._get_file_alignment_for_new_binary_file(file))
-        return (n + alignment - 1) & -alignment
+        return alignment
 
     def _hash_file_name(self, name: str) -> int:
         h = 0
@@ -222,7 +222,8 @@ class SARCWriter:
         offsets: list = []
         data_offset = 0
         for h in sorted(self._files.keys()):
-            data_offset = self._align_up_for_file_data(self._files[h], data_offset)
+            alignment = self._get_alignment_for_file_data(self._files[h])
+            data_offset = _align_up(data_offset, alignment)
             offsets.append((self._files[h].name, data_offset))
             data_offset += len(self._files[h].data)
         return offsets
@@ -245,16 +246,19 @@ class SARCWriter:
 
         # Node information
         sorted_hashes = sorted(self._files.keys())
+        file_alignments: typing.List[int] = []
         string_offset = 0
         data_offset = 0
         for h in sorted_hashes:
             stream.write(self._u32(h))
             stream.write(self._u32(0x01000000 | (string_offset >> 2)))
-            data_offset = self._align_up_for_file_data(self._files[h], data_offset)
+            alignment = self._get_alignment_for_file_data(self._files[h])
+            file_alignments.append(alignment)
+            data_offset = _align_up(data_offset, alignment)
             stream.write(self._u32(data_offset))
             data_offset += len(self._files[h].data)
             stream.write(self._u32(data_offset))
-            string_offset += _align_up(len(self._files[h].name) + 1)
+            string_offset += _align_up(len(self._files[h].name) + 1, 4)
 
         # File name table
         stream.write(b'SFNT')
@@ -263,13 +267,13 @@ class SARCWriter:
         for h in sorted_hashes:
             stream.write(self._files[h].name.encode())
             stream.write(_NUL_CHAR)
-            stream.seek(_align_up(stream.tell()))
+            stream.seek(_align_up(stream.tell(), 4))
 
         # File data
         if self._min_data_offset and self._min_data_offset > stream.tell():
             stream.seek(self._min_data_offset)
         for i, h in enumerate(sorted_hashes):
-            stream.seek(self._align_up_for_file_data(self._files[h], stream.tell()))
+            stream.seek(_align_up(stream.tell(), file_alignments[i]))
             if i == 0:
                 data_offset_writer.write_current_offset()
             stream.write(self._files[h].data) # type: ignore
