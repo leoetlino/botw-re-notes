@@ -169,8 +169,15 @@ class SARCWriter:
         for entry in aglenv_file_info:
             self.add_alignment_requirement(entry['ext'], entry['align'])
             self.add_alignment_requirement(entry['bext'], entry['align'])
+        # BotW: Pack/Bootup.pack/Env/env.sgenvb/postfx/*.bksky (AAMP)
         self.add_alignment_requirement('ksky', 8)
         self.add_alignment_requirement('bksky', 8)
+        # BotW: Pack/TitleBG.pack/Terrain/System/tera_resource.Nin_NX_NVN.release.ssarc
+        self.add_alignment_requirement('gtx', 0x2000)
+        self.add_alignment_requirement('sharcb', 0x1000)
+        self.add_alignment_requirement('sharc', 0x1000)
+        # BotW: Pack/Bootup.pack/Layout/MultiFilter.ssarc/*.baglmf (AAMP)
+        self.add_alignment_requirement('baglmf', 0x80)
 
         self._botw_resource_factory_info = _get_botw_resource_factory_info()
 
