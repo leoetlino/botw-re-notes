@@ -36,6 +36,8 @@ class BotWMergedContent(Operations):
         raise FuseOSError(errno.ENOENT)
 
     def access(self, path, mode):
+        if os.name == 'nt':
+            return
         real_path = self._real_path(path)
         if not os.access(real_path, mode):
             raise FuseOSError(errno.EACCES)
