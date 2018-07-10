@@ -81,8 +81,12 @@ def main(content_dir: typing.List[str], content_view: str, work_dir: str, patche
 
             sys.stderr.write('\n')
             sys.stderr.write(f'{Style.DIM}--------------- Running patcher ---------------{Style.RESET_ALL}\n')
-            subprocess.run([sys.executable, os.path.join(this_dir, 'patcher'), temp_merged_dir,
-                            work_dir, patch_dir, '--force', '--target', args.target], check=True)
+            try:
+                subprocess.run([sys.executable, os.path.join(this_dir, 'patcher'), temp_merged_dir,
+                               work_dir, patch_dir, '--force', '--target', args.target], check=True)
+            except subprocess.CalledProcessError:
+                sys.stderr.write(f'{Style.BRIGHT}{Fore.RED}Patcher exited with non-zero code{Style.RESET_ALL}\n')
+                signal_handler(None, None)
             sys.stderr.write(f'{Style.BRIGHT}{Fore.GREEN}done.{Style.RESET_ALL}\n')
             print_information()
 
