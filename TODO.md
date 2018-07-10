@@ -2,6 +2,7 @@
 
 ## Difficulty Scaling (LevelSensor)
 - How scaling is disabled on Eventide for chests
+- How scaling works for amiibo weapons. What determines the drop table list that gets used?
 
 ## Castle Blights (scaling and actors)
 - Scaling for Castle Blights
