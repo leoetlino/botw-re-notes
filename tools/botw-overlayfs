@@ -77,6 +77,22 @@ class BotWMergedContent(Operations):
         self._real_path(str(Path(path).parent))
         return os.makedirs(self.work_dir + path, mode)
 
+    def statfs(self, path):
+        real_path = self._real_path(path)
+        if os.name == 'nt':
+            usage = shutil.disk_usage(str(real_path))
+            return {
+                # Just return everything in bytes.
+                'f_frsize': 1,
+                'f_blocks': usage.total,
+                'f_bfree': usage.free,
+            }
+
+        stv = os.statvfs(real_path)
+        return dict((key, getattr(stv, key)) for key in ('f_bavail', 'f_bfree',
+            'f_blocks', 'f_bsize', 'f_favail', 'f_ffree', 'f_files', 'f_flag',
+            'f_frsize', 'f_namemax'))
+
     def unlink(self, path):
         if not self.work_dir or not os.path.exists(self.work_dir + path):
             raise FuseOSError(errno.EROFS)
