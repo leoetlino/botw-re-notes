@@ -140,7 +140,7 @@ class ArchiveDirectory(Directory):
 
     def open_file(self, file: PPPath, flags) -> File:
         if str(file) == ArchiveDirectory.SELF_FILE_NAME:
-            return self._parent.open_file(os.path.relpath(self._path, self._parent._path), os.O_RDONLY)
+            return self._parent.open_file(self._path.relative_to(self._parent._path), os.O_RDONLY)
         try:
             return InMemoryFile(self._arc.get_file_data(str(file)))
         except KeyError:
@@ -148,7 +148,7 @@ class ArchiveDirectory(Directory):
             return InMemoryFile(self._arc.get_file_data('/' + str(file)))
     def get_file_stats(self, path: PPPath) -> dict:
         # Use the SARC's stats to get correct-ish timestamps and other metadata easily.
-        arc_stat = self._parent.get_file_stats(os.path.relpath(self._path, self._parent._path))
+        arc_stat = self._parent.get_file_stats(self._path.relative_to(self._parent._path))
         if str(path) == ArchiveDirectory.SELF_FILE_NAME:
             return arc_stat
 
