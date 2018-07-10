@@ -164,7 +164,9 @@ class SARCWriter:
         self._hash_multiplier = 0x65
         self._files: typing.Dict[int, SARCWriter.File] = dict()
         self._alignment: typing.Dict[str, int] = dict()
+        self._botw_resource_factory_info = _get_botw_resource_factory_info()
 
+    def _refresh_alignment_info(self) -> None:
         aglenv_file_info = _get_aglenv_file_info()
         for entry in aglenv_file_info:
             self.add_alignment_requirement(entry['ext'], entry['align'])
@@ -178,12 +180,18 @@ class SARCWriter:
         self.add_alignment_requirement('sharc', 0x1000)
         # BotW: Pack/Bootup.pack/Layout/MultiFilter.ssarc/*.baglmf (AAMP)
         self.add_alignment_requirement('baglmf', 0x80)
-        # BotW: Event/*.beventpack (for some reason, bfevfl are aligned when they don't need to)
-        self.add_alignment_requirement('bfevfl', 0x100)
+        # BotW: Event/*.beventpack
+        # For some reason, bfevfl are aligned even when they don't need to. But only those
+        # that are in beventpacks...
+        def has_only_event_packs() -> bool:
+            for file in self._files.values():
+                if not (file.name.startswith('EventFlow/') and file.name.endswith('.bfevfl')):
+                    return False
+            return True
+        if has_only_event_packs():
+            self.add_alignment_requirement('bfevfl', 0x100)
         # BotW: Font/*.bfarc/.bffnt
-        self.add_alignment_requirement('bffnt', 0x1000 if not be else 0x2000)
-
-        self._botw_resource_factory_info = _get_botw_resource_factory_info()
+        self.add_alignment_requirement('bffnt', 0x1000 if not self._be else 0x2000)
 
     def set_big_endian(self, be: bool) -> None:
         self._be = be
@@ -226,6 +234,7 @@ class SARCWriter:
         del self._files[self._hash_file_name(name)]
 
     def get_file_offsets(self) -> typing.List[typing.Tuple[str, int]]:
+        self._refresh_alignment_info()
         offsets: list = []
         data_offset = 0
         for h in sorted(self._files.keys()):
@@ -236,6 +245,8 @@ class SARCWriter:
         return offsets
 
     def write(self, stream: typing.BinaryIO) -> None:
+        self._refresh_alignment_info()
+
         # SARC header
         stream.write(b'SARC')
         stream.write(self._u16(0x14))
