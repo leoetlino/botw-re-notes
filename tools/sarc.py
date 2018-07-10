@@ -213,12 +213,21 @@ class SARCWriter:
             return 0
         return 1 << file.data[0xe]
 
+    def _get_file_alignment_for_old_bflim(self, file: File) -> int:
+        # XXX: should another flag be added for the platform?
+        if not self._be:
+            return 0
+        if len(file.data) <= 0x28 or file.data[-0x28:-0x24] != b'FLIM':
+            return 0
+        return struct.unpack('>H', file.data[-0x8:-0x6])[0]
+
     def _get_alignment_for_file_data(self, file: File) -> int:
         ext = os.path.splitext(file.name)[1][1:]
         DEFAULT_ALIGNMENT = 4
         alignment = self._alignment.get(ext, DEFAULT_ALIGNMENT)
         if ext not in self._botw_resource_factory_info:
             alignment = max(alignment, self._get_file_alignment_for_new_binary_file(file))
+            alignment = max(alignment, self._get_file_alignment_for_old_bflim(file))
         return alignment
 
     def _hash_file_name(self, name: str) -> int:
