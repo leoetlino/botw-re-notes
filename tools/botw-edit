@@ -3,6 +3,7 @@
 # Licensed under MIT
 
 import argparse
+import colorama # type: ignore
 from colorama import Fore, Style # type: ignore
 import os
 import subprocess
@@ -82,6 +83,7 @@ def main(content_dir: typing.List[str], content_view: str, work_dir: str, patche
             print_information()
 
 if __name__ == '__main__':
+    colorama.init()
     parser = argparse.ArgumentParser(description='Wrapper for overlayfs and contentfs to allow editing and testing game files easily.')
     parser.add_argument('content_dir', nargs='+', help='Paths to content directories. Directories take precedence over the ones on their left.')
     parser.add_argument('--content-view', help='Path to the directory on which the extracted view should be mounted', required=True)
