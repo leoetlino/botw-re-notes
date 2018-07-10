@@ -242,6 +242,8 @@ class BotWContent(Operations):
         st = parent.get_file_stats(parent.get_path_relative_to_this(_path))
         if is_archive_filename(_path):
             change_st_to_directory(st)
+        if os.name == 'nt':
+            st['st_mode'] |= 0o777
         return st
 
     def readdir(self, partial: str, fh) -> typing.Iterator[str]:

@@ -49,6 +49,8 @@ class BotWMergedContent(Operations):
                  'st_gid', 'st_mode', 'st_mtime', 'st_nlink', 'st_size', 'st_uid'))
         if os.name != 'nt':
             d['st_blocks'] = st.st_blocks
+        else:
+            d['st_mode'] |= 0o777
         return d
 
     def readdir(self, path, fh) -> typing.Iterator[str]:
