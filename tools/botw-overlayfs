@@ -115,7 +115,7 @@ class BotWMergedContent(Operations):
                 os.makedirs(self.work_dir + str(Path(path).parent), exist_ok=True)
                 shutil.copyfile(real_path, self.work_dir + path)
 
-        return os.open(self._real_path(path), flags)
+        return os.open(self._real_path(path), flags | BINARY_MODE)
 
     def create(self, path, mode, fi=None):
         if not self.work_dir:
