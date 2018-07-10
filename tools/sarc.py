@@ -167,6 +167,7 @@ class SARCWriter:
         self._botw_resource_factory_info = _get_botw_resource_factory_info()
 
     def _refresh_alignment_info(self) -> None:
+        self._alignment = dict()
         aglenv_file_info = _get_aglenv_file_info()
         for entry in aglenv_file_info:
             self.add_alignment_requirement(entry['ext'], entry['align'])
