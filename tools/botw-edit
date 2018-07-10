@@ -11,6 +11,11 @@ import sys
 import tempfile
 import typing
 
+def _spawn(args):
+    if os.name == 'nt':
+        return subprocess.Popen(args, stdout=subprocess.DEVNULL, creationflags=subprocess.CREATE_NEW_PROCESS_GROUP)
+    return subprocess.Popen(args, stdout=subprocess.DEVNULL, preexec_fn=os.setpgrp)
+
 def main(content_dir: typing.List[str], content_view: str, work_dir: str, patched_view: typing.Optional[str], target: str, patch_dir: typing.Optional[str]) -> None:
     this_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -25,23 +30,17 @@ def main(content_dir: typing.List[str], content_view: str, work_dir: str, patche
         if not patch_dir:
             patch_dir = temp_patch_dir
 
-        def preexec_function():
-            os.setpgrp()
-
         # Mount overlayfs: content_dirs... -> merged_dir
-        overlayfs_p1 = subprocess.Popen([sys.executable, os.path.join(this_dir, 'botw-overlayfs'),
-                                        *content_dir, temp_merged_dir], stdout=subprocess.DEVNULL,
-                                        preexec_fn=preexec_function)
+        overlayfs_p1 = _spawn([sys.executable, os.path.join(this_dir, 'botw-overlayfs'),
+                               *content_dir, temp_merged_dir])
         # Mount contentfs: merged_dir work_dir -> content_view (work: work_dir)
-        contentfs_p = subprocess.Popen([sys.executable, os.path.join(this_dir, 'botw-contentfs'),
-                                        temp_merged_dir, content_view, '-w', work_dir],
-                                        stdout=subprocess.DEVNULL, preexec_fn=preexec_function)
+        contentfs_p = _spawn([sys.executable, os.path.join(this_dir, 'botw-contentfs'),
+                              temp_merged_dir, content_view, '-w', work_dir])
         overlayfs_p2 = None
         if patched_view:
             # Mount overlayfs: content_dirs... patch_dir -> patched_view (work: patch_dir)
-            overlayfs_p2 = subprocess.Popen([sys.executable, os.path.join(this_dir, 'botw-overlayfs'),
-                                             *content_dir, patched_view, '-w', patch_dir],
-                                             stdout=subprocess.DEVNULL, preexec_fn=preexec_function)
+            overlayfs_p2 = _spawn([sys.executable, os.path.join(this_dir, 'botw-overlayfs'),
+                                   *content_dir, patched_view, '-w', patch_dir])
 
         def signal_handler(sig, frame):
             sys.stderr.write('exiting...\n')
