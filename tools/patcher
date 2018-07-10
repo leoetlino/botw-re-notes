@@ -23,6 +23,28 @@ ARCHIVE_EXTS = {'sarc', 'pack', 'bactorpack', 'bmodelsh', 'beventpack', 'stera',
 def _is_archive_filename(path: Path) -> bool:
     return path.suffix[1:] in ARCHIVE_EXTS
 
+def _exists(path: Path) -> bool:
+    if os.name != 'nt':
+        return path.exists()
+
+    # Work around a Windows limitation with FUSE-like mountpoints.
+    try:
+        return path.exists()
+    except OSError:
+        # Windows returns 'Incorrect function' on a WinFsp mountpoint.
+        return True
+
+def _is_dir(path: Path) -> bool:
+    if os.name != 'nt':
+        return path.is_dir()
+
+    # Work around a Windows limitation with FUSE-like mountpoints.
+    try:
+        return path.is_dir()
+    except OSError:
+        # Windows returns 'Incorrect function' on a WinFsp mountpoint.
+        return True
+
 def _compress_file(path: Path) -> None:
     data = bytes()
     with open(path, 'rb') as f:
@@ -47,7 +69,7 @@ def _find_sarc(path: Path) -> typing.Optional[sarc.SARC]:
     archive: typing.Optional[sarc.SARC] = None
     archive_path: str = ""
     for i, p in enumerate(_get_parents_and_path(path)):
-        if p.exists() and p.is_dir():
+        if _exists(p) and _is_dir(p):
             continue
 
         if archive:
@@ -167,7 +189,7 @@ def make_loadable_layer(content_dir: Path, patch_dir: Path, target_dir: Path, wi
         for file in files_by_depth[depth]:
             rel_path = file.relative_to(target_dir)
             # Repack any extracted archive.
-            if file.is_dir() and _is_archive_filename(file):
+            if _is_dir(file) and _is_archive_filename(file):
                 sys.stderr.write(f'repacking {Fore.CYAN}%s{Style.RESET_ALL}...\n' % rel_path)
                 repack_archive(content_dir=content_dir, archive_path=file, rel_archive_dir=rel_path)
             if not file.is_file():
