@@ -206,8 +206,10 @@ if __name__ == '__main__':
     parser.add_argument('-t', '--target', choices=['wiiu', 'switch'], help='Target platform', required=True)
     args = parser.parse_args()
 
-    _fail_if_not_dir(args.content_dir)
-    _fail_if_not_dir(args.patch_dir)
+    # These would always fail on Windows because of WinFsp.
+    if os.name != 'nt':
+        _fail_if_not_dir(args.content_dir)
+        _fail_if_not_dir(args.patch_dir)
 
     if args.target_dir.is_dir():
         shutil.rmtree(args.target_dir)
