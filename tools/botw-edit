@@ -58,6 +58,8 @@ def main(content_dir: typing.List[str], content_view: str, work_dir: str, patche
                     process.send_signal(signal.SIGINT)
                 process.wait()
 
+            if os.name == 'nt':
+                os.mkdir(temp_merged_dir)
             sys.exit(0)
 
         signal.signal(signal.SIGINT, signal_handler)
