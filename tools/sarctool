@@ -80,6 +80,8 @@ def sarc_create_or_update(args, update: bool) -> None:
         with open(path, 'rb') as f:
             archive_path = path if not base_path else os.path.relpath(path=path, start=base_path)
             archive_path = archive_path.replace('\\', '/')
+            if args.with_leading_slash and archive_path[0] != '/':
+                archive_path = '/' + archive_path
             writer.add_file(archive_path, f.read())
             sys.stderr.write(archive_path + '\n')
 
@@ -170,12 +172,14 @@ if __name__ == "__main__":
     c_parser = subparsers.add_parser('create', description='Create an archive', aliases=['c'])
     c_parser.add_argument('-b', '--be', action='store_true', help='Use big endian. Defaults to false.')
     c_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
+    c_parser.add_argument('--with-leading-slash', action='store_true', help='Add a leading slash to all paths. Required for some game data archives.')
     c_parser.add_argument('files', nargs='+', help='Files or directories to include in the archive')
     c_parser.add_argument('dest', help='Destination archive')
     c_parser.set_defaults(func=lambda a: sarc_create_or_update(a, update=False))
 
     u_parser = subparsers.add_parser('update', description='Update an archive', aliases=['u'])
     u_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
+    u_parser.add_argument('--with-leading-slash', action='store_true', help='Add a leading slash to all paths. Required for some game data archives.')
     u_parser.add_argument('--endian', choices=['le', 'be'], help='Override endianness. By default sarctool keeps the endianness of the original archive.')
     u_parser.add_argument('files', nargs='+', help='Files or directories to add to the archive')
     u_parser.add_argument('dest', help='Archive to update')
