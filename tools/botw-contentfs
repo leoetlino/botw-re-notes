@@ -120,7 +120,7 @@ class ArchiveDirectory(Directory):
         self._parent = parent
 
     def list_files(self, path: PPPath) -> typing.Collection[str]:
-        names = []
+        names: typing.Set[str] = set()
         directory = str(path) + '/' if str(path) != '.' else ''
         for name in self._arc.list_files():
             if directory and not name.startswith(directory):
@@ -131,11 +131,11 @@ class ArchiveDirectory(Directory):
             name = name[len(directory):]
             slash_position = name.find('/')
             if slash_position != -1:
-                names.append(name[:slash_position])
+                names.add(name[:slash_position])
             else:
-                names.append(name)
+                names.add(name)
         if directory == '':
-            names.append(ArchiveDirectory.SELF_FILE_NAME)
+            names.add(ArchiveDirectory.SELF_FILE_NAME)
         return names
 
     def open_file(self, file: PPPath, flags) -> File:
