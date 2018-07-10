@@ -49,8 +49,6 @@ class BotWMergedContent(Operations):
                  'st_gid', 'st_mode', 'st_mtime', 'st_nlink', 'st_size', 'st_uid'))
         if os.name != 'nt':
             d['st_blocks'] = st.st_blocks
-        else:
-            d['st_mode'] |= 0o777
         return d
 
     def readdir(self, path, fh) -> typing.Iterator[str]:
@@ -171,7 +169,11 @@ def main(content_dir: typing.List[str], target_dir: str, work_dir: typing.Option
         print('work: %s' % work_dir)
     else:
         print('work: (none, read-only)')
-    FUSE(BotWMergedContent(content_dir, work_dir), target_dir, nothreads=True, foreground=True)
+    if os.name != 'nt':
+        FUSE(BotWMergedContent(content_dir, work_dir), target_dir, foreground=True)
+    else:
+        FUSE(BotWMergedContent(content_dir, work_dir), target_dir, foreground=True,
+             uid=65792, gid=65792, umask=0)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Presents a merged content view and transparently redirects modifications to another directory.')
