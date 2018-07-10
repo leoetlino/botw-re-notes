@@ -2,11 +2,21 @@
 
 ## Common requirements
 
-* [Python 3.6+](https://www.python.org/downloads/release/python-360/)
-* PyYAML. [Windows builds can be found here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyyaml) (choose the package that corresponds to your Python version and win32 for 32-bit, amd64 for 64-bit and install them with `pip install`)
+* [Python 3.6+](https://www.python.org/downloads/release/python-370/)
+* PyYAML
 * [wszst](https://szs.wiimm.de/download.html) for yaz0 support
 
-## byml converter
+## First setup
+
+* Install wszst
+* Install dependencies: `pip install pyyaml`
+
+Additionally, for filesystem utilities:
+
+* Install [WinFsp](http://www.secfs.net/winfsp/download/)
+* Install other dependencies: `pip install fusepy colorama`
+
+## BYML converters
 
 This lives in a [separate repository](https://github.com/leoetlino/byml-v2).
 
