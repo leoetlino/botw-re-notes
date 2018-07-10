@@ -47,7 +47,10 @@ def main(content_dir: typing.List[str], content_view: str, work_dir: str, patche
             for process in [overlayfs_p2, contentfs_p, overlayfs_p1]:
                 if not process:
                     continue
-                process.send_signal(signal.SIGINT)
+                if os.name == 'nt':
+                    process.terminate()
+                else:
+                    process.send_signal(signal.SIGINT)
                 process.wait()
 
             sys.exit(0)
