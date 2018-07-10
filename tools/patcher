@@ -83,6 +83,9 @@ def repack_archive(content_dir: Path, archive_path: Path, rel_archive_dir: Path)
         for file_name in files:
             host_file_path = Path(os.path.join(root, file_name))
             path_in_archive = host_file_path.relative_to(temp_archive_dir).as_posix()
+            # For some reason, Nintendo uses paths with leading slashes in these archives. Annoying.
+            if file_name == 'gamedata.ssarc' or file_name == 'savedataformat.ssarc':
+                path_in_archive = '/' + path_in_archive
             with open(host_file_path, 'rb') as f:
                 writer.add_file(path_in_archive, f.read())
 

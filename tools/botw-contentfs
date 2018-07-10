@@ -125,6 +125,9 @@ class ArchiveDirectory(Directory):
         for name in self._arc.list_files():
             if directory and not name.startswith(directory):
                 continue
+            # Strip leading slashes. These cannot be used in file names.
+            if name[0] == '/':
+                name = name[1:]
             name = name[len(directory):]
             slash_position = name.find('/')
             if slash_position != -1:
@@ -138,7 +141,11 @@ class ArchiveDirectory(Directory):
     def open_file(self, file: PPPath, flags) -> File:
         if str(file) == ArchiveDirectory.SELF_FILE_NAME:
             return self._parent.open_file(os.path.relpath(self._path, self._parent._path), os.O_RDONLY)
-        return InMemoryFile(self._arc.get_file_data(str(file)))
+        try:
+            return InMemoryFile(self._arc.get_file_data(str(file)))
+        except KeyError:
+            # Some archives have leading slashes.
+            return InMemoryFile(self._arc.get_file_data('/' + str(file)))
     def get_file_stats(self, path: PPPath) -> dict:
         # Use the SARC's stats to get correct-ish timestamps and other metadata easily.
         arc_stat = self._parent.get_file_stats(os.path.relpath(self._path, self._parent._path))
@@ -146,7 +153,7 @@ class ArchiveDirectory(Directory):
             return arc_stat
 
         for arc_file in self._arc.list_files():
-            if arc_file == str(path):
+            if arc_file == str(path) or arc_file == '/' + str(path):
                 arc_stat['st_mode'] &= ~stat.S_IFDIR
                 arc_stat['st_mode'] |= stat.S_IFREG
                 arc_stat['st_mode'] |= stat.S_IRUSR | stat.S_IWUSR
