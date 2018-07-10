@@ -28,6 +28,10 @@ def main(content_dir: typing.List[str], content_view: str, work_dir: str, patche
     with tempfile.TemporaryDirectory(prefix=TMP_PREFIX) as temp_merged_dir, \
          tempfile.TemporaryDirectory(prefix=TMP_PREFIX) as temp_patch_dir:
 
+        # WinFsp limitation: mountpoints must not exist.
+        if os.name == 'nt':
+            os.rmdir(temp_merged_dir)
+
         if not patch_dir:
             patch_dir = temp_patch_dir
 
