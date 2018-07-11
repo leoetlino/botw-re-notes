@@ -170,9 +170,9 @@ def main(content_dir: typing.List[str], target_dir: str, work_dir: typing.Option
     else:
         print('work: (none, read-only)')
     if os.name != 'nt':
-        FUSE(BotWMergedContent(content_dir, work_dir), target_dir, foreground=True)
+        FUSE(BotWMergedContent(content_dir, work_dir), target_dir, nothreads=True, foreground=True)
     else:
-        FUSE(BotWMergedContent(content_dir, work_dir), target_dir, foreground=True,
+        FUSE(BotWMergedContent(content_dir, work_dir), target_dir, nothreads=True, foreground=True,
              uid=65792, gid=65792, umask=0)
 
 if __name__ == '__main__':

@@ -369,9 +369,9 @@ def main(content_dir: str, target_dir: str, work_dir: typing.Optional[str]) -> N
         print('work: (none, read-only)')
 
     if os.name != 'nt':
-        FUSE(BotWContent(content_dir, work_dir), target_dir, foreground=True)
+        FUSE(BotWContent(content_dir, work_dir), target_dir, nothreads=True, foreground=True)
     else:
-        FUSE(BotWContent(content_dir, work_dir), target_dir, foreground=True,
+        FUSE(BotWContent(content_dir, work_dir), target_dir, nothreads=True, foreground=True,
              uid=65792, gid=65792, umask=0)
 
 if __name__ == '__main__':
