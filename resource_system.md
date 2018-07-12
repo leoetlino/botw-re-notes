@@ -205,9 +205,14 @@ ensure data is aligned correctly in memory.
 
 So a formula that should always work for modifying the listed size is:
 
-    (size rounded up to multiple of 32) + CONSTANT + sizeof(ResourceClass)
+    (size rounded up to multiple of 32) + CONSTANT + sizeof(ResourceClass) + PARSE_SIZE
 
 See below for the resource system constant value, and the factory list for resource class sizes.
+
+PARSE_SIZE is the amount of memory allocated from the file loading heap
+in the resource "parse" member function, which may or may not be used depending on the factory.
+Determining the exact value of PARSE_SIZE requires reversing that function and tracking
+calls to `operator new()` because the total amount of memory is not listed anywhere.
 
 ### Table structure
 
