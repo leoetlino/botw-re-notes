@@ -53,6 +53,16 @@ def rstb_add(args, table: rstb.ResourceSizeTable) -> None:
     table.set_size(args.name, new_size)
     rstb_util.write_rstb(table, args.rstb, args.be)
 
+def rstb_compare(args, table: rstb.ResourceSizeTable) -> None:
+    if not table.is_in_table(args.name):
+        sys.stderr.write('%s: not in table\n' % args.name)
+        sys.exit(1)
+
+    listed_size = table.get_size(args.name)
+    print('%s:     listed size is %d bytes (0x%08x)' % (args.name, listed_size, listed_size))
+    calculated_size = rstb.SizeCalculator().calculate_file_size(args.file, wiiu=args.be)
+    print('%s: calculated size is %d bytes (0x%08x)' % (args.name, calculated_size, calculated_size))
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='A tool to manipulate the RSTB (Resource Size TaBle).')
     parser.add_argument('rstb', help='Path to a Breath of the Wild RSTB (yaz0 compressed)')
@@ -78,6 +88,11 @@ if __name__ == '__main__':
     del_parser = subparsers.add_parser('del', description='Delete a resource from the table')
     del_parser.add_argument('name', help='Resource name')
     del_parser.set_defaults(func=rstb_del)
+
+    calc_parser = subparsers.add_parser('compare', description='Compare a resource size with its listed size in the RSTB')
+    calc_parser.add_argument('name', help='Resource name')
+    calc_parser.add_argument('file', help='Host file path to resource')
+    calc_parser.set_defaults(func=rstb_compare)
 
     args = parser.parse_args()
     table = rstb_util.read_rstb(args.rstb, args.be)
