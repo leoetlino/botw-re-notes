@@ -3,7 +3,7 @@
 # Licensed under MIT
 
 import binascii
-import json
+import csv
 import os
 import struct
 import typing
@@ -119,9 +119,35 @@ class ResourceSizeTable:
         return False
 
 class SizeCalculator:
+    class Factory:
+        size_nx: int
+        size_wiiu: int
+        alignment: int
+        parse_size_nx: int
+        parse_size_wiiu: int
+        multiplier: float
+        constant: int
+
     def __init__(self) -> None:
-        with open(os.path.join(os.path.dirname(__file__), 'resource_class_sizes.json')) as f:
-            self._factory_info: typing.Dict[str, dict] = json.load(f)
+        self._factory_info: typing.Dict[str, SizeCalculator.Factory] = dict()
+
+        with open(os.path.join(os.path.dirname(__file__), 'resource_factory_info.tsv')) as f:
+            tsv = csv.DictReader(f, delimiter='\t')
+            for entry in tsv:
+                factory = SizeCalculator.Factory()
+                for key in ['size_nx', 'size_wiiu', 'alignment', 'constant']:
+                    setattr(factory, key, int(entry[key], 0))
+                for key in ['parse_size_nx', 'parse_size_wiiu']:
+                    if entry[key] and entry[key] != 'complex':
+                        setattr(factory, key, int(entry[key], 0))
+                    else:
+                        setattr(factory, key, 0)
+                factory.multiplier = float(entry['multiplier'])
+
+                self._factory_info[entry['name']] = factory
+                for other_name in entry['other_extensions'].split(','):
+                    other_name = other_name.strip()
+                    self._factory_info[other_name] = factory
 
     def calculate_file_size(self, file_name: str, wiiu: bool) -> int:
         name_without_ext, ext = os.path.splitext(file_name)
@@ -140,11 +166,11 @@ class SizeCalculator:
         info = self._factory_info.get(actual_ext, self._factory_info['*'])
         if wiiu:
             size += 0xe4 # res::ResourceMgr constant. Not sure what it is.
-            size += info['size_wiiu']
-            size += info.get('parse_size_wiiu', 0)
+            size += info.size_wiiu
+            size += info.parse_size_wiiu
         else:
             size += 0x168
-            size += info['size_nx']
-            size += info.get('parse_size_nx', 0)
+            size += info.size_nx
+            size += info.parse_size_nx
 
         return size
