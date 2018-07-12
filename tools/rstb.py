@@ -137,11 +137,14 @@ class SizeCalculator:
         size = (size + 31) & -32
 
         actual_ext = ext.replace('.s', '.')[1:]
+        info = self._factory_info.get(actual_ext, self._factory_info['*'])
         if wiiu:
             size += 0xe4 # res::ResourceMgr constant. Not sure what it is.
-            size += self._factory_info.get(actual_ext, self._factory_info['*'])['size_wiiu']
+            size += info['size_wiiu']
+            size += info.get('parse_size_wiiu', 0)
         else:
             size += 0x168
-            size += self._factory_info.get(actual_ext, self._factory_info['*'])['size_nx']
+            size += info['size_nx']
+            size += info.get('parse_size_nx', 0)
 
         return size
