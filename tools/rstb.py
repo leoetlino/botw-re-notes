@@ -149,8 +149,7 @@ class SizeCalculator:
                     other_name = other_name.strip()
                     self._factory_info[other_name] = factory
 
-    def calculate_file_size(self, file_name: str, wiiu: bool) -> int:
-        name_without_ext, ext = os.path.splitext(file_name)
+    def calculate_file_size_with_ext(self, file_name: str, wiiu: bool, ext: str) -> int:
         size = 0
         if ext.startswith('.s'):
             with open(file_name, 'rb') as f:
@@ -174,3 +173,7 @@ class SizeCalculator:
             size += info.parse_size_nx
 
         return size
+
+    def calculate_file_size(self, file_name: str, wiiu: bool) -> int:
+        name_without_ext, ext = os.path.splitext(file_name)
+        return self.calculate_file_size_with_ext(file_name, wiiu, ext)
