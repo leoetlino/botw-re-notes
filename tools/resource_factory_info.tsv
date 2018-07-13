@@ -1,7 +1,8 @@
 name	size_nx	size_wiiu	alignment	parse_size_nx	parse_size_wiiu	other_extensions	multiplier	constant	subsystem
 BASE	0x20	0x14	8	0	0		1	0	General
 *	0x38	0x20	4	0	0	Tex.bfres, Tex1.bfres, Tex2.bfres, Tex1.1.bfres, Tex1.2.bfres, Tex1.3.bfres, Tex1.4.bfres	1	0	General
-sarc	0x68	0x3c	0x80	0	0	pack, bactorpack, bmodelsh, beventpack, stera, stats	1	0	General
+sarc	0x68	0x3c	0x80	0	0	pack, bactorpack, bmodelsh, stera, stats	1	0	General
+beventpack	0x68	0x3c	0x100	0	0		1	0	General
 bfres	0x1a8	0x13c	0x1000	complex			2.5	0x400000	General
 bcamanim	0x50	0x2c	0x2000	0			1	0x680	General
 batpl, bnfprl	0x40	0x24	4				1	0	General
