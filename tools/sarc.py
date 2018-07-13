@@ -254,7 +254,7 @@ class SARCWriter:
             data_offset += len(self._files[h].data)
         return offsets
 
-    def write(self, stream: typing.BinaryIO) -> None:
+    def write(self, stream: typing.BinaryIO) -> int:
         self._refresh_alignment_info()
 
         # SARC header
@@ -312,6 +312,7 @@ class SARCWriter:
 
         # Write the final file size.
         file_size_writer.write_current_offset()
+        return data_offset_alignment
 
     def _write_placeholder_offset(self, stream) -> _PlaceholderOffsetWriter:
         p = _PlaceholderOffsetWriter(stream, self)

@@ -7,6 +7,7 @@ import io
 import os
 import sarc
 import shutil
+import struct
 import sys
 import typing
 import yaz0_util
@@ -32,11 +33,19 @@ def sarc_list(args) -> None:
 
 def _write_sarc(writer: sarc.SARCWriter, dest_file: str, dest_stream: typing.BinaryIO) -> None:
     buf = io.BytesIO()
-    writer.write(buf)
+    alignment: int = writer.write(buf)
     buf.seek(0)
 
     if os.path.splitext(dest_file)[1].startswith('.s'):
         dest_stream.write(yaz0_util.compress(buf.getbuffer()))
+        if alignment > 0x20:
+            # Offset 0x8 in the yaz0 header is the data alignment.
+            # sead::ParallelSZSDecompressor::tryDecompFromDevice allocates the read buffer
+            # with arg->alignment or max(yaz0_header->alignment, 0x20) if no specific alignment
+            # was requested by the calling code.
+            # So we need to make sure that the alignment value is kept.
+            dest_stream.seek(8)
+            dest_stream.write(struct.pack('>I', alignment))
     else:
         shutil.copyfileobj(buf, dest_stream)
 
