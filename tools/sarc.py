@@ -137,24 +137,18 @@ class _PlaceholderOffsetWriter:
 def _align_up(n: int, alignment: int) -> int:
     return (n + alignment - 1) & -alignment
 
-_aglenv_file_info: typing.Optional[typing.List[dict]] = None
-def _get_aglenv_file_info() -> typing.List[dict]:
-    global _aglenv_file_info
-    if _aglenv_file_info:
-        return _aglenv_file_info
+def _load_aglenv_file_info() -> typing.List[dict]:
     with open(os.path.dirname(os.path.realpath(__file__)) + '/aglenv_file_info.yml', 'r', encoding='utf-8') as f:
-        _aglenv_file_info = yaml.load(f, Loader=yaml.CSafeLoader) # type: ignore
-        return _aglenv_file_info # type: ignore
+        return yaml.load(f, Loader=yaml.CSafeLoader) # type: ignore
 
-_botw_resource_factory_info: typing.Optional[typing.List[dict]] = None
-def _get_botw_resource_factory_info() -> typing.List[dict]:
-    global _botw_resource_factory_info
-    if not _botw_resource_factory_info:
-        with open(os.path.join(os.path.dirname(__file__), 'resource_class_sizes.json')) as f:
-            _botw_resource_factory_info = json.load(f)
-    return _botw_resource_factory_info # type: ignore
+def _load_botw_resource_factory_info() -> typing.List[dict]:
+    with open(os.path.join(os.path.dirname(__file__), 'resource_class_sizes.json')) as f:
+        return json.load(f)
 
 class SARCWriter:
+    _aglenv_file_info = _load_aglenv_file_info()
+    _botw_resource_factory_info = _load_botw_resource_factory_info()
+
     class File(typing.NamedTuple):
         name: str
         data: typing.Union[memoryview, bytes]
@@ -164,12 +158,10 @@ class SARCWriter:
         self._hash_multiplier = 0x65
         self._files: typing.Dict[int, SARCWriter.File] = dict()
         self._alignment: typing.Dict[str, int] = dict()
-        self._botw_resource_factory_info = _get_botw_resource_factory_info()
 
     def _refresh_alignment_info(self) -> None:
         self._alignment = dict()
-        aglenv_file_info = _get_aglenv_file_info()
-        for entry in aglenv_file_info:
+        for entry in self._aglenv_file_info:
             self.add_alignment_requirement(entry['ext'], entry['align'])
             self.add_alignment_requirement(entry['bext'], entry['align'])
         # BotW: Pack/Bootup.pack/Env/env.sgenvb/postfx/*.bksky (AAMP)
