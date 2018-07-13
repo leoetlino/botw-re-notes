@@ -149,6 +149,9 @@ class SizeCalculator:
                     other_name = other_name.strip()
                     self._factory_info[other_name] = factory
 
+    def get_factory_info(self) -> typing.Dict[str, Factory]:
+        return self._factory_info
+
     def calculate_file_size_with_ext(self, file_name: str, wiiu: bool, ext: str) -> int:
         size = 0
         if ext.startswith('.s'):

@@ -11,6 +11,7 @@ import sys
 import typing
 import yaml
 
+import rstb
 import yaz0_util
 
 def _get_unpack_endian_character(big_endian: bool):
@@ -141,9 +142,8 @@ def _load_aglenv_file_info() -> typing.List[dict]:
     with open(os.path.dirname(os.path.realpath(__file__)) + '/aglenv_file_info.yml', 'r', encoding='utf-8') as f:
         return yaml.load(f, Loader=yaml.CSafeLoader) # type: ignore
 
-def _load_botw_resource_factory_info() -> typing.List[dict]:
-    with open(os.path.join(os.path.dirname(__file__), 'resource_class_sizes.json')) as f:
-        return json.load(f)
+def _load_botw_resource_factory_info() -> typing.Dict[str, rstb.SizeCalculator.Factory]:
+    return rstb.SizeCalculator().get_factory_info()
 
 class SARCWriter:
     _aglenv_file_info = _load_aglenv_file_info()
