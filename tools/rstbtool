@@ -14,7 +14,12 @@ def parse_size(size_str: str, be: bool) -> int:
     try:
         return int(size_str, 0)
     except ValueError:
-        return rstb.SizeCalculator().calculate_file_size(file_name=size_str, wiiu=be)
+        size = rstb.SizeCalculator().calculate_file_size(file_name=size_str, wiiu=be)
+        if not size:
+            sys.stderr.write('error: could not calculate size because the resource factory allocates extra memory depending on the resource contents\n')
+            sys.stderr.write('Unless you know what you are doing, it is recommended to just delete the entry from the RSTB for now.\n')
+            sys.exit(2)
+        return size
 
 def rstb_get(args, table: rstb.ResourceSizeTable) -> None:
     size = table.get_size(args.name)
@@ -59,8 +64,8 @@ def rstb_compare(args, table: rstb.ResourceSizeTable) -> None:
         sys.exit(1)
 
     listed_size = table.get_size(args.name)
+    calculated_size = parse_size(args.file, be=args.be)
     print('%s:     listed size is %d bytes (0x%08x)' % (args.name, listed_size, listed_size))
-    calculated_size = rstb.SizeCalculator().calculate_file_size(args.file, wiiu=args.be)
     print('%s: calculated size is %d bytes (0x%08x)' % (args.name, calculated_size, calculated_size))
 
 if __name__ == '__main__':
