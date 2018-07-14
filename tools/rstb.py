@@ -8,6 +8,8 @@ import os
 import struct
 import typing
 
+import yaz0_util
+
 def _get_unpack_endian_character(big_endian: bool):
     return '>' if big_endian else '<'
 
@@ -118,6 +120,15 @@ class ResourceSizeTable:
                 return True
         return False
 
+class _FactoryParser:
+    def parse_nx(self, data: bytes) -> int:
+        pass
+    def parse_wiiu(self, data: bytes) -> int:
+        pass
+
+_factory_parsers: typing.Dict[str, _FactoryParser] = {
+}
+
 class SizeCalculator:
     class Factory:
         size_nx: int
@@ -127,6 +138,7 @@ class SizeCalculator:
         parse_size_wiiu: int
         multiplier: float
         constant: int
+        is_complex: bool
 
     def __init__(self) -> None:
         self._factory_info: typing.Dict[str, SizeCalculator.Factory] = dict()
@@ -138,10 +150,9 @@ class SizeCalculator:
                 for key in ['size_nx', 'size_wiiu', 'alignment', 'constant']:
                     setattr(factory, key, int(entry[key], 0))
                 for key in ['parse_size_nx', 'parse_size_wiiu']:
-                    if entry[key] and entry[key] != 'complex':
-                        setattr(factory, key, int(entry[key], 0))
-                    else:
-                        setattr(factory, key, 0)
+                    factory.is_complex = entry[key] == 'complex'
+                    if not factory.is_complex:
+                        setattr(factory, key, int(entry[key], 0) if entry[key] else 0)
                 factory.multiplier = float(entry['multiplier'])
 
                 self._factory_info[entry['name']] = factory
@@ -166,14 +177,25 @@ class SizeCalculator:
 
         actual_ext = ext.replace('.s', '.')[1:]
         info = self._factory_info.get(actual_ext, self._factory_info['*'])
+        file_data = bytes()
+        if info.is_complex:
+            if actual_ext not in _factory_parsers:
+                return 0
+            file_data = yaz0_util.decompress_file(file_name)
         if wiiu:
             size += 0xe4 # res::ResourceMgr constant. Not sure what it is.
             size += info.size_wiiu
-            size += info.parse_size_wiiu
+            if info.is_complex:
+                size += _factory_parsers[actual_ext].parse_wiiu(file_data)
+            else:
+                size += info.parse_size_wiiu
         else:
             size += 0x168
             size += info.size_nx
-            size += info.parse_size_nx
+            if info.is_complex:
+                size += _factory_parsers[actual_ext].parse_nx(file_data)
+            else:
+                size += info.parse_size_nx
 
         return size
 
