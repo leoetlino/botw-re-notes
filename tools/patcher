@@ -140,9 +140,13 @@ def _fix_rstb_resource_size(path: Path, rel_path: Path, table: rstb.ResourceSize
         sys.stderr.write(f'{Fore.WHITE}{rel_path}{Style.RESET_ALL} ({resource_path})\n')
         return
     resource_size = size_calculator.calculate_file_size(str(path), wiiu=wiiu)
-    prev_resource_size = 0
+    if resource_size == 0:
+        sys.stderr.write(f'{Fore.WHITE}{rel_path}{Style.RESET_ALL} ({resource_path}) {Style.BRIGHT}{Fore.YELLOW}*** complex ***{Style.RESET_ALL}\n')
+        table.delete_entry(resource_path)
+        return
 
     notes = []
+    prev_resource_size = 0
     if not table.is_in_table(resource_path):
         notes.append(f'{Style.BRIGHT}{Fore.RED}*** NEW ***{Style.RESET_ALL}')
     else:
