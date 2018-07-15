@@ -39,13 +39,15 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
         self._this_vidx = 0
         self._this_vidx2 = 0
         self._vtable_addr = 0
+        self._base_class_name = ""
         self._names = dict() # type: typing.Dict[int, str]
 
-    def run(self, cfunc, class_name, names): # type: (typing.Any, str, typing.Dict[int, str]) -> None
+    def run(self, cfunc, class_name, names, base_class_name): # type: (typing.Any, str, typing.Dict[int, str], str) -> None
         self._reset_context()
         self._cfunc = cfunc
         self._class_name = class_name
         self._names = names
+        self._base_class_name = base_class_name
         hr.ctree_visitor_t.apply_to(self, cfunc.body, None)
 
     def _visit(self, c): # type: (...) -> int
@@ -64,6 +66,14 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
             return 0
 
         if self._step == 1:
+            if c.op != hr.cot_call:
+                return 1
+            if self._base_class_name and idaapi.get_func_name(c.x.obj_ea) != self._base_class_name + "::ctor":
+                return 1
+            self._step += 1
+            return 0
+
+        if self._step == 2:
             if c.op != hr.cot_asg:
                 return 0
             lhs = c.x
@@ -112,4 +122,4 @@ for category, address, size in TABLES:
                 3: "dtorDelete",
                 9: "doQuery",
             }
-            renamer.run(cfunc, class_name, names)
+            renamer.run(cfunc, class_name, names, "AI_QueryBase")
