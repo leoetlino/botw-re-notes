@@ -4,7 +4,28 @@
 import ida_hexrays as hr
 import idaapi
 import idc
+import struct
 import typing
+
+def rename_vtable_functions(names, vtable_ea, class_name): # type: (typing.Dict[int, str], int, str) -> None
+    ea = vtable_ea
+    i = 0
+    while True:
+        function_ea = struct.unpack('<Q', idaapi.get_many_bytes(ea, 8))[0]
+        if '__cxa_pure_virtual' not in idc.GetDisasm(function_ea) and not idaapi.is_func(idaapi.get_flags(function_ea)):
+            break
+
+        member_fn_name = names.get(i, "m%d" % i)
+        function_name = "%s::%s" % (class_name, member_fn_name)
+        current_name = idc.GetFunctionName(function_ea)
+        if current_name.startswith('nullsub_'):
+            idc.MakeNameEx(function_ea, function_name + '_null', idaapi.SN_NOWARN)
+        elif current_name.startswith('sub_') or \
+            current_name.startswith("%s::m%d" % (class_name, i)) or \
+            "runtimetypeinfo" in current_name.lower():
+            idc.MakeNameEx(function_ea, function_name, idaapi.SN_NOWARN)
+        i += 1
+        ea += 8
 
 def get_string(ea):
     # idaapi.get_strlit_contents is bugged on 7.0 (-1 does not work for the length parameter),

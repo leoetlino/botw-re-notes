@@ -1,29 +1,20 @@
 import idaapi
 import idautils
 import idc
-import struct
+import sys
+
+try:
+    del sys.modules['hexrays_utils']
+except: pass
+from hexrays_utils import *
 
 ACTION_NAME = "leoetlino:rename_vtable"
 
 def do_rename(): # type: (...) -> None
     vtable_ea = idc.ScreenEA()
     class_name = idaapi.ask_str('', -1, 'Enter class name: ')
-    if not class_name:
-        return
-
-    ea = vtable_ea
-    i = 0
-    while True:
-        function_ea = struct.unpack('<Q', idaapi.get_many_bytes(ea, 8))[0]
-        if not idaapi.is_func(idaapi.get_flags(function_ea)):
-            break
-
-        function_name = "%s::m%d" % (class_name, i)
-        if idc.GetFunctionName(function_ea).startswith('sub_'):
-            idc.MakeNameEx(function_ea, function_name, idaapi.SN_NOWARN)
-        i += 1
-
-        ea += 8
+    if class_name:
+        rename_vtable_functions(dict(), vtable_ea, class_name)
 
 class rename_vtable_ah_t(idaapi.action_handler_t):
     def activate(self, ctx): # type: (...) -> int
