@@ -82,7 +82,7 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
                 return 0
             if lhs.x.op != hr.cot_var:
                 return 0
-            if lhs.x.v.idx != self._this_vidx and lhs.x.v.idx != self._this_vidx2:
+            if unwrap_cast(lhs.x).v.idx != self._this_vidx and unwrap_cast(lhs.x).v.idx != self._this_vidx2:
                 return 0
             if rhs.op != hr.cot_obj:
                 return 0
