@@ -15,9 +15,6 @@
 ## Blood Moon (GameDataMgr)
 - The Blood Moon mechanism
 
-## The Great Plateau barrier (GameDataMgr and actors?)
-- The Great Plateau death barrier
-
 ## Climate (WorldMgr)
 - How the game forces daylight before the first tower is activated
 
