@@ -49,8 +49,13 @@ else
   weapon = "Weapon_Sword_053"; // Vicious Sickle
 ```
 
-Otherwise, if Electric_Relic_AssassinFirst *or* Npc_Kakariko001_TalkEnd is set,
-then Footsoldiers may be dynamically generated, but they will only wield Vicious Sickles.
+Otherwise:
+
+* if Electric_Relic_AssassinFirst *or* Npc_Kakariko001_TalkEnd is set; **and**
+* if the enemy is Enemy_Assassin_Junior, *or* a disguised Yiga (created by `CreateAndReplaceAssassin`),
+*or* in some unknown, rare conditions
+
+then only Footsoldiers may be dynamically generated, and they will only wield Vicious Sickles.
 
 (In the AutoPlacement event flow files for Yiga clan members,
 it seems that they won't be spawned if you're riding a horse, but I'm not 100% sure on this.)
