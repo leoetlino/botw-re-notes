@@ -84,10 +84,13 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
                 return 0
             if unwrap_cast(lhs.x).v.idx != self._this_vidx and unwrap_cast(lhs.x).v.idx != self._this_vidx2:
                 return 0
-            if rhs.op != hr.cot_obj:
-                return 0
-            rename_vtable_functions(self._names, rhs.obj_ea, self._class_name)
-            return 1
+            if rhs.op == hr.cot_obj:
+                rename_vtable_functions(self._names, rhs.obj_ea, self._class_name)
+                return 1
+            if rhs.op == hr.cot_ref and rhs.x.op == hr.cot_obj:
+                rename_vtable_functions(self._names, rhs.x.obj_ea, self._class_name)
+                return 1
+            return 0
 
         print("!!! BUG: unknown step: %d" % self._step)
         return 1
