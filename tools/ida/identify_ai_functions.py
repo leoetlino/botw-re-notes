@@ -99,6 +99,7 @@ renamer = MemberFunctionRenamer()
 STRUCT_SIZE = 0x10
 for category, address, size in TABLES:
     for i in range(size):
+        print("%s [%u/%u]" % (category, i+1, size))
         entry = idaapi.get_many_bytes(address + STRUCT_SIZE*i, STRUCT_SIZE)
         crc, padding, fn = struct.unpack('<IIQ', entry)
         name = aidef_crc.get(crc, "Unknown_%08x" % crc)
