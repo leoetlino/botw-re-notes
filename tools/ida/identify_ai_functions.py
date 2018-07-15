@@ -67,7 +67,7 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
 
         if self._step == 1:
             if c.op != hr.cot_call:
-                return 1
+                return 0
             if self._base_class_name and idaapi.get_func_name(c.x.obj_ea) != self._base_class_name + "::ctor":
                 return 1
             self._step += 1
@@ -112,6 +112,36 @@ for category, address, size in TABLES:
         class_name = "AI_%s_%s" % (category, name)
         idc.MakeNameEx(ctor_addr, "%s::ctor" % class_name, idc.SN_NOWARN)
         idc.SetType(ctor_addr, "void ctor(void* this, void* param);")
+
+        if category == "Action":
+            cfunc = idaapi.decompile(ctor_addr)
+            names = {
+                0: "rtti1",
+                1: "rtti2",
+                2: "dtor",
+                3: "dtorDelete",
+            }
+            renamer.run(cfunc, class_name, names, "AI_ActionBase")
+
+        if category == "AI":
+            cfunc = idaapi.decompile(ctor_addr)
+            names = {
+                0: "rtti1",
+                1: "rtti2",
+                2: "dtor",
+                3: "dtorDelete",
+            }
+            renamer.run(cfunc, class_name, names, "AI_AIBase")
+
+        if category == "Behavior":
+            cfunc = idaapi.decompile(ctor_addr)
+            names = {
+                0: "rtti1",
+                1: "rtti2",
+                2: "dtor",
+                3: "dtorDelete",
+            }
+            renamer.run(cfunc, class_name, names, "AI_BehaviorBase")
 
         if category == "Query":
             cfunc = idaapi.decompile(ctor_addr)
