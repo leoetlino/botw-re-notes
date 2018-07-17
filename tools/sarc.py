@@ -50,13 +50,9 @@ class SARC:
         assert magic3 == b"SFNT"
         self._files: dict = dict()
         for node in nodes:
-            string = self._read_string(pos);pos += len(string)
-            while self._data[pos] == 0:
-                pos += 1
-                if pos >= len(self._data):
-                    break
-            if pos >= len(self._data):
-                break
+            pos = (pos + 3) & -4
+            string = self._read_string(pos)
+            pos += len(string) + 1
             self._files[string] = node
 
     def get_data_offset(self) -> int:
