@@ -124,6 +124,8 @@ for category, address, size in TABLES:
                 1: "rtti2",
                 2: "dtor",
                 3: "dtorDelete",
+                10: "doAction",
+                15: "loadParams",
             }
             renamer.run(cfunc, class_name, names, "AI_ActionBase")
 
@@ -134,6 +136,8 @@ for category, address, size in TABLES:
                 1: "rtti2",
                 2: "dtor",
                 3: "dtorDelete",
+                10: "doAction",
+                15: "loadParams",
             }
             renamer.run(cfunc, class_name, names, "AI_AIBase")
 
@@ -144,6 +148,7 @@ for category, address, size in TABLES:
                 1: "rtti2",
                 2: "dtor",
                 3: "dtorDelete",
+                10: "loadParams",
             }
             renamer.run(cfunc, class_name, names, "AI_BehaviorBase")
 
