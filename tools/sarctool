@@ -80,6 +80,7 @@ def sarc_create_or_update(args, update: bool) -> None:
         sys.stderr.write('error: could not create SARC writer (is the original SARC valid?)\n')
         sys.exit(1)
 
+    writer.set_align_for_nested_sarc(args.align_nested_sarc)
     if update and args.endian:
         writer.set_big_endian(args.endian == 'be')
     if not update and args.default_alignment:
@@ -127,6 +128,7 @@ def sarc_delete(args) -> None:
         sys.exit(1)
 
     dest_stream: typing.BinaryIO = open(dest_file, 'wb') if dest_file != '-' else sys.stdout.buffer
+    writer.set_align_for_nested_sarc(args.align_nested_sarc)
     _write_sarc(writer, dest_file, dest_stream)
 
 def sarc_test_repack(args) -> None:
@@ -137,6 +139,7 @@ def sarc_test_repack(args) -> None:
     writer = sarc.make_writer_from_sarc(archive, None)
     if not writer:
         sys.exit(11)
+    writer.set_align_for_nested_sarc(args.align_nested_sarc)
 
     original_offsets = archive.get_file_offsets()
     repacked_offsets = writer.get_file_offsets()
@@ -206,6 +209,9 @@ if __name__ == "__main__":
     t_parser = subparsers.add_parser('test-repack', description='Test repacking to check for potential alignment issues')
     t_parser.add_argument('archive', type=argparse.FileType('rb'), help='Archive to test')
     t_parser.set_defaults(func=sarc_test_repack)
+
+    for p in [c_parser, u_parser, d_parser, t_parser]:
+        p.add_argument('-A', '--align-nested-sarc', action='store_true', help='Align nested SARCs to 0x2000 byte boundaries. Useless for BotW but required for some games. Defaults to false.')
 
     args = parser.parse_args()
     args.func(args)
