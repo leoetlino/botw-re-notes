@@ -4,6 +4,7 @@
 
 import io
 import json
+import math
 from operator import itemgetter
 import os
 import struct
@@ -54,6 +55,14 @@ class SARC:
             string = self._read_string(pos)
             pos += len(string) + 1
             self._files[string] = node
+
+    def guess_default_alignment(self) -> int:
+        if len(self._files) <= 2:
+            return 4
+        gcd = next(iter(self._files.values()))[0]
+        for node in self._files.values():
+            gcd = math.gcd(gcd, node[0])
+        return gcd
 
     def get_data_offset(self) -> int:
         return self._doff
@@ -336,6 +345,7 @@ def read_file_and_make_sarc(f: typing.BinaryIO) -> typing.Optional[SARC]:
 
 def make_writer_from_sarc(sarc: SARC, filter_fn: typing.Optional[typing.Callable[[str], bool]]) -> typing.Optional[SARCWriter]:
     writer = SARCWriter(be=sarc._be)
+    writer.set_default_alignment(sarc.guess_default_alignment())
     for file in sarc.list_files():
         if not filter_fn or filter_fn(file):
             writer.add_file(file, sarc.get_file_data(file))
