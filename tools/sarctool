@@ -82,6 +82,8 @@ def sarc_create_or_update(args, update: bool) -> None:
 
     if update and args.endian:
         writer.set_big_endian(args.endian == 'be')
+    if not update and args.default_alignment:
+        writer.set_default_alignment(args.default_alignment)
 
     dest_stream: typing.BinaryIO = open(dest_file, 'wb') if dest_file != '-' else sys.stdout.buffer
 
@@ -182,6 +184,8 @@ if __name__ == "__main__":
     c_parser.add_argument('-b', '--be', action='store_true', help='Use big endian. Defaults to false.')
     c_parser.add_argument('--base-path', help='Base path to remove from contained file names.')
     c_parser.add_argument('--with-leading-slash', action='store_true', help='Add a leading slash to all paths. Required for some game data archives.')
+    c_parser.add_argument('-n', '--default-alignment', type=lambda n: int(n, 0),
+                          help='Set the default alignment for files. Defaults to 4.')
     c_parser.add_argument('files', nargs='+', help='Files or directories to include in the archive')
     c_parser.add_argument('dest', help='Destination archive')
     c_parser.set_defaults(func=lambda a: sarc_create_or_update(a, update=False))

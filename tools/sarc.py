@@ -154,6 +154,12 @@ class SARCWriter:
         self._hash_multiplier = 0x65
         self._files: typing.Dict[int, SARCWriter.File] = dict()
         self._alignment: typing.Dict[str, int] = dict()
+        self._default_alignment = 4
+
+    def set_default_alignment(self, value: int) -> None:
+        if value == 0 or value & (value - 1) != 0:
+            raise ValueError('Alignment must be a non-zero power of 2')
+        self._default_alignment = value
 
     def _refresh_alignment_info(self) -> None:
         self._alignment = dict()
@@ -212,8 +218,7 @@ class SARCWriter:
 
     def _get_alignment_for_file_data(self, file: File) -> int:
         ext = os.path.splitext(file.name)[1][1:]
-        DEFAULT_ALIGNMENT = 4
-        alignment = self._alignment.get(ext, DEFAULT_ALIGNMENT)
+        alignment = self._alignment.get(ext, self._default_alignment)
         if ext not in self._botw_resource_factory_info:
             alignment = max(alignment, self._get_file_alignment_for_new_binary_file(file))
             alignment = max(alignment, self._get_file_alignment_for_old_bflim(file))
