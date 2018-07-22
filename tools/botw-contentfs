@@ -195,7 +195,7 @@ class BotWContent(Operations):
         self.sarcs: typing.Dict[str, sarc.SARC] = dict()
         self.fd_map: FdAllocator[File] = FdAllocator()
 
-    @functools.lru_cache(maxsize=200)
+    @functools.lru_cache(maxsize=50)
     def _get_sarc(self, base_path: PPPath, path: PPPath) -> typing.Tuple[Directory, sarc.SARC]:
         parent = self._get_directory(base_path, path.parent)
         archive_file = parent.open_file(parent.get_path_relative_to_this(path), os.O_RDONLY)
