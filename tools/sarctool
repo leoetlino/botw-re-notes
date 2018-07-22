@@ -36,7 +36,8 @@ def _write_sarc(writer: sarc.SARCWriter, dest_file: str, dest_stream: typing.Bin
     alignment: int = writer.write(buf)
     buf.seek(0)
 
-    if os.path.splitext(dest_file)[1].startswith('.s'):
+    extension = os.path.splitext(dest_file)[1]
+    if extension.startswith('.s') and extension != '.sarc':
         dest_stream.write(yaz0_util.compress(buf.getbuffer()))
         if alignment > 0x20:
             # Offset 0x8 in the yaz0 header is the data alignment.
