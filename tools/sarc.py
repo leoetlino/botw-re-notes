@@ -59,9 +59,9 @@ class SARC:
     def guess_default_alignment(self) -> int:
         if len(self._files) <= 2:
             return 4
-        gcd = next(iter(self._files.values()))[0]
+        gcd = next(iter(self._files.values()))[0] + self._doff
         for node in self._files.values():
-            gcd = math.gcd(gcd, node[0])
+            gcd = math.gcd(gcd, node[0] + self._doff)
         return gcd
 
     def get_data_offset(self) -> int:
