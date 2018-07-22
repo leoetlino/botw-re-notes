@@ -112,7 +112,7 @@ class HostDirectory(Directory):
         return my_stat(os.lstat(self._path / path))
 
 class ArchiveDirectory(Directory):
-    SELF_FILE_NAME = '__RAW_ARCHIVE__'
+    SELF_FILE_NAME = '.__RAW_ARCHIVE__'
 
     def __init__(self, base_path: PPPath, path: PPPath, archive: sarc.SARC, parent: Directory) -> None:
         super().__init__(base_path, path)
