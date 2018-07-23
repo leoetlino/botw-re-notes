@@ -55,7 +55,7 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
             if c.op != hr.cot_asg:
                 return 1
             lhs = c.x
-            rhs = c.y
+            rhs = unwrap_cast(c.y)
             if lhs.op != hr.cot_var or rhs.op != hr.cot_var:
                 return 1
             if cfunc.get_lvars()[rhs.v.idx].name != "this":
@@ -76,13 +76,14 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
         if self._step == 2:
             if c.op != hr.cot_asg:
                 return 0
-            lhs = c.x
-            rhs = c.y
+            lhs = unwrap_cast(c.x)
+            rhs = unwrap_cast(c.y)
             if lhs.op != hr.cot_ptr:
                 return 0
-            if lhs.x.op != hr.cot_var:
+            deref_target = unwrap_cast(lhs.x)
+            if deref_target.op != hr.cot_var:
                 return 0
-            if unwrap_cast(lhs.x).v.idx != self._this_vidx and unwrap_cast(lhs.x).v.idx != self._this_vidx2:
+            if deref_target.v.idx != self._this_vidx and deref_target.v.idx != self._this_vidx2:
                 return 0
             if rhs.op == hr.cot_obj:
                 rename_vtable_functions(self._names, rhs.obj_ea, self._class_name)
