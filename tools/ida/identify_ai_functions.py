@@ -49,6 +49,9 @@ class VtableGetter(hr.ctree_visitor_t):
 
     def _visit(self, c): # type: (...) -> int
         if self._step == 0:
+            if c.op == hr.cot_call:
+                self._step = 1
+                return 0
             if c.op != hr.cot_asg:
                 return 1
             lhs = c.x
@@ -57,7 +60,7 @@ class VtableGetter(hr.ctree_visitor_t):
                 return 1
             if self._cfunc.get_lvars()[rhs.v.idx].name != "this" \
             and self._cfunc.get_lvars()[rhs.v.idx].name != "a1":
-                return 1
+                return 0
             self._this_vidx = rhs.v.idx
             self._this_vidx2 = lhs.v.idx
             self._step += 1
@@ -67,7 +70,7 @@ class VtableGetter(hr.ctree_visitor_t):
             if c.op != hr.cot_call:
                 return 0
             base_ctor_name = idaapi.get_func_name(c.x.obj_ea)
-            if not (base_ctor_name.startswith("AI_") and base_ctor_name.endswith("::ctor")):
+            if not base_ctor_name or not (base_ctor_name.startswith("AI_") and base_ctor_name.endswith("::ctor")):
                 return 1
             self._base_ctor_addr = c.x.obj_ea
             self._step += 1
@@ -83,7 +86,9 @@ class VtableGetter(hr.ctree_visitor_t):
             deref_target = lhs
             if deref_target.op != hr.cot_var:
                 return 0
-            if deref_target.v.idx != self._this_vidx and deref_target.v.idx != self._this_vidx2:
+            if deref_target.v.idx != self._this_vidx and deref_target.v.idx != self._this_vidx2 \
+            and self._cfunc.get_lvars()[deref_target.v.idx].name != "this" \
+            and self._cfunc.get_lvars()[deref_target.v.idx].name != "a1":
                 return 0
             if rhs.op == hr.cot_obj:
                 self._vtable_addr = rhs.obj_ea
