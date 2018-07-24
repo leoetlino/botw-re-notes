@@ -27,7 +27,7 @@ with open(os.path.dirname(os.path.realpath(__file__)) + '/../aidef_strings.txt',
         string = string.rstrip('\n')
         aidef_crc[binascii.crc32(string.encode()) & 0xffffffff] = string
 
-class MemberFunctionRenamer(hr.ctree_visitor_t):
+class VtableGetter(hr.ctree_visitor_t):
     def __init__(self): # type: () -> None
         hr.ctree_visitor_t.__init__(self, hr.CV_PARENTS)
         self._reset_context()
@@ -35,20 +35,16 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
     def _reset_context(self): # type: () -> None
         self._step = 0
         self._cfunc = None
-        self._class_name = ""
         self._this_vidx = 0
         self._this_vidx2 = 0
+        self._base_ctor_addr = 0
         self._vtable_addr = 0
-        self._base_class_name = ""
-        self._names = dict() # type: typing.Dict[int, str]
 
-    def run(self, cfunc, class_name, names, base_class_name): # type: (typing.Any, str, typing.Dict[int, str], str) -> None
+    def get_base_ctor_and_vtable_address(self, cfunc): # type: (typing.Any) -> typing.Tuple[int, int]
         self._reset_context()
         self._cfunc = cfunc
-        self._class_name = class_name
-        self._names = names
-        self._base_class_name = base_class_name
         hr.ctree_visitor_t.apply_to(self, cfunc.body, None)
+        return (self._base_ctor_addr, self._vtable_addr)
 
     def _visit(self, c): # type: (...) -> int
         if self._step == 0:
@@ -68,8 +64,10 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
         if self._step == 1:
             if c.op != hr.cot_call:
                 return 0
-            if self._base_class_name and idaapi.get_func_name(c.x.obj_ea) != self._base_class_name + "::ctor":
+            base_ctor_name = idaapi.get_func_name(c.x.obj_ea)
+            if not (base_ctor_name.startswith("AI_") and base_ctor_name.endswith("::ctor")):
                 return 1
+            self._base_ctor_addr = c.x.obj_ea
             self._step += 1
             return 0
 
@@ -86,10 +84,10 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
             if deref_target.v.idx != self._this_vidx and deref_target.v.idx != self._this_vidx2:
                 return 0
             if rhs.op == hr.cot_obj:
-                rename_vtable_functions(self._names, rhs.obj_ea, self._class_name)
+                self._vtable_addr = rhs.obj_ea
                 return 1
             if rhs.op == hr.cot_ref and rhs.x.op == hr.cot_obj:
-                rename_vtable_functions(self._names, rhs.x.obj_ea, self._class_name)
+                self._vtable_addr = rhs.x.obj_ea
                 return 1
             return 0
 
@@ -99,7 +97,65 @@ class MemberFunctionRenamer(hr.ctree_visitor_t):
     def visit_expr(self, c): # type: (...) -> int
         return self._visit(c)
 
-renamer = MemberFunctionRenamer()
+vtable_getter = VtableGetter()
+def do_rename_vtable_functions(cfunc, names, class_name): # type: (typing.Any, typing.Dict[int, str], str) -> bool
+    base_ctor_ea, vtable_ea = vtable_getter.get_base_ctor_and_vtable_address(cfunc)
+    if not vtable_ea:
+        return False
+
+    base_ctor_name = idaapi.get_func_name(base_ctor_ea)
+    base_class_ctors = {"AI_ActionBase::ctor", "AI_AIBase::ctor", "AI_BehaviorBase::ctor", "AI_QueryBase::ctor"}
+    if base_ctor_name not in base_class_ctors:
+        base_vtable_ea = vtable_getter.get_base_ctor_and_vtable_address(idaapi.decompile(base_ctor_ea))[1]
+        if not base_vtable_ea or not has_all_vtable_functions_named(base_vtable_ea):
+            print("Skipping %s (base: %s 0x%x)" % (class_name, base_ctor_name, base_ctor_ea))
+            return False
+
+    rename_vtable_functions(names, vtable_ea, class_name)
+    return True
+
+def do_rename_action(cfunc, class_name):
+    names = {
+        0: "rtti1",
+        1: "rtti2",
+        2: "dtor",
+        3: "dtorDelete",
+        10: "doAction",
+        15: "loadParams",
+    }
+    return do_rename_vtable_functions(cfunc, names, class_name)
+
+def do_rename_ai(cfunc, class_name):
+    names = {
+        0: "rtti1",
+        1: "rtti2",
+        2: "dtor",
+        3: "dtorDelete",
+        10: "doAction",
+        15: "loadParams",
+    }
+    return do_rename_vtable_functions(cfunc, names, class_name)
+
+def do_rename_behavior(cfunc, class_name):
+    names = {
+        0: "rtti1",
+        1: "rtti2",
+        2: "dtor",
+        3: "dtorDelete",
+        10: "loadParams",
+    }
+    return do_rename_vtable_functions(cfunc, names, class_name)
+
+def do_rename_query(cfunc, class_name):
+    names = {
+        0: "rtti1",
+        1: "rtti2",
+        2: "dtor",
+        3: "dtorDelete",
+        9: "doQuery",
+    }
+    return do_rename_vtable_functions(cfunc, names, class_name)
+
 STRUCT_SIZE = 0x10
 for category, address, size in TABLES:
     for i in range(size):
@@ -120,46 +176,13 @@ for category, address, size in TABLES:
 
         if category == "Action":
             cfunc = idaapi.decompile(ctor_addr)
-            names = {
-                0: "rtti1",
-                1: "rtti2",
-                2: "dtor",
-                3: "dtorDelete",
-                10: "doAction",
-                15: "loadParams",
-            }
-            renamer.run(cfunc, class_name, names, "AI_ActionBase")
-
+            do_rename_action(cfunc, class_name)
         if category == "AI":
             cfunc = idaapi.decompile(ctor_addr)
-            names = {
-                0: "rtti1",
-                1: "rtti2",
-                2: "dtor",
-                3: "dtorDelete",
-                10: "doAction",
-                15: "loadParams",
-            }
-            renamer.run(cfunc, class_name, names, "AI_AIBase")
-
+            do_rename_ai(cfunc, class_name)
         if category == "Behavior":
             cfunc = idaapi.decompile(ctor_addr)
-            names = {
-                0: "rtti1",
-                1: "rtti2",
-                2: "dtor",
-                3: "dtorDelete",
-                10: "loadParams",
-            }
-            renamer.run(cfunc, class_name, names, "AI_BehaviorBase")
-
+            do_rename_behavior(cfunc, class_name)
         if category == "Query":
             cfunc = idaapi.decompile(ctor_addr)
-            names = {
-                0: "rtti1",
-                1: "rtti2",
-                2: "dtor",
-                3: "dtorDelete",
-                9: "doQuery",
-            }
-            renamer.run(cfunc, class_name, names, "AI_QueryBase")
+            do_rename_query(cfunc, class_name)

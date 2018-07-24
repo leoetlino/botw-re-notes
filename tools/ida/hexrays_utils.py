@@ -7,6 +7,18 @@ import idc
 import struct
 import typing
 
+def has_all_vtable_functions_named(vtable_ea): # type: (int) -> bool
+    ea = vtable_ea
+    while True:
+        function_ea = struct.unpack('<Q', idaapi.get_many_bytes(ea, 8))[0]
+        if '__cxa_pure_virtual' not in idc.GetDisasm(function_ea) and not idaapi.is_func(idaapi.get_flags(function_ea)):
+            break
+        current_name = idc.GetFunctionName(function_ea)
+        if current_name.startswith('nullsub_') or current_name.startswith('sub_') or current_name.startswith('j_nullsub_') or current_name.startswith('j_sub_'):
+            return False
+        ea += 8
+    return True
+
 def rename_vtable_functions(names, vtable_ea, class_name): # type: (typing.Dict[int, str], int, str) -> None
     ea = vtable_ea
     i = 0
