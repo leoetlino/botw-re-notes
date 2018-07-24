@@ -55,7 +55,8 @@ class VtableGetter(hr.ctree_visitor_t):
             rhs = unwrap_cast(c.y)
             if lhs.op != hr.cot_var or rhs.op != hr.cot_var:
                 return 1
-            if self._cfunc.get_lvars()[rhs.v.idx].name != "this":
+            if self._cfunc.get_lvars()[rhs.v.idx].name != "this" \
+            and self._cfunc.get_lvars()[rhs.v.idx].name != "a1":
                 return 1
             self._this_vidx = rhs.v.idx
             self._this_vidx2 = lhs.v.idx
