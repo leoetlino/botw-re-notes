@@ -14,7 +14,7 @@ def has_all_vtable_functions_named(vtable_ea): # type: (int) -> bool
         if '__cxa_pure_virtual' not in idc.GetDisasm(function_ea) and not idaapi.is_func(idaapi.get_flags(function_ea)):
             break
         current_name = idc.GetFunctionName(function_ea)
-        if current_name.startswith('nullsub_') or current_name.startswith('sub_') or current_name.startswith('j_nullsub_') or current_name.startswith('j_sub_'):
+        if current_name.startswith('sub_') or current_name.startswith('j_sub_'):
             return False
         ea += 8
     return True
@@ -30,7 +30,7 @@ def rename_vtable_functions(names, vtable_ea, class_name): # type: (typing.Dict[
         member_fn_name = names.get(i, "m%d" % i)
         function_name = "%s::%s" % (class_name, member_fn_name)
         current_name = idc.GetFunctionName(function_ea)
-        if current_name.startswith('nullsub_'):
+        if current_name.startswith('nullsub_') or current_name.startswith('j_nullsub_'):
             idc.MakeNameEx(function_ea, function_name + '_null', idaapi.SN_NOWARN)
         elif current_name.startswith('sub_') or \
             current_name.startswith("%s::m%d" % (class_name, i)) or \
