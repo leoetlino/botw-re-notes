@@ -3,13 +3,13 @@
 ## Common requirements
 
 * [Python 3.6+](https://www.python.org/downloads/release/python-370/)
-* PyYAML
 * [wszst](https://szs.wiimm.de/download.html) for yaz0 support
 
 ## First setup
 
+* Make sure Python 3.6+ is installed
 * Install wszst
-* Install dependencies: `pip install pyyaml`
+* Run: `pip install byml sarc rstb`
 
 Additionally, for filesystem utilities:
 
@@ -18,97 +18,15 @@ Additionally, for filesystem utilities:
 
 ## BYML converters
 
-This lives in a [separate repository](https://github.com/leoetlino/byml-v2).
+Usage instructions can be [found here](https://github.com/leoetlino/byml-v2/blob/master/USAGE.md).
 
-Usage instructions can be [found there](https://github.com/leoetlino/byml-v2/blob/master/USAGE.md).
+## SARC
 
-## sarctool
-
-A simple tool to manipulate SARC archives.
-
-### List files in an archive
-
-    sarctool list ARCHIVE
-
-### Extract an archive
-
-    sarctool extract ARCHIVE
-
-### Create an archive
-
-    sarctool create [--be] FILES_TO_ADD  DEST_SARC
-
-You can give it directories too, in which case the entire directory will be added to the archive
-recursively.
-
-Pass `--be` (shorthand: `-b`) if you want sarctool to use big endian mode (for the Wii U).
-
-An important option is `--base-path`. This option lets you remove parts of the path.
-For example, if you pass a path like `Mods/BotW/System/Version.txt`, you will likely want to pass
-`--base-path Mods/BotW` to get rid of the leading components.
-
-If only a single directory is passed, the base path is set for you automatically.
-
-So typical usage example:
-
-    sarctool create  ~/botw/Bootup/  ~/botw/ModifiedBootup.pack
-
-### Update an archive
-
-    sarctool update  FILES_TO_ADD  SARC_TO_MODIFY
-
-This is almost identical to `create`.
-
-By default, sarctool will keep the endianness of the original archive. You can override this
-with `--endian {le,be}` (le for little and be for big endian).
-
-### Delete files from an archive
-
-    sarctool delete  FILES_TO_DELETE  SARC_TO_MODIFY
-
-Nothing much to say here. Just keep in mind FILES_TO_DELETE takes archive paths
-(those that are printed by `list`).
+Usage instructions can be [found here](https://pypi.org/project/sarc/).
 
 ## rstbtool
 
-A tool to manipulate the [RSTB (Resource Size TaBle)](https://github.com/leoetlino/botw-re-notes/blob/master/resource_system.md#resource-size-table).
-
-It is recommended to familiarize yourself with how the resource system works (roughly)
-and how resources are listed
-([Wii U RSTB](https://github.com/leoetlino/botw-re-notes/blob/master/game_files/wiiu_rstb_150.csv),
-[Switch RSTB](https://github.com/leoetlino/botw-re-notes/blob/master/game_files/switch_rstb_150.csv))
-in the table before modifying resource entries.
-
-For all commands, you must pass `--be` if you are dealing with a big endian RSTB (Wii U version).
-
-### Get a resource size
-
-    rstbtool  [--be]  path/to/ResourceSizeTable.product.srsizetable  get  RESOURCE_NAME
-
-### Set a resource size
-
-    rstbtool  [--be]  path/to/ResourceSizeTable.product.srsizetable  set  RESOURCE_NAME  NEW_SIZE
-
-NEW_SIZE can be an integer (hex or decimal), in which case the size will be set directly.
-
-Or it can be a path on your _host filesystem_ (unlike RESOURCE_NAME). In that case rstbtool
-will automatically calculate the size value it should write to the RSTB.
-
-The RESOURCE_NAME must exist in the RSTB for this command.
-
-### Add a resource size
-
-    rstbtool  [--be]  path/to/ResourceSizeTable.product.srsizetable  add  RESOURCE_NAME  NEW_SIZE
-
-Same as `set`, except the RESOURCE_NAME must *not* exist in the RSTB for this command.
-
-### Delete a resource size
-
-    rstbtool  [--be]  path/to/ResourceSizeTable.product.srsizetable  del  RESOURCE_NAME
-
-Warning: deleting the entry for a resource will make the game waste precious memory
-when loading it, since the resource system will fall back to a different, wasteful method
-of calculating how much memory to allocate (see the resource system notes for more details).
+Usage instructions can be [found here](https://pypi.org/project/rstb/).
 
 ## botw-overlayfs
 

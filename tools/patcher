@@ -9,12 +9,12 @@ from colorama import Fore, Style # type: ignore
 import io
 import os
 from pathlib import Path
-import rstb, rstb_util
+import rstb, rstb.util
 import sarc
 import shutil
 import sys
 import typing
-import yaz0_util
+import wszst_yaz0
 
 ARCHIVE_EXTS = {'sarc', 'pack', 'bactorpack', 'bmodelsh', 'beventpack', 'stera', 'stats',
                 'ssarc', 'spack', 'sbactorpack', 'sbmodelsh', 'sbeventpack', 'sstera', 'sstats',
@@ -48,7 +48,7 @@ def _is_dir(path: Path) -> bool:
 def _compress_file(path: Path) -> None:
     data = bytes()
     with open(path, 'rb') as f:
-        data = yaz0_util.compress(f.read())
+        data = wszst_yaz0.compress(f.read())
 
     compressed_path = path
     if not path.suffix.startswith('.s'):
@@ -186,7 +186,7 @@ def make_loadable_layer(content_dir: Path, patch_dir: Path, target_dir: Path, wi
             full_path = os.path.join(root, file_name)
             files_by_depth[full_path.count(os.path.sep)].append(Path(full_path))
 
-    table = rstb_util.read_rstb(str(content_dir / _RSTB_PATH_IN_CONTENT), be=wiiu)
+    table = rstb.util.read_rstb(str(content_dir / _RSTB_PATH_IN_CONTENT), be=wiiu)
     size_calculator = rstb.SizeCalculator()
 
     for depth in sorted(files_by_depth.keys(), reverse=True):
@@ -214,7 +214,7 @@ def make_loadable_layer(content_dir: Path, patch_dir: Path, target_dir: Path, wi
     table.set_size(_RSTB_PATH_IN_CONTENT.replace('.srsizetable', '.rsizetable'), table.get_buffer_size())
     final_rstb_path = target_dir / _RSTB_PATH_IN_CONTENT
     os.makedirs(final_rstb_path.parent, exist_ok=True)
-    rstb_util.write_rstb(table, str(final_rstb_path), be=wiiu)
+    rstb.util.write_rstb(table, str(final_rstb_path), be=wiiu)
 
 def _fail_if_not_dir(path: Path):
     if not path.is_dir():
