@@ -1,7 +1,6 @@
 # Things to investigate
 
 ## Difficulty Scaling (LevelSensor)
-- How scaling is disabled on Eventide for chests
 - How scaling works for amiibo weapons. What determines the drop table list that gets used?
 
 ## Castle Blights (scaling and actors)
@@ -9,14 +8,10 @@
 - HP for Castle Blights
 
 ## Final battle logic (actors and GameDataMgr)
-- What happens when the final battle starts
 - What game data exactly is transferred when the game is beaten
 
 ## Blood Moon (GameDataMgr)
 - The Blood Moon mechanism
-
-## Climate (WorldMgr)
-- How the game forces daylight before the first tower is activated
 
 ## Debug stuff
 ~~What happens if the ROM type is set to Show_2017_1st or RID_Demo?~~ The game crashes. Why?
