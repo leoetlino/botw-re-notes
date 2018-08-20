@@ -28,4 +28,29 @@ Also worth noting that this is gone in Master Mode.
 ## Master Cycle Zero
 - Is it possible to remove the area limitations? (i.e. use the MCZ in the desert)
 
+UPDATE: It's possible to disable the 'instant disappear' when you enter an invalid region
+by patching the executable, but there are other checks (for spawning the Master Cycle Zero).
+The check is based on the [current climate](tools/check_master_cycle_ok_areas):
+
+* ✅ HyrulePlainClimate
+* ✅ NorthHyrulePlainClimate
+* ✅ HebraFrostClimate
+* ✅ TabantaAridClimate
+* ✅ FrostClimate
+* 🚫 GerudoDesertClimate
+* ✅ GerudoPlateauClimate
+* ✅ EldinClimateLv0
+* ✅ TamourPlainClimate
+* ✅ ZoraTemperateClimate
+* ✅ HateruPlainClimate
+* ✅ FiloneSubtropicalClimate
+* ✅ SouthHateruHumidTemperateClimate
+* 🚫 EldinClimateLv1
+* 🚫 EldinClimateLv2
+* ✅ DarkWoodsClimat
+* ✅ LostWoodClimate
+* ✅ GerudoFrostClimate
+* ✅ KorogForest
+* 🚫 GerudoDesertClimateLv2
+
 - Why is it possible to use runes that are obtained from a chest, but not the MCZ?
