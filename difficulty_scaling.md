@@ -32,6 +32,17 @@
   and [`loadActorInfo`](#ecosystemlevelsensorloadactorinfo)) that may be called
   when a weapon or enemy actor is loaded.
 
+## Scaling inhibitors
+
+Both scaling functions will immediately return without doing anything if:
+
+* WorldMgr::sInstance->stageType == 1 (Open World stage)
+* and WorldMgr::sInstance->isAocField (current map is Trial of the Sword)
+* and WorldMgr::sInstance->disableScaling (set to true when entering Trial of the Sword)
+
+Scaling will also be skipped if the current [map area](areas.md) is 28. This corresponds to
+"HateruSea", which is the Eventide Island area.
+
 ## Weapons
   'loadWeaponInfo' is called (i.e. weapons may be scaled) for a weapon if:
 
@@ -41,8 +52,6 @@
   * **For other enemy drops**: The flag `{MapName}_WeaponDrop_{ID}` is false, **and** [the actor property 'LevelSensorMode' is higher than 1 *or* the enemy is a Guardian Scout ('Enemy_Guardian_Mini')].
 
   Note: Weapons that are bought from a shop cannot receive modifiers because they do not fit into any of the above cases.
-
-  \* Weapons found on Eventide Island (from chests and the Hinox) seem to be excluded from weapon scaling. TODO: how?
 
 ## Enemies
   When loading enemies, the game will always try to scale enemies.
