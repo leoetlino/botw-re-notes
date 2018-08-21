@@ -6,6 +6,29 @@ Below is a list of checks that must be patched to remove usage restrictions.
 Most of them are located in a component that I've called the "ride manager" (or "RideMgr"
 when following BotW's naming conventions) since it manages both horses and the Master Cycle Zero.
 
+The game uses the [current climate](tools/check_master_cycle_ok_areas) for the area check:
+
+* ✅ HyrulePlainClimate
+* ✅ NorthHyrulePlainClimate
+* ✅ HebraFrostClimate
+* ✅ TabantaAridClimate
+* ✅ FrostClimate
+* 🚫 GerudoDesertClimate
+* ✅ GerudoPlateauClimate
+* ✅ EldinClimateLv0
+* ✅ TamourPlainClimate
+* ✅ ZoraTemperateClimate
+* ✅ HateruPlainClimate
+* ✅ FiloneSubtropicalClimate
+* ✅ SouthHateruHumidTemperateClimate
+* 🚫 EldinClimateLv1
+* 🚫 EldinClimateLv2
+* ✅ DarkWoodsClimat
+* ✅ LostWoodClimate
+* ✅ GerudoFrostClimate
+* ✅ KorogForest
+* 🚫 GerudoDesertClimateLv2
+
 ## Disappearing when entering a blacklisted climate
 
 Called from the Motorcycle AI root code.
