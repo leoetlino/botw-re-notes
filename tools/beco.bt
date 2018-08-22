@@ -1,0 +1,42 @@
+struct Header {
+  BigEndian();
+  uint32 magic <format=hex>;
+  if (magic == 0x33221100) {
+    LittleEndian();
+  } else if (magic == 0x112233) {
+    BigEndian();
+  } else {
+    Assert(false);
+  }
+  uint32 numTables;
+  uint32 divisor;
+  uint32 padding;
+} header <bgcolor=0>;
+
+struct TableOffsets {
+  uint32 offset[header.numTables] <format=hex>;
+} tableOffsets <bgcolor=0xa05000>;
+
+struct TableEntry {
+  uint16 value;
+  uint16 xLength;
+};
+
+const local uint tablesBegin = FTell();
+struct Tables {
+  local int i <hidden=true>;
+  for (i = 0; i < header.numTables; ++i) {
+    FSeek(tablesBegin + 2*tableOffsets.offset[i]);
+    struct Entries {
+      local int x <hidden=true>;
+      if (i + 1 == header.numTables) {
+        x = FileSize();
+      } else {
+        x = tablesBegin + 2*tableOffsets.offset[i+1];
+      }
+      while (FTell() < x) {
+        TableEntry entry;
+      }
+    } entries;
+  }
+} tables <bgcolor=0x502000>;
