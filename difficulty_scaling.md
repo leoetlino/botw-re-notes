@@ -15,7 +15,7 @@
   * **For Monk Maz Koshia**: 'Defeated_Priest_Boss_Normal_Num' is 0.
   * **For Dark Beast Ganon**: It is the first time the boss is beaten. ^[check]
   * **For Blights**: It is the first time the blight is beaten in the Divine Beast, or in the
-  Illusory Realm. Blights fought in Hyrule Castle will apparently not count. ^[check]
+  Illusory Realm. Blights fought in Hyrule Castle do not count.
 
   This happens every time *any* enemy dies, even if they don't necessarily play a role
   in the point system (see below) and even if you are not responsible for their death.
@@ -296,3 +296,48 @@ Note that this doesn't apply to weapons that are attached to a Hinox's necklace,
   * `:NO_RANKUP`: Enemy will not be automatically ranked up in master mode.
   * `:MODIFIER_X`: Weapon will receive at least modifier tier X.
   * `:OFF_WAIT_REVIVAL`: Enemy or weapon will always respawn even without a blood moon.
+
+## Ganon Blights
+
+Their health is determined from the base HP (set in GeneralParamList) and from blight defeat flags.
+
+```cpp
+__int64 SiteBoss::getInitialHP(SiteBoss *this) // 0x71002D01F4
+{
+  const int baseHp = Enemy::getInitialHP(this);
+  const int halfBaseHp = baseHp >> 1;
+  const bool dieGanonWind = hasFlag_Die_PGanonWind(0);
+  const bool dieGanonWater = hasFlag_Die_PGanonWater(0);
+  const bool dieGanonFire = hasFlag_Die_PGanonFire(0);
+  const bool dieGanonElectric = hasFlag_Die_PGanonElectric(0);
+  const int flags = this->siteBossFlags & 0xFFFFFFFC;
+  int multiplier;
+  if ( flags == 4 )
+    multiplier = 3;
+  else if ( flags == 8 )
+    multiplier = 4;
+  else
+    multiplier = dieGanonFire + dieGanonWind + dieGanonWater + dieGanonElectric;
+  return baseHp + multiplier * halfBaseHp;
+}
+```
+
+Effectively, this means that the first blight Link fights will have 800+0×400 = 800 HP,
+the second will have 800+1×400 = 1200 HP, the third 800+2×400 = 1600 HP and the last one 800+3×400 = 2000 HP.
+
+### Special case 1: Castle Blights
+Castle blights have `IsRemainBoss` set to false in the root AI parameters,
+which sets flag 4.
+
+Thus, blights that are fought in the Castle always have 800+3×400 = 2000 HP
+regardless of story progression.
+
+If flag 4 is set, the AI_Action_SiteBossDie code will NOT increment the "defeated" counter.
+This means castle blights do not give any scaling points.
+
+### Special case 2: DLC2 Blights
+Illusory Realm blights possess the `EnemySiteBoss_R` actor tag. This causes flag 8 to be set.
+So they will always have 500+4×250 = 1500 HP.
+
+Interestingly, the Windblight AI function relies doesn't check the actor tag but
+the actor name instead. For flag 8 to be set, the actor name must be `Enemy_SiteBoss_Bow_R`.

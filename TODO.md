@@ -3,10 +3,6 @@
 ## Difficulty Scaling (LevelSensor)
 - How scaling works for amiibo weapons. What determines the drop table list that gets used?
 
-## Castle Blights (scaling and actors)
-- Scaling for Castle Blights
-- HP for Castle Blights
-
 ## Final battle logic (actors and GameDataMgr)
 - What game data exactly is transferred when the game is beaten
 
