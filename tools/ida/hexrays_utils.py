@@ -76,6 +76,12 @@ def unwrap_cast(c): # type: (hr.citem_t) -> hr.citem_t
         return c.x
     return c
 
+def unwrap_ref(c): # type: (hr.citem_t) -> hr.citem_t
+    """Return c or the referenced expression if c is a ref."""
+    if c.op == hr.cot_ref:
+        return c.x
+    return c
+
 def make_helper_call(ret_type, name, arg_types): # type: (str, str, typing.List[str]) -> hr.cexpr_t
     """Make a call expression to a helper function (non-existing function with arbitrary name)."""
 
