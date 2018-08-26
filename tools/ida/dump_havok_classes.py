@@ -1,22 +1,15 @@
 from collections import namedtuple, OrderedDict
 import idaapi # type: ignore
-import ida_hexrays as hr # type: ignore
 import idautils # type: ignore
 import idc # type: ignore
+import json
 import os
 import sys
 import typing
-import yaml
-import yaml_util
 try: del sys.modules['havok_structures_nx']
 except: pass
-try: del sys.modules['hexrays_utils']
-except: pass
 from havok_structures_nx import *
-from hexrays_utils import *
 
-# Address of the hkClass constructor.
-hkclass_ctor_ea = 0x7101583018
 # Main module memory dump.
 memdump = open('/home/leo/botw/main_memdump', 'rb').read()
 # Base address for pointers in the main module memory dump.
@@ -42,99 +35,76 @@ def parse_enum(o): # type: (int) -> HkClassEnum
     flags = re.m_flags
     return HkClassEnum(name, items, flags)
 
-def make_hkclass(offset, processed_classes): # type: (int,dict) -> HkClass
-    processed_classes[offset] = '...'
-
+def make_hkclass(offset, enums_by_id): # type: (int, typing.Dict[int, dict]) -> HkClass
     rclass = make_hkclass_raw(memdump[offset:offset+0x50]) # type: HkClassRaw
 
-    enums = [] # type: typing.List[HkClassEnum]
+    declared_enums = [] # type: typing.List[dict]
     for i in range(rclass.m_numDeclaredEnums):
         o = (rclass.m_declaredEnums - memdump_pointer_base) + i*HkClassEnumRawStruct.size
-        v = parse_enum(o)
-        enums.append(v)
+        v = parse_enum(o)._asdict()
+        enums_by_id[o] = v
+        declared_enums.append(v)
 
-    members = []  # type: typing.List[HkClassMember]
+    members = []  # type: typing.List[dict]
     for i in range(rclass.m_numDeclaredMembers):
         o = (rclass.m_declaredMembers - memdump_pointer_base) + i*HkClassMemberRawStruct.size
         rmember = make_hkclassmember_raw(memdump[o:o+HkClassMemberRawStruct.size]) # type: HkClassMemberRaw
 
         mname = idc.GetString(memdump_addr_to_ida_addr(rmember.m_name))
-        mcl = None
-        if rmember.m_class:
-            class_offset = rmember.m_class - memdump_pointer_base
-            mcl = get_hkclass(class_offset, processed_classes)
-        menum = parse_enum(rmember.m_enum - memdump_pointer_base) if rmember.m_enum else None
-        mtype = HkClassMemberType(rmember.m_type)
-        msubtype = HkClassMemberType(rmember.m_subtype)
+        mcl = rmember.m_class - memdump_pointer_base if rmember.m_class else 0
+        menum = rmember.m_enum - memdump_pointer_base if rmember.m_enum else 0
+        mtype = HkClassMemberType(rmember.m_type).name
+        msubtype = HkClassMemberType(rmember.m_subtype).name
         marray_size = rmember.m_cArraySize
         mflags = rmember.m_flags
         moffset = rmember.m_offset
 
-        members.append(HkClassMember(mname, mcl, menum, mtype, msubtype, marray_size, mflags, moffset))
+        members.append(HkClassMember(mname, mcl, menum, mtype, msubtype, marray_size, mflags, moffset)._asdict())
 
     name = idc.GetString(memdump_addr_to_ida_addr(rclass.m_name))
-    parent = get_hkclass(rclass.m_parent - memdump_pointer_base, processed_classes) \
-        if rclass.m_parent else None
+    parent = rclass.m_parent - memdump_pointer_base if rclass.m_parent else 0
     obj_size = rclass.m_objectSize
     flags = rclass.m_flags
     version = rclass.m_describedVersion
-    return HkClass(name, parent, obj_size, enums, members, flags, version)
+    return HkClass(name, parent, obj_size, declared_enums, members, flags, version)
 
-class HavokClassVisitor(hr.ctree_visitor_t):
-    def __init__(self): # type: () -> None
-        hr.ctree_visitor_t.__init__(self, hr.CV_PARENTS)
+def get_hkclass_list():
+    # hkBuiltinTypeRegistry::StaticLinkedClasses
+    ARRAY_START = 0x710254D830
+    classes = [] # type: typing.List[int]
+    ea = ARRAY_START
+    while True:
+        class_ea = struct.unpack('<Q', idaapi.get_many_bytes(ea, 8))[0]
+        if not class_ea:
+            break
+        classes.append(class_ea)
+        ea += 8
 
-    def get_class_address(self, cfunc, call_ea): # type: (typing.Any, int) -> int
-        self._call_ea = call_ea
-        self._class_ea = -1
-        hr.ctree_visitor_t.apply_to(self, cfunc.body, None)
-        return self._class_ea
+    # StaticCompoundInfo
+    classes.append(0x710260E1B0)
+    # ActorInfo
+    classes.append(0x710260E130)
+    # ShapeInfo
+    classes.append(0x710260E0B0)
 
-    def _visit(self, c): # type: (...) -> int
-        if c.op != hr.cot_call or c.ea != self._call_ea or len(c.a) != 14:
-            return 0
-        this_arg = unwrap_ref(unwrap_cast(c.a[0]))
-        if this_arg.op == hr.cot_obj:
-            self._class_ea = this_arg.obj_ea
-        return 1
-
-    def visit_expr(self, c): # type: (...) -> int
-        return self._visit(c)
-
-def get_hkclass(offset, processed_classes): # type: (int,dict) -> HkClass
-    if offset not in processed_classes:
-        process_hkclass(offset, processed_classes)
-    return processed_classes[offset]
-
-def process_hkclass(offset, processed_classes): # type: (int,dict) -> None
-    cl = make_hkclass(offset, processed_classes)
-    processed_classes[offset] = cl
-
-class NoAliasDumper(yaml.CSafeDumper):
-    def ignore_aliases(self, data):
-        return True
+    return classes
 
 def main(): # type: () -> None
-    processed_classes = dict() # type: typing.Dict[int, HkClass]
-    visitor = HavokClassVisitor()
+    classes_by_id = dict() # type: typing.Dict[int, str]
+    classes = dict() # type: typing.Dict[str, dict]
+    enums_by_id = dict() # type: typing.Dict[int, dict]
 
-    for i, call_ea in enumerate(idautils.CodeRefsTo(hkclass_ctor_ea, 1)):
-        class_ea = visitor.get_class_address(idaapi.decompile(call_ea), call_ea)
-        if class_ea == -1:
-            print("0x%x: failed to get class ea" % call_ea)
-            break
-        process_hkclass(class_ea - ida_base, processed_classes)
-        print(i)
+    for i, class_ea in enumerate(get_hkclass_list()):
+        hkclass = make_hkclass(class_ea - ida_base, enums_by_id)
+        classes_by_id[class_ea - ida_base] = hkclass.name
+        classes[hkclass.name] = hkclass._asdict()
 
-    dumper = NoAliasDumper
-    yaml.add_representer(OrderedDict, lambda d, data: yaml_util.represent_dict(d, data.items()), Dumper=dumper)
-    yaml.add_representer(HkClass, lambda d, data: yaml_util.represent_dict(d, data._asdict()), Dumper=dumper)
-    yaml.add_representer(HkClassMember, lambda d, data: yaml_util.represent_dict(d, data._asdict()), Dumper=dumper)
-    yaml.add_representer(HkClassEnum, lambda d, data: yaml_util.represent_dict(d, data._asdict()), Dumper=dumper)
-    yaml.add_representer(HkClassEnumItem, lambda d, data: yaml_util.represent_dict(d, data._asdict()), Dumper=dumper)
-    yaml.add_representer(HkClassMemberType, lambda d, data: d.represent_scalar('tag:yaml.org,2002:str', data.name), Dumper=dumper)
+    for cl in classes.itervalues():
+        cl['parent'] = classes_by_id[cl['parent']] if cl['parent'] else None
+        for member in cl['members']:
+            member['cl'] = classes_by_id.get(member['cl'], '???') if member['cl'] else None
 
-    with open(os.path.dirname(os.path.realpath(__file__)) + '/../havok_reflection_info.yml', 'wb') as f:
-        yaml.dump({v.name: v for v in processed_classes.values()}, f, allow_unicode=True, Dumper=dumper)
+    with open(os.path.dirname(os.path.realpath(__file__)) + '/../havok_reflection_info.json', 'w') as f:
+        json.dump({'enums_by_id': enums_by_id, 'classes': classes}, f, ensure_ascii=False, indent=2)
 
 main()
