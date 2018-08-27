@@ -30,8 +30,7 @@ def rename_vtable_functions(names, vtable_ea, class_name): # type: (typing.Dict[
         member_fn_name = names.get(i, "m%d" % i)
         function_name = "%s::%s" % (class_name, member_fn_name)
         current_name = idc.GetFunctionName(function_ea)
-        is_generic_null = ('::m' in current_name or '::__m' in current_name) and current_name.endswith('_null')
-        if (is_generic_null or current_name.startswith('nullsub_') or current_name.startswith('j_nullsub_')):
+        if current_name.startswith('nullsub_') or current_name.startswith('j_nullsub_'):
             idc.MakeNameEx(function_ea, function_name + '_null', idaapi.SN_NOWARN)
         elif current_name.startswith('sub_') or \
             current_name.startswith("%s::m%d" % (class_name, i)) or \
