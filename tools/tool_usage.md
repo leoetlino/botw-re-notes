@@ -1,14 +1,8 @@
 # Tool documentation
 
-## Common requirements
-
-* [Python 3.6+](https://www.python.org/downloads/release/python-370/)
-* [wszst](https://szs.wiimm.de/download.html) for yaz0 support
-
 ## First setup
 
 * Make sure Python 3.6+ is installed
-* Install wszst
 * Run: `pip install byml sarc rstb`
 
 Additionally, for filesystem utilities:
