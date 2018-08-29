@@ -3,20 +3,6 @@
 This document explains what files are included in game_files/ and where they can be found
 in the romfs.
 
-## Tools
-* [`SARCExtract`](https://github.com/NWPlayer123/WiiUTools/blob/master/SARCTools/SARCExtract.py)
-(note: needs patches to handle little endian files for the Switch version).
-Useful to extract pack archives.
-
-* `wszst` or any other tool to decompress yaz0 files. yaz0-compressed files usually have a `s`
-prefix in their file extension.
-
-* [`byml-v2`](https://github.com/leoetlino/byml-v2) for byml files. These usually have the .byml
-file extension, but not always.
-
-* [`BotW-aampTool`](https://github.com/Zer0XoL/BotW-aampTool) for AAMP files. These usually have
-the .bxml file extension, but not always.
-
 ## Included files
 
 ### LevelSensor.yml
