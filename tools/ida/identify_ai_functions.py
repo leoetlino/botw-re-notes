@@ -128,7 +128,9 @@ def do_rename_action(cfunc, class_name):
         2: "dtor",
         3: "dtorDelete",
         10: "doAction",
+        12: "init",
         15: "loadParams",
+        31: "calc",
     }
     return do_rename_vtable_functions(cfunc, names, class_name)
 
@@ -159,6 +161,7 @@ def do_rename_query(cfunc, class_name):
         1: "rtti2",
         2: "dtor",
         3: "dtorDelete",
+        8: "loadParams",
         9: "doQuery",
     }
     return do_rename_vtable_functions(cfunc, names, class_name)
