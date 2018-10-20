@@ -204,23 +204,22 @@ def rename_derived_classes_for_category(category): # type: (str) -> None
 STRUCT_SIZE = 0x10
 first_time = idc.AskYN(0, "Is it the first time this script is being run?")
 for category, address, size in TABLES:
-    if not first_time:
-        rename_derived_classes_for_category(category)
-        continue
     for i in range(size):
         print("%s [%u/%u]" % (category, i+1, size))
         entry = idaapi.get_many_bytes(address + STRUCT_SIZE*i, STRUCT_SIZE)
         crc, padding, fn = struct.unpack('<IIQ', entry)
         name = aidef_crc.get(crc, "Unknown_%08x" % crc)
-        function_name = "AI_F_%s_%s" % (category, name)
-        idc.MakeNameEx(fn, function_name, idc.SN_NOWARN)
-        idc.SetType(fn, "void* makeHandler(void* param, sead::Heap* heap);")
+        if first_time:
+            function_name = "AI_F_%s_%s" % (category, name)
+            idc.MakeNameEx(fn, function_name, idc.SN_NOWARN)
+            idc.SetType(fn, "void* makeHandler(void* param, sead::Heap* heap);")
         if "BL              operator new" not in idc.GetDisasm(fn + 6*4) or idc.GetMnem(fn + 9*4) != "BL":
             continue
 
         ctor_addr = idc.GetOperandValue(fn + 9*4, 0)
         class_name = "AI_%s_%s" % (category, name)
-        idc.MakeNameEx(ctor_addr, "%s::ctor" % class_name, idc.SN_NOWARN)
-        idc.SetType(ctor_addr, "void ctor(void* this, void* param);")
+        if first_time:
+            idc.MakeNameEx(ctor_addr, "%s::ctor" % class_name, idc.SN_NOWARN)
+            idc.SetType(ctor_addr, "void ctor(void* this, void* param);")
 
         do_rename(category, ctor_addr, class_name)
