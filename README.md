@@ -3,7 +3,7 @@
 ## What's in this repository?
 
 * Information and sometimes documentation about game internals. These files have the \*.md extension
-in this repository.
+in this repository. **Note: New documentation will be posted on the [ZeldaMods](https://zeldamods.org/) wiki instead to make it easier to update information for everybody.** Existing documentation is also being moved and will only be updated on the wiki.
 
 * Some plain text files that were extracted from the executable or generated from the ROM,
 containing information about game internals as well.
