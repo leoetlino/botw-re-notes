@@ -1,0 +1,779 @@
+Objs:
+- HashId: !u 0x01d80e07
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x391d349f}
+  SRTHash: 1922632580
+  Translate: [-2726.342529296875, 49.98981475830078, -3656.27490234375]
+  UnitConfigName: BottomTag
+- HashId: !u 0x0378fa5f
+  Rotate: [-3.0588290691375732, 1.119936466217041, -3.049689769744873]
+  SRTHash: 676551451
+  Translate: [-4758.25634765625, 7.8203125, -1526.1533203125]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0x03d93a0e
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x040043f5}
+  Rotate: 0.7599998712539673
+  SRTHash: -1844162021
+  Translate: [-5530.0029296875, -2.75, -131.83447265625]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0x040043f5
+  Rotate: 0.7599998712539673
+  SRTHash: -1844162021
+  Translate: [-5530.0029296875, -2.75, -131.83447265625]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0x09102184
+  Rotate: 0.08159279078245163
+  SRTHash: -593722014
+  Translate: [2019.34521484375, -207.90625, -4311.2265625]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0x0a6f7625
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc1f0aef4}
+  Rotate: 1.0615930557250977
+  SRTHash: 2045660695
+  Translate: [4181.85302734375, 66.046875, -4883.806640625]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- HashId: !u 0x0aac7d51
+  Rotate: 0.5415927767753601
+  SRTHash: -2088924785
+  Translate: [-2128.92138671875, -207.90625, -4461.291015625]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0x0d02b23c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x34700834}
+  Rotate: -0.25840720534324646
+  SRTHash: -244036474
+  Translate: [1427.11572265625, -207.90625, -4368.8515625]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0x13744764
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x0aac7d51}
+  Rotate: 0.5415927767753601
+  SRTHash: -2088924785
+  Translate: [-2128.92138671875, -207.90625, -4461.291015625]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0x1415113c
+  Rotate: 1.3199999332427979
+  SRTHash: -2065547954
+  Translate: [-5848.4794921875, -2.75, 312.64208984375]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0x1419837d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xff2cdb91}
+  Rotate: -0.5784071683883667
+  SRTHash: 723097301
+  Translate: [-3462.28076171875, -13.1640625, -4445.9072265625]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x157e9a53
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd81df3f5
+  SRTHash: -2037585969
+  Scale: 10.0
+  Translate: [-4450.44091796875, 0.0, -990.922607421875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x180f13e2
+  Rotate: [0.022689279168844223, 0.0, 0.0]
+  SRTHash: -77201083
+  Scale: [500.0, 80.0, 650.0]
+  Translate: [-4500.0, 65.44261169433594, -1262.469482421875]
+  UnitConfigName: Area
+- HashId: !u 0x19cdb536
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xfd5b6381}
+  SRTHash: 175265255
+  Translate: [1517.4085693359375, 50.027427673339844, -2994.2294921875]
+  UnitConfigName: BottomTag
+- HashId: !u 0x1ac20b4f
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xcf5c9050}
+  Rotate: 0.08159279078245163
+  SRTHash: -614068469
+  Translate: [260.21826171875, -207.90625, -4487.478515625]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x1b14558b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xba64cc13
+  Rotate: -0.2399984896183014
+  SRTHash: 294449075
+  Scale: [50.0, 900.0, 400.0]
+  Translate: [-4511.6865234375, 900.0501098632812, -1007.2664794921875]
+  UnitConfigName: Area
+- HashId: !u 0x1ed6842e
+  Rotate: [0.0, 1.5707963705062866, -0.07853981852531433]
+  SRTHash: -486527581
+  Scale: 0.6499999761581421
+  Translate: [3014.24658203125, 197.36936950683594, -3946.6015625]
+  UnitConfigName: FldObj_AreaStopClimbing_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x249b1e6c
+  Rotate: [-0.04000992700457573, 0.8643987774848938, 0.12214686721563339]
+  SRTHash: 1424925912
+  Scale: [400.0, 80.0, 500.0]
+  Translate: [-901.1989135742188, 163.94052124023438, -3694.802734375]
+  UnitConfigName: Area
+- HashId: !u 0x2975388c
+  Rotate: 0.8199997544288635
+  SRTHash: -1946527110
+  Translate: [-6157.5615234375, -2.75, 803.16552734375]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0x2acc48d4
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xef06f1db}
+  SRTHash: 1829493505
+  Translate: [3781.729248046875, 50.0, -3618.2666015625]
+  UnitConfigName: BottomTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x2efd4108
+  SRTHash: 254454326
+  Scale: [430.0, 65.0, 600.0]
+  Translate: [-4570.0, 65.01000213623047, -148.9923095703125]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x2fc0a6f9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x157e9a53
+  SRTHash: 1196174957
+  Scale: [350.0, 900.0, 600.0]
+  Translate: [-4678.451171875, 899.9833374023438, -906.8901977539062]
+  UnitConfigName: Area
+- '!Parameters': {BluffThunderOff: false, CloudShadowOff: false, FogMinusCorrection: false,
+    IgnitedLevel: 0, PSelSpeed: 0, PaletteSel: 3, TemperatureDay: 99999.8984375, TemperatureDirectDay: 99999.8984375,
+    TemperatureDirectNight: 99999.8984375, TemperatureNight: 99999.8984375, Weather: -1,
+    WeatherEff: 2}
+  HashId: !u 0x3118d06a
+  SRTHash: -1140737593
+  Translate: [-3475.469482421875, 0.0, 3929.7353515625]
+  UnitConfigName: ChangeWeatherTag
+- HashId: !u 0x31ef588c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x49c8e2fe}
+  Rotate: [-0.06474410742521286, 0.6790007948875427, -0.10287298262119293]
+  SRTHash: 1765039545
+  Scale: 1.100000023841858
+  Translate: [-5252.1025390625, 13.791015625, -4351.33935546875]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0x34700834
+  Rotate: -0.25840720534324646
+  SRTHash: -244036474
+  Translate: [1427.11572265625, -207.90625, -4368.8515625]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0x3544146d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x1415113c}
+  Rotate: 1.3199999332427979
+  SRTHash: -2065547954
+  Translate: [-5848.4794921875, -2.75, 312.64208984375]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- HashId: !u 0x377250dc
+  Rotate: 1.5707963705062866
+  SRTHash: -1120518871
+  Scale: 1.2000000476837158
+  Translate: [746.989990234375, 161.00999450683594, -3635.126953125]
+  UnitConfigName: FldObj_AreaStopClimbing_A_02
+- HashId: !u 0x37cc54e1
+  Rotate: -0.038407206535339355
+  SRTHash: -328533011
+  Translate: [-1562.57666015625, -207.90625, -4555.3115234375]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0x385914a7
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8c380fff}
+  Rotate: [0.8292906284332275, 1.4087224006652832, 0.8358569741249084]
+  SRTHash: -565926231
+  Translate: [-5542.90966796875, 22.828125, -3874.86328125]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x391d349f
+  SRTHash: 863519595
+  Scale: [1600.0, 80.0, 300.0]
+  Translate: [-2826.9189453125, 80.01000213623047, -3700.0]
+  UnitConfigName: Area
+- HashId: !u 0x39606a45
+  Rotate: 0.5799998044967651
+  SRTHash: 1105062530
+  Translate: [-5033.4716796875, -2.75, -503.74072265625]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0x3ab4c8b1
+  Rotate: [0.022689279168844223, 0.0, 0.0]
+  SRTHash: -1588868507
+  Scale: 0.6499999761581421
+  Translate: [-4325.328125, 146.47100830078125, -1260.471923828125]
+  UnitConfigName: FldObj_AreaStopClimbing_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x3bc50715
+  Rotate: [0.0, 0.0, -0.17999929189682007]
+  SRTHash: 803447913
+  Scale: [300.0, 80.0, 400.0]
+  Translate: [-724.080810546875, 129.77804565429688, -3244.14990234375]
+  UnitConfigName: Area
+- HashId: !u 0x3e18d3ef
+  Rotate: 1.321592926979065
+  SRTHash: 1803470089
+  Translate: [-4734.25732421875, -2.75, -951.58056640625]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- '!Parameters': {Shape: Box}
+  HashId: !u 0x3f34d0be
+  SRTHash: -123932383
+  Scale: [25.0, 900.0, 4200.0]
+  Translate: [-5000.0, 900.0, 0.0]
+  UnitConfigName: AirWall
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x41713882
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3118d06a
+  SRTHash: 0
+  Translate: [-3475.0, 100.0, 3950.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x424324fb
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x2975388c}
+  Rotate: 0.8199997544288635
+  SRTHash: -1946527110
+  Translate: [-6157.5615234375, -2.75, 803.16552734375]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- '!Parameters': {Shape: Box}
+  HashId: !u 0x42b0802f
+  Rotate: 0.5799997448921204
+  SRTHash: -1191151177
+  Scale: [25.0, 900.0, 500.0]
+  Translate: [-4721.80419921875, 899.9987182617188, -1789.377197265625]
+  UnitConfigName: AirWall
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x44eabcfc
+  Rotate: [0.0, 0.0, -0.07853981852531433]
+  SRTHash: 493664191
+  Scale: [650.0, 80.0, 250.0]
+  Translate: [3007.979736328125, 116.74775695800781, -3873.5859375]
+  UnitConfigName: Area
+- HashId: !u 0x450825b7
+  SRTHash: -1773763975
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: FldObj_FarGroundMountain_A_01_Far
+- HashId: !u 0x46225671
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x44eabcfc}
+  SRTHash: -564232860
+  Translate: [3298.8955078125, 49.98981475830078, -3857.7880859375]
+  UnitConfigName: BottomTag
+- HashId: !u 0x46e8681a
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x74a8cb4e}
+  Rotate: 0.12159271538257599
+  SRTHash: -132533938
+  Translate: [-4692.73486328125, -13.1640625, -4650.71728515625]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- '!Parameters': {Shape: Box}
+  HashId: !u 0x4833e028
+  SRTHash: -1414319634
+  Scale: [25.0, 900.0, 4200.0]
+  Translate: [5000.0, 900.0, 0.0]
+  UnitConfigName: AirWall
+- HashId: !u 0x49c8e2fe
+  Rotate: [-0.06474410742521286, 0.6790007948875427, -0.10287298262119293]
+  SRTHash: 1765039545
+  Scale: 1.100000023841858
+  Translate: [-5252.1025390625, 13.791015625, -4351.33935546875]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0x4d0c0781
+  Rotate: 0.14159278571605682
+  SRTHash: 2006730150
+  Translate: [-330.09716796875, -207.90625, -4397.37158203125]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0x4eb05b54
+  Rotate: 0.08159279078245163
+  SRTHash: -1616761480
+  Translate: [3164.423828125, 66.046875, -4339.1708984375]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x4f0f6081
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x157e9a53
+  Rotate: 0.5799990892410278
+  SRTHash: -862663448
+  Scale: [25.0, 900.0, 550.0]
+  Translate: [-4706.765625, 899.9818115234375, -1941.377197265625]
+  UnitConfigName: Area
+- HashId: !u 0x4f5e2431
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb158264f}
+  Rotate: 2.140000104904175
+  SRTHash: 1370593997
+  Translate: [-5115.24169921875, -80.3984375, -2051.4541015625]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0x53478b7e
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xc2d9dbf7}
+  SRTHash: 1452306183
+  Translate: [1517.4085693359375, 50.027427673339844, -3769.4716796875]
+  UnitConfigName: BottomTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x5bf412ef
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x41713882
+  SRTHash: 1236678534
+  Scale: [1500.0, 100.0, 25.0]
+  Translate: [-3475.0, 100.0, 3950.0]
+  UnitConfigName: Area
+- HashId: !u 0x631eb3eb
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc24cf221}
+  Rotate: -0.13840720057487488
+  SRTHash: -306380789
+  Translate: [-4083.888671875, -13.1640625, -4649.44873046875]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0x647377f2
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x37cc54e1}
+  Rotate: -0.038407206535339355
+  SRTHash: -328533011
+  Translate: [-1562.57666015625, -207.90625, -4555.3115234375]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x66e69c05
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xba64cc13
+  Rotate: -0.7399986386299133
+  SRTHash: -1584112510
+  Scale: [50.0, 900.0, 300.0]
+  Translate: [-4782.9501953125, 900.0232543945312, -435.96734619140625]
+  UnitConfigName: Area
+- HashId: !u 0x67e9f9df
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x180f13e2}
+  SRTHash: 1327105113
+  Translate: [-4454.17724609375, 50.0, -1220.3212890625]
+  UnitConfigName: BottomTag
+- '!Parameters': {Shape: Box}
+  HashId: !u 0x6852a958
+  Rotate: -0.23999907076358795
+  SRTHash: 403862953
+  Scale: [25.0, 900.0, 400.0]
+  Translate: [-4547.2998046875, 900.1038208007812, -1001.471923828125]
+  UnitConfigName: AirWall
+- HashId: !u 0x6dc53bd9
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf23cb9e0}
+  Rotate: -0.05840720981359482
+  SRTHash: -1156602634
+  Translate: [879.16796875, -207.90625, -4488.30078125]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- HashId: !u 0x6e5f1af0
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xea37c875}
+  SRTHash: 2080076710
+  Translate: [-4866.1220703125, 50.0, -2358.67333984375]
+  UnitConfigName: BottomTag
+- HashId: !u 0x6ed5425c
+  Rotate: 0.3199997544288635
+  SRTHash: 1785514629
+  Translate: [-6616.8681640625, -2.75, 1144.08349609375]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0x706c2e31
+  Rotate: -0.09840720891952515
+  SRTHash: 2126458825
+  Translate: [-973.36279296875, -207.90625, -4406.04443359375]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0x73d072e4
+  Rotate: -0.09840719401836395
+  SRTHash: -432341084
+  Translate: [2576.43115234375, -207.90625, -4316.599609375]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0x74a8cb4e
+  Rotate: 0.12159271538257599
+  SRTHash: -132533938
+  Translate: [-4692.73486328125, -13.1640625, -4650.71728515625]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0x74de0a98
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x39606a45}
+  Rotate: 0.5799998044967651
+  SRTHash: 1105062530
+  Translate: [-5033.4716796875, -2.75, -503.74072265625]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- HashId: !u 0x78361b47
+  SRTHash: -1856876677
+  Scale: 1.100000023841858
+  Translate: [-4674.765625, 161.00999450683594, -3007.98974609375]
+  UnitConfigName: FldObj_AreaStopClimbing_A_03
+- HashId: !u 0x7a0582aa
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x09102184}
+  Rotate: 0.08159279078245163
+  SRTHash: -593722014
+  Translate: [2019.34521484375, -207.90625, -4311.2265625]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- HashId: !u 0x7d6846b3
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xfc908744}
+  Rotate: 0.44159287214279175
+  SRTHash: 1003635405
+  Translate: [3748.01318359375, 66.046875, -4483.373046875]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- '!Parameters': {Shape: Box}
+  HashId: !u 0x80679b83
+  SRTHash: -947503325
+  Scale: [5000.0, 900.0, 25.0]
+  Translate: [0.0, 900.0, -4000.0]
+  UnitConfigName: AirWall
+- HashId: !u 0x85ec88f1
+  Rotate: -0.718407154083252
+  SRTHash: -1318555687
+  Translate: [-3080.05810546875, -8.5234375, -4146.681640625]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0x8650d424
+  Rotate: 0.44159287214279175
+  SRTHash: -1439978357
+  Translate: [4572.79833984375, 66.046875, -5268.779296875]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0x8a4b6020
+  SRTHash: -1743370142
+  Scale: 0.8415907025337219
+  Translate: [-4560.0234375, 131.00999450683594, -391.7735595703125]
+  UnitConfigName: FldObj_AreaStopClimbing_A_02
+- HashId: !u 0x8a7d16de
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4d0c0781}
+  Rotate: 0.14159278571605682
+  SRTHash: 2006730150
+  Translate: [-330.09716796875, -207.90625, -4397.37158203125]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- HashId: !u 0x8b0c5e88
+  Rotate: 1.5707963705062866
+  SRTHash: -10406105
+  Scale: 1.600000023841858
+  Translate: [-2826.9189453125, 161.00999450683594, -3799.0703125]
+  UnitConfigName: FldObj_AreaStopClimbing_A_03
+- HashId: !u 0x8c259b59
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x249b1e6c}
+  SRTHash: 1791493882
+  Translate: [-528.161865234375, 49.990013122558594, -3486.695556640625]
+  UnitConfigName: BottomTag
+- HashId: !u 0x8c380fff
+  Rotate: [0.8292906284332275, 1.4087224006652832, 0.8358569741249084]
+  SRTHash: -565926231
+  Translate: [-5542.90966796875, 22.828125, -3874.86328125]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0x8d10d2c7
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb88ca141}
+  Rotate: 0.6015929579734802
+  SRTHash: -281480048
+  Translate: [-2551.01123046875, -13.1640625, -4153.86328125]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- HashId: !u 0x9366279f
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8650d424}
+  Rotate: 0.44159287214279175
+  SRTHash: -1439978357
+  Translate: [4572.79833984375, 66.046875, -5268.779296875]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0x940be386
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x73d072e4}
+  Rotate: -0.09840719401836395
+  SRTHash: -432341084
+  Translate: [2576.43115234375, -207.90625, -4316.599609375]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- '!Parameters': {Shape: Box}
+  HashId: !u 0x960f9f3d
+  Rotate: -0.8813912868499756
+  SRTHash: 910208710
+  Scale: [250.0, 900.0, 300.0]
+  Translate: [4027.00390625, 900.0, -3983.8671875]
+  UnitConfigName: AirWall
+- HashId: !u 0x9a352980
+  Rotate: [-0.04000992700457573, 0.8643987774848938, 0.12214686721563339]
+  SRTHash: -99576920
+  Scale: 0.5
+  Translate: [-848.5812377929688, 252.20333862304688, -3773.55224609375]
+  UnitConfigName: FldObj_AreaStopClimbing_A
+- HashId: !u 0xa150451d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xcb98752f}
+  Rotate: [3.02506947517395, 1.2392593622207642, 3.0184242725372314]
+  SRTHash: 159413392
+  Translate: [-5371.3125, 15.1982421875, -2641.867919921875]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xa589bd4f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xba64cc13
+  Rotate: 0.5799990892410278
+  SRTHash: -1188384124
+  Scale: [50.0, 900.0, 550.0]
+  Translate: [-4710.60205078125, 899.9971923828125, -1810.3861083984375]
+  UnitConfigName: Area
+- HashId: !u 0xa63d8104
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x3e18d3ef}
+  Rotate: 1.321592926979065
+  SRTHash: 1803470089
+  Translate: [-4734.25732421875, -2.75, -951.58056640625]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0xaa94180e
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x2efd4108}
+  SRTHash: -1636453470
+  Translate: [-4607.064453125, 50.0, -151.49148559570312]
+  UnitConfigName: BottomTag
+- HashId: !u 0xab3e03ec
+  Rotate: [0.0, 0.0, -0.17999929189682007]
+  SRTHash: -916501586
+  Scale: 0.29989999532699585
+  Translate: [-709.4910278320312, 209.70140075683594, -3144.33740234375]
+  UnitConfigName: FldObj_AreaStopClimbing_A
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xae4c9d62
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd48a301a
+  SRTHash: 0
+  Translate: [-4950.0, 300.0, 2495.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xb158264f
+  Rotate: 2.140000104904175
+  SRTHash: 1370593997
+  Translate: [-5115.24169921875, -80.3984375, -2051.4541015625]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0xb88ca141
+  Rotate: 0.6015929579734802
+  SRTHash: -281480048
+  Translate: [-2551.01123046875, -13.1640625, -4153.86328125]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xba64cc13
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcda9c3e0
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x2fc0a6f9}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x4f0f6081}
+  SRTHash: 1515090591
+  Scale: 10.0
+  Translate: [-4485.10498046875, 0.0, -990.922607421875]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xbb30fd94
+  Rotate: 1.2815929651260376
+  SRTHash: 270915376
+  Translate: [4921.39208984375, 66.046875, -5662.546875]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- '!Parameters': {Shape: Box}
+  HashId: !u 0xbccdfc61
+  Rotate: -0.739999532699585
+  SRTHash: -2040114937
+  Scale: [25.0, 900.0, 249.99989318847656]
+  Translate: [-4825.25, 900.0841064453125, -463.07061767578125]
+  UnitConfigName: AirWall
+- HashId: !u 0xc1f0aef4
+  Rotate: 1.0615930557250977
+  SRTHash: 2045660695
+  Translate: [4181.85302734375, 66.046875, -4883.806640625]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0xc24cf221
+  Rotate: -0.13840720057487488
+  SRTHash: -306380789
+  Translate: [-4083.888671875, -13.1640625, -4649.44873046875]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xc2d9dbf7
+  Rotate: [0.0, 0.0, 0.1745329201221466]
+  SRTHash: -681488166
+  Scale: [250.0, 80.0, 250.0]
+  Translate: [2147.002685546875, 126.60908508300781, -3789.59375]
+  UnitConfigName: Area
+- HashId: !u 0xc65282a9
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x3bc50715}
+  SRTHash: 1557250162
+  Translate: [-528.161865234375, 49.990013122558594, -3114.953369140625]
+  UnitConfigName: BottomTag
+- HashId: !u 0xcb98752f
+  Rotate: [3.02506947517395, 1.2392593622207642, 3.0184242725372314]
+  SRTHash: 159413392
+  Translate: [-5371.3125, 15.1982421875, -2641.867919921875]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- '!Parameters': {Direction: 6, WindSpeed: 19.0}
+  HashId: !u 0xcda9c3e0
+  SRTHash: -1192891863
+  Translate: [-4452.94140625, 0.03418922424316406, -1029.028076171875]
+  UnitConfigName: ChangeWindTag
+- HashId: !u 0xcf5c9050
+  Rotate: 0.08159279078245163
+  SRTHash: -614068469
+  Translate: [260.21826171875, -207.90625, -4487.478515625]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- HashId: !u 0xd13ab192
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x0378fa5f}
+  Rotate: [-3.0588290691375732, 1.119936466217041, -3.049689769744873]
+  SRTHash: 676551451
+  Translate: [-4758.25634765625, 7.8203125, -1526.1533203125]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- '!Parameters': {BluffThunderOff: false, CloudShadowOff: false, FogMinusCorrection: false,
+    IgnitedLevel: 0, PSelSpeed: 0, PaletteSel: 3, TemperatureDay: 99999.8984375, TemperatureDirectDay: 99999.8984375,
+    TemperatureDirectNight: 99999.8984375, TemperatureNight: 99999.8984375, Weather: -1,
+    WeatherEff: 2}
+  HashId: !u 0xd48a301a
+  SRTHash: 2091299612
+  Translate: [-4902.28564453125, -0.04565572738647461, 2495.282958984375]
+  UnitConfigName: ChangeWeatherTag
+- HashId: !u 0xd657758b
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf6f85c9f}
+  Rotate: 1.7400001287460327
+  SRTHash: 169047752
+  Translate: [-5536.42919921875, -13.1640625, -3272.501953125]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- '!Parameters': {Direction: 6, WindSpeed: 9.5}
+  HashId: !u 0xd81df3f5
+  SRTHash: -2138563475
+  Translate: [-4418.27734375, 0.03418922424316406, -1029.028076171875]
+  UnitConfigName: ChangeWindTag
+- HashId: !u 0xdb4a7541
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x6ed5425c}
+  Rotate: 0.3199997544288635
+  SRTHash: 1785514629
+  Translate: [-6616.8681640625, -2.75, 1144.08349609375]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- HashId: !u 0xe1f409b2
+  Rotate: [0.0, 0.0, 0.1745329201221466]
+  SRTHash: -179358654
+  Scale: 0.2498999983072281
+  Translate: [2133.109375, 206.402587890625, -3789.59375]
+  UnitConfigName: FldObj_AreaStopClimbing_A
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xe1f488ae
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xae4c9d62
+  SRTHash: -1322530985
+  Scale: [25.0, 300.0, 1430.0]
+  Translate: [-4950.0, 300.0, 2495.0]
+  UnitConfigName: Area
+- HashId: !u 0xe30cd310
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4eb05b54}
+  Rotate: 0.08159279078245163
+  SRTHash: -1616761480
+  Translate: [3164.423828125, 66.046875, -4339.1708984375]
+  UnitConfigName: FldObj_WorldEnd_A_02
+- HashId: !u 0xe4611709
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xbb30fd94}
+  Rotate: 1.2815929651260376
+  SRTHash: 270915376
+  Translate: [4921.39208984375, 66.046875, -5662.546875]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0xe49e827a
+  Rotate: -0.46139100193977356
+  SRTHash: 1129366309
+  Scale: 0.25
+  Translate: [3684.186279296875, 151.00999450683594, -3763.798583984375]
+  UnitConfigName: FldObj_AreaStopClimbing_A
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xea37c875
+  SRTHash: 1633072029
+  Scale: [300.0, 80.0, 1100.0]
+  Translate: [-4700.0, 80.01000213623047, -3007.98974609375]
+  UnitConfigName: Area
+- HashId: !u 0xec90cc1d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x450825b7}
+  SRTHash: -1773763975
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: FldObj_FarGroundMountain_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xef06f1db
+  Rotate: -0.46139100193977356
+  SRTHash: 1761647516
+  Scale: [200.0, 75.0, 250.0]
+  Translate: [3729.194091796875, 75.0, -3741.419677734375]
+  UnitConfigName: Area
+- HashId: !u 0xf23cb9e0
+  Rotate: -0.05840720981359482
+  SRTHash: -1156602634
+  Translate: [879.16796875, -207.90625, -4488.30078125]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+- HashId: !u 0xf6f85c9f
+  Rotate: 1.7400001287460327
+  SRTHash: 169047752
+  Translate: [-5536.42919921875, -13.1640625, -3272.501953125]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- '!Parameters': {Shape: Box}
+  HashId: !u 0xf760ab15
+  SRTHash: 1116406014
+  Scale: [5000.0, 900.0, 25.0]
+  Translate: [0.0, 900.0, 4000.0]
+  UnitConfigName: AirWall
+- HashId: !u 0xfa17e251
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x85ec88f1}
+  Rotate: -0.718407154083252
+  SRTHash: -1318555687
+  Translate: [-3080.05810546875, -8.5234375, -4146.681640625]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0xfc908744
+  Rotate: 0.44159287214279175
+  SRTHash: 1003635405
+  Translate: [3748.01318359375, 66.046875, -4483.373046875]
+  UnitConfigName: FldObj_WorldEnd_A_01_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xfd5b6381
+  SRTHash: 1521857776
+  Scale: [1200.0, 80.0, 500.0]
+  Translate: [746.989990234375, 80.01000213623047, -3536.900390625]
+  UnitConfigName: Area
+- HashId: !u 0xfd7a2648
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x706c2e31}
+  Rotate: -0.09840720891952515
+  SRTHash: 2126458825
+  Translate: [-973.36279296875, -207.90625, -4406.04443359375]
+  UnitConfigName: FldObj_WorldEnd_A_01
+- HashId: !u 0xff2cdb91
+  Rotate: -0.5784071683883667
+  SRTHash: 723097301
+  Translate: [-3462.28076171875, -13.1640625, -4445.9072265625]
+  UnitConfigName: FldObj_WorldEnd_A_02_Far
+Rails: []

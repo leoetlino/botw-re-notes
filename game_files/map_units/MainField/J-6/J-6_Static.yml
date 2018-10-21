@@ -1,0 +1,2897 @@
+LocationPosX: 4500.0
+LocationPosZ: 1500.0
+LocationSize: 1000.0
+Objs:
+- HashId: !u 0x001d5dd8
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf5a9bfe2}
+  Rotate: 1.7199997901916504
+  SRTHash: 845375794
+  Scale: 1.2000000476837158
+  Translate: [4466.87451171875, 98.99617767333984, 1585.77392578125]
+  UnitConfigName: FldObj_RockBeachWall_A_07
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x016af2c4
+  Rotate: 1.7453293800354004
+  SRTHash: -105080390
+  Translate: [4185.52197265625, 288.14959716796875, 1686.0721435546875]
+  UnitConfigName: DgnObj_EntranceShutter_A_01
+- HashId: !u 0x01858d0c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x85013759}
+  Rotate: [-0.49436312913894653, 0.9977911710739136, -0.03982210531830788]
+  SRTHash: 431985284
+  Translate: [4366.537109375, 177.56268310546875, 1672.30126953125]
+  UnitConfigName: FldObj_RockBeachWall_A_02
+- HashId: !u 0x052820f3
+  Rotate: [2.571423053741455, 1.0964112281799316, 2.9346461296081543]
+  SRTHash: 236356721
+  Translate: [4058.635498046875, 395.26153564453125, 1018.1480102539062]
+  UnitConfigName: FldObj_MountainLanayru_A_01_Far
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0x05f9db3d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb833b7f3
+  Rotate: [1.5707963705062866, 0.4815935790538788, 3.1415927410125732]
+  SRTHash: 210126595
+  Scale: 0.5
+  Translate: [4152.39111328125, 375.01214599609375, 1990.71484375]
+  UnitConfigName: SwitchTimeLag
+- HashId: !u 0x07245703
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8f69ec82}
+  Rotate: [2.5876002311706543, 1.1967968940734863, 2.0648245811462402]
+  SRTHash: 881387237
+  Translate: [4447.74755859375, 137.1215362548828, 1556.931396484375]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x07590c94
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x36b11609
+  SRTHash: 806936564
+  Scale: 12.0
+  Translate: [4023.0, 503.1366271972656, 1433.0]
+  UnitConfigName: Area
+- HashId: !u 0x08e6af4f
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x82478b29}
+  Rotate: [-1.4367886781692505, -1.3533848524093628, 1.0583398342132568]
+  SRTHash: 322439096
+  Translate: [4091.36962890625, 419.39111328125, 1180.27197265625]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_01
+- HashId: !u 0x09d16a9c
+  Rotate: [-0.8442492485046387, -0.12127292156219482, 0.08840541541576385]
+  SRTHash: 1585530397
+  Translate: [4002.3134765625, 423.5823059082031, 1705.1751708984375]
+  UnitConfigName: FldObj_CliffSnowLargeWall_D_02_Far
+- HashId: !u 0x09fd9e2c
+  Rotate: [1.2154179811477661, 1.3772473335266113, 2.0135602951049805]
+  SRTHash: 680149437
+  Translate: [4420.375, 150.26026916503906, 1654.103759765625]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0x0a41c2f9
+  Rotate: [1.9215928316116333, 0.9215928316116333, 3.1415927410125732]
+  SRTHash: 684004009
+  Translate: [4499.3818359375, 113.37733459472656, 1771.707275390625]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0x0a6d3649
+  Rotate: [0.103648342192173, -0.3453810513019562, -0.29809483885765076]
+  SRTHash: 820311646
+  Scale: 1.2000000476837158
+  Translate: [4216.39013671875, 293.9697265625, 1620.1444091796875]
+  UnitConfigName: Obj_RockSetSnow_A_01_Far
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0add712a
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: -0.15000000596046448, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x7084ac3c
+  Rotate: [4.373538331492455e-08, -0.4638671576976776, 3.1415927410125732]
+  SRTHash: 1160917275
+  Translate: [4223.13330078125, 289.57275390625, 1705.85595703125]
+  UnitConfigName: Item_Fruit_B
+- '!Parameters': {IncrementSave: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Location_Dungeon119,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x0ba17fca
+  SRTHash: 0
+  Translate: [4181.77978515625, 285.5513000488281, 1686.7320556640625]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: false, IsNoAppearEffect: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0d7f31a6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb0b55d68
+  Rotate: [-1.4523996114730835, -1.4405359029769897, 1.9693470001220703]
+  SRTHash: 546249740
+  Translate: [4213.9384765625, 404.5381774902344, 1979.8154296875]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- HashId: !u 0x0e20fee8
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xbf27a299}
+  Rotate: [-0.743324339389801, 0.6486210227012634, -0.09215960651636124]
+  SRTHash: -857635734
+  Scale: 1.2000000476837158
+  Translate: [4077.95703125, 429.50628662109375, 1460.288330078125]
+  UnitConfigName: FldObj_CliffSnowLargeWall_D_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0x0ef3b1d7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb339dd19
+  Rotate: [-2.0507962703704834, 1.5400004386901855, 0.0]
+  SRTHash: 210126595
+  Scale: 0.5
+  Translate: [4246.81396484375, 425.41363525390625, 1983.6414794921875]
+  UnitConfigName: SwitchTimeLag
+- HashId: !u 0x0f3880d2
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb1996d57}
+  Rotate: [3.0053751468658447, 0.5819753408432007, -3.1349127292633057]
+  SRTHash: 1072588976
+  Translate: [4176.359375, 346.25042724609375, 1730.85986328125]
+  UnitConfigName: FldObj_CliffSnowWall_D_19
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x105082b5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd0e9e823
+  Rotate: [-1.6891924142837524, 1.4405359029769897, -1.1722450256347656]
+  SRTHash: -1236894723
+  Translate: [4214.9736328125, 408.8422546386719, 1981.365478515625]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x11e7cfc0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x3d773548}
+  Rotate: [-0.18000000715255737, -0.7800000905990601, 0.0]
+  SRTHash: -1182865268
+  Translate: [4193.65966796875, 105.32307434082031, 871.0701904296875]
+  UnitConfigName: FldObj_RockBeach_A_M_01
+- HashId: !u 0x13ce6e21
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xffc16439}
+  Rotate: [2.081592559814453, 1.0199997425079346, 3.1415927410125732]
+  SRTHash: -2029995394
+  Translate: [4410.88134765625, 112.35784912109375, 1380.040283203125]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x13dc02c4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf890365a
+  Rotate: [-0.47999992966651917, 1.5400004386901855, 0.0]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4245.87158203125, 422.89349365234375, 1983.6124267578125]
+  UnitConfigName: Area
+- HashId: !u 0x14d45a24
+  Rotate: [2.694844961166382, 0.45519381761550903, 3.1155154705047607]
+  SRTHash: -1326607230
+  Translate: [3957.779541015625, 444.6398010253906, 1162.3721923828125]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x16c256dc
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xcb548f59
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x105082b5
+  Rotate: [-0.6199999451637268, 1.5200014114379883, 0.0]
+  SRTHash: -995292279
+  Translate: [4227.7509765625, 415.63812255859375, 1983.0306396484375]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x16e44a33
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x537420f4}
+  Rotate: [-0.4456852972507477, 1.2575907707214355, -0.04268218204379082]
+  SRTHash: -1183847522
+  Translate: [4088.68701171875, 482.8626708984375, 1388.61328125]
+  UnitConfigName: FldObj_MountainLanayru_A_03
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x18aece2e
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xf49550b1
+  Rotate: -0.9399999380111694
+  SRTHash: -1479716891
+  Translate: [4285.04443359375, 289.039794921875, 1658.8961181640625]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x18d6682e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x338bcf08
+  Rotate: 2.659999132156372
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4151.46484375, 373.212158203125, 1992.4874267578125]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x19be3c3e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xab083a12
+  SRTHash: 0
+  Translate: [4228.79541015625, 414.1731262207031, 1983.0838623046875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x1a2d135c
+  Rotate: [2.5708506107330322, 1.067375659942627, -2.593137502670288]
+  SRTHash: 690285110
+  Translate: [4414.50732421875, 148.79161071777344, 1491.99267578125]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0x1a786480
+  Rotate: [2.9672346115112305, 1.3910051584243774, -2.932399034500122]
+  SRTHash: -1089909987
+  Translate: [4308.88525390625, 159.77325439453125, 1653.890380859375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 2, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1b8a8c4e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa75fc605
+  Rotate: 1.7453293800354004
+  SRTHash: -757633401
+  Scale: 0.30000001192092896
+  Translate: [4187.94921875, 288.1494445800781, 1687.1673583984375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1ba8f551
+  LinksToObj:
+  - {DefinitionName: GimmickSuccess, DestUnitHashId: !u 0x6f301cde}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x800db93e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x3bf8b922
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xf4b57e73
+  Rotate: -0.9399999380111694
+  SRTHash: -2026608607
+  Translate: [4281.2109375, 287.039794921875, 1653.64697265625]
+  UnitConfigName: LinkTagOr
+- '!Parameters':
+    EffectDIspOffset: {X: 0.0, Y: 2.0, Z: 0.0}
+    EffectDispActorName: Area
+    EffectDispSize: 3.0
+    IsNoResponceSound: false
+  HashId: !u 0x1c049ed9
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x2febd0be}
+  Rotate: -1.4800026416778564
+  SRTHash: 1238134529
+  Translate: [4435.73681640625, 140.37864685058594, 1431.196044921875]
+  UnitConfigName: KorokAnswerResponce
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, PulseLength: 5,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x1c3c0e4c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x87994223
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x6e24f60d}
+  Rotate: 1.5999985933303833
+  SRTHash: -182953672
+  Scale: 0.25
+  Translate: [4615.11376953125, 107.1173324584961, 1914.4749755859375]
+  UnitConfigName: LinkTagPulse
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1c6a57bd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x3c972b3b
+  SRTHash: 0
+  Translate: [4199.580078125, 397.286376953125, 1980.002685546875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x1d00dd2a
+  Rotate: [-3.0161027908325195, 0.6547142863273621, -2.7270820140838623]
+  SRTHash: 1613458568
+  Scale: 0.800000011920929
+  Translate: [4208.24267578125, 299.10858154296875, 1766.136474609375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- '!Parameters': {ActorName: FldObj_PushRock_A_M_01, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 2}
+  HashId: !u 0x1e03ca23
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x2febd0be}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcd4d5512
+  Rotate: -1.4800026416778564
+  SRTHash: 1791777615
+  Scale: 2.0
+  Translate: [4435.91796875, 140.37864685058594, 1433.1878662109375]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1e44bc47
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xe79326d7
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x9ae0208f
+  Rotate: [-3.122670888900757, 0.9341817498207092, -2.5460283756256104]
+  SRTHash: 241164172
+  Translate: [4173.80126953125, 384.5535583496094, 1978.529296875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0x1e64bdb5
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xca582d72}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4dfee631
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xf60be62d}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x3c1cd9aa}
+  Rotate: 1.5999985933303833
+  SRTHash: 1825234782
+  Translate: [4615.15771484375, 108.71733093261719, 1915.974365234375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x1f5c6041
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x6e140944}
+  Rotate: [-3.135005235671997, -1.4678089618682861, -2.7661194801330566]
+  SRTHash: -1956172124
+  Translate: [4087.0224609375, 491.659912109375, 1364.5196533203125]
+  UnitConfigName: FldObj_MountainLanayru_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1f88d10b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xcd679221
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x46007f22
+  SRTHash: 0
+  Translate: [4099.404296875, 426.84722900390625, 1151.749755859375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x21b89828
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe101f2be
+  Rotate: [3.0501859188079834, 1.030979871749878, -2.777587890625]
+  SRTHash: -1236894723
+  Translate: [4202.068359375, 400.44549560546875, 1980.2672119140625]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x2262e842
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x09d16a9c}
+  Rotate: [-0.8442492485046387, -0.12127292156219482, 0.08840541541576385]
+  SRTHash: 1585530397
+  Translate: [4002.3134765625, 423.5823059082031, 1705.1751708984375]
+  UnitConfigName: FldObj_CliffSnowLargeWall_D_02
+- HashId: !u 0x227ad9d3
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x1d00dd2a}
+  Rotate: [-3.0161027908325195, 0.6547142863273621, -2.7270820140838623]
+  SRTHash: 1613458568
+  Scale: 0.800000011920929
+  Translate: [4208.24267578125, 299.10858154296875, 1766.136474609375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2315c5d8
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa4b5e0bb
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0add712a
+  Rotate: 0.4638671576976776
+  SRTHash: -709040617
+  Translate: [4224.78466796875, 288.5833740234375, 1704.831298828125]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x243f67ff
+  SRTHash: 1179862666
+  Translate: [4093.60009765625, 419.66143798828125, 1086.199951171875]
+  UnitConfigName: DragonDropItemTarget
+- HashId: !u 0x25eaf026
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x6ad0ec3b}
+  Rotate: [-0.2720985412597656, -0.6824097633361816, -0.9264774322509766]
+  SRTHash: -1050391105
+  Scale: 0.800000011920929
+  Translate: [4052.115478515625, 349.07489013671875, 1802.748779296875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2671a9b6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6f301cde
+  SRTHash: 0
+  Translate: [4079.843505859375, 438.725341796875, 1716.65380859375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x27184d30
+  Rotate: [2.9320433139801025, 0.8321751356124878, -2.987387180328369]
+  SRTHash: 774947269
+  Scale: 1.2000000476837158
+  Translate: [4339.22412109375, 189.181884765625, 1807.26123046875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x272a4c41
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xfabc95c4
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xdefdd6d1
+  Rotate: [-0.30990222096443176, 1.1952779293060303, 0.16415594518184662]
+  SRTHash: -995292279
+  Translate: [4189.072265625, 392.66607666015625, 1984.34130859375]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x274d3aec
+  Rotate: [2.3815927505493164, 1.441593050956726, 3.1415927410125732]
+  SRTHash: -1825708498
+  Translate: [4469.1181640625, 127.09811401367188, 1486.0042724609375]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0x276c14cf
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xfc51cc5c}
+  Rotate: -0.8400000333786011
+  SRTHash: -137357339
+  Translate: [4165.0068359375, 324.7218933105469, 1669.7139892578125]
+  UnitConfigName: Obj_RockSetSnow_A_01
+- HashId: !u 0x283fc254
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x987d848d}
+  Rotate: [0.24931709468364716, 1.1009975671768188, 0.010500853881239891]
+  SRTHash: -1286666834
+  Translate: [4476.9365234375, 129.01876831054688, 1549.8431396484375]
+  UnitConfigName: FldObj_RockBeachWall_A_04
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x28b5a638
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe80cccae
+  Rotate: 1.6015902757644653
+  SRTHash: -1236894723
+  Translate: [4134.17333984375, 395.40142822265625, 2003.9017333984375]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x29b47394
+  Rotate: [9.711331294681713e-09, 1.3015927076339722, 0.2999875545501709]
+  SRTHash: -791120125
+  Translate: [4117.4580078125, 390.7787780761719, 1393.19775390625]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0x2a24dbf1
+  Rotate: -1.679993748664856
+  SRTHash: -1118061282
+  Translate: [4366.73974609375, 103.6168212890625, 1014.4356079101562]
+  UnitConfigName: FldObj_RockBeach_A_M_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2aa6dd81
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x359a152b
+  SRTHash: 0
+  Translate: [4131.11328125, 393.6014404296875, 2001.9951171875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x2afe68fa
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xaf20013a}
+  Rotate: [-2.624342203140259, -0.5252544283866882, 3.0084333419799805]
+  SRTHash: 334525334
+  Translate: [4028.1767578125, 444.620849609375, 1548.7451171875]
+  UnitConfigName: FldObj_MountainLanayru_A_03
+- HashId: !u 0x2c6c9f86
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x9b94af84}
+  Rotate: [2.800595283508301, 0.5747109055519104, 3.099738359451294]
+  SRTHash: 36260532
+  Translate: [4336.79736328125, 291.47503662109375, 1943.627197265625]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0x2d5c72d0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x0a6d3649}
+  Rotate: [0.103648342192173, -0.3453810513019562, -0.29809483885765076]
+  SRTHash: 820311646
+  Scale: 1.2000000476837158
+  Translate: [4216.39013671875, 293.9697265625, 1620.1444091796875]
+  UnitConfigName: Obj_RockSetSnow_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2e277251
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xf3b1abd4
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x28b5a638
+  Rotate: [-0.7003920078277588, 0.9205266237258911, -0.9596015214920044]
+  SRTHash: -995292279
+  Translate: [4143.22998046875, 385.6139221191406, 2007.1312255859375]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x2e2eab94
+  SRTHash: -1695857758
+  Translate: [4148.31494140625, 421.2955017089844, 1170.254638671875]
+  UnitConfigName: DragonDropItemTarget
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e5f0d6c
+  Rotate: 3.922152519226074
+  SRTHash: -1419043834
+  Scale: 1.0303409099578857
+  Translate: [4129.51123046875, 418.2106018066406, 1221.0042724609375]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_03
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x2febd0be
+  Rotate: -1.4800026416778564
+  SRTHash: 833966612
+  Scale: 2.4000000953674316
+  Translate: [4434.8974609375, 134.6614532470703, 1432.6986083984375]
+  UnitConfigName: Area
+- HashId: !u 0x328469e2
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf887d849}
+  Rotate: [0.0, 1.52159583568573, 1.960071394080387e-08]
+  SRTHash: -950702195
+  Scale: 0.800000011920929
+  Translate: [4202.69677734375, 324.3591003417969, 1375.435302734375]
+  UnitConfigName: FldObj_CliffSnowTopHalf_D_01
+- HashId: !u 0x33539e0c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8cf944e7}
+  Rotate: 1.6447962522506714
+  SRTHash: -1263307455
+  Translate: [4180.7255859375, 286.98736572265625, 1689.773193359375]
+  UnitConfigName: FldObj_CliffWhiteCave_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x338bcf08
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x65a56e76
+  SRTHash: 0
+  Translate: [4151.46484375, 373.212158203125, 1992.4874267578125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x349db79c
+  Rotate: [-0.29673102498054504, 0.976172685623169, -0.04583068937063217]
+  SRTHash: 148329543
+  Translate: [4474.0556640625, 148.6387481689453, 1743.87353515625]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0x357625e1
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x60ed403c}
+  Rotate: [2.2830605506896973, 0.44373947381973267, 3.009620189666748]
+  SRTHash: -35213885
+  Translate: [4441.80517578125, 132.1690216064453, 1441.387451171875]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: false, IsNoAppearEffect: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x359a152b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x885079e5
+  Rotate: -1.5400023460388184
+  SRTHash: 546249740
+  Translate: [4131.11328125, 392.40142822265625, 2001.9951171875]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- HashId: !u 0x36043103
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x40fa687b}
+  Rotate: [-0.27206069231033325, 0.3594185411930084, -0.1977691650390625]
+  SRTHash: -1895224364
+  Translate: [4100.1875, 419.772705078125, 1091.7225341796875]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_01
+- HashId: !u 0x36a49c2d
+  SRTHash: 742629369
+  Translate: [4047.800048828125, 518.15283203125, 1299.199951171875]
+  UnitConfigName: DragonDropItemTarget
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x36b11609
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x90c61dbd
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x55612333
+  SRTHash: 710321666
+  Translate: [4023.0, 503.1366271972656, 1436.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x3721eb49
+  Rotate: [2.6415927410125732, 1.1815924644470215, 3.1415927410125732]
+  SRTHash: -648732280
+  Translate: [4572.14892578125, 132.1840362548828, 1913.7862548828125]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x382f6b3b
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xa38a2754
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x8565386d}
+  Rotate: -1.4800026416778564
+  SRTHash: -939776961
+  Translate: [4438.951171875, 144.22239685058594, 1433.4136962890625]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x38480943
+  Rotate: [0.31828367710113525, -0.48011454939842224, 0.03646065667271614]
+  SRTHash: -1068087039
+  Translate: [4014.935791015625, 424.4453430175781, 1004.9188842773438]
+  UnitConfigName: FldObj_MountainLanayru_A_01_Far
+- '!Parameters': {ActorName: Obj_LiftRockEldin_A_01, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x3963972b
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xa081f12a}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x48343b69
+  SRTHash: -1085475964
+  Translate: [4084.97021484375, 425.9286193847656, 1147.377197265625]
+  UnitConfigName: ActorObserverTag
+- HashId: !u 0x398dd5ed
+  Rotate: [0.0, 1.559999942779541, 1.09993577003479]
+  SRTHash: -1228378759
+  Translate: [4363.8759765625, 166.4779815673828, 1616.5814208984375]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0x3a3a3b1b
+  Rotate: [-0.1622796356678009, 1.1536140441894531, -0.19452229142189026]
+  SRTHash: 1644809441
+  Translate: [4101.48828125, 423.3414611816406, 1184.305908203125]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_04_Far
+- HashId: !u 0x3b51c085
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc8c99652}
+  Rotate: [0.3414432108402252, 0.9895763993263245, 1.3629616498947144]
+  SRTHash: 1515752680
+  Translate: [4408.083984375, 146.4146728515625, 1591.00341796875]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x3bf8b922
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xbc5e7261
+  Rotate: 2.2015929222106934
+  SRTHash: -939776961
+  Translate: [4282.39013671875, 291.539794921875, 1655.26220703125]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x3c1cd9aa
+  Rotate: [-3.0521485805511475, -0.2939578890800476, 3.0268824100494385]
+  SRTHash: 1396418215
+  Scale: 0.6000000238418579
+  Translate: [4615.0068359375, 106.73802947998047, 1914.5858154296875]
+  UnitConfigName: Obj_RockCover
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: false, IsNoAppearEffect: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3c972b3b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x815d47f5
+  Rotate: [0.09140671789646149, -1.0309797525405884, 0.3640047609806061]
+  SRTHash: 546249740
+  Translate: [4200.09375, 396.2031555175781, 1979.9462890625]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- HashId: !u 0x3d1d2ecd
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8778b722}
+  Rotate: [2.9815924167633057, 0.3015934228897095, -3.141592264175415]
+  SRTHash: -1195892615
+  Translate: [4080.72265625, 355.0664978027344, 1044.019287109375]
+  UnitConfigName: FldObj_CliffSnowWall_D_07
+- HashId: !u 0x3d773548
+  Rotate: [-0.18000000715255737, -0.7800000905990601, 0.0]
+  SRTHash: -1182865268
+  Translate: [4193.65966796875, 105.32307434082031, 871.0701904296875]
+  UnitConfigName: FldObj_RockBeach_A_M_01_Far
+- HashId: !u 0x3f995734
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xfe04b897}
+  Rotate: [2.683424234390259, 0.041692618280649185, -2.993283748626709]
+  SRTHash: -1229158580
+  Translate: [3937.623291015625, 413.0892639160156, 1045.793701171875]
+  UnitConfigName: FldObj_CliffSnowWall_D_01
+- HashId: !u 0x40fa687b
+  Rotate: [-0.27206069231033325, 0.3594185411930084, -0.1977691650390625]
+  SRTHash: -1895224364
+  Translate: [4100.1875, 419.772705078125, 1091.7225341796875]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_01_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x41e42d63
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1c6a57bd
+  Rotate: [3.0501859188079834, 1.030979871749878, -2.777587890625]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4199.580078125, 397.286376953125, 1980.002685546875]
+  UnitConfigName: Area
+- HashId: !u 0x421717f2
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x86919f3c}
+  Rotate: [0.0, 1.5616158246994019, 0.05999746546149254]
+  SRTHash: 691517617
+  Scale: 0.800000011920929
+  Translate: [4129.4921875, 340.345458984375, 1714.146728515625]
+  UnitConfigName: FldObj_CliffSnowTopHalf_D_01
+- HashId: !u 0x4419cb97
+  Rotate: -0.16000010073184967
+  SRTHash: 445248257
+  Translate: [4188.60009765625, 287.3599548339844, 1703.3575439453125]
+  UnitConfigName: Obj_RockSetSnow_A_01_Far
+- HashId: !u 0x441d8d0a
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x052820f3}
+  Rotate: [2.571423053741455, 1.0964112281799316, 2.9346461296081543]
+  SRTHash: 236356721
+  Translate: [4058.635498046875, 395.26153564453125, 1018.1480102539062]
+  UnitConfigName: FldObj_MountainLanayru_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x46007f22
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x878ea0e2
+  Rotate: 0.10159362107515335
+  SRTHash: -939776961
+  Translate: [4088.267822265625, 425.912353515625, 1142.0643310546875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4776f90a
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x41e42d63
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x3c972b3b
+  Rotate: [-0.30990222096443176, 1.1952779293060303, 0.16415594518184662]
+  SRTHash: 241164172
+  Translate: [4191.544921875, 394.0030212402344, 1985.38916015625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x47a59742
+  Rotate: [2.901592254638672, 0.9815933108329773, -3.141592264175415]
+  SRTHash: -1183953150
+  Scale: 1.2000000476837158
+  Translate: [4161.2255859375, 318.823486328125, 1695.1331787109375]
+  UnitConfigName: FldObj_CliffSnowWall_D_11_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x48343b69
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x80af332a
+  SRTHash: -1034123843
+  Translate: [4085.97021484375, 426.9286193847656, 1147.377197265625]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x48e91373
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2aa6dd81
+  Rotate: 1.6015902757644653
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4131.11328125, 393.6014404296875, 2001.9951171875]
+  UnitConfigName: Area
+- HashId: !u 0x491e3826
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb209c532}
+  Rotate: [0.6479342579841614, 1.2874077558517456, 1.3686840534210205]
+  SRTHash: 586158521
+  Translate: [4466.95947265625, 120.10391235351562, 1637.9327392578125]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0x4b03ecac
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe2e8a031}
+  Rotate: [-0.543922483921051, 1.457599401473999, -0.10481429100036621]
+  SRTHash: -782071148
+  Translate: [4337.029296875, 169.38490295410156, 1362.1220703125]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4c3be584
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x8565386d}
+  Rotate: [-0.03504294529557228, -0.18081624805927277, -0.05961652472615242]
+  SRTHash: -943793132
+  Scale: 0.800000011920929
+  Translate: [4391.1845703125, 170.93463134765625, 1463.2965087890625]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4ca253cf
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xa75fc605}
+  Rotate: 1.7453293800354004
+  SRTHash: 990594583
+  Translate: [4181.77978515625, 287.1494445800781, 1686.7320556640625]
+  UnitConfigName: DgnObj_DungeonEntrance_A_01
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4cd27347
+  SRTHash: 519785227
+  Translate: [4144.45166015625, 422.43927001953125, 1151.241943359375]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0x4cf38b89
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xe29b1a18}
+  Rotate: [3.141479253768921, 0.5504149794578552, 3.141479253768921]
+  SRTHash: 2102035247
+  Translate: [4216.72265625, 288.68133544921875, 1699.6796875]
+  UnitConfigName: Obj_TreeSnowberry_A
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4dfee631
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xca582d72
+  Rotate: 1.5999985933303833
+  SRTHash: -939776961
+  Translate: [4615.1279296875, 108.71733093261719, 1914.9747314453125]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x4e71104c
+  Rotate: [1.9789499044418335, 1.1229344606399536, 2.331439971923828]
+  SRTHash: 1604465290
+  Translate: [4065.337890625, 455.2522277832031, 1675.9307861328125]
+  UnitConfigName: FldObj_CliffSnowWall_D_19_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4e7bc71a
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x18d6682e
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x65a56e76
+  Rotate: [-0.7003920078277588, 0.9205266237258911, -0.9596015214920044]
+  SRTHash: 241164172
+  Translate: [4145.861328125, 385.22833251953125, 2008.519775390625]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0x4fb1b9cb
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xa38a2754}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x382f6b3b
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x2febd0be}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x1c049ed9}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x8565386d}
+  Rotate: -1.4800026416778564
+  SRTHash: 1825234782
+  Translate: [4438.8603515625, 144.22239685058594, 1432.4178466796875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x50ed2063
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x274d3aec}
+  Rotate: [2.3815927505493164, 1.441593050956726, 3.1415927410125732]
+  SRTHash: -1825708498
+  Translate: [4469.1181640625, 127.09811401367188, 1486.0042724609375]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0x512939ec
+  SRTHash: 597151766
+  Translate: [4130.60009765625, 418.5306396484375, 1217.699951171875]
+  UnitConfigName: DragonDropItemTarget
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 2, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x51a76377
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x016af2c4
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6d33086f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4ca253cf
+  Rotate: 1.7453293800354004
+  SRTHash: -757633401
+  Scale: 0.30000001192092896
+  Translate: [4187.94921875, 288.1494445800781, 1687.1673583984375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x537420f4
+  Rotate: [-0.4456852972507477, 1.2575907707214355, -0.04268218204379082]
+  SRTHash: -1183847522
+  Translate: [4088.68701171875, 482.8626708984375, 1388.61328125]
+  UnitConfigName: FldObj_MountainLanayru_A_03_Far
+- HashId: !u 0x54763d03
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x29b47394}
+  Rotate: [9.711331294681713e-09, 1.3015927076339722, 0.2999875545501709]
+  SRTHash: -791120125
+  Translate: [4117.4580078125, 390.7787780761719, 1393.19775390625]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x55612333
+  SRTHash: 1850101833
+  Translate: [4027.5, 503.85455322265625, 1433.0]
+  UnitConfigName: Enemy_Chuchu_Ice_Middle
+- HashId: !u 0x55932ea8
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xd124b725}
+  Rotate: [-2.452458620071411, 1.1831294298171997, -2.172905206680298]
+  SRTHash: 337065189
+  Translate: [4194.07470703125, 320.1929016113281, 1137.480224609375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0x55c6a060
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe80cccae
+  Rotate: [1.5707963705062866, 1.5400023460388184, 3.1415927410125732]
+  SRTHash: 210126595
+  Scale: 0.5
+  Translate: [4133.1123046875, 395.40142822265625, 2001.9334716796875]
+  UnitConfigName: SwitchTimeLag
+- HashId: !u 0x57b0c58b
+  Rotate: [-0.5931074023246765, -1.3214843273162842, -0.15604333579540253]
+  SRTHash: -657629984
+  Scale: 0.800000011920929
+  Translate: [4135.15673828125, 347.41473388671875, 1887.704833984375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0x591cfb2f
+  Rotate: [-0.4395337700843811, 1.2356657981872559, -0.2122763693332672]
+  SRTHash: -1966401501
+  Translate: [4195.345703125, 376.379638671875, 1377.918701171875]
+  UnitConfigName: FldObj_MountainLanayru_A_02_Far
+- HashId: !u 0x5aa0a7fa
+  Rotate: [-1.4219666719436646, 1.110514521598816, -1.1911976337432861]
+  SRTHash: -2051844751
+  Scale: 0.7420517206192017
+  Translate: [4139.4736328125, 310.18389892578125, 1591.5985107421875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0x5bb420a2
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x91fc745f}
+  Rotate: [3.0765509605407715, 1.3560224771499634, -2.9416162967681885]
+  SRTHash: -228968273
+  Translate: [4181.45068359375, 389.84063720703125, 1248.89990234375]
+  UnitConfigName: FldObj_MountainLanayru_A_01
+- HashId: !u 0x5c32929c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xbf19a743}
+  Rotate: [-2.6701648235321045, 1.1745882034301758, -2.3191981315612793]
+  SRTHash: -644295178
+  Translate: [4478.21728515625, 141.0965576171875, 1683.06494140625]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0x5c404f0c
+  Rotate: [2.2485005855560303, 0.9769764542579651, 2.5445518493652344]
+  SRTHash: -1680881311
+  Translate: [4269.8818359375, 120.3304443359375, 950.9591064453125]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0x5ccb9e70
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe101f2be
+  Rotate: [1.4793895483016968, 1.030979871749878, -2.777587890625]
+  SRTHash: 210126595
+  Scale: 0.5
+  Translate: [4200.341796875, 399.6900939941406, 1979.0634765625]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5cdb12f2
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0xca362161}
+  Rotate: 1.7453293800354004
+  SRTHash: -1559299830
+  Scale: 0.6000000238418579
+  Translate: [4183.48876953125, 300.6494445800781, 1684.9075927734375]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x5cdf52b9
+  Rotate: 1.8599953651428223
+  SRTHash: 452285617
+  Translate: [4079.843505859375, 437.27532958984375, 1716.65380859375]
+  UnitConfigName: FldObj_KorokStartingBlock_A_01
+- HashId: !u 0x5e5bc18a
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf62be6ed}
+  Rotate: [-0.09002187103033066, 0.5759235620498657, 0.11058883368968964]
+  SRTHash: 1399128354
+  Translate: [4201.8935546875, 291.65380859375, 1618.7764892578125]
+  UnitConfigName: FldObj_MountainLanayru_A_02
+- HashId: !u 0x5f6ebded
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x3721eb49}
+  Rotate: [2.6415927410125732, 1.1815924644470215, 3.1415927410125732]
+  SRTHash: -648732280
+  Translate: [4572.14892578125, 132.1840362548828, 1913.7862548828125]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0x60ed403c
+  Rotate: [2.2830605506896973, 0.44373947381973267, 3.009620189666748]
+  SRTHash: -35213885
+  Translate: [4441.80517578125, 132.1690216064453, 1441.387451171875]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- '!Parameters': {ActorName: Obj_LiftRockWhite_A_01, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x610f2eea
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xa081f12a}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x48343b69
+  SRTHash: 242113791
+  Translate: [4086.97021484375, 425.9286193847656, 1147.377197265625]
+  UnitConfigName: ActorObserverTag
+- HashId: !u 0x612066bc
+  Rotate: [2.7228174209594727, 0.5639269948005676, -2.9139842987060547]
+  SRTHash: -432775176
+  Translate: [4223.00048828125, 124.73822021484375, 908.8949584960938]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0x6284a49c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x349db79c}
+  Rotate: [-0.29673102498054504, 0.976172685623169, -0.04583068937063217]
+  SRTHash: 148329543
+  Translate: [4474.0556640625, 148.6387481689453, 1743.87353515625]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x62a4c844
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x1c049ed9
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x382f6b3b
+  SRTHash: 0
+  Translate: [4435.91796875, 142.37864685058594, 1433.1878662109375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x642ebafd
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xb9b86378
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x7380b78f
+  Rotate: [1.8133745193481445, -1.4630862474441528, -1.8765785694122314]
+  SRTHash: -939776961
+  Translate: [4274.50146484375, 433.2234802246094, 1981.77880859375]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x647cd29f
+  Rotate: [2.659371852874756, 1.328377366065979, 2.91361927986145]
+  SRTHash: -1620643597
+  Translate: [4183.84912109375, 389.20733642578125, 1220.877197265625]
+  UnitConfigName: FldObj_MountainLanayru_A_02_Far
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x653b3f7b
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: -0.15000000596046448, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xb10a73fc
+  Rotate: [-3.141479253768921, -0.5504149794578552, -0.00011350239219609648]
+  SRTHash: 729032486
+  Translate: [4216.48974609375, 289.5013122558594, 1700.17041015625]
+  UnitConfigName: Item_Fruit_B
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: false, IsNoAppearEffect: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x65a56e76
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd86f02b8
+  Rotate: -0.48159343004226685
+  SRTHash: 546249740
+  Translate: [4151.46484375, 372.01214599609375, 1992.4874267578125]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- HashId: !u 0x67c08e4a
+  Rotate: [-0.9902133345603943, 1.0206578969955444, -0.9914194345474243]
+  SRTHash: -910674124
+  Scale: 0.7420517206192017
+  Translate: [4185.533203125, 306.48956298828125, 1467.6326904296875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0x6862e2a6
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xbc5e7261}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3bf8b922
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xf49550b1}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x800db93e}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x6f301cde}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x5cdf52b9}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xf4b57e73
+  Rotate: 2.2015929222106934
+  SRTHash: 1825234782
+  Translate: [4282.98046875, 291.539794921875, 1656.069580078125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x68d75a4a
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xbbf1b68c}
+  Rotate: 1.300001859664917
+  SRTHash: -325181102
+  Translate: [4083.392578125, 416.48187255859375, 1737.8004150390625]
+  UnitConfigName: FldObj_CliffSnowWall_D_10
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6a9afec1
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9787c157
+  SRTHash: 0
+  Translate: [4187.34130859375, 288.14959716796875, 1683.7205810546875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x6ad0ec3b
+  Rotate: [-0.2720985412597656, -0.6824097633361816, -0.9264774322509766]
+  SRTHash: -1050391105
+  Scale: 0.800000011920929
+  Translate: [4052.115478515625, 349.07489013671875, 1802.748779296875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0x6d2384ed
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd0e9e823
+  Rotate: [3.0231964588165283, 1.4405359029769897, -1.1722450256347656]
+  SRTHash: 210126595
+  Scale: 0.5
+  Translate: [4214.205078125, 408.1095275878906, 1979.3978271484375]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6d33086f
+  Rotate: 1.7453293800354004
+  SRTHash: -1619909520
+  Translate: [4190.83544921875, 288.1124572753906, 1685.13525390625]
+  UnitConfigName: DgnObj_WarpPoint_A_01
+- HashId: !u 0x6e140944
+  Rotate: [-3.135005235671997, -1.4678089618682861, -2.7661194801330566]
+  SRTHash: -1956172124
+  Translate: [4087.0224609375, 491.659912109375, 1364.5196533203125]
+  UnitConfigName: FldObj_MountainLanayru_A_01_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x6e24f60d
+  SRTHash: -1771070505
+  Scale: 0.5569999814033508
+  Translate: [4615.14306640625, 106.67063903808594, 1915.4744873046875]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: false, IsNoAppearEffect: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6eaf049c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd3656852
+  Rotate: [-2.6615917682647705, -1.5400004386901855, 3.1415913105010986]
+  SRTHash: 546249740
+  Translate: [4246.42578125, 421.8291015625, 1983.6295166015625]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- '!Parameters': {DropTable: Normal, GoalCountLimit: 650.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6f301cde
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x18aece2e
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xbc5e7261}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x5cdf52b9}
+  - {DefinitionName: GimmickSuccess, DestUnitHashId: !u 0x8cbb8348}
+  Rotate: -0.9399999380111694
+  SRTHash: -2024721634
+  Translate: [4282.685546875, 287.039794921875, 1655.6658935546875]
+  UnitConfigName: FldObj_KorokGoal_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x700c37fe
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf6ec8adf
+  Rotate: [-1.6891924142837524, 1.4405359029769897, -1.1722450256347656]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4213.34912109375, 405.5720520019531, 1979.6607666015625]
+  UnitConfigName: Area
+- HashId: !u 0x7084ac3c
+  Rotate: [-1.060065746307373, 0.3377380967140198, -0.232570081949234]
+  SRTHash: 866214781
+  Translate: [4224.68310546875, 289.0312805175781, 1703.9840087890625]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x71171406
+  Rotate: -2.9600024223327637
+  SRTHash: -922256758
+  Translate: [4497.3486328125, 100.64925384521484, 1526.22509765625]
+  UnitConfigName: FldObj_RockBeach_A_M_03
+- HashId: !u 0x725379ab
+  SRTHash: 273689870
+  Translate: [3996.39990234375, 549.9611206054688, 1316.199951171875]
+  UnitConfigName: DragonDropItemTarget
+- HashId: !u 0x72b04c84
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x647cd29f}
+  Rotate: [2.659371852874756, 1.328377366065979, 2.91361927986145]
+  SRTHash: -1620643597
+  Translate: [4183.84912109375, 389.20733642578125, 1220.877197265625]
+  UnitConfigName: FldObj_MountainLanayru_A_02
+- HashId: !u 0x731139fc
+  Rotate: [2.6109511852264404, 1.0579626560211182, 3.1060986518859863]
+  SRTHash: 1562904094
+  Scale: 1.100000023841858
+  Translate: [4033.60546875, 440.80657958984375, 1636.5538330078125]
+  UnitConfigName: FldObj_CliffSnowLargeWall_D_02_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x7380b78f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb339dd19
+  Rotate: [-0.47999992966651917, 1.5400004386901855, 0.0]
+  SRTHash: -1236894723
+  Translate: [4247.63916015625, 425.87542724609375, 1985.6678466796875]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x73c2a5e9
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x591cfb2f}
+  Rotate: [-0.4395337700843811, 1.2356657981872559, -0.2122763693332672]
+  SRTHash: -1966401501
+  Translate: [4195.345703125, 376.379638671875, 1377.918701171875]
+  UnitConfigName: FldObj_MountainLanayru_A_02
+- HashId: !u 0x747b713c
+  Rotate: [-0.3933550715446472, 0.8420137166976929, 0.015733780339360237]
+  SRTHash: 1181460253
+  Translate: [4161.3427734375, 315.91290283203125, 1658.8997802734375]
+  UnitConfigName: FldObj_MountainLanayru_A_03_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x751263e6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7ec41ee4
+  Rotate: [2.8615927696228027, 1.4615929126739502, 3.141592264175415]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4271.13330078125, 431.848876953125, 1980.557373046875]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x769ee397
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x13dc02c4
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x6eaf049c
+  Rotate: [-0.6199999451637268, 1.5200014114379883, 0.0]
+  SRTHash: 241164172
+  Translate: [4230.189453125, 417.3812255859375, 1983.1546630859375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x7734d3de
+  SRTHash: -1732345867
+  Translate: [4116.0, 421.98895263671875, 1189.0999755859375]
+  UnitConfigName: DragonDropItemTarget
+- HashId: !u 0x77d5dc83
+  Rotate: 3.0231807231903076
+  SRTHash: -51107150
+  Scale: 0.800000011920929
+  Translate: [4180.16845703125, 293.46795654296875, 1658.2745361328125]
+  UnitConfigName: FldObj_CliffSnowWall_D_02_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x788add65
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb833b7f3
+  Rotate: 2.659999132156372
+  SRTHash: -1236894723
+  Translate: [4154.62646484375, 375.01214599609375, 1990.7550048828125]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x78e77068
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xec449e95}
+  Rotate: [3.0290260314941406, 0.5203078985214233, -3.0795516967773438]
+  SRTHash: -1102164089
+  Scale: 0.9668432474136353
+  Translate: [4059.607666015625, 316.2973937988281, 986.8184204101562]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0x7cd738aa
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x57b0c58b}
+  Rotate: [-0.5931074023246765, -1.3214843273162842, -0.15604333579540253]
+  SRTHash: -657629984
+  Scale: 0.800000011920929
+  Translate: [4135.15673828125, 347.41473388671875, 1887.704833984375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0x7d9a41cb
+  Rotate: [-3.1332650184631348, 0.5237628817558289, -2.848647117614746]
+  SRTHash: -382870252
+  Translate: [4063.770263671875, 418.956298828125, 1083.1339111328125]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_02_Far
+- HashId: !u 0x7e03026e
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc3649127}
+  Rotate: [2.909189462661743, 0.743187427520752, -3.0464329719543457]
+  SRTHash: 1588511714
+  Translate: [4076.836181640625, 401.45343017578125, 1027.843994140625]
+  UnitConfigName: FldObj_MountainLanayru_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x7e18090c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xa38ed089
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x788add65
+  Rotate: [-3.122670888900757, 0.9341817498207092, -2.5460283756256104]
+  SRTHash: -995292279
+  Translate: [4171.77294921875, 383.2475280761719, 1980.3123779296875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x7ec41ee4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa884ba63
+  SRTHash: 0
+  Translate: [4271.13330078125, 431.848876953125, 1980.557373046875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x7f3ea5c7
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xdf888981}
+  Rotate: [0.657297670841217, 1.523555874824524, 0.9743740558624268]
+  SRTHash: -1673036659
+  Scale: 1.2000000476837158
+  Translate: [4320.0546875, 184.48468017578125, 1210.4468994140625]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters':
+    EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    EffectDispActorName: Area
+    EffectDispSize: 1.5
+    IsNoResponceSound: false
+  HashId: !u 0x800db93e
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xf49550b1}
+  Rotate: -0.9399999380111694
+  SRTHash: 228384184
+  Translate: [4278.4931640625, 287.039794921875, 1655.0125732421875]
+  UnitConfigName: KorokAnswerResponce
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x80af332a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x899baa62
+  SRTHash: 1040823728
+  Translate: [4099.404296875, 425.84722900390625, 1151.749755859375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x812a8728
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4e71104c}
+  Rotate: [1.9789499044418335, 1.1229344606399536, 2.331439971923828]
+  SRTHash: 1604465290
+  Translate: [4065.337890625, 455.2522277832031, 1675.9307861328125]
+  UnitConfigName: FldObj_CliffSnowWall_D_19
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x815d47f5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x5ccb9e70
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x87cf939c
+  Rotate: [3.0501859188079834, 1.030979871749878, -2.777587890625]
+  SRTHash: -995292279
+  Translate: [4198.810546875, 398.9112548828125, 1980.087158203125]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x81fc7262
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf5854b52}
+  Rotate: [3.081592559814453, 1.1015933752059937, -3.141592264175415]
+  SRTHash: -287172359
+  Translate: [4271.0830078125, 241.75271606445312, 1657.828369140625]
+  UnitConfigName: FldObj_CliffSnowWall_D_06
+- HashId: !u 0x82478b29
+  Rotate: [-1.4367886781692505, -1.3533848524093628, 1.0583398342132568]
+  SRTHash: 322439096
+  Translate: [4091.36962890625, 419.39111328125, 1180.27197265625]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_01_Far
+- HashId: !u 0x82798ef3
+  Rotate: [2.718499183654785, 1.4723011255264282, -2.3293001651763916]
+  SRTHash: -895084784
+  Translate: [4386.63232421875, 164.94265747070312, 1531.4365234375]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0x82cf1277
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb2253182}
+  Rotate: [-0.10935071110725403, 1.2359402179718018, 0.3943108916282654]
+  SRTHash: 1740049560
+  Scale: 1.2000000476837158
+  Translate: [4255.865234375, 280.3758239746094, 1725.1212158203125]
+  UnitConfigName: FldObj_CliffSnowWall_D_19
+- HashId: !u 0x85013759
+  Rotate: [-0.49436312913894653, 0.9977911710739136, -0.03982210531830788]
+  SRTHash: 431985284
+  Translate: [4366.537109375, 177.56268310546875, 1672.30126953125]
+  UnitConfigName: FldObj_RockBeachWall_A_02_Far
+- HashId: !u 0x8565386d
+  SRTHash: 0
+  Translate: [4438.90576171875, 142.72239685058594, 1432.915771484375]
+  UnitConfigName: LinkTagNone
+- HashId: !u 0x86919f3c
+  Rotate: [0.0, 1.5616158246994019, 0.05999746546149254]
+  SRTHash: 691517617
+  Scale: 0.800000011920929
+  Translate: [4129.4921875, 340.345458984375, 1714.146728515625]
+  UnitConfigName: FldObj_CliffSnowTopHalf_D_01_Far
+- HashId: !u 0x8778b722
+  Rotate: [2.9815924167633057, 0.3015934228897095, -3.141592264175415]
+  SRTHash: -1195892615
+  Translate: [4080.72265625, 355.0664978027344, 1044.019287109375]
+  UnitConfigName: FldObj_CliffSnowWall_D_07_Far
+- '!Parameters': {HiddenKorokBodyColor: 2, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 3,
+    HiddenKorokRightPlantType: 0, IsAppearCheck: false, IsHiddenKorokLiftAppear: false,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 45, PlacementType: Ground,
+    RailMoveSpeed: 0.10000000149011612, TerritoryArea: 0.0}
+  HashId: !u 0x878ea0e2
+  Rotate: 0.6615939736366272
+  SRTHash: 1257283389
+  Translate: [4087.93603515625, 423.3066101074219, 1142.3707275390625]
+  UnitConfigName: Npc_HiddenKorokGround
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x87994223
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x4dfee631
+  Rotate: [-1.2580963373184204, 0.6565207839012146, -1.9394630193710327]
+  SRTHash: 836954991
+  Translate: [4615.08447265625, 107.1173324584961, 1913.475341796875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x87cf939c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4776f90a
+  Rotate: [-0.30990222096443176, 1.1952779293060303, 0.16415594518184662]
+  SRTHash: -1236894723
+  Translate: [4190.8212890625, 393.8831787109375, 1987.249755859375]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {DropTable: Normal, EventFlowEntryName: Demo008_1, EventFlowName: Demo008_1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x87fe806a
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xed3970a9}
+  Rotate: 1.7453293800354004
+  SRTHash: -925432741
+  Translate: [4181.77978515625, 288.14959716796875, 1686.7320556640625]
+  UnitConfigName: DgnObj_EntranceElevator_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x885079e5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x55c6a060
+  Rotate: 1.6015902757644653
+  SRTHash: -995292279
+  Translate: [4131.11328125, 395.40142822265625, 2001.9951171875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0x899baa62
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1f88d10b
+  Rotate: [-1.5707963705062866, 0.0, 0.0]
+  SRTHash: -1573138490
+  Scale: 0.5
+  Translate: [4099.404296875, 426.84722900390625, 1151.749755859375]
+  UnitConfigName: SwitchTimeLag
+- HashId: !u 0x8a5ea738
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x731139fc}
+  Rotate: [2.6109511852264404, 1.0579626560211182, 3.1060986518859863]
+  SRTHash: 1562904094
+  Scale: 1.100000023841858
+  Translate: [4033.60546875, 440.80657958984375, 1636.5538330078125]
+  UnitConfigName: FldObj_CliffSnowLargeWall_D_02
+- HashId: !u 0x8ac219ed
+  SRTHash: 1597712691
+  Translate: [3998.0, 531.117431640625, 1264.9000244140625]
+  UnitConfigName: DragonDropItemTarget
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8cbb8348
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5cdf52b9
+  SRTHash: 1037766042
+  Translate: [4257.521484375, 287.3419494628906, 1693.5643310546875]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x8cf944e7
+  Rotate: 1.6447962522506714
+  SRTHash: -1263307455
+  Translate: [4180.7255859375, 286.98736572265625, 1689.773193359375]
+  UnitConfigName: FldObj_CliffWhiteCave_A_01_Far
+- HashId: !u 0x8d3d3be7
+  SRTHash: 2033733876
+  Translate: [4111.5, 422.9129943847656, 1162.7999267578125]
+  UnitConfigName: DragonDropItemTarget
+- HashId: !u 0x8d6ed93d
+  Rotate: -1.3962632417678833
+  SRTHash: 1324596190
+  Translate: [4188.55859375, 288.1494445800781, 1685.6383056640625]
+  UniqueName: Demo008_0_PlayerEndPos
+  UnitConfigName: ForceSetPosDirAutoSaveAnchor
+- HashId: !u 0x8d7d5449
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x2315c5d8}
+  Rotate: 0.4638671576976776
+  SRTHash: 2102035247
+  Translate: [4222.8828125, 288.57275390625, 1705.51171875]
+  UnitConfigName: Obj_TreeSnowberry_A
+- HashId: !u 0x8e6afc95
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x747b713c}
+  Rotate: [-0.3933550715446472, 0.8420137166976929, 0.015733780339360237]
+  SRTHash: 1181460253
+  Translate: [4161.3427734375, 315.91290283203125, 1658.8997802734375]
+  UnitConfigName: FldObj_MountainLanayru_A_03
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8ec2ad8c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4e7bc71a
+  Rotate: [-0.7003920078277588, 0.9205266237258911, -0.9596015214920044]
+  SRTHash: -1236894723
+  Translate: [4145.16650390625, 386.2199401855469, 2010.1116943359375]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {LocationPriority: 1, MessageID: Dungeon119}
+  HashId: !u 0x8f1d73c5
+  SRTHash: 0
+  Translate: [4181.77978515625, 285.5513000488281, 1686.7320556640625]
+  UnitConfigName: LocationTag
+- HashId: !u 0x8f1e42d4
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xd5e0525a}
+  Rotate: [-1.0001498460769653, 0.8888137340545654, -0.7475986480712891]
+  SRTHash: 1882173435
+  Scale: 0.800000011920929
+  Translate: [4055.981689453125, 380.31072998046875, 1565.930908203125]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0x8f69ec82
+  Rotate: [2.5876002311706543, 1.1967968940734863, 2.0648245811462402]
+  SRTHash: 881387237
+  Translate: [4447.74755859375, 137.1215362548828, 1556.931396484375]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x90c61dbd
+  SRTHash: -1479478965
+  Translate: [4018.5, 501.9394226074219, 1433.0]
+  UnitConfigName: Enemy_Chuchu_Ice_Junior
+- HashId: !u 0x91466584
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x612066bc}
+  Rotate: [2.7228174209594727, 0.5639269948005676, -2.9139842987060547]
+  SRTHash: -432775176
+  Translate: [4223.00048828125, 124.73822021484375, 908.8949584960938]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0x91c430c9
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xba189e92}
+  Rotate: [2.8107478618621826, 0.515880286693573, 3.040994882583618]
+  SRTHash: -863357938
+  Translate: [3991.89990234375, 378.9209899902344, 1015.183349609375]
+  UnitConfigName: FldObj_CliffSnowWall_D_07
+- HashId: !u 0x91cdb315
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xd65c0e8f}
+  Rotate: [-2.213519334793091, -1.3843133449554443, 2.4431865215301514]
+  SRTHash: -510201802
+  Translate: [4188.13916015625, 391.4018859863281, 1276.52734375]
+  UnitConfigName: FldObj_MountainLanayru_A_01
+- HashId: !u 0x91fc745f
+  Rotate: [3.0765509605407715, 1.3560224771499634, -2.9416162967681885]
+  SRTHash: -228968273
+  Translate: [4181.45068359375, 389.84063720703125, 1248.89990234375]
+  UnitConfigName: FldObj_MountainLanayru_A_01_Far
+- HashId: !u 0x923d3e82
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xd300baac}
+  Rotate: [-0.3255915343761444, 1.2638710737228394, 0.07736564427614212]
+  SRTHash: -1124735757
+  Translate: [4321.39990234375, 122.17289733886719, 1012.317138671875]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0x9240288a
+  Rotate: [1.9573795795440674, 1.2551912069320679, 2.0173394680023193]
+  SRTHash: -899336708
+  Scale: 0.800000011920929
+  Translate: [4274.20361328125, 325.08660888671875, 1880.186279296875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0x939ae467
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xa548dae1}
+  Rotate: [-0.4399999678134918, 1.3000000715255737, 8.742280499518529e-08]
+  SRTHash: 1494846308
+  Translate: [4244.69287109375, 237.28550720214844, 1504.81640625]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: false, IsNoAppearEffect: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x93ed1e9f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2e277251
+  Rotate: [-2.4412004947662354, -0.9205267429351807, 2.1819911003112793]
+  SRTHash: 546249740
+  Translate: [4142.23486328125, 383.03729248046875, 2008.3017578125]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x947c34b1
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xaf5234bb
+  Rotate: 1.7453293800354004
+  SRTHash: 1678100952
+  Scale: 23.49880599975586
+  Translate: [4181.77978515625, 285.5513000488281, 1686.7320556640625]
+  UnitConfigName: Area
+- HashId: !u 0x94a0c07c
+  Rotate: [2.6203582286834717, 0.8856077194213867, -2.8870954513549805]
+  SRTHash: -14576390
+  Translate: [4312.29541015625, 114.83537292480469, 963.3092651367188]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0x9538a03c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc5e7f1f9}
+  Rotate: [-0.3913876414299011, -1.4984132051467896, 0.1117914468050003]
+  SRTHash: 2011494370
+  Translate: [4146.884765625, 416.63623046875, 1209.765380859375]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_02
+- '!Parameters':
+    EventFlowEntryName: Demo008_0
+    EventFlowName: Demo008_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: 4188.419921875, Y: 288.1494140625, Z: 1684.8499755859375}
+    TraverseRadiusXZ: 0.800037682056427
+  HashId: !u 0x9787c157
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x51a76377
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x9c65baba}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xdda3488e}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x8d6ed93d}
+  Rotate: 1.2217304706573486
+  SRTHash: 295738227
+  Scale: 0.6000000238418579
+  Translate: [4187.34130859375, 288.1494445800781, 1683.7205810546875]
+  UnitConfigName: EventTag
+- HashId: !u 0x9828f351
+  Rotate: [-0.16093046963214874, 1.4031074047088623, 0.14036749303340912]
+  SRTHash: 1646471048
+  Translate: [4228.525390625, 291.17559814453125, 1323.8240966796875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0x987d848d
+  Rotate: [0.24931709468364716, 1.1009975671768188, 0.010500853881239891]
+  SRTHash: -1286666834
+  Translate: [4476.9365234375, 129.01876831054688, 1549.8431396484375]
+  UnitConfigName: FldObj_RockBeachWall_A_04_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x99c276f6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x87994223
+  Rotate: 1.5999985933303833
+  SRTHash: -105676283
+  Scale: 3.0
+  Translate: [4615.14306640625, 107.117431640625, 1915.4744873046875]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: false, IsNoAppearEffect: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x9ae0208f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x272a4c41
+  Rotate: [-2.8316903114318848, -1.1952781677246094, -2.9774367809295654]
+  SRTHash: 546249740
+  Translate: [4190.37890625, 389.9864807128906, 1984.6768798828125]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- HashId: !u 0x9b94af84
+  Rotate: [2.800595283508301, 0.5747109055519104, 3.099738359451294]
+  SRTHash: 36260532
+  Translate: [4336.79736328125, 291.47503662109375, 1943.627197265625]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0x9c65baba
+  Rotate: -1.9198617935180664
+  SRTHash: 866405674
+  Translate: [4188.28076171875, 288.1494445800781, 1684.0626220703125]
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x9ed94df3
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x9240288a}
+  Rotate: [1.9573795795440674, 1.2551912069320679, 2.0173394680023193]
+  SRTHash: -899336708
+  Scale: 0.800000011920929
+  Translate: [4274.20361328125, 325.08660888671875, 1880.186279296875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0x9edf10fa
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb8611ee9}
+  Rotate: [2.321638822555542, 1.0593565702438354, 3.0509936809539795]
+  SRTHash: -245351037
+  Translate: [4479.57666015625, 125.96510314941406, 1852.796630859375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0x9f3404c1
+  SRTHash: 462754422
+  Translate: [4237.6884765625, 309.3204040527344, 1089.1484375]
+  UnitConfigName: DragonDropItemTarget
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xa081f12a
+  SRTHash: 109621062
+  Translate: [4090.66064453125, 423.71453857421875, 1144.8875732421875]
+  UnitConfigName: Area
+- HashId: !u 0xa332d97a
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xcc21879d}
+  Rotate: [3.1215927600860596, 1.0415934324264526, 3.1415927410125732]
+  SRTHash: -2036003202
+  Translate: [4079.94091796875, 436.93206787109375, 1717.2889404296875]
+  UnitConfigName: FldObj_CliffSnowScaffold_D_01
+- '!Parameters': {HiddenKorokBodyColor: 4, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 0,
+    HiddenKorokRightPlantType: 0, IsAppearCheck: false, IsHiddenKorokLiftAppear: false,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 45, PlacementType: Air, RailMoveSpeed: 0.10000000149011612,
+    TerritoryArea: 0.0}
+  HashId: !u 0xa38a2754
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x8565386d}
+  Rotate: -1.4800026416778564
+  SRTHash: 1257283389
+  Translate: [4438.90576171875, 141.72239685058594, 1432.915771484375]
+  UnitConfigName: Npc_HiddenKorokFly
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0xa38ed089
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1e44bc47
+  Rotate: [1.5897181034088135, 0.9341817498207092, -2.5460283756256104]
+  SRTHash: 210126595
+  Scale: 0.5
+  Translate: [4173.12548828125, 384.1181945800781, 1979.1236572265625]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa4b5e0bb
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: -0.15000000596046448, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x7084ac3c
+  Rotate: [4.373538331492455e-08, -0.4638671576976776, -3.1415927410125732]
+  SRTHash: 729032486
+  Translate: [4222.58935546875, 289.39276123046875, 1705.0546875]
+  UnitConfigName: Item_Fruit_B
+- HashId: !u 0xa51dad3d
+  Rotate: 0.13999998569488525
+  SRTHash: 1374848225
+  Translate: [4451.4287109375, 129.91867065429688, 1521.340087890625]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0xa548dae1
+  Rotate: [-0.4399999678134918, 1.3000000715255737, 8.742280499518529e-08]
+  SRTHash: 1494846308
+  Translate: [4244.69287109375, 237.28550720214844, 1504.81640625]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0xa6ca44f3
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x7d9a41cb}
+  Rotate: [-3.1332650184631348, 0.5237628817558289, -2.848647117614746]
+  SRTHash: -382870252
+  Translate: [4063.770263671875, 418.956298828125, 1083.1339111328125]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_02
+- HashId: !u 0xa6f48634
+  Rotate: [2.94649600982666, 0.7896783947944641, -2.9560625553131104]
+  SRTHash: -1343993117
+  Translate: [4049.668212890625, 421.8491516113281, 1226.933349609375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa75fc605
+  Rotate: 1.7453293800354004
+  SRTHash: 990594583
+  Translate: [4181.77978515625, 287.1494445800781, 1686.7320556640625]
+  UnitConfigName: DgnObj_DungeonEntrance_A_01_Far
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: true, IsNoAppearEffect: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa884ba63
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x642ebafd
+  Rotate: [0.27999967336654663, -1.4615929126739502, 1.6773782363088685e-07]
+  SRTHash: 1584800894
+  Translate: [4271.462890625, 430.6955871582031, 1980.521240234375]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- HashId: !u 0xa9d4b057
+  SRTHash: 1296876634
+  Translate: [4430.26953125, 122.28465270996094, 1158.454345703125]
+  UnitConfigName: DragonDropItemTarget
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: false, IsNoAppearEffect: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xab083a12
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x16c256dc
+  Rotate: [-2.5215916633605957, -1.5200014114379883, 3.1415915489196777]
+  SRTHash: 546249740
+  Translate: [4229.4921875, 413.19647216796875, 1983.119140625]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- HashId: !u 0xabb968ad
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xdfa47d31}
+  Rotate: [1.9575697183609009, 1.1135082244873047, 2.818364143371582]
+  SRTHash: -122812351
+  Translate: [4401.0517578125, 128.69232177734375, 1196.1607666015625]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0xad709044
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe2c45481}
+  Rotate: [-0.045275814831256866, 1.3660229444503784, 0.8828458189964294]
+  SRTHash: 98329985
+  Translate: [4398.61962890625, 118.77285766601562, 1248.8319091796875]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0xad82dc31
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x1a2d135c}
+  Rotate: [2.5708506107330322, 1.067375659942627, -2.593137502670288]
+  SRTHash: 690285110
+  Translate: [4414.50732421875, 148.79161071777344, 1491.99267578125]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: MapTower_07_Demo,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xad8da027
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xca362161
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5cdb12f2
+  Rotate: 1.7453293800354004
+  SRTHash: -902373788
+  Scale: 0.6000000238418579
+  Translate: [4184.009765625, 300.6494445800781, 1687.8619384765625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xaf20013a
+  Rotate: [-2.624342203140259, -0.5252544283866882, 3.0084333419799805]
+  SRTHash: 334525334
+  Translate: [4028.1767578125, 444.620849609375, 1548.7451171875]
+  UnitConfigName: FldObj_MountainLanayru_A_03_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xaf5234bb
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0ba17fca
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8f1d73c5
+  SRTHash: 0
+  Translate: [4181.77978515625, 285.5513000488281, 1686.7320556640625]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb0b55d68
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x6d2384ed
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x21b89828
+  Rotate: [-1.6891924142837524, 1.4405359029769897, -1.1722450256347656]
+  SRTHash: -995292279
+  Translate: [4212.46533203125, 407.1229248046875, 1979.428466796875]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xb0ca7de0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x09fd9e2c}
+  Rotate: [1.2154179811477661, 1.3772473335266113, 2.0135602951049805]
+  SRTHash: 680149437
+  Translate: [4420.375, 150.26026916503906, 1654.103759765625]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0xb10a73fc
+  Rotate: [2.3296267986297607, 0.649206280708313, -2.8652172088623047]
+  SRTHash: 866214781
+  Translate: [4214.474609375, 289.1400451660156, 1698.9580078125]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0xb115f0bc
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x38480943}
+  Rotate: [0.31828367710113525, -0.48011454939842224, 0.03646065667271614]
+  SRTHash: -1068087039
+  Translate: [4014.935791015625, 424.4453430175781, 1004.9188842773438]
+  UnitConfigName: FldObj_MountainLanayru_A_01
+- HashId: !u 0xb1996d57
+  Rotate: [3.0053751468658447, 0.5819753408432007, -3.1349127292633057]
+  SRTHash: 1072588976
+  Translate: [4176.359375, 346.25042724609375, 1730.85986328125]
+  UnitConfigName: FldObj_CliffSnowWall_D_19_Far
+- HashId: !u 0xb209c532
+  Rotate: [0.6479342579841614, 1.2874077558517456, 1.3686840534210205]
+  SRTHash: 586158521
+  Translate: [4466.95947265625, 120.10391235351562, 1637.9327392578125]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0xb2253182
+  Rotate: [-0.10935071110725403, 1.2359402179718018, 0.3943108916282654]
+  SRTHash: 1740049560
+  Scale: 1.2000000476837158
+  Translate: [4255.865234375, 280.3758239746094, 1725.1212158203125]
+  UnitConfigName: FldObj_CliffSnowWall_D_19_Far
+- HashId: !u 0xb2fda8eb
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x5aa0a7fa}
+  Rotate: [-1.4219666719436646, 1.110514521598816, -1.1911976337432861]
+  SRTHash: -2051844751
+  Scale: 0.7420517206192017
+  Translate: [4139.4736328125, 310.18389892578125, 1591.5985107421875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb339dd19
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x751263e6
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xa884ba63
+  Rotate: [-0.47999992966651917, 1.5400004386901855, 0.0]
+  SRTHash: 241164172
+  Translate: [4247.70068359375, 425.87542724609375, 1983.6688232421875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xb52d9001
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x94a0c07c}
+  Rotate: [2.6203582286834717, 0.8856077194213867, -2.8870954513549805]
+  SRTHash: -14576390
+  Translate: [4312.29541015625, 114.83537292480469, 963.3092651367188]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0xb5e4b6a0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc0d8cdf2}
+  Rotate: [2.8015923500061035, 1.0015934705734253, -3.141592264175415]
+  SRTHash: 685137580
+  Translate: [4025.7763671875, 406.4381103515625, 1093.9947509765625]
+  UnitConfigName: FldObj_CliffSnowWall_D_06
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb6278901
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x769ee397
+  Rotate: [-0.6199999451637268, 1.5200014114379883, 0.0]
+  SRTHash: -1236894723
+  Translate: [4230.087890625, 417.3812255859375, 1985.152099609375]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0xb6349052
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xa6f48634}
+  Rotate: [2.94649600982666, 0.7896783947944641, -2.9560625553131104]
+  SRTHash: -1343993117
+  Translate: [4049.668212890625, 421.8491516113281, 1226.933349609375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb833b7f3
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xbea1639a
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xc3d265c2
+  Rotate: 2.659999132156372
+  SRTHash: 241164172
+  Translate: [4152.85400390625, 375.01214599609375, 1989.82861328125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xb8611ee9
+  Rotate: [2.321638822555542, 1.0593565702438354, 3.0509936809539795]
+  SRTHash: -245351037
+  Translate: [4479.57666015625, 125.96510314941406, 1852.796630859375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0xb9588908
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xa51dad3d}
+  Rotate: 0.13999998569488525
+  SRTHash: 1374848225
+  Translate: [4451.4287109375, 129.91867065429688, 1521.340087890625]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0xb99d924c
+  Rotate: [3.1415927410125732, 0.34159114956855774, -3.081592559814453]
+  SRTHash: -439620579
+  Translate: [4609.33447265625, 99.51307678222656, 1943.254150390625]
+  UnitConfigName: FldObj_RockBeach_A_M_03
+- '!Parameters': {HiddenKorokBodyColor: 3, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 0,
+    HiddenKorokRightPlantType: 1, IsAppearCheck: false, IsHiddenKorokLiftAppear: false,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 0, PlacementType: Ground, RailMoveSpeed: 0.10000000149011612,
+    TerritoryArea: 0.0}
+  HashId: !u 0xb9b86378
+  Rotate: -1.5415940284729004
+  SRTHash: 1257283389
+  Translate: [4274.36376953125, 430.79315185546875, 1981.020751953125]
+  UnitConfigName: Npc_HiddenKorokGround
+- HashId: !u 0xba09f79f
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x398dd5ed}
+  Rotate: [0.0, 1.559999942779541, 1.09993577003479]
+  SRTHash: -1228378759
+  Translate: [4363.8759765625, 166.4779815673828, 1616.5814208984375]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0xba189e92
+  Rotate: [2.8107478618621826, 0.515880286693573, 3.040994882583618]
+  SRTHash: -863357938
+  Translate: [3991.89990234375, 378.9209899902344, 1015.183349609375]
+  UnitConfigName: FldObj_CliffSnowWall_D_07_Far
+- HashId: !u 0xbb0f25c4
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x3a3a3b1b}
+  Rotate: [-0.1622796356678009, 1.1536140441894531, -0.19452229142189026]
+  SRTHash: 1644809441
+  Translate: [4101.48828125, 423.3414611816406, 1184.305908203125]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_04
+- HashId: !u 0xbbf1b68c
+  Rotate: 1.300001859664917
+  SRTHash: -325181102
+  Translate: [4083.392578125, 416.48187255859375, 1737.8004150390625]
+  UnitConfigName: FldObj_CliffSnowWall_D_10_Far
+- '!Parameters': {HiddenKorokBodyColor: 0, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 1,
+    HiddenKorokRightPlantType: 0, IsAppearCheck: false, IsHiddenKorokLiftAppear: false,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 45, PlacementType: Air, RailMoveSpeed: 0.10000000149011612,
+    TerritoryArea: 0.0}
+  HashId: !u 0xbc5e7261
+  Rotate: 2.2015929222106934
+  SRTHash: 1257283389
+  Translate: [4282.685546875, 289.039794921875, 1655.6658935546875]
+  UnitConfigName: Npc_HiddenKorokFly
+- HashId: !u 0xbc761a57
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x1a786480}
+  Rotate: [2.9672346115112305, 1.3910051584243774, -2.932399034500122]
+  SRTHash: -1089909987
+  Translate: [4308.88525390625, 159.77325439453125, 1653.890380859375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0xbe0ad480
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x0a41c2f9}
+  Rotate: [1.9215928316116333, 0.9215928316116333, 3.1415927410125732]
+  SRTHash: 684004009
+  Translate: [4499.3818359375, 113.37733459472656, 1771.707275390625]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xbea1639a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdcd979e9
+  Rotate: [-3.122670888900757, 0.9341817498207092, -2.5460283756256104]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4172.759765625, 381.7423095703125, 1980.3326416015625]
+  UnitConfigName: Area
+- HashId: !u 0xbf19a743
+  Rotate: [-2.6701648235321045, 1.1745882034301758, -2.3191981315612793]
+  SRTHash: -644295178
+  Translate: [4478.21728515625, 141.0965576171875, 1683.06494140625]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0xbf27a299
+  Rotate: [-0.743324339389801, 0.6486210227012634, -0.09215960651636124]
+  SRTHash: -857635734
+  Scale: 1.2000000476837158
+  Translate: [4077.95703125, 429.50628662109375, 1460.288330078125]
+  UnitConfigName: FldObj_CliffSnowLargeWall_D_03_Far
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc082db21
+  Rotate: 0.3719673156738281
+  SRTHash: -412515746
+  Scale: 1.015167236328125
+  Translate: [4092.62890625, 424.0698547363281, 1163.25439453125]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_03
+- HashId: !u 0xc0d8cdf2
+  Rotate: [2.8015923500061035, 1.0015934705734253, -3.141592264175415]
+  SRTHash: 685137580
+  Translate: [4025.7763671875, 406.4381103515625, 1093.9947509765625]
+  UnitConfigName: FldObj_CliffSnowWall_D_06_Far
+- HashId: !u 0xc21f95a6
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xfdb8e442}
+  Rotate: [3.0075690746307373, 0.4980463981628418, 3.089308023452759]
+  SRTHash: 295152202
+  Scale: 1.2999999523162842
+  Translate: [4133.48291015625, 335.0677490234375, 1041.581787109375]
+  UnitConfigName: FldObj_CliffSnowWall_D_05
+- HashId: !u 0xc3649127
+  Rotate: [2.909189462661743, 0.743187427520752, -3.0464329719543457]
+  SRTHash: 1588511714
+  Translate: [4076.836181640625, 401.45343017578125, 1027.843994140625]
+  UnitConfigName: FldObj_MountainLanayru_A_02_Far
+- '!Parameters': {DropTable: Normal, IsLastKorokFlower: false, IsNoAppearEffect: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xc3d265c2
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7e18090c
+  Rotate: [-0.018921762704849243, -0.9341816306114197, 0.5955642461776733]
+  SRTHash: 546249740
+  Translate: [4173.41796875, 380.7388610839844, 1980.34619140625]
+  UnitConfigName: Obj_Plant_Korok_A_01
+- HashId: !u 0xc56aa6b1
+  SRTHash: -939037048
+  Translate: [4076.300048828125, 418.56671142578125, 1078.0999755859375]
+  UnitConfigName: DragonDropItemTarget
+- HashId: !u 0xc5e7f1f9
+  Rotate: [-0.3913876414299011, -1.4984132051467896, 0.1117914468050003]
+  SRTHash: 2011494370
+  Translate: [4146.884765625, 416.63623046875, 1209.765380859375]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_02_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc5f46b60
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x93ed1e9f
+  SRTHash: 0
+  Translate: [4142.6328125, 384.06793212890625, 2007.83349609375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0xc77a1ed6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2671a9b6
+  Rotate: 1.8599953651428223
+  SRTHash: -155849611
+  Scale: 0.699999988079071
+  Translate: [4079.843505859375, 438.725341796875, 1716.65380859375]
+  UnitConfigName: Area
+- HashId: !u 0xc84646d9
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x77d5dc83}
+  Rotate: 3.0231807231903076
+  SRTHash: -51107150
+  Scale: 0.800000011920929
+  Translate: [4180.16845703125, 293.46795654296875, 1658.2745361328125]
+  UnitConfigName: FldObj_CliffSnowWall_D_02
+- '!Parameters': {ActorName: Obj_RockCover, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xc853fdb9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf9bbe724
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x6e24f60d}
+  SRTHash: 449620130
+  Translate: [4617.30712890625, 109.1136474609375, 1918.4744873046875]
+  UnitConfigName: ActorObserverTag
+- HashId: !u 0xc8c99652
+  Rotate: [0.3414432108402252, 0.9895763993263245, 1.3629616498947144]
+  SRTHash: 1515752680
+  Translate: [4408.083984375, 146.4146728515625, 1591.00341796875]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0xc8e562e2
+  Rotate: [2.761591672897339, 0.36159342527389526, -3.141592264175415]
+  SRTHash: -1495895316
+  Scale: 1.2000000476837158
+  Translate: [4238.859375, 259.0974426269531, 1602.331298828125]
+  UnitConfigName: FldObj_CliffSnowWall_D_11_Far
+- HashId: !u 0xc9642641
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xdc34d554}
+  Rotate: [2.9493637084960938, 0.7706807851791382, -2.8948404788970947]
+  SRTHash: -1972130502
+  Scale: 1.2000000476837158
+  Translate: [4451.01708984375, 163.01309204101562, 1907.2138671875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xca362161
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6a9afec1
+  Rotate: 1.2217304706573486
+  SRTHash: 1806128058
+  Translate: [4187.34130859375, 288.14959716796875, 1683.7205810546875]
+  UnitConfigName: DgnObj_EntranceTerminal_A_01
+- '!Parameters': {HiddenKorokBodyColor: 1, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 2,
+    HiddenKorokRightPlantType: 2, IsAppearCheck: false, IsHiddenKorokLiftAppear: true,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 20, PlacementType: Ground,
+    RailMoveSpeed: 0.10000000149011612, TerritoryArea: 0.0}
+  HashId: !u 0xca582d72
+  Rotate: 1.5999985933303833
+  SRTHash: 1257283389
+  Translate: [4615.14306640625, 106.21733093261719, 1915.4744873046875]
+  UnitConfigName: Npc_HiddenKorokGround
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xcb53aeea
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: -0.15000000596046448, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xb10a73fc
+  Rotate: [-3.141479253768921, -0.5504149794578552, -0.0001132972611230798]
+  SRTHash: 1160917275
+  Translate: [4216.8828125, 289.6813659667969, 1699.28515625]
+  UnitConfigName: Item_Fruit_B
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0xcb548f59
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x769ee397
+  Rotate: [-2.190796375274658, 1.5200014114379883, 0.0]
+  SRTHash: 210126595
+  Scale: 0.5
+  Translate: [4229.376953125, 416.8001708984375, 1983.11328125]
+  UnitConfigName: SwitchTimeLag
+- HashId: !u 0xcc21879d
+  Rotate: [3.1215927600860596, 1.0415934324264526, 3.1415927410125732]
+  SRTHash: -2036003202
+  Translate: [4079.94091796875, 436.93206787109375, 1717.2889404296875]
+  UnitConfigName: FldObj_CliffSnowScaffold_D_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xcd4d5512
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf39572cb
+  SRTHash: 0
+  Translate: [4435.91796875, 140.37864685058594, 1433.1878662109375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    EffectDispActorName: DesignerLocaterKorokRock
+    EffectDispSize: 1.5
+    IsNoResponceSound: false
+  HashId: !u 0xcd679221
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xd1d65d68}
+  SRTHash: 1835260255
+  Translate: [4096.904296875, 424.84722900390625, 1151.749755859375]
+  UnitConfigName: KorokAnswerResponce
+- HashId: !u 0xd0c06edd
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf6391787}
+  Rotate: [-0.13999998569488525, 0.0, 0.36000001430511475]
+  SRTHash: -161275254
+  Translate: [4183.01171875, 289.7165832519531, 1593.977783203125]
+  UnitConfigName: FldObj_CliffSnowWall_D_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd0e9e823
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xd67b3c4a
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xab083a12
+  Rotate: [-1.6891924142837524, 1.4405359029769897, -1.1722450256347656]
+  SRTHash: 241164172
+  Translate: [4215.07470703125, 408.60284423828125, 1979.3824462890625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xd124b725
+  Rotate: [-2.452458620071411, 1.1831294298171997, -2.172905206680298]
+  SRTHash: 337065189
+  Translate: [4194.07470703125, 320.1929016113281, 1137.480224609375]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0xd158a0e4
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x82798ef3}
+  Rotate: [2.718499183654785, 1.4723011255264282, -2.3293001651763916]
+  SRTHash: -895084784
+  Translate: [4386.63232421875, 164.94265747070312, 1531.4365234375]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0xd1d65d68
+  SRTHash: -362586482
+  Translate: [4090.717041015625, 423.260498046875, 1144.915283203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xd21eadb5
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x9828f351}
+  Rotate: [-0.16093046963214874, 1.4031074047088623, 0.14036749303340912]
+  SRTHash: 1646471048
+  Translate: [4228.525390625, 291.17559814453125, 1323.8240966796875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0xd300baac
+  Rotate: [-0.3255915343761444, 1.2638710737228394, 0.07736564427614212]
+  SRTHash: -1124735757
+  Translate: [4321.39990234375, 122.17289733886719, 1012.317138671875]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd3656852
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x0ef3b1d7
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xb6278901
+  Rotate: [-0.47999992966651917, 1.5400004386901855, 0.0]
+  SRTHash: -995292279
+  Translate: [4245.041015625, 424.4900817871094, 1983.5869140625]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xd414f5a4
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x8565386d}
+  Rotate: -1.4800026416778564
+  SRTHash: -105676283
+  Scale: 2.0
+  Translate: [4438.90576171875, 142.72239685058594, 1432.915771484375]
+  UnitConfigName: Area
+- HashId: !u 0xd4327252
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc8e562e2}
+  Rotate: [2.761591672897339, 0.36159342527389526, -3.141592264175415]
+  SRTHash: -1495895316
+  Scale: 1.2000000476837158
+  Translate: [4238.859375, 259.0974426269531, 1602.331298828125]
+  UnitConfigName: FldObj_CliffSnowWall_D_11
+- HashId: !u 0xd5e0525a
+  Rotate: [-1.0001498460769653, 0.8888137340545654, -0.7475986480712891]
+  SRTHash: 1882173435
+  Scale: 0.800000011920929
+  Translate: [4055.981689453125, 380.31072998046875, 1565.930908203125]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0xd65c0e8f
+  Rotate: [-2.213519334793091, -1.3843133449554443, 2.4431865215301514]
+  SRTHash: -510201802
+  Translate: [4188.13916015625, 391.4018859863281, 1276.52734375]
+  UnitConfigName: FldObj_MountainLanayru_A_01_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xd67b3c4a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x19be3c3e
+  Rotate: [-0.6199999451637268, 1.5200014114379883, 0.0]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4228.79541015625, 414.1731262207031, 1983.0838623046875]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd86f02b8
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x05f9db3d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x8ec2ad8c
+  Rotate: 2.659999132156372
+  SRTHash: -995292279
+  Translate: [4151.46484375, 375.01214599609375, 1992.4874267578125]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0xd9e4d633
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xb9b86378}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x642ebafd
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfa233ee0
+  Rotate: [1.8133745193481445, -1.4630862474441528, -1.8765785694122314]
+  SRTHash: 1825234782
+  Translate: [4274.533203125, 433.3260192871094, 1980.7845458984375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdba4f4ad
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x8565386d}
+  Rotate: [0.03165360912680626, -0.9596379399299622, -0.0473201721906662]
+  SRTHash: 2064350931
+  Scale: 0.800000011920929
+  Translate: [4389.0146484375, 170.90072631835938, 1457.13134765625]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- HashId: !u 0xdc34d554
+  Rotate: [2.9493637084960938, 0.7706807851791382, -2.8948404788970947]
+  SRTHash: -1972130502
+  Scale: 1.2000000476837158
+  Translate: [4451.01708984375, 163.01309204101562, 1907.2138671875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xdcd979e9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xc3d265c2
+  SRTHash: 0
+  Translate: [4172.759765625, 381.7423095703125, 1980.3326416015625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xdda3488e
+  Rotate: -1.3962632417678833
+  SRTHash: 1257667284
+  Translate: [4188.55859375, 288.1494445800781, 1685.6383056640625]
+  UniqueName: Demo008_0_PlayerEndPos
+  UnitConfigName: PosAfterDemoSkip
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xdefdd6d1
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1e44bc47
+  Rotate: [-3.122670888900757, 0.9341817498207092, -2.5460283756256104]
+  SRTHash: -1236894723
+  Translate: [4174.78564453125, 385.22052001953125, 1980.137451171875]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0xdf888981
+  Rotate: [0.657297670841217, 1.523555874824524, 0.9743740558624268]
+  SRTHash: -1673036659
+  Scale: 1.2000000476837158
+  Translate: [4320.0546875, 184.48468017578125, 1210.4468994140625]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0xdfa47d31
+  Rotate: [1.9575697183609009, 1.1135082244873047, 2.818364143371582]
+  SRTHash: -122812351
+  Translate: [4401.0517578125, 128.69232177734375, 1196.1607666015625]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0xdfe21923
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x878ea0e2}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x46007f22
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xa081f12a}
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xd1d65d68
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x4cd27347}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xcd679221}
+  Rotate: 0.10159362107515335
+  SRTHash: 1825234782
+  Translate: [4087.273193359375, 425.912353515625, 1142.166259765625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xe011d66b
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4419cb97}
+  Rotate: -0.16000010073184967
+  SRTHash: 445248257
+  Translate: [4188.60009765625, 287.3599548339844, 1703.3575439453125]
+  UnitConfigName: Obj_RockSetSnow_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe101f2be
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x700c37fe
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x0d7f31a6
+  Rotate: [3.0501859188079834, 1.030979871749878, -2.777587890625]
+  SRTHash: 241164172
+  Translate: [4201.10791015625, 400.07952880859375, 1978.5516357421875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xe154fce4
+  Rotate: [2.850658416748047, 0.8120304346084595, 3.0963823795318604]
+  SRTHash: 1883429300
+  Scale: 1.2000000476837158
+  Translate: [4228.095703125, 184.71246337890625, 1022.911376953125]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0xe2925a72
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x67c08e4a}
+  Rotate: [-0.9902133345603943, 1.0206578969955444, -0.9914194345474243]
+  SRTHash: -910674124
+  Scale: 0.7420517206192017
+  Translate: [4185.533203125, 306.48956298828125, 1467.6326904296875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe29b1a18
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x653b3f7b
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcb53aeea
+  Rotate: [3.141479253768921, 0.5504149794578552, 3.141479253768921]
+  SRTHash: -709040617
+  Translate: [4215.140625, 288.6921691894531, 1698.4244384765625]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xe2c45481
+  Rotate: [-0.045275814831256866, 1.3660229444503784, 0.8828458189964294]
+  SRTHash: 98329985
+  Translate: [4398.61962890625, 118.77285766601562, 1248.8319091796875]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+- HashId: !u 0xe2e8a031
+  Rotate: [-0.543922483921051, 1.457599401473999, -0.10481429100036621]
+  SRTHash: -782071148
+  Translate: [4337.029296875, 169.38490295410156, 1362.1220703125]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xe79326d7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf338e15c
+  Rotate: [-0.30990222096443176, 1.1952779293060303, 0.16415594518184662]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4189.85595703125, 391.05828857421875, 1984.5426025390625]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe80cccae
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xee9e18c7
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x93ed1e9f
+  Rotate: 1.6015902757644653
+  SRTHash: 241164172
+  Translate: [4134.11181640625, 395.40142822265625, 2001.9027099609375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xe8499198
+  SRTHash: 1565565296
+  Translate: [4008.60009765625, 447.48272705078125, 1105.89990234375]
+  UnitConfigName: DragonDropItemTarget
+- HashId: !u 0xe8807bea
+  Rotate: [-0.646159827709198, 0.5443326234817505, -0.15182630717754364]
+  SRTHash: -302028674
+  Translate: [4028.62646484375, 441.8232421875, 1577.0283203125]
+  UnitConfigName: FldObj_MountainLanayru_A_03_Far
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xea4cee30
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x8565386d}
+  Rotate: [0.13261884450912476, -1.419352650642395, -0.11662054806947708]
+  SRTHash: -417487215
+  Scale: 0.800000011920929
+  Translate: [4392.02001953125, 170.93092346191406, 1459.2508544921875]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- HashId: !u 0xec449e95
+  Rotate: [3.0290260314941406, 0.5203078985214233, -3.0795516967773438]
+  SRTHash: -1102164089
+  Scale: 0.9668432474136353
+  Translate: [4059.607666015625, 316.2973937988281, 986.8184204101562]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01_Far
+- HashId: !u 0xed3970a9
+  Rotate: 1.7453293800354004
+  SRTHash: -575281713
+  Translate: [4192.1201171875, 287.1494445800781, 1684.90869140625]
+  UnitConfigName: LookTag
+- HashId: !u 0xed9520ca
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x5c404f0c}
+  Rotate: [2.2485005855560303, 0.9769764542579651, 2.5445518493652344]
+  SRTHash: -1680881311
+  Translate: [4269.8818359375, 120.3304443359375, 950.9591064453125]
+  UnitConfigName: FldObj_RockBeachWall_A_01
+- HashId: !u 0xee0691b7
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x47a59742}
+  Rotate: [2.901592254638672, 0.9815933108329773, -3.141592264175415]
+  SRTHash: -1183953150
+  Scale: 1.2000000476837158
+  Translate: [4161.2255859375, 318.823486328125, 1695.1331787109375]
+  UnitConfigName: FldObj_CliffSnowWall_D_11
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xee9e18c7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc5f46b60
+  Rotate: [-0.7003920078277588, 0.9205266237258911, -0.9596015214920044]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4142.6328125, 384.06793212890625, 2007.83349609375]
+  UnitConfigName: Area
+- HashId: !u 0xef0ce65b
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xfc768acf}
+  Rotate: [-3.0698633193969727, 1.0183430910110474, 2.919313430786133]
+  SRTHash: 1097861887
+  Translate: [4150.267578125, 411.896484375, 1168.831298828125]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_02
+- HashId: !u 0xf1ab3a97
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe154fce4}
+  Rotate: [2.850658416748047, 0.8120304346084595, 3.0963823795318604]
+  SRTHash: 1883429300
+  Scale: 1.2000000476837158
+  Translate: [4228.095703125, 184.71246337890625, 1022.911376953125]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf338e15c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x9ae0208f
+  SRTHash: 0
+  Translate: [4189.85595703125, 391.05828857421875, 1984.5426025390625]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0xf39572cb
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x62a4c844
+  Rotate: [-1.5707963705062866, -1.4800026416778564, 0.0]
+  SRTHash: 1081774628
+  Scale: 0.5
+  Translate: [4435.91796875, 142.37864685058594, 1433.1878662109375]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0xf3b1abd4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4e7bc71a
+  Rotate: [-2.271188497543335, 0.9205266237258911, -0.9596015214920044]
+  SRTHash: 210126595
+  Scale: 0.5
+  Translate: [4144.984375, 385.3568420410156, 2008.056884765625]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xf49550b1
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x1ba8f551
+  Rotate: -0.9399999380111694
+  SRTHash: -1199692927
+  Scale: 1.7000000476837158
+  Translate: [4282.685546875, 288.98980712890625, 1655.6658935546875]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf4b57e73
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xc77a1ed6}
+  SRTHash: -1708680427
+  Translate: [4257.521484375, 288.3419494628906, 1693.5643310546875]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xf4d6688d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe8807bea}
+  Rotate: [-0.646159827709198, 0.5443326234817505, -0.15182630717754364]
+  SRTHash: -302028674
+  Translate: [4028.62646484375, 441.8232421875, 1577.0283203125]
+  UnitConfigName: FldObj_MountainLanayru_A_03
+- HashId: !u 0xf52c0b83
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x2a24dbf1}
+  Rotate: -1.679993748664856
+  SRTHash: -1118061282
+  Translate: [4366.73974609375, 103.6168212890625, 1014.4356079101562]
+  UnitConfigName: FldObj_RockBeach_A_M_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf57f2145
+  Rotate: 2.972543239593506
+  SRTHash: -2066742004
+  Translate: [4220.05419921875, 290.36456298828125, 1665.5048828125]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_03
+- HashId: !u 0xf5854b52
+  Rotate: [3.081592559814453, 1.1015933752059937, -3.141592264175415]
+  SRTHash: -287172359
+  Translate: [4271.0830078125, 241.75271606445312, 1657.828369140625]
+  UnitConfigName: FldObj_CliffSnowWall_D_06_Far
+- HashId: !u 0xf5a9bfe2
+  Rotate: 1.7199997901916504
+  SRTHash: 845375794
+  Scale: 1.2000000476837158
+  Translate: [4466.87451171875, 98.99617767333984, 1585.77392578125]
+  UnitConfigName: FldObj_RockBeachWall_A_07_Far
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf60be62d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1c3c0e4c
+  - {DefinitionName: StackLink, DestUnitHashId: !u 0x3c1cd9aa}
+  Rotate: 1.5999985933303833
+  SRTHash: 36616695
+  Translate: [4615.14306640625, 106.1173324584961, 1915.4744873046875]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0xf62be6ed
+  Rotate: [-0.09002187103033066, 0.5759235620498657, 0.11058883368968964]
+  SRTHash: 1399128354
+  Translate: [4201.8935546875, 291.65380859375, 1618.7764892578125]
+  UnitConfigName: FldObj_MountainLanayru_A_02_Far
+- HashId: !u 0xf6391787
+  Rotate: [-0.13999998569488525, 0.0, 0.36000001430511475]
+  SRTHash: -161275254
+  Translate: [4183.01171875, 289.7165832519531, 1593.977783203125]
+  UnitConfigName: FldObj_CliffSnowWall_D_02_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf6ec8adf
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x0d7f31a6
+  SRTHash: 0
+  Translate: [4213.34912109375, 405.5720520019531, 1979.6607666015625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xf7386492
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x14d45a24}
+  Rotate: [2.694844961166382, 0.45519381761550903, 3.1155154705047607]
+  SRTHash: -1326607230
+  Translate: [3957.779541015625, 444.6398010253906, 1162.3721923828125]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0xf80b24eb
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x27184d30}
+  Rotate: [2.9320433139801025, 0.8321751356124878, -2.987387180328369]
+  SRTHash: 774947269
+  Scale: 1.2000000476837158
+  Translate: [4339.22412109375, 189.181884765625, 1807.26123046875]
+  UnitConfigName: FldObj_MountainLanayruWall_A_01
+- HashId: !u 0xf887d849
+  Rotate: [0.0, 1.52159583568573, 1.960071394080387e-08]
+  SRTHash: -950702195
+  Scale: 0.800000011920929
+  Translate: [4202.69677734375, 324.3591003417969, 1375.435302734375]
+  UnitConfigName: FldObj_CliffSnowTopHalf_D_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf890365a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x6eaf049c
+  SRTHash: 0
+  Translate: [4245.87158203125, 422.89349365234375, 1983.6124267578125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: Obj_LiftRockGerudo_A_01, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xf8ed48eb
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xa081f12a}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x48343b69
+  SRTHash: -1924470694
+  Translate: [4085.97021484375, 425.9286193847656, 1147.377197265625]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf9bbe724
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0xf60be62d}
+  SRTHash: -1340148797
+  Translate: [4617.30712890625, 109.1136474609375, 1916.9744873046875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xfa233ee0
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x48e91373}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x359a152b}
+  SRTHash: -7852410
+  Translate: [4122.77734375, 392.755126953125, 1995.9873046875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0xfabc95c4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4776f90a
+  Rotate: [-1.880698561668396, 1.1952779293060303, 0.16415594518184662]
+  SRTHash: 210126595
+  Scale: 0.5
+  Translate: [4190.720703125, 393.557373046875, 1985.0399169921875]
+  UnitConfigName: SwitchTimeLag
+- HashId: !u 0xfc51cc5c
+  Rotate: -0.8400000333786011
+  SRTHash: -137357339
+  Translate: [4165.0068359375, 324.7218933105469, 1669.7139892578125]
+  UnitConfigName: Obj_RockSetSnow_A_01_Far
+- HashId: !u 0xfc768acf
+  Rotate: [-3.0698633193969727, 1.0183430910110474, 2.919313430786133]
+  SRTHash: 1097861887
+  Translate: [4150.267578125, 411.896484375, 1168.831298828125]
+  UnitConfigName: FldObj_GerudoHighlandRock_C_02_Far
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfd674348
+  Rotate: 1.2272138595581055
+  SRTHash: 1678460817
+  Translate: [4216.3076171875, 288.17431640625, 1692.1077880859375]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_03
+- HashId: !u 0xfdb8e442
+  Rotate: [3.0075690746307373, 0.4980463981628418, 3.089308023452759]
+  SRTHash: 295152202
+  Scale: 1.2999999523162842
+  Translate: [4133.48291015625, 335.0677490234375, 1041.581787109375]
+  UnitConfigName: FldObj_CliffSnowWall_D_05_Far
+- HashId: !u 0xfe04b897
+  Rotate: [2.683424234390259, 0.041692618280649185, -2.993283748626709]
+  SRTHash: -1229158580
+  Translate: [3937.623291015625, 413.0892639160156, 1045.793701171875]
+  UnitConfigName: FldObj_CliffSnowWall_D_01_Far
+- HashId: !u 0xffc16439
+  Rotate: [2.081592559814453, 1.0199997425079346, 3.1415927410125732]
+  SRTHash: -2029995394
+  Translate: [4410.88134765625, 112.35784912109375, 1380.040283203125]
+  UnitConfigName: FldObj_RockBeachWall_A_01_Far
+Rails:
+- HashId: !u 0x05ad1068
+  IsClosed: false
+  RailPoints:
+  - ControlPoints:
+    - [5.5, -33.59999084472656, -59.4000244140625]
+    - [-5.5, 33.59999084472656, 59.4000244140625]
+    Junctions:
+    - {HashId: !u 0xd47ab8c1, Index: 2}
+    NextDistance: 179.0613250732422
+    PrevDistance: 0.0
+    Translate: [4380.0, 170.0, 1000.0]
+    UnitConfigName: ConnectablePoint
+  - ControlPoints:
+    - [4.0, -38.800018310546875, -41.4000244140625]
+    - [-4.0, 38.800079345703125, 41.4000244140625]
+    NextDistance: 604.7201538085938
+    PrevDistance: 179.0613250732422
+    Translate: [4360.10009765625, 331.1000061035156, 1056.9000244140625]
+    UnitConfigName: ConnectablePoint
+  - ControlPoints:
+    - [92.300048828125, -6.29998779296875, -40.4000244140625]
+    - [-92.300048828125, 6.29998779296875, 40.4000244140625]
+    Junctions:
+    - {HashId: !u 0x663e8413, Index: 0}
+    NextDistance: 0.0
+    PrevDistance: 604.7201538085938
+    Translate: [4000.0, 750.0, 1280.0]
+    UnitConfigName: ConnectablePoint
+  RailType: Bezier
+  Translate: [4246.7001953125, 417.0333251953125, 1112.300048828125]
+  UniqueName: Dragon_Ice_MainRoute
+  UnitConfigName: Connectable

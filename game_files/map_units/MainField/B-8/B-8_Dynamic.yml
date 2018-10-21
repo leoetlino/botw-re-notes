@@ -1,0 +1,661 @@
+Objs:
+- HashId: !u 0x01c35021
+  SRTHash: -567510222
+  Translate: [-3745.40576171875, 146.3412628173828, 3599.865234375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x04fca413
+  Rotate: [0.0, 0.0, -0.09999999403953552]
+  SRTHash: 86552305
+  Translate: [-3674.82568359375, 123.44884490966797, 3579.052978515625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x0679fad2
+  Rotate: [3.0666027069091797, -0.3567189872264862, -3.072432518005371]
+  SRTHash: 2010946339
+  Scale: 1.2243895530700684
+  Translate: [-3765.650390625, 125.65097045898438, 3389.262451171875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- HashId: !u 0x0760c621
+  Rotate: -0.5768144130706787
+  SRTHash: 1337572783
+  Translate: [-3741.68212890625, 144.99241638183594, 3631.7001953125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x0b02828f
+  Rotate: [-0.004000619985163212, -0.010469619184732437, 0.14986756443977356]
+  SRTHash: -828270576
+  Translate: [-3749.543212890625, 151.07093811035156, 3599.688720703125]
+  UnitConfigName: KibakoDesert_Contain_01
+- '!Parameters': {IsStopWithoutReductionY: false, Shape: Sphere, Sound: ObservationPostBgm,
+    SpotBgmLifeScaleMargin: 0.0}
+  HashId: !u 0x0ba15304
+  SRTHash: -1489987056
+  Scale: 35.0
+  Translate: [-3430.0, 175.0, 3130.0]
+  UnitConfigName: SpotBgmTag
+- HashId: !u 0x0d395024
+  Rotate: -0.13681404292583466
+  SRTHash: 1316759926
+  Translate: [-3831.688232421875, 118.55118560791016, 3586.784912109375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- '!Parameters': {DropActor: Obj_BombArrow_A_03, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0, StartNoDraw: false}
+  HashId: !u 0x0edae46c
+  Rotate: [-0.027149373665452003, 0.6726794242858887, 0.11071982234716415]
+  SRTHash: -819120191
+  Translate: [-3751.359130859375, 150.60792541503906, 3602.250244140625]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x12015bc5
+  Rotate: -2.859998941421509
+  SRTHash: 1312608018
+  Translate: [-3431.204833984375, 156.6503448486328, 3100.3720703125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- HashId: !u 0x1465b2f7
+  Rotate: -2.4831855297088623
+  SRTHash: -1667387380
+  Translate: [-3773.24462890625, 154.80796813964844, 3131.6376953125]
+  UnitConfigName: Obj_TreePalmMini_A_01
+- '!Parameters': {IsStopWithoutReductionY: false, Shape: Sphere, Sound: CmnWildBgm,
+    SpotBgmLifeScaleMargin: 0.0}
+  HashId: !u 0x14cd74a7
+  SRTHash: -412759732
+  Scale: 40.0
+  Translate: [-3792.0, 162.0, 3124.0]
+  UnitConfigName: SpotBgmTag
+- HashId: !u 0x16845dc3
+  Rotate: -2.9599995613098145
+  SRTHash: -1542178127
+  Translate: [-3652.443603515625, 139.39114379882812, 3617.11083984375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_12
+- HashId: !u 0x16b2f660
+  Rotate: 0.13840770721435547
+  SRTHash: 679366394
+  Translate: [-3710.692626953125, 145.5087432861328, 3635.98486328125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x18dce094
+  Rotate: [0.879999577999115, 0.5399971008300781, 0.0]
+  SRTHash: -1995991223
+  Translate: [-3034.270263671875, 177.25692749023438, 3762.649658203125]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x1b8dc8fd
+  Rotate: [-0.01854018121957779, 0.6027603149414062, 0.04268963262438774]
+  SRTHash: 786725735
+  Translate: [-3752.51416015625, 150.5067901611328, 3600.80322265625]
+  UnitConfigName: KibakoDesert_Contain_01
+- HashId: !u 0x228e13ae
+  Rotate: [0.46000006794929504, 0.5399971008300781, 0.0]
+  SRTHash: 654550519
+  Translate: [-3034.560302734375, 178.03565979003906, 3747.712646484375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x23694f54
+  Rotate: [0.017205413430929184, -0.0018009908962994814, -0.028092127293348312]
+  SRTHash: 1859966197
+  Translate: [-3749.73291015625, 150.79591369628906, 3607.097412109375]
+  UnitConfigName: Pot
+- HashId: !u 0x272d98ed
+  Rotate: 2.8999993801116943
+  SRTHash: 1257705575
+  Translate: [-3038.4140625, 177.6102294921875, 3749.2705078125]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x281f09be
+  Rotate: -0.156814306974411
+  SRTHash: -1787070983
+  Translate: [-3674.1806640625, 128.02536010742188, 3702.25927734375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- HashId: !u 0x28c488a8
+  Rotate: [-1.1599998474121094, 0.5399971008300781, 0.0]
+  SRTHash: -1721177570
+  Translate: [-3027.240966796875, 179.22332763671875, 3758.59326171875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x292657c2
+  Rotate: -0.8600001335144043
+  SRTHash: 1219300163
+  Translate: [-3410.154052734375, 154.1190185546875, 3101.2578125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_30
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2a8b48fd
+  SRTHash: -2038178002
+  Translate: [-3835.04150390625, 2000.0, 3593.62451171875]
+  UnitConfigName: Obj_ElectricArrow_A_01
+- HashId: !u 0x2c79e498
+  Rotate: 1.6400001049041748
+  SRTHash: -767193400
+  Translate: [-3770.667724609375, 154.79222106933594, 3127.7734375]
+  UnitConfigName: Obj_TreePalmMini_A_01
+- HashId: !u 0x2f0cbd0d
+  Rotate: -2.063185691833496
+  SRTHash: -1368129345
+  Translate: [-3823.41455078125, 157.4917449951172, 3136.286865234375]
+  UnitConfigName: Obj_TreePalmMini_A_01
+- HashId: !u 0x313f273f
+  SRTHash: 1428260405
+  Translate: [-3636.24560546875, 119.68417358398438, 3663.213134765625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x33b62366
+  Rotate: [0.07999996840953827, 4.279911980376028e-09, 1.5851203016836735e-08]
+  SRTHash: -1376903574
+  Scale: 1.0862376689910889
+  Translate: [-3737.24072265625, 120.07402038574219, 3489.398193359375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_08
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x34f8bec2
+  Rotate: 0.6828612685203552
+  SRTHash: -315980738
+  Translate: [-3700.30859375, 125.11546325683594, 3662.19921875]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x35dd65d0
+  Rotate: [-2.3290770053863525, -0.07740458846092224, 2.9811081886291504]
+  SRTHash: -10471258
+  Translate: [-3028.966796875, 179.06031799316406, 3760.802490234375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x378659c3
+  Rotate: -2.1463711261749268
+  SRTHash: -1914095648
+  Translate: [-3798.15673828125, 157.41534423828125, 3136.453125]
+  UnitConfigName: Obj_TreePalmMini_A_01
+- HashId: !u 0x37e43678
+  Rotate: 0.5399977564811707
+  SRTHash: -1808949682
+  Translate: [-3040.6494140625, 176.00457763671875, 3759.146240234375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x38333aab
+  Rotate: 0.6599998474121094
+  SRTHash: 586018160
+  Translate: [-3764.90673828125, 154.79022216796875, 3127.125]
+  UnitConfigName: Obj_TreePalmMini_A_01
+- HashId: !u 0x38daf0d8
+  Rotate: [3.101592779159546, 0.4752221703529358, 3.1415927410125732]
+  SRTHash: 152899731
+  Translate: [-3711.029541015625, 145.09422302246094, 3615.133056640625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3922724e
+  Rotate: 0.22318507730960846
+  SRTHash: -465006950
+  Translate: [-3775.1787109375, 154.84532165527344, 3129.58740234375]
+  UnitConfigName: Obj_TreePalm_A_01
+- HashId: !u 0x3a6e7811
+  Rotate: [-2.149970531463623, -1.3331618309020996, 2.136988401412964]
+  SRTHash: -1220103960
+  Scale: 1.226815104484558
+  Translate: [-3767.837646484375, 123.29986572265625, 3541.68505859375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_08
+- HashId: !u 0x3b256f7f
+  Rotate: -2.2799997329711914
+  SRTHash: 467137886
+  Scale: 1.0862376689910889
+  Translate: [-3804.375732421875, 114.29888916015625, 3700.235595703125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_08
+- HashId: !u 0x3edd4bb2
+  Rotate: [0.5800000429153442, 0.5399971008300781, 0.0]
+  SRTHash: -692752502
+  Translate: [-3038.42822265625, 175.97308349609375, 3761.355712890625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3fa13389
+  Rotate: [-1.5676268339157104, -0.3435058295726776, 2.5992431640625]
+  SRTHash: 0
+  Translate: [-3042.58203125, 165.703125, 3735.06640625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x4142da05
+  Rotate: -2.883185625076294
+  SRTHash: -356839683
+  Translate: [-3037.2275390625, 177.85565185546875, 3748.46923828125]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x4602f01d
+  Rotate: -0.0199997927993536
+  SRTHash: -811279300
+  Translate: [-3537.430908203125, 134.65213012695312, 3003.921875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_32
+- HashId: !u 0x46287cc0
+  Rotate: [-0.026335574686527252, 0.31735295057296753, -0.08421448618173599]
+  SRTHash: -248774658
+  Translate: [-3699.754638671875, 144.56735229492188, 3648.0234375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x490b476f
+  Rotate: [-2.4615933895111084, -0.25840720534324646, 3.1415927410125732]
+  SRTHash: -448930298
+  Translate: [-3027.57763671875, 178.6532440185547, 3751.05419921875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x49344933
+  Rotate: [1.5648192167282104, -1.1010740995407104, -0.5329589247703552]
+  SRTHash: 0
+  Translate: [-3172.66015625, 145.5859375, 3003.171875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x4a54ced0
+  Rotate: 2.6999998092651367
+  SRTHash: -1232389223
+  Translate: [-3437.6328125, 156.6005096435547, 3155.6611328125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- HashId: !u 0x4ae7fca2
+  Rotate: [0.06837835162878036, 0.6782192587852478, 0.06688423454761505]
+  SRTHash: -795030054
+  Translate: [-3764.406982421875, 116.50736999511719, 3696.24169921875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x4af2349e
+  Rotate: [-0.21074645221233368, 0.03569552302360535, -0.2456165999174118]
+  SRTHash: -672255071
+  Translate: [-3788.14453125, 128.24107360839844, 3329.86962890625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_30
+- HashId: !u 0x4cf6f818
+  Rotate: [-0.19999998807907104, 0.0, 0.0]
+  SRTHash: 190909605
+  Translate: [-3702.650634765625, 122.05197143554688, 3423.6904296875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_08
+- HashId: !u 0x4da6cc67
+  Rotate: [0.7999999523162842, 0.5399971008300781, 0.0]
+  SRTHash: 127161847
+  Translate: [-3040.15478515625, 177.11013793945312, 3751.697998046875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x50358570
+  Rotate: [0.5400000214576721, 0.5399971008300781, 0.0]
+  SRTHash: 262606901
+  Translate: [-3035.882080078125, 177.9500274658203, 3747.90478515625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x51068ebb
+  Rotate: 2.3431851863861084
+  SRTHash: 564953958
+  Translate: [-3761.31201171875, 154.81689453125, 3121.42578125]
+  UnitConfigName: Obj_TreePalm_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x547a5eff
+  OnlyOne: true
+  SRTHash: 1937659315
+  Translate: [-3431.80029296875, 200.94378662109375, 3126.801025390625]
+  UnitConfigName: TwnObj_ArtifactObservationPostWindmill_A_01
+- HashId: !u 0x56a163e1
+  Rotate: 1.2999991178512573
+  SRTHash: 300422616
+  Translate: [-3026.631591796875, 179.0482635498047, 3755.6533203125]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x56a48efc
+  Rotate: [-2.4615933895111084, -0.25840720534324646, 3.1415927410125732]
+  SRTHash: 957743211
+  Translate: [-3028.33544921875, 178.58128356933594, 3750.05419921875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x57444cc6
+  Rotate: [-3.0820178985595703, 0.3162153363227844, -2.9520914554595947]
+  SRTHash: 1159137305
+  Translate: [-3039.69140625, 175.9583282470703, 3760.28515625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x58f22bc1
+  Rotate: [-2.4615933895111084, -0.25840720534324646, 3.1415927410125732]
+  SRTHash: 852129607
+  Translate: [-3030.50390625, 178.35635375976562, 3748.50390625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x5d7b23cd
+  Rotate: [-3.069406747817993, -0.4757053554058075, 0.218585804104805]
+  SRTHash: 1493097362
+  Translate: [-3461.884765625, 141.97564697265625, 3019.0068359375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_30
+- HashId: !u 0x5e7e769e
+  Rotate: -2.141592264175415
+  SRTHash: 1639797020
+  Translate: [-3702.995361328125, 144.83641052246094, 3629.7666015625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x601d7007
+  Rotate: -1.0199997425079346
+  SRTHash: -1002482070
+  Translate: [-3846.633056640625, 116.28477478027344, 3653.33740234375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x60ff07da
+  Rotate: -0.156814306974411
+  SRTHash: 1263200413
+  Translate: [-3674.1806640625, 136.3975372314453, 3702.25927734375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_12
+- HashId: !u 0x62c858d5
+  Rotate: -2.883185625076294
+  SRTHash: 51862022
+  Translate: [-3031.371826171875, 178.38180541992188, 3762.324951171875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x64c4076a
+  Rotate: [0.15535908937454224, 0.6670734882354736, 0.1526947021484375]
+  SRTHash: -744142308
+  Translate: [-3807.862060546875, 120.23774719238281, 3611.50439453125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6d5c8e57
+  Rotate: [0.9772948622703552, -0.2254638522863388, 0.0531005784869194]
+  SRTHash: 0
+  Translate: [-3731.87890625, 149.87109375, 3654.328125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x6e4f51da
+  Rotate: 3.1200003623962402
+  SRTHash: -196346286
+  Translate: [-3026.908935546875, 179.1265106201172, 3757.15771484375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x6ea11e3e
+  Rotate: [3.1393885612487793, -0.018275095149874687, -3.0215721130371094]
+  SRTHash: 575928040
+  Translate: [-3825.870849609375, 121.65180969238281, 3589.19140625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7053e93c
+  Rotate: [3.141479253768921, -1.2891844511032104, 3.141479253768921]
+  SRTHash: 1151411267
+  Translate: [-3070.4921875, 146.5608367919922, 3792.3359375]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x710c846c
+  SRTHash: 1470851812
+  Translate: [-3462.42626953125, 139.0052490234375, 3013.365234375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- HashId: !u 0x74495888
+  Rotate: 3.1200003623962402
+  SRTHash: -628099019
+  Translate: [-3026.6376953125, 178.93734741210938, 3754.133056640625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x761c7cef
+  Rotate: 1.2999991178512573
+  SRTHash: 125791609
+  Translate: [-3040.664306640625, 176.9073944091797, 3752.99755859375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropActor: Weapon_Bow_015, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x772bc100
+  Rotate: -2.62477707862854
+  SRTHash: -138120758
+  Translate: [-3432.910888671875, 161.1245574951172, 3131.577392578125]
+  UnitConfigName: TBox_Field_Stone
+- HashId: !u 0x7d7f839d
+  Rotate: -0.13681404292583466
+  SRTHash: 344501421
+  Translate: [-3831.688232421875, 135.8438720703125, 3586.784912109375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_12
+- HashId: !u 0x88ce0041
+  Rotate: [-3.0015926361083984, 1.421593427658081, 3.1415927410125732]
+  SRTHash: 360513183
+  Translate: [-3029.9384765625, 178.81423950195312, 3761.8505859375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitBurnState: false, InitMotionStatus: 0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8ab3fec1
+  SRTHash: 956086594
+  Translate: [-3747.684326171875, 150.80551147460938, 3607.1494140625]
+  UnitConfigName: Item_CookSet
+- HashId: !u 0x8b13e304
+  Rotate: 0.5399977564811707
+  SRTHash: 935771387
+  Translate: [-3029.298583984375, 178.48126220703125, 3749.263671875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x8b7632d9
+  Rotate: -0.8000003099441528
+  SRTHash: -567765964
+  Translate: [-3463.404296875, 156.48153686523438, 3131.914306640625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x910c7199
+  OnlyOne: true
+  Rotate: -2.6215856075286865
+  SRTHash: 1469427122
+  Translate: [-3434.248046875, 161.1440887451172, 3126.0]
+  UnitConfigName: TwnObj_ArtifactObservationPostDoor_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x91369fbb
+  Rotate: -0.4020995795726776
+  SRTHash: -977919251
+  Translate: [-3705.02734375, 150.7593231201172, 3636.90625]
+  UnitConfigName: Item_Mushroom_H
+- HashId: !u 0x91cadd5e
+  Rotate: [3.1081655025482178, -0.2958451509475708, -3.0981783866882324]
+  SRTHash: 1239261908
+  Translate: [-3033.138671875, 178.12704467773438, 3747.6943359375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x9319419f
+  Rotate: 0.6399999260902405
+  SRTHash: 1095090877
+  Translate: [-3678.73876953125, 117.4415512084961, 3706.958984375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0x9783847b
+  Rotate: -2.9599995613098145
+  SRTHash: -143578178
+  Translate: [-3652.443603515625, 122.09846496582031, 3617.11083984375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- HashId: !u 0x999682cf
+  Rotate: -2.683185338973999
+  SRTHash: 149152395
+  Translate: [-3838.63623046875, 157.5090789794922, 3131.77880859375]
+  UnitConfigName: Obj_TreePalmMini_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x9d22efe1
+  Rotate: [3.141479253768921, 0.4365234375, 3.141479253768921]
+  SRTHash: -1624027268
+  Translate: [-3711.09375, 122.1156005859375, 3682.109375]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x9f574227
+  Rotate: [-0.0730905532836914, -0.0010224472498521209, -0.018269402906298637]
+  SRTHash: -1727330269
+  Translate: [-3748.67724609375, 150.94508361816406, 3608.716552734375]
+  UnitConfigName: Pot
+- HashId: !u 0xa3acedf6
+  Rotate: [3.042268753051758, -1.2245558500289917, -2.9968321323394775]
+  SRTHash: 1322870987
+  Translate: [-3757.108154296875, 143.72962951660156, 3600.4072265625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xa49458d3
+  SRTHash: -1392934995
+  Translate: [-3187.228271484375, 125.44602966308594, 3469.803466796875]
+  UnitConfigName: Animal_Sunazarashi_A
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsMimicry: false,
+    IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 1,
+    TerritoryArea: 0.0}
+  HashId: !u 0xa656b655
+  Rotate: 3.135554790496826
+  SRTHash: -1109085874
+  Translate: [-3748.0, 125.88621520996094, 3561.0]
+  UnitConfigName: Enemy_Octarock_Desert
+- HashId: !u 0xa6900e5d
+  Rotate: -0.156814306974411
+  SRTHash: 967619232
+  Translate: [-3672.670166015625, 141.45823669433594, 3702.4111328125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_13
+- HashId: !u 0xa77dc3d6
+  Rotate: [-2.601592779159546, 0.24159325659275055, 3.1415927410125732]
+  SRTHash: 531285806
+  Translate: [-3032.80615234375, 177.87689208984375, 3762.71142578125]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa885968c
+  Rotate: [1.6856688261032104, 0.22607421875, -0.261474609375]
+  SRTHash: 0
+  Translate: [-3014.73828125, 171.01953125, 3778.19140625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xa8d314cd
+  Rotate: 0.5399977564811707
+  SRTHash: -1458434490
+  Translate: [-3028.095458984375, 179.1453094482422, 3759.7490234375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xab63892d
+  Rotate: [0.5800002217292786, 1.2999991178512573, 0.0]
+  SRTHash: -1953810339
+  Translate: [-3041.26220703125, 176.4457244873047, 3756.095458984375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xace54a22
+  Rotate: -0.13681404292583466
+  SRTHash: -1020587391
+  Translate: [-3831.688232421875, 127.4716796875, 3586.784912109375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- HashId: !u 0xad221a75
+  Rotate: 0.5399977564811707
+  SRTHash: -745220518
+  Translate: [-3031.81298828125, 178.22381591796875, 3748.205322265625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xae18b9bd
+  Rotate: -2.7199995517730713
+  SRTHash: 920972120
+  Translate: [-3745.908447265625, 145.7501678466797, 3606.58203125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0xb318ea6b
+  Rotate: 0.7968143820762634
+  SRTHash: 829742957
+  Translate: [-3821.921875, 157.41641235351562, 3115.03125]
+  UnitConfigName: Obj_TreePalmMini_A_01
+- HashId: !u 0xb71271ed
+  Rotate: [-3.141592264175415, 0.4384070932865143, -2.6815927028656006]
+  SRTHash: 203555416
+  Translate: [-3450.978759765625, 155.26515197753906, 3104.623046875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- HashId: !u 0xbd9646fd
+  SRTHash: -777220924
+  Translate: [-3508.592041015625, 135.45538330078125, 3028.23486328125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- HashId: !u 0xbe9ee8ad
+  Rotate: -2.9599995613098145
+  SRTHash: 2080643914
+  Translate: [-3652.443603515625, 131.01895141601562, 3617.11083984375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- HashId: !u 0xc0d84f3f
+  Rotate: 1.6631861925125122
+  SRTHash: -1727293514
+  Translate: [-3534.5126953125, 131.95545959472656, 3003.86865234375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- HashId: !u 0xc32cdc81
+  Rotate: [3.107595443725586, 0.6422380805015564, -2.7049551010131836]
+  SRTHash: 798443312
+  Scale: 1.2243895530700684
+  Translate: [-3739.11572265625, 126.9917221069336, 3366.14404296875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- HashId: !u 0xca2535bf
+  Rotate: -2.6215856075286865
+  SRTHash: 437674792
+  Translate: [-3433.369384765625, 163.64157104492188, 3133.74462890625]
+  UnitConfigName: TwnObj_Gerudo_Light_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xd3936845
+  SRTHash: -472327237
+  Translate: [-3121.22705078125, 119.22088623046875, 3463.302001953125]
+  UnitConfigName: Animal_Sunazarashi_A
+- HashId: !u 0xd5246894
+  Rotate: -2.7647781372070312
+  SRTHash: -103034825
+  Translate: [-3747.033203125, 144.56234741210938, 3627.491455078125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0xd968bde7
+  SRTHash: 924574453
+  Translate: [-3422.4833984375, 157.04608154296875, 3149.12353515625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_32
+- HashId: !u 0xd9d60311
+  Rotate: 2.7799994945526123
+  SRTHash: 1875502686
+  Translate: [-3036.923095703125, 176.3810577392578, 3762.12109375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xda16f90c
+  SRTHash: 167855964
+  Translate: [-3803.228515625, 123.57685852050781, 3561.162109375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0xda22a366
+  Rotate: -1.4815926551818848
+  SRTHash: 1340140714
+  Translate: [-3752.60693359375, 145.3256378173828, 3600.3330078125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- HashId: !u 0xdafef845
+  Rotate: [-3.0015926361083984, 1.421593427658081, 3.1415927410125732]
+  SRTHash: -862350216
+  Translate: [-3039.279296875, 177.32522583007812, 3750.476318359375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xe0c24452
+  Rotate: 2.7799994945526123
+  SRTHash: -283648513
+  Translate: [-3041.14794921875, 176.18519592285156, 3757.7060546875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe1e6ef87
+  Rotate: -0.29681462049484253
+  SRTHash: -287601210
+  Translate: [-3832.08349609375, 157.60812377929688, 3136.17431640625]
+  UnitConfigName: Obj_TreePalm_A_01
+- HashId: !u 0xe25f1349
+  Rotate: 0.5399977564811707
+  SRTHash: -810637344
+  Translate: [-3035.59912109375, 176.7646942138672, 3762.561279296875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xe3b5f598
+  Rotate: [-0.06500519812107086, 0.19532692432403564, -0.32540470361709595]
+  SRTHash: -599153728
+  Scale: 1.2243895530700684
+  Translate: [-3801.697509765625, 124.84463500976562, 3426.4326171875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- HashId: !u 0xe48e2a81
+  Rotate: [1.8565281629562378, -1.3706483840942383, 1.3433611392974854]
+  SRTHash: 959911564
+  Scale: 1.2059190273284912
+  Translate: [-3729.054931640625, 126.69070434570312, 3545.196044921875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_30
+- HashId: !u 0xe4b50920
+  Rotate: -0.156814306974411
+  SRTHash: 755835489
+  Translate: [-3674.1806640625, 119.10486602783203, 3702.25927734375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe697b6a7
+  Rotate: [3.141479253768921, -0.1357421725988388, 3.141479253768921]
+  SRTHash: -265774365
+  Translate: [-3699.09765625, 150.52072143554688, 3623.23046875]
+  UnitConfigName: Item_Mushroom_H
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xea364e99
+  Rotate: [1.8248289823532104, -0.2966308295726776, -0.3901366889476776]
+  SRTHash: 0
+  Translate: [-3718.63671875, 142.82421875, 3660.12890625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xeb61c6ec
+  SRTHash: -289744004
+  Translate: [-3034.87255859375, 176.46299743652344, 3753.984130859375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_31
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xec9b1148
+  Rotate: [-0.4490966498851776, -1.0718994140625, 2.020751953125]
+  SRTHash: 0
+  Translate: [-3768.3203125, 134.46484375, 3587.1640625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xef7d5305
+  Rotate: -0.5200003981590271
+  SRTHash: -1415251309
+  Translate: [-3396.237548828125, 156.0109405517578, 3140.101806640625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_32
+- HashId: !u 0xf5998f2e
+  Rotate: -0.45681437849998474
+  SRTHash: 100574994
+  Translate: [-3628.04150390625, 117.91126251220703, 3661.096923828125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_10
+- HashId: !u 0xfa573d4a
+  Rotate: 2.8999993801116943
+  SRTHash: 369042151
+  Translate: [-3041.046875, 176.67776489257812, 3754.513916015625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xfaa1d7c7
+  Rotate: -0.45681437849998474
+  SRTHash: -938926721
+  Translate: [-3628.04150390625, 126.83175659179688, 3661.096923828125]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- HashId: !u 0xfb825892
+  Rotate: [-0.294736385345459, 0.16690388321876526, 0.22652369737625122]
+  SRTHash: 2021338286
+  Translate: [-3445.77734375, 155.31924438476562, 3093.26806640625]
+  UnitConfigName: FldObj_GerudoDesertRock_A_32
+- HashId: !u 0xfbaf748a
+  Rotate: 1.723185420036316
+  SRTHash: 735443246
+  Translate: [-3703.924560546875, 145.33641052246094, 3621.714599609375]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+Rails: []

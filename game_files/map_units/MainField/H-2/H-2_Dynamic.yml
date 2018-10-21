@@ -1,0 +1,2590 @@
+Objs:
+- HashId: !u 0x0066059a
+  SRTHash: -375490236
+  Translate: [2157.531982421875, 557.6541748046875, -2188.51416015625]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x00d62d58
+  Rotate: [2.573032855987549, 1.3662810325622559, 2.2343804836273193]
+  SRTHash: 1149757492
+  Translate: [3011.7470703125, 371.1524658203125, -2024.55126953125]
+  UnitConfigName: Obj_RockSetDeathMt_F_01
+- HashId: !u 0x00e5a18c
+  Rotate: -1.2599996328353882
+  SRTHash: 1141114463
+  Scale: 1.2999999523162842
+  Translate: [2567.216552734375, 626.0, -3024.60009765625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x00f8b694
+  Rotate: [-0.8375535011291504, 1.389474630355835, -0.4090688228607178]
+  SRTHash: -1554025217
+  Scale: 1.100000023841858
+  Translate: [2699.8564453125, 726.302490234375, -2388.208251953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x01953c10
+  Rotate: 2.3215882778167725
+  SRTHash: 925836262
+  Translate: [2167.7578125, 552.3828125, -2102.721435546875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x01aa6dd1
+  Rotate: -1.039939522743225
+  SRTHash: 359351407
+  Translate: [2506.423095703125, 667.9869995117188, -2282.37744140625]
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x029be24f
+  Rotate: [-0.11068428307771683, -1.2191948890686035, 0.04230011627078056]
+  SRTHash: 813476290
+  Translate: [2096.391845703125, 576.8396606445312, -2222.34033203125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 0.9999998807907104}
+  HashId: !u 0x039792e4
+  Rotate: [-1.928187370300293, -0.3521376848220825, 3.1415927410125732]
+  SRTHash: -79375103
+  Scale: [104.35499572753906, 20.0, 126.91000366210938]
+  Translate: [2486.374755859375, 888.629150390625, -2739.891845703125]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0420818e
+  Rotate: [-0.8664001226425171, -0.4044616222381592, 2.5811679363250732]
+  SRTHash: -1721235639
+  Translate: [2407.31591796875, 652.0084228515625, -2291.729736328125]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x044ce38a
+  SRTHash: 1698179065
+  Translate: [2088.53857421875, 584.2278442382812, -2233.102783203125]
+  UnitConfigName: Obj_Mineral_B_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x04b79e5c
+  Rotate: [-1.8740648031234741, 0.8511271476745605, -2.794673442840576]
+  SRTHash: -1798092892
+  Scale: [67.10199737548828, 20.0, 248.2679901123047]
+  Translate: [2720.8173828125, 720.060791015625, -2759.9140625]
+  UnitConfigName: BoxWater
+- HashId: !u 0x04bf7dfe
+  Rotate: -2.0399961471557617
+  SRTHash: -1751304770
+  Translate: [2408.84130859375, 504.616455078125, -2119.8681640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x0560c5ba
+  SRTHash: 1110335020
+  Translate: [2085.85400390625, 557.934326171875, -2032.1922607421875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x06c7a9c8
+  Rotate: -1.0471975803375244
+  SRTHash: -517951140
+  Translate: [2172.680908203125, 632.8465576171875, -2330.253173828125]
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x0755244b
+  SRTHash: 143602161
+  Translate: [2002.565185546875, 530.9335327148438, -2031.3319091796875]
+  UnitConfigName: Obj_RockDeathMt_A_M_06
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x08b9cd63
+  Rotate: [1.2072618007659912, 0.989671528339386, 0.270683228969574]
+  SRTHash: -477755410
+  Scale: [25.649999618530273, 20.0, 249.0]
+  Translate: [2735.26123046875, 725.727783203125, -2462.8505859375]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 49.5,
+    WaterfallLength: 120.0, WaterfallRadius: 23.5, WaterfallThickness: 20.0}
+  HashId: !u 0x08f9fe74
+  Rotate: [-2.7672510147094727, 0.309303879737854, 2.6067302227020264]
+  SRTHash: 614640932
+  Scale: [20.562000274658203, 20.0, 13.210000038146973]
+  Translate: [2557.289306640625, 937.831787109375, -2509.23583984375]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0a04df5d
+  Rotate: [0.36742180585861206, -1.3934799432754517, -0.1411024034023285]
+  SRTHash: 1583775077
+  Translate: [2667.79931640625, 691.5216674804688, -2329.62548828125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x0b5ba598
+  Rotate: [-0.10829667001962662, 0.6713669896125793, -0.2034154087305069]
+  SRTHash: 1189330523
+  Translate: [2335.24609375, 643.587890625, -2343.31689453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 0.9999998807907104}
+  HashId: !u 0x0d4c1ad6
+  Rotate: [1.2134052515029907, -1.218658685684204, 0.0]
+  SRTHash: -79375103
+  Scale: [104.35499572753906, 20.0, 126.91000366210938]
+  Translate: [2400.30615234375, 888.6287841796875, -2553.8271484375]
+  UnitConfigName: BoxWater
+- HashId: !u 0x0d5865ba
+  Rotate: [2.711667537689209, -1.2294095754623413, -2.7337493896484375]
+  SRTHash: 363416102
+  Translate: [2740.445068359375, 733.38623046875, -2416.256591796875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x0da04b71
+  Rotate: [-0.1420295089483261, -0.8161099553108215, 0.0799483209848404]
+  SRTHash: 467345965
+  Translate: [2106.751953125, 556.4235229492188, -2027.9351806640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x0dad505d
+  Rotate: [0.5944138169288635, 0.23987717926502228, -0.7497604489326477]
+  SRTHash: -2031015533
+  Translate: [3011.318115234375, 386.36273193359375, -2066.3271484375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x0dbe67c6
+  Rotate: [0.1781536191701889, -1.2546756267547607, -0.48834434151649475]
+  SRTHash: -1278162711
+  Translate: [3007.0302734375, 371.2637939453125, -1997.46728515625]
+  UnitConfigName: Obj_RockSetDeathMt_F_01
+- HashId: !u 0x0e6e15a1
+  Rotate: [0.1256086230278015, 0.06198958307504654, -0.49610018730163574]
+  SRTHash: 1519988894
+  Translate: [2765.82421875, 771.8859252929688, -2613.602783203125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0f3f6c86
+  Rotate: [0.19999997317790985, 0.0, 0.0]
+  SRTHash: -702461094
+  Translate: [2387.84423828125, 647.811767578125, -2287.80517578125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x0f81a33a
+  Rotate: [2.759711503982544, 0.9827492833137512, 2.7726645469665527]
+  SRTHash: 1749769998
+  Translate: [2660.353759765625, 710.0335083007812, -2347.652587890625]
+  UnitConfigName: Obj_RockSetDeathMt_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0ffbcff2
+  Rotate: [-1.6785236597061157, 1.0367517471313477, -2.419344425201416]
+  SRTHash: 669667682
+  Translate: [2133.76171875, 635.7003173828125, -2788.63916015625]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x106ed2d3
+  Rotate: [2.293456792831421, 1.172119140625, 0.9034423232078552]
+  SRTHash: 0
+  Translate: [2729.640625, 559.03125, -2058.7734375]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x115c82c0
+  Rotate: [1.4781346321105957, 0.9293053150177002, 0.6944854855537415]
+  SRTHash: -1285503789
+  Translate: [2289.687744140625, 517.5123291015625, -2110.235107421875]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x1261f771
+  Rotate: [0.39282500743865967, 0.9127345681190491, -0.23365074396133423]
+  SRTHash: 200896497
+  Translate: [3038.275390625, 399.63250732421875, -2142.86083984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x12b80933
+  Rotate: -0.6981316804885864
+  SRTHash: 1182261514
+  Translate: [2695.417236328125, 726.7003173828125, -2369.196533203125]
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1465ccaf
+  Rotate: [0.40000006556510925, 0.0, 0.04000000283122063]
+  SRTHash: -2095159167
+  Translate: [2088.66845703125, 585.2472534179688, -2238.94970703125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x14c1fda7
+  Rotate: [-0.4782865047454834, 0.6102492213249207, 0.2459547072649002]
+  SRTHash: -1783697926
+  Translate: [2456.857177734375, 996.78759765625, -2533.362060546875]
+  UnitConfigName: Obj_RockDeathMt_A_M_06
+- HashId: !u 0x153816ab
+  Rotate: 0.849206805229187
+  SRTHash: -1590855382
+  Translate: [2171.669677734375, 550.1015625, -2107.73681640625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x15bcfddb
+  Rotate: [0.9634217619895935, 1.2217308282852173, 0.0]
+  SRTHash: 249013536
+  Scale: [104.1500015258789, 20.0, 260.0]
+  Translate: [2759.8427734375, 727.6070556640625, -2522.48876953125]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x15dff0ff
+  Rotate: [1.4051512479782104, -0.0860595703125, 0.019897468388080597]
+  SRTHash: 0
+  Translate: [2899.81640625, 508.1171875, -2099.6640625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x16b38aa9
+  Rotate: [-0.21563014388084412, 0.23765084147453308, 0.02935175597667694]
+  SRTHash: 1209569955
+  Translate: [2094.72119140625, 556.78955078125, -2058.08935546875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x188276b8
+  SRTHash: 963721315
+  Translate: [2771.9326171875, 625.0764770507812, -2910.156982421875]
+  UnitConfigName: LavaHaze_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true,
+    IsLocatorCreate: false, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x19138d08
+  SRTHash: 1395013501
+  Translate: [2665.711181640625, 713.8234252929688, -2354.392578125]
+  UnitConfigName: Animal_Insect_X
+- HashId: !u 0x19927240
+  SRTHash: -1608304030
+  Translate: [2028.750244140625, 524.292724609375, -2044.4705810546875]
+  UnitConfigName: Obj_RockDeathMt_A_M_06
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x19b261ad
+  Rotate: [-0.08710691332817078, -0.6663987040519714, -0.0100907227024436]
+  SRTHash: 1481780845
+  Translate: [2458.0166015625, 658.7420654296875, -2306.1416015625]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- HashId: !u 0x19e37327
+  SRTHash: -1963040140
+  Translate: [2362.1171875, 624.06298828125, -2266.72998046875]
+  UnitConfigName: LavaHaze_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 49.5,
+    WaterfallLength: 120.0, WaterfallRadius: 23.5, WaterfallThickness: 20.0}
+  HashId: !u 0x1a271b8f
+  Rotate: [-2.7046053409576416, -0.20758448541164398, -2.6017394065856934]
+  SRTHash: -382876540
+  Scale: [18.131000518798828, 20.0, 13.210000038146973]
+  Translate: [2501.380615234375, 938.167724609375, -2513.025634765625]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true,
+    IsLocatorCreate: false, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1a372166
+  SRTHash: 1209470839
+  Translate: [2777.052001953125, 751.1426391601562, -2498.119873046875]
+  UnitConfigName: Animal_Insect_X
+- HashId: !u 0x1a55e3e0
+  Rotate: [-0.25551745295524597, -0.5823667049407959, 0.2563908100128174]
+  SRTHash: -570874663
+  Translate: [2457.01806640625, 656.5274047851562, -2306.937255859375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1b9279d2
+  Rotate: [-1.0650153160095215, 1.547935128211975, -0.965736448764801]
+  SRTHash: -36410530
+  Translate: [2417.544189453125, 668.1964721679688, -2301.19970703125]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1bc1850f
+  Rotate: [-2.8870596885681152, 0.9833976030349731, -2.9283196926116943]
+  SRTHash: -83053024
+  Translate: [2150.123291015625, 601.9817504882812, -2891.340087890625]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x1c704fcc
+  Rotate: [0.1442924290895462, -0.49276912212371826, -0.15369351208209991]
+  SRTHash: -767975930
+  Translate: [2011.004638671875, 582.478759765625, -2802.2275390625]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x1c9d1c65
+  Rotate: -2.111847162246704
+  SRTHash: -375854728
+  Scale: [5.0, 6.0, 5.0]
+  Translate: [2754.950439453125, 732.46875, -2437.6103515625]
+  UnitConfigName: AscendingCurrent_FireRelic_Battle
+- HashId: !u 0x1ccd8288
+  Rotate: [0.799511194229126, -1.3450851440429688, -1.8268623352050781]
+  SRTHash: -348240893
+  Translate: [2985.17138671875, 457.87652587890625, -2212.2607421875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1cdc87f0
+  SRTHash: 1360244149
+  Translate: [2265.30615234375, 530.8966064453125, -2100.69677734375]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x1d3f81be
+  SRTHash: -808226872
+  Translate: [2730.37353515625, 624.8162231445312, -2257.93994140625]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x1d50b5ec
+  Rotate: [-0.19407014548778534, -0.4101617634296417, 0.5502257347106934]
+  SRTHash: -1134907456
+  Translate: [2833.9716796875, 627.432861328125, -2301.2890625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1e2b53e2
+  Rotate: -0.9599999785423279
+  SRTHash: -1464764854
+  Translate: [2130.49462890625, 635.8319702148438, -2771.091064453125]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x1f1225cc
+  Rotate: [0.7084997296333313, -0.9200055003166199, -0.7715957164764404]
+  SRTHash: 803034183
+  Translate: [2734.997802734375, 788.43359375, -2560.803955078125]
+  UnitConfigName: Obj_BoxIron_MtDeath
+- HashId: !u 0x202ab600
+  Rotate: [-0.1926954686641693, 0.6483041644096375, -0.24431633949279785]
+  SRTHash: 4729467
+  Scale: 1.2000000476837158
+  Translate: [2058.194091796875, 534.3561401367188, -2151.124755859375]
+  UnitConfigName: Obj_RockDeathMt_C_L_06
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x203eda90
+  Rotate: [3.0003597736358643, 0.8664186000823975, 2.797891616821289]
+  SRTHash: -1232356990
+  Translate: [2428.568115234375, 654.11865234375, -2292.0830078125]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x20ae49f0
+  Rotate: [0.21999996900558472, 0.0, 0.0]
+  SRTHash: 1596626659
+  Translate: [2013.8134765625, 582.5479125976562, -2802.867431640625]
+  UnitConfigName: Obj_Mineral_B_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, GolemSleepType: SleepForward_A,
+    GolemWeakPointLocation: Point_A, IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0x21d0f92b
+  Rotate: [-0.008913126774132252, -0.00020999462867621332, -0.04711127653717995]
+  SRTHash: -1381771963
+  Translate: [2161.161865234375, 552.817626953125, -2022.4254150390625]
+  UnitConfigName: Enemy_Golem_Little_Fire
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 49.5,
+    WaterfallLength: 120.0, WaterfallRadius: 23.5, WaterfallThickness: 20.0}
+  HashId: !u 0x226ddd8f
+  Rotate: [-1.5508192777633667, -0.9981116652488708, 2.030910015106201]
+  SRTHash: 42733198
+  Scale: [20.562000274658203, 20.0, 13.210000038146973]
+  Translate: [2631.54833984375, 942.628662109375, -2631.982421875]
+  UnitConfigName: BoxWater
+- HashId: !u 0x228eff73
+  Rotate: [-0.09976065903902054, -0.38125473260879517, 0.4753827154636383]
+  SRTHash: -282529158
+  Translate: [2281.71142578125, 638.0323486328125, -2381.570068359375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x23b8cf94
+  Rotate: [0.3867649435997009, 1.2217308282852173, 0.0]
+  SRTHash: -1251272166
+  Scale: [104.3550033569336, 20.0, 16.22800064086914]
+  Translate: [2644.669677734375, 951.13427734375, -2564.408447265625]
+  UnitConfigName: BoxWater
+- HashId: !u 0x240ec45a
+  Rotate: [-2.7692458629608154, -0.012456164695322514, 0.4793502986431122]
+  SRTHash: 588421534
+  Translate: [2774.9091796875, 759.9243774414062, -2524.46484375]
+  UnitConfigName: Obj_RockDeathMt_A_L_03
+- HashId: !u 0x24ce390c
+  SRTHash: 1275569920
+  Translate: [2833.44384765625, 624.794921875, -2359.998046875]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x24e0930c
+  Rotate: [-2.590291976928711, -1.0399800539016724, 2.546858072280884]
+  SRTHash: -2076902881
+  Translate: [2345.2861328125, 645.1361694335938, -2329.53125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x25c77095
+  Rotate: [2.2487704753875732, 0.6311647295951843, 2.5092313289642334]
+  SRTHash: 900352649
+  Translate: [2823.65380859375, 627.3817749023438, -2935.451171875]
+  UnitConfigName: Obj_Mineral_B_01
+- '!Parameters': {EquipItem1: Weapon_Sword_009, FortressEatPer: -1, IsMimicry: true,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x260c0295
+  Rotate: -1.4199998378753662
+  SRTHash: -61413988
+  Translate: [2055.99755859375, 538.5643920898438, -2930.241455078125]
+  UnitConfigName: Enemy_Lizalfos_Fire
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x26844202
+  Rotate: [0.33854976296424866, 0.968808650970459, 0.5968824625015259]
+  SRTHash: 816339184
+  Translate: [2423.937744140625, 676.6522216796875, -2302.7890625]
+  UnitConfigName: Obj_Mineral_B_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x271a1327
+  Rotate: 0.35999998450279236
+  SRTHash: 1232226740
+  Translate: [2115.79248046875, 635.1256103515625, -2553.793701171875]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x27297817
+  Rotate: [0.18635083734989166, 0.0396813303232193, -0.16843269765377045]
+  SRTHash: -787512059
+  Translate: [2727.126220703125, 734.5761108398438, -2413.848388671875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, GolemSleepType: SleepForward_A,
+    GolemWeakPointLocation: Point_A, IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0x27ca0211
+  Rotate: [-0.034265533089637756, -0.00458099041134119, -0.26578250527381897]
+  SRTHash: -703379621
+  Translate: [2155.078857421875, 555.56103515625, -2040.6002197265625]
+  UnitConfigName: Enemy_Golem_Little_Fire
+- HashId: !u 0x28ab9eaa
+  Rotate: [-0.986709713935852, 0.11975009739398956, 0.2220553308725357]
+  SRTHash: -228343179
+  Translate: [2116.039306640625, 636.5361938476562, -2552.439697265625]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x29a14491
+  Rotate: [1.2147750854492188, 1.0024505853652954, 1.2981122732162476]
+  SRTHash: -618861105
+  Translate: [2657.642822265625, 719.9200439453125, -2362.982177734375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x2b63eb28
+  Rotate: [2.4292657375335693, 0.26410627365112305, -3.0545051097869873]
+  SRTHash: -1286816447
+  Translate: [2418.51513671875, 653.9422607421875, -2292.4560546875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2bac3bf0
+  Rotate: 2.6200008392333984
+  SRTHash: 642097101
+  Translate: [2930.252685546875, 470.96649169921875, -2079.523193359375]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x2c5411b6
+  Rotate: 0.7507919073104858
+  SRTHash: 1103278090
+  Translate: [2167.77392578125, 551.3828125, -2102.72314453125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x2cd0b67c
+  SRTHash: -354373660
+  Translate: [2382.013427734375, 646.0650634765625, -2316.4541015625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x2d4322bf
+  Rotate: [1.3365731239318848, -1.218658685684204, 0.0]
+  SRTHash: 2012105293
+  Scale: [104.35501098632812, 20.0, 113.60000610351562]
+  Translate: [2614.354736328125, 892.33544921875, -2632.47998046875]
+  UnitConfigName: BoxWater
+- HashId: !u 0x2d4d2791
+  Rotate: [-0.33889541029930115, 0.12403673678636551, 0.696344792842865]
+  SRTHash: 1357608762
+  Translate: [2404.815673828125, 513.4488525390625, -2000.16552734375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2d710ca1
+  SRTHash: 1318449730
+  Translate: [2292.205810546875, 523.8970947265625, -2117.814453125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x2f38e6cc
+  Rotate: [-2.8913745880126953, 0.09384416788816452, -3.0219063758850098]
+  SRTHash: -723230238
+  Translate: [2297.88330078125, 642.94384765625, -2380.214599609375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x2f57cf99
+  Rotate: [0.06569252908229828, 1.243180513381958, -0.2971988022327423]
+  SRTHash: 1825214046
+  Translate: [2785.201904296875, 754.3741455078125, -2558.50927734375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x30744622
+  Rotate: [0.8651114702224731, 0.9823731184005737, 1.4811264276504517]
+  SRTHash: 1473447736
+  Translate: [2435.685302734375, 528.3101806640625, -2072.468994140625]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x307e881c
+  Rotate: [-3.020024299621582, 0.1604207158088684, -3.082080125808716]
+  SRTHash: -84263206
+  Translate: [2258.028076171875, 633.5889892578125, -2391.5595703125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x30a4f902
+  Rotate: [0.15505248308181763, 0.757604718208313, 0.31541526317596436]
+  SRTHash: -1507230785
+  Translate: [2664.165771484375, 725.7098999023438, -2362.7578125]
+  UnitConfigName: FldObj_DeathMtArtifactLamp_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x30af772e
+  Rotate: [2.9415929317474365, -0.7233347296714783, -3.141592264175415]
+  SRTHash: -1607955169
+  Translate: [2757.113525390625, 734.60205078125, -2439.381103515625]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x30c435ee
+  Rotate: [-0.11335892975330353, -0.6012461185455322, -0.026610810309648514]
+  SRTHash: -2030599549
+  Translate: [2118.486328125, 611.8545532226562, -2238.9296875]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x30d72e8c
+  Rotate: -2.2923858165740967
+  SRTHash: 1349377317
+  Translate: [2171.0185546875, 551.1015625, -2106.96142578125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 49.5,
+    WaterfallLength: 120.0, WaterfallRadius: 23.5, WaterfallThickness: 20.0}
+  HashId: !u 0x31005f64
+  Rotate: [0.5084242820739746, -1.5518566370010376, 0.012743826024234295]
+  SRTHash: -879999212
+  Scale: [40.0, 20.0, 13.210000038146973]
+  Translate: [2627.466552734375, 946.8299560546875, -2603.325439453125]
+  UnitConfigName: BoxWater
+- HashId: !u 0x312372c7
+  SRTHash: -306518679
+  Translate: [2490.263671875, 624.997314453125, -2973.529296875]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x31331063
+  Rotate: [1.5940557718276978, -1.2911920547485352, -2.3477861881256104]
+  SRTHash: 1536521215
+  Scale: 0.6000000238418579
+  Translate: [2762.44091796875, 791.589111328125, -2579.9541015625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x32e0a115
+  SRTHash: -1696409193
+  Translate: [2178.098876953125, 624.905517578125, -2559.684326171875]
+  UnitConfigName: LavaHaze_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x32ef8c0e
+  SRTHash: -1965240196
+  Translate: [2090.341552734375, 584.3921508789062, -2234.072021484375]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3302e1fd
+  Rotate: [-2.7057738304138184, 0.727047860622406, -1.6199535131454468]
+  SRTHash: -2131895751
+  Translate: [2822.962646484375, 628.036376953125, -2935.7861328125]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x33ddbf14
+  Rotate: [-2.4284462928771973, -0.6952061057090759, 3.0071444511413574]
+  SRTHash: -355168190
+  Scale: 1.2000000476837158
+  Translate: [2150.897216796875, 535.0955810546875, -2136.023193359375]
+  UnitConfigName: Obj_RockDeathMt_C_L_06
+- '!Parameters': {IsStopWithoutReductionY: true, Shape: Box, Sound: CmnGoronBgm, SpotBgmLifeScaleMargin: 0.0}
+  HashId: !u 0x37819226
+  SRTHash: -126210697
+  Scale: [40.0, 15.0, 15.0]
+  Translate: [2050.0, 530.0, -2040.0]
+  UnitConfigName: SpotBgmTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3947b906
+  Rotate: -1.279999852180481
+  SRTHash: 1592923026
+  Translate: [2117.450927734375, 635.6781005859375, -2553.757080078125]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x3951d7fe
+  Rotate: [-1.726235270500183, 0.6771353483200073, -2.902325391769409]
+  SRTHash: 1026489307
+  Scale: [30.27899932861328, 20.0, 126.91000366210938]
+  Translate: [2643.11328125, 885.8828735351562, -2712.31005859375]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 52.17499923706055,
+    WaterfallLength: 120.0, WaterfallRadius: 20.127500534057617, WaterfallThickness: 20.0}
+  HashId: !u 0x39942713
+  Rotate: [-2.6190409660339355, 0.3490658402442932, 3.1415927410125732]
+  SRTHash: -1084397020
+  Scale: [104.35499572753906, 20.0, 13.210000038146973]
+  Translate: [2501.485595703125, 950.8959350585938, -2507.973876953125]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3bf44991
+  Rotate: [-0.1029302254319191, -0.23877762258052826, 0.024426037445664406]
+  SRTHash: -1704706097
+  Translate: [2116.513671875, 612.3931274414062, -2243.662109375]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x3c3b6a40
+  Rotate: [-0.24223902821540833, 0.7206267714500427, 0.1201932281255722]
+  SRTHash: 2074556409
+  Translate: [2556.92529296875, 669.3688354492188, -2287.990478515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3c6b3867
+  Rotate: [2.8428640365600586, 0.8765642642974854, 2.4654531478881836]
+  SRTHash: 284307350
+  Translate: [2917.673095703125, 561.5504150390625, -2149.075927734375]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x3fb1f802
+  Rotate: 0.7000001668930054
+  SRTHash: -2033996397
+  Translate: [2439.28564453125, 647.6617431640625, -2315.68798828125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x40b2a160
+  Rotate: [1.105262041091919, -1.085903525352478, -1.1525661945343018]
+  SRTHash: -2121369910
+  Translate: [2148.77685546875, 601.5957641601562, -2886.25927734375]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x41813c7f
+  SRTHash: -943804792
+  Translate: [2317.523193359375, 624.9506225585938, -2913.159912109375]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x42a7a4d0
+  Rotate: [-1.5620498657226562, 1.4225361347198486, -1.4946731328964233]
+  SRTHash: 1193530488
+  Translate: [2241.593505859375, 633.3295288085938, -2383.10986328125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x438f6aac
+  Rotate: -1.039939522743225
+  SRTHash: 1182261514
+  Translate: [2500.591796875, 667.9869995117188, -2278.953857421875]
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x43fa833a
+  Rotate: [-0.24308393895626068, 0.34750896692276, -0.4618852734565735]
+  SRTHash: -1006103039
+  Scale: 1.0800001621246338
+  Translate: [2059.15966796875, 533.521484375, -2154.420654296875]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- HashId: !u 0x44da8f82
+  Rotate: [0.08753743022680283, -0.23796752095222473, -0.007413425017148256]
+  SRTHash: -949874543
+  Scale: 1.2000000476837158
+  Translate: [2071.641357421875, 531.3130493164062, -2134.561767578125]
+  UnitConfigName: Obj_RockDeathMt_C_L_07
+- HashId: !u 0x45ed8c47
+  Rotate: [2.9467334747314453, 0.4303148090839386, -3.1115808486938477]
+  SRTHash: -2144823688
+  Translate: [2775.58544921875, 758.9434814453125, -2531.201904296875]
+  UnitConfigName: Obj_RockSetDeathMt_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x461df5b7
+  Rotate: [0.33752691745758057, -0.004144884645938873, 0.16442835330963135]
+  SRTHash: -946290014
+  Translate: [2670.82958984375, 699.9592895507812, -2314.54296875]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x462dd7bd
+  SRTHash: -1922670008
+  Scale: 1.2000000476837158
+  Translate: [2080.1806640625, 533.2234497070312, -2120.58642578125]
+  UnitConfigName: Obj_RockDeathMt_C_L_06
+- HashId: !u 0x472aff25
+  Rotate: 2.643183708190918
+  SRTHash: -571111035
+  Translate: [2063.032470703125, 580.1067504882812, -2756.191650390625]
+  UnitConfigName: Obj_LiftRockEldin_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x48c08263
+  Rotate: [3.1388144493103027, 0.041225265711545944, 2.8814923763275146]
+  SRTHash: -2131039616
+  Translate: [2088.9892578125, 578.0839233398438, -2218.969482421875]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x48da7c65
+  Rotate: 1.4835301637649536
+  SRTHash: 2020804760
+  Translate: [2502.605712890625, 667.4456176757812, -2270.256103515625]
+  UnitConfigName: DgnObj_GoronCannonBase_A_01
+- HashId: !u 0x4ac019ed
+  Rotate: [3.010801315307617, 1.1171118021011353, 3.0343382358551025]
+  SRTHash: -1907363356
+  Translate: [2755.48974609375, 734.8555908203125, -2438.95166015625]
+  UnitConfigName: Obj_MineralGrain_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4b522b35
+  Rotate: 1.4800000190734863
+  SRTHash: -894498373
+  Translate: [1986.98291015625, 537.33984375, -2842.047607421875]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 49.5,
+    WaterfallLength: 120.0, WaterfallRadius: 23.5, WaterfallThickness: 20.0}
+  HashId: !u 0x4bda4c80
+  Rotate: [1.5518311262130737, -0.9633061289787292, -1.0783175230026245]
+  SRTHash: 1516272820
+  Scale: [18.131000518798828, 20.0, 13.210000038146973]
+  Translate: [2632.05908203125, 942.964599609375, -2575.947998046875]
+  UnitConfigName: BoxWater
+- HashId: !u 0x4bdba030
+  Rotate: [0.40064167976379395, 0.35884344577789307, -0.3880614936351776]
+  SRTHash: -1724387369
+  Translate: [2271.4091796875, 528.899169921875, -2105.728759765625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4be1152c
+  Rotate: [0.3949449360370636, 0.67244553565979, -0.4343239665031433]
+  SRTHash: -1598991356
+  Translate: [2430.32958984375, 676.2233276367188, -2303.94384765625]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- HashId: !u 0x4be825ec
+  Rotate: [-0.1658540815114975, -0.784256637096405, 0.16728374361991882]
+  SRTHash: -337537436
+  Translate: [2920.8291015625, 561.8152465820312, -2149.79345703125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x4c428977
+  Rotate: 1.5615912675857544
+  SRTHash: -587987803
+  Translate: [2868.72705078125, 626.0, -2368.23388671875]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x4c8ad4fc
+  Rotate: [-0.1146150678396225, -0.14249621331691742, 0.6684800386428833]
+  SRTHash: -1210438027
+  Translate: [2395.29736328125, 516.8773193359375, -1960.327880859375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x4ca10be9
+  Rotate: [0.12162399291992188, 1.1107889413833618, 0.6248198747634888]
+  SRTHash: 739893612
+  Translate: [2650.903564453125, 681.1201171875, -2315.32763671875]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0x4cdf7399
+  Rotate: -2.390800714492798
+  SRTHash: -1489201956
+  Translate: [2167.09423828125, 551.3828125, -2103.45751953125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x4ce4599f
+  Rotate: [2.677239418029785, -0.1298574060201645, 3.109225273132324]
+  SRTHash: -1575818490
+  Translate: [2736.681884765625, 784.3768310546875, -2554.995849609375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x4d2e3775
+  Rotate: [-1.6318190097808838, 1.2860225439071655, -1.5739597082138062]
+  SRTHash: -1599226538
+  Translate: [2093.814453125, 636.1754760742188, -2646.93701171875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x4d48cc48
+  Rotate: [-2.8728227615356445, -0.9645334482192993, 2.72255539894104]
+  SRTHash: -1379581724
+  Translate: [2746.59765625, 789.4457397460938, -2615.599609375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x4d9f4d3f
+  Rotate: [-0.030326738953590393, 0.000586403941269964, 0.031252093613147736]
+  SRTHash: 1908986993
+  Translate: [2627.907470703125, 694.1716918945312, -2328.6484375]
+  UnitConfigName: Obj_BoxIron_MtDeath
+- HashId: !u 0x4dea15b1
+  Rotate: -0.8200043439865112
+  SRTHash: -1958655557
+  Translate: [2166.35302734375, 551.3828125, -2102.7587890625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x4e36cfa0
+  Rotate: [-3.106184244155884, -0.5404995679855347, -2.631727695465088]
+  SRTHash: 264857576
+  Translate: [2660.845947265625, 690.766845703125, -2344.455078125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x4e5185e0
+  Rotate: [0.10970109701156616, -0.1313958466053009, 0.7720081806182861]
+  SRTHash: 1135623119
+  Translate: [2652.67236328125, 688.1708374023438, -2332.3828125]
+  UnitConfigName: FldObj_BoardIronDeathMt_A
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 0.9999998807907104}
+  HashId: !u 0x4e56e768
+  Rotate: [1.0440824031829834, 0.8589667081832886, -0.28666892647743225]
+  SRTHash: 1026489307
+  Scale: [30.27899742126465, 20.0, 126.91000366210938]
+  Translate: [2644.857666015625, 885.8828735351562, -2497.084716796875]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 52.17499923706055,
+    WaterfallLength: 120.0, WaterfallRadius: 20.127500534057617, WaterfallThickness: 20.0}
+  HashId: !u 0x4e931785
+  Rotate: [-2.6190412044525146, -1.2217305898666382, 3.1415927410125732]
+  SRTHash: -1084397020
+  Scale: [104.35499572753906, 20.0, 13.210000038146973]
+  Translate: [2632.22412109375, 950.8959350585938, -2568.93798828125]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 96.0, WaterfallRadius: 26.399999618530273, WaterfallThickness: 12.0}
+  HashId: !u 0x4e9cc75b
+  Rotate: 0.17850537598133087
+  SRTHash: 328584181
+  Scale: [24.000001907348633, 14.40000057220459, 43.20000076293945]
+  Translate: [2394.255615234375, 625.9849853515625, -2166.90283203125]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4ec556e8
+  Rotate: [0.0, 0.0, -0.25999999046325684]
+  SRTHash: -913668502
+  Translate: [2125.82275390625, 557.5007934570312, -2174.724609375]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x4f9b05a1
+  Rotate: [0.2647993564605713, -0.35497182607650757, -0.4706452190876007]
+  SRTHash: 1793619824
+  Scale: 0.800000011920929
+  Translate: [2777.22705078125, 755.8961181640625, -2512.501220703125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x500bf4d5
+  Rotate: [-0.2809717357158661, 0.8997102379798889, 0.03069254383444786]
+  SRTHash: -1673830174
+  Scale: 0.699999988079071
+  Translate: [2675.56689453125, 693.62548828125, -2320.854248046875]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true,
+    IsLocatorCreate: false, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x505f3557
+  SRTHash: 2058523867
+  Translate: [2768.420166015625, 746.81298828125, -2490.224853515625]
+  UnitConfigName: Animal_Insect_X
+- HashId: !u 0x509d0e4e
+  Rotate: -0.6981316804885864
+  SRTHash: 359351407
+  Translate: [2699.763916015625, 726.7003173828125, -2374.37646484375]
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x51ee3905
+  SRTHash: 917680411
+  Translate: [2117.111572265625, 612.5135498046875, -2242.17529296875]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0x521ed244
+  Rotate: [0.0, -1.1199995279312134, -0.699999988079071]
+  SRTHash: -373211477
+  Translate: [2712.2158203125, 724.622802734375, -2380.919189453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x52451a19
+  Rotate: [3.0720534324645996, 0.8156672716140747, 3.0266244411468506]
+  SRTHash: 387254517
+  Translate: [2638.4833984375, 677.64208984375, -2316.453857421875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x530e5e9c
+  Rotate: [0.5046215653419495, -1.2258844375610352, -0.4052896201610565]
+  SRTHash: 1183623014
+  Scale: 0.800000011920929
+  Translate: [2665.248291015625, 702.3975830078125, -2341.709716796875]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x53236fc4
+  Rotate: [-0.06129968538880348, 0.3106410503387451, -0.004830742254853249]
+  SRTHash: -935929675
+  Translate: [2754.331787109375, 797.4743041992188, -2597.697998046875]
+  UnitConfigName: Obj_BoxIron_MtDeath
+- HashId: !u 0x533a793b
+  Rotate: 2.6031858921051025
+  SRTHash: 1809849637
+  Translate: [2506.0400390625, 664.6864624023438, -2302.74462890625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x535a0357
+  Rotate: [-2.13976788520813, -0.1068081334233284, 2.974377155303955]
+  SRTHash: 1625096774
+  Scale: [40.0, 20.0, 248.25900268554688]
+  Translate: [2522.87939453125, 724.255859375, -2847.09375]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x543f1583
+  Rotate: 0.8200000524520874
+  SRTHash: 104605983
+  Translate: [2187.318359375, 579.8242797851562, -2181.595703125]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x54b8cd06
+  Rotate: [-2.476952314376831, -0.7465962767601013, 2.725924491882324]
+  SRTHash: -2004980168
+  Translate: [2115.214599609375, 538.5927734375, -2098.87109375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x54bec16e
+  SRTHash: -1676769919
+  Translate: [2528.6044921875, 664.931884765625, -2295.505126953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x54bfff02
+  Rotate: [0.38676491379737854, -0.34906572103500366, 0.0]
+  SRTHash: -1251272166
+  Scale: [104.3550033569336, 20.0, 16.22800064086914]
+  Translate: [2496.9560546875, 951.13427734375, -2495.5283203125]
+  UnitConfigName: BoxWater
+- HashId: !u 0x551dcb37
+  Rotate: [0.4336591362953186, 1.2830867767333984, 0.27066683769226074]
+  SRTHash: -47884830
+  Scale: 1.100000023841858
+  Translate: [2733.531494140625, 733.4039306640625, -2427.255126953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x55222813
+  Rotate: [0.3399999439716339, 0.0, 0.0]
+  SRTHash: -902671627
+  Translate: [2118.33984375, 611.8486328125, -2238.8818359375]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x567f72e5
+  Rotate: [-0.6465103626251221, 0.05112265422940254, 0.4433995485305786]
+  SRTHash: -837286887
+  Translate: [2124.26708984375, 532.6871337890625, -2123.418212890625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x5687817b
+  Rotate: [-2.1629204750061035, 1.0938878059387207, -2.461143732070923]
+  SRTHash: -673892357
+  Translate: [2144.523681640625, 564.7069702148438, -1985.2052001953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {EquipItem1: Weapon_Spear_009, FortressEatPer: -1, IsMimicry: false,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x56cac1e3
+  SRTHash: 1149837192
+  Translate: [2295.5, 513.411865234375, -2098.0]
+  UnitConfigName: Enemy_Lizalfos_Fire
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5786506c
+  Rotate: [-2.5242104530334473, -0.7238945364952087, 2.7913501262664795]
+  SRTHash: -289118597
+  Translate: [2756.5517578125, 734.8775024414062, -2440.67138671875]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0x58edb652
+  Rotate: [-0.7383384108543396, -1.1778830289840698, 0.8497458696365356]
+  SRTHash: 882886847
+  Translate: [2065.331787109375, 539.9656372070312, -2922.84521484375]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x5966916a
+  Rotate: -0.7799993753433228
+  SRTHash: 18904024
+  Translate: [2059.263916015625, 580.1953125, -2755.380859375]
+  UnitConfigName: Obj_LiftRockEldin_Korok_A_01
+- HashId: !u 0x5a33dac2
+  Rotate: 1.6231577396392822
+  SRTHash: -122578055
+  Scale: [5.0, 25.0, 5.0]
+  Translate: [2786.26953125, 769.4765625, -2594.3857421875]
+  UnitConfigName: AscendingCurrent_FireRelic_Battle
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x5a441229
+  Rotate: [-1.805019497871399, -0.3521376848220825, 3.1415927410125732]
+  SRTHash: 2012105293
+  Scale: [104.35501098632812, 20.0, 113.60000610351562]
+  Translate: [2565.027587890625, 892.33544921875, -2525.84326171875]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5ab295a9
+  Rotate: [2.017951488494873, -1.3130749464035034, -1.3364773988723755]
+  SRTHash: 1273788267
+  Translate: [2432.305419921875, 529.3580932617188, -2080.81494140625]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x5adea003
+  Rotate: -0.8200043439865112
+  SRTHash: -1836323248
+  Translate: [2168.9306640625, 552.3828125, -2105.1923828125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x5b23ffa2
+  SRTHash: 2125009623
+  Translate: [2186.20068359375, 505.1201171875, -3162.6083984375]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x5b28b8d3
+  Rotate: [2.872239112854004, 1.3486119508743286, 2.5804905891418457]
+  SRTHash: 288884814
+  Translate: [2061.116943359375, 533.924072265625, -2146.454833984375]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5b318f8d
+  Rotate: -1.7599998712539673
+  SRTHash: 1924111668
+  Translate: [2913.02880859375, 562.2308959960938, -2149.199951171875]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x5c32ea69
+  Rotate: [-0.1548326164484024, -0.8945569396018982, 0.09564924240112305]
+  SRTHash: -1354116133
+  Translate: [2252.695068359375, 633.4844360351562, -2369.201904296875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x5d0aaff5
+  SRTHash: 771579675
+  Translate: [2001.7803955078125, 505.0679016113281, -3064.267578125]
+  UnitConfigName: LavaHaze_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5d35ac9d
+  Rotate: [0.3856146037578583, 0.6793166399002075, 0.39616578817367554]
+  SRTHash: 256592444
+  Translate: [2920.18115234375, 561.9075927734375, -2149.388671875]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x5d818b65
+  Rotate: [-0.005654866341501474, -1.3726491928100586, 0.9985203742980957]
+  SRTHash: 1625096774
+  Scale: [40.0, 20.0, 248.25900268554688]
+  Translate: [2293.104248046875, 724.2554931640625, -2590.331787109375]
+  UnitConfigName: BoxWater
+- HashId: !u 0x5df881dd
+  SRTHash: -943685880
+  Scale: 3.700000047683716
+  Translate: [2016.7822265625, 555.47509765625, -2165.8369140625]
+  UnitConfigName: AirWallHorse_HiddnKorok
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f2265db
+  Rotate: [-2.5756523609161377, -0.8640609979629517, 2.8283534049987793]
+  SRTHash: -459747870
+  Translate: [2094.913818359375, 636.5048828125, -2646.886474609375]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x60dae20f
+  SRTHash: -1615596105
+  Translate: [1985.4605712890625, 536.7493896484375, -2840.16259765625]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x60e505b9
+  Rotate: [-0.5377704501152039, 0.005364407319575548, -0.7849166393280029]
+  SRTHash: -720956792
+  Translate: [2192.60107421875, 581.566162109375, -2181.266845703125]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x610a7be0
+  Rotate: [0.22283130884170532, -1.458446741104126, -0.12458069622516632]
+  SRTHash: -2076348762
+  Scale: 0.699999988079071
+  Translate: [2767.205810546875, 770.3055419921875, -2601.118896484375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x61a8fbf2
+  Rotate: [3.1415927410125732, 0.4584064483642578, -2.921592950820923]
+  SRTHash: 1743986221
+  Translate: [2569.156982421875, 670.4816284179688, -2300.602783203125]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x62b219ca
+  Rotate: [-2.178170919418335, -0.3521376848220825, 3.1415927410125732]
+  SRTHash: 312867471
+  Scale: [104.1500015258789, 20.0, 260.0]
+  Translate: [2454.350341796875, 727.6070556640625, -2827.044189453125]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x62bbcd4d
+  Rotate: [0.9634217619895935, -0.34906572103500366, 0.0]
+  SRTHash: 249013536
+  Scale: [104.1500015258789, 20.0, 260.0]
+  Translate: [2455.036376953125, 727.6070556640625, -2380.355224609375]
+  UnitConfigName: BoxWater
+- HashId: !u 0x62bfe4cd
+  Rotate: [-2.9751570224761963, -1.1704779863357544, -2.8004209995269775]
+  SRTHash: -2146758519
+  Scale: 0.7200000286102295
+  Translate: [2122.427001953125, 535.7257080078125, -2116.137939453125]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x64f26f52
+  Rotate: [-0.042014800012111664, -0.4218100309371948, 0.15616825222969055]
+  SRTHash: -1706125384
+  Translate: [2812.037109375, 627.3672485351562, -2939.639404296875]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0x64f9f67b
+  SRTHash: 1698995311
+  Translate: [2438.455322265625, 624.970947265625, -2213.177490234375]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x65b2fff4
+  Rotate: [2.1791279315948486, -1.5210214853286743, -2.458953857421875]
+  SRTHash: -845669387
+  Translate: [3006.88232421875, 370.7708740234375, -1985.443359375]
+  UnitConfigName: Obj_RockSetDeathMt_F_01
+- HashId: !u 0x65d220d4
+  Rotate: [-2.4710354804992676, 1.297724723815918, -2.7572290897369385]
+  SRTHash: -2146758519
+  Scale: 0.7200000286102295
+  Translate: [2067.02001953125, 533.7861328125, -2137.91845703125]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- HashId: !u 0x65f100fd
+  Rotate: [0.25410977005958557, 0.7910772562026978, 0.020052967593073845]
+  SRTHash: -1161330418
+  Translate: [2788.54345703125, 769.1834716796875, -2633.60693359375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x665f563f
+  SRTHash: -986960184
+  Translate: [2867.4951171875, 624.985107421875, -2809.046630859375]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x6739c9dd
+  SRTHash: -1909118778
+  Translate: [2144.0, 558.7095336914062, -2197.0]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0x67fad2bb
+  Rotate: [-0.6477192640304565, -1.3094335794448853, 0.6230242252349854]
+  SRTHash: -1434358749
+  Translate: [2915.636962890625, 561.93310546875, -2149.89111328125]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x68779e60
+  Rotate: [0.5762887597084045, -0.24307294189929962, -0.5436826348304749]
+  SRTHash: -1629633633
+  Translate: [2299.156982421875, 506.0762939453125, -2082.100830078125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x69e2414d
+  Rotate: [0.17709441483020782, 0.9226879477500916, -0.27873241901397705]
+  SRTHash: 1490885682
+  Translate: [2133.933837890625, 635.6209716796875, -2787.914794921875]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x6aeb5f57
+  Rotate: -1.1000006198883057
+  SRTHash: -360733765
+  Translate: [2079.462158203125, 584.2852172851562, -2235.860107421875]
+  UnitConfigName: WallCrack
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6aff2e0e
+  Rotate: -1.3200000524520874
+  SRTHash: -563840533
+  Translate: [2828.122802734375, 627.3887939453125, -2932.12744140625]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x6b86446d
+  Rotate: [-1.5128003358840942, -1.002648949623108, 1.496894121170044]
+  SRTHash: -634212659
+  Translate: [2436.111083984375, 947.6885986328125, -2646.336181640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x6b868c62
+  Rotate: [-2.984049081802368, 0.5653546452522278, 2.666018009185791]
+  SRTHash: 2109353968
+  Translate: [2789.664306640625, 749.8947143554688, -2568.18017578125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x6b92852d
+  Rotate: [0.3855576813220978, -0.27259138226509094, -0.1938089281320572]
+  SRTHash: -435456075
+  Translate: [2884.74951171875, 635.8441772460938, -2343.73779296875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6c50f530
+  Rotate: [-3.0078251361846924, -1.4202698469161987, 3.009321451187134]
+  SRTHash: 1680757697
+  Translate: [2808.47314453125, 627.5311889648438, -2952.104736328125]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x6c6991f8
+  Rotate: [0.9634217023849487, -1.218658685684204, 2.593311121698779e-23]
+  SRTHash: 312867471
+  Scale: [104.1500015258789, 20.0, 260.0]
+  Translate: [2313.15380859375, 727.606689453125, -2521.802734375]
+  UnitConfigName: BoxWater
+- HashId: !u 0x6cffa7e0
+  Rotate: [-3.052989959716797, -0.6330816745758057, 2.9925529956817627]
+  SRTHash: 1355471445
+  Translate: [2050.95068359375, 537.532958984375, -2113.39599609375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x6d8f16aa
+  Rotate: [-0.04711611568927765, 0.35487133264541626, -0.14990226924419403]
+  SRTHash: 321585370
+  Scale: 0.699999988079071
+  Translate: [2772.720458984375, 759.5964965820312, -2540.59326171875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x6defe9d2
+  Rotate: [0.12141748517751694, -0.04407039284706116, -0.28328222036361694]
+  SRTHash: 1158837723
+  Translate: [2425.802978515625, 652.0960693359375, -2288.48974609375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x6e05dbae
+  Rotate: [0.0, -1.339999794960022, 0.13999998569488525]
+  SRTHash: 863313000
+  Translate: [2432.04833984375, 653.0257568359375, -2315.535400390625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x6ed239ca
+  Rotate: [0.7895870208740234, -0.4840503931045532, -0.1733386069536209]
+  SRTHash: 8906986
+  Translate: [2333.805419921875, 647.1058349609375, -2360.8115234375]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0x7077f583
+  SRTHash: 1981842160
+  Translate: [2019.416259765625, 526.4873657226562, -2036.3695068359375]
+  UnitConfigName: TwnObj_City_GoronLight_B_01
+- HashId: !u 0x721299a7
+  Rotate: [-0.1664559543132782, -0.003208708018064499, -0.21845944225788116]
+  SRTHash: -1306115458
+  Scale: 1.2000000476837158
+  Translate: [2060.05908203125, 533.10302734375, -2157.811767578125]
+  UnitConfigName: Obj_RockDeathMt_C_L_07
+- HashId: !u 0x72199c61
+  Rotate: [0.9696677327156067, 0.2615354657173157, -0.4268951416015625]
+  SRTHash: -1433931921
+  Scale: 0.699999988079071
+  Translate: [2425.59814453125, 654.2636108398438, -2293.203369140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7236f5f8
+  Rotate: [0.0, 0.5400000810623169, -1.059999942779541]
+  SRTHash: -935712605
+  Translate: [2264.187744140625, 531.7416381835938, -2099.403564453125]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x7271de4d
+  Rotate: [0.005102166905999184, -0.000793111277744174, 0.30842292308807373]
+  SRTHash: 1045648803
+  Translate: [2126.088623046875, 557.6050415039062, -2173.7080078125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x73b0aeca
+  Rotate: [0.8193926215171814, 0.6685740947723389, -0.2896263599395752]
+  SRTHash: -1798092892
+  Scale: [67.10199737548828, 20.0, 248.2679901123047]
+  Translate: [2692.461669921875, 720.060791015625, -2419.380615234375]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x76808992
+  Rotate: [-1.928187370300293, -1.2217305898666382, 3.1415927410125732]
+  SRTHash: -2018701760
+  Scale: [104.3550033569336, 20.0, 126.91000366210938]
+  Translate: [2400.1533203125, 888.6287841796875, -2653.405029296875]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 0.9999998807907104}
+  HashId: !u 0x76a0ec8b
+  Rotate: [-2.7548279762268066, -0.3521376848220825, 3.1415927410125732]
+  SRTHash: -130738515
+  Scale: [104.35499572753906, 20.0, 16.22800064086914]
+  Translate: [2496.62353515625, 951.13427734375, -2712.00048828125]
+  UnitConfigName: BoxWater
+- HashId: !u 0x777b051e
+  Rotate: [0.43760907649993896, 0.7967658042907715, 0.6423559784889221]
+  SRTHash: 1191077837
+  Translate: [2771.48291015625, 743.2842407226562, -2483.63818359375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7848667c
+  Rotate: [-3.1214261054992676, -0.062216538935899734, -3.0796024799346924]
+  SRTHash: 1480217671
+  Translate: [2616.079833984375, 694.582275390625, -2310.216796875]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x7858e5df
+  Rotate: 1.7199997901916504
+  SRTHash: -2032962019
+  Scale: 0.800000011920929
+  Translate: [2499.9580078125, 663.921142578125, -2273.238037109375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x785b01a0
+  Rotate: [-1.928187370300293, 0.34906578063964844, 3.1415927410125732]
+  SRTHash: -2018701760
+  Scale: [104.3550033569336, 20.0, 126.91000366210938]
+  Translate: [2585.95263671875, 888.629150390625, -2740.044921875]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 0.9999998807907104}
+  HashId: !u 0x787b64b9
+  Rotate: [0.38676491379737854, -1.218658685684204, 0.0]
+  SRTHash: -130738515
+  Scale: [104.35499572753906, 20.0, 16.22800064086914]
+  Translate: [2428.197509765625, 951.1339111328125, -2564.075927734375]
+  UnitConfigName: BoxWater
+- HashId: !u 0x787e0c82
+  Rotate: [-2.4868414402008057, -0.6424168348312378, 2.741420269012451]
+  SRTHash: 1550213551
+  Translate: [2689.548828125, 724.3712768554688, -2390.578369140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x78ca5948
+  SRTHash: 160703875
+  Translate: [2065.713623046875, 540.0448608398438, -2923.954833984375]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x79219350
+  Rotate: [-2.521202564239502, 0.5733680129051208, -2.2998533248901367]
+  SRTHash: -833840116
+  Translate: [2155.4951171875, 535.2439575195312, -2133.536376953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x796c7254
+  Rotate: [2.5331900119781494, -1.1741596460342407, -2.275050640106201]
+  SRTHash: -872078454
+  Translate: [2374.6865234375, 644.7037963867188, -2318.7470703125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x7a3cf965
+  SRTHash: -1909118778
+  Translate: [2141.5, 559.2468872070312, -2182.0]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0x7a601112
+  Rotate: [0.7683601379394531, -0.716552734375, -1.0276806354522705]
+  SRTHash: 1980851144
+  Translate: [2420.6376953125, 662.4774169921875, -2297.477783203125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x7a897727
+  Rotate: [-1.3923791646957397, -0.8065477609634399, 1.8058156967163086]
+  SRTHash: 1379610066
+  Translate: [2401.787841796875, 501.281982421875, -2044.6240234375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x7ba4d58c
+  Rotate: [-0.4997345805168152, 0.1639818251132965, 0.11574819684028625]
+  SRTHash: 1977229529
+  Scale: 0.8399999737739563
+  Translate: [2108.45361328125, 538.6549072265625, -2098.8974609375]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- HashId: !u 0x7c4b4017
+  Rotate: -1.4000086784362793
+  SRTHash: 1403360067
+  Translate: [2061.3271484375, 580.155029296875, -2755.05029296875]
+  UnitConfigName: Obj_LiftRockEldin_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7e00e648
+  Rotate: [0.38274097442626953, 0.0968070924282074, -0.1505863219499588]
+  SRTHash: 1466574518
+  Translate: [2810.25048828125, 627.0264282226562, -2941.20654296875]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7e70fa11
+  Rotate: [0.9081172943115234, 0.0019474267028272152, 0.10345689952373505]
+  SRTHash: -312565230
+  Scale: 1.5
+  Translate: [2769.890869140625, 744.221435546875, -2477.572265625]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- HashId: !u 0x7e736c4c
+  Rotate: [-0.03139358013868332, 0.4156607389450073, -0.30017051100730896]
+  SRTHash: -882851026
+  Translate: [2424.4873046875, 676.9408569335938, -2303.28076171875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x7f58dce6
+  Rotate: [0.32647842168807983, 0.19643722474575043, -1.078272819519043]
+  SRTHash: 922104269
+  Translate: [2446.958251953125, 936.5353393554688, -2639.870849609375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 96.0, WaterfallRadius: 26.399999618530273, WaterfallThickness: 12.0}
+  HashId: !u 0x7f74ddc6
+  Rotate: -0.37999996542930603
+  SRTHash: 65825088
+  Scale: [24.000001907348633, 14.40000057220459, 43.20000457763672]
+  Translate: [2397.6875, 625.9849853515625, -2166.4365234375]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 0.9999998807907104}
+  HashId: !u 0x7fbefdf5
+  Rotate: [0.8867191076278687, -0.5573931932449341, 0.1738428920507431]
+  SRTHash: -477755410
+  Scale: [25.64999771118164, 19.999998092651367, 249.0]
+  Translate: [2395.398193359375, 725.727783203125, -2404.936767578125]
+  UnitConfigName: BoxWater
+- HashId: !u 0x82960109
+  Rotate: 0.7507919073104858
+  SRTHash: 636354774
+  Translate: [2168.54052734375, 553.3828125, -2104.8359375]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x83c57b18
+  Rotate: -2.099998712539673
+  SRTHash: -983349211
+  Translate: [2063.271728515625, 580.1060791015625, -2758.163818359375]
+  UnitConfigName: Obj_LiftRockEldin_Korok_A_01
+- HashId: !u 0x8415a43e
+  Rotate: 2.3215882778167725
+  SRTHash: -1913395839
+  Translate: [2167.078125, 552.3828125, -2103.447998046875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x84444c23
+  Rotate: [0.1278485804796219, -0.33659133315086365, -0.33466434478759766]
+  SRTHash: 125638611
+  Scale: 0.800000011920929
+  Translate: [2058.810302734375, 534.529541015625, -2147.347900390625]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x846eae09
+  Rotate: -0.660000205039978
+  SRTHash: 1198682510
+  Translate: [2092.758056640625, 636.3502197265625, -2647.76806640625]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x84f99283
+  Rotate: [1.379112958908081, -0.5727331638336182, 2.70058274269104]
+  SRTHash: -781447004
+  Scale: 1.399999976158142
+  Translate: [2707.7626953125, 724.302734375, -2413.197509765625]
+  UnitConfigName: Obj_RockDeathMt_A_L_03
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x8503e04a
+  Rotate: [-2.178170919418335, 0.34906578063964844, 3.1415927410125732]
+  SRTHash: 249013536
+  Scale: [104.15000915527344, 20.0, 260.0]
+  Translate: [2617.709228515625, 727.6070556640625, -2827.295166015625]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x850a34cd
+  Rotate: [0.9634217023849487, 0.3521376848220825, 9.52919597705011e-24]
+  SRTHash: 312867471
+  Scale: [104.1500015258789, 20.0, 260.0]
+  Translate: [2618.395263671875, 727.6070556640625, -2380.606201171875]
+  UnitConfigName: BoxWater
+- HashId: !u 0x8571ea8c
+  Rotate: [0.10384568572044373, 0.17123599350452423, 2.2489206790924072]
+  SRTHash: 1645770232
+  Translate: [2013.10302734375, 529.642578125, -2048.06103515625]
+  UnitConfigName: Obj_RockDeathMt_A_L_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x857a2d84
+  Rotate: [-0.5853543281555176, -1.2029725313186646, 0.5539196729660034]
+  SRTHash: -919352741
+  Translate: [1984.315673828125, 537.4931640625, -2836.975341796875]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x85fe9e87
+  Rotate: [-0.2878357470035553, -0.017652126029133797, -0.12165907025337219]
+  SRTHash: -956290321
+  Translate: [2089.19970703125, 578.0269775390625, -2218.291748046875]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x8604b539
+  Rotate: [0.24183544516563416, 0.922046422958374, 0.4677775800228119]
+  SRTHash: 1334991654
+  Scale: 0.800000011920929
+  Translate: [2517.859619140625, 661.4542236328125, -2280.62646484375]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x879c3cb8
+  Rotate: -0.7215894460678101
+  SRTHash: -1868203666
+  Translate: [2171.009033203125, 550.1015625, -2106.98583984375]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, GolemSleepType: SleepForward_B,
+    GolemWeakPointLocation: Point_A, IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0x87e434d6
+  Rotate: [0.4208686649799347, -0.03774086385965347, 0.1762554943561554]
+  SRTHash: -1550102552
+  Translate: [2146.77392578125, 558.5914916992188, -2054.41845703125]
+  UnitConfigName: Enemy_Golem_Little_Fire
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x882875a3
+  Rotate: [0.21754397451877594, 0.45393019914627075, 0.041508130729198456]
+  SRTHash: 1789564573
+  Translate: [2094.757568359375, 576.6980590820312, -2221.34619140625]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8838c168
+  Rotate: [0.5554477572441101, 0.5693624019622803, -0.195694699883461]
+  SRTHash: 1780472028
+  Translate: [2432.451416015625, 676.6065063476562, -2306.51220703125]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- HashId: !u 0x8848ae2b
+  Rotate: -1.0471975803375244
+  SRTHash: 1923520068
+  Translate: [2178.537109375, 632.8465576171875, -2333.63427734375]
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x888bafe8
+  Rotate: [2.5815932750701904, -0.6415929198265076, -3.141592264175415]
+  SRTHash: -142237960
+  Translate: [2277.204345703125, 527.2186889648438, -2104.527099609375]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x8911475b
+  SRTHash: 926389681
+  Translate: [2912.7998046875, 624.6605224609375, -2641.20263671875]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x8933d26e
+  Rotate: [-0.3945625126361847, -0.9408035278320312, 0.5882503390312195]
+  SRTHash: -1991957005
+  Scale: 0.699999988079071
+  Translate: [2781.986572265625, 759.625, -2533.878173828125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x897b3466
+  Rotate: [0.06577695161104202, -1.1665239334106445, -0.0801522508263588]
+  SRTHash: 216495940
+  Scale: 1.5
+  Translate: [2773.830078125, 761.8187866210938, -2535.311279296875]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8a1b3757
+  Rotate: [-0.5189340114593506, -1.11783766746521, 0.3749728202819824]
+  SRTHash: -2110865106
+  Translate: [2135.07177734375, 558.9176635742188, -2186.54833984375]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x8b2fe114
+  SRTHash: -1910189848
+  Translate: [2252.96044921875, 624.986083984375, -2308.3203125]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0x8b6de424
+  Rotate: [-0.2800000011920929, 0.0, -0.19999997317790985]
+  SRTHash: -1451210133
+  Translate: [2153.308349609375, 555.2183227539062, -2000.050537109375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x8b7acd8d
+  Rotate: [-0.3870543837547302, 0.48751935362815857, -0.18867072463035583]
+  SRTHash: -454651318
+  Translate: [2196.162841796875, 548.3444213867188, -1976.294921875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x8bd86878
+  Rotate: [-2.178170919418335, -1.2217305898666382, 3.1415927410125732]
+  SRTHash: 249013536
+  Scale: [104.15000915527344, 20.0, 260.0]
+  Translate: [2312.90283203125, 727.606689453125, -2685.16162109375]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8d57a572
+  Rotate: [-0.0513654462993145, -0.8407968878746033, -0.34894391894340515]
+  SRTHash: -317355093
+  Translate: [2667.832763671875, 691.883056640625, -2325.00341796875]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0x8df17104
+  Rotate: [0.4787960350513458, 0.0668846070766449, -0.2573722302913666]
+  SRTHash: 836476623
+  Scale: 1.2000000476837158
+  Translate: [2784.16845703125, 761.1123657226562, -2579.176513671875]
+  UnitConfigName: Obj_RockDeathMt_A_L_03
+- HashId: !u 0x8f3a9e86
+  Rotate: -1.7399998903274536
+  SRTHash: 243981172
+  Scale: 1.100000023841858
+  Translate: [2713.2861328125, 727.755615234375, -2408.755126953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 49.5,
+    WaterfallLength: 120.0, WaterfallRadius: 23.5, WaterfallThickness: 20.0}
+  HashId: !u 0x8f5db589
+  Rotate: [-2.346066951751709, -0.408465713262558, 2.584099769592285]
+  SRTHash: -1657780025
+  Scale: [20.562000274658203, 20.0, 13.210000038146973]
+  Translate: [2617.523681640625, 943.136474609375, -2557.65283203125]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 49.5,
+    WaterfallLength: 120.0, WaterfallRadius: 23.5, WaterfallThickness: 20.0}
+  HashId: !u 0x8f77b9fe
+  Rotate: [2.960561752319336, -0.8592583537101746, -2.2623517513275146]
+  SRTHash: 732820457
+  Scale: [18.131000518798828, 20.0, 13.210000038146973]
+  Translate: [2576.890869140625, 943.472412109375, -2519.06396484375]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x9118c18c
+  Rotate: [0.3867649435997009, 0.3521376848220825, 0.0]
+  SRTHash: -130738515
+  Scale: [104.3550033569336, 20.000001907348633, 16.22800064086914]
+  Translate: [2576.1220703125, 951.13427734375, -2495.64990234375]
+  UnitConfigName: BoxWater
+- HashId: !u 0x92356e60
+  Rotate: [-2.8741369247436523, -0.08840059489011765, 2.537968635559082]
+  SRTHash: -1981530072
+  Translate: [2504.220458984375, 947.1729736328125, -2500.609619140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x925fe285
+  Rotate: [2.8442158699035645, 1.089324712753296, 3.0457763671875]
+  SRTHash: 335563982
+  Translate: [2579.8291015625, 673.1298828125, -2293.72119140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x93288f75
+  Rotate: [-1.928187370300293, 1.2186585664749146, 3.1415927410125732]
+  SRTHash: -79375103
+  Scale: [104.3550033569336, 20.0, 126.91000366210938]
+  Translate: [2672.439453125, 888.629150390625, -2653.8232421875]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x940883cd
+  Rotate: [-2.322200059890747, -0.6685739755630493, -2.851966381072998]
+  SRTHash: -1798092892
+  Scale: [67.10199737548828, 20.0, 248.2679901123047]
+  Translate: [2380.283935546875, 720.060791015625, -2788.269775390625]
+  UnitConfigName: BoxWater
+- HashId: !u 0x95aab4a0
+  Rotate: [-2.0822699069976807, -1.0020616054534912, 2.748676061630249]
+  SRTHash: -2146758519
+  Scale: 0.7200000286102295
+  Translate: [2149.928466796875, 536.5321655273438, -2133.103759765625]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x95fee4e2
+  Rotate: [-0.5125972032546997, 0.1611456722021103, 0.3181499242782593]
+  SRTHash: 1251679879
+  Translate: [2567.580322265625, 670.4927368164062, -2298.809814453125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x9633266b
+  Rotate: 1.4400006532669067
+  SRTHash: 1976097089
+  Translate: [2019.95458984375, 526.5717163085938, -2044.381103515625]
+  UnitConfigName: TwnObj_City_GoronLight_B_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x96dd58c0
+  Rotate: [-1.934330940246582, -0.9896714091300964, 2.8709094524383545]
+  SRTHash: -477755410
+  Scale: [25.649999618530273, 20.0, 249.0]
+  Translate: [2337.484375, 725.7274169921875, -2744.7998046875]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x974e35d4
+  SRTHash: 953625671
+  Translate: [2015.0701904296875, 582.5064086914062, -2804.416748046875]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x9806d0f2
+  Rotate: [-2.254873514175415, 0.5573933124542236, 2.967749834060669]
+  SRTHash: -477755410
+  Scale: [25.649999618530273, 20.0, 249.0]
+  Translate: [2677.347412109375, 725.727783203125, -2802.71337890625]
+  UnitConfigName: BoxWater
+- HashId: !u 0x989b98e7
+  Rotate: [0.15999998152256012, 0.5199999809265137, 0.4999999701976776]
+  SRTHash: 1497467009
+  Translate: [2384.783203125, 646.5467529296875, -2306.92333984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x98d6d78e
+  Rotate: [-0.8362119793891907, -0.8074816465377808, 0.9555658102035522]
+  SRTHash: 1768985945
+  Translate: [2029.941162109375, 562.6641845703125, -1999.90283203125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x98f2a77e
+  SRTHash: -846621778
+  Translate: [2212.493408203125, 624.847900390625, -2796.199462890625]
+  UnitConfigName: LavaHaze_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x992995f3
+  Rotate: [0.2217685580253601, 0.6908891797065735, 0.34009480476379395]
+  SRTHash: -1035728734
+  Translate: [2936.207275390625, 470.5092468261719, -2078.580810546875]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x9929df48
+  Rotate: 1.78000009059906
+  SRTHash: 1170430312
+  Translate: [2102.54833984375, 537.709716796875, -2091.079345703125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x99addd94
+  Rotate: [0.7034149169921875, -0.6199706196784973, -0.5097112655639648]
+  SRTHash: 1176372346
+  Scale: 0.800000011920929
+  Translate: [2674.00830078125, 694.2080078125, -2332.103271484375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x99d84cf1
+  Rotate: [-3.041816473007202, -0.20019038021564484, 2.562173366546631]
+  SRTHash: -208151758
+  Translate: [2576.814208984375, 947.6651611328125, -2706.203369140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x9ad30bff
+  Rotate: [1.2675279378890991, -0.8511272072792053, -0.34691914916038513]
+  SRTHash: -1798092892
+  Scale: [67.10199737548828, 20.0, 248.2679901123047]
+  Translate: [2351.92822265625, 720.0604248046875, -2447.736328125]
+  UnitConfigName: BoxWater
+- HashId: !u 0x9b41817e
+  Rotate: [0.38178834319114685, -1.1889222860336304, -0.2556552588939667]
+  SRTHash: 1422411826
+  Translate: [2616.6962890625, 676.6533203125, -2290.11962890625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x9bfdf1bb
+  Rotate: -2.8799986839294434
+  SRTHash: -1782137152
+  Translate: [2058.201171875, 580.2576293945312, -2756.787841796875]
+  UnitConfigName: Obj_LiftRockEldin_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9c586cfd
+  Rotate: [0.15395061671733856, 0.5892787575721741, -1.3570979833602905]
+  SRTHash: 429713202
+  Translate: [2195.0595703125, 581.6071166992188, -2181.09765625]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x9e81b3da
+  Rotate: [2.0358974933624268, 1.320775032043457, 1.7898659706115723]
+  SRTHash: 818222575
+  Translate: [2772.5732421875, 761.7760009765625, -2563.975341796875]
+  UnitConfigName: FldObj_DeathMtGeyser_02
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true,
+    IsLocatorCreate: false, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9eece8a0
+  Rotate: [-0.06056155264377594, 0.000318726320983842, 0.010522380471229553]
+  SRTHash: 1116266058
+  Translate: [2713.30078125, 729.1739501953125, -2390.1171875]
+  UnitConfigName: Animal_Insect_X
+- HashId: !u 0x9f1bee6d
+  Rotate: [-0.017987189814448357, -0.26236090064048767, -0.06958411633968353]
+  SRTHash: 1889431852
+  Translate: [2761.251220703125, 795.735107421875, -2594.79052734375]
+  UnitConfigName: Obj_BoxIron_MtDeath
+- HashId: !u 0x9f57bb42
+  Rotate: [-3.134707450866699, -0.6083396077156067, -2.9943737983703613]
+  SRTHash: 1750137006
+  Translate: [2743.016357421875, 732.9520263671875, -2448.92724609375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0x9fe32ca7
+  Rotate: [1.2134052515029907, -0.34906572103500366, 0.0]
+  SRTHash: -2018701760
+  Scale: [104.3550033569336, 19.999998092651367, 126.91000366210938]
+  Translate: [2486.79296875, 888.629150390625, -2467.60546875]
+  UnitConfigName: BoxWater
+- HashId: !u 0xa0edc869
+  SRTHash: -1832717530
+  Translate: [2169.9248046875, 624.2733764648438, -2671.20458984375]
+  UnitConfigName: LavaHaze_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa11798ad
+  Rotate: [-0.1435145139694214, -0.021317819133400917, -0.26640352606773376]
+  SRTHash: 1825090497
+  Translate: [2563.46630859375, 669.1727294921875, -2302.20458984375]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa30b82aa
+  SRTHash: 2057826695
+  Translate: [2922.00048828125, 561.9523315429688, -2150.2587890625]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xa4d4a1e5
+  Rotate: -0.8200043439865112
+  SRTHash: 1708079156
+  Translate: [2168.546875, 551.3828125, -2104.8251953125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xa50c83b9
+  SRTHash: 2045629139
+  Translate: [2339.0712890625, 510.15185546875, -2045.229248046875]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0xa5e55c83
+  Rotate: [-0.5943625569343567, 1.0378373861312866, -0.7124362587928772]
+  SRTHash: 403530591
+  Translate: [2133.8232421875, 559.1734619140625, -2166.7353515625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa68527bc
+  Rotate: [-1.2967529296875, 1.3673094511032104, -2.466430425643921]
+  SRTHash: 0
+  Translate: [2837.265625, 536.40234375, -2074.51953125]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xa6d41d49
+  Rotate: 2.094395160675049
+  SRTHash: 2020804760
+  Translate: [2701.018310546875, 725.709228515625, -2363.0625]
+  UnitConfigName: DgnObj_GoronCannonBase_A_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xa735425d
+  Rotate: [1.4153573513031006, -0.6771354079246521, -0.23926718533039093]
+  SRTHash: 1026489307
+  Scale: [30.27899932861328, 20.0, 126.91000366210938]
+  Translate: [2429.63232421875, 885.8825073242188, -2495.34033203125]
+  UnitConfigName: BoxWater
+- HashId: !u 0xa80c0092
+  Rotate: [0.2795814573764801, -0.21982191503047943, -0.15512891113758087]
+  SRTHash: -203523130
+  Translate: [2739.580810546875, 788.6046142578125, -2562.403564453125]
+  UnitConfigName: Obj_BoxIron_MtDeath
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xa9eeca6f
+  Rotate: [-2.09751033782959, -0.8589667081832886, -2.854923963546753]
+  SRTHash: 1026489307
+  Scale: [30.27899932861328, 20.0, 126.91000366210938]
+  Translate: [2427.887939453125, 885.8828735351562, -2710.565673828125]
+  UnitConfigName: BoxWater
+- HashId: !u 0xaa4924cb
+  Rotate: [0.5484550595283508, 0.8102491497993469, 0.7144815325737]
+  SRTHash: 234393281
+  Translate: [2320.048583984375, 650.4164428710938, -2370.85986328125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xabcaff38
+  Rotate: [0.7851431369781494, -0.44815993309020996, -0.4718741476535797]
+  SRTHash: -1707885223
+  Translate: [2286.142333984375, 523.3663940429688, -2106.75927734375]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xac0bb419
+  Rotate: [0.0, 0.0, -0.2800000011920929]
+  SRTHash: -1975447106
+  Translate: [2627.25048828125, 677.85302734375, -2301.794189453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xac651a78
+  SRTHash: -1909118778
+  Translate: [2129.0, 558.4821166992188, -2185.5]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0xad28140d
+  Rotate: [-3.0740160942077637, 0.8880676031112671, -3.060483455657959]
+  SRTHash: -607675288
+  Translate: [2784.885009765625, 758.8950805664062, -2540.52880859375]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0xae88739f
+  Rotate: [0.17474550008773804, 0.5371537208557129, 0.5833113193511963]
+  SRTHash: 960353204
+  Translate: [2643.1416015625, 680.9326782226562, -2330.40673828125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0xb10ded8d
+  Rotate: [0.2090296447277069, 0.03217078745365143, -0.46434444189071655]
+  SRTHash: -1698691199
+  Translate: [2251.025146484375, 524.1592407226562, -2058.05419921875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xb12fccd6
+  Rotate: [-0.20207688212394714, 0.4324888586997986, -0.29856717586517334]
+  SRTHash: -2121755288
+  Translate: [2729.102294921875, 730.238525390625, -2405.1591796875]
+  UnitConfigName: Obj_RockDeathMt_A_L_03
+- HashId: !u 0xb1602ac0
+  SRTHash: -1909118778
+  Translate: [2156.5, 558.4710693359375, -2177.5]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0xb16b4e05
+  Rotate: [2.8615927696228027, -0.37999898195266724, 3.1415927410125732]
+  SRTHash: -1153725021
+  Translate: [2770.967529296875, 759.9794921875, -2552.539306640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xb2535629
+  Rotate: [-1.0199999809265137, 0.47999992966651917, 0.0]
+  SRTHash: 1885981592
+  Translate: [2008.13671875, 539.6966552734375, -2026.2318115234375]
+  UnitConfigName: Obj_RockDeathMt_C_L_08
+- HashId: !u 0xb2e8493a
+  Rotate: -2.5231854915618896
+  SRTHash: 955375761
+  Translate: [2284.15771484375, 635.4047241210938, -2376.9453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xb307d205
+  Rotate: [-2.7548279762268066, 0.34906578063964844, 3.1415927410125732]
+  SRTHash: -1251272166
+  Scale: [104.3550033569336, 20.0, 16.22800064086914]
+  Translate: [2575.78955078125, 951.13427734375, -2712.1220703125]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xb327b71c
+  Rotate: [-1.805019497871399, 1.2186588048934937, 3.1415927410125732]
+  SRTHash: 2012105293
+  Scale: [104.3550033569336, 20.0, 113.60000610351562]
+  Translate: [2458.390869140625, 892.3350830078125, -2575.17041015625]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb333424d
+  Rotate: [1.15380859375, 0.9560546278953552, -0.5198974609375]
+  SRTHash: 0
+  Translate: [2744.1015625, 543.36328125, -2033.42578125]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xb3f0199a
+  Rotate: -0.8200043439865112
+  SRTHash: -677143547
+  Translate: [2169.2265625, 551.3887329101562, -2104.0986328125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xb4921e67
+  SRTHash: 2044357241
+  Translate: [2637.766357421875, 624.997314453125, -2959.3974609375]
+  UnitConfigName: LavaHaze_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xb4e22e50
+  Rotate: [1.0018247365951538, 0.10680815577507019, 0.16721518337726593]
+  SRTHash: 1625096774
+  Scale: [40.0, 20.0, 248.25900268554688]
+  Translate: [2549.8662109375, 724.255859375, -2360.556640625]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb50b362a
+  Rotate: [2.247814178466797, 0.9386450052261353, 2.6443207263946533]
+  SRTHash: -1157842070
+  Translate: [2755.60986328125, 734.7571411132812, -2438.902587890625]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xb630415f
+  Rotate: [0.9659455418586731, -1.1812005043029785, -1.17899489402771]
+  SRTHash: 163572304
+  Translate: [2671.79541015625, 707.6310424804688, -2355.301513671875]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0xb637ceda
+  Rotate: 2.3215882778167725
+  SRTHash: 1679107182
+  Translate: [2168.4931640625, 550.3828125, -2103.418701171875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xb79b0be0
+  Rotate: -2.9200010299682617
+  SRTHash: 1826761261
+  Translate: [2043.4056396484375, 558.7914428710938, -2047.306884765625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xb8025d61
+  Rotate: [0.002169535029679537, -1.0496859550476074, 0.032463863492012024]
+  SRTHash: 1183700411
+  Translate: [2788.771484375, 769.772705078125, -2592.1591796875]
+  UnitConfigName: FldObj_DeathMtGeyser_02
+- HashId: !u 0xb852b9f6
+  SRTHash: -1463107180
+  Translate: [2024.798583984375, 525.288818359375, -2044.5574951171875]
+  UnitConfigName: Obj_RockDeathMt_A_M_06
+- HashId: !u 0xb870eb43
+  Rotate: 1.7400001287460327
+  SRTHash: 1820041516
+  Translate: [2047.179443359375, 521.638427734375, -2044.879638671875]
+  UnitConfigName: TwnObj_City_GoronLight_B_01
+- HashId: !u 0xb8944116
+  Rotate: [1.2353049516677856, 1.1935299634933472, 1.8119722604751587]
+  SRTHash: -1413724569
+  Scale: 0.699999988079071
+  Translate: [2775.521240234375, 758.0712280273438, -2523.119140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0xb901b693
+  SRTHash: -196923322
+  Translate: [2196.77734375, 624.38330078125, -2423.410888671875]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0xb963b8c6
+  Rotate: [0.5454309582710266, -0.06883064657449722, 0.4351638853549957]
+  SRTHash: 1067437588
+  Translate: [2385.1533203125, 641.0985717773438, -2285.33544921875]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0xbad8ef96
+  Rotate: [-0.29404178261756897, -0.3520902395248413, 0.40409621596336365]
+  SRTHash: 12228166
+  Translate: [2170.40576171875, 541.8688354492188, -2115.298095703125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 49.5,
+    WaterfallLength: 120.0, WaterfallRadius: 23.5, WaterfallThickness: 20.0}
+  HashId: !u 0xbb62ed39
+  Rotate: [-2.620441198348999, 0.05787511542439461, 3.1413543224334717]
+  SRTHash: 1123062879
+  Scale: [40.0, 20.0, 13.210000038146973]
+  Translate: [2529.030029296875, 942.0330810546875, -2515.504150390625]
+  UnitConfigName: BoxWater
+- HashId: !u 0xbbd746ed
+  Rotate: [-1.3653206825256348, -1.138034462928772, 1.3120235204696655]
+  SRTHash: 2106394459
+  Translate: [2639.916015625, 949.3057861328125, -2572.008056640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0xbc009a0b
+  Rotate: [-0.08799172937870026, 0.6556109189987183, 0.06030486524105072]
+  SRTHash: 1580402167
+  Translate: [2585.26220703125, 694.5092163085938, -2306.013916015625]
+  UnitConfigName: Obj_BoxIron_MtDeath
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbd1e6be3
+  Rotate: [0.4361991584300995, -0.7309507131576538, -0.30168962478637695]
+  SRTHash: -1131400352
+  Translate: [2284.4111328125, 522.8953247070312, -2106.46533203125]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbd6943f5
+  Rotate: [-3.141592264175415, 1.0584067106246948, -2.821592330932617]
+  SRTHash: 36234457
+  Translate: [2136.250732421875, 559.3336181640625, -2166.740234375]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0xbd8b3b0f
+  Rotate: [-0.03633340075612068, -0.9478763341903687, 0.06610622256994247]
+  SRTHash: -265944990
+  Translate: [2750.9560546875, 792.3524169921875, -2599.6650390625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {GolemSleepType: SleepForward_A, GolemWeakPointLocation: Point_B,
+    IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    UniqueNameMessageLabel: 'Golem_[H-2]BD926025'}
+  HashId: !u 0xbd926025
+  SRTHash: 133098126
+  Translate: [2141.55712890625, 559.1337890625, -2178.47119140625]
+  UnitConfigName: Enemy_Golem_Fire
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xbddc5a37
+  Rotate: [-2.7548279762268066, -1.2217305898666382, 3.1415927410125732]
+  SRTHash: -1251272166
+  Scale: [104.3550033569336, 20.0, 16.22800064086914]
+  Translate: [2428.075927734375, 951.1339111328125, -2643.241943359375]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xbdfc3f2e
+  Rotate: [1.3365731239318848, 0.35213762521743774, 0.0]
+  SRTHash: 2012105293
+  Scale: [104.3550033569336, 20.0, 113.60000610351562]
+  Translate: [2507.718017578125, 892.33544921875, -2681.80712890625]
+  UnitConfigName: BoxWater
+- HashId: !u 0xbe936f62
+  Rotate: 0.6981316804885864
+  SRTHash: 359351407
+  Translate: [2779.76953125, 774.9937133789062, -2655.9306640625]
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0xc0f2275c
+  Rotate: [-3.0015926361083984, -0.6815934777259827, -3.141592264175415]
+  SRTHash: -2079939395
+  Translate: [2062.07568359375, 580.146484375, -2759.725341796875]
+  UnitConfigName: Obj_LiftRockEldin_Korok_A_01
+- HashId: !u 0xc140e2da
+  Rotate: [2.886333465576172, 0.4977061450481415, 3.0450944900512695]
+  SRTHash: 207353455
+  Translate: [2771.281005859375, 741.1614990234375, -2477.044189453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 49.5,
+    WaterfallLength: 120.0, WaterfallRadius: 23.5, WaterfallThickness: 20.0}
+  HashId: !u 0xc275a615
+  Rotate: [-2.6201961040496826, -0.7694107890129089, 3.1412606239318848]
+  SRTHash: 1294013287
+  Scale: [40.0, 20.0, 13.210000038146973]
+  Translate: [2593.781494140625, 947.3377685546875, -2541.09423828125]
+  UnitConfigName: BoxWater
+- HashId: !u 0xc3a52b60
+  Rotate: [-0.3235635757446289, 1.4689922332763672, -0.44987908005714417]
+  SRTHash: -355168190
+  Scale: 1.2000000476837158
+  Translate: [2068.7275390625, 533.6673583984375, -2134.98681640625]
+  UnitConfigName: Obj_RockDeathMt_C_L_06
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xc3e51ec6
+  Rotate: [3.1359381675720215, 1.3726491928100586, 2.1430728435516357]
+  SRTHash: 1625096774
+  Scale: [40.0, 20.0, 248.25900268554688]
+  Translate: [2779.641357421875, 724.255859375, -2617.31884765625]
+  UnitConfigName: BoxWater
+- HashId: !u 0xc4216f41
+  Rotate: 1.65806245803833
+  SRTHash: 2020804760
+  Translate: [2162.00146484375, 634.2996826171875, -2285.3642578125]
+  UnitConfigName: DgnObj_GoronCannonBase_A_01
+- HashId: !u 0xc475a6de
+  Rotate: 2.4200031757354736
+  SRTHash: 66827822
+  Translate: [2171.66259765625, 549.109375, -2107.72900390625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xc4c8ef79
+  Rotate: [-3.003598690032959, -0.8287870287895203, -2.942112445831299]
+  SRTHash: -355168190
+  Scale: 1.2000000476837158
+  Translate: [2122.885009765625, 535.5451049804688, -2119.496826171875]
+  UnitConfigName: Obj_RockDeathMt_C_L_06
+- HashId: !u 0xc5148217
+  Rotate: [2.941725015640259, -1.0892541408538818, 2.997436285018921]
+  SRTHash: -1447978359
+  Translate: [2427.130859375, 650.8773193359375, -2287.73876953125]
+  UnitConfigName: Obj_RockSetDeathMt_A_02
+- HashId: !u 0xc690ccd1
+  Rotate: [0.24320413172245026, 0.6685060262680054, -0.10770376026630402]
+  SRTHash: 1212504023
+  Translate: [2756.7998046875, 796.6661987304688, -2592.71484375]
+  UnitConfigName: Obj_BoxIron_MtDeath
+- HashId: !u 0xc7330c0e
+  Rotate: [0.32257911562919617, -0.4879147708415985, 0.21839141845703125]
+  SRTHash: -1495488913
+  Translate: [2481.835205078125, 660.88427734375, -2308.6201171875]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc762f220
+  Rotate: [0.47999995946884155, 0.7800003290176392, 0.0]
+  SRTHash: 230709307
+  Translate: [2064.089599609375, 539.9716796875, -2922.987060546875]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xc7d109c5
+  Rotate: [0.0, 0.0, -0.3400000035762787]
+  SRTHash: -1359432163
+  Translate: [2756.771240234375, 738.3648681640625, -2464.48876953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xc8ce928e
+  Rotate: -0.7215894460678101
+  SRTHash: 1428214250
+  Translate: [2172.34130859375, 552.1015625, -2108.4677734375]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xccc926b4
+  Rotate: [-0.011581073515117168, -0.2333524525165558, 0.4118326008319855]
+  SRTHash: -1428909933
+  Translate: [2121.41259765625, 534.9791259765625, -2118.355712890625]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- HashId: !u 0xcd34236c
+  Rotate: [0.01192819606512785, 0.5785219669342041, -0.1436738669872284]
+  SRTHash: -655627326
+  Translate: [2014.30517578125, 582.2753295898438, -2804.051513671875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xce1c2737
+  Rotate: [-3.118852138519287, -0.6772034168243408, 3.0278501510620117]
+  SRTHash: -1493951141
+  Translate: [2058.105712890625, 539.3416748046875, -2919.2353515625]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcfc5d97f
+  Rotate: [0.5259323120117188, -0.7071122527122498, -0.5772353410720825]
+  SRTHash: 1977591700
+  Translate: [2133.22607421875, 559.0906982421875, -2167.197509765625]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd07a302b
+  SRTHash: 1385557917
+  Translate: [2131.581298828125, 635.73388671875, -2775.8681640625]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 52.17499923706055,
+    WaterfallLength: 120.0, WaterfallRadius: 20.127500534057617, WaterfallThickness: 20.0}
+  HashId: !u 0xd0f78226
+  Rotate: [0.5225515961647034, 1.2217304706573486, 0.0]
+  SRTHash: -1084397020
+  Scale: [104.3550033569336, 20.0, 13.210000991821289]
+  Translate: [2440.521484375, 950.8955688476562, -2638.71240234375]
+  UnitConfigName: BoxWater
+- HashId: !u 0xd169681c
+  Rotate: -0.8200043439865112
+  SRTHash: 391389351
+  Translate: [2167.8291015625, 550.390625, -2104.137451171875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xd1d32ddf
+  Rotate: -3.054326057434082
+  SRTHash: 2020804760
+  Translate: [2794.500244140625, 774.3438110351562, -2657.9296875]
+  UnitConfigName: DgnObj_GoronCannonBase_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd1e5ebfb
+  Rotate: [0.550091564655304, -1.098583459854126, -0.6025937795639038]
+  SRTHash: -288121422
+  Scale: 1.5
+  Translate: [2761.43701171875, 797.303466796875, -2589.515380859375]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- HashId: !u 0xd202a399
+  Rotate: [2.038353204727173, 1.18130624294281, 1.6787079572677612]
+  SRTHash: 118234338
+  Translate: [3012.6669921875, 375.2803955078125, -2051.56201171875]
+  UnitConfigName: Obj_RockSetDeathMt_F_01
+- HashId: !u 0xd28f9bdc
+  Rotate: [-0.3943769335746765, -0.2519129812717438, 0.36557549238204956]
+  SRTHash: 1271054211
+  Translate: [2555.126220703125, 648.6541137695312, -2309.43798828125]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0xd31245aa
+  Rotate: 1.6231577396392822
+  SRTHash: 1450864435
+  Scale: [5.0, 26.0, 5.0]
+  Translate: [2772.3720703125, 760.6953125, -2563.655029296875]
+  UnitConfigName: AscendingCurrent_FireRelic_Battle
+- HashId: !u 0xd3cbbe27
+  Rotate: [0.4628772735595703, -0.10747519880533218, -0.053479909896850586]
+  SRTHash: 1912424367
+  Translate: [2643.227294921875, 681.156982421875, -2323.73681640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xd44e1e28
+  Rotate: [2.757179021835327, -0.20481997728347778, -2.8858749866485596]
+  SRTHash: -2060521803
+  Scale: 0.699999988079071
+  Translate: [2782.78271484375, 758.025146484375, -2517.263916015625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xd4659213
+  Rotate: [-2.3269145488739014, -1.3419392108917236, 2.2974109649658203]
+  SRTHash: 171036734
+  Scale: 1.2000001668930054
+  Translate: [2054.615234375, 533.4108276367188, -2156.6884765625]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0xd5deb418
+  Rotate: 2.4200031757354736
+  SRTHash: -794646814
+  Translate: [2172.330322265625, 550.1015625, -2108.4873046875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xd5ffd14f
+  Rotate: [1.4027341604232788, -0.42589983344078064, -1.184731125831604]
+  SRTHash: -1396931810
+  Translate: [2574.24951171875, 939.6779174804688, -2691.550537109375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xd72485a6
+  Rotate: [-2.9383397102355957, -0.17793385684490204, 3.105130195617676]
+  SRTHash: 103072873
+  Scale: 1.2000000476837158
+  Translate: [2088.541259765625, 533.6766357421875, -2116.007080078125]
+  UnitConfigName: Obj_RockDeathMt_C_L_07
+- '!Parameters': {IsStopWithoutReductionY: false, Shape: Sphere, Sound: CmnVolcanoBgm,
+    SpotBgmLifeScaleMargin: 0.0}
+  HashId: !u 0xd7f570bf
+  Rotate: -1.0652605295181274
+  SRTHash: 727134993
+  Scale: 20.0
+  Translate: [2064.331787109375, 596.5109252929688, -2326.68212890625]
+  UnitConfigName: SpotBgmTag
+- HashId: !u 0xd8158496
+  Rotate: [-0.15274979174137115, -0.019138148054480553, -0.17876097559928894]
+  SRTHash: -1155698
+  Translate: [2115.848388671875, 612.3733520507812, -2242.6103515625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xd818601d
+  Rotate: -0.8200043439865112
+  SRTHash: -404717494
+  Translate: [2168.500244140625, 551.3965454101562, -2103.410888671875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xd82253cd
+  Rotate: 2.0999999046325684
+  SRTHash: -956113156
+  Translate: [2169.93017578125, 550.3032836914062, -2034.3294677734375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd840dd2b
+  Rotate: [0.18274904787540436, 0.4711426794528961, -1.4322491884231567]
+  SRTHash: 1188812102
+  Translate: [2288.114501953125, 516.0144653320312, -2102.37548828125]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xd86a7d6b
+  Rotate: [0.5096846222877502, -0.6143190264701843, -0.014223812147974968]
+  SRTHash: -1187277242
+  Translate: [2664.65673828125, 690.3287353515625, -2330.017333984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xd8c5af40
+  Rotate: [0.9442002773284912, -0.9670334458351135, -0.8133770823478699]
+  SRTHash: 714316382
+  Translate: [2694.126220703125, 695.8363037109375, -2337.879150390625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd909c77a
+  Rotate: [-0.5120806097984314, -0.5280933976173401, -0.10146991908550262]
+  SRTHash: -622528196
+  Translate: [2425.70556640625, 676.5745239257812, -2303.039306640625]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xda031d1c
+  Rotate: [-0.5094359517097473, -0.8999465107917786, 0.26882341504096985]
+  SRTHash: -2086695484
+  Scale: 0.800000011920929
+  Translate: [2304.5126953125, 641.894775390625, -2391.890869140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdabd8be7
+  Rotate: [2.626314878463745, 0.9430807828903198, 2.1660220623016357]
+  SRTHash: -2051914983
+  Translate: [2421.498779296875, 678.3397827148438, -2305.931396484375]
+  UnitConfigName: Weapon_Lsword_031
+- HashId: !u 0xdb5b22c7
+  Rotate: [2.9657528400421143, -0.8935196995735168, -1.5324318408966064]
+  SRTHash: -1840284661
+  Translate: [2225.75634765625, 628.4917602539062, -2386.242431640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdbf4ecfd
+  SRTHash: 1692307
+  Translate: [2090.31298828125, 635.7684936523438, -2648.959228515625]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdccc116b
+  Rotate: [0.33594128489494324, 0.840609610080719, -0.005398149602115154]
+  SRTHash: 1170352100
+  Translate: [2193.623291015625, 580.9213256835938, -2181.228271484375]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xdd734fb7
+  Rotate: [2.7725090980529785, -0.037938278168439865, 2.9135115146636963]
+  SRTHash: -2093828111
+  Translate: [2757.220458984375, 741.9046630859375, -2477.4931640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xddd3de38
+  Rotate: [-0.5261410474777222, -0.06751342117786407, -0.03306574374437332]
+  SRTHash: 840835302
+  Scale: 1.2000000476837158
+  Translate: [2110.9130859375, 539.1205444335938, -2097.831787109375]
+  UnitConfigName: Obj_RockDeathMt_C_L_06
+- HashId: !u 0xde022ab2
+  Rotate: [-0.911534309387207, -1.1696574687957764, 1.2659820318222046]
+  SRTHash: -1093222326
+  Translate: [2665.69580078125, 690.386474609375, -2323.004638671875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 52.17499923706055,
+    WaterfallLength: 120.0, WaterfallRadius: 20.127500534057617, WaterfallThickness: 20.0}
+  HashId: !u 0xde2c0a14
+  Rotate: [0.5225515961647034, -0.3490658700466156, 0.0]
+  SRTHash: -1084397020
+  Scale: [104.3550033569336, 20.0, 13.210000991821289]
+  Translate: [2571.260009765625, 950.8959350585938, -2699.676513671875]
+  UnitConfigName: BoxWater
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, GolemSleepType: SleepBack_A,
+    GolemWeakPointLocation: Point_A, IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0xde412a98
+  Rotate: [0.0733242928981781, -0.003044807119295001, 0.0829656645655632]
+  SRTHash: 939823920
+  Translate: [2168.8154296875, 553.5894165039062, -2044.9837646484375]
+  UnitConfigName: Enemy_Golem_Little_Fire
+- HashId: !u 0xdf3fc396
+  Rotate: [-1.4203563928604126, -0.5151165127754211, -0.07453766465187073]
+  SRTHash: 1843315208
+  Translate: [2774.4560546875, 755.671630859375, -2521.68603515625]
+  UnitConfigName: Obj_RockDeathMt_A_M_06
+- HashId: !u 0xdf963cbd
+  Rotate: 2.4200031757354736
+  SRTHash: 927720027
+  Translate: [2172.02392578125, 551.1015625, -2108.110107421875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe0c819ca
+  Rotate: [-3.141592264175415, 0.49840569496154785, -2.86159348487854]
+  SRTHash: 1802931064
+  Translate: [2097.638427734375, 576.9383544921875, -2222.196533203125]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0xe1a897d9
+  Rotate: -1.2799973487854004
+  SRTHash: -350775714
+  Translate: [2060.12060546875, 580.2266235351562, -2759.925048828125]
+  UnitConfigName: Obj_LiftRockEldin_Korok_A_01
+- HashId: !u 0xe1adbb73
+  SRTHash: -1909118778
+  Translate: [2140.0, 562.0535888671875, -2165.5]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0xe24499aa
+  Rotate: [0.3472351133823395, 0.9509734511375427, 0.38849547505378723]
+  SRTHash: -494446975
+  Translate: [2754.749755859375, 732.8134155273438, -2437.9501953125]
+  UnitConfigName: FldObj_DeathMtGeyser_02
+- HashId: !u 0xe2ad8436
+  Rotate: [0.16194994747638702, -0.0067616598680615425, -0.22812369465827942]
+  SRTHash: -187545618
+  Scale: 0.5999999642372131
+  Translate: [2072.78076171875, 530.8536987304688, -2133.980712890625]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- HashId: !u 0xe2ed9217
+  Rotate: 0.2800000309944153
+  SRTHash: 45068480
+  Translate: [2046.2001953125, 521.9407348632812, -2034.466796875]
+  UnitConfigName: TwnObj_City_GoronLight_B_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xe42fbfe3
+  Rotate: [1.2134052515029907, 0.3521376848220825, 0.0]
+  SRTHash: -79375103
+  Scale: [104.3550033569336, 20.0, 126.91000366210938]
+  Translate: [2586.370849609375, 888.629150390625, -2467.758544921875]
+  UnitConfigName: BoxWater
+- HashId: !u 0xe483b394
+  Rotate: [-1.3486757278442383, 0.4822312891483307, -1.792917013168335]
+  SRTHash: -1014839310
+  Translate: [2500.3271484375, 936.5353393554688, -2514.41064453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xe513fbe7
+  SRTHash: -1494169423
+  Translate: [2902.939208984375, 619.68408203125, -2491.95751953125]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0xe58d888e
+  Rotate: [-2.8174209594726562, -1.0013233423233032, 2.6594865322113037]
+  SRTHash: -375635247
+  Scale: 1.2000000476837158
+  Translate: [2054.371826171875, 534.2416381835938, -2151.049072265625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xe61ff11a
+  Rotate: [-2.7548279762268066, 1.2186585664749146, 3.1415927410125732]
+  SRTHash: -130738515
+  Scale: [104.3550033569336, 20.000001907348633, 16.22800064086914]
+  Translate: [2644.548095703125, 951.13427734375, -2643.574462890625]
+  UnitConfigName: BoxWater
+- HashId: !u 0xe6807ace
+  SRTHash: -15582857
+  Translate: [2325.376220703125, 505.28399658203125, -3213.02197265625]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0xe715d35a
+  Rotate: 0.849206805229187
+  SRTHash: -682504501
+  Translate: [2170.365478515625, 550.1015625, -2106.254150390625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe731e2e8
+  Rotate: [-0.006443791091442108, -0.5400438904762268, -0.0159081369638443]
+  SRTHash: -2047751527
+  Translate: [2113.843017578125, 634.73291015625, -2552.904541015625]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xe76bfdac
+  Rotate: [-2.45401668548584, 1.3342963457107544, -2.051784038543701]
+  SRTHash: 57797119
+  Translate: [2442.150634765625, 652.80908203125, -2305.926513671875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xe7752ae9
+  Rotate: 1.6231577396392822
+  SRTHash: 1682141834
+  Scale: [5.0, 27.0, 5.0]
+  Translate: [2788.46826171875, 758.8359375, -2570.115478515625]
+  UnitConfigName: AscendingCurrent_FireRelic_Battle
+- HashId: !u 0xe793ea17
+  Rotate: 0.7507919073104858
+  SRTHash: 1765847141
+  Translate: [2169.21240234375, 553.3828125, -2104.1015625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xe83d1c79
+  Rotate: [-0.014681750908493996, 1.4007810354232788, 0.3771907687187195]
+  SRTHash: -872792320
+  Translate: [2653.787841796875, 684.5894775390625, -2314.08740234375]
+  UnitConfigName: FldObj_BoardIronDeathMt_A
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe8dcfd22
+  Rotate: [2.856590509414673, 0.30125540494918823, -2.7692718505859375]
+  SRTHash: 892203410
+  Translate: [2934.383056640625, 470.31298828125, -2078.192138671875]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xe8e41c31
+  Rotate: [1.2134052515029907, 1.2217308282852173, 0.0]
+  SRTHash: -2018701760
+  Scale: [104.3550033569336, 19.999998092651367, 126.91000366210938]
+  Translate: [2672.59228515625, 888.629150390625, -2554.245361328125]
+  UnitConfigName: BoxWater
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 96.0, WaterfallRadius: 26.399999618530273, WaterfallThickness: 12.0}
+  HashId: !u 0xe8ebccef
+  Rotate: -0.9385053515434265
+  SRTHash: -1023469708
+  Scale: [24.0, 14.40000057220459, 43.20000457763672]
+  Translate: [2400.496337890625, 625.9849853515625, -2164.41015625]
+  UnitConfigName: BoxWater
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe92e68c9
+  Rotate: [2.9933266639709473, -0.9741619229316711, -2.9629602432250977]
+  SRTHash: 1992515934
+  Translate: [2614.72607421875, 694.8055419921875, -2308.63671875]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xe94d160d
+  Rotate: [-0.09230747818946838, 1.2600826025009155, -0.0670308768749237]
+  SRTHash: 1887611562
+  Translate: [2590.2900390625, 694.631103515625, -2303.898681640625]
+  UnitConfigName: Obj_BoxIron_MtDeath
+- HashId: !u 0xe97e3734
+  Rotate: [0.3419155180454254, 1.1679109334945679, 0.1493026167154312]
+  SRTHash: 919958526
+  Translate: [2757.51953125, 786.6031494140625, -2632.569580078125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xea0945d4
+  Rotate: [0.48418718576431274, 1.4002376794815063, 0.49023401737213135]
+  SRTHash: -1772428568
+  Scale: 1.2000000476837158
+  Translate: [2465.15185546875, 997.5551147460938, -2525.521240234375]
+  UnitConfigName: Obj_RockDeathMt_A_M_06
+- HashId: !u 0xea366d79
+  Rotate: [-2.6106905937194824, 0.6916601061820984, -2.8008382320404053]
+  SRTHash: -94273084
+  Translate: [2055.2431640625, 550.5059814453125, -2071.258056640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xeaedabc1
+  Rotate: [-0.0037022873293608427, 0.15609006583690643, 0.07005560398101807]
+  SRTHash: 113805092
+  Scale: 0.8999999761581421
+  Translate: [2688.001953125, 727.581298828125, -2380.626708984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xeb05d039
+  Rotate: [-0.48954346776008606, 0.3455110490322113, -0.5652942657470703]
+  SRTHash: -218356247
+  Scale: 1.100000023841858
+  Translate: [2229.776123046875, 630.6533203125, -2374.797607421875]
+  UnitConfigName: Obj_RockDeathMt_A_L_03
+- HashId: !u 0xeb1bfba9
+  SRTHash: 1997175190
+  Translate: [2587.4560546875, 623.9462890625, -2228.49169921875]
+  UnitConfigName: LavaHaze_01
+- HashId: !u 0xeb29f54a
+  Rotate: [0.18799422681331635, 0.0661364197731018, -0.3946005403995514]
+  SRTHash: 1524790487
+  Translate: [2741.73974609375, 734.5661010742188, -2430.309814453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xec2ab245
+  OnlyOne: true
+  Rotate: -0.9773843884468079
+  SRTHash: -1564635113
+  Translate: [2190.83203125, 632.4609375, -2340.6875]
+  UnitConfigName: FldObj_DeathMtArtifactBridge_A_02
+- HashId: !u 0xecb3ab3a
+  Rotate: [-0.5799999237060547, 0.0, 0.0]
+  SRTHash: 1569215062
+  Translate: [2378.9072265625, 642.5531616210938, -2321.758056640625]
+  UnitConfigName: Obj_RockDeathMt_A_M_06
+- HashId: !u 0xed7dd4ea
+  Rotate: [-2.784464120864868, 1.2053606510162354, 2.3474066257476807]
+  SRTHash: 2032164745
+  Translate: [2794.522216796875, 724.8012084960938, -2576.400146484375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xeea59969
+  Rotate: [2.9084231853485107, -0.8132309913635254, -2.871938705444336]
+  SRTHash: 855167331
+  Translate: [2752.855712890625, 795.7760009765625, -2600.16650390625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xeee86e48
+  Rotate: -3.1031856536865234
+  SRTHash: -864020276
+  Translate: [2072.41357421875, 556.8568115234375, -2020.363037109375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xef139c77
+  Rotate: [3.0475409030914307, 0.12498071044683456, 2.8243916034698486]
+  SRTHash: 2008873659
+  Translate: [2761.93212890625, 776.0121459960938, -2629.30078125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xf0171223
+  Rotate: [-3.1051533222198486, 0.21941004693508148, -3.019024133682251]
+  SRTHash: 1856007301
+  Translate: [2405.3486328125, 650.298095703125, -2301.494140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xf123a5bc
+  Rotate: [-0.2520238757133484, -0.006174155510962009, -0.00910238828510046]
+  SRTHash: 419114608
+  Translate: [2426.391357421875, 651.6329956054688, -2287.105712890625]
+  UnitConfigName: Obj_RockDeathMt_A_M_06
+- '!Parameters': {FlowSpeedFactor: 1.0, SoundInDoorType: 0, WaterMaterial: 2, WaterfallAngle: 90.0,
+    WaterfallLength: 0.0, WaterfallRadius: 0.0, WaterfallThickness: 1.0}
+  HashId: !u 0xf20d045b
+  Rotate: [-2.178170919418335, 1.2186585664749146, 3.1415927410125732]
+  SRTHash: 312867471
+  Scale: [104.1500015258789, 20.0, 260.0]
+  Translate: [2759.591796875, 727.6070556640625, -2685.84765625]
+  UnitConfigName: BoxWater
+- HashId: !u 0xf21222ba
+  Rotate: [0.29051488637924194, 0.4563571512699127, 0.28613531589508057]
+  SRTHash: 1720366545
+  Scale: 0.800000011920929
+  Translate: [2413.306884765625, 679.1907958984375, -2317.093994140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xf2b78f69
+  Rotate: [-0.1015491932630539, -1.1843078136444092, 0.27020084857940674]
+  SRTHash: -2032432715
+  Translate: [2449.25927734375, 654.2783203125, -2312.0556640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xf35d8f6f
+  Rotate: [-2.993943691253662, -1.4806230068206787, -3.1004557609558105]
+  SRTHash: 891975800
+  Translate: [2672.7578125, 718.23974609375, -2369.892822265625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0xf62bf235
+  Rotate: [1.1568622589111328, 1.4341737031936646, 0.048005469143390656]
+  SRTHash: -169907591
+  Translate: [3038.537109375, 388.50836181640625, -2114.19921875]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xf6fb67d6
+  Rotate: [-2.2711641788482666, 1.138562798500061, -1.729002833366394]
+  SRTHash: -862249579
+  Translate: [2656.707763671875, 684.9849853515625, -2322.992919921875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xf8764f14
+  Rotate: 0.849206805229187
+  SRTHash: -722916550
+  Translate: [2172.692626953125, 551.1015625, -2108.869384765625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf8f7906c
+  Rotate: [-0.6973481774330139, 1.5437718629837036, -0.6972589492797852]
+  SRTHash: -1963088782
+  Translate: [2153.12646484375, 601.863037109375, -2887.829833984375]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0xf972bc52
+  Rotate: [-1.0001581907272339, -0.5492172837257385, 0.4363064765930176]
+  SRTHash: -2047546778
+  Translate: [2440.720458984375, 936.9854736328125, -2577.422119140625]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, GolemSleepType: SleepBack_B,
+    GolemWeakPointLocation: Point_A, IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0xf9c1dd9b
+  Rotate: [-0.2860521078109741, 0.06206696853041649, 0.4246324300765991]
+  SRTHash: 671618575
+  Translate: [2153.283935546875, 554.3203125, -2016.357177734375]
+  UnitConfigName: Enemy_Golem_Little_Fire
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xf9cdf8c6
+  SRTHash: -1620765182
+  Scale: 75.0
+  Translate: [2141.5, 559.8372802734375, -2182.0]
+  UnitConfigName: Area
+- HashId: !u 0xfa3c19c1
+  Rotate: -0.2800000309944153
+  SRTHash: -421562643
+  Translate: [2735.059814453125, 731.3425903320312, -2408.8134765625]
+  UnitConfigName: Obj_RockSetDeathMt_A_02
+- HashId: !u 0xfb0b333d
+  Rotate: [3.0160162448883057, 1.432590126991272, 3.1337087154388428]
+  SRTHash: 14382563
+  Translate: [2404.7421875, 649.6522216796875, -2292.107177734375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xfb85781e
+  Rotate: 2.3215882778167725
+  SRTHash: 228582419
+  Translate: [2167.812744140625, 551.3828125, -2104.145263671875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xfb9df0e7
+  Rotate: [0.28716519474983215, -0.2876380681991577, -0.20117884874343872]
+  SRTHash: -1664148419
+  Translate: [2788.7880859375, 760.355712890625, -2570.029541015625]
+  UnitConfigName: FldObj_DeathMtGeyser_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfbd11147
+  Rotate: [0.4659518599510193, 0.9915550947189331, 0.7180307507514954]
+  SRTHash: 1653262910
+  Translate: [2432.162109375, 529.3182373046875, -2079.30859375]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xfc488bac
+  Rotate: [0.4867747724056244, 0.10582584142684937, -0.3190860450267792]
+  SRTHash: -1838413441
+  Translate: [2354.6533203125, 510.9302673339844, -2122.7265625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xfcb6681f
+  Rotate: 0.6981316804885864
+  SRTHash: 1182261514
+  Translate: [2784.115966796875, 774.9937133789062, -2650.750732421875]
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0xfcf6cd28
+  Rotate: [0.12696407735347748, 0.1223033145070076, -0.12237197160720825]
+  SRTHash: 1981577827
+  Translate: [2066.477783203125, 533.7949829101562, -2131.94189453125]
+  UnitConfigName: FldObj_SmallCrater_S_01
+- '!Parameters': {DropTable: Normal, InitBurnState: true, InitMotionStatus: 0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfd4b7ca1
+  SRTHash: -1379885696
+  Translate: [2035.1593017578125, 522.9228515625, -2035.601318359375]
+  UnitConfigName: Item_CookSet
+- HashId: !u 0xfdfa0c60
+  Rotate: 0.7507919073104858
+  SRTHash: 705083575
+  Translate: [2167.03271484375, 551.3828125, -2102.0322265625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xfe6a6d3f
+  Rotate: 2.3215882778167725
+  SRTHash: -2011845087
+  Translate: [2169.6025390625, 552.3828125, -2104.4658203125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xfed12403
+  Rotate: [0.43800902366638184, 0.6167130470275879, 0.3257593512535095]
+  SRTHash: -313182303
+  Translate: [2780.424560546875, 750.1720581054688, -2497.529296875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff617a92
+  Rotate: [0.4424424469470978, -0.375558465719223, -0.19763103127479553]
+  SRTHash: 319791989
+  Translate: [2427.59375, 654.5223999023438, -2288.7900390625]
+  UnitConfigName: FldObj_PushRock_A_M_01
+- HashId: !u 0xffb276e4
+  Rotate: [-3.121516704559326, 0.3172151446342468, -3.016848087310791]
+  SRTHash: 551622208
+  Translate: [2101.506591796875, 555.6062622070312, -2062.928955078125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0xffe8a8a4
+  Rotate: [1.9925212860107422, -1.0434153079986572, -2.0940849781036377]
+  SRTHash: -1630537031
+  Translate: [2294.0986328125, 523.8028564453125, -2118.0380859375]
+  UnitConfigName: Obj_MineralGrain_A_04
+Rails: []

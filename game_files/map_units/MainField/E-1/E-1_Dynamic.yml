@@ -1,0 +1,1137 @@
+Objs:
+- HashId: !u 0x07378bc7
+  Rotate: [-0.11059427261352539, -0.02075902372598648, -0.15073329210281372]
+  SRTHash: -734950775
+  Scale: 0.800000011920929
+  Translate: [-843.319580078125, 342.31060791015625, -3360.021484375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x08f09856
+  Rotate: -0.580000102519989
+  SRTHash: -1648849174
+  Translate: [5.927276611328125, 267.18829345703125, -3106.01318359375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x08f365f9
+  Rotate: [-0.9665123224258423, -1.4923031330108643, 0.7756484150886536]
+  SRTHash: 1633361295
+  Translate: [-625.00634765625, 336.48968505859375, -3602.353759765625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x09177d99
+  Rotate: [0.3307596445083618, 0.8873741030693054, 0.37041884660720825]
+  SRTHash: -1508565222
+  Translate: [-55.0015869140625, 254.7523956298828, -3169.145263671875]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x0be3fdc5
+  SRTHash: -826709117
+  Scale: 150.0
+  Translate: [-401.0, 207.78250122070312, -3100.5]
+  UnitConfigName: Area
+- HashId: !u 0x0d7304ee
+  Rotate: [0.16213268041610718, -0.604749858379364, -0.17219491302967072]
+  SRTHash: -164292040
+  Translate: [-764.10498046875, 341.46685791015625, -3399.349365234375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0de05fbc
+  Rotate: [2.8284941056000434e-09, -1.450796365737915, 0.9907916188240051]
+  SRTHash: 1159918149
+  Translate: [-754.1328125, 340.6781311035156, -3536.699951171875]
+  UnitConfigName: Obj_ArrowNormal_A_01
+- HashId: !u 0x0f254b23
+  Rotate: [0.0877685621380806, -1.0090330839157104, 0.3765868842601776]
+  SRTHash: 0
+  Translate: [-88.6796875, 247.78125, -3145.40625]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, EnemyOwnItem: true, IsCreateSharpWeapon: false,
+    IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false, IsWeaponCreateByRawLife: false,
+    LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0x122d2e4c
+  Rotate: 0.7853981852531433
+  SRTHash: -2024080807
+  Translate: [-777.5, 365.03125, -3535.0]
+  UnitConfigName: Weapon_Bow_035
+- HashId: !u 0x123962d7
+  Rotate: [0.4623677730560303, 0.8567736744880676, 0.552939236164093]
+  SRTHash: 2017277907
+  Translate: [49.419189453125, 273.42645263671875, -3219.995361328125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x1303ee09
+  Rotate: [-0.39736083149909973, 0.16432903707027435, 0.416509211063385]
+  SRTHash: 423197961
+  Translate: [-222.4268798828125, 202.08985900878906, -3182.332763671875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x146600a2
+  Rotate: [0.20237351953983307, 0.04494011402130127, -0.4356638491153717]
+  SRTHash: 469353052
+  Translate: [-703.4835205078125, 339.7022399902344, -3424.304443359375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0x14ed2006
+  Rotate: [1.2311729192733765, 0.5924646258354187, -0.4147908091545105]
+  SRTHash: 2046019780
+  Translate: [-745.2000122070312, 344.2359313964844, -3554.800048828125]
+  UnitConfigName: Weapon_Spear_008
+- HashId: !u 0x15835790
+  SRTHash: -1121079366
+  Translate: [-333.83892822265625, 209.94293212890625, -3073.85546875]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x1c179ab7
+  Rotate: [-1.5707963705062866, 5.276431380707436e-08, -1.5707963705062866]
+  SRTHash: -1974665164
+  Translate: [-778.828125, 373.8999938964844, -3532.4765625]
+  UnitConfigName: FldObj_HugeMazeFence_A_01
+- HashId: !u 0x1ccdcf44
+  Rotate: -1.1784067153930664
+  SRTHash: -2137180164
+  Translate: [-980.2164306640625, 339.7679138183594, -3462.19482421875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x1e408cb4
+  Rotate: [-0.043875619769096375, 0.5236067175865173, 0.18904618918895721]
+  SRTHash: 1278610798
+  Translate: [-0.374420166015625, 261.6981506347656, -3161.159912109375]
+  UnitConfigName: Obj_RockSetDeathMt_A_02
+- HashId: !u 0x1e8b72da
+  Rotate: -3.1415927410125732
+  SRTHash: -1334845458
+  Translate: [-835.3203125, 344.8671875, -3529.6796875]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0x1eb8e40e
+  Rotate: [-0.40427500009536743, -1.209357500076294, -0.1450386941432953]
+  SRTHash: -1242155299
+  Translate: [-30.014862060546875, 195.3602294921875, -3361.750732421875]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0x21621ef2
+  Rotate: [-3.0712332725524902, 0.13351894915103912, 3.1373953819274902]
+  SRTHash: 1099782133
+  Translate: [-236.0068359375, 202.48553466796875, -3106.322021484375]
+  UnitConfigName: FldObj_RuinStatueDragon_A_04
+- HashId: !u 0x22e7c53e
+  Rotate: [-2.844515323638916, 0.520483136177063, -2.7847049236297607]
+  SRTHash: -816244746
+  Translate: [-155.70379638671875, 231.00680541992188, -3106.39892578125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x23b4f05c
+  Rotate: [-0.8654962778091431, -0.012966557405889034, 1.586024284362793]
+  SRTHash: 670622254
+  Translate: [-752.1403198242188, 340.0757751464844, -3532.619873046875]
+  UnitConfigName: Obj_ArrowNormal_A_01
+- HashId: !u 0x25d24ba6
+  Rotate: 1.0999999046325684
+  SRTHash: -46454741
+  Translate: [-726.5120239257812, 342.86761474609375, -3409.67333984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2983ddcf
+  Rotate: [-0.07015097141265869, 0.5443066358566284, -0.03636958822607994]
+  SRTHash: -1610229875
+  Translate: [-735.0, 340.4703369140625, -3506.3359375]
+  UnitConfigName: Obj_ArrowNormal_A_01
+- '!Parameters': {DropActor: Item_Ore_A, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2b2b435b
+  Rotate: 1.5707963705062866
+  SRTHash: 1467772014
+  Translate: [-825.0, 385.0, -3535.0]
+  UnitConfigName: TBox_Field_Stone
+- HashId: !u 0x2e8d924a
+  Rotate: [0.3913751542568207, 1.3609296083450317, 0.4744122624397278]
+  SRTHash: -681918874
+  Scale: 0.8500000238418579
+  Translate: [-88.32345581054688, 199.07122802734375, -3279.699462890625]
+  UnitConfigName: Obj_Plant_HopBush_B_01
+- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x309d36f1
+  SRTHash: 446195360
+  Translate: [-825.0, 345.0, -3650.0]
+  UnitConfigName: TBox_Field_Stone
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x31891657
+  Rotate: [-2.215698003768921, 0.6945800185203552, 2.549438238143921]
+  SRTHash: 0
+  Translate: [-973.28125, 362.49609375, -3387.015625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x31b8284b
+  Rotate: [-2.7621333599090576, 0.7477518916130066, -2.6111910343170166]
+  SRTHash: -1475203420
+  Translate: [-319.148193359375, 257.9163818359375, -2990.27294921875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x32d17d45
+  SRTHash: 1283339006
+  Translate: [-825.015625, 339.8594970703125, -3499.796875]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0x33d46f1a
+  Rotate: [-2.85227370262146, -0.7012049555778503, 2.6734931468963623]
+  SRTHash: 1642279664
+  Translate: [-848.933837890625, 342.2178039550781, -3370.32958984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3451ab69
+  Rotate: [-1.136962890625, -1.1685789823532104, 2.948119878768921]
+  SRTHash: 0
+  Translate: [-491.3515625, 211.078125, -3137.46484375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x35438bbd
+  Rotate: 1.5707963705062866
+  SRTHash: -1475057181
+  Translate: [-829.6728515625, 344.8671875, -3645.31103515625]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x35f6bfd1
+  Rotate: [0.9382323622703552, 1.3725584745407104, -0.4465331733226776]
+  SRTHash: 0
+  Translate: [-1014.24609375, 354.328125, -3233.9921875]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x3607a54a
+  SRTHash: -1393137734
+  Translate: [-85.78118896484375, 239.75502014160156, -3148.241455078125]
+  UnitConfigName: FldObj_RuinStatueDragon_A_04
+- HashId: !u 0x3655132e
+  Rotate: [-0.2085927426815033, 0.017935529351234436, 0.17093107104301453]
+  SRTHash: -641382595
+  Translate: [-85.095947265625, 199.85121154785156, -3274.5869140625]
+  UnitConfigName: Obj_Plant_HopBush_B_01
+- HashId: !u 0x366bbe83
+  Rotate: [0.17265664041042328, 0.7653361558914185, 0.05237434431910515]
+  SRTHash: 1971135271
+  Translate: [-169.07830810546875, 200.00965881347656, -3259.93896484375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x37e2111d
+  Rotate: [-2.869967222213745, 0.26752838492393494, -2.817187547683716]
+  SRTHash: -168039112
+  Scale: 1.2000000476837158
+  Translate: [-966.7144775390625, 333.9905700683594, -3593.33154296875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x3986592f
+  Rotate: [0.08494933694601059, -0.015516734682023525, 0.36112847924232483]
+  SRTHash: -1394306631
+  Translate: [-86.78781127929688, 247.88656616210938, -3144.514892578125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x3af6de6b
+  Rotate: [-0.22883321344852448, -0.038584668189287186, -0.33269527554512024]
+  SRTHash: -784846440
+  Translate: [-703.332275390625, 340.16339111328125, -3670.816650390625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x3b10859b
+  Rotate: [-2.1849570274353027, -1.310947299003601, 2.174551486968994]
+  SRTHash: 68867375
+  Translate: [-991.40234375, 338.63543701171875, -3504.88427734375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {EquipItem1: Weapon_Sword_007, EquipItem2: Weapon_Shield_007, FortressEatPer: -1,
+    IsMimicry: false, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x3b7c7405
+  SRTHash: 1941780019
+  Translate: [-735.4000244140625, 340.0, -3548.5]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- '!Parameters': {DropActor: Weapon_Shield_003, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3db3b1ed
+  Rotate: [0.3198263943195343, -1.5707963705062866, -0.32027485966682434]
+  SRTHash: -116012178
+  Translate: [-778.58447265625, 340.4999694824219, -3535.00244140625]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x40059b7f
+  Rotate: [-0.30000001192092896, 0.0, 0.0]
+  SRTHash: -207456028
+  Translate: [-274.77947998046875, 209.52012634277344, -3092.87158203125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x409f1a73
+  Rotate: [0.009581997990608215, 0.4898988902568817, -0.2832159399986267]
+  SRTHash: -534852798
+  Translate: [-430.6134033203125, 211.9274444580078, -3099.4501953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x44c9d19b
+  Rotate: [2.456220865249634, 1.3967961072921753, 2.1945440769195557]
+  SRTHash: 1353676075
+  Translate: [-207.71487426757812, 201.93905639648438, -3258.1728515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsMimicry: false,
+    IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0}
+  HashId: !u 0x44e158d5
+  Rotate: 1.0108015537261963
+  SRTHash: 1636241130
+  Translate: [-882.253662109375, 340.32293701171875, -3592.53466796875]
+  UnitConfigName: Enemy_Octarock_Desert
+- HashId: !u 0x457e142a
+  Rotate: [-0.15061981976032257, 0.8749524354934692, -0.10458048433065414]
+  SRTHash: -1341448254
+  Translate: [-392.15655517578125, 211.137451171875, -3061.4423828125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: false, IsWatchKeeping: true, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x465bfe26
+  Rotate: 1.4800008535385132
+  SRTHash: 1258882955
+  Translate: [-788.4000244140625, 340.15753173828125, -3525.800048828125]
+  UnitConfigName: Enemy_Chuchu_Electric_Junior
+- HashId: !u 0x46e19ac0
+  Rotate: [0.20071424543857574, 0.8928982615470886, 0.4297928810119629]
+  SRTHash: -1657729831
+  Translate: [-971.3681030273438, 333.7140197753906, -3543.001953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x47203159
+  SRTHash: 2141884221
+  Translate: [-830.3203125, 344.8671875, -3545.328125]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x4835f747
+  Rotate: [0.8051757216453552, 1.122314453125, -0.6772460341453552]
+  SRTHash: 0
+  Translate: [-1045.44140625, 398.15234375, -3269.65625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x494b5d8e
+  Rotate: [-0.27380865812301636, 0.028451956808567047, 0.20580799877643585]
+  SRTHash: -92657578
+  Translate: [-141.05328369140625, 199.08139038085938, -3222.818603515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x4997de83
+  Rotate: [-2.6289079189300537, -1.0188177824020386, 2.429166078567505]
+  SRTHash: -482479104
+  Translate: [-233.59368896484375, 198.86441040039062, -3251.15576171875]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x4b20886e
+  Rotate: [0.21224796772003174, 0.04935538023710251, -0.4553834795951843]
+  SRTHash: -1585380259
+  Translate: [-701.9173583984375, 339.3702392578125, -3368.568603515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x4c10152e
+  Rotate: 2.0799970626831055
+  SRTHash: 1929154433
+  Translate: [-830.6070556640625, 334.2853698730469, -3699.379150390625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x4caf2973
+  Rotate: [2.3082962036132812, 1.3151500225067139, 2.485701084136963]
+  SRTHash: 758361010
+  Translate: [-81.28021240234375, 199.23046875, -3262.58837890625]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0x4d1f58ee
+  Rotate: 0.26000016927719116
+  SRTHash: -902579981
+  Translate: [-640.2013549804688, 338.3759460449219, -3449.81396484375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x4e75c4eb
+  Rotate: 0.5631857514381409
+  SRTHash: 65708785
+  Translate: [-758.3665161132812, 341.57952880859375, -3423.903076171875]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x4eb969ca
+  SRTHash: -1854284902
+  Translate: [-714.6728515625, 344.8671875, -3539.67822265625]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0x4ef0af77
+  Rotate: [-1.2634085416793823, -1.2342253923416138, 1.2769453525543213]
+  SRTHash: -478500480
+  Translate: [-813.2200927734375, 334.7965393066406, -3711.41162109375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x50965cb8
+  Rotate: [2.0922744274139404, 1.0733838081359863, -1.1032319068908691]
+  SRTHash: 828122662
+  Translate: [-759.0, 341.0234375, -3535.300048828125]
+  UnitConfigName: Obj_ArrowNormal_A_01
+- HashId: !u 0x5098727b
+  Rotate: [-0.03858175873756409, 0.12884055078029633, -0.06015702337026596]
+  SRTHash: 1789079912
+  Translate: [-972.4825439453125, 336.91619873046875, -3485.012939453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x58242099
+  Rotate: [0.07917134463787079, -0.6369546055793762, -0.09568195790052414]
+  SRTHash: 2114143267
+  Translate: [-706.8359375, 339.2416076660156, -3603.86767578125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5c51352e
+  Rotate: [0.9107969403266907, 0.060000039637088776, 1.5707961320877075]
+  SRTHash: 1342934263
+  Translate: [-735.2109375, 340.4796447753906, -3506.3359375]
+  UnitConfigName: Obj_ArrowNormal_A_01
+- HashId: !u 0x5d1f50a6
+  Rotate: [-0.15573033690452576, 0.014395256526768208, 0.18398281931877136]
+  SRTHash: 365847965
+  Translate: [-238.58648681640625, 210.288818359375, -3110.202880859375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x5e5b18a4
+  Rotate: [2.6506595611572266, -0.0801401361823082, -3.103677272796631]
+  SRTHash: 690546583
+  Translate: [-219.29598999023438, 202.63104248046875, -3248.654052734375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x5f41fa79
+  Rotate: [-3.0677382946014404, -0.2511814832687378, 2.8522634506225586]
+  SRTHash: 319909367
+  Translate: [-403.255126953125, 252.07208251953125, -2929.854248046875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x64c126d7
+  Rotate: -1.5800001621246338
+  SRTHash: 656769418
+  Translate: [-759.9933471679688, 336.7711181640625, -3718.15576171875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x65f87a36
+  Rotate: [1.8815805912017822, 1.3084917068481445, 1.9255224466323853]
+  SRTHash: -1347120387
+  Translate: [-637.2445068359375, 339.103515625, -3536.627685546875]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x67a2817e
+  Rotate: -1.5707963705062866
+  SRTHash: 1806499446
+  Translate: [-812.5, 375.4999694824219, -3533.0]
+  UnitConfigName: TBox_Field_Stone
+- HashId: !u 0x67cf06c0
+  Rotate: [-0.05889308825135231, 0.0036754440516233444, -0.011064887046813965]
+  SRTHash: 1359114208
+  Translate: [-642.9202270507812, 341.49853515625, -3460.260009765625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x6801297b
+  Rotate: [-2.252199172973633, 1.1574692726135254, -1.896598219871521]
+  SRTHash: 1118679784
+  Translate: [35.53045654296875, 269.21539306640625, -3172.61572265625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x69c6e874
+  Rotate: 3.1415927410125732
+  SRTHash: 895486556
+  Translate: [-825.0009765625, 344.8671875, -3415.33447265625]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0x6a162423
+  Rotate: 3.1415927410125732
+  SRTHash: -1270889156
+  Translate: [-819.6875, 344.8671875, -3524.671875]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0x6a26c1a3
+  Rotate: [-0.33091452717781067, -0.11579596251249313, 0.20348656177520752]
+  SRTHash: 697422297
+  Translate: [-303.8367004394531, 213.38043212890625, -3083.79638671875]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0x6a5407df
+  Rotate: [-0.3262192904949188, -0.014598237350583076, -0.08864790946245193]
+  SRTHash: 203719448
+  Translate: [-716.8111572265625, 337.41107177734375, -3681.57763671875]
+  UnitConfigName: Obj_RockDeathMt_C_L_08
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x6aa7f2e8
+  Rotate: [-0.27114877104759216, -0.7655701041221619, 0.25475433468818665]
+  SRTHash: 196444637
+  Translate: [-730.8553466796875, 340.3703918457031, -3505.778564453125]
+  UnitConfigName: Barrel
+- HashId: !u 0x6af68b0e
+  SRTHash: 679745030
+  Translate: [-220.244140625, 207.10304260253906, -3150.74951171875]
+  UnitConfigName: FldObj_RuinStatueDragon_A_02
+- HashId: !u 0x6b13ae36
+  Rotate: -1.6799904108047485
+  SRTHash: -1171883456
+  Translate: [-105.2059326171875, 237.32254028320312, -3160.075927734375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x6c19ec41
+  Rotate: [-2.161592960357666, -0.9815936088562012, 3.141592264175415]
+  SRTHash: -1509592574
+  Translate: [-134.22259521484375, 227.62689208984375, -3141.794921875]
+  UnitConfigName: FldObj_RuinStonePillar_A_05
+- HashId: !u 0x6da36caa
+  Rotate: [2.899601459503174, 0.02630138024687767, 2.8954267501831055]
+  SRTHash: 1413177072
+  Translate: [-968.6878662109375, 334.13250732421875, -3524.584716796875]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0x6e685fe1
+  Rotate: [0.058616019785404205, -0.0002866495633497834, 0.00977770984172821]
+  SRTHash: 1642857416
+  Translate: [-682.3809814453125, 340.47564697265625, -3546.014892578125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x6f2a5b88
+  Rotate: [-0.038194525986909866, 0.8016434907913208, 0.1234348714351654]
+  SRTHash: 879014271
+  Translate: [-215.74008178710938, 210.6531219482422, -3156.443603515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x70510ebb
+  Rotate: [-1.5954588651657104, -0.1098632737994194, -3.054809331893921]
+  SRTHash: 0
+  Translate: [-941.453125, 302.671875, -3686.578125]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x72b77ced
+  Rotate: 0.23999878764152527
+  SRTHash: 1257916890
+  Translate: [-929.7669067382812, 333.0165710449219, -3658.0087890625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0x753cabb2
+  Rotate: [-0.3023093640804291, 0.2865287661552429, 0.18366415798664093]
+  SRTHash: -2120445491
+  Translate: [-920.7218017578125, 338.38458251953125, -3588.804931640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x76009356
+  Rotate: [-0.5399997234344482, 0.5199999809265137, 0.0]
+  SRTHash: 972571753
+  Translate: [-800.114013671875, 338.75701904296875, -3692.04248046875]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x7823273d
+  Rotate: [-2.6395020484924316, 1.0880100727081299, -2.158135414123535]
+  SRTHash: 1773474117
+  Translate: [-991.7132568359375, 326.4079895019531, -3587.8349609375]
+  UnitConfigName: Obj_RockDeathMt_C_L_08
+- HashId: !u 0x78810737
+  Rotate: 1.5707963705062866
+  SRTHash: -1406687174
+  Translate: [-774.6640625, 339.84716796875, -3515.6171875]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0x7b42c0f1
+  Rotate: [-2.245899200439453, -1.2095292806625366, 2.254615068435669]
+  SRTHash: -1278997626
+  Translate: [-886.6533813476562, 334.93511962890625, -3684.51611328125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x7c458149
+  Rotate: [-3.1199710369110107, -0.22127395868301392, 3.0803349018096924]
+  SRTHash: -631003334
+  Translate: [-747.205078125, 341.7039489746094, -3672.798828125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x7cc125b5
+  Rotate: -1.5707963705062866
+  SRTHash: -690513815
+  Translate: [-820.3212890625, 344.8671875, -3645.31103515625]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0x7d3a58bc
+  Rotate: 2.1000006198883057
+  SRTHash: -1790599664
+  Translate: [-910.7667236328125, 335.4052734375, -3644.682373046875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x8201a895
+  Rotate: [-2.986659049987793, 0.1850256323814392, -2.7818543910980225]
+  SRTHash: -1173541642
+  Translate: [-398.7033996582031, 225.4932098388672, -2992.522216796875]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {DropTable: Normal, InitBurnState: false, IsDrop: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8299cae2
+  Rotate: 1.5707963705062866
+  SRTHash: -242524560
+  Translate: [-732.9000244140625, 340.0113525390625, -3509.0]
+  UnitConfigName: FireWoodDie
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x87e4e502
+  Rotate: [0.00577131612226367, -0.9000581502914429, -0.006067479494959116]
+  SRTHash: 973647757
+  Translate: [-882.4002075195312, 340.2843322753906, -3594.35009765625]
+  UnitConfigName: Obj_BarrelOld_A_01
+- HashId: !u 0x88b11352
+  Rotate: 3.1415927410125732
+  SRTHash: 565999274
+  Translate: [-825.0, 339.8594970703125, -3570.3203125]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0x89e84ff1
+  Rotate: [-0.17999999225139618, 0.15999998152256012, 0.0]
+  SRTHash: -1058306524
+  Translate: [-871.9893798828125, 338.16552734375, -3673.668701171875]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x8a33e86a
+  Rotate: [-3.0981476306915283, 0.6539624333381653, -2.7592732906341553]
+  SRTHash: 1233319554
+  Translate: [-24.6500244140625, 262.7045593261719, -3107.0810546875]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8c536db1
+  SRTHash: -1526110428
+  Translate: [-765.7000732421875, 340.0, -3595.699951171875]
+  UnitConfigName: Item_Ore_G
+- HashId: !u 0x8cd0ddb0
+  Rotate: [-0.018375717103481293, 0.7430018186569214, -0.02715914510190487]
+  SRTHash: 2043933752
+  Translate: [-707.2718505859375, 341.6357116699219, -3439.14111328125]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8e2ab059
+  Rotate: [-2.05078125, 0.7607421278953552, 3.073364019393921]
+  SRTHash: 0
+  Translate: [-841.8671875, 15.273438453674316, -3003.2265625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x8e6cf438
+  Rotate: [-0.6568881273269653, 0.5065049529075623, -0.04544878378510475]
+  SRTHash: -420312828
+  Translate: [-65.05264282226562, 203.5790557861328, -3235.70751953125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x8eb2fcb0
+  Rotate: [0.02711804211139679, 1.0616815090179443, -0.12730437517166138]
+  SRTHash: 301201644
+  Translate: [-881.205810546875, 340.2131652832031, -3594.438232421875]
+  UnitConfigName: Obj_BarrelOld_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: false, IsWatchKeeping: true, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x8f1354c1
+  Rotate: 1.4800008535385132
+  SRTHash: 874182246
+  Translate: [-787.300048828125, 340.0267639160156, -3529.10009765625]
+  UnitConfigName: Enemy_Chuchu_Electric_Junior
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8fd03977
+  Rotate: [-1.5090330839157104, 0.4449462592601776, -2.5732421875]
+  SRTHash: 0
+  Translate: [-878.12109375, 43.921875, -2997.37890625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x93863e43
+  Rotate: [-0.24333712458610535, 0.030792884528636932, 0.30312228202819824]
+  SRTHash: 482733858
+  Translate: [-987.0780639648438, 340.92901611328125, -3475.05908203125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x93e70209
+  Rotate: [1.4217243194580078, -0.10126074403524399, -0.9324317574501038]
+  SRTHash: 768206095
+  Translate: [-753.9734497070312, 340.4718933105469, -3534.300048828125]
+  UnitConfigName: Obj_ArrowNormal_A_01
+- HashId: !u 0x942134d0
+  Rotate: [2.7415924072265625, -1.2615925073623657, -3.141592264175415]
+  SRTHash: 1574960410
+  Translate: [-1000.9912109375, 327.783203125, -3316.73046875]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x944dbb6c
+  Rotate: 3.1415927410125732
+  SRTHash: -1108411442
+  Translate: [-830.3203125, 344.8671875, -3524.671875]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x946e0913
+  Rotate: [1.6507962942123413, 3.773142509544414e-08, -0.3399999439716339]
+  SRTHash: -1478098435
+  Translate: [-754.5734252929688, 340.7796936035156, -3535.0]
+  UnitConfigName: Obj_ArrowNormal_A_01
+- HashId: !u 0x9521b9ca
+  Rotate: [-2.944169521331787, 1.1511584520339966, -2.9609110355377197]
+  SRTHash: 676123846
+  Translate: [-787.04541015625, 335.7486267089844, -3714.7353515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0x95b831cc
+  Rotate: [-0.4354521632194519, 0.046755608171224594, 0.23745113611221313]
+  SRTHash: 483773539
+  Translate: [-384.8617248535156, 215.81179809570312, -3032.383544921875]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0x974d5f34
+  Rotate: -1.5707963705062866
+  SRTHash: 650786459
+  Translate: [-770.328125, 339.84716796875, -3515.6171875]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0x979a74ff
+  Rotate: 0.4599999785423279
+  SRTHash: 283287539
+  Translate: [-909.044677734375, 335.96075439453125, -3609.53125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0x9c0d84c6
+  Rotate: [0.2799999713897705, 0.0, -0.3200000822544098]
+  SRTHash: 2124038844
+  Translate: [-808.19482421875, 334.63983154296875, -3704.5009765625]
+  UnitConfigName: Obj_RockDeathMt_A_L_03
+- HashId: !u 0x9fad5fdd
+  Rotate: [-0.16869209706783295, -0.005010130349546671, -0.07771576195955276]
+  SRTHash: -386287353
+  Translate: [-858.1170043945312, 339.097900390625, -3678.72314453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa08d3948
+  Rotate: 1.4799997806549072
+  SRTHash: 290353266
+  Translate: [-99.49993896484375, 198.34613037109375, -3316.1953125]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0xa47c3354
+  SRTHash: -1079104611
+  Translate: [-3.805267333984375, 256.326416015625, -3164.910888671875]
+  UnitConfigName: FldObj_RuinStonePillar_A_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa4f0d8bb
+  Rotate: [2.820417642593384, -1.4227367639541626, -3.064187526702881]
+  SRTHash: 1132679878
+  Translate: [-798.2332763671875, 338.906982421875, -3692.283203125]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xa6022e0e
+  Rotate: -3.1415927410125732
+  SRTHash: 1074089377
+  Translate: [-714.6650390625, 344.8671875, -3530.33447265625]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0xa71cb3fb
+  Rotate: [-0.2320089340209961, -0.6049312949180603, 0.20773331820964813]
+  SRTHash: 1936712620
+  Translate: [-504.45794677734375, 221.93560791015625, -3021.36328125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xa7caa70d
+  Rotate: 1.4800008535385132
+  SRTHash: -2113082186
+  Translate: [-778.2000122070312, 340.0, -3523.199951171875]
+  UnitConfigName: Enemy_Chuchu_Electric_Junior
+- '!Parameters': {DropActor: Obj_IceArrow_A_03, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa8792a5d
+  Rotate: 3.1415927410125732
+  SRTHash: -1952648324
+  Translate: [-825.0, 345.0, -3420.0]
+  UnitConfigName: TBox_Field_Stone
+- HashId: !u 0xa8886c08
+  Rotate: -0.2800000011920929
+  SRTHash: -624450493
+  Translate: [-1034.277099609375, 274.2894287109375, -3612.814453125]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- HashId: !u 0xa9408a93
+  Rotate: [-0.045190781354904175, 0.0054062469862401485, 0.23809202015399933]
+  SRTHash: 1604233836
+  Translate: [-208.40301513671875, 199.6955108642578, -3201.407470703125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xa9cffc14
+  SRTHash: 1889528598
+  Translate: [-825.0009765625, 344.8671875, -3654.68603515625]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0xab099ac8
+  Rotate: [0.0064766900613904, -0.7995883822441101, -0.1819339245557785]
+  SRTHash: 862195445
+  Translate: [-678.48291015625, 335.28924560546875, -3627.7685546875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: false, IsWatchKeeping: true, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xab9a371b
+  Rotate: 1.4800008535385132
+  SRTHash: 1464344935
+  Translate: [-784.5, 340.0, -3527.5]
+  UnitConfigName: Enemy_Chuchu_Electric_Senior
+- HashId: !u 0xac55351d
+  Rotate: [-2.5157854557037354, -1.1574103832244873, 2.6005070209503174]
+  SRTHash: 1731354307
+  Translate: [-352.8701171875, 214.25674438476562, -3058.614990234375]
+  UnitConfigName: Obj_RockSetDeathMt_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xac77fe5b
+  Rotate: [1.5202511548995972, 1.095144510269165, 1.114996075630188]
+  SRTHash: -1758745628
+  Translate: [-633.7527465820312, 339.4399108886719, -3538.62255859375]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xad97f423
+  Rotate: [0.5712029933929443, -1.4535731077194214, -0.8179866671562195]
+  SRTHash: -306554974
+  Translate: [-394.88372802734375, 207.080810546875, -3117.291748046875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb140d3c9
+  Rotate: [2.205397844314575, 0.0, -1.5707963705062866]
+  SRTHash: 978904821
+  Translate: [-734.4593505859375, 340.2205810546875, -3508.871826171875]
+  UnitConfigName: Item_Ore_I
+- HashId: !u 0xb2384de7
+  Rotate: -1.5707963705062866
+  SRTHash: 1978878902
+  Translate: [-705.3369140625, 344.8671875, -3535.00634765625]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0xb2816c97
+  Rotate: [-0.14493505656719208, 0.01999552734196186, 0.2737278342247009]
+  SRTHash: 1860809582
+  Translate: [-962.8291625976562, 332.8349609375, -3614.773681640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xb2da1a1c
+  Rotate: [-0.4916744828224182, -0.3877429664134979, -0.024316351860761642]
+  SRTHash: -397578589
+  Translate: [-189.80197143554688, 242.72506713867188, -3070.9853515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xb3bb2de1
+  Rotate: [-0.009323225356638432, -0.0003458586579654366, -0.003485520835965872]
+  SRTHash: -789083611
+  Translate: [-787.5147094726562, 340.35345458984375, -3531.978515625]
+  UnitConfigName: Obj_BoxIron_A_M_01
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb70112f3
+  OnlyOne: true
+  Rotate: [0.3226180374622345, 0.8341459035873413, 0.4239448010921478]
+  SRTHash: 1817841210
+  Translate: [-756.698486328125, 341.0, -3539.0]
+  UnitConfigName: Weapon_Sword_048
+- '!Parameters': {DropTable: Ore, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb74d803b
+  Rotate: -1.7199996709823608
+  SRTHash: 1174903662
+  Translate: [-100.07025146484375, 198.07167053222656, -3323.25]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0xb8b4e0ea
+  Rotate: [-0.77291339635849, 0.07299970090389252, 0.050690025091171265]
+  SRTHash: -943807300
+  Translate: [-49.129119873046875, 190.36474609375, -3374.751708984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xba0e08e8
+  Rotate: [-0.09992898255586624, -0.0252612866461277, 0.05170772597193718]
+  SRTHash: -936087790
+  Translate: [-452.66387939453125, 217.806884765625, -2997.57666015625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xbac2fe92
+  Rotate: 1.160000205039978
+  SRTHash: 1578633858
+  Translate: [-48.39825439453125, 196.41604614257812, -3280.083984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbb0e8245
+  SRTHash: -1787988247
+  Translate: [-929.5, 340.0, -3515.60009765625]
+  UnitConfigName: Item_Ore_G
+- HashId: !u 0xbb63f9fc
+  Rotate: [0.5083885192871094, 1.081723928451538, 0.07708773016929626]
+  SRTHash: -766427125
+  Translate: [-283.7061767578125, 198.81204223632812, -3200.042236328125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xbb847934
+  Rotate: -3.1415927410125732
+  SRTHash: 315678520
+  Translate: [-810.3140869140625, 375.3671875, -3530.324951171875]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0xbce64c9e
+  Rotate: [2.827880859375, -0.2572021484375, -2.889892578125]
+  SRTHash: 0
+  Translate: [-53.8046875, 259.7421875, -3168.9921875]
+  UnitConfigName: EnvSeEmitPointInsectTemperate
+- HashId: !u 0xc0381f66
+  SRTHash: 1019652225
+  Translate: [-835.3203125, 344.8671875, -3540.3359375]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc04ab0ad
+  SRTHash: 548335987
+  Translate: [-96.99993896484375, 198.11883544921875, -3322.3515625]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0xc1087c15
+  Rotate: [-0.023533977568149567, 0.21550309658050537, -0.26651304960250854]
+  SRTHash: -1534436914
+  Translate: [-136.72601318359375, 195.11903381347656, -3281.194580078125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xc3ac6816
+  Rotate: [0.40274763107299805, -1.533583641052246, -0.6315835118293762]
+  SRTHash: -1114276326
+  Translate: [-64.44210815429688, 196.76132202148438, -3289.03662109375]
+  UnitConfigName: Obj_RockSetDeathMt_A_02
+- HashId: !u 0xc562c595
+  Rotate: [-2.8617196083068848, -0.8079992532730103, 3.001150369644165]
+  SRTHash: 775325227
+  Translate: [-367.0474548339844, 208.82638549804688, -3078.65478515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0xc6d625bc
+  Rotate: -3.0631837844848633
+  SRTHash: -1095431017
+  Translate: [-908.521484375, 325.1539001464844, -3302.354736328125]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xc728cc6f
+  Rotate: 1.5707963705062866
+  SRTHash: -107052463
+  Translate: [-829.6806640625, 344.8671875, -3424.67822265625]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0xca160313
+  Rotate: [3.0377163887023926, -0.7061517238616943, -2.813539743423462]
+  SRTHash: -1858990721
+  Translate: [-735.4373168945312, 339.022216796875, -3635.663330078125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropActor: Weapon_Lsword_055, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xcaf587d1
+  Rotate: [3.0947632789611816, -1.5696003437042236, -3.0949206352233887]
+  SRTHash: -1652798693
+  Translate: [-710.0107421875, 344.9998474121094, -3534.998779296875]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xcc620da1
+  Rotate: [-0.18000000715255737, -0.9200001955032349, 0.0]
+  SRTHash: 165760617
+  Translate: [-976.413330078125, 341.4822082519531, -3429.98583984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xcce4c569
+  Rotate: [0.5367991328239441, -0.9656496644020081, -0.6263778805732727]
+  SRTHash: 1763536903
+  Translate: [-319.9022521972656, 204.26419067382812, -3170.239990234375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xce7f7a21
+  Rotate: [0.27398088574409485, -0.03276469558477402, 0.3336533010005951]
+  SRTHash: 1875266249
+  Translate: [-173.9786376953125, 227.1886749267578, -3141.918212890625]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xcf5485c1
+  Rotate: [0.09689882397651672, -0.004618673585355282, 0.09518340975046158]
+  SRTHash: 368717051
+  Translate: [-366.53472900390625, 202.394287109375, -3150.14599609375]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xd25dbf5f
+  Rotate: [-0.11246225982904434, -0.26698973774909973, 0.3178877532482147]
+  SRTHash: -165974340
+  Translate: [-141.3165283203125, 230.6107177734375, -3148.88720703125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xd2f21108
+  Rotate: [0.015344844199717045, -0.1615057736635208, -0.06753000617027283]
+  SRTHash: 1381160155
+  Translate: [-59.115936279296875, 196.13198852539062, -3346.25830078125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropActor: PutRupee_Gold, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd39558d1
+  Rotate: [-1.1737051010131836, -1.5700242519378662, 1.172092080116272]
+  SRTHash: -1647542230
+  Translate: [-790.7894897460938, 340.32464599609375, -3560.00048828125]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xd45ee246
+  Rotate: [-2.2359726428985596, 1.2172249555587769, -2.0406641960144043]
+  SRTHash: 582440921
+  Translate: [-264.4285583496094, 201.75042724609375, -3153.315185546875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xd4e66c82
+  Rotate: [0.10312359035015106, -0.0014500790275633335, 0.028096012771129608]
+  SRTHash: -2069336205
+  Translate: [-18.889251708984375, 196.95639038085938, -3302.126220703125]
+  UnitConfigName: Obj_Plant_HopBush_B_01
+- HashId: !u 0xd544af2e
+  Rotate: 3.0631847381591797
+  SRTHash: 426972261
+  Translate: [-158.83428955078125, 226.2442626953125, -3105.30859375]
+  UnitConfigName: FldObj_RuinStatueDragon_A_02
+- HashId: !u 0xd573cc3d
+  Rotate: [0.17003470659255981, -0.009422838687896729, -0.04954421520233154]
+  SRTHash: -1919211534
+  Translate: [-466.8384704589844, 215.6608123779297, -3054.146728515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- HashId: !u 0xd64fc5ee
+  SRTHash: 260998685
+  Translate: [-739.2000122070312, 340.0, -3509.10009765625]
+  UnitConfigName: FldObj_TravelerTrace_Mark_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xd90435c4
+  Rotate: 1.4800008535385132
+  SRTHash: -1022705850
+  Translate: [-781.300048828125, 340.0, -3528.39990234375]
+  UnitConfigName: Enemy_Chuchu_Electric_Middle
+- HashId: !u 0xd93eb050
+  Rotate: -1.1800004243850708
+  SRTHash: 1559441131
+  Translate: [-946.1539306640625, 338.8115234375, -3560.069580078125]
+  UnitConfigName: Obj_RockSetDeathMt_A_02
+- HashId: !u 0xd9d8c712
+  SRTHash: 1768755298
+  Translate: [-810.3218994140625, 375.3671875, -3539.668701171875]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xdb64c57e
+  Rotate: 1.4800008535385132
+  SRTHash: -300850712
+  Translate: [-777.300048828125, 340.03118896484375, -3527.199951171875]
+  UnitConfigName: Enemy_Chuchu_Electric_Junior
+- HashId: !u 0xdb7d1237
+  Rotate: 1.3800007104873657
+  SRTHash: -867311932
+  Scale: 0.8500000238418579
+  Translate: [-24.8624267578125, 197.29727172851562, -3310.497802734375]
+  UnitConfigName: Obj_Plant_HopBush_B_01
+- HashId: !u 0xdbbee1a0
+  Rotate: [-0.3836098313331604, -0.3713640868663788, 0.4772404134273529]
+  SRTHash: 1279485232
+  Translate: [-443.33343505859375, 235.22723388671875, -2921.991943359375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xdd3f2edc
+  Rotate: [2.284397840499878, -1.2624019384384155, -2.7648370265960693]
+  SRTHash: -427503385
+  Translate: [-685.987548828125, 337.87347412109375, -3638.45458984375]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- HashId: !u 0xddc42c13
+  Rotate: [-2.924985408782959, 0.5439399480819702, -2.663012742996216]
+  SRTHash: -701152474
+  Translate: [-866.8048095703125, 339.2713317871094, -3646.094970703125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xdf420db0
+  Rotate: [-0.4128153622150421, -1.3960262537002563, 0.2652289867401123]
+  SRTHash: -1728492737
+  Translate: [-438.77716064453125, 212.80584716796875, -3058.362060546875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xe0cc4f60
+  Rotate: [-2.5519790649414062, 1.2843163013458252, -2.478113889694214]
+  SRTHash: -1760427582
+  Translate: [-355.7528381347656, 201.50735473632812, -3166.775146484375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe2990dfe
+  Rotate: [-2.861593008041382, -0.7852131128311157, 0.0]
+  SRTHash: -193263078
+  Translate: [-748.5999755859375, 341.0, -3523.699951171875]
+  UnitConfigName: Weapon_Shield_031
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe376127c
+  Rotate: [0.24531278014183044, -0.8752644062042236, -0.315231055021286]
+  SRTHash: -1375269991
+  Translate: [-804.086669921875, 338.9490051269531, -3691.640869140625]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe40396ff
+  Rotate: [1.0149608850479126, -0.021114205941557884, 1.5368205308914185]
+  SRTHash: -767136230
+  Translate: [-759.0999755859375, 341.0390625, -3536.89990234375]
+  UnitConfigName: Obj_ArrowNormal_A_01
+- HashId: !u 0xe40d1ffc
+  Rotate: [0.07323238253593445, -0.0005472299526445568, -0.03740741312503815]
+  SRTHash: -310040405
+  Translate: [-260.0106506347656, 201.29644775390625, -3235.58203125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- HashId: !u 0xe51511d8
+  Rotate: [-0.3133064806461334, -0.018919341266155243, -0.11964322626590729]
+  SRTHash: -586594374
+  Translate: [-929.2724609375, 339.8738098144531, -3443.92529296875]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe5cccb2c
+  Rotate: -1.5707963705062866
+  SRTHash: -263320995
+  Translate: [-812.5, 375.4999694824219, -3535.0]
+  UnitConfigName: TBox_Field_Stone
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe695b1f1
+  Rotate: [-2.333251953125, 0.5517577528953552, 2.752807378768921]
+  SRTHash: 0
+  Translate: [-1001.39453125, 350.4375, -3435.3125]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xeaf0b693
+  SRTHash: 2083942254
+  Translate: [-819.6875, 344.8671875, -3545.328125]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0xed3ddd55
+  Rotate: [-0.1397121101617813, -0.01816708967089653, -0.2582045793533325]
+  SRTHash: 1621304052
+  Translate: [-72.7420654296875, 195.24734497070312, -3324.615478515625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xed86c3e9
+  Rotate: 1.1705321073532104
+  SRTHash: -831895185
+  Translate: [-343.7734375, 209.6113739013672, -3082.6640625]
+  UnitConfigName: Item_Mushroom_F
+- '!Parameters': {DropActor: Item_Ore_D, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xed891d2a
+  Rotate: -1.5707963705062866
+  SRTHash: 2135629530
+  Translate: [-812.5, 375.4999694824219, -3537.0]
+  UnitConfigName: TBox_Field_Stone
+- HashId: !u 0xef11e3cc
+  Rotate: [-0.49192124605178833, 0.5876729488372803, 0.03662753105163574]
+  SRTHash: -29262222
+  Translate: [-819.6234741210938, 338.01141357421875, -3685.5517578125]
+  UnitConfigName: Obj_RockSetDeathMt_C_05
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xefccaf8f
+  SRTHash: -1901070244
+  Translate: [-874.0, 328.9825744628906, -3316.0]
+  UnitConfigName: Obj_TreeBroadleaf_A_L
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf087d61e
+  Rotate: [-1.8819578886032104, 0.8205565810203552, 2.795654058456421]
+  SRTHash: 0
+  Translate: [-974.8203125, 347.35546875, -3392.6328125]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xf1792d29
+  Rotate: [-0.20156261324882507, 0.03887227177619934, 0.3798179626464844]
+  SRTHash: 61542049
+  Translate: [-466.0116882324219, 220.90963745117188, -2958.718505859375]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- HashId: !u 0xf6a38c43
+  Rotate: 1.6706222295761108
+  SRTHash: 1208663963
+  Scale: 1.2000000476837158
+  Translate: [-839.9140625, 374.00799560546875, -3535.0087890625]
+  UnitConfigName: FldObj_PlantBokoFortress_A_02
+- HashId: !u 0xf822d7cb
+  Rotate: -1.5707963705062866
+  SRTHash: -337447450
+  Translate: [-820.3291015625, 344.8671875, -3424.68603515625]
+  UnitConfigName: FldObj_HugeMazeTorchStand_A_01
+- HashId: !u 0xf992b2fb
+  Rotate: [0.004724252503365278, -0.0002561477303970605, 0.24833279848098755]
+  SRTHash: 1591319297
+  Translate: [-6.266265869140625, 261.37420654296875, -3165.0517578125]
+  UnitConfigName: Obj_RockSetDeathMt_C_03
+- '!Parameters': {EquipItem1: Weapon_Sword_007, EquipItem2: Weapon_Shield_007, FortressEatPer: -1,
+    IsMimicry: false, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xfaa7c9f0
+  Rotate: 1.5707963705062866
+  SRTHash: -2287041
+  Translate: [-735.4000244140625, 340.0, -3520.10009765625]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- HashId: !u 0xfb472ec7
+  Rotate: [-2.414855718612671, 1.0449894666671753, -2.226065158843994]
+  SRTHash: 515133271
+  Translate: [-237.17938232421875, 205.00009155273438, -3163.401611328125]
+  UnitConfigName: Obj_RockSetDeathMt_C_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xfbcddd4c
+  Rotate: [2.058110475540161, -1.038358211517334, -2.0191123485565186]
+  SRTHash: 1110401805
+  Translate: [-750.8597412109375, 340.06646728515625, -3534.220703125]
+  UnitConfigName: Obj_ArrowNormal_A_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0xfc77a38a
+  Rotate: [4.4534066546475515e-05, -0.8974565267562866, -0.002782639814540744]
+  SRTHash: 1489847810
+  Translate: [-884.4042358398438, 340.2783508300781, -3591.498779296875]
+  UnitConfigName: Obj_BarrelOld_A_01
+- HashId: !u 0xfd09193f
+  Rotate: [-0.6160030961036682, 0.260236918926239, 0.03131849318742752]
+  SRTHash: -732393676
+  Translate: [-420.40576171875, 226.57705688476562, -2966.914306640625]
+  UnitConfigName: Obj_RockSetDeathMt_C_01
+- '!Parameters': {ArrowName: ElectricArrow, EquipItem1: Weapon_Spear_018, EquipItem3: Weapon_Bow_032,
+    IsNearCreate: false, LevelSensorMode: 1, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xfd1588b9
+  SRTHash: -456078189
+  Translate: [-401.0, 207.78248596191406, -3100.5]
+  UnitConfigName: Enemy_Lynel_Senior
+Rails: []

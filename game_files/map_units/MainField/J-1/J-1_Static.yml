@@ -1,0 +1,4155 @@
+LocationPosX: 4500.0
+LocationPosZ: -3500.0
+LocationSize: 1000.0
+Objs:
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x005553ca
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x87f39889
+  Rotate: [-0.01180628128349781, 0.0008587689371779561, 0.14521920680999756]
+  SRTHash: -939776961
+  Translate: [4815.63427734375, 108.28069305419922, -3300.276123046875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {EventFlowEntryName: Demo_AkkareWarp, EventFlowName: HatenoMini_BlueFire,
+    IsEndlessEvent: false, LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x0071ae6d
+  SRTHash: -1878135043
+  Scale: 3.0
+  Translate: [4499.013671875, 359.2762451171875, -3150.72705078125]
+  UnitConfigName: EventTag
+- HashId: !u 0x00c47b88
+  Rotate: [-0.07545831054449081, -0.21765568852424622, -0.3017061650753021]
+  SRTHash: -1263168917
+  Translate: [4237.86181640625, 295.41571044921875, -3310.946533203125]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- HashId: !u 0x0223f042
+  Rotate: [3.141592264175415, 2.3164618312421226e-07, 1.5707963705062866]
+  SRTHash: 403897451
+  Translate: [4652.0, 235.10000610351562, -3682.0]
+  UnitConfigName: FldObj_HugeMazeFence_A_01
+- HashId: !u 0x02441e5b
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf76f662d}
+  Rotate: 1.8031851053237915
+  SRTHash: 2001274284
+  Translate: [4556.7880859375, -4.5233001708984375, -4192.61572265625]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0x02b7343e
+  Rotate: 1.5415928363800049
+  SRTHash: 1911544404
+  Translate: [4160.1328125, 343.1119384765625, -3167.573486328125]
+  UnitConfigName: TwnObj_AncientReactor_A_01_Far
+- HashId: !u 0x02efc0ed
+  Rotate: -1.8168143033981323
+  SRTHash: 1573006278
+  Scale: 1.2708221673965454
+  Translate: [4442.6943359375, -9.648300170898438, -4121.18212890625]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x03ec5d47
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x224bfd13
+  SRTHash: 0
+  Translate: [4657.0, 237.40017700195312, -3704.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Location_AncientLabo,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x04b895c6
+  SRTHash: 0
+  Translate: [4522.0146484375, 354.2326965332031, -3166.6328125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x050b3fdd
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe380bffe}
+  Rotate: -1.5707963705062866
+  SRTHash: -30405207
+  Translate: [4635.0, 195.10000610351562, -3687.5]
+  UnitConfigName: FldObj_HugeMazeLadder_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x06a70bd3
+  Rotate: -1.5707963705062866
+  SRTHash: 741983481
+  Translate: [4595.0, 195.34219360351562, -3667.4765625]
+  UnitConfigName: Enemy_Chuchu_Electric_Junior
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x07417ebb
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x62c08109
+  SRTHash: 1550648252
+  Scale: 12.0
+  Translate: [4720.0, 155.3000030517578, -3665.0]
+  UnitConfigName: Area
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg,
+    GuardianLegType1: Guardian_A_Leg, GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg,
+    GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg, IsSuspended: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x07bc5e24
+  Rotate: 1.5707963705062866
+  SRTHash: -1008974830
+  Translate: [4589.2001953125, 155.5, -3618.699951171875]
+  UnitConfigName: Enemy_Guardian_A_Moss
+- HashId: !u 0x08871b36
+  Rotate: -2.739999294281006
+  SRTHash: 813157208
+  Translate: [4534.43310546875, 352.80316162109375, -3151.640625]
+  UnitConfigName: FldObj_CliffAkkare_A_06_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Open_Dungeon105,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x08f02b46
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x99407118}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x0223f042}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xccb2f2ac}
+  SRTHash: 102346742
+  Translate: [4655.0, 154.90000915527344, -3650.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, PulseLength: 5,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x09592f0c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc8d7f0cc
+  Rotate: 0.5000005960464478
+  SRTHash: -182953672
+  Scale: 0.25
+  Translate: [4423.84033203125, 116.05827331542969, -3340.698974609375]
+  UnitConfigName: LinkTagPulse
+- HashId: !u 0x0a264984
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xcdbb939c}
+  OnlyOne: true
+  SRTHash: 536190813
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeWall_B_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0ab3f144
+  SRTHash: -1619909520
+  Translate: [4655.0, 237.36300659179688, -3700.8046875]
+  UnitConfigName: DgnObj_WarpPoint_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0b6cda6a
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x6f0db7a3}
+  Rotate: -1.6617279052734375
+  SRTHash: 649989483
+  Scale: 1.1172059774398804
+  Translate: [4043.201904296875, 306.10467529296875, -3217.175537109375]
+  UnitConfigName: Obj_TreeMaple_A_02
+- HashId: !u 0x0c8f9be2
+  OnlyOne: true
+  SRTHash: -421874273
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_05_Far
+- HashId: !u 0x0d0d79dd
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x776a58d5}
+  OnlyOne: true
+  Rotate: -0.08689296245574951
+  SRTHash: -848667958
+  Translate: [4515.51416015625, 352.09295654296875, -3163.901123046875]
+  UnitConfigName: TwnObj_AncientCivilLaboParts_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x0d979290
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9632deff
+  Rotate: [-2.9804553985595703, 0.0035959237720817327, -3.0427181720733643]
+  SRTHash: -299278719
+  Translate: [4743.65380859375, 107.02690887451172, -3119.11083984375]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x0e165760
+  Rotate: [-0.18761469423770905, 0.007367508485913277, -0.0017314631259068847]
+  SRTHash: 168421088
+  Translate: [4490.4912109375, 348.3103942871094, -3224.79052734375]
+  UnitConfigName: FldObj_CliffAkkare_A_06_Far
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x0e18afd3
+  Rotate: -2.0399999618530273
+  SRTHash: 1862146131
+  Translate: [4510.5830078125, 352.9931335449219, -3165.4931640625]
+  UnitConfigName: AnchorAction3
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x0e8c5774
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfc0f8c03
+  SRTHash: 0
+  Translate: [4252.14794921875, 345.595458984375, -3134.254638671875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x0e91a9ef
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9632deff
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5d6e0d5a
+  Rotate: [-2.9804553985595703, 0.0035959237720817327, -3.0427181720733643]
+  SRTHash: -1610988549
+  Translate: [4741.29541015625, 110.4135513305664, -3115.6513671875]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x0fffa29c
+  Rotate: 0.10318586230278015
+  SRTHash: 557349912
+  Translate: [4690.8583984375, -4.5233001708984375, -4296.0966796875]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- HashId: !u 0x105c0e6e
+  Rotate: [2.852354049682617, 1.016072154045105, 3.0693116188049316]
+  SRTHash: 452285617
+  Translate: [4252.39794921875, 344.1839294433594, -3134.472412109375]
+  UnitConfigName: FldObj_KorokStartingBlock_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1092a228
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8b37ee47
+  Rotate: [0.4785497188568115, -0.03664838522672653, 0.149965301156044]
+  SRTHash: -299278719
+  Translate: [4764.64892578125, 106.07059478759766, -3143.975341796875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CalcMarginXMinus: 0.10000000149011612, CalcMarginXPlus: 0.10000000149011612,
+    CalcMarginYMinus: 0.10000000149011612, CalcMarginYPlus: 0.10000000149011612, CalcMarginZMinus: 0.10000000149011612,
+    CalcMarginZPlus: 0.10000000149011612, CameraPriority: 1, CameraSet: '-', CullingOption: 2,
+    ForceCalcInEvent: false, HideOutSide: false, HideRoomNum: -1, IsConnectNeighborArea: true,
+    LoadMarginXMinus: -1.0, LoadMarginXPlus: -1.0, LoadMarginYMinus: -1.0, LoadMarginYPlus: -1.0,
+    LoadMarginZMinus: -1.0, LoadMarginZPlus: -1.0, MarginSize: 0.10000000149011612,
+    Shape: Box}
+  HashId: !u 0x10a321ac
+  SRTHash: 1285550507
+  Scale: [46.0670166015625, 52.6563835144043, 52.862022399902344]
+  Translate: [4747.4677734375, 246.89938354492188, -3699.862548828125]
+  UnitConfigName: AreaCulling_InnerHide
+- HashId: !u 0x10e8354d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x5edbc6d3}
+  Rotate: [2.4872992038726807, -1.3663685321807861, -2.6041414737701416]
+  SRTHash: -2104108752
+  Translate: [4381.5400390625, 309.9354553222656, -3231.62109375]
+  UnitConfigName: FldObj_CliffAkkare_A_12
+- HashId: !u 0x11148c83
+  Rotate: [2.798339366912842, 1.2810604572296143, 2.784623861312866]
+  SRTHash: 476637839
+  Translate: [4162.03076171875, -10.519393920898438, -3911.264892578125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- HashId: !u 0x1124a738
+  Rotate: [0.2599998712539673, 0.31999990344047546, 0.0]
+  SRTHash: 1423143957
+  Translate: [4202.84130859375, -30.546737670898438, -4002.173095703125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- HashId: !u 0x122b21b9
+  OnlyOne: true
+  Rotate: 1.5415928363800049
+  SRTHash: -1983798709
+  Translate: [4160.1328125, 343.1119384765625, -3167.573486328125]
+  UnitConfigName: FldObj_AncientReactorCoverAkkare_A_01_Far
+- '!Parameters': {DropActor: Armor_024_Head, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x12462ee9
+  Rotate: 3.1415927410125732
+  SRTHash: -2076748347
+  Translate: [4655.0, 156.10000610351562, -3640.0]
+  UnitConfigName: TBox_Field_Stone
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Solitary_Maze_Activated,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x1297de6c
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x142b8710
+  SRTHash: -1058796134
+  Scale: 10.0
+  Translate: [4666.43603515625, 111.06858825683594, -3537.081298828125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1371b0a1
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x43bc2112
+  Rotate: 1.5707963705062866
+  SRTHash: 1553151816
+  Translate: [4503.6591796875, 381.7100524902344, -3164.93798828125]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x13949957
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9632deff
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5d6e0d5a
+  Rotate: [0.4785497188568115, -0.03664838522672653, 0.149965301156044]
+  SRTHash: -1610988549
+  Translate: [4766.03076171875, 110.8354721069336, -3146.06982421875]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x13b84b6b
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x6be4f458}
+  Rotate: [-0.5376958250999451, -1.0592001676559448, 0.5998115539550781]
+  SRTHash: 591608182
+  Translate: [4178.70458984375, -11.468605041503906, -3820.905517578125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0x142b8710
+  SRTHash: -1524393015
+  Scale: [6.0, 48.0, 6.0]
+  Translate: [4655.0, 103.33238220214844, -3537.199951171875]
+  UnitConfigName: AscendingCurrent
+- '!Parameters':
+    EffectDIspOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    EffectDispActorName: Area
+    EffectDispSize: 1.5
+    IsNoResponceSound: false
+  HashId: !u 0x14ba4640
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x3d8153c3}
+  Rotate: 1.7816016674041748
+  SRTHash: 228384184
+  Translate: [4347.6181640625, 361.3880920410156, -3176.0625]
+  UnitConfigName: KorokAnswerResponce
+- HashId: !u 0x15113ac7
+  Rotate: [0.021983154118061066, -0.0003065283235628158, 0.04279698431491852]
+  SRTHash: -1800989519
+  Translate: [4721.5888671875, 105.501953125, -3231.61669921875]
+  UnitConfigName: FldObj_RuinGuardian_A_Dynamic
+- HashId: !u 0x1662aff6
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xc5b7e1f9}
+  Rotate: 1.4890655279159546
+  SRTHash: -2126199512
+  Translate: [4183.31884765625, 303.6462097167969, -3289.96923828125]
+  UnitConfigName: EnemyLookTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x16c54cd4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc8d7f0cc
+  Rotate: 2.021594285964966
+  SRTHash: -105676283
+  Scale: 3.0
+  Translate: [4422.962890625, 116.0583724975586, -3340.219482421875]
+  UnitConfigName: Area
+- HashId: !u 0x16f212f0
+  OnlyOne: true
+  SRTHash: 2000465645
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_11_Far
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg,
+    GuardianLegType1: Guardian_A_Leg, GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg,
+    GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg, IsSuspended: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x18f8d644
+  Rotate: 1.5707963705062866
+  SRTHash: -1980272017
+  Translate: [4605.0, 155.5, -3645.0]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- HashId: !u 0x197bbc03
+  Rotate: [0.05618297681212425, -0.35649558901786804, -0.1687512993812561]
+  SRTHash: -386526429
+  Translate: [4344.251953125, 266.18682861328125, -3282.648193359375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_02_Far
+- '!Parameters': {AutoSave: false, CalcMarginXMinus: 1.5, CalcMarginXPlus: 1.5, CalcMarginYMinus: 1.5,
+    CalcMarginYPlus: 1.5, CalcMarginZMinus: 1.5, CalcMarginZPlus: 1.5, CameraPriority: 1,
+    CameraSet: '-', CullingOption: 2, ForceCalcInEvent: false, HideOutSide: false,
+    HideRoomNum: -1, IsConnectNeighborArea: true, LoadMarginXMinus: -1.0, LoadMarginXPlus: -1.0,
+    LoadMarginYMinus: -1.0, LoadMarginYPlus: -1.0, LoadMarginZMinus: -1.0, LoadMarginZPlus: -1.0,
+    MarginSize: 1.5, Shape: Box}
+  HashId: !u 0x1a2d2adf
+  SRTHash: 1647428924
+  Scale: [47.74786376953125, 52.09609603881836, 67.87641906738281]
+  Translate: [4654.89208984375, 246.33995056152344, -3615.44873046875]
+  UnitConfigName: AreaCulling_InnerHide
+- '!Parameters': {EventFlowEntryName: PlayerOnGround, EventFlowName: SignalFlowchart}
+  HashId: !u 0x1ab836e3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9a3eb340
+  SRTHash: -113262862
+  Scale: 3.0
+  Translate: [4670.39990234375, 51.60000228881836, -3658.699951171875]
+  UnitConfigName: SignalFlowchart
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 1, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x1c17ce29
+  Rotate: -2.9907965660095215
+  SRTHash: 1687336004
+  Translate: [4047.00634765625, 306.67999267578125, -3218.76513671875]
+  UnitConfigName: Enemy_Chuchu_Junior
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1c75f685
+  OnlyOne: true
+  Rotate: 0.2799997925758362
+  SRTHash: 976565306
+  Translate: [4505.4130859375, 351.3968200683594, -3151.29833984375]
+  UnitConfigName: TwnObj_AncientReactorFurnace_B_01
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x1c944d68
+  Rotate: -2.3863699436187744
+  SRTHash: -2027371054
+  Translate: [4511.80810546875, 353.0131530761719, -3167.069580078125]
+  UnitConfigName: AnchorAction1
+- HashId: !u 0x1ca544ba
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x0c8f9be2}
+  OnlyOne: true
+  SRTHash: -421874273
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_05
+- HashId: !u 0x1d9746fe
+  Rotate: [0.19088774919509888, -1.1562776565551758, -0.11100567132234573]
+  SRTHash: -1003544019
+  Translate: [4111.3134765625, 325.9781188964844, -3120.697265625]
+  UnitConfigName: FldObj_CliffAkkare_A_12_Far
+- HashId: !u 0x1fbb9932
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb0037956}
+  OnlyOne: true
+  SRTHash: -1004511327
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_02
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x203069a4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x69170b81
+  SRTHash: -291356986
+  Scale: [10.0, 10.300000190734863, 14.5]
+  Translate: [4655.0, 245.3000030517578, -3705.5]
+  UnitConfigName: Area
+- HashId: !u 0x20f76f4e
+  Rotate: [3.0975942611694336, -0.8432316780090332, -2.9905848503112793]
+  SRTHash: 660967167
+  Translate: [4121.80224609375, 335.46697998046875, -3189.46435546875]
+  UnitConfigName: FldObj_CliffAkkare_A_12_Far
+- HashId: !u 0x21a2a4c4
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xce07cf49}
+  SRTHash: -788344154
+  Translate: [4555.0, 190.60000610351562, -3600.0]
+  UnitConfigName: FldObj_HugeMazeRoof_B_02
+- '!Parameters':
+    EventFlowEntryName: Demo008_0
+    EventFlowName: Demo008_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: 4655.7001953125, Y: 237.39999389648438, Z: -3703.134033203125}
+    TraverseRadiusXZ: 0.8002930283546448
+  HashId: !u 0x224bfd13
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2eceb5c4
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xfcfb81ad}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xdd0eb3ea}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x8f369c4d}
+  Rotate: -0.5235987901687622
+  SRTHash: 295738227
+  Scale: 0.6000000238418579
+  Translate: [4657.0, 237.40000915527344, -3704.0]
+  UnitConfigName: EventTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x234cde31
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xac50a37d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xffaf07c8
+  SRTHash: 0
+  Translate: [4801.7548828125, 107.43992614746094, -3121.7333984375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x240f28ca
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x31efb252}
+  OnlyOne: true
+  SRTHash: -686635223
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_06
+- HashId: !u 0x241b95b3
+  Rotate: -0.25999999046325684
+  SRTHash: -776098657
+  Translate: [4518.267578125, 305.12432861328125, -3250.734130859375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: HatenoMini_BlueFire_Carry,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x24a92cd8
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa8239ea4
+  SRTHash: -2021287464
+  Scale: 2.981356143951416
+  Translate: [4504.478515625, 364.842529296875, -3154.17431640625]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2591c896
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2ac4d1d3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x46674b1c
+  SRTHash: 0
+  Translate: [4815.88818359375, 107.08654022216797, -3099.826904296875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x259af2ec
+  LinksToObj:
+  - '!Parameters': {AppearFade: true}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x1c17ce29
+  Rotate: -1.4199999570846558
+  SRTHash: 949794115
+  Translate: [4041.69970703125, 311.01153564453125, -3227.06201171875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {HiddenKorokBodyColor: 4, HiddenKorokLeftPlantType: 1, HiddenKorokMaskType: 5,
+    HiddenKorokRightPlantType: 0, IsAppearCheck: false, IsHiddenKorokLiftAppear: true,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 20, PlacementType: Ground,
+    RailMoveSpeed: 0.10000000149011612, TerritoryArea: 0.0}
+  HashId: !u 0x25b44423
+  SRTHash: 1257283389
+  Translate: [4428.8349609375, 352.2693786621094, -3182.900146484375]
+  UnitConfigName: Npc_HiddenKorokGround
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x25ec908c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2e1ec04b
+  SRTHash: 671766794
+  Scale: 9.0
+  Translate: [4559.640625, 196.5, -3632.5]
+  UnitConfigName: Area
+- HashId: !u 0x2662e6ef
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xfcfcb960}
+  OnlyOne: true
+  Rotate: -0.08689270913600922
+  SRTHash: 468099263
+  Translate: [4515.51416015625, 352.0929870605469, -3163.90087890625]
+  UnitConfigName: TwnObj_AncientCivilLabo_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x26e4aeef
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf965cd66
+  SRTHash: 263397203
+  Scale: 12.0
+  Translate: [4589.2001953125, 155.3000030517578, -3618.699951171875]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x28b01d3b
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x06a70bd3
+  SRTHash: 1476234611
+  Translate: [4595.0, 199.171875, -3665.5703125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x28be55e7
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xd1d2d1ae}
+  Rotate: 1.7816016674041748
+  SRTHash: -1708680427
+  Translate: [4258.94140625, 346.9298095703125, -3148.47607421875]
+  UnitConfigName: LinkTagOr
+- '!Parameters':
+    ChaseRange: 200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsSuspended: true
+    SharpWeaponJudgeType: 1
+    TraversePos: {X: 4565.0, Y: 258.70001220703125, Z: -3697.5}
+    TraverseRadiusXZ: 47.762428283691406
+  HashId: !u 0x28c9a433
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x765cb478}
+  Rotate: -0.7853981852531433
+  SRTHash: 913660440
+  Translate: [4632.84228515625, 248.4375, -3657.057861328125]
+  UnitConfigName: Enemy_Guardian_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x29be213c
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xebf67788
+  SRTHash: 2008474958
+  Translate: [4423.935546875, 114.94331359863281, -3338.313232421875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0x29c2eaac
+  Rotate: -2.979999542236328
+  SRTHash: 261917203
+  Scale: 0.9200000166893005
+  Translate: [4816.3173828125, 105.88654327392578, -3100.302001953125]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2ac4d1d3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc6ff4f4c
+  Rotate: -2.979999542236328
+  SRTHash: -299278719
+  Translate: [4813.59228515625, 105.88654327392578, -3101.47900390625]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2af0dfaa
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5e683625
+  Rotate: [0.0, 0.0, 0.2999998927116394]
+  SRTHash: 870571033
+  Translate: [4734.9658203125, 111.73545837402344, -3122.006591796875]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x2bf25338
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x81bc21f4}
+  Rotate: [3.138192653656006, -0.3029889464378357, 3.058492660522461]
+  SRTHash: -1960869889
+  Translate: [4428.1650390625, 271.9886169433594, -3272.635986328125]
+  UnitConfigName: FldObj_CliffDeathMt_D_14
+- HashId: !u 0x2c448e88
+  Rotate: [-2.8815927505493164, -0.6815925240516663, 3.1415927410125732]
+  SRTHash: 617970256
+  Translate: [4023.20068359375, -6.2420501708984375, -3711.532470703125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- HashId: !u 0x2c74a533
+  Rotate: -3.059999704360962
+  SRTHash: -1599867325
+  Translate: [4129.84521484375, -4.5233001708984375, -3862.905517578125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- HashId: !u 0x2cce24d0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x36970bf8}
+  Rotate: 1.5707963705062866
+  SRTHash: -1407220513
+  Translate: [4565.0, 190.60000610351562, -3605.0]
+  UnitConfigName: FldObj_HugeMazeRoof_B_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x2cd03e9c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x28b01d3b
+  SRTHash: -1042791856
+  Scale: 3.0
+  Translate: [4586.296875, 195.1953125, -3667.515625]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CalcMarginXMinus: 0.10000000149011612, CalcMarginXPlus: 0.10000000149011612,
+    CalcMarginYMinus: 0.10000000149011612, CalcMarginYPlus: 0.10000000149011612, CalcMarginZMinus: 0.10000000149011612,
+    CalcMarginZPlus: 0.10000000149011612, CameraPriority: 1, CameraSet: '-', CullingOption: 2,
+    ForceCalcInEvent: false, HideOutSide: false, HideRoomNum: -1, IsConnectNeighborArea: true,
+    LoadMarginXMinus: -1.0, LoadMarginXPlus: -1.0, LoadMarginYMinus: -1.0, LoadMarginYPlus: -1.0,
+    LoadMarginZMinus: -1.0, LoadMarginZPlus: -1.0, MarginSize: 0.10000000149011612,
+    Shape: Box}
+  HashId: !u 0x2cdfa77d
+  SRTHash: -589363058
+  Scale: [45.92992401123047, 53.198360443115234, 51.16326904296875]
+  Translate: [4562.89453125, 247.4413604736328, -3597.43212890625]
+  UnitConfigName: AreaCulling_InnerHide
+- '!Parameters': {DropTable: RuinGuardian, InitMotionStatus: 0, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0, TresasureSpotType: 1}
+  HashId: !u 0x2d02a4d0
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x8b75af64}
+  SRTHash: 358499500
+  Translate: [4755.02001953125, 107.19820404052734, -3063.470458984375]
+  UnitConfigName: TreasureSpot_00
+- HashId: !u 0x2d32cdea
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xcf225f1e}
+  Rotate: [0.029808348044753075, 0.979701578617096, 0.035894542932510376]
+  SRTHash: 332977061
+  Translate: [4035.86279296875, 304.3193359375, -3246.132568359375]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2e1ec04b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcbc9b2a5
+  SRTHash: 0
+  Translate: [4559.640625, 196.5, -3632.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x2e734e68
+  Rotate: [2.1922547817230225, -1.2246413230895996, -2.2305960655212402]
+  SRTHash: 450682949
+  Translate: [4387.80419921875, 315.4805908203125, -3028.15478515625]
+  UnitConfigName: FldObj_CliffAkkare_A_12_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 2, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2eceb5c4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7cf69a63
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0ab3f144
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xeb698b4a
+  SRTHash: -757633401
+  Scale: 0.30000001192092896
+  Translate: [4653.5, 237.40000915527344, -3704.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2ed3e525
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8f48c643
+  Rotate: [0.33599185943603516, -0.09389383345842361, 0.3404907286167145]
+  SRTHash: 36616695
+  Translate: [4428.85009765625, 352.17657470703125, -3182.93408203125]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0x2fa7df25
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc4b18053}
+  Rotate: [1.676401972770691, -1.4041121006011963, -2.067283868789673]
+  SRTHash: -2052182337
+  Translate: [4265.150390625, 263.0294494628906, -3175.574462890625]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- HashId: !u 0x2fb23610
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf0dbba2c}
+  OnlyOne: true
+  SRTHash: 1382447720
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeWall_B_03
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x3079cda5
+  Rotate: 2.6200003623962402
+  SRTHash: 1756220486
+  Translate: [4512.982421875, 353.0131530761719, -3158.11474609375]
+  UnitConfigName: AnchorAction2
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x30edb363
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xbe62b480
+  SRTHash: 806936564
+  Scale: 12.0
+  Translate: [4130.0849609375, 295.1566162109375, -3033.42138671875]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x3128bdb3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x93cad19b
+  SRTHash: 0
+  Translate: [4671.0, 245.10000610351562, -3623.60009765625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x31efb252
+  OnlyOne: true
+  SRTHash: -686635223
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_06_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x32e1e6af
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x259af2ec
+  Rotate: -1.4199999570846558
+  SRTHash: -1691301925
+  Scale: 15.000000953674316
+  Translate: [4043.201904296875, 306.01153564453125, -3217.175537109375]
+  UnitConfigName: Area
+- '!Parameters':
+    ChaseRange: 200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsSuspended: true
+    SharpWeaponJudgeType: 1
+    TraversePos: {X: 4745.0, Y: 258.70001220703125, Z: -3697.5}
+    TraverseRadiusXZ: 47.762428283691406
+  HashId: !u 0x330fc424
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x3bfa3ec7}
+  Rotate: 0.7853981852531433
+  SRTHash: 1209721903
+  Translate: [4677.61083984375, 248.390625, -3657.56103515625]
+  UnitConfigName: Enemy_Guardian_C
+- HashId: !u 0x33767ed0
+  Rotate: [-0.17141559720039368, 0.36335453391075134, -0.13975895941257477]
+  SRTHash: 373085728
+  Translate: [4410.71484375, 352.84588623046875, -3210.7158203125]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- HashId: !u 0x339cfde4
+  Rotate: [3.104848623275757, 0.41763779520988464, 3.12044358253479]
+  SRTHash: -801401950
+  Translate: [4360.107421875, 232.73861694335938, -3284.48486328125]
+  UnitConfigName: FldObj_CliffDeathMt_D_14_Far
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0x34f3d46d
+  Rotate: [0.08457525074481964, -0.004542899783700705, 0.3135862648487091]
+  SRTHash: 412165984
+  Scale: 0.9599999785423279
+  Translate: [4801.55859375, 106.0971450805664, -3121.58837890625]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x35684df4
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xaecd019b
+  Rotate: [-3.122968912124634, -0.24206233024597168, -3.089639663696289]
+  SRTHash: -939776961
+  Translate: [4816.572265625, 108.59042358398438, -3094.142578125]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {FortressEatPer: -1, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x35d037ab
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x678ce278}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xaeb825bf}
+  Rotate: -0.35999998450279236
+  SRTHash: -1747700090
+  Translate: [4153.1708984375, 303.6789855957031, -3295.20361328125]
+  UnitConfigName: Enemy_Moriblin_Middle
+- HashId: !u 0x35e73286
+  Rotate: [0.09156374633312225, -1.118342638015747, -0.08319438993930817]
+  SRTHash: 227862921
+  Translate: [4532.35498046875, 352.80316162109375, -3173.0546875]
+  UnitConfigName: FldObj_CliffAkkare_A_06_Far
+- HashId: !u 0x36970bf8
+  Rotate: 1.5707963705062866
+  SRTHash: -1407220513
+  Translate: [4565.0, 190.60000610351562, -3605.0]
+  UnitConfigName: FldObj_HugeMazeRoof_B_02_Far
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg,
+    GuardianLegType1: Guardian_A_Leg, GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg,
+    GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg, IsSuspended: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x371ad4c5
+  Rotate: -1.799999713897705
+  SRTHash: -149777328
+  Translate: [4460.75146484375, 310.2066650390625, -3034.910400390625]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x37f5ef12
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xaf569802
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x34f3d46d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd8c84af2
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x436d069d
+  Rotate: [0.08457525074481964, -0.004542899783700705, 0.3135862648487091]
+  SRTHash: 870571033
+  Translate: [4804.0263671875, 106.91960144042969, -3121.82568359375]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x39127f87
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x197bbc03}
+  Rotate: [0.05618297681212425, -0.35649558901786804, -0.1687512993812561]
+  SRTHash: -386526429
+  Translate: [4344.251953125, 266.18682861328125, -3282.648193359375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_02
+- HashId: !u 0x3bfc9b39
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xbc368b70}
+  Rotate: [2.5374438762664795, -0.960930585861206, -2.6380856037139893]
+  SRTHash: -1454317828
+  Translate: [4512.5234375, 323.333251953125, -3040.893798828125]
+  UnitConfigName: FldObj_CliffAkkare_A_06
+- '!Parameters':
+    ChaseRange: 200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsSuspended: true
+    SharpWeaponJudgeType: 1
+    TraversePos: {X: 4745.0, Y: 258.70001220703125, Z: -3607.5}
+    TraverseRadiusXZ: 47.762428283691406
+  HashId: !u 0x3c326844
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xa95f29d5}
+  Rotate: 0.7853981852531433
+  SRTHash: -2000218561
+  Translate: [4642.65771484375, 248.5, -3612.77978515625]
+  UnitConfigName: Enemy_Guardian_C
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: AncientLabo_AncientDoctor_MoveA1,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x3c412d7a
+  SRTHash: 2031887233
+  Scale: 2.981356143951416
+  Translate: [4504.478515625, 364.842529296875, -3143.15869140625]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CalcMarginXMinus: 0.10000000149011612, CalcMarginXPlus: 0.10000000149011612,
+    CalcMarginYMinus: 0.10000000149011612, CalcMarginYPlus: 0.10000000149011612, CalcMarginZMinus: 0.10000000149011612,
+    CalcMarginZPlus: 0.10000000149011612, CameraPriority: 1, CameraSet: '-', CullingOption: 2,
+    ForceCalcInEvent: false, HideOutSide: false, HideRoomNum: -1, IsConnectNeighborArea: true,
+    LoadMarginXMinus: -1.0, LoadMarginXPlus: -1.0, LoadMarginYMinus: -1.0, LoadMarginYPlus: -1.0,
+    LoadMarginZMinus: -1.0, LoadMarginZPlus: -1.0, MarginSize: 0.10000000149011612,
+    Shape: Box}
+  HashId: !u 0x3cfb265c
+  SRTHash: 28096438
+  Scale: [46.65113830566406, 30.31654167175293, 33.98522186279297]
+  Translate: [4655.1533203125, 224.55953979492188, -3717.047607421875]
+  UnitConfigName: AreaCulling_InnerHide
+- '!Parameters': {EquipItem1: Weapon_Spear_011, FortressEatPer: -1, IsNearCreate: false,
+    IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0x3d3a84cd
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xc46c6fd2}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x1662aff6}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xc5b7e1f9}
+  Rotate: -2.6997246742248535
+  SRTHash: 343947354
+  Translate: [4185.45703125, 303.65032958984375, -3285.449462890625]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x3d8153c3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xd5349980
+  Rotate: 1.7816016674041748
+  SRTHash: -1199692927
+  Scale: 1.7000000476837158
+  Translate: [4344.05712890625, 363.3381042480469, -3178.3681640625]
+  UnitConfigName: Area
+- '!Parameters': {LocationPriority: 0, MessageID: LomeiIslands}
+  HashId: !u 0x3eefaeae
+  SRTHash: 0
+  Translate: [4654.10009765625, 122.0999984741211, -3650.300048828125]
+  UnitConfigName: LocationTag
+- HashId: !u 0x3f045bbc
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8128b08c}
+  Rotate: [2.5683674812316895, -0.32356470823287964, -2.980630397796631]
+  SRTHash: -1151519088
+  Translate: [4512.263671875, 291.681884765625, -3225.40234375]
+  UnitConfigName: FldObj_CliffDeathMt_D_14
+- '!Parameters': {HiddenKorokBodyColor: 3, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 4,
+    HiddenKorokRightPlantType: 2, IsAppearCheck: false, IsHiddenKorokLiftAppear: true,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 20, PlacementType: Ground,
+    RailMoveSpeed: 0.10000000149011612, TerritoryArea: 0.0}
+  HashId: !u 0x3f0df826
+  Rotate: 2.021594285964966
+  SRTHash: 1257283389
+  Translate: [4422.962890625, 115.15827178955078, -3340.219482421875]
+  UnitConfigName: Npc_HiddenKorokGround
+- HashId: !u 0x3f1ca12c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xbeaf47f2}
+  OnlyOne: true
+  SRTHash: 1266929121
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_08
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x406b3de2
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xac50a37d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdbce718d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x37f5ef12
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc6ff4f4c
+  Rotate: [0.08457525074481964, -0.004542899783700705, 0.3135862648487091]
+  SRTHash: 1578519779
+  Translate: [4805.9287109375, 107.53653717041016, -3121.816650390625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x4086a465
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x0e165760}
+  Rotate: [-0.18761469423770905, 0.007367508485913277, -0.0017314631259068847]
+  SRTHash: 168421088
+  Translate: [4490.4912109375, 348.3103942871094, -3224.79052734375]
+  UnitConfigName: FldObj_CliffAkkare_A_06
+- HashId: !u 0x40a163eb
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x42fb663c}
+  SRTHash: -1161764656
+  Translate: [4550.0, 190.60000610351562, -3605.0]
+  UnitConfigName: FldObj_HugeMazeRoof_B_04
+- HashId: !u 0x40f61b00
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xc5b7e1f9}
+  Rotate: 1.4890655279159546
+  SRTHash: -1909118778
+  Translate: [4183.31884765625, 303.6462097167969, -3289.96923828125]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0x42370397
+  Rotate: -2.5399997234344482
+  SRTHash: -1824149213
+  Translate: [4280.4716796875, 279.37542724609375, -3274.735107421875]
+  UnitConfigName: FldObj_CliffAkkare_A_06_Far
+- HashId: !u 0x42c22486
+  Rotate: 1.060001254081726
+  SRTHash: 702080153
+  Translate: [4568.89892578125, 143.2220001220703, -3252.379150390625]
+  UnitConfigName: FldObj_RockAkkare_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0x42f69f04
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xaecd019b}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x35684df4
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xc0f339b2}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xddc20773}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x8d3b98b9}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xe2aa3770}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xb15593c5}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5d5a0323
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x37f5ef12
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x670c70d8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7a094060
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2af0dfaa
+  Rotate: [-3.122968912124634, -0.24206233024597168, -3.089639663696289]
+  SRTHash: 1825234782
+  Translate: [4817.54150390625, 108.64082336425781, -3094.3828125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x42fb663c
+  SRTHash: -1161764656
+  Translate: [4550.0, 190.60000610351562, -3605.0]
+  UnitConfigName: FldObj_HugeMazeRoof_B_04_Far
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0x436d069d
+  Rotate: [0.16666600108146667, 1.0365440845489502, 0.4577563405036926]
+  SRTHash: -323646605
+  Translate: [4802.73974609375, 106.51134490966797, -3121.931640625]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- '!Parameters': {HiddenKorokBodyColor: 4, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 0,
+    HiddenKorokRightPlantType: 0, IsAppearCheck: true, IsHiddenKorokLiftAppear: false,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 0, PlacementType: Air, RailMoveSpeed: 0.10000000149011612,
+    TerritoryArea: 0.0}
+  HashId: !u 0x43bc2112
+  Rotate: 1.5707963705062866
+  SRTHash: 1388527781
+  Translate: [4503.6591796875, 379.2100524902344, -3164.38818359375]
+  UnitConfigName: Npc_HiddenKorokFly
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x441415e6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xe43a9be3
+  Rotate: [0.8445826768875122, 0.5079900026321411, -0.6110227108001709]
+  SRTHash: 836954991
+  Translate: [4430.67529296875, 353.4068908691406, -3182.54052734375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x454fba3d
+  Rotate: -3.1199991703033447
+  SRTHash: -1924926817
+  Translate: [4560.388671875, -4.5233001708984375, -4196.7607421875]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, SwitchTorchSpType: 0}
+  HashId: !u 0x45aa9ea3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb84ac893
+  Rotate: -1.2600001096725464
+  SRTHash: 74720283
+  Scale: 2.0
+  Translate: [4504.59814453125, 351.3074645996094, -3150.07421875]
+  UnitConfigName: TwnObj_AncientReactorCoreOff_A_01
+- HashId: !u 0x463f8343
+  OnlyOne: true
+  SRTHash: 2115676229
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeWall_B_01_Far
+- HashId: !u 0x46568e47
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x2c448e88}
+  Rotate: [-2.8815927505493164, -0.6815925240516663, 3.1415927410125732]
+  SRTHash: 617970256
+  Translate: [4023.20068359375, -6.2420501708984375, -3711.532470703125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x46674b1c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdbce718d
+  Rotate: [0.08457525074481964, -0.004542899783700705, 0.3135862648487091]
+  SRTHash: 422536677
+  Translate: [4801.1572265625, 109.30931091308594, -3123.57421875]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x46ca4e21
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc8f0c89c}
+  Rotate: 1.1399997472763062
+  SRTHash: -846435646
+  Translate: [4182.41015625, 303.6507568359375, -3290.38671875]
+  UnitConfigName: FldObj_SkullRock_A_01
+- HashId: !u 0x472923db
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xe4a401f8}
+  Rotate: -1.3599998950958252
+  SRTHash: -581401471
+  Translate: [4266.11865234375, -4.5233001708984375, -3963.468017578125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0x47aec4cb
+  Rotate: -0.20000000298023224
+  SRTHash: 823618371
+  Translate: [4372.501953125, 301.5435791015625, -3198.024658203125]
+  UnitConfigName: FldObj_RockAkkare_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0x47e1ec8d
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0xc041c9ee}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6e29587f
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x3d8153c3}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x14ba4640}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfc0f8c03}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x105c0e6e}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x28be55e7
+  Rotate: -1.3599909543991089
+  SRTHash: 1825234782
+  Translate: [4343.9521484375, 365.8880920410156, -3178.857177734375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x484d2926
+  Rotate: [-2.671842098236084, 1.0895838737487793, 3.0874881744384766]
+  SRTHash: 500072825
+  Translate: [4111.10400390625, 317.6197509765625, -3119.90380859375]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- '!Parameters': {LocationPriority: 1, MessageID: Dungeon105}
+  HashId: !u 0x49d7ef48
+  SRTHash: 0
+  Translate: [4655.0, 245.3000030517578, -3705.5]
+  UnitConfigName: LocationTag
+- HashId: !u 0x4a746329
+  Rotate: [0.8372913599014282, 1.3621039390563965, 1.1681698560714722]
+  SRTHash: 1543365636
+  Translate: [4329.931640625, 290.093994140625, -3068.357666015625]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg,
+    GuardianLegType1: Guardian_A_Leg, GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg,
+    GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg, IsSuspended: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x4b007a0f
+  Rotate: [3.021188974380493, 0.24480420351028442, -3.059532403945923]
+  SRTHash: 385160979
+  Translate: [4654.2548828125, 155.5, -3621.007568359375]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- HashId: !u 0x4b2fe132
+  OnlyOne: true
+  SRTHash: 1812949294
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_04_Far
+- '!Parameters': {ActorName: Obj_RockCover, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x4b6fc8b7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7a87d22a
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xed18c303}
+  SRTHash: 449620130
+  Translate: [4815.515625, 108.67814636230469, -3297.244873046875]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, EventFlowEntryName: Demo008_1, EventFlowName: Demo008_1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x4d1e80fe
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x4f19d404}
+  SRTHash: -925432741
+  Translate: [4655.0, 237.40017700195312, -3710.0]
+  UnitConfigName: DgnObj_EntranceElevator_A_01
+- HashId: !u 0x4d72c8cf
+  Rotate: [0.09676162898540497, 1.178063154220581, 0.10467955470085144]
+  SRTHash: -1128959326
+  Translate: [4020.078125, 304.10400390625, -3205.899169921875]
+  UnitConfigName: FldObj_CliffAkkare_A_06_Far
+- HashId: !u 0x4dcbe426
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x35e73286}
+  Rotate: [0.09156374633312225, -1.118342638015747, -0.08319438993930817]
+  SRTHash: 227862921
+  Translate: [4532.35498046875, 352.80316162109375, -3173.0546875]
+  UnitConfigName: FldObj_CliffAkkare_A_06
+- HashId: !u 0x4dfbc3c0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x9e645298}
+  Rotate: 2.2231853008270264
+  SRTHash: 2039993286
+  Scale: 1.2708221673965454
+  Translate: [4369.78662109375, -9.648300170898438, -4048.046142578125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0x4f19d404
+  SRTHash: -575281713
+  Translate: [4655.0, 236.40000915527344, -3699.5]
+  UnitConfigName: LookTag
+- HashId: !u 0x4fc96fdd
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xa64b0262}
+  Rotate: -0.5799999237060547
+  SRTHash: -1280248868
+  Translate: [3895.454833984375, 249.93359375, -3379.795166015625]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_01
+- HashId: !u 0x5077f877
+  Rotate: [-2.954802989959717, 0.6949126124382019, 3.0656578540802]
+  SRTHash: 1729093663
+  Translate: [4591.63037109375, 320.995361328125, -3174.67724609375]
+  UnitConfigName: FldObj_CliffAkkare_A_11_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x50ba120e
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xf09fc4ea}
+  SRTHash: 87372081
+  Translate: [4655.0, 240.77969360351562, -3684.6328125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5125ce67
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1092a228
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x790f7b1f
+  SRTHash: 0
+  Translate: [4762.42041015625, 107.74256896972656, -3145.2705078125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x5160fa12
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x11148c83}
+  Rotate: [2.798339366912842, 1.2810604572296143, 2.784623861312866]
+  SRTHash: 476637839
+  Translate: [4162.03076171875, -10.519393920898438, -3911.264892578125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg,
+    GuardianLegType1: Guardian_A_Leg, GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg,
+    GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg, IsSuspended: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x52c46ad5
+  Rotate: -1.832595705986023
+  SRTHash: 56829770
+  Translate: [4715.0, 155.5, -3630.0]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0x53cf084e
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x87f39889}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x005553ca
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xb649ede9}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xbf20eca4}
+  Rotate: [-0.01180628128349781, 0.0008587689371779561, 0.14521920680999756]
+  SRTHash: 1825234782
+  Translate: [4814.64453125, 108.13599395751953, -3300.27490234375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x545700ce
+  Rotate: -1.3726081848144531
+  SRTHash: 1646955862
+  Translate: [4543.599609375, 105.87472534179688, -3345.5703125]
+  UnitConfigName: Obj_RaftWood_A_S_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x54ae7455
+  Rotate: 2.7401669025421143
+  SRTHash: -508150896
+  Translate: [4507.39990234375, 351.3626403808594, -3146.300048828125]
+  UnitConfigName: DgnObj_WarpPoint_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x56667b80
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd17035c7
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3eefaeae
+  SRTHash: 0
+  Translate: [4654.10009765625, 122.0999984741211, -3650.300048828125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x5684dde8
+  Rotate: [0.21999995410442352, 0.31999990344047546, 0.0]
+  SRTHash: -474654944
+  Translate: [4054.54443359375, -30.158065795898438, -3915.762939453125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x58f72e0d
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xc5b7e1f9}
+  Rotate: 1.4890655279159546
+  SRTHash: -1667066126
+  Translate: [4183.31884765625, 303.6462097167969, -3289.96923828125]
+  UnitConfigName: AnchorAction1
+- HashId: !u 0x5a373c2e
+  Rotate: [-3.109307289123535, 0.259840726852417, -3.042158365249634]
+  SRTHash: -1417292582
+  Translate: [4192.220703125, 321.8476867675781, -3245.194580078125]
+  UnitConfigName: FldObj_CliffAkkare_A_12_Far
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 60.0}
+  HashId: !u 0x5a900627
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8bf15217
+  SRTHash: 1316099602
+  Translate: [4655.10009765625, 207.6999969482422, -3678.89990234375]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 5.0}
+  HashId: !u 0x5b5675dd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x35684df4
+  Rotate: [1.5707963705062866, -0.16159312427043915, 3.1415927410125732]
+  SRTHash: -1782513609
+  Scale: 0.5
+  Translate: [4811.9404296875, 107.88654327392578, -3099.183349609375]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Solitary_Maze_Activated,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x5c1c489c
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x1ab836e3}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x6d6db173}
+  SRTHash: -1328607388
+  Translate: [4675.8701171875, 51.599998474121094, -3654.3701171875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, PulseLength: 5,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x5c7e0588
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc7db49e7
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xed18c303}
+  Rotate: [-0.01180628128349781, 0.0008587689371779561, 0.14521920680999756]
+  SRTHash: -182953672
+  Scale: 0.25
+  Translate: [4816.3603515625, 106.77000427246094, -3300.257568359375]
+  UnitConfigName: LinkTagPulse
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5d5a0323
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb1619dbc
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5e5c385c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb267a6c3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x29c2eaac
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc5f97433
+  Rotate: -2.979999542236328
+  SRTHash: 870571033
+  Translate: [4813.9140625, 105.88654327392578, -3099.505126953125]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5d6e0d5a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc6cb4135
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2af0dfaa
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9632deff
+  Rotate: [0.0, 0.0, 0.2999998927116394]
+  SRTHash: 1578519779
+  Translate: [4736.87646484375, 112.32649993896484, -3122.006591796875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {KorokFlowerColorNum: 5}
+  HashId: !u 0x5e5c385c
+  Rotate: -2.7181999683380127
+  SRTHash: 1434250441
+  Scale: 1.0499999523162842
+  Translate: [4816.01708984375, 105.88654327392578, -3099.037109375]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- '!Parameters': {KorokFlowerColorNum: 1}
+  HashId: !u 0x5e683625
+  Rotate: [0.0, 0.0, 0.2999998927116394]
+  SRTHash: -653688078
+  Translate: [4733.05517578125, 111.14441680908203, -3122.006591796875]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- HashId: !u 0x5edbc6d3
+  Rotate: [2.4872992038726807, -1.3663685321807861, -2.6041414737701416]
+  SRTHash: -2104108752
+  Translate: [4381.5400390625, 309.9354553222656, -3231.62109375]
+  UnitConfigName: FldObj_CliffAkkare_A_12_Far
+- HashId: !u 0x60ba7f26
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8d6350e6}
+  OnlyOne: true
+  SRTHash: 1618127876
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_01
+- HashId: !u 0x61d0282f
+  Rotate: -1.5707963705062866
+  SRTHash: -1904943781
+  Translate: [4635.0, 200.10000610351562, -3687.5]
+  UnitConfigName: FldObj_HugeMazeLadder_Top_A_01_Far
+- HashId: !u 0x62160a51
+  Rotate: [-0.0006889788201078773, 5.6709872296778485e-05, 0.010561731643974781]
+  SRTHash: -1800989519
+  Translate: [4788.9384765625, 105.67672729492188, -3115.641357421875]
+  UnitConfigName: FldObj_RuinGuardian_A_Dynamic
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x62c08109
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8d7188b1
+  SRTHash: 0
+  Translate: [4720.0, 155.3000030517578, -3665.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x63bbef63
+  Rotate: 0.01999998465180397
+  SRTHash: -1690164774
+  Translate: [4176.978515625, 298.41339111328125, -3321.695068359375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_01_Far
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0x640a4ba7
+  Rotate: [0.497514545917511, -0.26818495988845825, 0.026045838370919228]
+  SRTHash: 636630232
+  Scale: 1.0499998331069946
+  Translate: [4762.0634765625, 106.51819610595703, -3145.66552734375]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- HashId: !u 0x64768037
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x29be213c}
+  Rotate: [3.101592540740967, 1.240005612373352, 3.141592264175415]
+  SRTHash: 339239151
+  Translate: [4422.333984375, 114.94581604003906, -3339.676513671875]
+  UnitConfigName: WallCrack
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x65edea02
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x3d8153c3
+  Rotate: 1.7816016674041748
+  SRTHash: -1479716891
+  Translate: [4343.22021484375, 363.3880920410156, -3182.27978515625]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x662b6376
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x105c0e6e
+  Rotate: 1.7816016674041748
+  SRTHash: 1037766042
+  Translate: [4258.94140625, 345.9298095703125, -3148.47607421875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {BluffThunderOff: false, CloudShadowOff: false, FogMinusCorrection: false,
+    IgnitedLevel: 0, PSelSpeed: 0, PaletteSel: 11, TemperatureDay: 99999.8984375,
+    TemperatureDirectDay: 99999.8984375, TemperatureDirectNight: 99999.8984375, TemperatureNight: 99999.8984375,
+    Weather: -1, WeatherEff: -1}
+  HashId: !u 0x66faddfe
+  SRTHash: -1634178849
+  Scale: 3.0
+  Translate: [4670.2001953125, 92.5, -3659.0]
+  UnitConfigName: ChangeWeatherTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x670c70d8
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8831d538
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x640a4ba7
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfca93cb7
+  Rotate: [0.4785497188568115, -0.03664838522672653, 0.149965301156044]
+  SRTHash: 870571033
+  Translate: [4764.57568359375, 106.99095916748047, -3145.74951171875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: AncientLabo_AncientOven_First,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x674599ca
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa8239ea4
+  SRTHash: -209253801
+  Translate: [4520.69580078125, 358.9373474121094, -3158.7412109375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x678ce278
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xaeb825bf}
+  SRTHash: -2126199512
+  Translate: [4151.0, 303.654541015625, -3291.0]
+  UnitConfigName: EnemyLookTag
+- HashId: !u 0x6853e65d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb6b4d39f}
+  Rotate: [2.0042359828948975, 1.4385026693344116, 2.007591485977173]
+  SRTHash: -1478199806
+  Scale: 1.049891471862793
+  Translate: [4592.533203125, 291.2212829589844, -3146.08544921875]
+  UnitConfigName: FldObj_CliffDeathMt_D_14
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x69170b81
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x986e4acb
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x49d7ef48
+  SRTHash: 0
+  Translate: [4655.0, 245.3000030517578, -3705.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x6a6f686d
+  Rotate: 1.143186092376709
+  SRTHash: 1384966834
+  Translate: [4218.31982421875, 322.6055908203125, -3097.44384765625]
+  UnitConfigName: FldObj_CliffAkkare_A_11_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: TreasureHunt02_Finish,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x6a9d8004
+  SRTHash: -1785705645
+  Translate: [4651.0703125, 160.62744140625, -3561.2099609375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg,
+    GuardianLegType1: Guardian_A_Leg, GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg,
+    GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg, IsSuspended: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6ad433c4
+  Rotate: -0.523598849773407
+  SRTHash: -999207352
+  Translate: [4670.0, 155.5, -3670.0]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- HashId: !u 0x6ad977a3
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4a746329}
+  Rotate: [0.8372913599014282, 1.3621039390563965, 1.1681698560714722]
+  SRTHash: 1543365636
+  Translate: [4329.931640625, 290.093994140625, -3068.357666015625]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- HashId: !u 0x6afbd3d3
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x08871b36}
+  Rotate: -2.739999294281006
+  SRTHash: 813157208
+  Translate: [4534.43310546875, 352.80316162109375, -3151.640625]
+  UnitConfigName: FldObj_CliffAkkare_A_06
+- HashId: !u 0x6be4f458
+  Rotate: [-0.5376958250999451, -1.0592001676559448, 0.5998115539550781]
+  SRTHash: 591608182
+  Translate: [4178.70458984375, -11.468605041503906, -3820.905517578125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x6cfea34f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x56667b80
+  SRTHash: 720203473
+  Scale: 220.0
+  Translate: [4654.10009765625, 122.0999984741211, -3650.300048828125]
+  UnitConfigName: Area
+- '!Parameters': {EventFlowEntryName: EntryPoint0, EventFlowName: Solitary_Maze, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x6d6db173
+  SRTHash: -1483362027
+  Scale: 3.0
+  Translate: [4684.2001953125, 51.60000228881836, -3658.60009765625]
+  UnitConfigName: EventTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6e29587f
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xc041c9ee
+  Rotate: -1.3599909543991089
+  SRTHash: -939776961
+  Translate: [4344.162109375, 365.8880920410156, -3177.87939453125]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x6e6244b7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf7eff3fd
+  SRTHash: -193908175
+  Scale: [135.0, 90.0, 100.0]
+  Translate: [4655.0, 153.89999389648438, -3650.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6f0db7a3
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x32e1e6af}
+  Rotate: -1.4199999570846558
+  SRTHash: 1009940248
+  Translate: [4031.81298828125, 311.01153564453125, -3225.559814453125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x71ba2e79
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x16f212f0}
+  OnlyOne: true
+  SRTHash: 2000465645
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_11
+- '!Parameters': {EquipItem1: Weapon_Sword_006, EquipItem2: Weapon_Shield_006, FortressEatPer: -1,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, RotAngle: 0.0,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0x7202bf20
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xc46c6fd2}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x1662aff6}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xc5b7e1f9}
+  Rotate: 1.4890655279159546
+  SRTHash: -1896770237
+  Translate: [4178.33544921875, 303.654541015625, -3290.37744140625]
+  UnitConfigName: Enemy_Bokoblin_Senior
+- HashId: !u 0x72175592
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xa3047b28}
+  Rotate: -0.016814621165394783
+  SRTHash: -190581156
+  Translate: [4219.00927734375, -9.648300170898438, -3903.65087890625]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: MapTower_07_Demo,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x7274864e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xda8191d7
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x843cf6a7
+  SRTHash: -902373788
+  Scale: 0.6000000238418579
+  Translate: [4653.5, 249.90000915527344, -3708.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x72c8b41e
+  SRTHash: -1327654049
+  Translate: [4125.5849609375, 290.6441650390625, -3033.42138671875]
+  UnitConfigName: Enemy_Chuchu_Junior
+- HashId: !u 0x742fb4b1
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x95871576}
+  Rotate: [-0.24084515869617462, 1.039737582206726, 0.05434165149927139]
+  SRTHash: 1294723393
+  Translate: [4342.64404296875, 297.1171569824219, -3119.23828125]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- HashId: !u 0x74b041c8
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4d72c8cf}
+  Rotate: [0.09676162898540497, 1.178063154220581, 0.10467955470085144]
+  SRTHash: -1128959326
+  Translate: [4020.078125, 304.10400390625, -3205.899169921875]
+  UnitConfigName: FldObj_CliffAkkare_A_06
+- HashId: !u 0x754042c4
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x1d9746fe}
+  Rotate: [0.19088774919509888, -1.1562776565551758, -0.11100567132234573]
+  SRTHash: -1003544019
+  Translate: [4111.3134765625, 325.9781188964844, -3120.697265625]
+  UnitConfigName: FldObj_CliffAkkare_A_12
+- HashId: !u 0x75b14f2a
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x7f572a27}
+  Rotate: -0.9231851696968079
+  SRTHash: -1868846114
+  Translate: [4301.12841796875, 254.5174102783203, -3274.5673828125]
+  UnitConfigName: Obj_RockDeathMt_D_L_01
+- HashId: !u 0x75b23275
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x764fc882}
+  OnlyOne: true
+  SRTHash: -849472280
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_03
+- HashId: !u 0x764fc882
+  OnlyOne: true
+  SRTHash: -849472280
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_03_Far
+- HashId: !u 0x776a58d5
+  OnlyOne: true
+  Rotate: -0.08689296245574951
+  SRTHash: -848667958
+  Translate: [4515.51416015625, 352.09295654296875, -3163.901123046875]
+  UnitConfigName: TwnObj_AncientCivilLaboParts_A_01_Far
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x780dbd07
+  SRTHash: -1650300007
+  Translate: [4134.5849609375, 291.38348388671875, -3033.42138671875]
+  UnitConfigName: Enemy_Chuchu_Middle
+- HashId: !u 0x782f938d
+  Rotate: -3.1368141174316406
+  SRTHash: 506229316
+  Translate: [4602.5947265625, -9.648300170898438, -4253.43603515625]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x790f7b1f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0e91a9ef
+  Rotate: [-2.9804553985595703, 0.0035959237720817327, -3.0427181720733643]
+  SRTHash: 422536677
+  Translate: [4745.27587890625, 110.80840301513672, -3115.636962890625]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x79d6d48a
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x02b7343e}
+  Rotate: 1.5415928363800049
+  SRTHash: 1911544404
+  Translate: [4160.1328125, 343.1119384765625, -3167.573486328125]
+  UnitConfigName: TwnObj_AncientReactor_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x7a094060
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9534e580
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe1ac0c0f
+  Rotate: [-2.9804553985595703, 0.0035959237720817327, -3.0427181720733643]
+  SRTHash: 870571033
+  Translate: [4743.615234375, 107.34552001953125, -3117.13671875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x7a87d22a
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0xb649ede9}
+  SRTHash: -1340148797
+  Translate: [4815.515625, 108.67814636230469, -3298.744873046875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Solitary_Maze_Activated,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x7b46d6d7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3c326844
+  SRTHash: -812313783
+  Scale: 10.0
+  Translate: [4642.45849609375, 252.5682830810547, -3612.8935546875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x7b5faaf3
+  OnlyOne: true
+  SRTHash: -102807579
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeWall_B_02_Far
+- HashId: !u 0x7bbf2ef0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xbc48993c}
+  Rotate: [2.6348283290863037, -0.35929954051971436, 3.0614917278289795]
+  SRTHash: -1113926171
+  Translate: [4446.107421875, 289.166259765625, -3230.68359375]
+  UnitConfigName: FldObj_CliffDeathMt_D_14
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_011
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    TraversePos: {X: 4173.25, Y: 321.25189208984375, Z: -3234.613037109375}
+    TraverseRadiusXZ: 18.39160919189453
+    WaitTime: 1.0
+  HashId: !u 0x7bea6270
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x6ff7de33}
+  Rotate: -1.8799998760223389
+  SRTHash: -1417547557
+  Translate: [4189.873046875, 325.19580078125, -3225.18798828125]
+  UnitConfigName: Enemy_Moriblin_Middle
+- HashId: !u 0x7c0df527
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8bd4fa2f}
+  Rotate: [2.5341596603393555, 0.8866239786148071, 2.6705691814422607]
+  SRTHash: -1409483856
+  Scale: 1.049891471862793
+  Translate: [4576.0234375, 271.6444091796875, -3191.6552734375]
+  UnitConfigName: FldObj_CliffDeathMt_D_14
+- HashId: !u 0x7c99c2c6
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x5684dde8}
+  Rotate: [0.21999995410442352, 0.31999990344047546, 0.0]
+  SRTHash: -474654944
+  Translate: [4054.54443359375, -30.158065795898438, -3915.762939453125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7cf69a63
+  SRTHash: -105080390
+  Translate: [4655.0, 237.40017700195312, -3706.199951171875]
+  UnitConfigName: DgnObj_EntranceShutter_A_01
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_011
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    TraversePos: {X: 4154.66796875, Y: 286.9460144042969, Z: -3003.761962890625}
+    TraverseRadiusXZ: 12.065030097961426
+    WaitTime: 1.0
+  HashId: !u 0x7cf9545e
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xfb6f6295}
+  Rotate: 0.9215931296348572
+  SRTHash: -2115520363
+  Translate: [4157.28125, 286.6930847167969, -3002.7421875]
+  UnitConfigName: Enemy_Moriblin_Middle
+- HashId: !u 0x7d980885
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x463f8343}
+  OnlyOne: true
+  SRTHash: 2115676229
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeWall_B_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0x7dd8fde2
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x25b44423}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe43a9be3
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x2ed3e525}
+  Rotate: [0.34740370512008667, -0.026676321402192116, 0.1517447978258133]
+  SRTHash: 1825234782
+  Translate: [4427.96337890625, 354.5139465332031, -3182.0625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x7f572a27
+  Rotate: -0.9231851696968079
+  SRTHash: -1868846114
+  Translate: [4301.12841796875, 254.5174102783203, -3274.5673828125]
+  UnitConfigName: Obj_RockDeathMt_D_L_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8103d68f
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xdcef8783}
+  Rotate: 1.7503384351730347
+  SRTHash: 1009940248
+  Translate: [4358.30322265625, 276.14154052734375, -3277.42919921875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x8128b08c
+  Rotate: [2.5683674812316895, -0.32356470823287964, -2.980630397796631]
+  SRTHash: -1151519088
+  Translate: [4512.263671875, 291.681884765625, -3225.40234375]
+  UnitConfigName: FldObj_CliffDeathMt_D_14_Far
+- HashId: !u 0x81bc21f4
+  Rotate: [3.138192653656006, -0.3029889464378357, 3.058492660522461]
+  SRTHash: -1960869889
+  Translate: [4428.1650390625, 271.9886169433594, -3272.635986328125]
+  UnitConfigName: FldObj_CliffDeathMt_D_14_Far
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 1, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x82735b8a
+  Rotate: -2.3507964611053467
+  SRTHash: 1687336004
+  Translate: [4085.45068359375, 287.22607421875, -3056.48046875]
+  UnitConfigName: Enemy_Chuchu_Junior
+- HashId: !u 0x82b737e1
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x0fffa29c}
+  Rotate: 0.10318586230278015
+  SRTHash: 557349912
+  Translate: [4690.8583984375, -4.5233001708984375, -4296.0966796875]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0x8311fa83
+  Rotate: [0.05337005853652954, -0.3211330771446228, 0.02103973738849163]
+  SRTHash: 155973601
+  Translate: [4321.462890625, 265.42034912109375, -3254.978515625]
+  UnitConfigName: FldObj_CliffDeathMt_E_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Open_AncientLabo,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x83315ff7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x54ae7455
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0071ae6d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1c75f685
+  SRTHash: -1846188103
+  Scale: 3.0
+  Translate: [4502.572265625, 364.842529296875, -3138.84619140625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x83cf6e42
+  OnlyOne: true
+  SRTHash: 1288579842
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_07_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x843cf6a7
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0xda8191d7}
+  SRTHash: -1559299830
+  Scale: 0.6000000238418579
+  Translate: [4656.5, 249.90000915527344, -3708.0]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x847bb243
+  Rotate: 1.8031851053237915
+  SRTHash: -1382169012
+  Translate: [4772.03271484375, -4.5233001708984375, -4315.30712890625]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x84d85beb
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd05c0c2d
+  Rotate: 0.6981316804885864
+  SRTHash: -263781894
+  Scale: 50.0
+  Translate: [4522.0146484375, 354.2326965332031, -3166.6328125]
+  UnitConfigName: Area
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x857e5d19
+  Rotate: -1.0799999237060547
+  SRTHash: 782125123
+  Translate: [4516.34228515625, 353.119873046875, -3161.546142578125]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: HatenoMini_BlueFire_Activated,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x8702aa9c
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x45aa9ea3
+  SRTHash: 1042369165
+  Scale: 2.981356143951416
+  Translate: [4515.533203125, 352.850341796875, -3143.15869140625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x876fd45c
+  SRTHash: -901841970
+  Scale: [2.200000047683716, 55.5, 2.200000047683716]
+  Translate: [4655.0, 125.0, -3687.5]
+  UnitConfigName: AscendingCurrent
+- HashId: !u 0x877ac9da
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x93441b52}
+  SRTHash: 756412074
+  Translate: [4044.58544921875, -4.5233001708984375, -3841.385986328125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- '!Parameters': {HiddenKorokBodyColor: 2, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 3,
+    HiddenKorokRightPlantType: 0, IsAppearCheck: false, IsHiddenKorokLiftAppear: true,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 20, PlacementType: Ground,
+    RailMoveSpeed: 0.10000000149011612, TerritoryArea: 0.0}
+  HashId: !u 0x87f39889
+  SRTHash: 1257283389
+  Translate: [4815.5009765625, 105.73483276367188, -3300.24609375]
+  UnitConfigName: Npc_HiddenKorokGround
+- '!Parameters': {KorokFlowerColorNum: 3}
+  HashId: !u 0x8831d538
+  Rotate: [0.9375418424606323, 0.9632291197776794, 1.0102078914642334]
+  SRTHash: -1662068452
+  Translate: [4762.5810546875, 106.92244720458984, -3146.266357421875]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- HashId: !u 0x888225ce
+  Rotate: [2.615417957305908, -1.3527717590332031, -2.5202105045318604]
+  SRTHash: 911984541
+  Translate: [4490.0927734375, 295.5262145996094, -2935.3134765625]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_02_Far
+- HashId: !u 0x89b24206
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xae2432e2}
+  Rotate: -1.3599998950958252
+  SRTHash: -1433103257
+  Translate: [4048.27490234375, -4.5233001708984375, -3845.452392578125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0x8ae99212
+  Rotate: [-0.019999997690320015, -0.11999993771314621, 0.039999932050704956]
+  SRTHash: 1173283481
+  Translate: [4297.96923828125, 245.56997680664062, -3101.8056640625]
+  UnitConfigName: Obj_RockDeathMt_D_L_03_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8b37ee47
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1092a228
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x13949957
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x670c70d8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x406b3de2
+  Rotate: [0.4785497188568115, -0.03664838522672653, 0.149965301156044]
+  SRTHash: 1578519779
+  Translate: [4766.55224609375, 107.28956604003906, -3145.67626953125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x8b75af64
+  Rotate: [-0.01348069030791521, -0.0001446605019737035, -0.029260678216814995]
+  SRTHash: -1800989519
+  Translate: [4755.01416015625, 105.71094512939453, -3063.466552734375]
+  UnitConfigName: FldObj_RuinGuardian_A_Dynamic
+- HashId: !u 0x8b8236f0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc0679446}
+  Rotate: [1.3329485654830933, -1.329077959060669, -1.7325470447540283]
+  SRTHash: 945042002
+  Translate: [4264.6552734375, 274.6153869628906, -3227.627197265625]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- HashId: !u 0x8bd4fa2f
+  Rotate: [2.5341596603393555, 0.8866239786148071, 2.6705691814422607]
+  SRTHash: -1409483856
+  Scale: 1.049891471862793
+  Translate: [4576.0234375, 271.6444091796875, -3191.6552734375]
+  UnitConfigName: FldObj_CliffDeathMt_D_14_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8bf15217
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x920b2907
+  SRTHash: 0
+  Translate: [4655.10009765625, 207.6999969482422, -3678.89990234375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x8cab9990
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xd2276fa6}
+  Rotate: [0.28774604201316833, 0.4779203534126282, -0.06889164447784424]
+  SRTHash: -1703872225
+  Translate: [4519.51904296875, 314.3116455078125, -3057.91748046875]
+  UnitConfigName: FldObj_CliffAkkare_A_11
+- HashId: !u 0x8cec23d0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8e0198f2}
+  Rotate: [0.9781922698020935, 1.3313674926757812, 0.37533682584762573]
+  SRTHash: -1811809076
+  Translate: [4109.603515625, 320.7904052734375, -3155.4404296875]
+  UnitConfigName: FldObj_CliffAkkare_A_06
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x8d3b98b9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5125ce67
+  Rotate: [0.4785497188568115, -0.03664838522672653, 0.149965301156044]
+  SRTHash: 2014685177
+  Scale: 1.9999998807907104
+  Translate: [4762.42041015625, 107.74256896972656, -3145.2705078125]
+  UnitConfigName: Area
+- HashId: !u 0x8d6350e6
+  OnlyOne: true
+  SRTHash: 1618127876
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_01_Far
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg,
+    GuardianLegType1: Guardian_A_Leg, GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg,
+    GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg, IsSuspended: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8d7188b1
+  Rotate: -1.5707963705062866
+  SRTHash: 358727855
+  Translate: [4720.0, 155.5, -3665.0]
+  UnitConfigName: Enemy_Guardian_A_Moss
+- HashId: !u 0x8e0198f2
+  Rotate: [0.9781922698020935, 1.3313674926757812, 0.37533682584762573]
+  SRTHash: -1811809076
+  Translate: [4109.603515625, 320.7904052734375, -3155.4404296875]
+  UnitConfigName: FldObj_CliffAkkare_A_06_Far
+- '!Parameters': {GetUpDirection: Right}
+  HashId: !u 0x8ee309db
+  Rotate: 1.9399999380111694
+  SRTHash: 1435051773
+  Translate: [4508.16064453125, 353.8883972167969, -3160.9462890625]
+  UnitConfigName: AnchorSleep
+- HashId: !u 0x8f369c4d
+  Rotate: -3.1415927410125732
+  SRTHash: 1324596190
+  Translate: [4654.89990234375, 237.40000915527344, -3703.134033203125]
+  UniqueName: Demo008_0_PlayerEndPos
+  UnitConfigName: ForceSetPosDirAutoSaveAnchor
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, PulseLength: 5,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x8f48c643
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x441415e6
+  Rotate: [0.34740370512008667, -0.026676321402192116, 0.1517447978258133]
+  SRTHash: -182953672
+  Scale: 0.25
+  Translate: [4429.6875, 353.2557678222656, -3182.567138671875]
+  UnitConfigName: LinkTagPulse
+- HashId: !u 0x8f9f42c7
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x454fba3d}
+  Rotate: -3.1199991703033447
+  SRTHash: -1924926817
+  Translate: [4560.388671875, -4.5233001708984375, -4196.7607421875]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x916569b7
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x3f0df826
+  Rotate: 2.021594285964966
+  SRTHash: -939776961
+  Translate: [4422.74462890625, 117.65827178955078, -3340.66943359375]
+  UnitConfigName: LinkTagOr
+- '!Parameters':
+    ChaseRange: 200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsSuspended: true
+    SharpWeaponJudgeType: 0
+    TraversePos: {X: 4655.0, Y: 195.4499969482422, Z: -3617.5}
+    TraverseRadiusXZ: 63.09714889526367
+  HashId: !u 0x920b2907
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xeac1f760}
+  SRTHash: -677492703
+  Translate: [4655.0, 195.08999633789062, -3678.10009765625]
+  UnitConfigName: Enemy_Guardian_A_Moss
+- HashId: !u 0x93441b52
+  SRTHash: 756412074
+  Translate: [4044.58544921875, -4.5233001708984375, -3841.385986328125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Solitary_Maze_Activated,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x93b697f6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x28c9a433
+  SRTHash: -2132662792
+  Scale: 10.0
+  Translate: [4633.125, 252.42208862304688, -3656.53857421875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    ChaseRange: 200.0
+    DropTable: Normal
+    GuardianLegType0: Guardian_A_Leg
+    GuardianLegType1: Guardian_A_Leg
+    GuardianLegType2: Guardian_A_Leg
+    GuardianLegType3: Guardian_A_Leg
+    GuardianLegType4: Guardian_A_Leg
+    GuardianLegType5: Guardian_A_Leg
+    IsSuspended: true
+    SharpWeaponJudgeType: 1
+    TraversePos: {X: 4565.0, Y: 258.70001220703125, Z: -3607.5}
+    TraverseRadiusXZ: 47.762428283691406
+  HashId: !u 0x93cad19b
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x1ad228f5}
+  Rotate: -0.7853981852531433
+  SRTHash: 1852574088
+  Translate: [4667.6533203125, 248.484375, -3622.546875]
+  UnitConfigName: Enemy_Guardian_C
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x95084fc9
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0xf1692200}
+  Rotate: -1.0217280387878418
+  SRTHash: 649989483
+  Scale: 1.1172059774398804
+  Translate: [4083.348388671875, 286.4414978027344, -3052.933349609375]
+  UnitConfigName: Obj_TreeMaple_A_02
+- '!Parameters': {KorokFlowerColorNum: 2}
+  HashId: !u 0x9534e580
+  Rotate: [-2.9164352416992188, -0.7689754366874695, 3.0819339752197266]
+  SRTHash: 593792316
+  Scale: 1.0499999523162842
+  Translate: [4745.15185546875, 107.54631805419922, -3116.835205078125]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- HashId: !u 0x95871576
+  Rotate: [-0.24084515869617462, 1.039737582206726, 0.05434165149927139]
+  SRTHash: 1294723393
+  Translate: [4342.64404296875, 297.1171569824219, -3119.23828125]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x95e5c20f
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xd82d6304}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1371b0a1
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x43bc2112}
+  Rotate: 1.5707963705062866
+  SRTHash: -812349416
+  Translate: [4503.6591796875, 381.7100524902344, -3163.838134765625]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {LocationPriority: 1, MessageID: AncientLabo}
+  HashId: !u 0x960e4b8c
+  SRTHash: 0
+  Translate: [4522.0146484375, 354.2326965332031, -3166.6328125]
+  UnitConfigName: LocationTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x9632deff
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0d979290
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0e91a9ef
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7a094060
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8b37ee47
+  Rotate: [-2.9804553985595703, 0.0035959237720817327, -3.0427181720733643]
+  SRTHash: 1578519779
+  Translate: [4741.625, 107.1480941772461, -3117.14404296875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    EquipItem1: Weapon_Sword_002
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    TraversePos: {X: 4214.75, Y: 334.0527038574219, Z: -3180.00390625}
+    TraverseRadiusXZ: 14.492759704589844
+    WaitTime: 1.0
+  HashId: !u 0x9633f247
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x133a9b9e}
+  Rotate: 1.1399998664855957
+  SRTHash: -69932659
+  Translate: [4218.28759765625, 336.08966064453125, -3164.63232421875]
+  UnitConfigName: Enemy_Moriblin_Middle
+- HashId: !u 0x96a5e2fd
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb468ac48}
+  Rotate: [-2.9101922512054443, -1.3146177530288696, 2.902674913406372]
+  SRTHash: -1759737091
+  Translate: [4385.07958984375, 354.1055908203125, -3192.18994140625]
+  UnitConfigName: FldObj_CliffAkkare_A_10
+- HashId: !u 0x977c4d26
+  SRTHash: 1251704181
+  Translate: [4048.571044921875, 262.5767517089844, -3315.737548828125]
+  UnitConfigName: FldObj_RockAkkare_A_01
+- '!Parameters': {IncrementSave: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Location_Dungeon105,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x986e4acb
+  SRTHash: 0
+  Translate: [4655.0, 245.3000030517578, -3705.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x98bd34e8
+  Rotate: -2.5799994468688965
+  SRTHash: -432805674
+  Translate: [4074.707763671875, 279.3744201660156, -3082.722900390625]
+  UnitConfigName: FldObj_RockAkkare_A_01
+- HashId: !u 0x98fd0050
+  LinksToObj:
+  - {DefinitionName: FixedCs, DestUnitHashId: !u 0x545700ce}
+  Rotate: -1.3726081848144531
+  SRTHash: 67780728
+  Translate: [4543.50146484375, 105.88540649414062, -3346.060546875]
+  UnitConfigName: Obj_RaftWoodSail_A_S_01
+- HashId: !u 0x99407118
+  Rotate: [3.141592264175415, 2.3164618312421226e-07, 1.5707963705062866]
+  SRTHash: 35124742
+  Translate: [4645.2265625, 235.10000610351562, -3682.0]
+  UnitConfigName: FldObj_HugeMazeFence_A_01
+- HashId: !u 0x99c13818
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xde589839}
+  Rotate: [-0.1255532056093216, -0.9582292437553406, 0.10450861603021622]
+  SRTHash: -1459366257
+  Translate: [4170.94091796875, 342.9949951171875, -3193.18359375]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x9a3eb340
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x6d6db173
+  SRTHash: 0
+  Translate: [4670.39990234375, 51.60000228881836, -3658.699951171875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x9adbe5b0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x9b2b2bd2}
+  Rotate: [0.0703442171216011, -0.27763447165489197, 0.16683003306388855]
+  SRTHash: -1566573391
+  Translate: [4020.486328125, 262.92120361328125, -3324.812255859375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_02
+- HashId: !u 0x9b132c96
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x782f938d}
+  Rotate: -3.1368141174316406
+  SRTHash: 506229316
+  Translate: [4602.5947265625, -9.648300170898438, -4253.43603515625]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0x9b2b2bd2
+  Rotate: [0.0703442171216011, -0.27763447165489197, 0.16683003306388855]
+  SRTHash: -1566573391
+  Translate: [4020.486328125, 262.92120361328125, -3324.812255859375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_02_Far
+- HashId: !u 0x9e645298
+  Rotate: 2.2231853008270264
+  SRTHash: 2039993286
+  Scale: 1.2708221673965454
+  Translate: [4369.78662109375, -9.648300170898438, -4048.046142578125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9efedc4a
+  SRTHash: 990594583
+  Translate: [4655.0, 236.40000915527344, -3710.0]
+  UnitConfigName: DgnObj_DungeonEntrance_A_01_Far
+- '!Parameters': {AutoSave: false, CalcMarginXMinus: 0.10000000149011612, CalcMarginXPlus: 0.10000000149011612,
+    CalcMarginYMinus: 0.10000000149011612, CalcMarginYPlus: 0.10000000149011612, CalcMarginZMinus: 0.10000000149011612,
+    CalcMarginZPlus: 0.10000000149011612, CameraPriority: 1, CameraSet: '-', CullingOption: 2,
+    ForceCalcInEvent: false, HideOutSide: false, HideRoomNum: -1, IsConnectNeighborArea: true,
+    LoadMarginXMinus: -1.0, LoadMarginXPlus: -1.0, LoadMarginYMinus: -1.0, LoadMarginYPlus: -1.0,
+    LoadMarginZMinus: -1.0, LoadMarginZPlus: -1.0, MarginSize: 0.10000000149011612,
+    Shape: Box}
+  HashId: !u 0xa08858f5
+  SRTHash: 1565865878
+  Scale: [45.92992401123047, 53.198360443115234, 51.16326904296875]
+  Translate: [4747.80078125, 247.4413604736328, -3597.23681640625]
+  UnitConfigName: AreaCulling_InnerHide
+- HashId: !u 0xa0bb33fd
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x2c74a533}
+  Rotate: -3.059999704360962
+  SRTHash: -1599867325
+  Translate: [4129.84521484375, -4.5233001708984375, -3862.905517578125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0xa3047b28
+  Rotate: -0.016814621165394783
+  SRTHash: -190581156
+  Translate: [4219.00927734375, -9.648300170898438, -3903.65087890625]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- HashId: !u 0xa64b0262
+  Rotate: -0.5799999237060547
+  SRTHash: -1280248868
+  Translate: [3895.454833984375, 249.93359375, -3379.795166015625]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xa8239ea4
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xcb72c11d
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xe9226c01
+  SRTHash: 2114980388
+  Translate: [4518.46240234375, 356.8459167480469, -3159.201416015625]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xac50a37d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x406b3de2
+  Rotate: [0.08457525074481964, -0.004542899783700705, 0.3135862648487091]
+  SRTHash: -299278719
+  Translate: [4804.06982421875, 106.756103515625, -3119.8330078125]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xac85730c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xbbfe674f
+  Rotate: -0.7799999117851257
+  SRTHash: -1691301925
+  Scale: 14.999999046325684
+  Translate: [4083.348388671875, 286.4414978027344, -3052.933349609375]
+  UnitConfigName: Area
+- HashId: !u 0xad2c8d48
+  Rotate: -1.2600016593933105
+  SRTHash: -1169763412
+  Translate: [4191.1083984375, 256.3638000488281, -3003.075927734375]
+  UnitConfigName: FldObj_RockAkkare_A_01
+- HashId: !u 0xae2432e2
+  Rotate: -1.3599998950958252
+  SRTHash: -1433103257
+  Translate: [4048.27490234375, -4.5233001708984375, -3845.452392578125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- HashId: !u 0xae3815c0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xd9c42848}
+  SRTHash: -199978548
+  Translate: [4262.42919921875, -4.5233001708984375, -3959.401611328125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0xaeb825bf
+  SRTHash: 0
+  Translate: [4153.1708984375, 303.6789855957031, -3295.20361328125]
+  UnitConfigName: LinkTagNone
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_011
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    TraversePos: {X: 4192.578125, Y: 330.37200927734375, Z: -3108.195068359375}
+    TraverseRadiusXZ: 14.017569541931152
+    WaitTime: 1.0
+  HashId: !u 0xaec02f6c
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xe3306cf7}
+  Rotate: 0.9215931296348572
+  SRTHash: 804907158
+  Translate: [4205.65234375, 333.127685546875, -3116.25]
+  UnitConfigName: Enemy_Moriblin_Middle
+- '!Parameters': {HiddenKorokBodyColor: 1, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 2,
+    HiddenKorokRightPlantType: 1, IsAppearCheck: false, IsHiddenKorokLiftAppear: false,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 0, PlacementType: Ground, RailMoveSpeed: 0.10000000149011612,
+    TerritoryArea: 0.0}
+  HashId: !u 0xaecd019b
+  Rotate: -2.9000000953674316
+  SRTHash: 1257283389
+  Translate: [4817.19775390625, 106.12001037597656, -3094.217529296875]
+  UnitConfigName: Npc_HiddenKorokGround
+- '!Parameters': {KorokFlowerColorNum: 4}
+  HashId: !u 0xaf569802
+  Rotate: [0.08982647210359573, 0.343224436044693, 0.34427252411842346]
+  SRTHash: 640524810
+  Scale: 0.9800000190734863
+  Translate: [4801.92041015625, 106.29002380371094, -3122.43359375]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- HashId: !u 0xb0037956
+  OnlyOne: true
+  SRTHash: -1004511327
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_02_Far
+- '!Parameters': {AutoSave: false, CalcMarginXMinus: 0.10000000149011612, CalcMarginXPlus: 0.10000000149011612,
+    CalcMarginYMinus: 0.10000000149011612, CalcMarginYPlus: 0.10000000149011612, CalcMarginZMinus: 0.10000000149011612,
+    CalcMarginZPlus: 0.10000000149011612, CameraPriority: 1, CameraSet: '-', CullingOption: 0,
+    ForceCalcInEvent: false, HideOutSide: false, HideRoomNum: -1, IsConnectNeighborArea: false,
+    LoadMarginXMinus: -1.0, LoadMarginXPlus: -1.0, LoadMarginYMinus: -1.0, LoadMarginYPlus: -1.0,
+    LoadMarginZMinus: -1.0, LoadMarginZPlus: -1.0, MarginSize: 0.10000000149011612,
+    Shape: Box}
+  HashId: !u 0xb06023eb
+  SRTHash: -1981874952
+  Scale: [138.85061645507812, 29.92613410949707, 103.50211334228516]
+  Translate: [4655.21337890625, 164.91908264160156, -3649.393798828125]
+  UnitConfigName: AreaCulling_InnerHide
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xb15593c5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc6cb4135
+  Rotate: [0.0, 0.0, 0.2999998927116394]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4732.70068359375, 112.29082489013672, -3122.006591796875]
+  UnitConfigName: Area
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0xb1619dbc
+  Rotate: -1.9328019618988037
+  SRTHash: 1433110960
+  Scale: 0.949999988079071
+  Translate: [4815.2294921875, 105.88654327392578, -3099.516845703125]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xb20c6dfd
+  SRTHash: -846955043
+  Translate: [4767.513671875, 195.10812377929688, -3662.502685546875]
+  UnitConfigName: Enemy_Chuchu_Electric_Junior
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0xb267a6c3
+  Rotate: 2.954119920730591
+  SRTHash: -1767265211
+  Scale: 1.0199998617172241
+  Translate: [4816.62744140625, 105.88654327392578, -3099.643310546875]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- HashId: !u 0xb361b142
+  Rotate: [0.34844452142715454, 0.4516740143299103, 0.1089770644903183]
+  SRTHash: -486809365
+  Translate: [4124.91796875, 331.83477783203125, -3190.821044921875]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- '!Parameters': {DropTable: RuinGuardian, InitMotionStatus: 0, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0, TresasureSpotType: 1}
+  HashId: !u 0xb3663173
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x15113ac7}
+  Rotate: [0.1017589345574379, -0.0018207377288490534, 0.0357506163418293]
+  SRTHash: 358499500
+  Translate: [4721.53857421875, 107.18231964111328, -3231.452880859375]
+  UnitConfigName: TreasureSpot_00
+- HashId: !u 0xb36d3a5d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x339cfde4}
+  Rotate: [3.104848623275757, 0.41763779520988464, 3.12044358253479]
+  SRTHash: -801401950
+  Translate: [4360.107421875, 232.73861694335938, -3284.48486328125]
+  UnitConfigName: FldObj_CliffDeathMt_D_14
+- HashId: !u 0xb468ac48
+  Rotate: [-2.9101922512054443, -1.3146177530288696, 2.902674913406372]
+  SRTHash: -1759737091
+  Translate: [4385.07958984375, 354.1055908203125, -3192.18994140625]
+  UnitConfigName: FldObj_CliffAkkare_A_10_Far
+- '!Parameters': {DropActor: Obj_WarpDLC, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb5b684d6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6a9d8004
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: -90517131
+  Translate: [4655.0, 155.49691772460938, -3560.015625]
+  UnitConfigName: TBox_Field_Iron_NoReaction_Aoc_long
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb649ede9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5c7e0588
+  - {DefinitionName: StackLink, DestUnitHashId: !u 0xbf20eca4}
+  Rotate: [-0.01180628128349781, 0.0008587689371779561, 0.14521920680999756]
+  SRTHash: 36616695
+  Translate: [4815.515625, 105.63589477539062, -3300.244873046875]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- HashId: !u 0xb65e50ab
+  Rotate: [-3.1117136478424072, -1.341921091079712, -3.050863027572632]
+  SRTHash: 664982306
+  Scale: 0.8965972661972046
+  Translate: [4564.72265625, 314.08526611328125, -3087.845458984375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_01_Far
+- HashId: !u 0xb6b4d39f
+  Rotate: [2.0042359828948975, 1.4385026693344116, 2.007591485977173]
+  SRTHash: -1478199806
+  Scale: 1.049891471862793
+  Translate: [4592.533203125, 291.2212829589844, -3146.08544921875]
+  UnitConfigName: FldObj_CliffDeathMt_D_14_Far
+- HashId: !u 0xb6c0b357
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x7b5faaf3}
+  OnlyOne: true
+  SRTHash: -102807579
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeWall_B_02
+- HashId: !u 0xb7ec41f6
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x241b95b3}
+  Rotate: -0.25999999046325684
+  SRTHash: -776098657
+  Translate: [4518.267578125, 305.12432861328125, -3250.734130859375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb84ac893
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3c412d7a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x24a92cd8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x83315ff7
+  SRTHash: -1996943061
+  Scale: 6.0
+  Translate: [4504.478515625, 368.334716796875, -3143.15869140625]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlagOnOffType: 0}
+  HashId: !u 0xb8addd45
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x3f0df826}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x916569b7
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xebf67788}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x64768037}
+  Rotate: 2.021594285964966
+  SRTHash: 1825234782
+  Translate: [4423.18115234375, 117.65827178955078, -3339.76953125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xb91b9bf3
+  Rotate: -3.1199991703033447
+  SRTHash: 1249245328
+  Translate: [4775.63330078125, -4.5233001708984375, -4319.4521484375]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- HashId: !u 0xbb361603
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x6a6f686d}
+  Rotate: 1.143186092376709
+  SRTHash: 1384966834
+  Translate: [4218.31982421875, 322.6055908203125, -3097.44384765625]
+  UnitConfigName: FldObj_CliffAkkare_A_11
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xbbfe674f
+  LinksToObj:
+  - '!Parameters': {AppearFade: true}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x82735b8a
+  Rotate: -0.7799999117851257
+  SRTHash: 949794115
+  Translate: [4076.2392578125, 291.4414978027344, -3059.96630859375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xbc368b70
+  Rotate: [2.5374438762664795, -0.960930585861206, -2.6380856037139893]
+  SRTHash: -1454317828
+  Translate: [4512.5234375, 323.333251953125, -3040.893798828125]
+  UnitConfigName: FldObj_CliffAkkare_A_06_Far
+- HashId: !u 0xbc48993c
+  Rotate: [2.6348283290863037, -0.35929954051971436, 3.0614917278289795]
+  SRTHash: -1113926171
+  Translate: [4446.107421875, 289.166259765625, -3230.68359375]
+  UnitConfigName: FldObj_CliffDeathMt_D_14_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xbc562222
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x441415e6
+  Rotate: [0.34740370512008667, -0.026676321402192116, 0.1517447978258133]
+  SRTHash: -105676283
+  Scale: 3.0
+  Translate: [4428.69921875, 353.104736328125, -3182.59375]
+  UnitConfigName: Area
+- HashId: !u 0xbd383e5f
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x20f76f4e}
+  Rotate: [3.0975942611694336, -0.8432316780090332, -2.9905848503112793]
+  SRTHash: 660967167
+  Translate: [4121.80224609375, 335.46697998046875, -3189.46435546875]
+  UnitConfigName: FldObj_CliffAkkare_A_12
+- HashId: !u 0xbda9439c
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x1124a738}
+  Rotate: [0.2599998712539673, 0.31999990344047546, 0.0]
+  SRTHash: 1423143957
+  Translate: [4202.84130859375, -30.546737670898438, -4002.173095703125]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xbe62b480
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x72c8b41e
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x780dbd07
+  SRTHash: 710321666
+  Translate: [4130.0849609375, 295.1566162109375, -3030.42138671875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xbe71d333
+  Rotate: [-1.7530057430267334, -0.2543692886829376, 2.6192736625671387]
+  SRTHash: 1800315164
+  Translate: [4316.71826171875, 252.0263671875, -3207.04638671875]
+  UnitConfigName: FldObj_CliffDeathMt_E_12_Far
+- HashId: !u 0xbe91e4e3
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x61d0282f}
+  Rotate: -1.5707963705062866
+  SRTHash: -1904943781
+  Translate: [4635.0, 200.10000610351562, -3687.5]
+  UnitConfigName: FldObj_HugeMazeLadder_Top_A_01
+- HashId: !u 0xbeaf47f2
+  OnlyOne: true
+  SRTHash: 1266929121
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_08_Far
+- HashId: !u 0xbf20eca4
+  Rotate: [2.9401862621307373, -1.4830248355865479, -2.9950461387634277]
+  SRTHash: 1396418215
+  Scale: 0.6000000238418579
+  Translate: [4815.615234375, 106.32687377929688, -3299.442626953125]
+  UnitConfigName: Obj_RockCover
+- '!Parameters': {HiddenKorokBodyColor: 0, HiddenKorokLeftPlantType: 0, HiddenKorokMaskType: 1,
+    HiddenKorokRightPlantType: 0, IsAppearCheck: false, IsHiddenKorokLiftAppear: false,
+    IsInvisibleKorok: false, KorokEventStartWaitFrame: 45, PlacementType: Air, RailMoveSpeed: 0.10000000149011612,
+    TerritoryArea: 0.0}
+  HashId: !u 0xc041c9ee
+  Rotate: -1.3599909543991089
+  SRTHash: 1257283389
+  Translate: [4344.05712890625, 363.3880920410156, -3178.3681640625]
+  UnitConfigName: Npc_HiddenKorokFly
+- HashId: !u 0xc0679446
+  Rotate: [1.3329485654830933, -1.329077959060669, -1.7325470447540283]
+  SRTHash: 945042002
+  Translate: [4264.6552734375, 274.6153869628906, -3227.627197265625]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xc0f339b2
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2591c896
+  Rotate: -2.979999542236328
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4815.88818359375, 107.08654022216797, -3099.826904296875]
+  UnitConfigName: Area
+- HashId: !u 0xc2afbbff
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x2e734e68}
+  Rotate: [2.1922547817230225, -1.2246413230895996, -2.2305960655212402]
+  SRTHash: 450682949
+  Translate: [4387.80419921875, 315.4805908203125, -3028.15478515625]
+  UnitConfigName: FldObj_CliffAkkare_A_12
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xc2b64975
+  Rotate: -3.0431854724884033
+  SRTHash: -1607346356
+  Translate: [4514.3837890625, 353.0131530761719, -3158.55224609375]
+  UnitConfigName: AnchorAction2
+- '!Parameters': {DropTable: RuinGuardian, InitMotionStatus: 0, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0, TresasureSpotType: 1}
+  HashId: !u 0xc46101e5
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x62160a51}
+  SRTHash: 358499500
+  Translate: [4788.923828125, 107.25576782226562, -3115.62646484375]
+  UnitConfigName: TreasureSpot_00
+- HashId: !u 0xc46c6fd2
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xc5b7e1f9}
+  Rotate: 1.4890655279159546
+  SRTHash: -2107917187
+  Translate: [4183.31884765625, 303.6462097167969, -3289.96923828125]
+  UnitConfigName: EnemyFortressMgrTag
+- HashId: !u 0xc4b18053
+  Rotate: [1.676401972770691, -1.4041121006011963, -2.067283868789673]
+  SRTHash: -2052182337
+  Translate: [4265.150390625, 263.0294494628906, -3175.574462890625]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- HashId: !u 0xc595a671
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb91b9bf3}
+  Rotate: -3.1199991703033447
+  SRTHash: 1249245328
+  Translate: [4775.63330078125, -4.5233001708984375, -4319.4521484375]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0xc5b7e1f9
+  SRTHash: 0
+  Translate: [4185.45703125, 303.65032958984375, -3285.449462890625]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {EquipItem1: Weapon_Sword_005, FortressEatPer: -1, IsNearCreate: false,
+    IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0xc5f8cf7b
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xc46c6fd2}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x1662aff6}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xc5b7e1f9}
+  Rotate: -0.605329692363739
+  SRTHash: -2121497944
+  Translate: [4186.1640625, 303.63360595703125, -3294.080810546875]
+  UnitConfigName: Enemy_Bokoblin_Middle
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0xc5f97433
+  Rotate: -2.3691341876983643
+  SRTHash: 195315176
+  Translate: [4815.35546875, 105.88654327392578, -3100.29736328125]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- HashId: !u 0xc61c5b24
+  Rotate: [1.5499368906021118, 1.2707933187484741, 1.8676564693450928]
+  SRTHash: -102763909
+  Translate: [4335.0791015625, 278.963134765625, -3016.469970703125]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc6cb4135
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5d6e0d5a
+  Rotate: [0.0, 0.0, 0.2999998927116394]
+  SRTHash: -299278719
+  Translate: [4734.9658203125, 111.73545837402344, -3120.006591796875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc6ff4f4c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2ac4d1d3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5d5a0323
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x5b5675dd
+  Rotate: -2.979999542236328
+  SRTHash: 1578519779
+  Translate: [4811.9404296875, 105.88654327392578, -3099.183349609375]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xc780ca45
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8ae99212}
+  Rotate: [-0.019999997690320015, -0.11999993771314621, 0.039999932050704956]
+  SRTHash: 1173283481
+  Translate: [4297.96923828125, 245.56997680664062, -3101.8056640625]
+  UnitConfigName: Obj_RockDeathMt_D_L_03
+- '!Parameters': {AutoSave: false, CalcMarginXMinus: 0.10000000149011612, CalcMarginXPlus: 0.10000000149011612,
+    CalcMarginYMinus: 0.10000000149011612, CalcMarginYPlus: 0.10000000149011612, CalcMarginZMinus: 0.10000000149011612,
+    CalcMarginZPlus: 0.10000000149011612, CameraPriority: 1, CameraSet: '-', CullingOption: 2,
+    ForceCalcInEvent: false, HideOutSide: false, HideRoomNum: -1, IsConnectNeighborArea: true,
+    LoadMarginXMinus: -1.0, LoadMarginXPlus: -1.0, LoadMarginYMinus: -1.0, LoadMarginYPlus: -1.0,
+    LoadMarginZMinus: -1.0, LoadMarginZPlus: -1.0, MarginSize: 0.10000000149011612,
+    Shape: Box}
+  HashId: !u 0xc787886d
+  SRTHash: -475955426
+  Scale: [46.0670166015625, 52.6563835144043, 52.862022399902344]
+  Translate: [4562.5615234375, 246.89938354492188, -3700.057861328125]
+  UnitConfigName: AreaCulling_InnerHide
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Enter_Dungeon105,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xc7d4c431
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfba77e39}
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x876fd45c
+  SRTHash: -922973410
+  Translate: [4650.0, 236.1999969482422, -3689.699951171875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc7db49e7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x005553ca
+  Rotate: [0.5591089725494385, 0.26230138540267944, -0.7309341430664062]
+  SRTHash: 836954991
+  Translate: [4817.349609375, 106.91471862792969, -3300.25830078125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CalcMarginXMinus: -1.0, CalcMarginXPlus: -1.0,
+    CalcMarginYMinus: -1.0, CalcMarginYPlus: -1.0, CalcMarginZMinus: -1.0, CalcMarginZPlus: -1.0,
+    CameraPriority: 1, CameraSet: '-', CullingOption: 0, ForceCalcInEvent: false,
+    HideOutSide: true, HideRoomNum: -1, IsConnectNeighborArea: true, LoadMarginXMinus: -1.0,
+    LoadMarginXPlus: -1.0, LoadMarginYMinus: -1.0, LoadMarginYPlus: -1.0, LoadMarginZMinus: -1.0,
+    LoadMarginZPlus: -1.0, MarginSize: -1.0, Shape: Sphere}
+  HashId: !u 0xc7e33d8d
+  SRTHash: -1636950385
+  Scale: 219.1471710205078
+  Translate: [4655.5283203125, 162.84091186523438, -3647.451904296875]
+  UnitConfigName: AreaCulling_OuterNPCMementary
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc8d7f0cc
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x916569b7
+  Rotate: [0.11876406520605087, 0.5600897669792175, -1.0595918893814087]
+  SRTHash: 836954991
+  Translate: [4424.71826171875, 116.05827331542969, -3341.17822265625]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xc8f0c89c
+  Rotate: 1.1399997472763062
+  SRTHash: -846435646
+  Translate: [4182.41015625, 303.6507568359375, -3290.38671875]
+  UnitConfigName: FldObj_SkullRock_A_01_Far
+- '!Parameters':
+    EquipItem1: Weapon_Lsword_011
+    FortressEatPer: -1
+    IsNearCreate: false
+    IsWatchKeeping: false
+    LevelSensorMode: 0
+    RotAngle: 0.0
+    SharpWeaponJudgeType: 0
+    TerritoryArea: 0.0
+    TraversePos: {X: 4128.68017578125, Y: 325.9385986328125, Z: -3108.801025390625}
+    TraverseRadiusXZ: 9.79565715789795
+    WaitTime: 1.0
+  HashId: !u 0xc927a42f
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x22d75d65}
+  Rotate: 0.9215931296348572
+  SRTHash: -331110543
+  Translate: [4118.74609375, 327.0176086425781, -3115.94140625]
+  UnitConfigName: Enemy_Moriblin_Middle
+- '!Parameters':
+    TerritoryArea: 0.0
+    TraversePos: {X: 4515.36279296875, Y: 353.0664978027344, Z: -3160.049072265625}
+    TraverseRadiusXZ: 1.7890290021896362
+  HashId: !u 0xcb72c11d
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x857e5d19}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xc2b64975}
+  OnlyOne: true
+  Rotate: -2.941593647003174
+  SRTHash: 418388638
+  Translate: [4514.27880859375, 352.9618835449219, -3158.731201171875]
+  UnitConfigName: Npc_AncientDoctor_Hateno
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xcb9493c0
+  LinksToObj:
+  - '!Parameters': {AppearFade: true}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xf219af05
+  Rotate: 1.7503384351730347
+  SRTHash: 949794115
+  Translate: [4348.4638671875, 276.14154052734375, -3275.643310546875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ChaseRange: 200.0, DropTable: Normal, GuardianLegType0: Guardian_A_Leg,
+    GuardianLegType1: Guardian_A_Leg, GuardianLegType2: Guardian_A_Leg, GuardianLegType3: Guardian_A_Leg,
+    GuardianLegType4: Guardian_A_Leg, GuardianLegType5: Guardian_A_Leg, IsSuspended: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xcbc9b2a5
+  Rotate: -3.1415927410125732
+  SRTHash: 1818429380
+  Translate: [4558.6640625, 195.08999633789062, -3632.5]
+  UnitConfigName: Enemy_Guardian_A_Fixed_Moss
+- HashId: !u 0xcbfc168d
+  Rotate: [0.0, -0.6631813645362854, 0.14000000059604645]
+  SRTHash: -925370219
+  Translate: [4551.818359375, 325.25103759765625, -3145.612060546875]
+  UnitConfigName: FldObj_RockAkkare_A_01
+- HashId: !u 0xccb2f2ac
+  Rotate: [3.141592264175415, 2.3164618312421226e-07, 1.5707963705062866]
+  SRTHash: 2116444878
+  Translate: [4658.75, 235.10000610351562, -3682.0]
+  UnitConfigName: FldObj_HugeMazeFence_A_01
+- HashId: !u 0xcdbb939c
+  OnlyOne: true
+  SRTHash: 536190813
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeWall_B_04_Far
+- HashId: !u 0xce07cf49
+  SRTHash: -788344154
+  Translate: [4555.0, 190.60000610351562, -3600.0]
+  UnitConfigName: FldObj_HugeMazeRoof_B_02_Far
+- HashId: !u 0xcf225f1e
+  Rotate: [0.029808348044753075, 0.979701578617096, 0.035894542932510376]
+  SRTHash: 332977061
+  Translate: [4035.86279296875, 304.3193359375, -3246.132568359375]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd05c0c2d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x04b895c6
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x960e4b8c
+  SRTHash: 0
+  Translate: [4522.0146484375, 354.2326965332031, -3166.6328125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xd15c107f
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x63bbef63}
+  Rotate: 0.01999998465180397
+  SRTHash: -1690164774
+  Translate: [4176.978515625, 298.41339111328125, -3321.695068359375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_01
+- '!Parameters': {IncrementSave: true, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Location_LomeiIslands,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xd17035c7
+  SRTHash: 0
+  Translate: [4654.10009765625, 122.0999984741211, -3650.300048828125]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xd19b3373
+  Rotate: [-3.050276041030884, 0.03764231875538826, 3.0023653507232666]
+  SRTHash: 1486372184
+  Translate: [4483.779296875, 345.4085998535156, -3221.59716796875]
+  UnitConfigName: FldObj_CliffAkkare_A_12_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0xd1d2d1ae
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0e8c5774
+  Rotate: [2.852354049682617, 1.016072154045105, 3.0693116188049316]
+  SRTHash: -155849611
+  Scale: 0.699999988079071
+  Translate: [4252.14794921875, 345.595458984375, -3134.254638671875]
+  UnitConfigName: Area
+- HashId: !u 0xd2276fa6
+  Rotate: [0.28774604201316833, 0.4779203534126282, -0.06889164447784424]
+  SRTHash: -1703872225
+  Translate: [4519.51904296875, 314.3116455078125, -3057.91748046875]
+  UnitConfigName: FldObj_CliffAkkare_A_11_Far
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xd26f09e8
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xd620ea35
+  SRTHash: -654423194
+  Scale: 3.0
+  Translate: [4774.294921875, 194.8487548828125, -3657.455810546875]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Solitary_Maze_Activated,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xd41b5789
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x330fc424
+  SRTHash: 490870063
+  Scale: 10.0
+  Translate: [4677.6767578125, 252.51583862304688, -3657.748779296875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xd469c30d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc7db49e7
+  Rotate: [-0.01180628128349781, 0.0008587689371779561, 0.14521920680999756]
+  SRTHash: -105676283
+  Scale: 3.0
+  Translate: [4815.37109375, 106.6253890991211, -3300.256591796875]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd5349980
+  LinksToObj:
+  - {DefinitionName: GimmickSuccess, DestUnitHashId: !u 0xfc0f8c03}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x14ba4640
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x6e29587f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x28be55e7
+  Rotate: 1.7816016674041748
+  SRTHash: -2026608607
+  Translate: [4344.580078125, 361.3880920410156, -3175.923583984375]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xd566f846
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xd19b3373}
+  Rotate: [-3.050276041030884, 0.03764231875538826, 3.0023653507232666]
+  SRTHash: 1486372184
+  Translate: [4483.779296875, 345.4085998535156, -3221.59716796875]
+  UnitConfigName: FldObj_CliffAkkare_A_12
+- HashId: !u 0xd5a74b0d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x8311fa83}
+  Rotate: [0.05337005853652954, -0.3211330771446228, 0.02103973738849163]
+  SRTHash: 155973601
+  Translate: [4321.462890625, 265.42034912109375, -3254.978515625]
+  UnitConfigName: FldObj_CliffDeathMt_E_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd620ea35
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xb20c6dfd
+  SRTHash: -920457925
+  Translate: [4767.380859375, 198.8253173828125, -3660.596435546875]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xd7644504
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x888225ce}
+  Rotate: [2.615417957305908, -1.3527717590332031, -2.5202105045318604]
+  SRTHash: 911984541
+  Translate: [4490.0927734375, 295.5262145996094, -2935.3134765625]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd7b03045
+  LinksToObj:
+  - {DefinitionName: CopyWaitRevival, DestUnitHashId: !u 0x12462ee9}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6ad433c4
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x18f8d644
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4b007a0f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x52c46ad5
+  SRTHash: -474845839
+  Translate: [4655.046875, 158.11563110351562, -3640.040771484375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xd82d6304
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1371b0a1
+  Rotate: 1.6707943677902222
+  SRTHash: 231680722
+  Scale: 2.0
+  Translate: [4503.6591796875, 378.5538024902344, -3164.38818359375]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xd8a41db1
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x50ba120e
+  SRTHash: 1896574352
+  Scale: [10.0, 10.0, 17.5]
+  Translate: [4655.0, 244.95205688476562, -3702.5]
+  UnitConfigName: Area
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0xd8c84af2
+  Rotate: [0.09732712060213089, 0.516998827457428, 0.36219266057014465]
+  SRTHash: -838960844
+  Scale: 0.9299999475479126
+  Translate: [4802.3291015625, 106.30713653564453, -3121.136474609375]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- HashId: !u 0xd99b1ce7
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x5077f877}
+  Rotate: [-2.954802989959717, 0.6949126124382019, 3.0656578540802]
+  SRTHash: 1729093663
+  Translate: [4591.63037109375, 320.995361328125, -3174.67724609375]
+  UnitConfigName: FldObj_CliffAkkare_A_11
+- HashId: !u 0xd9a01bda
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x5a373c2e}
+  Rotate: [-3.109307289123535, 0.259840726852417, -3.042158365249634]
+  SRTHash: -1417292582
+  Translate: [4192.220703125, 321.8476867675781, -3245.194580078125]
+  UnitConfigName: FldObj_CliffAkkare_A_12
+- HashId: !u 0xd9c42848
+  SRTHash: -199978548
+  Translate: [4262.42919921875, -4.5233001708984375, -3959.401611328125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xda8191d7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x03ec5d47
+  Rotate: -0.5235987901687622
+  SRTHash: 1806128058
+  Translate: [4657.0, 237.40017700195312, -3704.0]
+  UnitConfigName: DgnObj_EntranceTerminal_A_01
+- HashId: !u 0xdad23895
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x00c47b88}
+  Rotate: [-0.07545831054449081, -0.21765568852424622, -0.3017061650753021]
+  SRTHash: -1263168917
+  Translate: [4237.86181640625, 295.41571044921875, -3310.946533203125]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- HashId: !u 0xdad66970
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x42370397}
+  Rotate: -2.5399997234344482
+  SRTHash: -1824149213
+  Translate: [4280.4716796875, 279.37542724609375, -3274.735107421875]
+  UnitConfigName: FldObj_CliffAkkare_A_06
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 90.0}
+  HashId: !u 0xdb2e7fa9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3128bdb3
+  SRTHash: -1728981602
+  Translate: [4671.0, 245.10000610351562, -3623.60009765625]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xdbce718d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8b37ee47
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9632deff
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5d6e0d5a
+  Rotate: [0.08457525074481964, -0.004542899783700705, 0.3135862648487091]
+  SRTHash: -1610988549
+  Translate: [4804.9619140625, 110.5431900024414, -3123.55615234375]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xdcef8783
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xcb9493c0
+  Rotate: 1.7503384351730347
+  SRTHash: -1691301925
+  Scale: 15.0
+  Translate: [4346.67822265625, 271.14154052734375, -3285.482666015625]
+  UnitConfigName: Area
+- HashId: !u 0xdd0eb3ea
+  Rotate: -3.1415927410125732
+  SRTHash: 1257667284
+  Translate: [4654.89990234375, 237.40000915527344, -3703.134033203125]
+  UniqueName: Demo008_0_PlayerEndPos
+  UnitConfigName: PosAfterDemoSkip
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xddc20773
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x234cde31
+  Rotate: [0.08457525074481964, -0.004542899783700705, 0.3135862648487091]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4801.7548828125, 107.43992614746094, -3121.7333984375]
+  UnitConfigName: Area
+- HashId: !u 0xde5306d9
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xc61c5b24}
+  Rotate: [1.5499368906021118, 1.2707933187484741, 1.8676564693450928]
+  SRTHash: -102763909
+  Translate: [4335.0791015625, 278.963134765625, -3016.469970703125]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- HashId: !u 0xde589839
+  Rotate: [-0.1255532056093216, -0.9582292437553406, 0.10450861603021622]
+  SRTHash: -1459366257
+  Translate: [4170.94091796875, 342.9949951171875, -3193.18359375]
+  UnitConfigName: FldObj_CliffAkkare_A_05_Far
+- HashId: !u 0xe0b3edb0
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xf90f3d22}
+  OnlyOne: true
+  SRTHash: 938967294
+  Translate: [4655.0, 190.6199951171875, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_09
+- HashId: !u 0xe1546f03
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x02efc0ed}
+  Rotate: -1.8168143033981323
+  SRTHash: 1573006278
+  Scale: 1.2708221673965454
+  Translate: [4442.6943359375, -9.648300170898438, -4121.18212890625]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0xe1ac0c0f
+  Rotate: [-2.9799013137817383, -0.08253756910562515, -3.0567498207092285]
+  SRTHash: -1818173863
+  Scale: 0.9500000476837158
+  Translate: [4745.81005859375, 107.514892578125, -3117.425048828125]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xe2aa3770
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0d979290
+  Rotate: [-2.9804553985595703, 0.0035959237720817327, -3.0427181720733643]
+  SRTHash: 2014685177
+  Scale: 2.0
+  Translate: [4745.48876953125, 108.7216796875, -3117.322021484375]
+  UnitConfigName: Area
+- HashId: !u 0xe380bffe
+  Rotate: -1.5707963705062866
+  SRTHash: -30405207
+  Translate: [4635.0, 195.10000610351562, -3687.5]
+  UnitConfigName: FldObj_HugeMazeLadder_A_01_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe43a9be3
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x25b44423
+  Rotate: [0.34740370512008667, -0.026676321402192116, 0.1517447978258133]
+  SRTHash: -939776961
+  Translate: [4428.951171875, 354.6652526855469, -3182.036376953125]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xe43c39f6
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xef474616}
+  Rotate: [1.426386833190918, 1.2013355493545532, 1.3371710777282715]
+  SRTHash: -1229048650
+  Translate: [4202.76806640625, 298.1673889160156, -3036.31201171875]
+  UnitConfigName: FldObj_CliffAkkare_A_12
+- HashId: !u 0xe4a401f8
+  Rotate: -1.3599998950958252
+  SRTHash: -581401471
+  Translate: [4266.11865234375, -4.5233001708984375, -3963.468017578125]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe562bb46
+  LinksToObj:
+  - {DefinitionName: DeadUp, DestUnitHashId: !u 0x8103d68f}
+  Rotate: 1.508610486984253
+  SRTHash: 649989483
+  Scale: 1.1172059774398804
+  Translate: [4346.67822265625, 271.1617736816406, -3285.482666015625]
+  UnitConfigName: Obj_TreeMaple_A_02
+- '!Parameters':
+    TerritoryArea: 0.0
+    TraversePos: {X: 4510.57080078125, Y: 353.4407958984375, Z: -3162.592041015625}
+    TraverseRadiusXZ: 5.0854620933532715
+  HashId: !u 0xe9226c01
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x3079cda5}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xef0e5b28}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x0e18afd3}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x1c944d68}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x8ee309db}
+  OnlyOne: true
+  Rotate: 2.9031858444213867
+  SRTHash: -1716839510
+  Translate: [4513.24658203125, 353.0131530761719, -3157.794921875]
+  UnitConfigName: Npc_AncientAssistant004
+- HashId: !u 0xea5dbc7d
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb65e50ab}
+  Rotate: [-3.1117136478424072, -1.341921091079712, -3.050863027572632]
+  SRTHash: 664982306
+  Scale: 0.8965972661972046
+  Translate: [4564.72265625, 314.08526611328125, -3087.845458984375]
+  UnitConfigName: FldObj_CliffAkkareEnd_A_01
+- HashId: !u 0xeaa65189
+  Rotate: -0.2999996542930603
+  SRTHash: 411646538
+  Translate: [4122.41455078125, 287.2240905761719, -3055.569580078125]
+  UnitConfigName: FldObj_RockAkkare_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xeb698b4a
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x9efedc4a}
+  SRTHash: 990594583
+  Translate: [4655.0, 236.40000915527344, -3710.0]
+  UnitConfigName: DgnObj_DungeonEntrance_A_01
+- '!Parameters': {DropTable: __none__, IsEnemyLiftable: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xebf67788
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x09592f0c
+  Rotate: [-0.10811054706573486, 0.4891429841518402, -0.2270054966211319]
+  SRTHash: 36616695
+  Translate: [4422.962890625, 115.05827331542969, -3340.219482421875]
+  UnitConfigName: Obj_LiftRockWhite_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xed18c303
+  SRTHash: -1771070505
+  Scale: 0.5569999814033508
+  Translate: [4815.515625, 106.23514556884766, -3300.244873046875]
+  UnitConfigName: Area
+- HashId: !u 0xedbe8e99
+  Rotate: [0.09293624758720398, 0.47160711884498596, 0.20234526693820953]
+  SRTHash: 1676007975
+  Translate: [3895.1044921875, 116.36356353759766, -3435.79150390625]
+  UnitConfigName: FldObj_RockAkkare_A_01
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0xef0e5b28
+  Rotate: -1.6200003623962402
+  SRTHash: -2050904757
+  Translate: [4510.291015625, 352.9931335449219, -3163.8076171875]
+  UnitConfigName: AnchorAction4
+- HashId: !u 0xef474616
+  Rotate: [1.426386833190918, 1.2013355493545532, 1.3371710777282715]
+  SRTHash: -1229048650
+  Translate: [4202.76806640625, 298.1673889160156, -3036.31201171875]
+  UnitConfigName: FldObj_CliffAkkare_A_12_Far
+- '!Parameters': {Direction: 0, Shape: Box, WindSpeed: 15.0}
+  HashId: !u 0xf09fc4ea
+  SRTHash: 1699607732
+  Scale: [138.0, 71.0, 105.0]
+  Translate: [4655.0, 317.1000061035156, -3650.89990234375]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0xf0be4659
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xb361b142}
+  Rotate: [0.34844452142715454, 0.4516740143299103, 0.1089770644903183]
+  SRTHash: -486809365
+  Translate: [4124.91796875, 331.83477783203125, -3190.821044921875]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- HashId: !u 0xf0dbba2c
+  OnlyOne: true
+  SRTHash: 1382447720
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeWall_B_03_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf1692200
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xac85730c}
+  Rotate: -0.7799999117851257
+  SRTHash: 1009940248
+  Translate: [4069.20654296875, 291.4414978027344, -3052.857177734375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Solitary_Maze_Activated,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xf1c32e60
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdb2e7fa9
+  SRTHash: -1842438778
+  Scale: 10.0
+  Translate: [4667.3564453125, 253.27365112304688, -3622.60986328125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: true, IsWatchKeeping: false, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 1, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xf219af05
+  Rotate: 0.17954206466674805
+  SRTHash: 1687336004
+  Translate: [4342.9208984375, 270.83453369140625, -3283.784423828125]
+  UnitConfigName: Enemy_Chuchu_Junior
+- HashId: !u 0xf2fffc82
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x4b2fe132}
+  OnlyOne: true
+  SRTHash: 1812949294
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_04
+- HashId: !u 0xf656c0ee
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x484d2926}
+  Rotate: [-2.671842098236084, 1.0895838737487793, 3.0874881744384766]
+  SRTHash: 500072825
+  Translate: [4111.10400390625, 317.6197509765625, -3119.90380859375]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- HashId: !u 0xf695a7b4
+  Rotate: [1.2204315662384033, 1.013352394104004, -0.2958385646343231]
+  SRTHash: -1649272487
+  Translate: [4216.69921875, 237.03659057617188, -3337.492919921875]
+  UnitConfigName: FldObj_RockAkkare_A_01
+- HashId: !u 0xf76f662d
+  Rotate: 1.8031851053237915
+  SRTHash: 2001274284
+  Translate: [4556.7880859375, -4.5233001708984375, -4192.61572265625]
+  UnitConfigName: FldObj_WorldEnd_A_03_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf7eff3fd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x66faddfe
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1ab836e3
+  SRTHash: -457350242
+  Scale: 3.0
+  Translate: [4656.7998046875, 51.400001525878906, -3659.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xf90f3d22
+  OnlyOne: true
+  SRTHash: 938967294
+  Translate: [4655.0, 190.6199951171875, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_09_Far
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf965cd66
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x07bc5e24
+  SRTHash: 0
+  Translate: [4589.2001953125, 155.3000030517578, -3618.699951171875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 2, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xfa556e2c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9efedc4a
+  SRTHash: -757633401
+  Scale: 0.30000001192092896
+  Translate: [4653.5, 237.40000915527344, -3704.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xfaefa2aa
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x83cf6e42}
+  OnlyOne: true
+  SRTHash: 1288579842
+  Translate: [4655.0, 190.58999633789062, -3650.0]
+  UnitConfigName: FldObj_HugeMazeParts_B_07
+- HashId: !u 0xfba77e39
+  Rotate: [0.0, 1.5706113576889038, -1.5707964897155762]
+  SRTHash: -1590880423
+  Translate: [4650.8828125, 234.74063110351562, -3685.0]
+  UnitConfigName: FldObj_HugeMazeFence_A_01
+- '!Parameters': {DropTable: Normal, GoalCountLimit: 1800.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfc0f8c03
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x65edea02
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xc041c9ee}
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x105c0e6e}
+  - {DefinitionName: GimmickSuccess, DestUnitHashId: !u 0x662b6376}
+  Rotate: 1.7816016674041748
+  SRTHash: -2024721634
+  Translate: [4344.05712890625, 361.3880920410156, -3178.3681640625]
+  UnitConfigName: FldObj_KorokGoal_A_01
+- HashId: !u 0xfc4dffad
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0xbe71d333}
+  Rotate: [-1.7530057430267334, -0.2543692886829376, 2.6192736625671387]
+  SRTHash: 1800315164
+  Translate: [4316.71826171875, 252.0263671875, -3207.04638671875]
+  UnitConfigName: FldObj_CliffDeathMt_E_12
+- '!Parameters': {KorokFlowerColorNum: 0}
+  HashId: !u 0xfca93cb7
+  Rotate: [0.5795459747314453, 0.5729675889015198, 0.5099451541900635]
+  SRTHash: -1396602169
+  Scale: 0.9499999284744263
+  Translate: [4763.1083984375, 106.58293151855469, -3145.44970703125]
+  UnitConfigName: Obj_Plant_KorokColor_A_01
+- HashId: !u 0xfce166d7
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x122b21b9}
+  OnlyOne: true
+  Rotate: 1.5415928363800049
+  SRTHash: -1983798709
+  Translate: [4160.1328125, 343.1119384765625, -3167.573486328125]
+  UnitConfigName: FldObj_AncientReactorCoverAkkare_A_01
+- HashId: !u 0xfcfb81ad
+  Rotate: 2.6179940700531006
+  SRTHash: 866405674
+  Translate: [4656.5, 237.40000915527344, -3703.134033203125]
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0xfcfcb960
+  OnlyOne: true
+  Rotate: -0.08689270913600922
+  SRTHash: 468099263
+  Translate: [4515.51416015625, 352.0929870605469, -3163.90087890625]
+  UnitConfigName: TwnObj_AncientCivilLabo_A_01_Far
+- HashId: !u 0xfe16e703
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x847bb243}
+  Rotate: 1.8031851053237915
+  SRTHash: -1382169012
+  Translate: [4772.03271484375, -4.5233001708984375, -4315.30712890625]
+  UnitConfigName: FldObj_WorldEnd_A_03
+- HashId: !u 0xfe7bc8ec
+  LinksToObj:
+  - {DefinitionName: PlacementLOD, DestUnitHashId: !u 0x33767ed0}
+  Rotate: [-0.17141559720039368, 0.36335453391075134, -0.13975895941257477]
+  SRTHash: 373085728
+  Translate: [4410.71484375, 352.84588623046875, -3210.7158203125]
+  UnitConfigName: FldObj_CliffAkkare_A_05
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Solitary_Maze_Activated,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xfed2e3a4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5a900627
+  SRTHash: -1252953816
+  Scale: 10.0
+  Translate: [4655.0, 214.16250610351562, -3677.4140625]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xffaf07c8
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x13949957
+  Rotate: [0.4785497188568115, -0.03664838522672653, 0.149965301156044]
+  SRTHash: 422536677
+  Translate: [4762.07861328125, 110.2382583618164, -3146.21630859375]
+  UnitConfigName: LinkTagNAnd
+Rails:
+- HashId: !u 0x133a9b9e
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 29.251611709594727
+    PrevDistance: 0.0
+    Translate: [4216.5, 336.0209655761719, -3165.6171875]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 29.251611709594727
+    Translate: [4213.0, 332.08447265625, -3194.390625]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4214.75, 334.052734375, -3180.00390625]
+  UnitConfigName: Guide
+- HashId: !u 0x1ad228f5
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 12.500001907348633
+    PrevDistance: 0.0
+    Translate: [4570.0, 258.0, -3617.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 20.0
+    PrevDistance: 12.500001907348633
+    Translate: [4557.5, 258.0, -3617.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 30.037477493286133
+    PrevDistance: 20.0
+    Translate: [4557.5, 258.0, -3597.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 30.0
+    PrevDistance: 30.037477493286133
+    Translate: [4587.5, 259.5, -3597.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 45.02843475341797
+    PrevDistance: 30.0
+    Translate: [4587.5, 259.5, -3627.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 42.5001220703125
+    PrevDistance: 45.02843475341797
+    Translate: [4542.5, 257.8999938964844, -3627.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 55.00009536743164
+    PrevDistance: 42.5001220703125
+    Translate: [4542.5, 258.0, -3585.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 57.51704025268555
+    PrevDistance: 55.00009536743164
+    Translate: [4597.5, 258.1000061035156, -3585.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 65.0
+    PrevDistance: 57.51704025268555
+    Translate: [4597.5, 259.5, -3642.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 70.0
+    PrevDistance: 65.0
+    Translate: [4532.5, 259.5, -3642.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 65.01507568359375
+    PrevDistance: 70.0
+    Translate: [4532.5, 259.5, -3572.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 65.01507568359375
+    Translate: [4597.5, 258.1000061035156, -3572.5]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4566.875, 258.6333312988281, -3607.083251953125]
+  UnitConfigName: Guide
+- HashId: !u 0x22d75d65
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 19.67235565185547
+    PrevDistance: 0.0
+    Translate: [4120.6328125, 326.83050537109375, -3114.38671875]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 19.67235565185547
+    Translate: [4136.7265625, 325.04669189453125, -3103.21484375]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4128.6796875, 325.9385986328125, -3108.80078125]
+  UnitConfigName: Guide
+- HashId: !u 0x3bfa3ec7
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 12.500000953674316
+    PrevDistance: 0.0
+    Translate: [4750.0, 258.0, -3707.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 20.000001907348633
+    PrevDistance: 12.500000953674316
+    Translate: [4737.5, 258.0, -3707.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 30.0374755859375
+    PrevDistance: 20.000001907348633
+    Translate: [4737.5, 258.0, -3687.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 30.000003814697266
+    PrevDistance: 30.0374755859375
+    Translate: [4767.5, 259.5, -3687.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 45.02843475341797
+    PrevDistance: 30.000003814697266
+    Translate: [4767.5, 259.5, -3717.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 42.5001220703125
+    PrevDistance: 45.02843475341797
+    Translate: [4722.5, 257.8999938964844, -3717.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 55.00009536743164
+    PrevDistance: 42.5001220703125
+    Translate: [4722.5, 258.0, -3675.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 57.51704025268555
+    PrevDistance: 55.00009536743164
+    Translate: [4777.5, 258.1000061035156, -3675.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 65.0
+    PrevDistance: 57.51704025268555
+    Translate: [4777.5, 259.5, -3732.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 70.0
+    PrevDistance: 65.0
+    Translate: [4712.5, 259.5, -3732.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 65.01507568359375
+    PrevDistance: 70.0
+    Translate: [4712.5, 259.5, -3662.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 65.01507568359375
+    Translate: [4777.5, 258.1000061035156, -3662.5]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4746.875, 258.6333312988281, -3697.083251953125]
+  UnitConfigName: Guide
+- HashId: !u 0x6ff7de33
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 37.525657653808594
+    PrevDistance: 0.0
+    Translate: [4189.5, 324.96575927734375, -3226.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 37.525657653808594
+    Translate: [4157.0, 317.5380859375, -3243.2265625]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4173.25, 321.2519226074219, -3234.61328125]
+  UnitConfigName: Guide
+- HashId: !u 0x765cb478
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 65.01506805419922
+    PrevDistance: 0.0
+    Translate: [4597.5, 258.1000061035156, -3662.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 70.0
+    PrevDistance: 65.01506805419922
+    Translate: [4532.5, 259.5, -3662.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 65.0
+    PrevDistance: 70.0
+    Translate: [4532.5, 259.5, -3732.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 57.51704025268555
+    PrevDistance: 65.0
+    Translate: [4597.5, 259.5, -3732.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 55.00009536743164
+    PrevDistance: 57.51704025268555
+    Translate: [4597.5, 258.1000061035156, -3675.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 42.5001220703125
+    PrevDistance: 55.00009536743164
+    Translate: [4542.5, 258.0, -3675.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 45.02843475341797
+    PrevDistance: 42.5001220703125
+    Translate: [4542.5, 257.8999938964844, -3717.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 30.0
+    PrevDistance: 45.02843475341797
+    Translate: [4587.5, 259.5, -3717.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 30.037479400634766
+    PrevDistance: 30.0
+    Translate: [4587.5, 259.5, -3687.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 20.0
+    PrevDistance: 30.037479400634766
+    Translate: [4557.5, 258.0, -3687.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 12.500000953674316
+    PrevDistance: 20.0
+    Translate: [4557.5, 258.0, -3707.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 12.500000953674316
+    Translate: [4570.0, 258.0, -3707.5]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4566.875, 258.6333312988281, -3697.083251953125]
+  UnitConfigName: Guide
+- '!Parameters': {DisableRenderMap: false, IsEnableHorseTrace: true, IsWalkable: false}
+  HashId: !u 0x99e11409
+  IsClosed: false
+  RailPoints:
+  - ControlPoints:
+    - [0.0, 0.0, 0.0]
+    - [-3.40478515625, -1.70745849609375, 5.140380859375]
+    NextDistance: 18.36501693725586
+    PrevDistance: 0.0
+    Scale: [8.0, 1.0, 1.0]
+    Translate: [4484.68603515625, 338.87127685546875, -3111.27294921875]
+    UnitConfigName: RoutePoint
+  - ControlPoints:
+    - [2.47412109375, 2.162353515625, -5.489501953125]
+    - [-1.22412109375, -1.069580078125, 2.71533203125]
+    NextDistance: 8.96285343170166
+    PrevDistance: 18.36501693725586
+    Scale: [8.0, 1.0, 1.0]
+    Translate: [4474.357421875, 333.18096923828125, -3096.129638671875]
+    UnitConfigName: RoutePoint
+  - ControlPoints:
+    - [0.93798828125, 1.175048828125, -2.784423828125]
+    - [-1.53564453125, -1.92352294921875, 4.558349609375]
+    NextDistance: 14.252544403076172
+    PrevDistance: 8.96285343170166
+    Scale: [8.0, 1.0, 1.0]
+    Translate: [4471.759765625, 330.0246887207031, -3087.56103515625]
+    UnitConfigName: RoutePoint
+  - ControlPoints:
+    - [2.41796875, 2.046630859375, -4.098876953125]
+    - [-3.95654296875, -3.348541259765625, 6.7060546875]
+    NextDistance: 24.005535125732422
+    PrevDistance: 14.252544403076172
+    Scale: [8.0, 1.0, 1.0]
+    Translate: [4465.888671875, 323.7694091796875, -3074.602294921875]
+    UnitConfigName: RoutePoint
+  - ControlPoints:
+    - [4.244140625, 1.846832275390625, -7.100341796875]
+    - [-9.80078125, -4.264678955078125, 16.395751953125]
+    NextDistance: 58.31924819946289
+    PrevDistance: 24.005535125732422
+    Scale: [8.0, 1.0, 1.0]
+    Translate: [4450.9970703125, 315.26470947265625, -3055.828369140625]
+    UnitConfigName: RoutePoint
+  - ControlPoints:
+    - [2.86376953125, 2.736846923828125, -19.1669921875]
+    - [2.46142578125, -1.61590576171875, 13.268310546875]
+    Junctions:
+    - {HashId: !u 0x54418c48, Index: 14}
+    NextDistance: 0.0
+    PrevDistance: 58.31924819946289
+    Scale: [8.0, 1.0, 1.0]
+    Translate: [4436.3427734375, 305.6283874511719, -2999.79296875]
+    UnitConfigName: RoutePoint
+  RailType: Bezier
+  Translate: [4458.453125, 320.8494873046875, -3060.356201171875]
+  UnitConfigName: Route
+- HashId: !u 0xa95f29d5
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 65.01506805419922
+    PrevDistance: 0.0
+    Translate: [4777.5, 258.1000061035156, -3572.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 70.0
+    PrevDistance: 65.01506805419922
+    Translate: [4712.5, 259.5, -3572.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 65.0
+    PrevDistance: 70.0
+    Translate: [4712.5, 259.5, -3642.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 57.51704025268555
+    PrevDistance: 65.0
+    Translate: [4777.5, 259.5, -3642.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 55.00009536743164
+    PrevDistance: 57.51704025268555
+    Translate: [4777.5, 258.1000061035156, -3585.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 42.5001220703125
+    PrevDistance: 55.00009536743164
+    Translate: [4722.5, 258.0, -3585.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 45.0284423828125
+    PrevDistance: 42.5001220703125
+    Translate: [4722.5, 257.8999938964844, -3627.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 30.000003814697266
+    PrevDistance: 45.0284423828125
+    Translate: [4767.5, 259.5, -3627.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 30.037477493286133
+    PrevDistance: 30.000003814697266
+    Translate: [4767.5, 259.5, -3597.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 20.000001907348633
+    PrevDistance: 30.037477493286133
+    Translate: [4737.5, 258.0, -3597.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 12.500001907348633
+    PrevDistance: 20.000001907348633
+    Translate: [4737.5, 258.0, -3617.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 12.500001907348633
+    Translate: [4750.0, 258.0, -3617.5]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4746.875, 258.6333312988281, -3607.083251953125]
+  UnitConfigName: Guide
+- HashId: !u 0xe3306cf7
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 28.487871170043945
+    PrevDistance: 0.0
+    Translate: [4204.171875, 332.9013671875, -3116.07421875]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 28.487871170043945
+    Translate: [4180.984375, 327.84271240234375, -3100.31640625]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4192.578125, 330.3720397949219, -3108.1953125]
+  UnitConfigName: Guide
+- HashId: !u 0xeac1f760
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 35.00128173828125
+    PrevDistance: 0.0
+    Translate: [4655.0, 195.40000915527344, -3670.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 35.0
+    PrevDistance: 35.00128173828125
+    Translate: [4690.0, 195.6999969482422, -3670.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 70.0
+    PrevDistance: 35.0
+    Translate: [4690.0, 195.6999969482422, -3635.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 35.003570556640625
+    PrevDistance: 70.0
+    Translate: [4620.0, 195.6999969482422, -3635.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 70.0
+    PrevDistance: 35.003570556640625
+    Translate: [4620.0, 195.1999969482422, -3600.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 35.003570556640625
+    PrevDistance: 70.0
+    Translate: [4690.0, 195.1999969482422, -3600.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 70.00179290771484
+    PrevDistance: 35.003570556640625
+    Translate: [4690.0, 195.6999969482422, -3565.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 35.0
+    PrevDistance: 70.00179290771484
+    Translate: [4620.0, 195.1999969482422, -3565.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 70.0
+    PrevDistance: 35.0
+    Translate: [4620.0, 195.1999969482422, -3600.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 35.0
+    PrevDistance: 70.0
+    Translate: [4690.0, 195.1999969482422, -3600.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 70.00179290771484
+    PrevDistance: 35.0
+    Translate: [4690.0, 195.1999969482422, -3635.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 35.00357437133789
+    PrevDistance: 70.00179290771484
+    Translate: [4620.0, 195.6999969482422, -3635.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.005771489813923836
+    PrevDistance: 35.00357437133789
+    Translate: [4620.0, 195.1999969482422, -3670.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 34.33652114868164
+    PrevDistance: 0.005771489813923836
+    Translate: [4620.0, 195.1999969482422, -3670.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 34.33652114868164
+    Translate: [4654.3359375, 195.40000915527344, -3670.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4652.62255859375, 195.39332580566406, -3628.0]
+  UnitConfigName: Guide
+- HashId: !u 0xfb6f6295
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 24.594125747680664
+    PrevDistance: 0.0
+    Translate: [4161.15625, 289.3236083984375, -3013.93359375]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitASKeyName: GroundSearch,
+      WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 24.594125747680664
+    Translate: [4148.1796875, 284.5684509277344, -2993.58984375]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4154.66796875, 286.946044921875, -3003.76171875]
+  UnitConfigName: Guide

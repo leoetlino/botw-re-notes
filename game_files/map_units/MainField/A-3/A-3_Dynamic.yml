@@ -1,0 +1,1739 @@
+Objs:
+- HashId: !u 0x00a3951b
+  Rotate: [0.013402728363871574, -0.5132004022598267, -0.2055780440568924]
+  SRTHash: 1154343274
+  Scale: 0.9580079913139343
+  Translate: [-4059.1953125, 274.66656494140625, -1751.34375]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x00f580c9
+  Rotate: [2.2796318531036377, 1.045337438583374, -1.1560734510421753]
+  SRTHash: 333729379
+  Translate: [-4190.298828125, 208.3900909423828, -1729.93115234375]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x014d8c15
+  Rotate: [-0.021320661529898643, -1.2681461572647095, 0.12850525975227356]
+  SRTHash: -231024841
+  Scale: 0.9882810115814209
+  Translate: [-4276.86328125, 235.89720153808594, -1851.3984375]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x018c011d
+  Rotate: [3.1350960731506348, -0.4611169993877411, -2.978461742401123]
+  SRTHash: -1606200492
+  Translate: [-4007.29345703125, 204.94985961914062, -1161.5614013671875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x020275d4
+  Rotate: [0.1666640341281891, -0.6626875400543213, -0.2196018248796463]
+  SRTHash: -1606784034
+  Scale: 0.9091799855232239
+  Translate: [-4013.953125, 270.9638671875, -1644.30078125]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x02d6df2d
+  Rotate: 0.9800002574920654
+  SRTHash: 656425761
+  Translate: [-4272.81494140625, 228.27288818359375, -1829.40771484375]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0x03881ffd
+  Rotate: [0.204392671585083, 0.427891343832016, 0.35876813530921936]
+  SRTHash: -7693472
+  Translate: [-4000.900390625, 206.74774169921875, -1167.16796875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x03f0cd96
+  Rotate: [-0.32039907574653625, 0.6622301340103149, -0.18801362812519073]
+  SRTHash: -2027097900
+  Scale: 1.0322270393371582
+  Translate: [-4023.2734375, 271.3132629394531, -1623.88671875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x0549ef54
+  Rotate: [2.7115015983581543, 0.6571189761161804, 2.846323013305664]
+  SRTHash: 1078577719
+  Translate: [-4009.87255859375, 207.2969970703125, -1173.40771484375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x06da2606
+  Rotate: -0.2314453125
+  SRTHash: -1664383960
+  Scale: 1.02783203125
+  Translate: [-4019.453125, 199.64886474609375, -1332.40625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x071f434e
+  Rotate: [2.884235382080078, -0.9570595026016235, -3.0805554389953613]
+  SRTHash: 1474125453
+  Translate: [-4014.7939453125, 205.3792266845703, -1162.998779296875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x08708060
+  Rotate: [-0.1402531862258911, 1.1975557804107666, -0.3985781669616699]
+  SRTHash: -1960607678
+  Translate: [-4018.265869140625, 205.8428955078125, -1158.7791748046875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x08787ea8
+  Rotate: [0.31999996304512024, 0.0, 0.0]
+  SRTHash: 416298073
+  Translate: [-4425.96875, 222.48178100585938, -1937.651611328125]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x0885c84e
+  Rotate: 0.0476074181497097
+  SRTHash: -1712618709
+  Scale: 0.8613280057907104
+  Translate: [-4562.00390625, 1.3194797039031982, -1894.4609375]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x09abe4fd
+  Rotate: [3.141479253768921, 0.5858154296875, 3.141479253768921]
+  SRTHash: 0
+  Translate: [-4027.98046875, 267.90234375, -1816.68359375]
+  UnitConfigName: EnvSeEmitPointBirdSubarctic
+- HashId: !u 0x0a2de2a1
+  Rotate: [0.1448601335287094, 0.10268265753984451, -0.0036809153389185667]
+  SRTHash: 251169419
+  Scale: 0.9487299919128418
+  Translate: [-4055.94921875, 274.63641357421875, -1753.1796875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x0a46205d
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4006.70263671875, 359.1142578125, -1980.5889892578125]
+  UnitConfigName: Area
+- HashId: !u 0x0f1a456f
+  Rotate: [-0.6221111416816711, -0.7732422351837158, -2.220942735671997]
+  SRTHash: -1582749771
+  Translate: [-4114.63623046875, 228.08433532714844, -1691.0482177734375]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0f2c5695
+  Rotate: 0.30000004172325134
+  SRTHash: 915318816
+  Translate: [-3999.326904296875, 280.0364685058594, -1655.0155029296875]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x1092c404
+  Rotate: [-0.007886267267167568, -0.994451642036438, -0.25685685873031616]
+  SRTHash: -129632271
+  Scale: 1.0756839513778687
+  Translate: [-4370.52734375, 215.96336364746094, -1917.671875]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x11172318
+  Rotate: [0.2527792453765869, 0.6226088404655457, -0.012232761830091476]
+  SRTHash: -775844171
+  Translate: [-4432.62451171875, 225.0250244140625, -1932.403564453125]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x11e5b5ca
+  Rotate: [2.6555206775665283, 1.0768475532531738, -1.2065989971160889]
+  SRTHash: 1649086410
+  Translate: [-4217.40771484375, 221.08270263671875, -1741.21484375]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x12b95415
+  Rotate: [0.045182351022958755, 0.8305922150611877, 0.24614712595939636]
+  SRTHash: 1958407838
+  Translate: [-3999.0771484375, 206.62774658203125, -1160.8330078125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x12fcbc3b
+  Rotate: [-0.21369290351867676, -0.7695717215538025, 0.13586002588272095]
+  SRTHash: 2061022587
+  Translate: [-4011.1884765625, 205.30799865722656, -1154.0118408203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x13a85dd4
+  Rotate: -1.278076171875
+  SRTHash: -147505750
+  Scale: 0.9814450144767761
+  Translate: [-4117.26171875, 0.9720617532730103, -1023.234375]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x14935095
+  Rotate: [0.0422639474272728, -0.3544847369194031, -0.2767566442489624]
+  SRTHash: -1097162109
+  Translate: [-4018.820068359375, 205.92361450195312, -1160.3948974609375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x157a59e1
+  Rotate: [-2.7602686882019043, 1.2742491960525513, 2.6051669120788574]
+  SRTHash: -818395892
+  Translate: [-4433.69189453125, 226.63990783691406, -1930.826416015625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x16b8d706
+  Rotate: [0.41605111956596375, -0.3262569308280945, -0.09744750708341599]
+  SRTHash: 1867030759
+  Translate: [-4506.9775390625, 248.98658752441406, -1952.858154296875]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x193247c4
+  Rotate: [-0.5112926363945007, -0.797081470489502, -2.4145216941833496]
+  SRTHash: -1471287831
+  Translate: [-4148.748046875, 213.38845825195312, -1719.686767578125]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x19c3b1ce
+  Rotate: 0.2199999839067459
+  SRTHash: 1979361172
+  Translate: [-4409.68994140625, 218.34475708007812, -1964.0091552734375]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x1b7cdd83
+  Rotate: 4.749571800231934
+  SRTHash: 800267260
+  Translate: [-4035.564697265625, 273.7212219238281, -1742.6690673828125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsCreateOnFace: true,
+    IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0}
+  HashId: !u 0x1ce47308
+  Rotate: 0.3199997842311859
+  SRTHash: -1361032261
+  Translate: [-4387.02978515625, 220.0206756591797, -1923.836669921875]
+  UnitConfigName: Enemy_Keese
+- HashId: !u 0x1db1ff95
+  Rotate: -0.5799996852874756
+  SRTHash: 1185651898
+  Translate: [-4146.21484375, 221.92770385742188, -1663.5596923828125]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- HashId: !u 0x1e2e426a
+  Rotate: [-0.3292813003063202, -0.5734250545501709, 0.6546211242675781]
+  SRTHash: 1755459448
+  Translate: [-4329.10498046875, 221.63937377929688, -1971.839599609375]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1ec52c4d
+  Rotate: [0.599419116973877, -1.040636420249939, -0.7317913174629211]
+  SRTHash: 998286812
+  Translate: [-4030.723388671875, 291.70526123046875, -1861.017333984375]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x1f728579
+  Rotate: [-0.6559737920761108, 1.206418514251709, -1.0071473121643066]
+  SRTHash: 133132092
+  Translate: [-4005.17822265625, 205.4662628173828, -1156.590087890625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2139c4eb
+  Rotate: 0.35999998450279236
+  SRTHash: 2023767794
+  Translate: [-4123.90234375, 219.56101989746094, -1617.191162109375]
+  UnitConfigName: Obj_RockSetYellow_A_L_04
+- HashId: !u 0x214ed2c0
+  Rotate: [-0.16973665356636047, -0.7837791442871094, -0.06257802248001099]
+  SRTHash: 1811037685
+  Translate: [-4014.705810546875, 205.49295043945312, -1155.0423583984375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2216dde7
+  Rotate: [0.5716356039047241, 0.869799792766571, 0.27136003971099854]
+  SRTHash: -1679262616
+  Translate: [-4010.13671875, 279.4590148925781, -1657.094970703125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x228bfe38
+  Rotate: [3.0991971492767334, 0.7113679647445679, 3.0592668056488037]
+  SRTHash: -1146290612
+  Translate: [-4294.00244140625, 258.8724060058594, -1961.5194091796875]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0x22ce878a
+  Rotate: [-0.2259770631790161, 0.786594808101654, 0.08830850571393967]
+  SRTHash: 705486018
+  Translate: [-4259.79833984375, 264.4734802246094, -1868.5838623046875]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x24211bad
+  Rotate: 1.380000352859497
+  SRTHash: 703026316
+  Translate: [-4089.74755859375, 252.39454650878906, -1785.0887451171875]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x26859c36
+  Rotate: 0.96501624584198
+  SRTHash: -1819273140
+  Translate: [-4029.963134765625, 272.88665771484375, -1751.324462890625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2719a11c
+  Rotate: [0.4671413004398346, 1.1896530389785767, 0.470988005399704]
+  SRTHash: 1046131350
+  Scale: 0.8876950144767761
+  Translate: [-4178.0390625, 217.68701171875, -1717.80859375]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x273a565e
+  SRTHash: -939736672
+  Translate: [-4496.17822265625, 249.09523010253906, -1951.5921630859375]
+  UnitConfigName: Obj_RockSetYellow_A_03
+- HashId: !u 0x275958d8
+  Rotate: [0.04598366469144821, 0.0260323379188776, 0.34765729308128357]
+  SRTHash: 940283605
+  Translate: [-4090.0478515625, 259.3039245605469, -1726.3499755859375]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x293b3eee
+  Rotate: [-1.428613305091858, 1.4720804691314697, -1.8944714069366455]
+  SRTHash: 401983712
+  Translate: [-4411.0205078125, 219.18353271484375, -1962.319580078125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x29891722
+  Rotate: -2.2599990367889404
+  SRTHash: -206964517
+  Translate: [-4013.995361328125, 271.9640808105469, -1647.5838623046875]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x2a1a9df2
+  Rotate: [-1.5806931257247925, -1.4521814584732056, 1.0546883344650269]
+  SRTHash: -967272670
+  Translate: [-4004.394287109375, 205.61618041992188, -1158.0595703125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2c2a5982
+  Rotate: [3.0624585151672363, -0.335636705160141, -2.98241925239563]
+  SRTHash: 1771821231
+  Translate: [-4007.761474609375, 204.99351501464844, -1163.0245361328125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2dc00bfb
+  Rotate: [2.486769199371338, -1.0934076309204102, -2.7486908435821533]
+  SRTHash: -1723809420
+  Translate: [-4018.705810546875, 207.7908935546875, -1171.415283203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2e9365a6
+  Rotate: [3.0782346725463867, -0.4646080434322357, 3.035332679748535]
+  SRTHash: -1617415655
+  Translate: [-4014.907470703125, 205.20257568359375, -1161.456787109375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2ec871c2
+  Rotate: [-2.957695484161377, -1.2070817947387695, 2.590769052505493]
+  SRTHash: -977116249
+  Translate: [-4023.39697265625, 207.72262573242188, -1157.46630859375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2edd6d6a
+  Rotate: [3.141479253768921, -1.0311279296875, 3.141479253768921]
+  SRTHash: 456790421
+  Translate: [-4027.734375, 273.026123046875, -1756.05078125]
+  UnitConfigName: Item_Mushroom_F
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsDrop: false,
+    IsNearCreate: false, IsWatchKeeping: true, LevelSensorMode: 0, NearCreateAppearID: 0,
+    NearCreateAppearType: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x2f229618
+  Rotate: -3.140000343322754
+  SRTHash: 1161455819
+  Translate: [-4134.9951171875, 326.57122802734375, -2014.837646484375]
+  UnitConfigName: Enemy_Chuchu_Ice_Middle
+- HashId: !u 0x2f649b1f
+  Rotate: -1.2894288301467896
+  SRTHash: 264395136
+  Scale: 1.0722659826278687
+  Translate: [-4478.00390625, 1.0009918212890625, -1839.640625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x2fbe651b
+  Rotate: [0.9884235858917236, -0.6777280569076538, -1.6505277156829834]
+  SRTHash: -1417517783
+  Translate: [-4458.51904296875, 230.22161865234375, -1944.40625]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2fe72dd7
+  Rotate: [0.019999997690320015, 0.0, 0.0]
+  SRTHash: 354390853
+  Translate: [-4206.88427734375, 282.9895324707031, -1858.652099609375]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x30759008
+  Rotate: [0.0, 0.0, 0.059999994933605194]
+  SRTHash: -31582990
+  Translate: [-4522.9189453125, 247.78955078125, -1954.7476806640625]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- HashId: !u 0x31cbee72
+  Rotate: [0.7858574390411377, 1.0674227476119995, 0.825037956237793]
+  SRTHash: 475855997
+  Translate: [-4312.95654296875, 252.87570190429688, -1915.7100830078125]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- HashId: !u 0x3308e0b7
+  Rotate: [-0.23345345258712769, 1.0221834182739258, -0.2935566306114197]
+  SRTHash: 689353996
+  Translate: [-4013.16162109375, 205.3566436767578, -1154.447265625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x354a01fd
+  Rotate: 6.029617786407471
+  SRTHash: -1114145841
+  Translate: [-4037.8671875, 274.02593994140625, -1753.9150390625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {EquipItem1: Weapon_Spear_012, FortressEatPer: -1, IsNearCreate: false,
+    IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0x364feefd
+  Rotate: 0.18000037968158722
+  SRTHash: 1343529050
+  Translate: [-4197.84326171875, 315.5106506347656, -1921.7802734375]
+  UnitConfigName: Enemy_Bokoblin_Senior
+- HashId: !u 0x3765d956
+  Rotate: [0.19999998807907104, 0.0, 0.0]
+  SRTHash: -1519735395
+  Translate: [-4375.794921875, 217.01141357421875, -1848.09033203125]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x38a75189
+  Rotate: [0.1583051085472107, -0.744645893573761, 0.07947207242250443]
+  SRTHash: 1389990859
+  Translate: [-3969.449951171875, 273.6104431152344, -1468.519287109375]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x391ae030
+  Rotate: 4.310540199279785
+  SRTHash: 947181893
+  Translate: [-4030.91943359375, 273.163330078125, -1753.64697265625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x3a612808
+  Rotate: [0.27739953994750977, -0.03857309743762016, 0.13461469113826752]
+  SRTHash: -1700586155
+  Translate: [-4330.9404296875, 221.53610229492188, -1880.7596435546875]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3a8ae3f8
+  Rotate: 0.11999999731779099
+  SRTHash: -529906266
+  Translate: [-4085.296630859375, 251.46836853027344, -1783.607177734375]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x3cb23715
+  Rotate: [0.31067726016044617, 0.7803176641464233, 0.35981228947639465]
+  SRTHash: 1027652033
+  Translate: [-4006.8662109375, 205.90650939941406, -1167.75732421875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x3d9bf209
+  Rotate: [0.17186668515205383, -0.5483080744743347, -0.0004314385005272925]
+  SRTHash: 1018213731
+  Scale: 1.055176019668579
+  Translate: [-3995.54296875, 228.38868713378906, -1590.78515625]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropActor: Item_Ore_A, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3f4d502e
+  Rotate: [-0.5526223182678223, 0.7747648358345032, -0.599626362323761]
+  SRTHash: 1052836491
+  Translate: [-4225.95654296875, 209.66650390625, -1734.904541015625]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x408d12cc
+  Rotate: 1.2916259765625
+  SRTHash: 283770078
+  Scale: 0.9252930283546448
+  Translate: [-4565.953125, 1.3238893747329712, -1898.453125]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x40f91155
+  Rotate: [-1.6229652166366577, -1.0464110374450684, 2.7165350914001465]
+  SRTHash: -1966851453
+  Translate: [-4329.71142578125, 186.10110473632812, -2007.52099609375]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0x412f3df1
+  Rotate: [0.37538883090019226, 0.7212887406349182, 0.1320888102054596]
+  SRTHash: -864264298
+  Translate: [-4011.973876953125, 206.12750244140625, -1169.3212890625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x41406764
+  Rotate: [0.2012428641319275, -0.03665640950202942, 0.35919806361198425]
+  SRTHash: -463051112
+  Translate: [-4091.37744140625, 257.9734802246094, -1722.5272216796875]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x4184838d
+  Rotate: [1.4487882852554321, -1.2808809280395508, -1.4814786911010742]
+  SRTHash: 40979676
+  Translate: [-4010.380859375, 206.01614379882812, -1169.2080078125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x42dfa0a8
+  Rotate: [0.17467311024665833, -0.7398613691329956, 0.052654147148132324]
+  SRTHash: 890039522
+  Scale: 0.9555659890174866
+  Translate: [-3929.55078125, 245.13442993164062, -1642.6640625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x43b05ad1
+  Rotate: 1.3564454317092896
+  SRTHash: 192235482
+  Scale: 0.9609379768371582
+  Translate: [-4119.0703125, 1.1128149032592773, -1017.3046875]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x44ece7d5
+  Rotate: [0.696044921875, -0.57080078125, 0.3853759467601776]
+  SRTHash: 0
+  Translate: [-4244.14453125, 239.03125, -1786.7421875]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x4537220a
+  Rotate: 4.252190113067627
+  SRTHash: -1364653793
+  Translate: [-4037.49755859375, 273.73126220703125, -1744.2374267578125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x49857aa3
+  Rotate: [-0.2943590581417084, 0.027606843039393425, 0.9732763171195984]
+  SRTHash: -758396709
+  Translate: [-4088.399658203125, 260.6143493652344, -1724.688720703125]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0x4a2cd35c
+  Rotate: [-0.14923804998397827, -0.2780531942844391, -0.10475434362888336]
+  SRTHash: -117000200
+  Scale: 0.8886719942092896
+  Translate: [-4012.2578125, 271.0079040527344, -1622.94140625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x4b27d810
+  Rotate: [-0.3076300024986267, -1.537493109703064, 0.4945947229862213]
+  SRTHash: 1386242660
+  Translate: [-4003.284912109375, 205.66004943847656, -1160.9591064453125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x4b87de0b
+  Rotate: [0.18231044709682465, -0.45891493558883667, 0.0214852262288332]
+  SRTHash: 1511911338
+  Scale: 1.0332030057907104
+  Translate: [-3996.43359375, 217.29522705078125, -1420.3671875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x4c049e40
+  Rotate: [0.55918949842453, 0.957672655582428, 0.5195193886756897]
+  SRTHash: 1515238078
+  Scale: 0.9042969942092896
+  Translate: [-3990.68359375, 231.17259216308594, -1598.9765625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x4c5ea138
+  Rotate: [-0.29448363184928894, 0.5819126963615417, -0.025362327694892883]
+  SRTHash: -1731890973
+  Translate: [-4006.776611328125, 206.345947265625, -1150.6156005859375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x4c73fa72
+  Rotate: [-0.25506266951560974, 1.0365573167800903, -0.49978458881378174]
+  SRTHash: 698442803
+  Scale: 0.9345700144767761
+  Translate: [-4315.1875, 219.5408477783203, -1753.92578125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x4d1a7725
+  Rotate: 0.8435986042022705
+  SRTHash: -384275989
+  Translate: [-4374.970703125, 216.91531372070312, -1920.82666015625]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- HashId: !u 0x4d903f95
+  Rotate: [0.23173801600933075, -0.9292376041412354, -0.07504032552242279]
+  SRTHash: -854975159
+  Scale: 0.9604489803314209
+  Translate: [-4119.953125, 241.81491088867188, -1754.359375]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {EquipItem1: Weapon_Lsword_012, FortressEatPer: -1, IsNearCreate: false,
+    IsWatchKeeping: false, LevelSensorMode: 0, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0x4f1b1b93
+  Rotate: 1.3200007677078247
+  SRTHash: -1395613637
+  Translate: [-4200.77978515625, 317.66357421875, -1938.19140625]
+  UnitConfigName: Enemy_Moriblin_Senior
+- HashId: !u 0x5048f8bf
+  Rotate: [-2.9868109226226807, -0.5778756141662598, 2.741783857345581]
+  SRTHash: 1152234259
+  Translate: [-4021.00634765625, 207.21966552734375, -1153.93994140625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x5090e69f
+  Rotate: [0.06801752001047134, 1.41107177734375, 0.12857359647750854]
+  SRTHash: -1808952118
+  Scale: 1.004883050918579
+  Translate: [-4554.93359375, 1.4517285823822021, -1893.94140625]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x5148de42
+  SRTHash: -1964547760
+  Translate: [-4168.091796875, 222.81784057617188, -1666.55712890625]
+  UnitConfigName: Obj_RockSetYellow_A_L_04
+- HashId: !u 0x5297446e
+  Rotate: [2.853940010070801, 0.04563159868121147, 3.00411057472229]
+  SRTHash: -27247867
+  Translate: [-4014.263916015625, 207.51119995117188, -1173.063720703125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x54b1eed1
+  Rotate: 1.587024450302124
+  SRTHash: 1115707704
+  Translate: [-4039.185791015625, 273.9674377441406, -1745.8822021484375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x5546eefb
+  Rotate: 1.1132919788360596
+  SRTHash: 2027619499
+  Translate: [-4039.818115234375, 274.00408935546875, -1749.638671875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x558e2483
+  Rotate: [0.253865122795105, -1.064976692199707, -0.2143719345331192]
+  SRTHash: -2014719531
+  Scale: 1.0488280057907104
+  Translate: [-3962.04296875, 271.34967041015625, -1726.00390625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x56cb58e6
+  Rotate: [3.141479253768921, -1.2475584745407104, 3.141479253768921]
+  SRTHash: -1437310951
+  Translate: [-4226.828125, 279.6123046875, -1850.5]
+  UnitConfigName: Item_Mushroom_N
+- HashId: !u 0x572ad787
+  Rotate: 5.045191287994385
+  SRTHash: -713275248
+  Translate: [-4033.53271484375, 273.26202392578125, -1743.6256103515625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x5737075a
+  Rotate: 0.21999996900558472
+  SRTHash: 826787113
+  Translate: [-4384.15087890625, 219.4810028076172, -1883.88232421875]
+  UnitConfigName: Obj_RockSetYellow_A_L_04
+- HashId: !u 0x57743a8a
+  Rotate: [-1.7974046468734741, -1.0147147178649902, 1.8206565380096436]
+  SRTHash: -682973769
+  Translate: [-4409.9423828125, 181.9195098876953, -2031.0224609375]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0x598f12a3
+  Rotate: [0.24632114171981812, 0.6562832593917847, 0.32778000831604004]
+  SRTHash: 181102659
+  Translate: [-4002.0546875, 206.906982421875, -1169.06591796875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x59d273b2
+  Rotate: [2.730649948120117, 0.9130982756614685, 0.35340389609336853]
+  SRTHash: 649117242
+  Scale: 0.8015471696853638
+  Translate: [-4115.26318359375, 231.20950317382812, -1681.125]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x5b1f24b4
+  Rotate: [2.8881983757019043, 0.7932320237159729, 3.083540439605713]
+  SRTHash: -1260135492
+  Translate: [-4526.86279296875, 248.39869689941406, -1963.251220703125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5cb2b923
+  Rotate: [3.141479253768921, 0.9805907607078552, 3.141479253768921]
+  SRTHash: 960200210
+  Translate: [-4037.92578125, 259.8433837890625, -1810.234375]
+  UnitConfigName: Item_Mushroom_F
+- '!Parameters': {DropActor: Weapon_Sword_031, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5ddcf609
+  Rotate: [-0.527504563331604, 0.9250767230987549, -0.08835401386022568]
+  SRTHash: -627353360
+  Translate: [-4174.0791015625, 212.0019989013672, -1753.0382080078125]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x5ee357df
+  Rotate: [0.5265551209449768, -0.9727749228477478, -0.6228362321853638]
+  SRTHash: -302298203
+  Translate: [-4016.394287109375, 207.65142822265625, -1172.431884765625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x614a448a
+  Rotate: [-0.2615952491760254, 0.33217617869377136, -0.04953243210911751]
+  SRTHash: -552389482
+  Translate: [-4011.088134765625, 206.13592529296875, -1149.544189453125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x62185f73
+  Rotate: [0.3943595588207245, 0.04353597015142441, -0.2171020209789276]
+  SRTHash: 1415084568
+  Translate: [-4432.4912109375, 225.20156860351562, -1932.5126953125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x6309de0f
+  Rotate: [0.17330582439899445, 1.3120081424713135, 0.3610515892505646]
+  SRTHash: -2112493071
+  Translate: [-4003.2109375, 205.70782470703125, -1162.5830078125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x637932e8
+  Rotate: [1.3234549760818481, -1.3871065378189087, -1.4832767248153687]
+  SRTHash: -1261098776
+  Translate: [-4016.689208984375, 206.34393310546875, -1167.0008544921875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x6554dd1c
+  Rotate: [-2.445854425430298, 0.7966538667678833, 0.16439564526081085]
+  SRTHash: 2080025622
+  Scale: 0.8015471696853638
+  Translate: [-4165.7080078125, 216.206787109375, -1727.70263671875]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x658f968c
+  Rotate: [2.05552077293396, 1.0768475532531738, -1.2065989971160889]
+  SRTHash: 1505613888
+  Scale: 0.8015471696853638
+  Translate: [-4174.7705078125, 216.597412109375, -1727.70263671875]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x66fda679
+  Rotate: [0.21384036540985107, -1.228911280632019, -0.13905265927314758]
+  SRTHash: -2059359533
+  Scale: 0.9741209745407104
+  Translate: [-4000.8046875, 216.2865447998047, -1415.3515625]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x677197b5
+  Rotate: [1.3553797006607056, -1.3272444009780884, -1.5349228382110596]
+  SRTHash: -1416186731
+  Translate: [-4013.88623046875, 206.29815673828125, -1168.937744140625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x6813434e
+  Rotate: [-3.0480575561523438, -0.9631041288375854, -3.085191488265991]
+  SRTHash: 578718186
+  Translate: [-4008.242431640625, 204.87850952148438, -1158.957275390625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x682958ef
+  Rotate: [-0.11603741347789764, 0.31027379631996155, 0.30523112416267395]
+  SRTHash: 486280385
+  Scale: 1.0766600370407104
+  Translate: [-3993.4296875, 228.970947265625, -1586.46484375]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x6a003556
+  SRTHash: 540301043
+  Translate: [-4296.85986328125, 220.89276123046875, -1766.5279541015625]
+  UnitConfigName: Obj_TreeBroadleafLow_A_02
+- HashId: !u 0x6b5a1b71
+  Rotate: [-0.2262403964996338, 1.0185916423797607, -0.36162370443344116]
+  SRTHash: 182481656
+  Translate: [-4016.04345703125, 205.61788940429688, -1156.0350341796875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x6b7aa5a0
+  Rotate: [-3.0709941387176514, 0.713611364364624, -2.962073802947998]
+  SRTHash: -1022377108
+  Translate: [-4007.330322265625, 204.93714904785156, -1160.13818359375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6babb302
+  Rotate: [1.37841796875, -0.3123778998851776, 0.1923827975988388]
+  SRTHash: 0
+  Translate: [-4176.10546875, 269.7734375, -1772.60546875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6bf49710
+  Rotate: 2.1631858348846436
+  SRTHash: 1611548024
+  Translate: [-4089.60546875, 258.9497375488281, -1724.4500732421875]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x6d27645f
+  Rotate: [-0.05982635170221329, -1.4665918350219727, 0.1817454695701599]
+  SRTHash: 2008182904
+  Scale: 1.0581049919128418
+  Translate: [-4548.07421875, 1.9991862773895264, -1884.48046875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x6d6df14f
+  SRTHash: -727304637
+  Translate: [-4257.91259765625, 222.2458953857422, -1703.87890625]
+  UnitConfigName: Obj_TreeBroadleafLow_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x71f9178b
+  Rotate: [1.089741587638855, -1.1602197885513306, -0.8785288333892822]
+  SRTHash: -1275193687
+  Translate: [-4211.85009765625, 280.52508544921875, -1866.8270263671875]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0x7351b0a7
+  Rotate: [2.5146913528442383, 0.9372372627258301, -1.4118468761444092]
+  SRTHash: 1707287493
+  Translate: [-4224.67333984375, 228.4137725830078, -1737.908203125]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x75c4171c
+  Rotate: [-2.885622978210449, -0.9709195494651794, 2.9552879333496094]
+  SRTHash: 356056771
+  Translate: [-4038.455322265625, 292.41217041015625, -1857.790283203125]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropActor: Obj_ElectricArrow_A_03, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x75e5f62c
+  Rotate: [1.878685474395752, 1.3580282926559448, -1.1654011011123657]
+  SRTHash: 685098872
+  Translate: [-4159.56201171875, 211.3299102783203, -1695.1807861328125]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x773ebca7
+  Rotate: [-0.2257809042930603, 0.311824232339859, -0.3154274821281433]
+  SRTHash: 306774477
+  Translate: [-4017.745361328125, 206.7684783935547, -1151.06396484375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x783f63f1
+  Rotate: [0.04971391335129738, -0.8498240113258362, 0.16643178462982178]
+  SRTHash: -263263212
+  Translate: [-3999.288330078125, 206.65341186523438, -1163.03564453125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x78b947a8
+  Rotate: [0.19653762876987457, 1.3339053392410278, 0.1732451170682907]
+  SRTHash: -403330073
+  Scale: 0.9599609971046448
+  Translate: [-4005.578125, 216.49765014648438, -1420.8125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x7a0e3e0f
+  Rotate: [-0.5014139413833618, 1.3136018514633179, -0.18528589606285095]
+  SRTHash: 567677212
+  Translate: [-4000.33935546875, 206.501708984375, -1156.36767578125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x7a183f2d
+  Rotate: [0.3672911822795868, 0.3132360875606537, 0.047215089201927185]
+  SRTHash: -22591659
+  Translate: [-4012.077880859375, 207.41346740722656, -1173.4375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x7a435ebf
+  Rotate: [0.31284865736961365, 0.6957911252975464, 0.03482680022716522]
+  SRTHash: 1545883893
+  Translate: [-4015.33984375, 206.38665771484375, -1168.23291015625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x7a7fb9cd
+  Rotate: [-0.07943686097860336, -1.1094691753387451, 2.524897813796997]
+  SRTHash: -2047106375
+  Translate: [-4221.36083984375, 221.9219970703125, -1751.2203369140625]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0x7b0ede35
+  Rotate: 1.1599998474121094
+  SRTHash: 109418025
+  Translate: [-4464.4697265625, 219.01271057128906, -1899.7796630859375]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7b622144
+  Rotate: 0.7999999523162842
+  SRTHash: 469945326
+  Translate: [-4091.09814453125, 249.09695434570312, -1779.687744140625]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x7ceda7fd
+  Rotate: [2.9111804962158203, 0.8731005787849426, 0.3540850281715393]
+  SRTHash: 460790087
+  Translate: [-4123.7109375, 222.1337890625, -1689.7227783203125]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x7da5c498
+  Rotate: [-3.1358699798583984, 0.6008398532867432, -2.8246519565582275]
+  SRTHash: 380247538
+  Translate: [-4089.7265625, 258.642333984375, -1721.4530029296875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x7df7e8a4
+  Rotate: [0.07103007286787033, -0.541241466999054, 0.13531902432441711]
+  SRTHash: -450114518
+  Scale: 1.0722659826278687
+  Translate: [-4002.82421875, 216.83872985839844, -1423.86328125]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x7eab8d87
+  Rotate: [0.485271155834198, 2.550584940763656e-05, -0.00010304897296009585]
+  SRTHash: 1233791523
+  Translate: [-4409.13427734375, 219.00238037109375, -1964.3883056640625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7ed5f0e8
+  SRTHash: -1471699833
+  Translate: [-4114.779296875, 222.53567504882812, -1668.0380859375]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x7edec9d2
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4006.70263671875, 359.1142578125, -1980.5889892578125]
+  UnitConfigName: Area
+- HashId: !u 0x7fa203d5
+  Rotate: [-0.2671131491661072, 0.6687740683555603, -0.2623984217643738]
+  SRTHash: 1018066167
+  Scale: 0.9282230138778687
+  Translate: [-4019.8125, 272.0535888671875, -1621.48828125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x80592944
+  Rotate: [0.862548828125, -0.9245604872703552, 0.7242431044578552]
+  SRTHash: 0
+  Translate: [-3951.71875, 280.49609375, -1252.51953125]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x806d13b8
+  Rotate: [0.5493406653404236, -1.273635983467102, -0.6181356906890869]
+  SRTHash: 706181251
+  Scale: 0.8535159826278687
+  Translate: [-4054.91015625, 274.99383544921875, -1756.28125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x80adf711
+  Rotate: [-0.030052967369556427, 0.42489251494407654, 0.06631311029195786]
+  SRTHash: 1335395973
+  Translate: [-4526.57177734375, 248.8339080810547, -1963.6650390625]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0x8198879b
+  Rotate: [0.25371596217155457, 0.12190483510494232, 0.1429942101240158]
+  SRTHash: 1653206582
+  Translate: [-4005.475341796875, 207.11074829101562, -1172.2064208984375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x82c75d40
+  Rotate: -2.5431840419769287
+  SRTHash: -1037290268
+  Translate: [-4299.66162109375, 216.7077178955078, -1757.1298828125]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0x85a584f7
+  Rotate: [0.15999996662139893, -0.1400000900030136, 0.0]
+  SRTHash: -255803507
+  Translate: [-4225.7578125, 224.07669067382812, -1667.754638671875]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- '!Parameters': {DropActor: Weapon_Sword_034, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x85af2f42
+  Rotate: [-0.6123983263969421, 0.31920522451400757, -0.23890839517116547]
+  SRTHash: -229346268
+  Translate: [-4494.91259765625, 231.8799285888672, -2029.4521484375]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x8646a480
+  Rotate: -0.20359903573989868
+  SRTHash: -384275989
+  Translate: [-4398.70166015625, 216.1339111328125, -1912.96240234375]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- HashId: !u 0x8787cba9
+  Rotate: [-0.10830691456794739, 0.6207682490348816, 0.22072918713092804]
+  SRTHash: -581755700
+  Scale: 1.0234379768371582
+  Translate: [-4147.32421875, 318.8992614746094, -1939.91015625]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8805b180
+  Rotate: [-1.4337157011032104, -0.8302001357078552, 2.728149175643921]
+  SRTHash: 0
+  Translate: [-4085.46484375, 260.9140625, -1651.45703125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x8aeb4224
+  Rotate: 1.2675780057907104
+  SRTHash: -114436652
+  Scale: 0.8559569716453552
+  Translate: [-4556.34765625, 1.3539090156555176, -1890.328125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x8b0faafb
+  Rotate: [0.21308653056621552, 0.5148653388023376, 0.1593027114868164]
+  SRTHash: -395833661
+  Scale: 1.0063480138778687
+  Translate: [-4374.62109375, 216.0884552001953, -1916.74609375]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x8ba4f6dd
+  Rotate: 1.1121824979782104
+  SRTHash: -1235596884
+  Scale: 1.0141600370407104
+  Translate: [-3988.55859375, 203.0277099609375, -1329.58203125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x8d0965e6
+  Rotate: [0.029231542721390724, 0.5146772861480713, -0.04062458872795105]
+  SRTHash: -158928228
+  Scale: 0.9467769861221313
+  Translate: [-4131.0390625, 0.6683299541473389, -1067.2265625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x8e28f87d
+  Rotate: [0.6116257905960083, -0.2955976724624634, -0.034350086003541946]
+  SRTHash: 817630371
+  Translate: [-4207.56103515625, 282.006103515625, -1855.8660888671875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8e7c16fb
+  Rotate: [0.1849365085363388, -1.0323485136032104, 1.304931640625]
+  SRTHash: 0
+  Translate: [-3979.45703125, 231.5, -1282.68359375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x8f10cba3
+  Rotate: [-0.24997970461845398, 1.2001417875289917, -0.39133626222610474]
+  SRTHash: -2144361675
+  Scale: 0.9067379832267761
+  Translate: [-4056.5859375, 274.0867004394531, -1746.4375]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsCreateOnFace: true,
+    IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0}
+  HashId: !u 0x8fd4698c
+  Rotate: -1.0399996042251587
+  SRTHash: 1127420295
+  Translate: [-4016.515380859375, 362.10382080078125, -1975.853759765625]
+  UnitConfigName: Enemy_Keese
+- HashId: !u 0x90153616
+  Rotate: [0.38680094480514526, 0.9601022601127625, 0.4642176926136017]
+  SRTHash: -1839955087
+  Translate: [-4003.642578125, 207.0549774169922, -1170.968017578125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x902a7320
+  Rotate: [-0.009658314287662506, 0.939688503742218, -0.25879010558128357]
+  SRTHash: -2060960026
+  Scale: 0.8872069716453552
+  Translate: [-4171.19921875, 217.74388122558594, -1726.95703125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x913fa84d
+  Rotate: [-0.24538549780845642, -0.5038206577301025, 0.30091601610183716]
+  SRTHash: 68478380
+  Translate: [-4002.792236328125, 206.5204315185547, -1152.547607421875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x91a185bc
+  Rotate: [2.3196334838867188, 0.7112125158309937, 2.7301840782165527]
+  SRTHash: 1215039350
+  Translate: [-3974.408203125, 274.3133850097656, -1475.9249267578125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x91b5b804
+  Rotate: [2.8870537281036377, -0.9502133131027222, -2.987712860107422]
+  SRTHash: 1737031102
+  Translate: [-4011.4189453125, 205.23776245117188, -1165.462890625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x9239c096
+  Rotate: [-3.141592264175415, 0.15840621292591095, -2.7415924072265625]
+  SRTHash: -432530626
+  Translate: [-4337.54248046875, 217.14060974121094, -1839.93212890625]
+  UnitConfigName: Obj_RockSetYellow_A_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x92e5574d
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4006.70263671875, 359.1142578125, -1980.5889892578125]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x959dd26b
+  Rotate: [-0.7710484862327576, 0.5190563797950745, 0.23040293157100677]
+  SRTHash: 2068587402
+  Translate: [-3977.04345703125, 274.7799987792969, -1476.037109375]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9799aa76
+  SRTHash: 1393923843
+  Translate: [-4032.9404296875, 291.28363037109375, -1861.1845703125]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x97a386b2
+  Rotate: [2.3169851303100586, 1.243119478225708, 2.4030866622924805]
+  SRTHash: -1678546989
+  Translate: [-4519.89404296875, 247.5260772705078, -1948.846923828125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0x97bd45f4
+  Rotate: [0.398612380027771, 1.2013455629348755, 0.2381792515516281]
+  SRTHash: -311506466
+  Translate: [-4012.86474609375, 205.36402893066406, -1165.124755859375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x991ed026
+  Rotate: [-1.3562668561935425, -1.47505784034729, 1.1350486278533936]
+  SRTHash: 520462047
+  Translate: [-4017.3564453125, 205.75430297851562, -1157.314697265625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x9930b02f
+  Rotate: 0.3199997842311859
+  SRTHash: -788680952
+  Scale: 50.000003814697266
+  Translate: [-4393.64697265625, 217.02069091796875, -1937.4461669921875]
+  UnitConfigName: Area
+- HashId: !u 0x995654b9
+  Rotate: -1.0400006771087646
+  SRTHash: -1002693824
+  Translate: [-4291.001953125, 222.12576293945312, -1822.305419921875]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- HashId: !u 0x998d6b8e
+  Rotate: [-0.7574254870414734, 1.512864589691162, -0.7813215851783752]
+  SRTHash: 1232883451
+  Scale: 0.9409180283546448
+  Translate: [-4224.77734375, 2.4037346839904785, -1599.421875]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x9a85d87c
+  Rotate: [0.06947535276412964, -0.8492557406425476, 0.11697953194379807]
+  SRTHash: 1709099374
+  Scale: 1.0458979606628418
+  Translate: [-4005.3984375, 216.38648986816406, -1426.4765625]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9afa9618
+  Rotate: [0.7031489610671997, -0.7315486669540405, -0.7233576774597168]
+  SRTHash: -966730004
+  Translate: [-4414.865234375, 217.5946807861328, -1957.566162109375]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x9afb980a
+  Rotate: [-2.7740108966827393, -0.3858180046081543, -2.7516238689422607]
+  SRTHash: 1117628737
+  Translate: [-4308.484375, 245.2335662841797, -1993.7974853515625]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0x9b439438
+  Rotate: -0.9889971613883972
+  SRTHash: -384275989
+  Translate: [-4414.53369140625, 215.9175262451172, -1923.7078857421875]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- HashId: !u 0x9b93b88b
+  Rotate: -0.9205321669578552
+  SRTHash: 1839898051
+  Scale: 0.9829099774360657
+  Translate: [-4560.70703125, 1.277172565460205, -1889.98046875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0x9bd4ab08
+  Rotate: [-1.2892979383468628, -1.4295644760131836, 1.4142686128616333]
+  SRTHash: 1299260724
+  Translate: [-4006.491455078125, 205.45669555664062, -1155.5013427734375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x9cd0a283
+  Rotate: [-2.952535629272461, 0.9130982756614685, 0.35340389609336853]
+  SRTHash: -1056464435
+  Translate: [-4147.234375, 212.32553100585938, -1709.0557861328125]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x9cf66e83
+  Rotate: [0.19458161294460297, 0.8767439126968384, 0.36483249068260193]
+  SRTHash: -270013709
+  Translate: [-3999.965087890625, 206.6789093017578, -1165.151611328125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x9d15ba6e
+  Rotate: [-0.1701667606830597, 0.7265774607658386, -0.21854424476623535]
+  SRTHash: -1059994673
+  Scale: 1.0634770393371582
+  Translate: [-4026.625, 272.2275695800781, -1622.25]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0x9d6e956e
+  Rotate: [-0.2449275106191635, -1.1650927066802979, 0.3098578155040741]
+  SRTHash: -568597623
+  Translate: [-4530.681640625, 247.857666015625, -1962.2415771484375]
+  UnitConfigName: Obj_MineralGrain_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9f440447
+  Rotate: [-0.06354806572198868, -0.3749038577079773, 0.1720576286315918]
+  SRTHash: 1294157818
+  Translate: [-4528.83544921875, 248.1758270263672, -1961.186767578125]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xa08d331b
+  Rotate: 1.4812169075012207
+  SRTHash: -116876363
+  Translate: [-4040.679443359375, 274.1810607910156, -1747.638671875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa092bb9f
+  Rotate: [-0.30144980549812317, 0.6278520822525024, -0.3795168399810791]
+  SRTHash: 2047032190
+  Translate: [-4015.6005859375, 206.56759643554688, -1149.8671875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa0bb5d10
+  Rotate: [-0.07602345943450928, -0.0033598088193684816, -0.08828884363174438]
+  SRTHash: -1776051278
+  Translate: [-4039.72216796875, 292.9397888183594, -1854.5609130859375]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa1430a2a
+  Rotate: [-2.022826910018921, -1.1933592557907104, -3.018920660018921]
+  SRTHash: 0
+  Translate: [-4018.5390625, 246.84375, -1525.5390625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xa22911f7
+  Rotate: [0.3286484479904175, 0.02751944214105606, -0.10276828706264496]
+  SRTHash: 492597152
+  Translate: [-4090.275146484375, 252.69854736328125, -1785.08056640625]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0xa2a5c976
+  Rotate: [0.22161918878555298, -0.01603175885975361, 0.26181235909461975]
+  SRTHash: -57039297
+  Translate: [-4207.70947265625, 283.04718017578125, -1859.155029296875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xa35bff75
+  Rotate: -0.5200002789497375
+  SRTHash: -294719697
+  Translate: [-4286.78759765625, 240.41259765625, -1877.208740234375]
+  UnitConfigName: Obj_RockSetYellow_A_L_04
+- HashId: !u 0xa3e438db
+  Rotate: [0.3548250198364258, 0.04656333476305008, -0.3443352282047272]
+  SRTHash: 811101587
+  Translate: [-3979.732177734375, 276.10260009765625, -1478.89599609375]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0xa477c098
+  Rotate: -0.9598388671875
+  SRTHash: 2137786538
+  Scale: 0.9375
+  Translate: [-4216.265625, 2.6418051719665527, -1585.95703125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xa47fda18
+  Rotate: [-0.2421809285879135, 1.204911708831787, -0.31315547227859497]
+  SRTHash: 121756338
+  Translate: [-4012.373291015625, 204.93472290039062, -1157.66943359375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa4b63363
+  Rotate: [0.7464638352394104, -1.412488579750061, -0.589766800403595]
+  SRTHash: -873589025
+  Scale: 1.0957030057907104
+  Translate: [-4010.8125, 201.06747436523438, -1341.66015625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0xa56c620d
+  Rotate: -0.4599999785423279
+  SRTHash: 1823426667
+  Translate: [-4262.89306640625, 223.3632354736328, -1792.19580078125]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0xa5cd3763
+  Rotate: [1.26901113986969, -1.4042867422103882, -1.5039682388305664]
+  SRTHash: 978436408
+  Translate: [-4017.784912109375, 206.2915802001953, -1165.609375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa62207dd
+  Rotate: [2.767620325088501, -0.7244879603385925, -2.8496897220611572]
+  SRTHash: 11637713
+  Translate: [-4007.58544921875, 207.1479034423828, -1172.891357421875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa6a89253
+  Rotate: [-0.19309686124324799, 0.5742449760437012, -0.04587453976273537]
+  SRTHash: -193125777
+  Translate: [-4009.41015625, 205.34841918945312, -1154.017333984375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa6ed0005
+  Rotate: [1.3122001886367798, -1.3764126300811768, -1.6206302642822266]
+  SRTHash: -751183222
+  Translate: [-4021.78125, 207.87428283691406, -1168.26025390625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa7a1b86d
+  Rotate: [0.212489515542984, 0.825923502445221, -0.08163107931613922]
+  SRTHash: -2026126440
+  Translate: [-4018.42138671875, 206.1848907470703, -1163.9619140625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa9ac61d7
+  Rotate: [0.17120355367660522, 0.8032143115997314, 0.28228917717933655]
+  SRTHash: -1303077233
+  Translate: [-4003.679443359375, 205.76666259765625, -1164.2401123046875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xaa539d14
+  Rotate: [-1.4505442380905151, 1.511995792388916, -1.431559681892395]
+  SRTHash: -173262257
+  Translate: [-4000.16162109375, 279.1744384765625, -1654.517333984375]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xabdcc489
+  Rotate: -1.1441649198532104
+  SRTHash: 531424244
+  Scale: 0.8676760196685791
+  Translate: [-4559.08984375, 1.3578581809997559, -1894.33984375]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xac7fe9a6
+  Rotate: -1.0623779296875
+  SRTHash: 1904819597
+  Scale: 0.9316409826278687
+  Translate: [-4474.33984375, 1.0009918212890625, -1826.66015625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0xae739989
+  Rotate: [-0.18975433707237244, 0.5466635227203369, -0.38406580686569214]
+  SRTHash: 1027284766
+  Translate: [-4019.573974609375, 207.04322814941406, -1152.29443359375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xae9b5673
+  Rotate: [-0.15781091153621674, -0.9031074047088623, 0.3905913233757019]
+  SRTHash: 856172232
+  Scale: 0.9458010196685791
+  Translate: [-3997.70703125, 203.33004760742188, -1246.72265625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0xafebe236
+  Rotate: [-0.7527881264686584, -0.4811657667160034, 0.9842321872711182]
+  SRTHash: -1779326937
+  Translate: [-4073.643310546875, 211.90899658203125, -2117.953125]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xafeee7c2
+  Rotate: [-2.525261640548706, -1.3999309539794922, 2.187089443206787]
+  SRTHash: 802983396
+  Translate: [-4022.31884765625, 207.48988342285156, -1155.4234619140625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xb00ba5ac
+  Rotate: 0.3199997842311859
+  SRTHash: 1276336826
+  Scale: 25.000001907348633
+  Translate: [-4393.64697265625, 217.02069091796875, -1937.4461669921875]
+  UnitConfigName: Area
+- HashId: !u 0xb119e80c
+  Rotate: [0.267347514629364, -1.3203351497650146, -0.6774988770484924]
+  SRTHash: 1568750883
+  Translate: [-4023.888916015625, 207.91754150390625, -1161.833740234375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb24bc16e
+  Rotate: [1.5769041776657104, -0.0390624925494194, 0.3372802734375]
+  SRTHash: 0
+  Translate: [-4047.921875, 250.8125, -1618.65625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xb250a2e3
+  Rotate: [-0.07344671338796616, -1.0099425315856934, 0.028431816026568413]
+  SRTHash: 1948279386
+  Scale: 0.9492189884185791
+  Translate: [-4216.03125, 2.441925048828125, -1593.80078125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xb2ca6ab2
+  Rotate: [2.7630996704101562, 1.0878269672393799, -1.2203798294067383]
+  SRTHash: -1183783264
+  Scale: 1.2165671586990356
+  Translate: [-4218.46826171875, 224.1467742919922, -1734.46875]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0xb479aef9
+  Rotate: [0.5076935887336731, 1.3031158447265625, 0.2525252103805542]
+  SRTHash: 1510059966
+  Translate: [-4018.773193359375, 206.02481079101562, -1162.220458984375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xb49404aa
+  Rotate: [2.561156749725342, 0.1519799828529358, 2.1989858150482178]
+  SRTHash: 1015288091
+  Translate: [-4430.63818359375, 222.4887237548828, -1937.189453125]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0xb4ff9d8e
+  Rotate: [0.3798770010471344, 1.2053930759429932, 0.19224971532821655]
+  SRTHash: 754559684
+  Translate: [-4014.00830078125, 205.41357421875, -1164.1925048828125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb531059d
+  Rotate: [-0.12397332489490509, -0.31741267442703247, 0.37986695766448975]
+  SRTHash: 1141437252
+  Translate: [-4089.63330078125, 259.0015869140625, -1721.71923828125]
+  UnitConfigName: Obj_Mineral_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb55a3c33
+  Rotate: [3.141479253768921, -1.51611328125, 3.141479253768921]
+  SRTHash: 2046260012
+  Translate: [-4016.48828125, 289.3417663574219, -1874.99609375]
+  UnitConfigName: Item_Mushroom_N
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb5bb1e83
+  Rotate: [1.4848631620407104, -1.0302733182907104, -0.3426513671875]
+  SRTHash: 0
+  Translate: [-4243.546875, 262.73046875, -1793.53515625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xb6dbc70d
+  Rotate: [0.0008687016670592129, 0.6443095803260803, -0.05862630531191826]
+  SRTHash: -1391629951
+  Scale: 0.9750980138778687
+  Translate: [-4139.35546875, 1.6462020874023438, -1111.96875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb823f3eb
+  Rotate: [1.7673338651657104, -1.38525390625, -0.8945311903953552]
+  SRTHash: 0
+  Translate: [-4519.05078125, 239.8984375, -1923.43359375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xb8f225a4
+  Rotate: [0.17054694890975952, -0.7450840473175049, -0.24195800721645355]
+  SRTHash: -942869653
+  Scale: 0.9575200080871582
+  Translate: [-4010.37109375, 270.5003662109375, -1644.39453125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xb92c1485
+  Rotate: [-0.1449563056230545, 1.3586286306381226, 0.032381586730480194]
+  SRTHash: 771506345
+  Translate: [-4003.409912109375, 205.6754608154297, -1159.3778076171875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xba79516d
+  Rotate: [0.0, -1.5200002193450928, 0.3800000250339508]
+  SRTHash: 244632243
+  Translate: [-4072.51318359375, 251.6033172607422, -1768.8046875]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xbb757329
+  Rotate: -2.26318359375
+  SRTHash: -1081508165
+  Translate: [-4245.81787109375, 221.0514678955078, -1686.3173828125]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0xbbcd7690
+  Rotate: [-0.08849453181028366, 0.8895055055618286, 0.1400081366300583]
+  SRTHash: 943305517
+  Translate: [-3999.625732421875, 206.50743103027344, -1158.47314453125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xbd59ca19
+  Rotate: [-2.793714761734009, 0.8516318798065186, -3.0507025718688965]
+  SRTHash: 106929497
+  Translate: [-4013.3017578125, 206.2749786376953, -1149.3525390625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xbda614ec
+  Rotate: [0.24760134518146515, 0.7732303142547607, 0.15659306943416595]
+  SRTHash: -1334097445
+  Scale: 1.0175780057907104
+  Translate: [-4372.078125, 215.8466033935547, -1915.05078125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xbec6c3c3
+  Rotate: [0.055664245039224625, -0.38950687646865845, 0.05134966969490051]
+  SRTHash: 2146304168
+  Scale: 1.098633050918579
+  Translate: [-3984.5546875, 203.18890380859375, -1329.9765625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbef87e5d
+  Rotate: [0.07230217009782791, -0.40462979674339294, 0.1389012634754181]
+  SRTHash: -1315478963
+  Translate: [-4113.39404296875, 222.7707061767578, -1667.3536376953125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xbf3210d4
+  Rotate: 2.8371427059173584
+  SRTHash: 316936568
+  Translate: [-4038.89599609375, 274.03436279296875, -1751.752685546875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xbf3b62d8
+  Rotate: 3.485264778137207
+  SRTHash: 878509655
+  Translate: [-4031.42529296875, 272.6016845703125, -1744.8006591796875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbf6c7ccd
+  Rotate: [3.141479253768921, 0.012084957212209702, 3.141479253768921]
+  SRTHash: -1866681257
+  Translate: [-4203.12890625, 282.0851745605469, -1844.5390625]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0xc0e68493
+  Rotate: 2.3400015830993652
+  SRTHash: -209420324
+  Translate: [-4298.998046875, 222.50125122070312, -1854.5179443359375]
+  UnitConfigName: Obj_RockSetYellow_A_03
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xc15c09ee
+  Rotate: 0.3199997842311859
+  SRTHash: -759412359
+  Scale: 100.00000762939453
+  Translate: [-4393.64697265625, 217.02069091796875, -1937.4461669921875]
+  UnitConfigName: Area
+- HashId: !u 0xc226ac4b
+  Rotate: 1.8620367050170898
+  SRTHash: 280588033
+  Translate: [-4029.318603515625, 272.403076171875, -1746.122314453125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc3125382
+  Rotate: -0.6138916015625
+  SRTHash: 885110488
+  Scale: 0.9091799855232239
+  Translate: [-4480.8203125, 1.0009918212890625, -1839.5078125]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0xc3c6211f
+  Rotate: [0.2061525136232376, 0.5662700533866882, 0.13434068858623505]
+  SRTHash: -1343087816
+  Translate: [-4009.620361328125, 205.11468505859375, -1165.04443359375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc42c5c07
+  Rotate: [0.03906923159956932, 0.025044528767466545, -0.005566900596022606]
+  SRTHash: -1691085773
+  Translate: [-4006.657958984375, 279.368408203125, -1655.582275390625]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0xc4a2d290
+  Rotate: [2.619187593460083, -0.39122095704078674, -2.155759572982788]
+  SRTHash: 593406406
+  Translate: [-4324.30615234375, 209.5319366455078, -1806.7158203125]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0xc7c8f97e
+  Rotate: 6.073362350463867
+  SRTHash: -639324969
+  Translate: [-4029.6298828125, 272.6286926269531, -1748.806396484375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc92b47bb
+  Rotate: [-2.917736291885376, -0.3964969515800476, -2.629413604736328]
+  SRTHash: -1259392787
+  Translate: [-4013.683837890625, 205.04017639160156, -1158.610595703125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc98fde1e
+  Rotate: [1.4836833477020264, -1.3800994157791138, -1.3353699445724487]
+  SRTHash: 488635656
+  Translate: [-4005.630126953125, 205.87322998046875, -1166.731689453125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc9b3d74e
+  Rotate: 0.7000007033348083
+  SRTHash: 359190355
+  Translate: [-4405.154296875, 217.45272827148438, -1969.8424072265625]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- HashId: !u 0xca4b7c36
+  Rotate: [2.827558994293213, -1.0920802354812622, 3.0862791538238525]
+  SRTHash: -900002495
+  Translate: [-4022.792236328125, 207.88446044921875, -1166.28271484375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xca824ab5
+  Rotate: [-0.009039968252182007, 0.10468868166208267, -0.4089842140674591]
+  SRTHash: -257608342
+  Translate: [-4023.77197265625, 207.78573608398438, -1159.616455078125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xcaa12d1e
+  Rotate: [-3.141592264175415, -0.5015923380851746, -2.9215927124023438]
+  SRTHash: -1994363295
+  Translate: [-4145.0634765625, 217.65000915527344, -1677.66455078125]
+  UnitConfigName: Obj_RockSetYellow_A_03
+- HashId: !u 0xcb8e058b
+  Rotate: 1.6289970874786377
+  SRTHash: -384275989
+  Translate: [-4368.68896484375, 216.15589904785156, -1938.9002685546875]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xcca93d7d
+  Rotate: -1.415283203125
+  SRTHash: -219876618
+  Translate: [-4228.80078125, 278.0572204589844, -1898.73046875]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0xcd599879
+  Rotate: [-0.5169125199317932, 1.2933249473571777, -0.38176795840263367]
+  SRTHash: 584950935
+  Translate: [-4007.770751953125, 205.41842651367188, -1154.61572265625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xcdbbd096
+  Rotate: [0.4735848009586334, -1.3705116510391235, -0.38567060232162476]
+  SRTHash: 1387272637
+  Scale: 0.9140629768371582
+  Translate: [-3995.48046875, 216.9822540283203, -1416.78515625]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xced113f1
+  Rotate: [-0.5044955015182495, -1.1138588190078735, 0.6135974526405334]
+  SRTHash: -82935405
+  Translate: [-4004.70703125, 206.45111083984375, -1151.4278564453125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xcedb9f25
+  Rotate: [0.18614870309829712, 0.5383256673812866, -0.04254543036222458]
+  SRTHash: 2013411394
+  Scale: 0.9277340173721313
+  Translate: [-4012.48828125, 271.15435791015625, -1646.8671875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcf3fed8d
+  Rotate: -1.4399999380111694
+  SRTHash: -1542237643
+  Translate: [-4090.5224609375, 258.5270690917969, -1718.241455078125]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xd0e8f8a3
+  Rotate: [0.06547210365533829, -0.9622716903686523, -0.0069739846512675285]
+  SRTHash: -211290222
+  Scale: 0.9804689884185791
+  Translate: [-4276.33984375, 235.9445037841797, -1854.40234375]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xd13bfad0
+  Rotate: [-0.21800415217876434, -0.04733630269765854, 0.35204845666885376]
+  SRTHash: 726970349
+  Scale: 0.9331049919128418
+  Translate: [-4271.98046875, 236.3582000732422, -1850.75]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0xd2bc70df
+  Rotate: [-2.472520589828491, 0.760699987411499, -2.2090883255004883]
+  SRTHash: 566526068
+  Translate: [-4138.69140625, 216.64639282226562, -2069.34521484375]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xd2ec733d
+  Rotate: [0.37629711627960205, 1.054584264755249, 0.31713518500328064]
+  SRTHash: 1593016474
+  Scale: 0.9472659826278687
+  Translate: [-4191.5546875, 314.4532470703125, -1913.12109375]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0xd580f1f3
+  Rotate: 0.1219482347369194
+  SRTHash: -1334634341
+  Scale: 0.90625
+  Translate: [-4472.80859375, 1.0009918212890625, -1836.0234375]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xd69cb124
+  Rotate: [2.8389923572540283, 1.1287035942077637, 2.9915578365325928]
+  SRTHash: -753324487
+  Translate: [-4008.49072265625, 205.03878784179688, -1164.18115234375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xd7757c5a
+  Rotate: [0.48280081152915955, -1.1616950035095215, -0.4778514802455902]
+  SRTHash: 308192239
+  Scale: 0.9838870167732239
+  Translate: [-4008.05859375, 269.89013671875, -1640.3828125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xd790fc42
+  Rotate: [-1.0059624910354614, 1.3905709981918335, -0.674113392829895]
+  SRTHash: 809449819
+  Translate: [-4001.311767578125, 206.46856689453125, -1154.3701171875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xda2f99ee
+  Rotate: [-1.6570628881454468, 1.3076130151748657, -2.2887303829193115]
+  SRTHash: 1989531188
+  Translate: [-4415.05126953125, 221.98855590820312, -1993.4256591796875]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0xda3865cf
+  Rotate: [0.3603366017341614, 1.5023216009140015, 0.44109031558036804]
+  SRTHash: -1642744818
+  Scale: 0.9804689884185791
+  Translate: [-4547.1875, 1.9823757410049438, -1874.75]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xda65814b
+  Rotate: [0.062298402190208435, -0.3499278426170349, 0.04839726909995079]
+  SRTHash: 1352905038
+  Scale: 0.9536129832267761
+  Translate: [-3926.33984375, 245.22872924804688, -1639.6875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0xdb5a0e02
+  Rotate: [-0.26743245124816895, -0.4179892838001251, 0.22439928352832794]
+  SRTHash: -521655782
+  Translate: [-4008.90966796875, 206.21009826660156, -1149.98828125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xdb80d555
+  Rotate: [-1.7974046468734741, -1.0147147178649902, 1.8206565380096436]
+  SRTHash: -116744613
+  Translate: [-4349.2783203125, 163.1665802001953, -2024.2509765625]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xdb8eb8c0
+  Rotate: [1.6226805448532104, 0.5162353515625, 0.1790771484375]
+  SRTHash: 0
+  Translate: [-4101.22265625, 254.0390625, -1781.48828125]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xdc1d49f1
+  Rotate: [-2.081664800643921, 0.1717529147863388, -2.751708745956421]
+  SRTHash: 0
+  Translate: [-3992.3125, 276.52734375, -1689.609375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsCreateOnFace: true,
+    IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0}
+  HashId: !u 0xdd6aacc8
+  Rotate: 0.3199997842311859
+  SRTHash: 1127420295
+  Translate: [-4390.82666015625, 220.0206756591797, -1922.578369140625]
+  UnitConfigName: Enemy_Keese
+- HashId: !u 0xdea67715
+  Rotate: [0.20688165724277496, -1.049762487411499, -0.2289770245552063]
+  SRTHash: 909766741
+  Scale: 0.9760739803314209
+  Translate: [-4051.19140625, 275.1212158203125, -1762.2265625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0xdf283349
+  Rotate: [0.3585672974586487, -0.7583844661712646, -0.1656261831521988]
+  SRTHash: 1326202382
+  Translate: [-4008.53662109375, 205.94036865234375, -1168.650390625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xdf2df646
+  Rotate: 2.183185338973999
+  SRTHash: -384275989
+  Translate: [-3998.557861328125, 359.6514892578125, -1984.97509765625]
+  UnitConfigName: FldObj_SnowEnemyLookout_B_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdfedc70e
+  Rotate: [0.43978360295295715, 0.6708319783210754, 0.2845534086227417]
+  SRTHash: -1166945988
+  Translate: [-4012.614990234375, 271.97930908203125, -1650.6767578125]
+  UnitConfigName: Obj_Mineral_A_01
+- HashId: !u 0xe0bc8836
+  Rotate: 4.519979953765869
+  SRTHash: 2001152587
+  Translate: [-4035.567138671875, 273.7955627441406, -1754.18212890625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xe23eb293
+  Rotate: [8.015991625143215e-05, -1.0590791134745814e-05, 0.2627199590206146]
+  SRTHash: 728508524
+  Translate: [-4114.53662109375, 222.67239379882812, -1664.0107421875]
+  UnitConfigName: Obj_MineralGrain_A_02
+- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe28bbca7
+  Rotate: [0.4758332669734955, 0.9064151048660278, 0.19158415496349335]
+  SRTHash: 2104690344
+  Translate: [-4131.63671875, 213.4672393798828, -1730.269775390625]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xe28f9b78
+  Rotate: [-0.2703782916069031, 1.2086478471755981, -0.2046203762292862]
+  SRTHash: -1429346059
+  Translate: [-4009.434814453125, 204.84957885742188, -1158.0347900390625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xe2c58533
+  Rotate: [3.1289308071136475, -0.01244435179978609, -2.329292058944702]
+  SRTHash: -909112134
+  Translate: [-4088.917724609375, 260.0185546875, -1719.5030517578125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xe2f798b7
+  Rotate: -0.5000001192092896
+  SRTHash: -1022644130
+  Translate: [-4402.4169921875, 218.49917602539062, -1892.1826171875]
+  UnitConfigName: Obj_RockSetYellow_A_03
+- HashId: !u 0xe4ea33de
+  Rotate: -1.1199995279312134
+  SRTHash: 801625238
+  Translate: [-4282.380859375, 221.76968383789062, -1725.657958984375]
+  UnitConfigName: Obj_RockSetYellow_A_03
+- HashId: !u 0xe7173efb
+  Rotate: [-0.4908735454082489, -1.1217702627182007, 0.396770179271698]
+  SRTHash: 1394339117
+  Scale: 1.027343988418579
+  Translate: [-4208.31640625, 224.6727294921875, -1686.61328125]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe7605383
+  Rotate: [3.141479253768921, 1.1669920682907104, 3.141479253768921]
+  SRTHash: -1157394528
+  Translate: [-4042.5546875, 260.1063537597656, -1825.99609375]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0xe9ee9c06
+  Rotate: [0.1932741105556488, 0.24634729325771332, -0.19253495335578918]
+  SRTHash: 530169231
+  Scale: 1.0014649629592896
+  Translate: [-4060.46875, 275.1773376464844, -1753.84375]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0xea6ace00
+  Rotate: 2.0031845569610596
+  SRTHash: 1537689503
+  Translate: [-4014.6015625, 205.1136932373047, -1159.696044921875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xead36daa
+  Rotate: [0.6965401768684387, -0.04608258977532387, 0.23592394590377808]
+  SRTHash: 152795781
+  Translate: [-4408.98046875, 220.83116149902344, -1966.324462890625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xed0dad00
+  Rotate: [0.42221444845199585, 0.36022666096687317, 1.2456542253494263]
+  SRTHash: -992244826
+  Translate: [-4265.02783203125, 246.21142578125, -1864.7464599609375]
+  UnitConfigName: Obj_RockSetYellow_A_L_05
+- HashId: !u 0xed873fd8
+  Rotate: [0.5142421722412109, 1.2276231050491333, 0.6319986581802368]
+  SRTHash: 1567674793
+  Translate: [-3984.307861328125, 296.8722229003906, -1929.57421875]
+  UnitConfigName: Obj_RockSetSnow_A_02
+- HashId: !u 0xedaec45e
+  Rotate: [2.831005573272705, -0.7356554865837097, 3.092771291732788]
+  SRTHash: 1894256601
+  Translate: [-4020.41455078125, 207.83135986328125, -1170.008544921875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xee13b6bd
+  Rotate: [-3.052030086517334, -0.8601559996604919, 3.092410087585449]
+  SRTHash: 1331568199
+  Translate: [-4008.795166015625, 279.0557861328125, -1656.584716796875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xeed0d1c9
+  Rotate: -2.647059917449951
+  SRTHash: -384275989
+  Translate: [-4397.36572265625, 217.03363037109375, -1944.3427734375]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- HashId: !u 0xf260666b
+  Rotate: [-3.1235721111297607, -0.14511366188526154, -2.5864310264587402]
+  SRTHash: 817721939
+  Translate: [-4090.919921875, 258.4632568359375, -1716.739990234375]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0xf40a856b
+  Rotate: [-2.3075215816497803, -1.2246938943862915, 2.5778298377990723]
+  SRTHash: 1342828863
+  Translate: [-4029.91552734375, 291.5573425292969, -1861.01416015625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xf45c2e29
+  Rotate: [-0.8399999737739563, 0.919999897480011, 0.0]
+  SRTHash: -257143502
+  Translate: [-4058.6572265625, 175.38340759277344, -2167.419921875]
+  UnitConfigName: Obj_RockSetSnow_A_05
+- HashId: !u 0xf4d5908a
+  Rotate: [0.2100968211889267, 0.4921010434627533, 0.24947252869606018]
+  SRTHash: 908423563
+  Scale: 0.8842769861221313
+  Translate: [-4169.1875, 221.176513671875, -1647.34375]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xf4ea0323
+  Rotate: 1.8415929079055786
+  SRTHash: 903974595
+  Translate: [-4273.83935546875, 221.90069580078125, -1754.6505126953125]
+  UnitConfigName: Obj_RockSetYellow_A_L_03
+- HashId: !u 0xf5c4ef8d
+  Rotate: [-1.185725212097168, 0.7891519665718079, 2.8020272254943848]
+  SRTHash: 2030947032
+  Translate: [-4010.90478515625, 205.06365966796875, -1157.585205078125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf65634f4
+  Rotate: [-0.7049559950828552, -1.3378905057907104, 1.8446043729782104]
+  SRTHash: 0
+  Translate: [-4014.16796875, 243.890625, -1498.01953125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xf7a6cc83
+  Rotate: [-0.4751334488391876, -0.9542523622512817, 0.3762287199497223]
+  SRTHash: -1628363579
+  Scale: 1.0703129768371582
+  Translate: [-4029.6171875, 271.76141357421875, -1626.01171875]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf7b998d4
+  Rotate: [1.5378416776657104, -1.1517332792282104, -0.4378661811351776]
+  SRTHash: 0
+  Translate: [-3978.4453125, 273.2421875, -1431.58984375]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsCreateOnFace: true,
+    IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0}
+  HashId: !u 0xf84abb7c
+  Rotate: -1.0399996042251587
+  SRTHash: -1361032261
+  Translate: [-4014.490478515625, 362.10382080078125, -1972.4041748046875]
+  UnitConfigName: Enemy_Keese
+- HashId: !u 0xfab6ee3b
+  Rotate: -0.9005126357078552
+  SRTHash: -1554821147
+  Scale: 0.8808590173721313
+  Translate: [-4126.7109375, 0.7759419083595276, -1082.28515625]
+  UnitConfigName: Obj_Plant_CypressLow_A_02
+- HashId: !u 0xfbc16f7f
+  Rotate: [-0.42084336280822754, -1.009695053100586, 0.05566548928618431]
+  SRTHash: 1315220625
+  Scale: 0.9077150225639343
+  Translate: [-4024.38671875, 270.5462341308594, -1627.42578125]
+  UnitConfigName: Obj_Plant_CypressLow_A_01
+- HashId: !u 0xfd282448
+  Rotate: [0.06530597060918808, 0.2959040701389313, -0.3356298804283142]
+  SRTHash: 346197619
+  Translate: [-4023.462646484375, 207.89334106445312, -1164.1658935546875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xfd9fb782
+  Rotate: -2.6600000858306885
+  SRTHash: -49685888
+  Translate: [-4455.95263671875, 247.56187438964844, -1955.2138671875]
+  UnitConfigName: Obj_RockSetYellow_A_02
+- HashId: !u 0xffe9cd4e
+  Rotate: [0.1669178307056427, -0.36750364303588867, 0.09590546041727066]
+  SRTHash: 1781424856
+  Translate: [-4004.58251953125, 205.82852172851562, -1165.616455078125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+Rails: []

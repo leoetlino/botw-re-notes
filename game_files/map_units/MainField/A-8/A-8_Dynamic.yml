@@ -1,0 +1,996 @@
+Objs:
+- '!Parameters': {EquipItem1: Weapon_Sword_008, EquipItem2: Weapon_Shield_008, FortressEatPer: -1,
+    IsMimicry: true, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x0613351c
+  Rotate: -2.0536282062530518
+  SRTHash: -789763534
+  Translate: [-4192.69775390625, 139.40652465820312, 3090.56201171875]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_011, FortressEatPer: -1,
+    IsMimicry: true, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x0759ac32
+  Rotate: 2.059999465942383
+  SRTHash: 318324516
+  Translate: [-4635.10009765625, 139.61485290527344, 3127.0]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0926c4cb
+  Rotate: 2.756054639816284
+  SRTHash: -1915488494
+  Translate: [-4859.2783203125, 122.93006134033203, 3833.736572265625]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x096c53db
+  Rotate: [-0.046184804290533066, -0.00017322137136943638, -0.014441162347793579]
+  SRTHash: -1432083902
+  Translate: [-4505.60205078125, 147.46559143066406, 3102.09912109375]
+  UnitConfigName: BarrelBomb2
+- HashId: !u 0x0b329df4
+  Rotate: -1.0318634510040283
+  SRTHash: -384275989
+  Translate: [-4646.5322265625, 132.3534393310547, 3864.46826171875]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0e26fc26
+  Rotate: [0.016207054257392883, 1.3034459352493286, 1.59430992603302]
+  SRTHash: -634087249
+  Translate: [-4560.60205078125, 143.02146911621094, 3092.931884765625]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x0f507d3d
+  Rotate: -1.639998197555542
+  SRTHash: -130095166
+  Translate: [-4532.7001953125, 142.33018493652344, 3075.699951171875]
+  UnitConfigName: Animal_Sunazarashi_A
+- HashId: !u 0x0fc5baaa
+  Rotate: [0.0, 1.5674333572387695, -0.09999999403953552]
+  SRTHash: 163731639
+  Translate: [-4206.1728515625, 125.16812133789062, 3870.228271484375]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_011, FortressEatPer: -1,
+    IsMimicry: true, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x109f7cc6
+  Rotate: -2.8999991416931152
+  SRTHash: -1404480562
+  Translate: [-4561.7998046875, 139.6324462890625, 3194.89990234375]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x11ab88a2
+  Rotate: 1.3000004291534424
+  SRTHash: 754448249
+  Translate: [-4548.2001953125, 141.35321044921875, 3156.300048828125]
+  UnitConfigName: Animal_Sunazarashi_A
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x11e2f69a
+  Rotate: [3.0747485160827637, 0.8263784050941467, 1.5013941526412964]
+  SRTHash: 512753086
+  Translate: [-4612.9873046875, 129.5606231689453, 3535.848388671875]
+  UnitConfigName: Barrel
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1496a632
+  Rotate: [-0.18155263364315033, 0.10066543519496918, 0.07077997922897339]
+  SRTHash: 1405591514
+  Translate: [-4467.00146484375, 157.09347534179688, 3226.9052734375]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {PointName: 逆井：ドクロ拠点×アリ地獄, flag0: true}
+  HashId: !u 0x1621ba1d
+  Rotate: 0.8799998760223389
+  SRTHash: -553646353
+  Translate: [-4764.54541015625, 129.10183715820312, 3507.837890625]
+  UnitConfigName: ObservationPoint
+- '!Parameters': {EquipItem1: Weapon_Sword_008, FortressEatPer: -1, IsMimicry: true,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x182a5f1c
+  Rotate: 2.059999465942383
+  SRTHash: 1773783681
+  Translate: [-4496.39990234375, 141.5376434326172, 3082.199951171875]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- HashId: !u 0x1a1b786e
+  Rotate: 1.239999771118164
+  SRTHash: -384275989
+  Translate: [-4151.0400390625, 142.9383544921875, 3095.07958984375]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1c462bbc
+  Rotate: [0.35537421703338623, 1.2134681940078735, 0.2997819185256958]
+  SRTHash: 508049915
+  Translate: [-4684.31884765625, 159.17669677734375, 3106.061767578125]
+  UnitConfigName: KibakoDesert_Contain_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x20a1e08e
+  Rotate: -0.5714635252952576
+  SRTHash: 532047198
+  Translate: [-4881.17138671875, 124.43460083007812, 3840.863037109375]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x21b98aaf
+  Rotate: [1.8441152572631836, -0.7410480976104736, -0.2891424298286438]
+  SRTHash: 1082070189
+  Translate: [-4437.41650390625, 142.37271118164062, 3160.90087890625]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x22a79db7
+  Rotate: [-0.03200149163603783, -0.0015536053106188774, -0.06409716606140137]
+  SRTHash: 1768709708
+  Translate: [-4635.5009765625, 130.5288848876953, 3537.505615234375]
+  UnitConfigName: KibakoDesert_Contain_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x239644ab
+  Rotate: [0.02916521392762661, 4.646836896426976e-05, -0.031611137092113495]
+  SRTHash: 1837410430
+  Translate: [-4206.35888671875, 139.94313049316406, 3071.582763671875]
+  UnitConfigName: Barrel
+- '!Parameters': {EquipItem1: Weapon_Sword_008, FortressEatPer: -1, IsMimicry: true,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x2574a3c9
+  Rotate: 2.159999132156372
+  SRTHash: -1682722670
+  Translate: [-4680.2998046875, 140.21253967285156, 3173.300048828125]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- HashId: !u 0x25b8300d
+  Rotate: [-2.2772388458251953, 0.25750187039375305, 0.08374889194965363]
+  SRTHash: 66732134
+  Scale: 0.8999999761581421
+  Translate: [-4159.5654296875, 125.01368713378906, 3824.4072265625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x27ebdc70
+  Rotate: [-0.035033125430345535, -0.7991818785667419, -0.028423411771655083]
+  SRTHash: 1994978298
+  Translate: [-4678.90771484375, 157.47438049316406, 3109.694091796875]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x286294ae
+  Rotate: [0.016573553904891014, -0.0003739820676855743, -0.020198393613100052]
+  SRTHash: 1768709708
+  Translate: [-4614.5048828125, 130.254638671875, 3520.99462890625]
+  UnitConfigName: KibakoDesert_Contain_01
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x29534db2
+  Rotate: [0.09048730880022049, 0.41905269026756287, 0.032193806022405624]
+  SRTHash: 1768709708
+  Translate: [-4196.9853515625, 140.22567749023438, 3063.64208984375]
+  UnitConfigName: KibakoDesert_Contain_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true,
+    IsLocatorCreate: false, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2b79b602
+  SRTHash: -1127479432
+  Translate: [-4873.20458984375, 125.78009033203125, 3808.158203125]
+  UnitConfigName: Animal_Insect_F
+- HashId: !u 0x2bd20eef
+  Rotate: [-0.3511376976966858, -0.6458050608634949, -0.23299264907836914]
+  SRTHash: 854027468
+  Translate: [-4167.30712890625, 152.92018127441406, 3063.193359375]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2d21ed4e
+  Rotate: [3.0170888900756836, -1.3781267404556274, -2.9991931915283203]
+  SRTHash: -47397689
+  Translate: [-4189.58837890625, 139.53500366210938, 3081.607421875]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x2da5f2fe
+  Rotate: 1.6074333190917969
+  SRTHash: 769627989
+  Translate: [-4104.5009765625, 129.78530883789062, 3867.76806640625]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2db9d40e
+  Rotate: 0.5588387846946716
+  SRTHash: 1967832149
+  Translate: [-4882.814453125, 124.61050415039062, 3839.670654296875]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x2e39521a
+  SRTHash: 692033306
+  Translate: [-4886.509765625, 126.44995880126953, 3870.10791015625]
+  UnitConfigName: Animal_Sunazarashi_A
+- HashId: !u 0x2e9b0201
+  Rotate: -1.554159164428711
+  SRTHash: -1817095655
+  Translate: [-4206.80615234375, 129.78530883789062, 3763.8037109375]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2f314dac
+  Rotate: 1.4333691596984863
+  SRTHash: 1909068374
+  Translate: [-4889.189453125, 125.00312805175781, 3830.476806640625]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x32fde483
+  Rotate: [-3.139617919921875, -0.09230256825685501, -3.0091707706451416]
+  SRTHash: -2041908812
+  Translate: [-4614.09326171875, 141.87393188476562, 3212.800048828125]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3324c0c9
+  Rotate: 1.6694954633712769
+  SRTHash: 1515426454
+  Translate: [-4859.9833984375, 122.94515228271484, 3835.111572265625]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x33342dc3
+  Rotate: 2.298961877822876
+  SRTHash: 109406035
+  Translate: [-4859.15478515625, 122.75656127929688, 3810.72705078125]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {DropTable: Chuchu_1, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x339b44ac
+  Rotate: [0.015793224796652794, -0.00011831190931843594, 0.003772205673158169]
+  SRTHash: 1837410430
+  Translate: [-4613.49609375, 130.19134521484375, 3542.499267578125]
+  UnitConfigName: Barrel
+- HashId: !u 0x35223c4a
+  Rotate: [1.0983706712722778, -0.11767525225877762, -3.00797438621521]
+  SRTHash: 1984204695
+  Scale: 0.8999999761581421
+  Translate: [-4159.01611328125, 125.83357238769531, 3827.7314453125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x356ca87c
+  Rotate: 2.3787949085235596
+  SRTHash: -384275989
+  Translate: [-4625.82861328125, 133.03428649902344, 3838.73486328125]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x38aa9f78
+  Rotate: [-0.0032687573693692684, -1.4424458742141724, 0.26580581068992615]
+  SRTHash: 455796543
+  Translate: [-4559.68115234375, 143.80299377441406, 3095.798583984375]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x395e4db5
+  Rotate: [-3.1173017024993896, -0.14158323407173157, -3.141057014465332]
+  SRTHash: -47397689
+  Translate: [-4618.97802734375, 130.12681579589844, 3547.009521484375]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3bc778f9
+  Rotate: 5.71992826461792
+  SRTHash: 1674062354
+  Translate: [-4858.349609375, 122.93035125732422, 3831.4970703125]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x3c508a90
+  SRTHash: 1764029354
+  Translate: [-4562.27685546875, 134.91403198242188, 3095.9560546875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_11
+- '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_011, FortressEatPer: -1,
+    IsMimicry: true, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x3fb02fd3
+  Rotate: -0.7800004482269287
+  SRTHash: -424872106
+  Translate: [-4494.7001953125, 141.71548461914062, 3085.39990234375]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- HashId: !u 0x426b98ea
+  Rotate: 2.621384620666504
+  SRTHash: -384275989
+  Translate: [-4861.8984375, 145.46119689941406, 3525.421142578125]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_011, FortressEatPer: -1,
+    IsMimicry: true, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x42702cce
+  Rotate: -1.2000001668930054
+  SRTHash: -1527040656
+  Translate: [-4549.89990234375, 142.17068481445312, 3056.199951171875]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x437b513e
+  Rotate: [0.492491215467453, -1.2983356714248657, 1.0977814197540283]
+  SRTHash: -52015333
+  Translate: [-4497.97998046875, 142.268798828125, 3180.5947265625]
+  UnitConfigName: BarrelBomb2
+- HashId: !u 0x4895bb8c
+  Rotate: [0.05556860938668251, 0.09590301662683487, 0.5262660980224609]
+  SRTHash: 535924258
+  Translate: [-4208.60791015625, 127.96214294433594, 3760.3994140625]
+  UnitConfigName: FldObj_StageGerdoNarrow_A_01_A30
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x4bbe9986
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4189.81494140625, 139.51187133789062, 3082.23828125]
+  UnitConfigName: Area
+- HashId: !u 0x4cbc5ab6
+  Rotate: 1.9600000381469727
+  SRTHash: -1342472583
+  Translate: [-4542.3310546875, 139.68087768554688, 3202.895263671875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_05
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x511fb6c3
+  SRTHash: -1384517836
+  Translate: [-4894.27294921875, 126.0918197631836, 3837.763427734375]
+  UnitConfigName: Animal_Sunazarashi_A
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x5420b4ae
+  Rotate: [3.1362783908843994, 0.6188172698020935, 3.1318905353546143]
+  SRTHash: 252748597
+  Translate: [-4501.3046875, 147.22976684570312, 3105.79638671875]
+  UnitConfigName: KibakoDesert_Contain_01
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x554c7e53
+  Rotate: [-0.05641685426235199, 0.6795288920402527, 0.07537470757961273]
+  SRTHash: -296921001
+  Translate: [-4509.56689453125, 152.78024291992188, 3232.51025390625]
+  UnitConfigName: BarrelBomb2
+- HashId: !u 0x57563d2c
+  Rotate: [-0.5336443781852722, -0.22965480387210846, 1.2030302286148071]
+  SRTHash: 909533977
+  Translate: [-4216.02001953125, 149.53521728515625, 3075.144287109375]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0x583e7f13
+  Rotate: -0.680000364780426
+  SRTHash: -384275989
+  Translate: [-4202.978515625, 139.98599243164062, 3109.647705078125]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- HashId: !u 0x58aaa1c8
+  Rotate: [2.839681625366211, 0.6126012802124023, 2.588426351547241]
+  SRTHash: 1817774111
+  Translate: [-4184.748046875, 161.46876525878906, 3098.177734375]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {EquipItem1: Weapon_Sword_008, FortressEatPer: -1, IsMimicry: true,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x58c46e63
+  Rotate: -3.0999999046325684
+  SRTHash: 844795555
+  Translate: [-4616.39990234375, 139.389404296875, 3159.39990234375]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x593e628c
+  SRTHash: 2137577722
+  Translate: [-4452.59375, 136.33717346191406, 3722.278076171875]
+  UnitConfigName: Animal_Sunazarashi_A
+- '!Parameters': {DropActor: Weapon_Sword_029, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5ad84edb
+  Rotate: [0.02435319684445858, -0.0002867789298761636, 0.07238585501909256]
+  SRTHash: -1329715431
+  Translate: [-4541.99609375, 144.7831268310547, 3201.992919921875]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x60829aca
+  Rotate: [0.030946940183639526, -0.0014771248679608107, 0.005554486066102982]
+  SRTHash: -1402642429
+  Translate: [-4615.99462890625, 130.18850708007812, 3540.97021484375]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {PointName: 逆井：遺跡拠点×パラショール, flag0: true}
+  HashId: !u 0x61268a8b
+  Rotate: 2.3399996757507324
+  SRTHash: -872859768
+  Translate: [-4332.30810546875, 138.04721069335938, 3556.613525390625]
+  UnitConfigName: ObservationPoint
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true,
+    IsLocatorCreate: false, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x61664441
+  SRTHash: -1591200586
+  Translate: [-4863.025390625, 124.0477523803711, 3819.30810546875]
+  UnitConfigName: Animal_Insect_F
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6188b447
+  Rotate: [-1.0734939575195312, 1.2885966300964355, 0.48842358589172363]
+  SRTHash: -2071090490
+  Translate: [-4490.40380859375, 142.9288330078125, 3095.139892578125]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x61b343d6
+  Rotate: [3.081531047821045, 1.1198636293411255, 3.023083448410034]
+  SRTHash: 1837410430
+  Translate: [-4207.52392578125, 139.97019958496094, 3072.941650390625]
+  UnitConfigName: Barrel
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x61c5ea59
+  Rotate: 1.3782893419265747
+  SRTHash: -625576457
+  Translate: [-4884.751953125, 124.2646255493164, 3814.159423828125]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x631c8b08
+  Rotate: [0.06109897419810295, -0.7150246500968933, 0.18283745646476746]
+  SRTHash: -1916418963
+  Translate: [-4191.30615234375, 135.39395141601562, 3106.96044921875]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x6b764acf
+  Rotate: [0.19391299784183502, -1.0176966190338135, 0.024725841358304024]
+  SRTHash: 1768709708
+  Translate: [-4179.34716796875, 141.64064025878906, 3063.303955078125]
+  UnitConfigName: KibakoDesert_Contain_01
+- HashId: !u 0x6d28275c
+  Rotate: 1.5674333572387695
+  SRTHash: 1032338830
+  Translate: [-4106.0322265625, 129.78530883789062, 3919.68212890625]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- HashId: !u 0x6dad5c5d
+  Rotate: [-0.03155314922332764, -0.6278883218765259, -0.014700454659759998]
+  SRTHash: 1991702411
+  Translate: [-4196.3291015625, 164.7824249267578, 3088.946044921875]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {EquipItem1: Weapon_Sword_008, FortressEatPer: -1, IsMimicry: true,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x7185f8d4
+  Rotate: 2.059999465942383
+  SRTHash: -1717561979
+  Translate: [-4560.0, 142.47378540039062, 3052.39990234375]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x767dd667
+  Rotate: 1.0752487182617188
+  SRTHash: -544641764
+  Translate: [-4860.0263671875, 122.73977661132812, 3811.0390625]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x773de43b
+  Rotate: 3.483534336090088
+  SRTHash: 43243414
+  Translate: [-4876.576171875, 123.47687530517578, 3807.34716796875]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x77b0a870
+  Rotate: [2.9632411003112793, -1.448732852935791, 1.378867506980896]
+  SRTHash: 904520663
+  Scale: 0.800000011920929
+  Translate: [-4157.25830078125, 126.00311279296875, 3825.64501953125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x7b7b4ac8
+  SRTHash: -794792408
+  Scale: 60.0
+  Translate: [-4623.236328125, 130.20240783691406, 3543.66796875]
+  UnitConfigName: Area
+- HashId: !u 0x7c35ad62
+  Rotate: -0.789273738861084
+  SRTHash: -384275989
+  Translate: [-4875.81396484375, 145.50074768066406, 3555.37451171875]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- HashId: !u 0x7ca34689
+  Rotate: [-1.9205377101898193, 1.5018599033355713, 0.3944605886936188]
+  SRTHash: 69862473
+  Translate: [-4161.03466796875, 125.5126724243164, 3825.68310546875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7d2a7084
+  Rotate: 5.352558612823486
+  SRTHash: -383010588
+  Translate: [-4860.3798828125, 123.93647766113281, 3841.057861328125]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x828e5806
+  Rotate: 2.643186330795288
+  SRTHash: -201048987
+  Translate: [-4867.884765625, 122.90267181396484, 3838.29638671875]
+  UnitConfigName: Item_Plant_J
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x82f10f19
+  Rotate: 1.5924590826034546
+  SRTHash: -1488054590
+  Translate: [-4892.50732421875, 127.72394561767578, 3795.159912109375]
+  UnitConfigName: Item_Plant_Q
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x830f681f
+  Rotate: -1.6799997091293335
+  SRTHash: -451007263
+  Translate: [-4428.5, 142.09422302246094, 3119.199951171875]
+  UnitConfigName: Animal_Sunazarashi_A
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8345eb6e
+  SRTHash: -1595987427
+  Translate: [-4880.05908203125, 124.85667419433594, 3804.2001953125]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x87c5abf2
+  Rotate: 3.0939807891845703
+  SRTHash: 467984859
+  Translate: [-4201.8662109375, 130.975341796875, 3760.22412109375]
+  UnitConfigName: FldObj_StageGerdo_SS_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x87cc4037
+  Rotate: 6.251093864440918
+  SRTHash: 2042525413
+  Translate: [-4886.673828125, 124.1592025756836, 3821.916748046875]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x88fecf30
+  Rotate: [3.0225229263305664, 0.7390800714492798, 2.7363877296447754]
+  SRTHash: -1954070357
+  Translate: [-4170.18896484375, 157.55471801757812, 3080.23388671875]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0x89374b4f
+  Rotate: 1.4941874742507935
+  SRTHash: -384275989
+  Translate: [-4844.912109375, 145.46112060546875, 3547.771728515625]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8b0a9130
+  Rotate: [3.141479253768921, 0.3406982421875, 3.141479253768921]
+  SRTHash: 464292679
+  Translate: [-4223.30078125, 126.69210052490234, 3734.02734375]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x8c75b496
+  Rotate: -0.40919896960258484
+  SRTHash: 1003381504
+  Translate: [-4847.03564453125, 122.74299621582031, 3772.630126953125]
+  UnitConfigName: DgnObj_DungeonEntrance_DecalSand
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9079c71c
+  Rotate: [0.017826786264777184, -1.1227002143859863, -0.21557743847370148]
+  SRTHash: -151933693
+  Translate: [-4677.4951171875, 157.38394165039062, 3107.707275390625]
+  UnitConfigName: BarrelBomb2
+- HashId: !u 0x94327bf7
+  Rotate: 0.8487891554832458
+  SRTHash: -384275989
+  Translate: [-4850.8046875, 145.45184326171875, 3566.7939453125]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, FortressEatPer: -1,
+    IsMimicry: true, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x94510e8a
+  Rotate: 2.3599987030029297
+  SRTHash: 1106012790
+  Translate: [-4569.60009765625, 142.06231689453125, 3107.0]
+  UnitConfigName: Enemy_Lizalfos_Fire
+- HashId: !u 0x94947f8d
+  Rotate: -3.0200002193450928
+  SRTHash: -384275989
+  Translate: [-4175.5810546875, 142.94320678710938, 3048.54248046875]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- HashId: !u 0x962164d6
+  Rotate: -3.1031863689422607
+  SRTHash: -1160015737
+  Translate: [-4102.79833984375, 119.08771514892578, 3757.90283203125]
+  UnitConfigName: FldObj_StageGerdoLadder_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x96415fe0
+  Rotate: 2.177785873413086
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4870.25244140625, 145.36553955078125, 3549.855712890625]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0x9a8a0ab4
+  Rotate: [-0.025021163746714592, -0.6172464489936829, -0.10749655216932297]
+  SRTHash: -1920892379
+  Translate: [-4503.75146484375, 147.40869140625, 3105.0107421875]
+  UnitConfigName: KibakoDesert_Contain_01
+- HashId: !u 0x9c81f9f1
+  Rotate: [0.7136492133140564, 0.5945106744766235, -2.3525021076202393]
+  SRTHash: -1368328478
+  Translate: [-4169.0751953125, 130.21096801757812, 3085.79833984375]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {DropActor: Obj_IceArrow_A_03, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x9edcab21
+  Rotate: [0.018420392647385597, -0.6074056625366211, -0.006116646341979504]
+  SRTHash: -1822748728
+  Translate: [-4407.501953125, 143.36788940429688, 3087.87353515625]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9fdde281
+  Rotate: [-0.06861018389463425, -1.4550937414169312, 0.05265604332089424]
+  SRTHash: -1766433858
+  Translate: [-4582.50146484375, 138.5498504638672, 3204.24755859375]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa4979b68
+  Rotate: 1.2004554271697998
+  SRTHash: -1123644589
+  Translate: [-4861.9423828125, 122.74481201171875, 3808.046142578125]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0xa66093a9
+  Rotate: [-2.5546083450317383, -0.178706556558609, -1.416689157485962]
+  SRTHash: 1272992244
+  Translate: [-4212.1748046875, 137.90872192382812, 3065.1376953125]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa715b21a
+  Rotate: [-0.35561081767082214, 0.756410539150238, -0.3612624406814575]
+  SRTHash: -903942055
+  Translate: [-4510.3984375, 152.6613311767578, 3230.99365234375]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xa7dc4a51
+  Rotate: [0.018350178375840187, 0.003432505764067173, -0.01857500523328781]
+  SRTHash: 1768709708
+  Translate: [-4210.12353515625, 139.72097778320312, 3088.077880859375]
+  UnitConfigName: KibakoDesert_Contain_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xaad05d2b
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4189.81494140625, 139.51187133789062, 3082.23828125]
+  UnitConfigName: Area
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaafbb8dc
+  Rotate: [-0.07141301035881042, 0.3283645212650299, 0.05457290634512901]
+  SRTHash: -1969599056
+  Translate: [-4465.58935546875, 157.1290283203125, 3226.7099609375]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xab3c55af
+  Rotate: [2.429443120956421, 1.1573485136032104, 1.1802978515625]
+  SRTHash: 0
+  Translate: [-4463.22265625, 153.06640625, 3245.625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0xad194348
+  Rotate: [0.042207807302474976, -0.8996884226799011, -0.0602986179292202]
+  SRTHash: 1837410430
+  Translate: [-4206.07763671875, 139.88766479492188, 3073.336181640625]
+  UnitConfigName: Barrel
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaecb945d
+  Rotate: [0.03583623468875885, -1.0242072343826294, -0.07993670552968979]
+  SRTHash: -1033546066
+  Translate: [-4677.6025390625, 157.364990234375, 3109.008544921875]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xaee160c4
+  Rotate: [-1.5858153104782104, -0.00024413666687905788, 3.106201171875]
+  SRTHash: 0
+  Translate: [-4503.18359375, 149.62109375, 3220.50390625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xaee7d850
+  Rotate: [3.1380279064178467, 0.7261107563972473, 3.100043535232544]
+  SRTHash: 1915069188
+  Translate: [-4604.302734375, 139.49386596679688, 3190.397705078125]
+  UnitConfigName: TBox_Field_Wood
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb2346143
+  Rotate: [1.0103759765625, -0.34423828125, 0.1966552585363388]
+  SRTHash: 0
+  Translate: [-4409.63671875, 148.6640625, 3083.66015625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xb2565863
+  Rotate: [0.08416900783777237, -0.005483762361109257, 0.1563451588153839]
+  SRTHash: 1768709708
+  Translate: [-4180.66259765625, 141.59732055664062, 3060.9208984375]
+  UnitConfigName: KibakoDesert_Contain_01
+- HashId: !u 0xb2801fd0
+  Rotate: [1.1164292097091675, 1.4570804834365845, -0.4248443841934204]
+  SRTHash: 1092563441
+  Translate: [-4185.7421875, 139.6856689453125, 3074.33935546875]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0xb2869b24
+  Rotate: [0.064689502120018, -0.6854507923126221, -0.2262374609708786]
+  SRTHash: -1871607538
+  Translate: [-4185.87109375, 162.34291076660156, 3087.4814453125]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb2efcdff
+  Rotate: 1.3880677223205566
+  SRTHash: 1732189791
+  Translate: [-4883.787109375, 124.43326568603516, 3811.2119140625]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb32c08ce
+  Rotate: 0.8477546572685242
+  SRTHash: -925896514
+  Translate: [-4858.2080078125, 123.28648376464844, 3835.96435546875]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0xb3f8dad2
+  Rotate: -2.858992338180542
+  SRTHash: -384275989
+  Translate: [-4642.43798828125, 133.07455444335938, 3834.90283203125]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {EquipItem1: Weapon_Sword_008, FortressEatPer: -1, IsMimicry: true,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xb904745a
+  Rotate: -1.5768063068389893
+  SRTHash: -1908340312
+  Translate: [-4175.07275390625, 142.61334228515625, 3062.488037109375]
+  UnitConfigName: Enemy_Lizalfos_Middle
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xb92ad6b7
+  Rotate: 1.9351961612701416
+  SRTHash: -759412359
+  Scale: 99.99999237060547
+  Translate: [-4639.8076171875, 132.76226806640625, 3860.447021484375]
+  UnitConfigName: Area
+- HashId: !u 0xb9f74c72
+  Rotate: -1.5707963705062866
+  SRTHash: 197414784
+  Translate: [-4207.736328125, 129.78530883789062, 3923.649658203125]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xbbc2205e
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4623.236328125, 130.20240783691406, 3543.66796875]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbcd6f2f1
+  Rotate: 2.988262414932251
+  SRTHash: 544136814
+  Translate: [-4897.4609375, 127.60479736328125, 3802.476806640625]
+  UnitConfigName: Item_Plant_Q
+- HashId: !u 0xbdce4562
+  Rotate: [-0.5353101491928101, -0.6854507923126221, -0.2262374609708786]
+  SRTHash: 1054947008
+  Scale: 0.8015471696853638
+  Translate: [-4160.82080078125, 143.9502716064453, 3052.9404296875]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xbf7a4a63
+  Rotate: 2.177785873413086
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4870.25244140625, 145.36553955078125, 3549.855712890625]
+  UnitConfigName: Area
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc4683291
+  Rotate: [3.1114859580993652, 0.15969568490982056, -3.0911805629730225]
+  SRTHash: 1941749810
+  Translate: [-4613.1953125, 141.94671630859375, 3214.5]
+  UnitConfigName: BarrelBomb2
+- HashId: !u 0xc4a908a7
+  Rotate: -3.1031863689422607
+  SRTHash: -2027696
+  Translate: [-4102.73291015625, 131.08770751953125, 3759.6015625]
+  UnitConfigName: FldObj_StageGerdoLadderStep_A_01
+- HashId: !u 0xc4ffea44
+  Rotate: -2.6164026260375977
+  SRTHash: -384275989
+  Translate: [-4878.94140625, 145.48797607421875, 3525.691162109375]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- HashId: !u 0xc64af394
+  Rotate: -1.5707963705062866
+  SRTHash: 2045847258
+  Translate: [-4208.63232421875, 134.21290588378906, 3726.919921875]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {DropTable: Normal, InitBurnState: false, IsDrop: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc7eb2792
+  Rotate: -1.930795669555664
+  SRTHash: 2146687726
+  Translate: [-4505.7001953125, 147.91502380371094, 3116.39990234375]
+  UnitConfigName: FireWood
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xc87d7af5
+  Rotate: 1.9351961612701416
+  SRTHash: 1276336826
+  Scale: 24.999998092651367
+  Translate: [-4639.8076171875, 132.7622833251953, 3860.447021484375]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitBurnState: false, IsDrop: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcad4e1db
+  Rotate: -0.8107976317405701
+  SRTHash: 1495107506
+  Translate: [-4616.89990234375, 143.2650604248047, 3199.89990234375]
+  UnitConfigName: FireWood
+- HashId: !u 0xcbba8f85
+  Rotate: -1.5391151905059814
+  SRTHash: -105730765
+  Translate: [-4108.40771484375, 129.78530883789062, 3760.376708984375]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xcc207031
+  Rotate: 2.943317174911499
+  SRTHash: 875633924
+  Translate: [-4877.72802734375, 123.55915069580078, 3808.358642578125]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xce1e0cdb
+  Rotate: [0.15504294633865356, -1.2733104228973389, -0.23553507030010223]
+  SRTHash: 1633644054
+  Translate: [-4678.80224609375, 157.45286560058594, 3108.30078125]
+  UnitConfigName: BarrelBomb2
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xce2de621
+  Rotate: 2.177785873413086
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4870.25244140625, 145.36553955078125, 3549.855712890625]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xcf1df7eb
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4189.81494140625, 139.51187133789062, 3082.23828125]
+  UnitConfigName: Area
+- HashId: !u 0xd13118ae
+  Rotate: [-0.5200003981590271, -1.5391151905059814, 0.19999971985816956]
+  SRTHash: -2123771704
+  Translate: [-4104.890625, 125.43374633789062, 3816.6728515625]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd2900500
+  Rotate: 0.9583703875541687
+  SRTHash: 1040800633
+  Translate: [-4886.7978515625, 127.34658813476562, 3789.537353515625]
+  UnitConfigName: Item_Plant_Q
+- '!Parameters': {DropActor: Obj_FireArrow_A_02, EnableRevival: false, IsInGround: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd7129774
+  Rotate: [0.07390692085027695, -1.3561508655548096, -0.08307260274887085]
+  SRTHash: 924422999
+  Translate: [-4518.20068359375, 142.84425354003906, 3124.1982421875]
+  UnitConfigName: TBox_Field_Wood
+- HashId: !u 0xd8b3562c
+  Rotate: [0.17827610671520233, -0.024984940886497498, 0.13776686787605286]
+  SRTHash: 960534450
+  Translate: [-4174.453125, 139.45254516601562, 3068.242431640625]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xd9d8fe01
+  Rotate: [0.045634932816028595, -0.6215509176254272, 0.04065457731485367]
+  SRTHash: -846927083
+  Translate: [-4611.85595703125, 142.0507354736328, 3213.189697265625]
+  UnitConfigName: KibakoDesert_Contain_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xdb435761
+  Rotate: 1.6415563821792603
+  SRTHash: 1178951356
+  Translate: [-4885.4248046875, 123.82913208007812, 3822.363037109375]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0xdb7788e4
+  Rotate: [0.06109897419810295, -0.7150246500968933, 0.18283745646476746]
+  SRTHash: -1637755253
+  Translate: [-4180.81005859375, 137.67910766601562, 3095.37744140625]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xdddc5076
+  Rotate: 2.0300774574279785
+  SRTHash: -146590825
+  Translate: [-4862.42724609375, 124.20723724365234, 3842.932373046875]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xe1466f76
+  Rotate: 1.9351961612701416
+  SRTHash: -788680952
+  Scale: 49.999996185302734
+  Translate: [-4639.8076171875, 132.7622833251953, 3860.447021484375]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe1f88847
+  Rotate: 1.4565656185150146
+  SRTHash: -109234545
+  Translate: [-4888.3095703125, 124.66903686523438, 3828.099853515625]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0xe3354b61
+  Rotate: 0.6061995029449463
+  SRTHash: -384275989
+  Translate: [-4624.998046875, 133.00987243652344, 3881.56103515625]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0xe53d26f9
+  Rotate: [0.060652654618024826, -1.1188403367996216, -0.08110327273607254]
+  SRTHash: 1837410430
+  Translate: [-4205.2333984375, 139.83706665039062, 3074.404541015625]
+  UnitConfigName: Barrel
+- '!Parameters': {DropTable: Gerudo, SharpWeaponJudgeType: 0, TurnActorNearEnemy: true}
+  HashId: !u 0xe5f94d2c
+  Rotate: [0.07886504381895065, 0.0006737856310792267, -0.013467395678162575]
+  SRTHash: 1768709708
+  Translate: [-4199.9716796875, 140.2920684814453, 3063.19921875]
+  UnitConfigName: KibakoDesert_Contain_01
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true,
+    IsLocatorCreate: false, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe962026c
+  SRTHash: 1096162627
+  Translate: [-4876.64013671875, 125.0716552734375, 3814.64013671875]
+  UnitConfigName: Animal_Insect_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xea2ccc55
+  Rotate: 0.09136984497308731
+  SRTHash: -391220885
+  Translate: [-4897.23095703125, 127.66614532470703, 3801.39013671875]
+  UnitConfigName: Item_Plant_Q
+- '!Parameters': {IsEnemyLiftable: true, IsFixedPlace: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xead7709f
+  Rotate: [-0.015381895005702972, 0.10072679072618484, -0.1345425397157669]
+  SRTHash: 160381342
+  Translate: [-4504.40185546875, 147.45333862304688, 3102.70654296875]
+  UnitConfigName: BarrelBomb2
+- HashId: !u 0xebb9434c
+  Rotate: [0.1535966545343399, 0.28031331300735474, -0.04794741049408913]
+  SRTHash: -188970457
+  Translate: [-4627.29833984375, 129.3749237060547, 3567.253173828125]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- '!Parameters': {DropTable: Normal, IsCreateDead: false, IsDrop: false, IsEnemyLiftable: true,
+    IsLocatorCreate: false, IsPlayerPut: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xedf6eca5
+  SRTHash: 1335190736
+  Translate: [-4863.2744140625, 124.70245361328125, 3813.7734375]
+  UnitConfigName: Animal_Insect_F
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0xef3c4435
+  Rotate: [0.03381982445716858, -0.6792563199996948, -0.04885999113321304]
+  SRTHash: 1837410430
+  Translate: [-4205.14013671875, 139.90098571777344, 3071.85546875]
+  UnitConfigName: Barrel
+- HashId: !u 0xf1f37da2
+  Rotate: [1.6672340631484985, 0.9288631677627563, 1.5772948265075684]
+  SRTHash: 1785683217
+  Translate: [-4307.62451171875, 123.44468688964844, 3462.563232421875]
+  UnitConfigName: FldObj_GerudoDesertRock_A_30
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf46ed7f4
+  Rotate: 0.8399999737739563
+  SRTHash: 1171429561
+  Translate: [-4867.07861328125, 122.88485717773438, 3838.089599609375]
+  UnitConfigName: Item_Plant_J
+- HashId: !u 0xfd64f5ab
+  Rotate: [0.09276431053876877, 1.181355595588684, -0.07676117867231369]
+  SRTHash: -1980205834
+  Translate: [-4649.57177734375, 131.8581085205078, 3533.494384765625]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- HashId: !u 0xfe307bd9
+  Rotate: 1.25159752368927
+  SRTHash: -384275989
+  Translate: [-4614.708984375, 133.00985717773438, 3864.51123046875]
+  UnitConfigName: FldObj_EnemyLookout_B_01
+Rails: []

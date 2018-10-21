@@ -1,0 +1,594 @@
+LocationPosX: -3500.0
+LocationPosZ: 500.0
+LocationSize: 1000.0
+Objs:
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: true,
+    Shape: Box}
+  HashId: !u 0x0eca1a99
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x47a77864
+  SRTHash: 194926821
+  Scale: [1000.0, 2200.0, 1000.0]
+  Translate: [-3500.0, 600.0, 500.0]
+  UnitConfigName: Area
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0x15f5b30d
+  OnlyOne: true
+  Rotate: 2.356194496154785
+  SRTHash: -1775256717
+  Translate: [-3505.800048828125, 1001.5, 505.79998779296875]
+  UnitConfigName: Npc_DungeonPriestDlc006
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: 100enemy_CurrentCourse_Junior,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x19fbe032
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x2ce8d3ee
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xc0d34d71
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x5b76011e
+  SRTHash: -479102994
+  Translate: [-3574.629638671875, 965.484375, 578.94580078125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1d5191ee
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xadf89560
+  SRTHash: 0
+  Translate: [-3500.0, 1002.2108764648438, 500.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x241da990
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xa289db3e}
+  SRTHash: 898775966
+  Translate: [-1926.373046875, 1000.0, 608.9085083007812]
+  UnitConfigName: BottomTag
+- HashId: !u 0x286adcb1
+  Rotate: -3.1415927410125732
+  SRTHash: -2003985285
+  Translate: [-3500.0, 1002.2108764648438, 500.614990234375]
+  UniqueName: MasterSword
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x294f8ec8
+  OnlyOne: true
+  SRTHash: 768002577
+  Translate: [-3500.0, 1110.0, 500.0]
+  UnitConfigName: DgnObj_DLC_GoalChain_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2b6ce7ce
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5cf2353e
+  SRTHash: -13223922
+  Translate: [-3499.0, 1002.2108764648438, 500.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2ce8d3ee
+  Rotate: [1.5707963705062866, 0.0, 0.0]
+  SRTHash: 1663560881
+  Translate: [-3573.0, 965.7734375, 580.5]
+  UnitConfigName: Weapon_Sword_070
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2ef3aff6
+  Rotate: 0.7853981852531433
+  SRTHash: 991109459
+  Translate: [-3491.39990234375, 1000.6400756835938, 508.6000061035156]
+  UnitConfigName: DgnObj_DLC_hrl_Pillar1x1x4_01
+- HashId: !u 0x2feee891
+  Rotate: -3.1415927410125732
+  SRTHash: -2003985285
+  Translate: [-3573.0, 964.7734375, 581.114990234375]
+  UniqueName: MasterSword
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x31b1f1dd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc02ff856
+  Rotate: 1.5707963705062866
+  SRTHash: 377741713
+  Translate: [-3500.0, 983.4124145507812, 580.5999755859375]
+  UniqueName: Base_2
+  UnitConfigName: DgnObj_MasterSwordBase_100Enemy
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0x3516ca17
+  OnlyOne: true
+  SRTHash: -456970069
+  Translate: [-3500.0, 1006.25, 492.29998779296875]
+  UnitConfigName: Npc_DungeonPriestDlc001
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x365dd90f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1d5191ee
+  Rotate: -3.1415927410125732
+  SRTHash: 377741713
+  Translate: [-3500.0, 1002.2108764648438, 500.0]
+  UniqueName: Base_4
+  UnitConfigName: DgnObj_MasterSwordBase_100Enemy
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x39ea73c6
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x5cf2353e
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xc451422e
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x5ff40e41
+  SRTHash: -1248064814
+  Translate: [-3500.451904296875, 1002.4921875, 501.6844177246094]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0x41c30bff
+  Rotate: [1.5707963705062866, 0.0, 0.0]
+  SRTHash: 1663560881
+  Translate: [-3500.0, 1003.2108764648438, 500.0]
+  UnitConfigName: Weapon_Sword_070
+- HashId: !u 0x42c53080
+  Rotate: -3.1415927410125732
+  SRTHash: -2003985285
+  Translate: [-3500.0, 1002.2108764648438, 500.614990234375]
+  UniqueName: MasterSword
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x45291852
+  Rotate: 1.5707963705062866
+  SRTHash: -2003985285
+  Translate: [-3500.614990234375, 983.4124145507812, 580.5999755859375]
+  UniqueName: MasterSword
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0x462f232d
+  Rotate: [-1.5707963705062866, -1.5707963705062866, 3.1415927410125732]
+  SRTHash: 1663560881
+  Translate: [-3500.0, 984.4124145507812, 580.5999755859375]
+  UnitConfigName: Weapon_Sword_070
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x47a77864
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x956f56f6
+  SRTHash: 0
+  Translate: [-3500.0, 600.0, 500.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4f452b2b
+  Rotate: -1.5707963705062866
+  SRTHash: -1221054408
+  Translate: [-3510.15576171875, 981.2882080078125, 580.5999755859375]
+  UnitConfigName: DgnObj_DLC_PriestRoom_A_03
+- HashId: !u 0x538734bc
+  OnlyOne: true
+  Rotate: 0.2617993950843811
+  SRTHash: -70961668
+  Translate: [-3500.0, 800.0, 498.25]
+  UnitConfigName: DgnObj_DLC_PriestRoomDome_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: 100enemy_CurrentCourse_Senior,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x54334139
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6e392049
+  SRTHash: 618432096
+  Translate: [-3504.78515625, 982.1651000976562, 585.0332641601562]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5b76011e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x75a5ec4c
+  Rotate: -3.1415927410125732
+  SRTHash: 377741713
+  Translate: [-3573.0, 964.7734375, 580.5]
+  UniqueName: Base_1
+  UnitConfigName: DgnObj_MasterSwordBase_100Enemy
+- '!Parameters':
+    EventFlowEntryName: Demo208_0
+    EventFlowName: Demo208_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: -3500.0, Y: 1002.2109985351562, Z: 500.614990234375}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x5cf2353e
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x286adcb1}
+  SRTHash: -525531866
+  Translate: [-3499.0, 1002.2108764648438, 499.0]
+  UnitConfigName: EventTag
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0x5fd13ad4
+  OnlyOne: true
+  Rotate: -1.5707963705062866
+  SRTHash: 471616345
+  Translate: [-3492.300048828125, 1003.5, 500.0]
+  UnitConfigName: Npc_DungeonPriestDlc005
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5ff40e41
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2b6ce7ce
+  Rotate: -3.1415927410125732
+  SRTHash: 377741713
+  Translate: [-3500.0, 1002.2108764648438, 500.0]
+  UniqueName: Base_3
+  UnitConfigName: DgnObj_MasterSwordBase_100Enemy
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0x65db5ba4
+  OnlyOne: true
+  Rotate: -0.7853981852531433
+  SRTHash: 1344201975
+  Translate: [-3494.199951171875, 1005.5, 494.20001220703125]
+  UnitConfigName: Npc_DungeonPriestDlc003
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6e392049
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x4f452b2b
+  SRTHash: 1055100512
+  Translate: [-3504.636474609375, 982.1651000976562, 583.9105834960938]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: 100enemy_CurrentCourse_Senior,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x7422d2cd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf2b6a063
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x39ea73c6
+  SRTHash: 53198274
+  Translate: [-3501.279541015625, 1002.6875, 501.37823486328125]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x75a5ec4c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc0d34d71
+  SRTHash: 0
+  Translate: [-3573.0, 964.7734375, 580.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: 100enemy_VanishShield,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x78de6b1c
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfe4a19b2}
+  SRTHash: 996134685
+  Translate: [-3494.5, 1000.1151733398438, 508.296875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7d69f472
+  Rotate: 0.7853981852531433
+  SRTHash: 1346490943
+  Translate: [-3491.39990234375, 1000.6400756835938, 491.3999938964844]
+  UnitConfigName: DgnObj_DLC_hrl_Pillar1x1x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x89c718fe
+  OnlyOne: true
+  SRTHash: 420250457
+  Translate: [-3572.962646484375, 962.6171875, 573.021484375]
+  UnitConfigName: DgnObj_DLC_PriestRoom_A_04
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: 100enemy_VanishPreist,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x9361c1a3
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xdea960a8}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x5fd13ad4}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x65db5ba4}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xae878801}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x948de971}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x15f5b30d}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x3516ca17}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xef417a35}
+  SRTHash: 1400154416
+  Translate: [-3496.515869140625, 1000.2303466796875, 510.8760681152344]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0x948de971
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: 811484414
+  Translate: [-3507.699951171875, 1003.5, 500.0]
+  UnitConfigName: Npc_DungeonPriestDlc004
+- '!Parameters': {IgnitedLevel: 0, PaletteSel: 40, TemperatureDirectDay: 23.0, TemperatureDirectNight: 23.0,
+    TimeForSkyEnv: 10, Weather: 0, WeatherEff: -1}
+  HashId: !u 0x956f56f6
+  SRTHash: 404683811
+  Translate: [-3545.132568359375, -538.1875, 475.3087463378906]
+  UnitConfigName: EnduranceEnvChangeTag
+- '!Parameters':
+    EventFlowEntryName: Demo207_0
+    EventFlowName: Demo207_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: -3500.0, Y: 1001.4869995117188, Z: 512.0}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x9a76045a
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xb382b8b9}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0xfe4a19b2}
+  Rotate: 3.1415927410125732
+  SRTHash: -41884904
+  Translate: [-3500.0, 1001.6151733398438, 508.75]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9c47fe16
+  Rotate: 0.7853981852531433
+  SRTHash: -154407190
+  Translate: [-3508.75, 1000.6400756835938, 508.75]
+  UnitConfigName: DgnObj_DLC_hrl_Pillar1x1x4_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: 100enemy_CurrentCourse_Middle,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x9f6f929c
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x462f232d
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xaa14bdb2
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x31b1f1dd
+  SRTHash: -2072424678
+  Translate: [-3501.0009765625, 983.8984375, 582.1538696289062]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xa289db3e
+  SRTHash: -1674677089
+  Scale: 900.0
+  Translate: [-3500.0, 0.0, 500.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: 100enemy_CurrentCourse_Middle,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xa565f3ec
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6e392049
+  SRTHash: 843685191
+  Translate: [-3503.770263671875, 982.1651000976562, 585.1227416992188]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xa95564b5
+  SRTHash: -725330409
+  Scale: 180.0
+  Translate: [-3500.0, -1342.0, 500.0]
+  UnitConfigName: DungeonPit
+- '!Parameters':
+    EventFlowEntryName: Demo206_0
+    EventFlowName: Demo206_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: -3500.614990234375, Y: 983.4124145507812, Z: 580.5999755859375}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0xaa14bdb2
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x45291852}
+  Rotate: -1.5707963705062866
+  SRTHash: -525531866
+  Translate: [-3499.0, 983.4124145507812, 581.5999755859375]
+  UnitConfigName: EventTag
+- '!Parameters':
+    EventFlowEntryName: Demo206_0
+    EventFlowName: Demo206_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: -3500.0, Y: 1002.2109985351562, Z: 500.614990234375}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0xadf89560
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x42c53080}
+  SRTHash: -525531866
+  Translate: [-3499.0, 1002.2108764648438, 499.0]
+  UnitConfigName: EventTag
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0xae878801
+  OnlyOne: true
+  Rotate: 0.7853981852531433
+  SRTHash: -1904948544
+  Translate: [-3505.800048828125, 1005.5, 494.20001220703125]
+  UnitConfigName: Npc_DungeonPriestDlc002
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb0c9aba1
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0xc451422e}
+  SRTHash: 1664086488
+  Translate: [-3501.0, 1002.2108764648438, 500.0]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0xb382b8b9
+  Rotate: 3.1415927410125732
+  SRTHash: 241807053
+  Translate: [-3500.0, 1001.4869384765625, 512.0]
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb74d9f81
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x2ce8d3ee}
+  SRTHash: 1664086488
+  Translate: [-3574.0, 964.7734375, 580.5]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {AutoSave: false, CalcMarginXMinus: 0.0, CalcMarginXPlus: 0.0, CalcMarginYMinus: 0.0,
+    CalcMarginYPlus: 0.0, CalcMarginZMinus: 0.0, CalcMarginZPlus: 0.0, CameraPriority: 1,
+    CameraSet: '-', CullingOption: 0, ForceCalcInEvent: true, HideOutSide: true, HideRoomNum: -1,
+    IsConnectNeighborArea: false, LoadMarginXMinus: 0.0, LoadMarginXPlus: 0.0, LoadMarginYMinus: 0.0,
+    LoadMarginYPlus: 0.0, LoadMarginZMinus: 0.0, LoadMarginZPlus: 0.0, MarginSize: -1.0,
+    Shape: Box}
+  HashId: !u 0xbc9bea15
+  SRTHash: 1171342200
+  Scale: [1200.0, 2400.0, 1200.0]
+  Translate: [-3500.0, 700.0, 500.0]
+  UnitConfigName: AreaCulling_InnerHide
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: 100enemy_CurrentCourse_Senior,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xbf7e0168
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xc8e3e068
+  SRTHash: 706876397
+  Translate: [-3496.4892578125, 982.087158203125, 575.57763671875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc02ff856
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xaa14bdb2
+  SRTHash: 0
+  Translate: [-3500.0, 983.4124145507812, 580.5999755859375]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    EventFlowEntryName: Demo206_0
+    EventFlowName: Demo206_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: -3573.0, Y: 964.7733764648438, Z: 581.114990234375}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0xc0d34d71
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x2feee891}
+  SRTHash: -525531866
+  Translate: [-3572.0, 964.7734375, 579.5]
+  UnitConfigName: EventTag
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc451422e
+  Rotate: [1.5707963705062866, 0.0, 0.0]
+  SRTHash: 1663560881
+  Translate: [-3500.0, 1003.2108764648438, 500.0]
+  UnitConfigName: Weapon_Sword_070
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc8e3e068
+  SRTHash: -843183405
+  Translate: [-3500.0, 1000.0, 517.75]
+  UnitConfigName: DgnObj_DLC_PriestRoom_A_03
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlag: 100enemy_Finish,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xcfa2032f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd2a73397
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf2b6a063
+  SRTHash: -604008272
+  Translate: [-3501.9248046875, 1002.4921875, 501.55621337890625]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd2a73397
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x39ea73c6
+  SRTHash: 1807796746
+  Translate: [-3501.15673828125, 1002.4921875, 501.9518737792969]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xda664790
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x41c30bff}
+  SRTHash: 1664086488
+  Translate: [-3501.0, 1002.2108764648438, 500.0]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xdd8a6f42
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x462f232d}
+  Rotate: -1.5707963705062866
+  SRTHash: 1664086488
+  Translate: [-3500.0, 983.4124145507812, 579.5999755859375]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0xdea960a8
+  OnlyOne: true
+  Rotate: -2.356194496154785
+  SRTHash: 1695334652
+  Translate: [-3494.199951171875, 1001.5, 505.79998779296875]
+  UnitConfigName: Npc_DungeonPriestDlc007
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe34f290a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9a76045a
+  SRTHash: -738732123
+  Translate: [-3507.5, 1000.1151733398438, 505.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xef417a35
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe34f290a
+  OnlyOne: true
+  SRTHash: 408488480
+  Translate: [-3500.0, 1003.0, 511.0]
+  UnitConfigName: DgnObj_GoalExit
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf2b6a063
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x41c30bff
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xadf89560
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x365dd90f
+  SRTHash: 1918331147
+  Translate: [-3501.3388671875, 1002.4921875, 500.6805419921875]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfacf3f31
+  Rotate: 0.7853981852531433
+  SRTHash: -1813898196
+  Translate: [-3508.60009765625, 1000.6400756835938, 491.25]
+  UnitConfigName: DgnObj_DLC_hrl_Pillar1x1x4_01
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xfe4a19b2
+  OnlyOne: true
+  SRTHash: -1255009596
+  Translate: [-3500.0, 1000.0, 500.0]
+  UnitConfigName: DgnObj_GoalShield_B
+Rails: []

@@ -1,0 +1,3698 @@
+Objs:
+- HashId: !u 0x0055e307
+  Rotate: [1.3973585367202759, -1.4116345643997192, -1.355689525604248]
+  SRTHash: -1496573882
+  Translate: [-4174.5927734375, 193.0364227294922, 1985.267822265625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x005f3471
+  Rotate: [0.8708332180976868, -1.2650632858276367, -0.7504139542579651]
+  SRTHash: -776416643
+  Scale: 0.9042969942092896
+  Translate: [-4389.40625, 618.6319580078125, 1008.31640625]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0x007f8ab9
+  Rotate: [-3.0529017448425293, -0.3053908050060272, -3.070565938949585]
+  SRTHash: 1980068162
+  Translate: [-4246.83642578125, 235.75924682617188, 1635.186279296875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x01e367cc
+  Rotate: 1.5100096464157104
+  SRTHash: -581188222
+  Translate: [-4185.421875, 533.8490600585938, 1257.84765625]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x034e463d
+  Rotate: [1.1627196073532104, 0.2249755710363388, 0.1633300632238388]
+  SRTHash: 0
+  Translate: [-4206.14453125, 449.55078125, 1450.84765625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x047bff92
+  Rotate: [0.30488505959510803, 0.0005188371287658811, -0.21161802113056183]
+  SRTHash: 1920228304
+  Translate: [-4588.23388671875, 567.3714599609375, 1409.04833984375]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x048b06dc
+  Rotate: -2.0689938068389893
+  SRTHash: -1625565433
+  Translate: [-4142.6416015625, 401.4637451171875, 1728.6597900390625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x049dfdf7
+  Rotate: [3.141479253768921, 1.1328125, 3.141479253768921]
+  SRTHash: -1574733273
+  Translate: [-4341.5703125, 179.85296630859375, 1867.953125]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x049ff84c
+  Rotate: [0.2017897516489029, 1.010326862335205, 0.07825019955635071]
+  SRTHash: -934895429
+  Translate: [-4348.34375, 496.74420166015625, 1170.875]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x04de1e14
+  Rotate: [1.5185545682907104, 0.4847411811351776, 0.2193603366613388]
+  SRTHash: 0
+  Translate: [-4197.52734375, 289.28515625, 1846.6171875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0511fe3b
+  Rotate: [2.952338457107544, 0.6715978980064392, 3.0067384243011475]
+  SRTHash: 633863178
+  Translate: [-4098.939453125, 557.882568359375, 1193.1419677734375]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x057617e5
+  Rotate: 2.8648219108581543
+  SRTHash: 2037445312
+  Translate: [-4128.47021484375, 401.49285888671875, 1714.9117431640625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x061fffe1
+  Rotate: [1.418217658996582, 1.0302660465240479, 1.7561242580413818]
+  SRTHash: -1078295168
+  Translate: [-4775.0537109375, 564.522705078125, 1438.554443359375]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x0650c764
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4319.31591796875, 189.6252899169922, 1693.9774169921875]
+  UnitConfigName: Area
+- HashId: !u 0x06582da9
+  Rotate: [0.6073045134544373, 1.129035472869873, 0.5182176828384399]
+  SRTHash: -1516857450
+  Scale: 1.0952149629592896
+  Translate: [-4128.453125, 535.4241333007812, 1249.54296875]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsNearCreate: false,
+    LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x06a122c1
+  Rotate: -2.3031842708587646
+  SRTHash: 387271171
+  Translate: [-4462.2001953125, 564.9054565429688, 1369.9000244140625]
+  UnitConfigName: Enemy_Octarock_Snow
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x06aae80e
+  SRTHash: 1863151567
+  Translate: [-4349.4052734375, 154.9603271484375, 2128.14453125]
+  UnitConfigName: Obj_LiftRockGerudo_A_01
+- HashId: !u 0x06bd30db
+  Rotate: -1.160000205039978
+  SRTHash: 2080394631
+  Translate: [-4266.447265625, 404.7525634765625, 1497.908447265625]
+  UnitConfigName: FldObj_GerudoHighlandRock_B_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x06d419c2
+  Rotate: [2.278564453125, -0.9626464247703552, -0.2115478366613388]
+  SRTHash: 0
+  Translate: [-3990.3515625, 440.95703125, 1490.19921875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x07124ea0
+  Rotate: [-3.0960137844085693, 0.15292491018772125, -3.0307672023773193]
+  SRTHash: 1980068162
+  Translate: [-4040.593994140625, 302.9424743652344, 1554.575927734375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- HashId: !u 0x073280ee
+  Rotate: [1.1513315439224243, -1.371127963066101, -1.044575810432434]
+  SRTHash: -1681550820
+  Scale: 1.010741949081421
+  Translate: [-4230.97265625, 600.4742431640625, 1118.28515625]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0759811d
+  Rotate: [1.3651123046875, -0.7694091200828552, 0.0506591759622097]
+  SRTHash: 0
+  Translate: [-4861.828125, 530.390625, 1382.87890625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0765fb0b
+  Rotate: [-3.141592264175415, 1.0215932130813599, -2.841592311859131]
+  SRTHash: -1072244737
+  Translate: [-4234.90625, 538.508544921875, 1188.452392578125]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x078afcfc
+  SRTHash: 1343075577
+  Translate: [-4799.6865234375, 718.4932861328125, 1059.185302734375]
+  UnitConfigName: Animal_Rhino_A
+- HashId: !u 0x07ae0baf
+  Rotate: 0.059995055198669434
+  SRTHash: -115543293
+  Translate: [-4530.65380859375, 571.1870727539062, 1425.756103515625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x07c7be1c
+  Rotate: [1.0324550867080688, 0.9443521499633789, 1.0003924369812012]
+  SRTHash: 569583515
+  Translate: [-4374.63623046875, 607.9657592773438, 1041.7276611328125]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x08301e01
+  SRTHash: -1629198819
+  Translate: [-4695.89990234375, 145.2899932861328, 1977.7099609375]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- HashId: !u 0x0850b8c5
+  Rotate: [-2.8414275646209717, 1.0278626680374146, -2.8295884132385254]
+  SRTHash: -1158877791
+  Translate: [-4148.6806640625, 400.4601745605469, 1711.0992431640625]
+  UnitConfigName: Obj_Plant_HopBush_C_02
+- HashId: !u 0x087a7aa1
+  Rotate: 1.499586820602417
+  SRTHash: -384275989
+  Translate: [-4728.9853515625, 612.544189453125, 1359.430908203125]
+  UnitConfigName: FldObj_SnowEnemyLookout_B_01
+- HashId: !u 0x08bd9644
+  Rotate: -1.8294954299926758
+  SRTHash: 1934539962
+  Translate: [-4135.9541015625, 401.3868408203125, 1721.1453857421875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x08c687f7
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4171.34912109375, 241.2188262939453, 1592.24365234375]
+  UnitConfigName: Area
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x08caf4e5
+  Rotate: 5.959854602813721
+  SRTHash: -22542041
+  Translate: [-4198.0361328125, 533.4193725585938, 1276.4234619140625]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x08ce2b6c
+  Rotate: 1.859999418258667
+  SRTHash: -1890121954
+  Translate: [-4428.9560546875, 382.175048828125, 1617.5526123046875]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x092022f3
+  Rotate: [1.3077391386032104, -0.2611083686351776, 0.4097900092601776]
+  SRTHash: 0
+  Translate: [-4025.8515625, 573.96484375, 1233.76171875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x0947a5c8
+  Rotate: [0.38207411766052246, 1.2957435846328735, 0.47351446747779846]
+  SRTHash: 1305655317
+  Translate: [-4169.08447265625, 192.52850341796875, 1994.6466064453125]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x0967107e
+  Rotate: -2.3799967765808105
+  SRTHash: 999681108
+  Translate: [-4092.821044921875, 292.48101806640625, 1587.9962158203125]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0x0991e9c1
+  Rotate: -1.4752920866012573
+  SRTHash: 305704493
+  Translate: [-4124.06396484375, 401.8708801269531, 1718.772705078125]
+  UnitConfigName: Obj_Plant_HopBush_C_02
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x09ccdaed
+  SRTHash: -319994448
+  Translate: [-4126.29150390625, 549.530029296875, 1350.347412109375]
+  UnitConfigName: Animal_Rhino_A
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0a336ab4
+  Rotate: [0.40000006556510925, -0.29999998211860657, 0.0]
+  SRTHash: 1433777274
+  Translate: [-4774.849609375, 564.0541381835938, 1439.11083984375]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0ab77f83
+  SRTHash: -531448612
+  Translate: [-4373.5390625, 499.70184326171875, 1218.4033203125]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0ac6c16c
+  Rotate: [0.0769738182425499, -0.5324215888977051, -0.22795991599559784]
+  SRTHash: 2024152155
+  Translate: [-4585.48486328125, 567.1641845703125, 1410.605712890625]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x0b4dc7ae
+  SRTHash: 616567522
+  Scale: 40.0
+  Translate: [-4475.7001953125, 566.5228881835938, 1360.199951171875]
+  UnitConfigName: Area
+- HashId: !u 0x0bc17e7e
+  Rotate: 0.48000001907348633
+  SRTHash: 1382345498
+  Translate: [-4356.07421875, 209.7788543701172, 1713.413330078125]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- '!Parameters': {EquipItem1: Weapon_Sword_061, IsNearCreate: false, LevelSensorMode: 0,
+    NearCreateAppearID: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x0c753bf1
+  SRTHash: 102270810
+  Translate: [-3999.737060546875, 616.2930297851562, 1175.8778076171875]
+  UnitConfigName: Enemy_Wizzrobe_Ice
+- HashId: !u 0x0ca84953
+  Rotate: -1.7999992370605469
+  SRTHash: 1383671301
+  Translate: [-4276.5908203125, 223.48614501953125, 1682.1624755859375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0x0d98be9a
+  Rotate: [-0.04418592527508736, -0.7041241526603699, 0.11126193404197693]
+  SRTHash: 1158301376
+  Scale: 1.0458691120147705
+  Translate: [-4454.7470703125, 628.5951538085938, 1244.0697021484375]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0dd1fb4f
+  Rotate: [1.2266844511032104, 0.005004888400435448, 0.0313720665872097]
+  SRTHash: 0
+  Translate: [-4079.96484375, 357.22265625, 1756.88671875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x0e7a72fe
+  SRTHash: 1103942275
+  Translate: [-4181.56787109375, 533.828369140625, 1290.3800048828125]
+  UnitConfigName: Animal_Elk_A
+- HashId: !u 0x0e7e582a
+  Rotate: [-0.10056272149085999, -1.0960394144058228, 0.13351063430309296]
+  SRTHash: -673975828
+  Translate: [-4120.17724609375, 401.1242370605469, 1702.1903076171875]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0f58f354
+  SRTHash: 1152869647
+  Translate: [-4325.0048828125, 626.320556640625, 1055.8099365234375]
+  UnitConfigName: Item_Plant_A
+- HashId: !u 0x0f93083b
+  Rotate: -2.38000226020813
+  SRTHash: 61416814
+  Translate: [-4180.20263671875, 439.37005615234375, 1481.8038330078125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x0fca1cce
+  Rotate: [-0.0905616357922554, 0.04700648784637451, 0.05952027812600136]
+  SRTHash: 393879644
+  Scale: 1.0683590173721313
+  Translate: [-4247.59765625, 532.1056518554688, 1213.49609375]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x0fe68b4f
+  SRTHash: -1620765182
+  Scale: 75.0
+  Translate: [-4310.5, 416.9598388671875, 1446.5]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x102e4600
+  Rotate: [1.7982176542282104, -0.6646727919578552, -0.5875243544578552]
+  SRTHash: 0
+  Translate: [-4247.10546875, 588.6953125, 1138.2578125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x104e33c0
+  Rotate: 1.1477049589157104
+  SRTHash: -1054332439
+  Scale: 0.9028319716453552
+  Translate: [-4182.5078125, 533.7734375, 1259.6875]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x10daeaea
+  SRTHash: 616567522
+  Scale: 40.0
+  Translate: [-3999.737060546875, 613.2930297851562, 1175.8778076171875]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x10f327ff
+  Rotate: 1.18212890625
+  SRTHash: -1238762663
+  Translate: [-4319.1875, 492.85101318359375, 1203.9453125]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x11430c43
+  Rotate: [3.017338752746582, 0.4455638527870178, 2.8585736751556396]
+  SRTHash: -1445912241
+  Translate: [-4428.89501953125, 382.14276123046875, 1616.631103515625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x1148a9f0
+  Rotate: [3.0307421684265137, 1.0135804414749146, 2.805795669555664]
+  SRTHash: 1980068162
+  Translate: [-4275.75244140625, 183.99755859375, 1955.75634765625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropActor: Item_Ore_B, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x11b8f6e9
+  Rotate: [3.0647740364074707, 0.17775745689868927, 3.1015703678131104]
+  SRTHash: 1404932324
+  Translate: [-4004.076171875, 587.5382080078125, 1226.0146484375]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x125c205f
+  Rotate: [-0.13103823363780975, -0.5507106781005859, 0.05151056498289108]
+  SRTHash: -1474282508
+  Scale: 0.9433590173721313
+  Translate: [-4558.60546875, 623.103271484375, 1122.81640625]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x1339fd6b
+  Rotate: [-2.175903081893921, 1.1595457792282104, 2.921875]
+  SRTHash: 0
+  Translate: [-4388.265625, 191.5390625, 1816.46484375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x13495a54
+  SRTHash: -1909118778
+  Translate: [-4295.5, 420.0928955078125, 1451.0]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x13dcd195
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-3999.737060546875, 613.2930297851562, 1175.8778076171875]
+  UnitConfigName: Area
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, FortressEatPer: -1,
+    IsMimicry: false, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: true, OnCliffTurn: false, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x13f6d0ba
+  Rotate: [-1.6368545293807983, -0.4054394066333771, -3.137125015258789]
+  SRTHash: -770094345
+  Translate: [-4255.5, 177.00027465820312, 1965.8277587890625]
+  UnitConfigName: Enemy_Lizalfos_Junior
+- HashId: !u 0x1405ba7e
+  Rotate: [-0.2337154597043991, -0.9717521071434021, 0.1769968867301941]
+  SRTHash: -257762910
+  Scale: 0.9926760196685791
+  Translate: [-4561.37109375, 624.1197509765625, 1130.484375]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x14a5531c
+  Rotate: [0.16446703672409058, 0.28301024436950684, -0.016070034354925156]
+  SRTHash: -1065472212
+  Scale: 0.9047849774360657
+  Translate: [-4037.42578125, 674.0614624023438, 1103.625]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x15329b5f
+  Rotate: [1.5231932401657104, -0.3168945014476776, -0.1954345554113388]
+  SRTHash: 0
+  Translate: [-4818.328125, 207.4453125, 1848.33984375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsCreateOnFace: true,
+    IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0}
+  HashId: !u 0x1582d140
+  Rotate: -0.7400000095367432
+  SRTHash: -1361032261
+  Translate: [-4443.63720703125, 637.0062866210938, 1099.261474609375]
+  UnitConfigName: Enemy_Keese
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x158fa13e
+  Rotate: [3.141479253768921, 1.32861328125, 3.141479253768921]
+  SRTHash: 1285933409
+  Translate: [-4680.28515625, 132.49429321289062, 1930.34765625]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x15e96ed9
+  Rotate: 0.3375034034252167
+  SRTHash: -294489703
+  Translate: [-4144.85400390625, 401.41339111328125, 1725.1591796875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropActor: Item_Ore_C, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x16137735
+  Rotate: [-2.98507022857666, 0.3999152183532715, -2.9756038188934326]
+  SRTHash: -69779907
+  Translate: [-4375.20947265625, 594.1997680664062, 1132.837890625]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x165c8372
+  Rotate: [1.0380858182907104, 0.810302734375, -0.2313232421875]
+  SRTHash: 0
+  Translate: [-4428.7734375, 597.53515625, 1274.83984375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x16cf53f8
+  Rotate: [2.262223243713379, -0.8260138034820557, -2.972222328186035]
+  SRTHash: 636120162
+  Scale: 0.8015472292900085
+  Translate: [-4648.22998046875, 137.36000061035156, 1998.1600341796875]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x173017d8
+  Rotate: -2.0400047302246094
+  SRTHash: 762631995
+  Translate: [-4531.60595703125, 571.537353515625, 1422.7757568359375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x175dbe97
+  Rotate: 2.5827438831329346
+  SRTHash: 2077826243
+  Translate: [-4144.267578125, 400.465576171875, 1713.4716796875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x17946e7e
+  Rotate: [3.003525733947754, 0.7671435475349426, 3.080399513244629]
+  SRTHash: 935011634
+  Translate: [-4118.76708984375, 401.7184143066406, 1730.285400390625]
+  UnitConfigName: Obj_Plant_HopBush_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x181d23d4
+  SRTHash: 80598748
+  Translate: [-4341.1845703125, 625.3087158203125, 1059.18603515625]
+  UnitConfigName: Item_Plant_A
+- HashId: !u 0x186451bf
+  Rotate: [-0.08674444258213043, 0.6960534453392029, -0.18296799063682556]
+  SRTHash: -1884471055
+  Scale: 1.0454100370407104
+  Translate: [-4302.2109375, 493.43536376953125, 1179.14453125]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- HashId: !u 0x1943eab1
+  Rotate: -2.3799970149993896
+  SRTHash: -1582749044
+  Translate: [-4073.20068359375, 297.44244384765625, 1593.25244140625]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- HashId: !u 0x1964bbf8
+  Rotate: [-0.03698202222585678, 0.7856322526931763, -0.05644252151250839]
+  SRTHash: 1980068162
+  Translate: [-4116.83447265625, 276.48150634765625, 1566.694580078125]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x1976979d
+  Rotate: [3.141479253768921, -1.2821044921875, 3.141479253768921]
+  SRTHash: 1663355168
+  Translate: [-4216.828125, 534.0133666992188, 1291.36328125]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0x19dc14ab
+  Rotate: [-1.6799988746643066, 0.0, 0.0]
+  SRTHash: -1831148808
+  Translate: [-4283.6669921875, 420.75146484375, 1477.7718505859375]
+  UnitConfigName: FldObj_GerudoHighlandRock_B_03
+- HashId: !u 0x1afaf5f5
+  Rotate: -2.3799970149993896
+  SRTHash: 1956772444
+  Translate: [-4076.095458984375, 297.29571533203125, 1596.0126953125]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x1bf138e0
+  Rotate: 0.1097412034869194
+  SRTHash: -22212395
+  Translate: [-4230.43359375, 533.8470458984375, 1346.9765625]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0x1c863491
+  Rotate: 0.7148602604866028
+  SRTHash: -1895908066
+  Translate: [-4130.5, 401.4453125, 1718.6292724609375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x1d03eaa7
+  Rotate: -0.8092058300971985
+  SRTHash: -455432005
+  Translate: [-4179.47265625, 438.37005615234375, 1481.1109619140625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1d228a8e
+  Rotate: 2.590165138244629
+  SRTHash: -1424308138
+  Translate: [-4186.32568359375, 533.8497314453125, 1257.8629150390625]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0x1d54876b
+  Rotate: [3.0398945808410645, 0.3777332305908203, 3.0936596393585205]
+  SRTHash: -348394283
+  Translate: [-4121.20068359375, 401.4626159667969, 1732.8399658203125]
+  UnitConfigName: Obj_Plant_HopBush_C_02
+- HashId: !u 0x1e097fe1
+  Rotate: [-0.03391028195619583, 0.7456955909729004, -0.0543123222887516]
+  SRTHash: 1980068162
+  Translate: [-4204.91650390625, 273.3247375488281, 1618.371337890625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x1e22f4c4
+  SRTHash: -962140236
+  Translate: [-4582.95556640625, 558.568603515625, 1473.6981201171875]
+  UnitConfigName: Animal_Elk_A
+- HashId: !u 0x1e280ea9
+  Rotate: [-0.2163171023130417, 1.2380868196487427, -0.08445423096418381]
+  SRTHash: -1688586967
+  Translate: [-4130.2841796875, 400.3889465332031, 1701.452392578125]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- '!Parameters': {DropActor: Item_Ore_F, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1e46bacd
+  Rotate: 3.140000104904175
+  SRTHash: -1499230853
+  Translate: [-4614.4736328125, 567.7293090820312, 1425.7838134765625]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {EquipItem1: Weapon_Sword_009, FortressEatPer: -1, IsMimicry: false,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x1e67efa0
+  Rotate: -2.919999837875366
+  SRTHash: -1426811129
+  Translate: [-4687.0, 623.5457153320312, 1226.0]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x1f23dc17
+  Rotate: [1.4835203886032104, 0.3854980170726776, -0.2232665866613388]
+  SRTHash: 0
+  Translate: [-4736.62890625, 180.61328125, 1817.34375]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropActor: Obj_ArrowBundle_A_01, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x1f9fe173
+  Rotate: [-2.863894462585449, 0.11084562540054321, 2.937183380126953]
+  SRTHash: -1814070548
+  Translate: [-4733.62939453125, 610.6542358398438, 1432.3914794921875]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x2007b18e
+  Rotate: [-2.9923033714294434, -0.9975329041481018, 3.0548481941223145]
+  SRTHash: -2098140774
+  Translate: [-4149.5185546875, 400.69110107421875, 1713.5697021484375]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x202ee559
+  Rotate: [-2.529296636581421, 1.1198729276657104, 2.326904296875]
+  SRTHash: 0
+  Translate: [-4705.3125, 694.09765625, 1044.1015625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsMimicry: false,
+    IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 1,
+    TerritoryArea: 0.0}
+  HashId: !u 0x20efd92d
+  Rotate: -0.009684179909527302
+  SRTHash: -2033901079
+  Translate: [-4430.44140625, 612.9176635742188, 1011.5509033203125]
+  UnitConfigName: Enemy_Octarock_Desert
+- HashId: !u 0x21265957
+  Rotate: -0.5345328450202942
+  SRTHash: 1722587035
+  Translate: [-4644.3017578125, 555.515869140625, 1506.724365234375]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x21387214
+  Rotate: [1.666259765625, -0.4390868842601776, -0.5362548232078552]
+  SRTHash: 0
+  Translate: [-4863.375, 595.140625, 1247.484375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x213f724d
+  Rotate: -1.8056341409683228
+  SRTHash: 210735015
+  Translate: [-4136.59375, 399.7032775878906, 1705.158203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x2174b77b
+  Rotate: [2.287306785583496, -1.454771876335144, -2.322969436645508]
+  SRTHash: 898627668
+  Translate: [-4122.064453125, 401.8131408691406, 1729.10107421875]
+  UnitConfigName: Obj_Plant_HopBush_C_02
+- HashId: !u 0x2182c989
+  Rotate: 2.848116874694824
+  SRTHash: 301687529
+  Translate: [-4134.51416015625, 399.9463806152344, 1705.3477783203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x222a7222
+  Rotate: -2.38000226020813
+  SRTHash: -1976924938
+  Translate: [-4180.93115234375, 438.37786865234375, 1482.498291015625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x22a1b8d8
+  Rotate: [1.5072020292282104, 0.078125, 0.0953368991613388]
+  SRTHash: 0
+  Translate: [-4112.8359375, 657.08984375, 1115.859375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x236fd855
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4332.02294921875, 177.2676239013672, 1814.240234375]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x240d815d
+  Rotate: 1.166259765625
+  SRTHash: 708862435
+  Translate: [-4632.109375, 138.72109985351562, 1991.3125]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x2462b841
+  Rotate: -0.9984285831451416
+  SRTHash: 1293066915
+  Translate: [-4129.2216796875, 401.5099182128906, 1722.4613037109375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x24992890
+  Rotate: -0.9984285831451416
+  SRTHash: 1681187278
+  Translate: [-4128.2802734375, 401.24005126953125, 1712.83203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x25564684
+  Rotate: -0.11738981306552887
+  SRTHash: -2034337789
+  Translate: [-4133.49560546875, 401.23248291015625, 1715.69873046875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2586ff5d
+  Rotate: [3.141479253768921, -1.2733153104782104, 3.141479253768921]
+  SRTHash: 920228747
+  Translate: [-4318.48046875, 420.89996337890625, 1433.625]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x25a96d68
+  Rotate: -0.44000527262687683
+  SRTHash: -776388177
+  Translate: [-4530.2939453125, 571.9097900390625, 1420.2115478515625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x25d7c014
+  Rotate: -0.40920308232307434
+  SRTHash: 1300207090
+  Translate: [-4206.08935546875, 440.9059143066406, 1465.3182373046875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x26082ebd
+  Rotate: 0.8742892146110535
+  SRTHash: 580749520
+  Translate: [-4144.2978515625, 400.8822326660156, 1719.0615234375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x26de7585
+  Rotate: 1.1615934371948242
+  SRTHash: 1580591238
+  Translate: [-4205.68017578125, 439.9137268066406, 1464.39306640625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2730260c
+  Rotate: [1.3509521484375, -1.2465819120407104, -0.2769775092601776]
+  SRTHash: 0
+  Translate: [-4737.328125, 459.4453125, 1612.1328125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x27e711c0
+  Rotate: [1.2403563261032104, 0.0638427659869194, 0.4865722358226776]
+  SRTHash: 0
+  Translate: [-4745.8671875, 282.01953125, 1741.33203125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x28435c1d
+  Rotate: [1.5742186307907104, 0.9886474013328552, 0.3105468451976776]
+  SRTHash: 0
+  Translate: [-4754.30859375, 689.90625, 1245.85546875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x2849f851
+  Rotate: [0.11502385884523392, 0.6568440198898315, 0.04055636376142502]
+  SRTHash: 2042359106
+  Scale: 0.8784180283546448
+  Translate: [-4801.87109375, 714.849609375, 1122.0859375]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x28f5f0cf
+  Rotate: -2.1600005626678467
+  SRTHash: -1537767570
+  Translate: [-4096.63916015625, 282.74761962890625, 1565.451416015625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x29b5e109
+  Rotate: [1.2056883573532104, -0.4689941108226776, -0.020996082574129105]
+  SRTHash: 0
+  Translate: [-4248.66015625, 595.8046875, 1135.4921875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x29f0e50b
+  Rotate: -2.0400047302246094
+  SRTHash: -1881221680
+  Translate: [-4524.50830078125, 571.4923706054688, 1424.7835693359375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x2a290857
+  SRTHash: -970653636
+  Translate: [-4227.2216796875, 534.2068481445312, 1252.47802734375]
+  UnitConfigName: Animal_Fox_B
+- HashId: !u 0x2a4ddcef
+  Rotate: -2.3799970149993896
+  SRTHash: -307016286
+  Translate: [-4077.54296875, 297.208984375, 1597.3929443359375]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2a9c25b1
+  Rotate: [3.141479253768921, -0.8128661513328552, 3.141479253768921]
+  SRTHash: 204037890
+  Translate: [-4683.015625, 132.462890625, 1931.96484375]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x2b50d5e5
+  Rotate: -0.5600053071975708
+  SRTHash: 1140644078
+  Translate: [-4524.0712890625, 571.411376953125, 1423.37255859375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x2c29bbf1
+  SRTHash: -2111912167
+  Translate: [-4140.12646484375, 547.3224487304688, 1372.6717529296875]
+  UnitConfigName: Animal_Rhino_A
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2c6b57b5
+  Rotate: [1.2969969511032104, -0.3759765326976776, -0.1154785081744194]
+  SRTHash: 0
+  Translate: [-4183.046875, 696.1796875, 1075.83984375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2c806c39
+  Rotate: [1.144287109375, -0.2141113132238388, 0.3542480170726776]
+  SRTHash: 0
+  Translate: [-4822.015625, 633.015625, 1253.94140625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e01f66d
+  Rotate: [0.7087401747703552, 0.9488524794578552, -0.4084472358226776]
+  SRTHash: 0
+  Translate: [-4446.6015625, 347.2109375, 1715.3671875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x2e5c0958
+  Rotate: 0.0872664600610733
+  SRTHash: 1994405271
+  Translate: [-4314.1064453125, 217.8523406982422, 1629.301025390625]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e89f07c
+  Rotate: [1.3894041776657104, 0.2010497897863388, -0.3326415717601776]
+  SRTHash: 0
+  Translate: [-4695.5703125, 594.3359375, 1431.32421875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e92a8e4
+  Rotate: 1.3950194120407104
+  SRTHash: -1654613144
+  Translate: [-4377.55078125, 191.85704040527344, 1723.5234375]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x2f32d9c2
+  Rotate: 2.732389450073242
+  SRTHash: -1563804973
+  Translate: [-4205.28125, 439.9137268066406, 1463.483642578125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x2fed780f
+  Rotate: 1.78000009059906
+  SRTHash: -997823192
+  Translate: [-4373.56201171875, 561.87109375, 1361.1480712890625]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0x302f5b2d
+  Rotate: [1.1580837965011597, 0.8262223601341248, 1.7684614658355713]
+  SRTHash: 1317656135
+  Translate: [-4812.4599609375, 161.87001037597656, 1927.170166015625]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3039a13b
+  Rotate: [-0.630126953125, 1.2012939453125, -1.967406988143921]
+  SRTHash: 0
+  Translate: [-4684.47265625, 650.1875, 1039.78125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, FreezeTarget: 0, IceBreakScale: 0.800000011920929,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x30575c4b
+  Rotate: -2.7199974060058594
+  SRTHash: -1859335739
+  Scale: 0.800000011920929
+  Translate: [-4276.119140625, 599.3516235351562, 1084.0087890625]
+  UnitConfigName: IceWall
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x305832b0
+  Rotate: [-2.19091796875, 1.3212890625, 2.440185546875]
+  SRTHash: 0
+  Translate: [-4728.65625, 675.40625, 1170.98046875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x309e0e66
+  Rotate: [0.2155052274465561, -0.44322144985198975, 0.368181973695755]
+  SRTHash: -421083764
+  Translate: [-4770.1767578125, 563.1956787109375, 1443.809326171875]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x30ea7e58
+  Rotate: 3.564251184463501
+  SRTHash: 404682663
+  Translate: [-4189.91845703125, 668.8970947265625, 1101.3470458984375]
+  UnitConfigName: Obj_TreeBroadleafLow_Snow_A_02
+- HashId: !u 0x31065e5b
+  Rotate: [0.15973423421382904, 0.7128126621246338, 0.1467406302690506]
+  SRTHash: 1319899552
+  Scale: 0.9560549855232239
+  Translate: [-4233.046875, 599.3458862304688, 1124.56640625]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x31bb9933
+  SRTHash: 1092445737
+  Translate: [-4833.5537109375, 710.1987915039062, 1169.507080078125]
+  UnitConfigName: Animal_Bear_B
+- HashId: !u 0x31bdb9a1
+  Rotate: [0.4544300436973572, 1.0349938869476318, 0.5026790499687195]
+  SRTHash: 305507424
+  Scale: 0.8784180283546448
+  Translate: [-4390.2890625, 619.003662109375, 1006.3515625]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0x31c8eccc
+  Rotate: [0.00942367035895586, -1.3939824104309082, -0.0655394196510315]
+  SRTHash: -47325742
+  Scale: 0.8950200080871582
+  Translate: [-4073.3046875, 533.6738891601562, 1307.77734375]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x31ce8127
+  Rotate: [1.4364819526672363, -1.4203904867172241, -1.2945245504379272]
+  SRTHash: 1701296673
+  Translate: [-4170.544921875, 192.32733154296875, 1994.763427734375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3312fa27
+  Rotate: [-2.156371831893921, 0.1918945163488388, -2.885986089706421]
+  SRTHash: 0
+  Translate: [-4574.046875, 171.953125, 2010.5625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3355777f
+  Rotate: [0.9847411513328552, 0.5858154296875, -0.2297363132238388]
+  SRTHash: 0
+  Translate: [-4793.21484375, 223.45703125, 1840.51953125]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x33bacbe2
+  Rotate: 0.15280255675315857
+  SRTHash: 1897719816
+  Translate: [-4634.5732421875, 563.3828735351562, 1436.89111328125]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- HashId: !u 0x340dd48a
+  Rotate: 1.3992459774017334
+  SRTHash: -65975313
+  Translate: [-4131.3369140625, 401.45196533203125, 1728.2073974609375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x3499fb7b
+  Rotate: [0.06826508790254593, -0.38064029812812805, -0.01846439763903618]
+  SRTHash: 154745120
+  Scale: 0.9946290254592896
+  Translate: [-4043.79296875, 674.214111328125, 1102.0078125]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x354c145d
+  Rotate: [2.0430908203125, 1.0374755859375, 0.703125]
+  SRTHash: 0
+  Translate: [-4649.78515625, 569.43359375, 1415.05859375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x358e09d8
+  Rotate: -1.1599998474121094
+  SRTHash: 116379330
+  Translate: [-4303.8466796875, 492.3780212402344, 1180.6558837890625]
+  UnitConfigName: FldObj_CrevasseSnowWindVent_A_01
+- HashId: !u 0x35abc8a9
+  Rotate: 1.3171385526657104
+  SRTHash: -4875291
+  Scale: 1.0795899629592896
+  Translate: [-4775.82421875, 716.8272705078125, 1090.32421875]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x35db2d44
+  Rotate: -1.7599915266036987
+  SRTHash: -1454547407
+  Translate: [-4248.48193359375, 251.0341796875, 1656.384765625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x36ddd329
+  Rotate: [1.9904783964157104, -0.8597411513328552, -0.67431640625]
+  SRTHash: 0
+  Translate: [-4478.94140625, 216.05078125, 1957.31640625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {EquipItem1: Weapon_Sword_049, IsNearCreate: false, LevelSensorMode: 0,
+    NearCreateAppearID: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x36dde8dd
+  Rotate: 1.9215927124023438
+  SRTHash: 102270810
+  Translate: [-4268.32763671875, 603.962890625, 1084.6507568359375]
+  UnitConfigName: Enemy_Wizzrobe_Ice_Senior
+- HashId: !u 0x36e0a708
+  Rotate: -2.2608585357666016
+  SRTHash: 525669276
+  Translate: [-4145.01953125, 401.0423889160156, 1721.0213623046875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x3711d768
+  Rotate: [0.1958422064781189, 1.2567723989486694, 0.30632323026657104]
+  SRTHash: 1258004086
+  Scale: 1.1050394773483276
+  Translate: [-4444.91162109375, 631.6741943359375, 1217.497314453125]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- HashId: !u 0x372f25cd
+  Rotate: 0.978432297706604
+  SRTHash: -446299444
+  Translate: [-4138.97509765625, 401.3999938964844, 1730.5853271484375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x37885de0
+  Rotate: [3.111459970474243, -0.10197410732507706, 3.127612829208374]
+  SRTHash: 324202068
+  Scale: 1.1081875562667847
+  Translate: [-4725.818359375, 557.2304077148438, 1499.907958984375]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- HashId: !u 0x3a632efc
+  Rotate: [0.07667162269353867, -0.06852254271507263, -0.026112357154488564]
+  SRTHash: 1684731369
+  Translate: [-4124.81201171875, 401.6789855957031, 1731.348388671875]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- HashId: !u 0x3a87e4f8
+  Rotate: -0.6466687321662903
+  SRTHash: 346985601
+  Translate: [-4128.6357421875, 401.14715576171875, 1710.77392578125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x3a945b43
+  Rotate: 2.18318510055542
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4754.31396484375, 612.9453735351562, 1361.651611328125]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3ae28caf
+  Rotate: [1.4647215604782104, 0.4637450873851776, 0.4572753608226776]
+  SRTHash: 0
+  Translate: [-4573.9453125, 524.078125, 1512.90234375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3b506628
+  Rotate: [1.2111815214157104, -0.0037841880694031715, 0.3934325873851776]
+  SRTHash: 0
+  Translate: [-4736.109375, 318.4296875, 1719.51171875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x3cacb15f
+  SRTHash: 1269921079
+  Translate: [-4134.84326171875, 533.4502563476562, 1291.713134765625]
+  UnitConfigName: Animal_Wolf_C
+- HashId: !u 0x3caea658
+  Rotate: [0.20814937353134155, -0.3644106388092041, -0.17367537319660187]
+  SRTHash: 298815121
+  Scale: 1.0078129768371582
+  Translate: [-4548.61328125, 629.7601318359375, 1188.87109375]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- '!Parameters': {DropActor: Weapon_Bow_015, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3cca5ec7
+  Rotate: 3.140000104904175
+  SRTHash: 713720217
+  Translate: [-4724.60888671875, 560.0330810546875, 1501.352294921875]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x3cef39f3
+  Rotate: [-0.3187694847583771, -0.028526179492473602, 1.4845856428146362]
+  SRTHash: 1350459114
+  Translate: [-4284.53662109375, 407.91510009765625, 1495.90771484375]
+  UnitConfigName: FldObj_GerudoHighlandRock_B_03
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x3d277a48
+  SRTHash: -1300665436
+  Translate: [-4095.205322265625, 554.9959106445312, 1351.416015625]
+  UnitConfigName: Animal_Rhino_A
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3dd8bf73
+  Rotate: [1.5766600370407104, 0.33740234375, 0.0941161960363388]
+  SRTHash: 0
+  Translate: [-4699.4921875, 166.48046875, 1775.6875]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x3e4e6b0a
+  Rotate: [1.3615450859069824, -1.4311673641204834, -1.3360437154769897]
+  SRTHash: -431470120
+  Translate: [-4165.7021484375, 193.07717895507812, 1992.0887451171875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x3eb95518
+  Rotate: 0.8164014220237732
+  SRTHash: 826605042
+  Translate: [-4421.5595703125, 565.52734375, 1396.56787109375]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- HashId: !u 0x3eda857d
+  Rotate: [-0.04304055869579315, 0.331537127494812, 0.029699889943003654]
+  SRTHash: -232169194
+  Scale: 0.9873049855232239
+  Translate: [-4323.2578125, 626.4229736328125, 1055.390625]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x3f5b25e4
+  Rotate: [0.03713101148605347, 0.0008629513904452324, -0.09312853962182999]
+  SRTHash: -333291139
+  Translate: [-4478.126953125, 566.6232299804688, 1355.0550537109375]
+  UnitConfigName: Barrel
+- HashId: !u 0x3fa7e81d
+  Rotate: -1.7999992370605469
+  SRTHash: 1181950619
+  Translate: [-4107.90185546875, 283.0572204589844, 1581.04931640625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0x40808ad7
+  Rotate: 6.182245254516602
+  SRTHash: 450595755
+  Translate: [-4194.55029296875, 668.26806640625, 1108.4320068359375]
+  UnitConfigName: Obj_TreeBroadleafLow_Snow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x40bd0907
+  Rotate: [1.9719237089157104, -1.3000487089157104, -0.4438476264476776]
+  SRTHash: 0
+  Translate: [-4018.421875, 353.75390625, 1786.4140625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x40fb2eab
+  Rotate: -2.2675528526306152
+  SRTHash: 180387556
+  Translate: [-4142.15234375, 399.63995361328125, 1707.7257080078125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x4134333f
+  Rotate: [-0.1170654296875, 1.1375731229782104, -1.193115234375]
+  SRTHash: 0
+  Translate: [-4683.88671875, 639.31640625, 957.9921875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x414ab117
+  Rotate: -2.8000059127807617
+  SRTHash: -624230827
+  Translate: [-4529.63232421875, 571.126220703125, 1426.7916259765625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x417175f3
+  SRTHash: -1909118778
+  Translate: [-4312.0, 416.0838623046875, 1463.0]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x41cc027d
+  Rotate: [1.25830078125, -0.8330077528953552, -0.1778564304113388]
+  SRTHash: 0
+  Translate: [-4224.91015625, 626.09765625, 1109.296875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x426064ec
+  Rotate: 1.9215927124023438
+  SRTHash: 616567522
+  Scale: 40.0
+  Translate: [-4268.32763671875, 600.962890625, 1084.6507568359375]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x427698c0
+  Rotate: -1.2673338651657104
+  SRTHash: -232111753
+  Translate: [-4343.984375, 498.01727294921875, 1155.375]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x43b7b142
+  Rotate: [2.8529775142669678, -0.6884918808937073, -3.023637294769287]
+  SRTHash: 460134171
+  Translate: [-4633.6806640625, 556.93408203125, 1495.8875732421875]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x43f18096
+  Rotate: [1.1278076171875, -0.9953612685203552, 0.3338623046875]
+  SRTHash: 0
+  Translate: [-4223.41015625, 571.546875, 1180.546875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x4412fb6f
+  Rotate: [0.08015839010477066, 0.8612195253372192, 0.46167996525764465]
+  SRTHash: 860504647
+  Scale: 1.0297850370407104
+  Translate: [-4045.06640625, 586.8308715820312, 1177.34375]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x44737f08
+  Rotate: -0.12000002712011337
+  SRTHash: -1114145997
+  Translate: [-4475.7998046875, 566.541259765625, 1353.300048828125]
+  UnitConfigName: Animal_Fox_B
+- '!Parameters': {FortressEatPer: -1, IsMimicry: false, IsNearCreate: false, IsWatchKeeping: false,
+    LevelSensorMode: 0, OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0,
+    TerritoryArea: 0.0, WaitTime: 1.0}
+  HashId: !u 0x449f54d0
+  SRTHash: -855744289
+  Translate: [-4695.0, 625.2294311523438, 1209.5]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- HashId: !u 0x44cc1080
+  Rotate: 0.012847846373915672
+  SRTHash: -482762331
+  Translate: [-4140.93505859375, 401.4559326171875, 1729.8638916015625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x45deb500
+  Rotate: 0.8551024794578552
+  SRTHash: -1484554746
+  Translate: [-4288.5703125, 497.4540100097656, 1147.44921875]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x4629b83f
+  Rotate: [1.3128660917282104, -0.43310546875, -0.0871581956744194]
+  SRTHash: 0
+  Translate: [-4110.41015625, 259.9765625, 1867.0078125]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x46477a9a
+  Rotate: 0.8600000143051147
+  SRTHash: -515612011
+  Translate: [-4305.16796875, 492.7430114746094, 1201.6507568359375]
+  UnitConfigName: FldObj_CrevasseSnowWindVent_A_01
+- HashId: !u 0x466fe878
+  Rotate: [0.29999998211860657, 1.343174695968628, 0.0]
+  SRTHash: 1980068162
+  Translate: [-4369.47705078125, 192.6334228515625, 1832.4642333984375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- HashId: !u 0x47ed4ece
+  Rotate: 4.732363224029541
+  SRTHash: -1416449361
+  Translate: [-4195.49365234375, 668.3057250976562, 1100.7003173828125]
+  UnitConfigName: Obj_TreeBroadleafLow_Snow_A_02
+- HashId: !u 0x4a4ad81e
+  Rotate: 1.8141769170761108
+  SRTHash: 1845144911
+  Translate: [-4131.8125, 401.32611083984375, 1716.89892578125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4ae105d1
+  Rotate: 0.42265868186950684
+  SRTHash: 1608856608
+  Translate: [-4193.35986328125, 533.4443359375, 1284.885498046875]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_02
+- HashId: !u 0x4aea8aff
+  Rotate: [3.038316488265991, 0.9878940582275391, 2.5168704986572266]
+  SRTHash: 1129262238
+  Translate: [-4426.94189453125, 381.8126220703125, 1613.58056640625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x4bae1199
+  Rotate: [2.5543391704559326, 1.2136167287826538, 2.628934621810913]
+  SRTHash: -1601632210
+  Translate: [-4434.8515625, 564.4247436523438, 1416.1202392578125]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x4e0cb2cc
+  Rotate: 2.18318510055542
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4754.31396484375, 612.9453735351562, 1361.651611328125]
+  UnitConfigName: Area
+- HashId: !u 0x4f6a678b
+  Rotate: -1.1599998474121094
+  SRTHash: -324101197
+  Translate: [-4321.27392578125, 492.4888916015625, 1180.0604248046875]
+  UnitConfigName: FldObj_CrevasseSnowWindVent_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x502e49ab
+  Rotate: 0.2183837741613388
+  SRTHash: 1227961293
+  Translate: [-4709.99609375, 134.08578491210938, 1954.16015625]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0x50390181
+  Rotate: -1.4999992847442627
+  SRTHash: 1587435629
+  Translate: [-4331.0263671875, 195.060302734375, 1761.84912109375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0x51509559
+  Rotate: -0.4200000464916229
+  SRTHash: -1054251519
+  Scale: 1.1331015825271606
+  Translate: [-4011.50244140625, 536.234619140625, 1254.4605712890625]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- HashId: !u 0x52439f86
+  Rotate: [-3.064518928527832, 0.910958468914032, -3.0380735397338867]
+  SRTHash: -1459935067
+  Translate: [-4113.748046875, 401.6877746582031, 1707.4344482421875]
+  UnitConfigName: Obj_Plant_HopBush_C_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x52e1d70d
+  Rotate: [1.1660155057907104, -0.2202148288488388, 0.1993408054113388]
+  SRTHash: 0
+  Translate: [-4169.12109375, 357.69140625, 1538.421875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x530cc450
+  Rotate: -0.5872802138328552
+  SRTHash: 570755745
+  Translate: [-4076.203125, 269.27166748046875, 1555.91015625]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x5468e8c3
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4319.31591796875, 189.6252899169922, 1693.9774169921875]
+  UnitConfigName: Area
+- HashId: !u 0x54a14ec3
+  Rotate: [0.30893516540527344, 0.7771369218826294, 0.38950255513191223]
+  SRTHash: -46471884
+  Translate: [-4165.244140625, 193.83999633789062, 1987.99462890625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x55d76e0f
+  Rotate: -0.5412597060203552
+  SRTHash: 1344668189
+  Scale: 1.0410159826278687
+  Translate: [-4539.13671875, 616.1458740234375, 1056.49609375]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x565c309a
+  Rotate: -1.3502196073532104
+  SRTHash: 1609666214
+  Translate: [-4617.50390625, 568.3624267578125, 1384.57421875]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0x575cdc65
+  Rotate: -0.480304479598999
+  SRTHash: 386050114
+  Translate: [-4609.2998046875, 129.0, 1844.4000244140625]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- HashId: !u 0x57d5b5a9
+  Rotate: [-0.06752600520849228, -0.23048067092895508, 0.12781912088394165]
+  SRTHash: -1186259672
+  Translate: [-4160.9765625, 205.86355590820312, 1941.2119140625]
+  UnitConfigName: FldObj_RockOrangeStone_A_01
+- HashId: !u 0x585627b3
+  Rotate: 3.023099184036255
+  SRTHash: 941198665
+  Translate: [-4134.83740234375, 401.42279052734375, 1730.419677734375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x58772d4d
+  Rotate: [1.5816742181777954, -1.2628865242004395, -1.3623372316360474]
+  SRTHash: 279899066
+  Translate: [-4170.87353515625, 193.7714080810547, 1983.284912109375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x59002240
+  Rotate: [1.4193114042282104, -0.1744384616613388, -0.154052734375]
+  SRTHash: 0
+  Translate: [-4727.23046875, 523.1015625, 1527.93359375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {GetUpDirection: None}
+  HashId: !u 0x59457dd4
+  SRTHash: 1527480153
+  Translate: [-4300.828125, 604.8605346679688, 1073.0465087890625]
+  UnitConfigName: AnchorAction1
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x5a3ee882
+  Rotate: -0.8999999165534973
+  SRTHash: 1754848481
+  Translate: [-4780.66015625, 717.6365356445312, 1064.312255859375]
+  UnitConfigName: Animal_Rhino_A
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5a61442d
+  Rotate: [1.0885008573532104, -0.02233886905014515, 0.4583739936351776]
+  SRTHash: 0
+  Translate: [-4558.4296875, 457.19921875, 1577.9609375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x5aa5ede5
+  Rotate: [-0.07396712154150009, -0.20254893600940704, -0.0009471054072491825]
+  SRTHash: 1338165762
+  Scale: 0.9140629768371582
+  Translate: [-4114.546875, 536.0894775390625, 1315.75]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5b824f4f
+  Rotate: [-2.173323154449463, 0.9329951405525208, 3.1060051918029785]
+  SRTHash: -1821099748
+  Translate: [-4476.49853515625, 567.84765625, 1356.610107421875]
+  UnitConfigName: Weapon_Lsword_031
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5b95ea93
+  Rotate: 3.4099535942077637
+  SRTHash: -252031768
+  Translate: [-4189.27587890625, 533.468994140625, 1272.09619140625]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5beb3da3
+  Rotate: [2.9293413162231445, -0.9894266724586487, -2.932419776916504]
+  SRTHash: 1575447355
+  Translate: [-4427.06298828125, 382.277099609375, 1613.636962890625]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x5c4d9c4d
+  Rotate: 3.2495100498199463
+  SRTHash: -617931465
+  Translate: [-4779.55029296875, 714.3722534179688, 1119.906494140625]
+  UnitConfigName: Animal_Wolf_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5c723d41
+  Rotate: [1.124755859375, -0.612060546875, 0.0545654334127903]
+  SRTHash: 0
+  Translate: [-4007.71484375, 370.9140625, 1773.1015625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x5c931580
+  Rotate: [-0.2938002645969391, -0.7876198291778564, 0.24846884608268738]
+  SRTHash: 39885906
+  Scale: 1.0625
+  Translate: [-4310.0703125, 492.5296936035156, 1184.04296875]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x5ce8f822
+  Rotate: -2.8000059127807617
+  SRTHash: 138327154
+  Translate: [-4528.19189453125, 571.1844482421875, 1427.1103515625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5d25e7b5
+  Rotate: -1.255126953125
+  SRTHash: -138726906
+  Translate: [-4379.92578125, 527.29296875, 1173.18359375]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {EquipItem1: Weapon_Sword_009, FortressEatPer: -1, IsMimicry: false,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x5d395402
+  SRTHash: 621272286
+  Translate: [-4590.0, 624.3446655273438, 1138.0]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x5db1d130
+  SRTHash: 1807548938
+  Translate: [-4171.095703125, 533.3563842773438, 1274.5538330078125]
+  UnitConfigName: Animal_Elk_A
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5ef40a78
+  Rotate: [-2.9531941413879395, -0.9090853333473206, 2.929856300354004]
+  SRTHash: 1581764311
+  Translate: [-4431.5615234375, 381.7865295410156, 1620.788330078125]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsMimicry: false,
+    IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 1,
+    TerritoryArea: 0.0}
+  HashId: !u 0x5fa568bf
+  Rotate: -0.8082027435302734
+  SRTHash: 1460705160
+  Translate: [-4359.31103515625, 624.8779296875, 1016.8963623046875]
+  UnitConfigName: Enemy_Octarock_Desert
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x5fce446b
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4435.0, 634.0062866210938, 1086.8358154296875]
+  UnitConfigName: Area
+- HashId: !u 0x60d0f973
+  Rotate: -3.1317172050476074
+  SRTHash: 1959261957
+  Translate: [-4130.1328125, 401.4691162109375, 1726.5009765625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x60d35d33
+  Rotate: [3.0785446166992188, -0.9141151905059814, 3.072157859802246]
+  SRTHash: -1141149779
+  Translate: [-4681.06005859375, 161.5699920654297, 1961.72998046875]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- HashId: !u 0x616a6986
+  Rotate: -0.21652010083198547
+  SRTHash: -1842627588
+  Translate: [-4139.59326171875, 401.0662841796875, 1715.142822265625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsCreateOnFace: true,
+    IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0}
+  HashId: !u 0x621c03b0
+  Rotate: -0.7400000095367432
+  SRTHash: 1127420295
+  Translate: [-4446.59130859375, 637.0062866210938, 1096.5643310546875]
+  UnitConfigName: Enemy_Keese
+- HashId: !u 0x627ad932
+  Rotate: 1.5707963705062866
+  SRTHash: 386050114
+  Translate: [-4949.07763671875, 173.15740966796875, 1990.3905029296875]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- HashId: !u 0x63354614
+  Rotate: [0.283568799495697, 1.011331558227539, 0.3825877904891968]
+  SRTHash: 1135363693
+  Translate: [-4173.28271484375, 192.04833984375, 1994.050537109375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x634fcc95
+  Rotate: -2.5200002193450928
+  SRTHash: 1351140477
+  Translate: [-4094.888916015625, 282.8285827636719, 1564.1090087890625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0x63993389
+  Rotate: [3.1079609394073486, -1.001013159751892, -3.0776185989379883]
+  SRTHash: 1980068162
+  Translate: [-4259.91943359375, 237.89669799804688, 1644.568115234375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- HashId: !u 0x65330061
+  Rotate: [-0.30566197633743286, -0.2123120278120041, -2.498835325241089]
+  SRTHash: 1371034243
+  Translate: [-4176.15625, 316.17303466796875, 1814.4144287109375]
+  UnitConfigName: FldObj_RockOrangeStone_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x65a2b8e7
+  Rotate: 0.003170567099004984
+  SRTHash: -734260114
+  Translate: [-4677.654296875, 624.8179931640625, 1200.6661376953125]
+  UnitConfigName: Obj_TreeDead_A_01
+- HashId: !u 0x6619bd86
+  Rotate: [0.16284804046154022, -0.046576570719480515, 0.15323209762573242]
+  SRTHash: -1108119292
+  Scale: 1.0537110567092896
+  Translate: [-4390.03515625, 619.7708740234375, 1002.9765625]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x664f9966
+  Rotate: [-2.978226900100708, 0.918422520160675, 2.8504488468170166]
+  SRTHash: 1980068162
+  Translate: [-4270.60400390625, 187.47412109375, 1982.81103515625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6687dced
+  Rotate: [2.0362548828125, -0.9230956435203552, -0.5886229872703552]
+  SRTHash: 0
+  Translate: [-4834.9453125, 534.515625, 1432.3828125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x66a2c9a3
+  Rotate: [-1.3131163120269775, -1.4860954284667969, 1.3606263399124146]
+  SRTHash: -2007477870
+  Scale: 1.0209959745407104
+  Translate: [-4266.6171875, 532.89892578125, 1226.1328125]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- HashId: !u 0x67210345
+  Rotate: -2.0170438289642334
+  SRTHash: -792088643
+  Translate: [-4123.546875, 401.8899230957031, 1722.7628173828125]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- '!Parameters': {DropActor: Item_Ore_F, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x67317465
+  Rotate: [1.5064460039138794, 1.4226793050765991, 1.4895086288452148]
+  SRTHash: -1560355288
+  Translate: [-4016.00341796875, 529.8453369140625, 1323.7369384765625]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0x679544d3
+  Rotate: [-0.006725017447024584, -0.22074244916439056, 0.2472100704908371]
+  SRTHash: -52078695
+  Scale: 0.9848629832267761
+  Translate: [-4647.87890625, 624.4224243164062, 1262.6484375]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x68551aca
+  Rotate: -2.2608585357666016
+  SRTHash: 722043454
+  Translate: [-4144.078125, 400.1578369140625, 1711.391845703125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x68c9ae5c
+  Rotate: [0.3698282539844513, 0.6242143511772156, 0.5027235746383667]
+  SRTHash: 566365892
+  Translate: [-4169.17236328125, 194.11221313476562, 1983.66748046875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0x690e4f77
+  Rotate: [-3.0965986251831055, -0.9839209318161011, 3.072819232940674]
+  SRTHash: 1980068162
+  Translate: [-4214.90966796875, 276.0600280761719, 1626.5501708984375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6a7e0b78
+  SRTHash: -184184875
+  Translate: [-4240.884765625, 534.76611328125, 1185.1995849609375]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6b0163ea
+  Rotate: 2.340003728866577
+  SRTHash: 1515010603
+  Translate: [-4373.24755859375, 499.81005859375, 1220.658203125]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, FreezeTarget: 0, IceBreakScale: 0.800000011920929,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6b2cc6b0
+  Rotate: [2.26367449760437, 0.6172882914543152, 2.4575090408325195]
+  SRTHash: 1400298397
+  Scale: 0.699999988079071
+  Translate: [-4190.77392578125, 600.41455078125, 1142.471435546875]
+  UnitConfigName: IceWall
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6b599358
+  Rotate: [0.6583251357078552, -0.9558104872703552, 0.6247557997703552]
+  SRTHash: 0
+  Translate: [-4274.81640625, 553.44140625, 1137.7890625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6b648039
+  Rotate: [1.52392578125, 0.8293456435203552, 0.6665038466453552]
+  SRTHash: 0
+  Translate: [-4090.5390625, 458.18359375, 1481.9921875]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6d49bad2
+  Rotate: [1.8117674589157104, -0.6885985732078552, -0.6635741591453552]
+  SRTHash: 0
+  Translate: [-4205.98828125, 700.54296875, 1060.796875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x6dbfee17
+  Rotate: [-0.3189142942428589, -1.2012042999267578, 0.31519579887390137]
+  SRTHash: -1106257246
+  Scale: 1.0219730138778687
+  Translate: [-4569.57421875, 621.33203125, 1105.125]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0x6e638b6e
+  Rotate: [-3.0913174152374268, -1.023821473121643, 3.068364381790161]
+  SRTHash: 1980068162
+  Translate: [-4126.49267578125, 279.216796875, 1575.2666015625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6e657689
+  Rotate: [-1.6262205839157104, 0.3985595405101776, 2.757323980331421]
+  SRTHash: 0
+  Translate: [-4536.18359375, 170.05078125, 2014.1796875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x6effa515
+  SRTHash: -1982357548
+  Translate: [-4114.32861328125, 533.2620239257812, 1261.416015625]
+  UnitConfigName: Animal_Elk_A
+- HashId: !u 0x6f05378d
+  Rotate: [0.04874451830983162, -0.5627742409706116, -0.07553832232952118]
+  SRTHash: -204372059
+  Scale: 0.9990230202674866
+  Translate: [-3967.375, 530.1438598632812, 1279.5078125]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- HashId: !u 0x6f31767b
+  Rotate: -2.38000226020813
+  SRTHash: -335663357
+  Translate: [-4180.93212890625, 439.37786865234375, 1482.4888916015625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x6f73596e
+  Rotate: [0.18849731981754303, 1.0791908502578735, 0.21310196816921234]
+  SRTHash: -1051890733
+  Translate: [-4489.9462890625, 568.7325439453125, 1352.3604736328125]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- HashId: !u 0x70157e36
+  Rotate: [0.02558738738298416, 0.7826996445655823, 0.05369942635297775]
+  SRTHash: 1980068162
+  Translate: [-4039.848876953125, 306.7993469238281, 1555.4329833984375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x706c85a8
+  Rotate: [1.8721922636032104, -0.9907225966453552, -0.4456786811351776]
+  SRTHash: 0
+  Translate: [-4842.3203125, 519.78125, 1403.9375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x70996f6e
+  SRTHash: -1909118778
+  Translate: [-4308.0, 421.8016052246094, 1431.5]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x70f7b6a9
+  Rotate: [0.0, 1.5200002193450928, -0.19999991357326508]
+  SRTHash: -1276962214
+  Translate: [-4420.125, 567.8616943359375, 1305.9364013671875]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x714f73f6
+  Rotate: [1.7972410917282104, 1.1080321073532104, 0.5236815810203552]
+  SRTHash: 0
+  Translate: [-4871.11328125, 212.34765625, 1882.40625]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x7157f7f2
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4332.02294921875, 177.2676239013672, 1814.240234375]
+  UnitConfigName: Area
+- HashId: !u 0x717a880d
+  Rotate: -1.8294954299926758
+  SRTHash: -1463833684
+  Translate: [-4136.8955078125, 401.3981018066406, 1730.77490234375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x73957b90
+  SRTHash: 1485091183
+  Translate: [-4223.4912109375, 534.0150756835938, 1252.439208984375]
+  UnitConfigName: Animal_Fox_B
+- HashId: !u 0x74673e07
+  Rotate: [0.2791513204574585, -0.6336240172386169, 0.02654578909277916]
+  SRTHash: 1742567511
+  Scale: 0.9819340109825134
+  Translate: [-4006.18359375, 528.0587158203125, 1382.32421875]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x74f79ddf
+  Rotate: [1.3536375761032104, 1.3192137479782104, 0.1309814304113388]
+  SRTHash: 0
+  Translate: [-4706.69140625, 701.0, 1059.20703125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x7612bf63
+  Rotate: [0.4042544662952423, -0.5189675688743591, -0.23667319118976593]
+  SRTHash: -161149202
+  Translate: [-4432.0400390625, 382.27716064453125, 1619.91357421875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x766a48b1
+  Rotate: -2.200000047683716
+  SRTHash: 108060073
+  Translate: [-4103.60546875, 282.8200988769531, 1572.682373046875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- '!Parameters': {DropActor: Item_Ore_F, EnableRevival: false, IsInGround: true, SharpWeaponJudgeType: 0}
+  HashId: !u 0x76c0ad85
+  Rotate: [-0.054808489978313446, 0.4428969621658325, 0.1167524978518486]
+  SRTHash: 542200517
+  Translate: [-4450.55517578125, 569.2906494140625, 1332.5460205078125]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, FortressEatPer: -1,
+    IsMimicry: false, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: true, OnCliffTurn: false, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x76da2228
+  Rotate: [1.544333815574646, 0.38487473130226135, 0.15384984016418457]
+  SRTHash: -4915363
+  Translate: [-4253.0, 172.49977111816406, 1970.551513671875]
+  UnitConfigName: Enemy_Lizalfos_Junior
+- HashId: !u 0x7810be48
+  Rotate: 2.4199986457824707
+  SRTHash: 147820856
+  Translate: [-4475.7001953125, 566.52294921875, 1360.199951171875]
+  UnitConfigName: FldObj_TravelerTrace_Tent_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7830c1bf
+  Rotate: [3.141479253768921, -0.8739013075828552, 3.141479253768921]
+  SRTHash: 1303151357
+  Translate: [-4689.34375, 131.36109924316406, 1962.29296875]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x785df533
+  Rotate: [-2.9924824237823486, 0.23183856904506683, 3.069164514541626]
+  SRTHash: 868210400
+  Translate: [-4429.23828125, 573.42724609375, 1301.1014404296875]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x78659269
+  Rotate: -1.6199990510940552
+  SRTHash: -637676913
+  Translate: [-4277.5361328125, 223.35333251953125, 1687.2606201171875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x78ac7378
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4265.2060546875, 158.374267578125, 1944.944091796875]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x79d5a99b
+  Rotate: [2.308471441268921, -1.3525389432907104, -0.9442138075828552]
+  SRTHash: 0
+  Translate: [-4564.76171875, 164.8125, 1813.171875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7a53d4db
+  Rotate: [1.0031737089157104, -1.0097655057907104, 0.4445800483226776]
+  SRTHash: 0
+  Translate: [-4266.0859375, 508.20703125, 1367.65234375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x7a832483
+  Rotate: [0.0538175143301487, -0.46382686495780945, 0.06420225650072098]
+  SRTHash: -304231284
+  Scale: 0.9956049919128418
+  Translate: [-4186.65234375, 668.80517578125, 1107.0234375]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0x7b38498d
+  Rotate: 0.020000016316771507
+  SRTHash: -1860212706
+  Translate: [-4317.5986328125, 209.44764709472656, 1666.036865234375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0x7b7524cd
+  Rotate: [-0.21671389043331146, -1.2959742546081543, 0.030563298612833023]
+  SRTHash: 936085416
+  Scale: 0.9624019861221313
+  Translate: [-4596.6796875, 620.2232055664062, 1068.09375]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- HashId: !u 0x7bdecc3e
+  Rotate: [0.1958872377872467, -0.7730730772018433, -0.09875304251909256]
+  SRTHash: 358990025
+  Translate: [-4173.46044921875, 193.22427368164062, 1984.3302001953125]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7bf3c280
+  Rotate: -1.5384521484375
+  SRTHash: 1484263819
+  Translate: [-4381.8515625, 602.89892578125, 1073.3125]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0x7c005368
+  Rotate: -1.2748316526412964
+  SRTHash: -909211582
+  Translate: [-4123.1357421875, 401.91302490234375, 1720.963623046875]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- '!Parameters': {DropActor: Obj_FireArrow_A_03, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7c26245c
+  Rotate: [2.61653470993042, -1.2875617742538452, -2.669252634048462]
+  SRTHash: 1659095188
+  Translate: [-4481.5654296875, 620.4906005859375, 1041.4466552734375]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, FreezeTarget: 0, IceBreakScale: 0.800000011920929,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7d663318
+  Rotate: [-3.0602617263793945, -0.19888369739055634, -2.8981032371520996]
+  SRTHash: -1495381933
+  Scale: 0.800000011920929
+  Translate: [-4010.791015625, 591.20458984375, 1176.19775390625]
+  UnitConfigName: IceWall
+- HashId: !u 0x7da06dcb
+  Rotate: [0.10967205464839935, -0.545831024646759, -0.06652231514453888]
+  SRTHash: -1544665300
+  Scale: 1.0380860567092896
+  Translate: [-4107.44921875, 533.6781005859375, 1252.359375]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- HashId: !u 0x7e0a8dd0
+  Rotate: 0.7615904808044434
+  SRTHash: 837680918
+  Translate: [-4179.47216796875, 439.37005615234375, 1481.1031494140625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0x7e40fa4c
+  Rotate: 3.023099184036255
+  SRTHash: -1424569320
+  Translate: [-4133.89599609375, 401.4312744140625, 1720.790283203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x7ec68303
+  Rotate: [-0.5816683173179626, -1.4032906293869019, 0.5991590023040771]
+  SRTHash: -562857450
+  Scale: 1.0825200080871582
+  Translate: [-4509.265625, 617.4822387695312, 1035.87890625]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7f3a74bb
+  Rotate: [0.4454345405101776, 1.3585203886032104, -1.0231932401657104]
+  SRTHash: 0
+  Translate: [-4442.9453125, 600.5078125, 1299.640625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x7fc1b761
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4021.57861328125, 295.1781005859375, 1537.238037109375]
+  UnitConfigName: Area
+- HashId: !u 0x806dea42
+  Rotate: [3.079481601715088, -0.32836639881134033, 3.046555280685425]
+  SRTHash: 1980068162
+  Translate: [-4113.81103515625, 275.8083190917969, 1565.7113037109375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x82186fb1
+  Rotate: -0.4930419623851776
+  SRTHash: -197867020
+  Translate: [-4085.68359375, 535.12353515625, 1328.6640625]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x821a95e0
+  Rotate: -0.00406276248395443
+  SRTHash: 1986466663
+  Translate: [-4683.00048828125, 621.4400634765625, 1256.741943359375]
+  UnitConfigName: Obj_TreeDead_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x825c9063
+  Rotate: [1.7008055448532104, 0.9223632216453552, 0.4619140326976776]
+  SRTHash: 0
+  Translate: [-4131.44921875, 585.37890625, 1172.5546875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x82924d51
+  Rotate: [1.0667723417282104, 0.5827636122703552, -0.4067382514476776]
+  SRTHash: 0
+  Translate: [-4877.08984375, 216.171875, 1888.17578125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8293da75
+  Rotate: [1.3940428495407104, -0.0478515699505806, 0.1751708835363388]
+  SRTHash: 0
+  Translate: [-4245.0, 480.0546875, 1400.79296875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x82d90e7a
+  Rotate: 1.9215927124023438
+  SRTHash: 1276336826
+  Scale: 24.999998092651367
+  Translate: [-4268.32763671875, 600.962890625, 1084.6507568359375]
+  UnitConfigName: Area
+- HashId: !u 0x830cbd4b
+  Rotate: [0.040560148656368256, -0.03993603587150574, 0.17615088820457458]
+  SRTHash: 673421918
+  Translate: [-4429.80615234375, 573.771728515625, 1299.9862060546875]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0x83779a45
+  Rotate: [-0.6913211345672607, -1.390358328819275, 0.7997799515724182]
+  SRTHash: -1695780439
+  Scale: 1.0874019861221313
+  Translate: [-4004.67578125, 528.5391235351562, 1380.01171875]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0x837e7d6e
+  Rotate: [3.071571111679077, 0.5222155451774597, -3.129725217819214]
+  SRTHash: -1905960586
+  Translate: [-4500.80712890625, 563.7867431640625, 1370.382568359375]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- HashId: !u 0x8382cca1
+  Rotate: [0.32959088683128357, 0.7031766176223755, 0.29280585050582886]
+  SRTHash: -461580136
+  Translate: [-4172.361328125, 193.40611267089844, 1983.5078125]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x8399e339
+  SRTHash: -1169274838
+  Translate: [-4132.591796875, 533.3467407226562, 1285.297607421875]
+  UnitConfigName: Animal_Wolf_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x848a10a5
+  Rotate: [1.0281981229782104, -0.8973388075828552, 0.6914061903953552]
+  SRTHash: 0
+  Translate: [-3958.19140625, 350.18359375, 1884.15234375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x85fbf5ac
+  Rotate: -0.4399999678134918
+  SRTHash: 278259577
+  Translate: [-4691.0, 623.650390625, 1235.0]
+  UnitConfigName: Obj_TreeDead_A_01
+- HashId: !u 0x85fe1349
+  Rotate: [0.05196869373321533, 0.022571763023734093, -1.6377604007720947]
+  SRTHash: 1818278393
+  Translate: [-4284.2666015625, 428.578125, 1477.361572265625]
+  UnitConfigName: FldObj_GerudoHighlandRock_B_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x866979a5
+  Rotate: [1.8929442167282104, 0.8190917372703552, -0.3654784858226776]
+  SRTHash: 0
+  Translate: [-4122.59765625, 304.4609375, 1566.28125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x86ac444b
+  Rotate: 2.848116874694824
+  SRTHash: -742598208
+  Translate: [-4135.45556640625, 401.2171936035156, 1714.9771728515625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x86e87782
+  Rotate: -1.619992733001709
+  SRTHash: 1953484631
+  Translate: [-4248.69189453125, 251.0341796875, 1659.19921875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0x87002e5b
+  Rotate: [3.0755221843719482, -0.28854456543922424, 3.047757148742676]
+  SRTHash: 1980068162
+  Translate: [-4201.85595703125, 272.65155029296875, 1617.5096435546875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x8714a2e3
+  Rotate: 2.614138126373291
+  SRTHash: -732521969
+  Translate: [-4785.70751953125, 713.0654296875, 1134.1790771484375]
+  UnitConfigName: Animal_Wolf_C
+- HashId: !u 0x879cf3fa
+  Rotate: -0.35999995470046997
+  SRTHash: -1185298925
+  Translate: [-4221.767578125, 231.70950317382812, 1925.9315185546875]
+  UnitConfigName: FldObj_RockOrangeStone_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x87d89904
+  Rotate: [0.1063104197382927, -0.10481440275907516, -0.04696694016456604]
+  SRTHash: -107109324
+  Translate: [-4332.4228515625, 497.38140869140625, 1149.58984375]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x882a6b54
+  Rotate: [2.8622210025787354, -0.8260138034820557, -2.972222328186035]
+  SRTHash: 1006512778
+  Translate: [-4680.1298828125, 158.989990234375, 1972.219970703125]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- HashId: !u 0x8841f84a
+  Rotate: [0.1729651242494583, -0.7809934616088867, -0.33906811475753784]
+  SRTHash: 1980068162
+  Translate: [-4240.02392578125, 176.11865234375, 1954.20361328125]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x8acc5b2b
+  Rotate: [-1.356544852256775, 0.7627010941505432, -2.835026264190674]
+  SRTHash: 196434697
+  Translate: [-4476.87939453125, 566.994873046875, 1355.0321044921875]
+  UnitConfigName: Obj_BarrelOld_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x8b0a6af2
+  SRTHash: -1913888915
+  Translate: [-4127.0703125, 533.281982421875, 1289.1220703125]
+  UnitConfigName: Animal_Wolf_C
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x8b7a1cec
+  Rotate: 5.963284969329834
+  SRTHash: 2045056986
+  Translate: [-4778.02490234375, 713.436767578125, 1129.212890625]
+  UnitConfigName: Animal_Wolf_C
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8c4cca39
+  Rotate: [2.8292236328125, -1.2393797636032104, -1.5039061307907104]
+  SRTHash: 0
+  Translate: [-3959.44140625, 297.03515625, 1906.76171875]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8d67f5ed
+  SRTHash: -927734949
+  Translate: [-4423.099609375, 562.8945922851562, 1412.84228515625]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x8e8e6810
+  SRTHash: 1809277197
+  Translate: [-4184.8251953125, 533.887451171875, 1292.447021484375]
+  UnitConfigName: Animal_Elk_A
+- HashId: !u 0x8eb6d692
+  Rotate: -2.8000059127807617
+  SRTHash: 1432646425
+  Translate: [-4523.984375, 571.5748291015625, 1421.7935791015625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x8f79b4f7
+  Rotate: [0.7777234315872192, 0.33241552114486694, -0.17241011559963226]
+  SRTHash: 980211265
+  Translate: [-4145.0146484375, 206.20623779296875, 1945.837646484375]
+  UnitConfigName: FldObj_RockOrangeStone_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x9094c510
+  Rotate: -0.559999942779541
+  SRTHash: 1276336826
+  Scale: 25.000001907348633
+  Translate: [-4183.30078125, 605.9962158203125, 1167.9705810546875]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x90dbf259
+  Rotate: 1.0483397245407104
+  SRTHash: 1559645662
+  Translate: [-4391.5, 618.824462890625, 1006.58203125]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0x91ab7e50
+  Rotate: [0.21028797328472137, -0.7793653607368469, -0.00846129935234785]
+  SRTHash: 908563860
+  Translate: [-4171.9765625, 192.14736938476562, 1994.615478515625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x91cfd64d
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4319.31591796875, 189.6252899169922, 1693.9774169921875]
+  UnitConfigName: Area
+- HashId: !u 0x9297b48e
+  Rotate: -3.1317172050476074
+  SRTHash: -873798435
+  Translate: [-4129.19140625, 401.33740234375, 1716.87158203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x92b1f116
+  Rotate: -0.11738981306552887
+  SRTHash: -831718953
+  Translate: [-4132.55419921875, 400.3074951171875, 1706.0692138671875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x93928c0d
+  Rotate: [-2.2398681640625, -1.1323240995407104, -2.445312261581421]
+  SRTHash: 0
+  Translate: [-4859.16015625, 590.4765625, 1283.3828125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x9392fe6f
+  Rotate: -0.559999942779541
+  SRTHash: 616567522
+  Scale: 40.0
+  Translate: [-4183.30078125, 605.9962158203125, 1167.9705810546875]
+  UnitConfigName: Area
+- HashId: !u 0x93aab773
+  Rotate: -0.40920308232307434
+  SRTHash: -655811900
+  Translate: [-4206.072265625, 439.9059143066406, 1465.295654296875]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x93eb8100
+  Rotate: [1.5214842557907104, -0.0972900241613388, -0.2623291015625]
+  SRTHash: 0
+  Translate: [-4149.41796875, 716.30859375, 1072.54296875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x947ab12a
+  Rotate: [3.692403229027687e-17, 1.4015930891036987, -3.1031854152679443]
+  SRTHash: 1718126146
+  Translate: [-4223.86279296875, 235.35394287109375, 1916.0096435546875]
+  UnitConfigName: FldObj_RockOrangeStone_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x94b70615
+  Rotate: [2.1461181640625, 1.12109375, 0.9552001357078552]
+  SRTHash: 0
+  Translate: [-4433.01171875, 278.38671875, 1752.578125]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9533cd4a
+  Rotate: [-2.9852476119995117, 1.0953233242034912, -3.0461182594299316]
+  SRTHash: -1669178390
+  Translate: [-4422.43994140625, 566.5560302734375, 1291.795654296875]
+  UnitConfigName: Obj_Mineral_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x96dd979e
+  Rotate: [1.6650389432907104, 0.9263915419578552, 0.4777831733226776]
+  SRTHash: 0
+  Translate: [-4428.19921875, 588.453125, 1292.8671875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x978e9bbd
+  Rotate: -2.120000123977661
+  SRTHash: 1820518816
+  Translate: [-4105.04296875, 282.8200988769531, 1574.385498046875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0x97995e00
+  Rotate: 2.5827438831329346
+  SRTHash: -945162122
+  Translate: [-4145.208984375, 401.2388610839844, 1723.10107421875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x983f4586
+  Rotate: -2.0599958896636963
+  SRTHash: 959204285
+  Translate: [-4220.79833984375, 256.5218200683594, 1661.6510009765625]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x98e1c4fe
+  SRTHash: 1674818226
+  Translate: [-4549.18408203125, 565.9796142578125, 1388.1693115234375]
+  UnitConfigName: Animal_Elk_A
+- HashId: !u 0x9976db03
+  Rotate: [0.025092680007219315, 0.762705385684967, 0.05299054831266403]
+  SRTHash: 1980068162
+  Translate: [-4250.61376953125, 236.17636108398438, 1635.389404296875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- HashId: !u 0x9995745a
+  Rotate: 3.0
+  SRTHash: 57769885
+  Translate: [-4332.65966796875, 492.36590576171875, 1203.6219482421875]
+  UnitConfigName: FldObj_CrevasseSnowWindVent_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x99beaade
+  Rotate: [0.31598979234695435, -0.7653717398643494, -0.304179310798645]
+  SRTHash: 924581156
+  Translate: [-4429.7275390625, 573.89794921875, 1298.7579345703125]
+  UnitConfigName: Obj_Mineral_C_01
+- HashId: !u 0x99d76e08
+  Rotate: -2.2675528526306152
+  SRTHash: -120584644
+  Translate: [-4143.09375, 400.8314208984375, 1717.3551025390625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0x9a3f72fb
+  Rotate: [0.3332453668117523, -0.004624992609024048, 0.02749824896454811]
+  SRTHash: 796551471
+  Translate: [-4769.6943359375, 563.7596435546875, 1442.77587890625]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x9a65256c
+  Rotate: [1.2518309354782104, 0.3270263671875, 0.204345703125]
+  SRTHash: 0
+  Translate: [-4698.6015625, 448.0625, 1625.09375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x9a667263
+  Rotate: [-3.099397659301758, 0.5866568088531494, -3.048529624938965]
+  SRTHash: 1185169537
+  Translate: [-4120.8642578125, 401.2598876953125, 1706.3033447265625]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- HashId: !u 0x9ae903ca
+  Rotate: 0.600389301776886
+  SRTHash: -1435404305
+  Translate: [-4137.86376953125, 401.6109313964844, 1734.635498046875]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x9ae9ab01
+  Rotate: [3.141479253768921, -0.3085937201976776, 3.141479253768921]
+  SRTHash: 634290012
+  Translate: [-4662.08203125, 142.1807098388672, 1768.734375]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0x9baff622
+  Rotate: -1.2199991941452026
+  SRTHash: 123562660
+  Translate: [-4277.76708984375, 223.01739501953125, 1691.9481201171875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9bf6dcfb
+  Rotate: [-0.6818972826004028, -0.0036925943568348885, 0.7267811298370361]
+  SRTHash: 1317656135
+  Translate: [-4610.0439453125, 134.27000427246094, 1845.827880859375]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x9c2e6428
+  Rotate: [2.952338457107544, 0.6715978980064392, 3.0067384243011475]
+  SRTHash: -601353850
+  Translate: [-4771.06640625, 611.4268188476562, 1384.7840576171875]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x9c671dc5
+  Rotate: [1.4505614042282104, -0.2716064155101776, -0.1733398288488388]
+  SRTHash: 0
+  Translate: [-4165.53515625, 293.56640625, 1853.03515625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0x9dfa4578
+  Rotate: [0.03117396868765354, 0.3157147765159607, 0.13711170852184296]
+  SRTHash: 489855385
+  Scale: 0.8559569716453552
+  Translate: [-4194.37109375, 668.32470703125, 1104.1640625]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0x9e1b1f1a
+  Rotate: [3.1203880310058594, -0.5443534851074219, -3.094956874847412]
+  SRTHash: 1980068162
+  Translate: [-4051.277587890625, 304.0640563964844, 1561.445068359375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- HashId: !u 0x9e6ab125
+  Rotate: -0.78387451171875
+  SRTHash: -384275989
+  Translate: [-4759.845703125, 612.7688598632812, 1367.200439453125]
+  UnitConfigName: FldObj_SnowEnemyLookout_B_01
+- HashId: !u 0x9ef87a8a
+  Rotate: 2.961592435836792
+  SRTHash: 752566349
+  Translate: [-4948.0400390625, 173.48013305664062, 1997.681884765625]
+  UnitConfigName: FldObj_DesertRuin_A_01
+- '!Parameters': {EquipItem1: Weapon_Spear_012, FortressEatPer: -1, IsMimicry: false,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0, OnCliff: false,
+    OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0x9f405135
+  Rotate: 1.9199999570846558
+  SRTHash: -865792571
+  Translate: [-4578.5, 622.8443603515625, 1120.0]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x9f5996de
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4171.34912109375, 241.2188262939453, 1592.24365234375]
+  UnitConfigName: Area
+- '!Parameters': {IsStopWithoutReductionY: false, Shape: Sphere, Sound: CmnWildBgm,
+    SpotBgmLifeScaleMargin: 0.0}
+  HashId: !u 0x9f6f4ced
+  SRTHash: -838977203
+  Scale: 30.0
+  Translate: [-4670.0, 140.0, 1972.0]
+  UnitConfigName: SpotBgmTag
+- HashId: !u 0x9f893c72
+  Rotate: [-0.14423660933971405, -0.10267619788646698, 0.1338508576154709]
+  SRTHash: -585472986
+  Scale: 1.008301019668579
+  Translate: [-4337.6328125, 493.3973388671875, 1204.1796875]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x9fc232af
+  Rotate: [1.0367431640625, 1.015625, -0.345947265625]
+  SRTHash: 0
+  Translate: [-4418.10546875, 607.0390625, 1228.48828125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0x9fe56b88
+  Rotate: -2.6110033988952637
+  SRTHash: -384275989
+  Translate: [-4763.13330078125, 614.5568237304688, 1337.5343017578125]
+  UnitConfigName: FldObj_SnowEnemyLookout_B_01
+- HashId: !u 0xa0e64b69
+  SRTHash: -28809934
+  Translate: [-4320.62255859375, 209.6167755126953, 1666.738525390625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa0fb6707
+  Rotate: [3.141479253768921, 0.21044921875, 3.141479253768921]
+  SRTHash: 116688312
+  Translate: [-4606.92578125, 562.2672729492188, 1431.05078125]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa104e245
+  Rotate: -0.53682941198349
+  SRTHash: -1349976342
+  Translate: [-4676.15625, 623.7347412109375, 1216.80078125]
+  UnitConfigName: Obj_TreeDead_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa1a709ba
+  Rotate: [0.8394774794578552, 0.3659667670726776, -0.12451171875]
+  SRTHash: 0
+  Translate: [-4748.40234375, 659.234375, 1250.33984375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xa2372c53
+  Rotate: 2.18318510055542
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4754.31396484375, 612.9453735351562, 1361.651611328125]
+  UnitConfigName: Area
+- HashId: !u 0xa23f4db8
+  Rotate: 0.7148602604866028
+  SRTHash: 1999472644
+  Translate: [-4130.84765625, 400.7701110839844, 1707.273193359375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xa281e396
+  Rotate: -2.8368148803710938
+  SRTHash: -1066048162
+  Scale: 1.1413129568099976
+  Translate: [-4733.986328125, 607.67529296875, 1428.5252685546875]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa2cdb3da
+  Rotate: [2.69287109375, 1.3171385526657104, 1.1552734375]
+  SRTHash: 0
+  Translate: [-4280.68359375, 198.8671875, 2007.6953125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsNearCreate: false,
+    LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xa3620e37
+  Rotate: 1.6399990320205688
+  SRTHash: -1689044902
+  Translate: [-4465.10009765625, 567.1290283203125, 1348.5999755859375]
+  UnitConfigName: Enemy_Octarock_Snow
+- HashId: !u 0xa43588fd
+  Rotate: 2.963184356689453
+  SRTHash: -2112376657
+  Translate: [-4083.010009765625, 286.265625, 1563.568603515625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa453dc74
+  Rotate: [1.4656981229782104, 0.2968749701976776, 0.1856689304113388]
+  SRTHash: 0
+  Translate: [-4636.2265625, 542.26953125, 1534.40625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xa5448879
+  Rotate: [-2.54150390625, 1.486472487449646, -2.474104642868042]
+  SRTHash: -1600157256
+  Translate: [-4121.71142578125, 401.14056396484375, 1704.5723876953125]
+  UnitConfigName: Obj_Plant_HopBush_C_02
+- HashId: !u 0xa5a10e78
+  Rotate: [-3.0955631732940674, -0.6778054237365723, -2.999711036682129]
+  SRTHash: -1246589983
+  Translate: [-4240.05029296875, 534.4089965820312, 1185.4337158203125]
+  UnitConfigName: Obj_MineralGrain_A_04
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xa5ac6e0a
+  SRTHash: -372812191
+  Translate: [-4552.17919921875, 563.6318969726562, 1405.11962890625]
+  UnitConfigName: Animal_Wolf_A
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xa6131fed
+  SRTHash: 509972363
+  Translate: [-4550.7763671875, 563.3743896484375, 1406.29248046875]
+  UnitConfigName: Animal_Wolf_A
+- HashId: !u 0xa6547edd
+  Rotate: -2.5435984134674072
+  SRTHash: -1419383492
+  Translate: [-4452.29833984375, 560.5699462890625, 1423.924072265625]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa70eee1d
+  Rotate: [1.7349852323532104, -0.8964843153953552, -0.4036864936351776]
+  SRTHash: 0
+  Translate: [-4562.2421875, 193.96484375, 1805.54296875]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xa78f84de
+  Rotate: [0.39037150144577026, 1.1699284315109253, 0.5025994777679443]
+  SRTHash: 546910981
+  Translate: [-4175.765625, 192.21002197265625, 1990.669921875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xa79a07f7
+  Rotate: [1.4364954233169556, -1.4203908443450928, -1.2945380210876465]
+  SRTHash: -990854104
+  Translate: [-4174.53857421875, 192.0123291015625, 1993.11767578125]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa9260a97
+  Rotate: [1.5512787103652954, 0.7267749905586243, 2.0461597442626953]
+  SRTHash: 1317656135
+  Translate: [-4947.4677734375, 178.4274139404297, 1990.3905029296875]
+  UnitConfigName: Weapon_Lsword_001
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa950d330
+  Rotate: [0.9558104872703552, -1.1788328886032104, -0.0699462890625]
+  SRTHash: 0
+  Translate: [-4502.26953125, 178.8125, 1907.46484375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xa9dae0c4
+  Rotate: [0.007931266911327839, 0.4931389391422272, 0.06222337856888771]
+  SRTHash: -1135038640
+  Translate: [-4532.16357421875, 563.423095703125, 1414.06689453125]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {DropActor: Obj_FireArrow_A_03, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xaa1bfad6
+  Rotate: [-3.030731439590454, 0.5912847518920898, -2.9869182109832764]
+  SRTHash: -2112411070
+  Translate: [-4710.22412109375, 618.2357177734375, 1300.306884765625]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xaad53f5a
+  Rotate: [3.141479253768921, 1.0302733182907104, 3.141479253768921]
+  SRTHash: 944568145
+  Translate: [-4375.57421875, 180.19534301757812, 1854.4765625]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0xaae7fe96
+  Rotate: 0.978432297706604
+  SRTHash: -531516436
+  Translate: [-4138.03369140625, 401.29052734375, 1720.9559326171875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xab2c10aa
+  Rotate: [1.3284910917282104, 0.7243651747703552, 0.3565673828125]
+  SRTHash: 0
+  Translate: [-4631.51953125, 399.8046875, 1636.1953125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xabb87665
+  Rotate: [1.3099365234375, 0.9478759765625, 0.4892577826976776]
+  SRTHash: 0
+  Translate: [-4475.078125, 439.58984375, 1602.7265625]
+  UnitConfigName: Item_Plant_O
+- HashId: !u 0xac68bf14
+  Rotate: -1.4599992036819458
+  SRTHash: 796936156
+  Translate: [-4249.16748046875, 251.42288208007812, 1664.53759765625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0xacb5fdf2
+  Rotate: -1.037725567817688
+  SRTHash: 736208326
+  Translate: [-4118.7587890625, 401.9688415527344, 1727.759521484375]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- HashId: !u 0xacc8dc34
+  Rotate: [3.020392894744873, -0.5997647047042847, -3.113081455230713]
+  SRTHash: -1879506297
+  Scale: 1.0541856288909912
+  Translate: [-3959.18701171875, 535.8699951171875, 1234.0045166015625]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xacec05e0
+  Rotate: 0.8615722060203552
+  SRTHash: -1803327571
+  Translate: [-4188.58203125, 533.4899291992188, 1271.3828125]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xad699413
+  Rotate: 2.5984129905700684
+  SRTHash: -213753824
+  Translate: [-4215.66796875, 533.9829711914062, 1291.452880859375]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- HashId: !u 0xad9581f2
+  Rotate: -1.4399961233139038
+  SRTHash: -968921180
+  Translate: [-4248.9033203125, 251.2919921875, 1669.244140625]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0xae0d7115
+  Rotate: 2.626783847808838
+  SRTHash: -384275989
+  Translate: [-4746.091796875, 612.6284790039062, 1337.17236328125]
+  UnitConfigName: FldObj_SnowEnemyLookout_B_01
+- HashId: !u 0xae8eebfb
+  Rotate: 0.9305175542831421
+  SRTHash: -114177860
+  Translate: [-4190.8779296875, 668.5363159179688, 1106.83154296875]
+  UnitConfigName: Obj_TreeBroadleafLow_Snow_A_02
+- HashId: !u 0xaede0738
+  Rotate: -0.155599907040596
+  SRTHash: 1699737532
+  Translate: [-4140.5478515625, 399.513427734375, 1706.38916015625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xafb9f741
+  Rotate: 0.20000006258487701
+  SRTHash: -808702611
+  Translate: [-4358.55078125, 209.7554168701172, 1714.350830078125]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0xafc3491a
+  Rotate: [-0.041320376098155975, -0.684245765209198, 0.10942856967449188]
+  SRTHash: -1503048959
+  Scale: 1.0458691120147705
+  Translate: [-4380.12548828125, 563.6409301757812, 1262.6044921875]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xafc433bf
+  SRTHash: -2053371073
+  Translate: [-4554.02099609375, 563.0772094726562, 1414.927978515625]
+  UnitConfigName: Animal_Elk_A
+- '!Parameters': {AddParam: 0, AddSpecialFlag: 0, DropTable: Normal, EnemyOwnItem: false,
+    IsCreateSharpWeapon: false, IsEmitLandNoise: false, IsFixedPlace: true, IsPlayerPut: false,
+    IsWeaponCreateByRawLife: false, LevelSensorMode: 0, Life: -1, SharpWeaponJudgeType: 0}
+  HashId: !u 0xafce0aa9
+  Rotate: 1.0199999809265137
+  SRTHash: 1582110152
+  Translate: [-4254.53759765625, 194.94580078125, 1968.6868896484375]
+  UnitConfigName: Weapon_Sword_053
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb04dbc07
+  Rotate: [-3.0118408203125, 1.4122313261032104, 1.5720213651657104]
+  SRTHash: 0
+  Translate: [-4718.171875, 647.45703125, 1174.8515625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, FortressEatPer: -1,
+    IsMimicry: false, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: true, OnCliffTurn: false, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xb094d5bf
+  Rotate: [-1.3437516689300537, 1.0255135297775269, -2.907238721847534]
+  SRTHash: -2019721368
+  Translate: [-4252.01220703125, 176.58689880371094, 1967.5]
+  UnitConfigName: Enemy_Lizalfos_Junior
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xb0aa8630
+  SRTHash: -52075587
+  Translate: [-4810.041015625, 714.7645263671875, 1124.4383544921875]
+  UnitConfigName: Animal_Fox_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb0cf4db5
+  Rotate: [0.7640380263328552, 0.9249266982078552, -0.1890868991613388]
+  SRTHash: 0
+  Translate: [-4323.453125, 366.48828125, 1570.19921875]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb1838302
+  Rotate: [1.4437254667282104, -0.4144286811351776, -0.450439453125]
+  SRTHash: 0
+  Translate: [-4882.92578125, 609.00390625, 1226.04296875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, FreezeTarget: 0, IceBreakScale: 0.800000011920929,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb27e3fe0
+  Rotate: 1.661629557609558
+  SRTHash: -34515004
+  Scale: 1.5
+  Translate: [-4285.5341796875, 596.9344482421875, 1096.5457763671875]
+  UnitConfigName: IceWall
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb2c64914
+  Rotate: [3.141479253768921, -1.3041990995407104, 3.141479253768921]
+  SRTHash: 501620947
+  Translate: [-4232.3046875, 538.7689819335938, 1194.89453125]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0xb3a13ebf
+  Rotate: [-0.06562202423810959, -0.6243736743927002, -0.068028025329113]
+  SRTHash: -1588271001
+  Scale: 1.015625
+  Translate: [-4564.76171875, 630.2632446289062, 1191.67578125]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xb3f5daf4
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4435.0, 634.0062866210938, 1086.8358154296875]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb44fe682
+  Rotate: [3.141479253768921, 0.5034179091453552, 3.141479253768921]
+  SRTHash: 1918174752
+  Translate: [-4602.2734375, 133.6007537841797, 1814.03515625]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0xb457bd37
+  Rotate: -0.6466687321662903
+  SRTHash: -705103984
+  Translate: [-4129.5771484375, 401.52130126953125, 1720.4033203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb46e8971
+  Rotate: -0.0615234300494194
+  SRTHash: -1260692852
+  Translate: [-4704.8203125, 634.8807983398438, 1125.1953125]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb514e672
+  Rotate: [2.7392578125, 0.7357177734375, 0.5264892578125]
+  SRTHash: 0
+  Translate: [-4387.2578125, 233.28515625, 1795.875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb52d747f
+  Rotate: [0.7290038466453552, -1.1738280057907104, 0.6730956435203552]
+  SRTHash: 0
+  Translate: [-4544.55078125, 195.34765625, 1848.8671875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xb53e51e0
+  SRTHash: -1909118778
+  Translate: [-4310.5, 418.41046142578125, 1446.5]
+  UnitConfigName: GrassCutTag
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb5817f93
+  Rotate: [1.4442137479782104, 0.199951171875, -0.1407470703125]
+  SRTHash: 0
+  Translate: [-4462.94921875, 539.8984375, 1458.328125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb5a94c9b
+  Rotate: [-3.021117925643921, 1.0163573026657104, 2.2572021484375]
+  SRTHash: 0
+  Translate: [-4710.1640625, 716.12890625, 1047.4453125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xb649c8d8
+  Rotate: [0.0, 0.0, 1.4799997806549072]
+  SRTHash: 1412604571
+  Translate: [-4284.2666015625, 412.953125, 1475.978759765625]
+  UnitConfigName: FldObj_GerudoHighlandRock_B_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb6a879ab
+  Rotate: [1.1925047636032104, -0.5191649794578552, 0.3906249701976776]
+  SRTHash: 0
+  Translate: [-4227.38671875, 584.3125, 1172.453125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb6d3e6df
+  Rotate: [1.3647459745407104, -0.2175292819738388, -0.3038329780101776]
+  SRTHash: 0
+  Translate: [-4131.44921875, 488.5234375, 1428.54296875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb6ddedb6
+  Rotate: [1.4689940214157104, 0.1499023288488388, 0.3326415717601776]
+  SRTHash: 0
+  Translate: [-4720.421875, 506.6875, 1535.81640625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xb7117c4f
+  SRTHash: -62351089
+  Scale: 1.5399999618530273
+  Translate: [-4317.33642578125, 492.4888916015625, 1193.5291748046875]
+  UnitConfigName: FldObj_CrevasseSnowWindVent_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb74a7cdb
+  Rotate: [-0.0003297973016742617, -1.9186792997061275e-05, -0.11622405797243118]
+  SRTHash: -1168927555
+  Translate: [-4323.1474609375, 626.4649047851562, 1056.9007568359375]
+  UnitConfigName: Item_Plant_A
+- HashId: !u 0xb7669485
+  Rotate: 1.8141769170761108
+  SRTHash: 1620759922
+  Translate: [-4132.94140625, 401.45074462890625, 1729.5439453125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xb7bc4571
+  Rotate: -1.25146484375
+  SRTHash: -1244406828
+  Scale: 1.0805660486221313
+  Translate: [-4474.1875, 630.6453247070312, 1207.3359375]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb7fbd56f
+  Rotate: [3.141479253768921, 0.016357416287064552, 3.141479253768921]
+  SRTHash: -1582762712
+  Translate: [-4595.3671875, 574.9868774414062, 1396.7265625]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb87b9b69
+  Rotate: -0.5649413466453552
+  SRTHash: 929633049
+  Translate: [-4091.48046875, 263.92706298828125, 1569.27734375]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb8b43048
+  Rotate: [1.5855989456176758, -0.23997589945793152, -0.09282732009887695]
+  SRTHash: 923325330
+  Translate: [-4128.90576171875, 193.20111083984375, 2084.75]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb9c2049a
+  Rotate: [3.141479253768921, -1.3846434354782104, 3.141479253768921]
+  SRTHash: 679520498
+  Translate: [-4104.36328125, 536.9693603515625, 1330.046875]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xba09bfe5
+  Rotate: [3.141479253768921, 0.4664306342601776, 3.141479253768921]
+  SRTHash: -1307120075
+  Translate: [-4644.28125, 135.09535217285156, 1992.26171875]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xba6689ef
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4021.57861328125, 295.1781005859375, 1537.238037109375]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbae568a2
+  Rotate: [1.2259521484375, 0.2169189304113388, 0.1542968600988388]
+  SRTHash: 0
+  Translate: [-4001.53125, 545.265625, 1255.8515625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xbb47118a
+  Rotate: [1.5296916961669922, -1.3196086883544922, -1.3681620359420776]
+  SRTHash: -2014961576
+  Translate: [-4166.7021484375, 194.23773193359375, 1985.45654296875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbb4f77fe
+  Rotate: [1.1856688261032104, -0.1448974460363388, 0.3280028998851776]
+  SRTHash: 0
+  Translate: [-4198.38671875, 375.39453125, 1523.96875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbb90eedc
+  Rotate: [1.1104736328125, 0.146240234375, -0.4569091498851776]
+  SRTHash: 0
+  Translate: [-4844.5546875, 307.7890625, 1725.80859375]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbc0516c7
+  Rotate: [1.4348143339157104, -0.2265624850988388, 0.493896484375]
+  SRTHash: 0
+  Translate: [-4170.51171875, 773.0625, 1058.5390625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xbcb23f0c
+  Rotate: -0.21652010083198547
+  SRTHash: -1469352831
+  Translate: [-4138.65185546875, 399.5281677246094, 1705.513427734375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xbd0b4df6
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4265.2060546875, 158.374267578125, 1944.944091796875]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbd58c4f3
+  Rotate: [1.6938475370407104, -0.9631347060203552, -0.4014892280101776]
+  SRTHash: 0
+  Translate: [-4038.4921875, 565.921875, 1219.66015625]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbd590bfb
+  Rotate: [3.141479253768921, 0.5767821669578552, 3.141479253768921]
+  SRTHash: -37112699
+  Translate: [-4578.73828125, 139.86941528320312, 1884.4765625]
+  UnitConfigName: Item_Plant_F
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbd675670
+  Rotate: [1.7901610136032104, 0.6691893935203552, 0.3363036811351776]
+  SRTHash: 0
+  Translate: [-4438.28515625, 585.3984375, 1314.5703125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xbdab9f8d
+  Rotate: -1.8400055170059204
+  SRTHash: 756977096
+  Translate: [-4266.18505859375, 226.07611083984375, 1690.5467529296875]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- HashId: !u 0xbebaad07
+  Rotate: 0.012847846373915672
+  SRTHash: 1059456320
+  Translate: [-4139.99365234375, 401.16546630859375, 1720.234375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropActor: PutRupee_Purple, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbf39214c
+  Rotate: 3.140000104904175
+  SRTHash: 168900992
+  Translate: [-4364.27392578125, 627.638916015625, 1077.1226806640625]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xbf4825c4
+  Rotate: [2.04345703125, 0.9886474013328552, 0.7504882216453552]
+  SRTHash: 0
+  Translate: [-4724.53515625, 646.37109375, 1208.37890625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xbf94f7c2
+  Rotate: 1.104583978652954
+  SRTHash: -68796484
+  Translate: [-4135.56787109375, 401.6150817871094, 1734.3974609375]
+  UnitConfigName: Obj_Plant_HopBush_C_01
+- HashId: !u 0xc0057cfd
+  Rotate: [2.434758186340332, 1.4059381484985352, 2.5294172763824463]
+  SRTHash: -827057130
+  Scale: 1.1607195138931274
+  Translate: [-4273.51904296875, 534.1253662109375, 1257.3973388671875]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- HashId: !u 0xc04027e1
+  Rotate: [1.325500726699829, -1.4662171602249146, -1.2196948528289795]
+  SRTHash: -343247631
+  Translate: [-4167.7861328125, 192.73179626464844, 1993.990966796875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xc0884b9e
+  Rotate: -1.8400055170059204
+  SRTHash: 169607720
+  Translate: [-4266.82568359375, 226.05459594726562, 1692.5650634765625]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xc0e60165
+  Rotate: -2.5799996852874756
+  SRTHash: -278152434
+  Translate: [-4778.73486328125, 708.0487060546875, 1200.27587890625]
+  UnitConfigName: Animal_Bear_B
+- HashId: !u 0xc15b9cbf
+  Rotate: -1.8600000143051147
+  SRTHash: 763793834
+  Translate: [-4045.436279296875, 532.0447998046875, 1287.875]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_07
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xc1b3dd7b
+  Rotate: [1.4197996854782104, -0.2453613132238388, 0.02343750186264515]
+  SRTHash: 0
+  Translate: [-3993.93359375, 703.9765625, 1091.828125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xc287ef1b
+  Rotate: [1.4720457792282104, 0.2098388522863388, 0.156494140625]
+  SRTHash: 0
+  Translate: [-4788.53125, 194.96484375, 1845.05078125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xc2a1596d
+  Rotate: [-0.5841273069381714, 0.631105899810791, -2.2653422355651855]
+  SRTHash: -1492535103
+  Translate: [-4148.99755859375, 203.96737670898438, 1942.863037109375]
+  UnitConfigName: FldObj_RockOrangeStone_A_02
+- '!Parameters': {Shape: Box}
+  HashId: !u 0xc2e2a44c
+  Rotate: [0.1895664781332016, 1.3593965768814087, 0.0303681381046772]
+  SRTHash: 1021497725
+  Scale: [98.01835632324219, 237.13673400878906, 58.63386535644531]
+  Translate: [-4893.70556640625, 749.8853759765625, 986.5657958984375]
+  UnitConfigName: AirWall
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xc3a5bf4d
+  SRTHash: 973017868
+  Translate: [-4325.19873046875, 626.3336181640625, 1057.5540771484375]
+  UnitConfigName: Item_Plant_A
+- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xc48afd94
+  Rotate: 3.140000104904175
+  SRTHash: -1952284236
+  Translate: [-4044.05712890625, 538.1495361328125, 1275.2611083984375]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xc49d7c70
+  Rotate: -2.200000047683716
+  SRTHash: -755305689
+  Translate: [-4101.91015625, 282.8200988769531, 1570.897216796875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0xc50cacfe
+  Rotate: [1.3615450859069824, -1.4311673641204834, -1.3360437154769897]
+  SRTHash: -1569022727
+  Translate: [-4165.12646484375, 193.25804138183594, 1990.8714599609375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xc5a765ce
+  Rotate: [1.4354248046875, -0.018920904025435448, -0.4572753608226776]
+  SRTHash: 0
+  Translate: [-4755.93359375, 589.76171875, 1448.85546875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xc5b07820
+  Rotate: -0.155599907040596
+  SRTHash: -696502538
+  Translate: [-4141.4892578125, 400.9315185546875, 1716.0185546875]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc75342cc
+  Rotate: [0.7386509776115417, 1.2183222770690918, 0.8321967720985413]
+  SRTHash: 836357221
+  Translate: [-4164.94091796875, 193.5447235107422, 1989.5045166015625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xc76d337b
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4435.0, 634.0062866210938, 1086.8358154296875]
+  UnitConfigName: Area
+- HashId: !u 0xc7a37a29
+  Rotate: 0.3375034034252167
+  SRTHash: -448741844
+  Translate: [-4143.91259765625, 400.6554260253906, 1715.52978515625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xc8515542
+  Rotate: 2.5761256217956543
+  SRTHash: -384275989
+  Translate: [-4430.8017578125, 634.0062255859375, 1080.22021484375]
+  UnitConfigName: FldObj_SnowEnemyLookout_B_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc9a235bc
+  Rotate: 1.909183382987976
+  SRTHash: 1123309102
+  Translate: [-4178.6513671875, 533.484130859375, 1268.975830078125]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc9cc54bf
+  Rotate: [1.2891212701797485, 1.2941946983337402, 1.1883940696716309]
+  SRTHash: -344437819
+  Translate: [-4588.06640625, 567.4287109375, 1410.0103759765625]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xca0a489e
+  Rotate: [3.141479253768921, -0.3786620795726776, 3.141479253768921]
+  SRTHash: 1085643303
+  Translate: [-4331.63671875, 493.1619567871094, 1209.578125]
+  UnitConfigName: Item_Plant_E
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xca340a3a
+  Rotate: [3.141479253768921, -1.24462890625, 3.141479253768921]
+  SRTHash: 1272612535
+  Translate: [-4632.125, 125.5256118774414, 1847.58203125]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xcaa6735f
+  Rotate: [1.06298828125, -0.0573730394244194, -0.3199462890625]
+  SRTHash: 0
+  Translate: [-4598.28515625, 453.58203125, 1600.23046875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xcbcc559e
+  Rotate: -0.7825927138328552
+  SRTHash: 2025356367
+  Translate: [-4816.3359375, 153.76446533203125, 1947.87109375]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0xcbeb23a6
+  Rotate: -0.44000527262687683
+  SRTHash: 1491266948
+  Translate: [-4525.48876953125, 571.3145751953125, 1426.118408203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xcced5f49
+  Rotate: [-0.2200000286102295, -1.558406949043274, -3.1031854152679443]
+  SRTHash: -917086496
+  Translate: [-4213.9677734375, 232.54953002929688, 1919.940673828125]
+  UnitConfigName: FldObj_RockOrangeStone_A_01
+- HashId: !u 0xcd17ea6c
+  Rotate: [2.4210684299468994, -0.8613113164901733, -2.9439074993133545]
+  SRTHash: 748289975
+  Translate: [-4657.3798828125, 147.2899932861328, 1991.43994140625]
+  UnitConfigName: FldObj_BoneGiant_BackBone_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xcd5d00f1
+  Rotate: [3.141479253768921, 1.0242919921875, 3.141479253768921]
+  SRTHash: -349278698
+  Translate: [-4632.2890625, 125.64615631103516, 1839.9921875]
+  UnitConfigName: Item_Plant_L
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xcd61b979
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4171.34912109375, 241.2188262939453, 1592.24365234375]
+  UnitConfigName: Area
+- HashId: !u 0xcddd442f
+  Rotate: 0.8541883230209351
+  SRTHash: -384275989
+  Translate: [-4734.77490234375, 612.4368896484375, 1378.484619140625]
+  UnitConfigName: FldObj_SnowEnemyLookout_B_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, ForbidSystemDeleteDistance: false,
+    IsLocatorCreate: false, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xcdf0b566
+  SRTHash: 2025208872
+  Translate: [-4634.60986328125, 133.2948455810547, 1954.090087890625]
+  UnitConfigName: Animal_Sunazarashi_A
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xced5b7be
+  Rotate: [0.8291015028953552, -1.3106688261032104, 0.7513427138328552]
+  SRTHash: 0
+  Translate: [-4849.46875, 578.6484375, 1329.69921875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xcf6c1307
+  Rotate: -2.2263071537017822
+  SRTHash: 272447051
+  Translate: [-4143.97802734375, 401.435791015625, 1727.0550537109375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xcf80c241
+  Rotate: [0.4194547235965729, -1.1049989461898804, -0.23634523153305054]
+  SRTHash: -320105220
+  Scale: 0.9521480202674866
+  Translate: [-4183.328125, 668.117431640625, 1116.64453125]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {DropActor: PutRupee_Silver, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd04a8c1a
+  Rotate: [-2.946237325668335, -1.0778993368148804, 3.061704635620117]
+  SRTHash: -2130474329
+  Translate: [-4479.83544921875, 628.0225830078125, 1150.7430419921875]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {Shape: Box}
+  HashId: !u 0xd1a0ea6b
+  Rotate: [0.17237544059753418, 1.099454402923584, 0.014031018130481243]
+  SRTHash: -1273358062
+  Scale: [98.01835632324219, 237.13673400878906, 58.63386535644531]
+  Translate: [-4953.771484375, 748.9658203125, 1155.2685546875]
+  UnitConfigName: AirWall
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd1d9e955
+  Rotate: [-1.3410643339157104, -1.5621336698532104, -2.745605230331421]
+  SRTHash: 0
+  Translate: [-4248.23828125, 247.578125, 1668.421875]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xd3228f8f
+  Rotate: 2.8648219108581543
+  SRTHash: -551843613
+  Translate: [-4129.4111328125, 401.4814453125, 1724.5411376953125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xd34ee2df
+  Rotate: -2.0599958896636963
+  SRTHash: -848059680
+  Translate: [-4218.91845703125, 256.2530517578125, 1658.1201171875]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- HashId: !u 0xd3664989
+  Rotate: [0.8085680603981018, 0.029775166884064674, -1.7184284925460815]
+  SRTHash: 712142813
+  Translate: [-4684.89990234375, 133.08999633789062, 1963.7099609375]
+  UnitConfigName: FldObj_DesertRuin_A_04
+- HashId: !u 0xd393ded1
+  Rotate: -0.5600053071975708
+  SRTHash: 924445515
+  Translate: [-4531.15087890625, 571.6323852539062, 1421.486328125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd3d260ab
+  Rotate: [-1.3153074979782104, -1.4876707792282104, 2.845947027206421]
+  SRTHash: 0
+  Translate: [-4861.62890625, 550.03515625, 1353.40625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xd42730e6
+  Rotate: [-3.0753376483917236, -0.2956239581108093, 2.9536776542663574]
+  SRTHash: 545342270
+  Translate: [-4580.29345703125, 240.07919311523438, 1756.86767578125]
+  UnitConfigName: FldObj_RockOrange_A_M_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd58d4e70
+  Rotate: [1.0986328125, 1.1396484375, -0.4201659858226776]
+  SRTHash: 0
+  Translate: [-4351.4375, 547.83203125, 1330.60546875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd5bc7e95
+  Rotate: -0.9393309950828552
+  SRTHash: -1570303281
+  Translate: [-4164.21484375, 193.16604614257812, 1994.55078125]
+  UnitConfigName: Item_Mushroom_H
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd5ed6f1b
+  Rotate: [1.0819090604782104, -0.2744140326976776, 0.3317870795726776]
+  SRTHash: 0
+  Translate: [-4519.796875, 290.41015625, 1768.9140625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xd65e777d
+  Rotate: [-0.12340295314788818, 0.19727358222007751, -0.009946043603122234]
+  SRTHash: -998336704
+  Scale: 1.062988042831421
+  Translate: [-4571.3359375, 622.0072631835938, 1111.16796875]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- HashId: !u 0xd6c9503c
+  Rotate: -2.3799970149993896
+  SRTHash: 134421815
+  Translate: [-4074.64794921875, 297.36907958984375, 1594.632568359375]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- HashId: !u 0xd6ee64da
+  SRTHash: -1909118778
+  Translate: [-4323.0, 418.42730712890625, 1443.0]
+  UnitConfigName: GrassCutTag
+- HashId: !u 0xd79825f6
+  Rotate: 0.4065777659416199
+  SRTHash: 1431950413
+  Translate: [-4129.51123046875, 401.0448303222656, 1708.8780517578125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xd8412bb5
+  SRTHash: 1168004286
+  Scale: [20.0, 55.0, 20.0]
+  Translate: [-4318.05615234375, 492.4973449707031, 1194.42333984375]
+  UnitConfigName: AscendingCurrent
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd8bdbc9c
+  Rotate: [1.7122801542282104, 0.6979979872703552, 0.0939941331744194]
+  SRTHash: 0
+  Translate: [-4693.59765625, 163.96875, 1773.48828125]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd8e24490
+  Rotate: [3.141479253768921, 1.1074217557907104, 3.141479253768921]
+  SRTHash: 244712528
+  Translate: [-4541.890625, 563.7106323242188, 1402.5234375]
+  UnitConfigName: Item_Plant_E
+- HashId: !u 0xd90f7c9f
+  Rotate: [2.986231565475464, -0.8139086961746216, -2.9780542850494385]
+  SRTHash: 1822645926
+  Scale: 1.2165671586990356
+  Translate: [-4674.8701171875, 159.87998962402344, 1966.969970703125]
+  UnitConfigName: FldObj_BoneGiant_Rib_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd956d80c
+  Rotate: [2.02294921875, 1.04638671875, 0.8363037109375]
+  SRTHash: 0
+  Translate: [-4678.50390625, 653.15625, 895.95703125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd979fba5
+  Rotate: [1.2495115995407104, -0.2889404296875, 0.4891357123851776]
+  SRTHash: 0
+  Translate: [-4211.359375, 499.1875, 1411.09765625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xd989db6d
+  Rotate: 2.1679880619049072
+  SRTHash: -1501199692
+  Translate: [-4197.9501953125, 667.7994384765625, 1105.2689208984375]
+  UnitConfigName: Obj_TreeBroadleafLow_Snow_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd9c466d1
+  Rotate: [3.141479253768921, 0.5491943359375, 3.141479253768921]
+  SRTHash: -1855504157
+  Translate: [-4215.78515625, 533.9718627929688, 1290.40625]
+  UnitConfigName: Item_Mushroom_B
+- HashId: !u 0xdac1529a
+  Rotate: [0.2591620981693268, -0.3662658631801605, 0.051426880061626434]
+  SRTHash: 999008613
+  Translate: [-4165.9052734375, 194.04449462890625, 1986.71630859375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xdbd2641a
+  Rotate: [1.3891600370407104, -0.0291748009622097, 0.4224853515625]
+  SRTHash: 0
+  Translate: [-4118.296875, 377.15234375, 1754.18359375]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xdc00d501
+  Rotate: [1.27197265625, -1.2164306640625, 0.2045898288488388]
+  SRTHash: 0
+  Translate: [-4851.1640625, 571.95703125, 1378.23828125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {ArrowName: NormalArrow, EquipItem1: Weapon_Bow_030, FortressEatPer: -1,
+    IsMimicry: false, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xdc4354c1
+  Rotate: 1.9600000381469727
+  SRTHash: -717393429
+  Translate: [-4582.5, 621.6312255859375, 1107.0]
+  UnitConfigName: Enemy_Lizalfos_Senior
+- HashId: !u 0xdc94d059
+  Rotate: -0.8092058300971985
+  SRTHash: 1289561018
+  Translate: [-4180.20263671875, 438.37005615234375, 1481.8038330078125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xdd2fa648
+  Rotate: 0.059995055198669434
+  SRTHash: -1150403107
+  Translate: [-4526.76806640625, 571.1206665039062, 1426.98583984375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xde078dc6
+  Rotate: [1.1224365234375, 1.1353758573532104, 0.0814208835363388]
+  SRTHash: 0
+  Translate: [-4358.3984375, 536.7265625, 1145.84765625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xdec46a45
+  Rotate: [1.4364819526672363, -1.4203904867172241, -1.2945245504379272]
+  SRTHash: 1627489290
+  Translate: [-4175.2705078125, 192.0867156982422, 1991.9443359375]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xdfb9e635
+  Rotate: -2.3400001525878906
+  SRTHash: 604448521
+  Translate: [-4474.5, 566.5150756835938, 1355.800048828125]
+  UnitConfigName: Animal_Fox_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xdfc3beeb
+  Rotate: [1.5037841796875, -1.0097655057907104, 0.0799560397863388]
+  SRTHash: 0
+  Translate: [-4842.5859375, 530.87109375, 1402.7109375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xe053cdea
+  Rotate: [-3.0015933513641357, -1.5215762853622437, -3.1415913105010986]
+  SRTHash: 319862467
+  Translate: [-4529.15478515625, 571.8939819335938, 1419.3575439453125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xe0b412db
+  Rotate: [0.06618146598339081, 0.7496486306190491, 0.06994406133890152]
+  SRTHash: 1599634063
+  Scale: 1.0136719942092896
+  Translate: [-4189.25, 534.3072509765625, 1242.75]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- HashId: !u 0xe17ec3d0
+  Rotate: [0.12766756117343903, -0.5015625357627869, -0.10287045687437057]
+  SRTHash: -1501111021
+  Scale: 0.9189450144767761
+  Translate: [-4781.8828125, 713.7373657226562, 1128.28125]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe220ee49
+  Rotate: [1.2202147245407104, -0.4274902045726776, 0.5782470107078552]
+  SRTHash: 0
+  Translate: [-4860.12109375, 593.4765625, 1249.4453125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xe2391e58
+  Rotate: -2.0689938068389893
+  SRTHash: 156303040
+  Translate: [-4141.7001953125, 400.9850769042969, 1719.0302734375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe2627481
+  Rotate: [-1.2075194120407104, -1.2795408964157104, 2.60888671875]
+  SRTHash: 0
+  Translate: [-3895.21875, 406.91796875, 1795.05859375]
+  UnitConfigName: Item_Plant_O
+- '!Parameters': {Direction: 6, Shape: Box, WindSpeed: 10.0}
+  HashId: !u 0xe294c691
+  Rotate: -0.31999996304512024
+  SRTHash: -1960064324
+  Scale: [100.0, 70.0, 150.0]
+  Translate: [-4795.599609375, 733.9199829101562, 1122.10888671875]
+  UnitConfigName: PointWindSetTag
+- HashId: !u 0xe2fd019e
+  Rotate: [0.24220673739910126, 1.3222742080688477, 0.41535794734954834]
+  SRTHash: 975856936
+  Scale: 1.1121504306793213
+  Translate: [-4461.18505859375, 631.1022338867188, 1229.803955078125]
+  UnitConfigName: FldObj_GerudoHighlandRock_A_05
+- HashId: !u 0xe3d1b70f
+  Rotate: [-0.07772234082221985, 0.9965506792068481, -0.219659224152565]
+  SRTHash: -2081605488
+  Translate: [-4585.38330078125, 567.1150512695312, 1409.436279296875]
+  UnitConfigName: Obj_MineralGrain_A_02
+- HashId: !u 0xe42de2c4
+  Rotate: -1.2600035667419434
+  SRTHash: -1472320501
+  Translate: [-4524.99072265625, 571.7398681640625, 1420.556884765625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xe452b562
+  Rotate: -1.9799994230270386
+  SRTHash: 1157589572
+  Translate: [-4205.27978515625, 440.9137268066406, 1463.460693359375]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe45815fe
+  Rotate: [1.2019041776657104, 1.0837401151657104, -0.028564460575580597]
+  SRTHash: 0
+  Translate: [-4434.79296875, 291.8828125, 1746.84375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe483bdd9
+  Rotate: [1.8028563261032104, -0.6895751357078552, -0.660888671875]
+  SRTHash: 0
+  Translate: [-4176.39453125, 360.171875, 1534.59375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe55cebbe
+  Rotate: [1.11572265625, -0.2384033054113388, -0.3474120795726776]
+  SRTHash: 0
+  Translate: [-4649.2578125, 372.3125, 1665.19921875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe5b3eddb
+  Rotate: [3.141479253768921, 0.6777343153953552, 3.141479253768921]
+  SRTHash: 1813648226
+  Translate: [-4678.6796875, 624.8526000976562, 1201.65625]
+  UnitConfigName: Item_Mushroom_B
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe677d90f
+  Rotate: [1.5268553495407104, 0.0905761644244194, 0.3281249701976776]
+  SRTHash: 0
+  Translate: [-4110.37109375, 655.75, 1115.77734375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xe6b1902c
+  Rotate: 2.732389450073242
+  SRTHash: -2101261923
+  Translate: [-4205.68017578125, 438.9137268066406, 1464.39306640625]
+  UnitConfigName: FldObj_KorokStone_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xe6c8e6db
+  SRTHash: -788680952
+  Scale: 50.0
+  Translate: [-4332.02294921875, 177.2676239013672, 1814.240234375]
+  UnitConfigName: Area
+- HashId: !u 0xe7663a42
+  Rotate: -2.8000059127807617
+  SRTHash: 1069150210
+  Translate: [-4526.19970703125, 571.7483520507812, 1419.7032470703125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xe81447e4
+  Rotate: -1.1870115995407104
+  SRTHash: -1609511893
+  Scale: 0.9833980202674866
+  Translate: [-4509.03125, 617.15625, 1030.4609375]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xe85ea648
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4021.57861328125, 295.1781005859375, 1537.238037109375]
+  UnitConfigName: Area
+- '!Parameters': {GolemSleepType: SleepForward_A, GolemWeakPointLocation: Point_A,
+    IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    UniqueNameMessageLabel: 'Golem_[A-6]E87B1CA3'}
+  HashId: !u 0xe87b1ca3
+  SRTHash: -1406425705
+  Translate: [-4312.0654296875, 418.1097412109375, 1446.88623046875]
+  UnitConfigName: Enemy_Golem_Middle
+- '!Parameters': {DropActor: Obj_BombArrow_A_02, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe87e52f8
+  Rotate: [1.0324550867080688, 0.9443521499633789, 1.0003924369812012]
+  SRTHash: 1613992131
+  Translate: [-4296.08154296875, 601.4644775390625, 1095.58984375]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xe88671af
+  Rotate: [3.0573976039886475, 0.48838645219802856, -2.9987761974334717]
+  SRTHash: 1980068162
+  Translate: [-4236.90673828125, 172.72021484375, 1989.189453125]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe8a5aefc
+  Rotate: 3.896718978881836
+  SRTHash: 2077209750
+  Translate: [-4211.99853515625, 533.522705078125, 1279.5838623046875]
+  UnitConfigName: Obj_TreeConiferous_A_Snow_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe8c6117b
+  Rotate: [0.06559991836547852, -0.4353988766670227, -0.15451599657535553]
+  SRTHash: -1957079337
+  Translate: [-4428.26513671875, 381.9798583984375, 1615.853759765625]
+  UnitConfigName: Obj_Mineral_B_01
+- HashId: !u 0xe91c2f8c
+  Rotate: [-0.08490417897701263, 0.08779876679182053, 0.09029440581798553]
+  SRTHash: 1980068162
+  Translate: [-4054.382080078125, 303.468994140625, 1562.489013671875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe9a9d419
+  Rotate: [1.4571532011032104, 1.4067381620407104, 0.2733153998851776]
+  SRTHash: 0
+  Translate: [-4707.39453125, 718.16015625, 1006.1796875]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xea179ceb
+  Rotate: [0.7115478515625, -0.9035643935203552, 0.8759765028953552]
+  SRTHash: 0
+  Translate: [-4554.96875, 240.8125, 1802.203125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xea9a3e60
+  Rotate: [-3.0490150451660156, 0.9562013149261475, 3.0643062591552734]
+  SRTHash: 819444615
+  Translate: [-4184.8271484375, 319.0080261230469, 1811.2041015625]
+  UnitConfigName: FldObj_RockOrangeStone_A_01
+- HashId: !u 0xeba124e9
+  Rotate: 0.6492367386817932
+  SRTHash: -1859130645
+  Translate: [-4184.97021484375, 316.29931640625, 1818.75244140625]
+  UnitConfigName: FldObj_RockOrangeStone_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xecdb271c
+  Rotate: [1.8963621854782104, 0.8884276747703552, 0.5865478515625]
+  SRTHash: 0
+  Translate: [-4393.82421875, 612.90625, 1149.5390625]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xecdd8750
+  Rotate: 2.363184690475464
+  SRTHash: 1543338068
+  Translate: [-4079.093994140625, 287.5153503417969, 1566.412841796875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0xee71eb95
+  Rotate: [-0.09881453216075897, 0.5427638292312622, 0.0465962290763855]
+  SRTHash: 1980068162
+  Translate: [-4256.83740234375, 237.46774291992188, 1643.630615234375]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xee767bef
+  SRTHash: 1884900576
+  Translate: [-4551.73828125, 563.0804443359375, 1407.9267578125]
+  UnitConfigName: Animal_Wolf_A
+- HashId: !u 0xef08365f
+  Rotate: [0.16708512604236603, 1.0550037622451782, 0.1762549877166748]
+  SRTHash: -2108337089
+  Scale: 1.0180660486221313
+  Translate: [-4550.12890625, 628.534423828125, 1283.359375]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xef30d15b
+  Rotate: [0.8220214247703552, -0.689208984375, 0.3748778998851776]
+  SRTHash: 0
+  Translate: [-4036.30078125, 548.2734375, 1234.3125]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {AutoSave: true, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xef336251
+  SRTHash: -759412359
+  Scale: 100.0
+  Translate: [-4265.2060546875, 158.374267578125, 1944.944091796875]
+  UnitConfigName: Area
+- HashId: !u 0xef44180c
+  Rotate: [0.16749046742916107, -0.35844776034355164, -0.019751446321606636]
+  SRTHash: -915925771
+  Translate: [-4176.23046875, 192.330078125, 1989.32421875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xeff087a6
+  Rotate: -1.8056341409683228
+  SRTHash: -2078501913
+  Translate: [-4137.53515625, 401.2010192871094, 1714.78759765625]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xf0071ecd
+  Rotate: [0.07326706498861313, 0.5263797640800476, -0.07580238580703735]
+  SRTHash: 1980068162
+  Translate: [-4211.84912109375, 275.3867492675781, 1625.6885986328125]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf19d651a
+  Rotate: [3.141479253768921, -0.635986328125, 3.141479253768921]
+  SRTHash: 1574032547
+  Translate: [-4653.44140625, 131.5200653076172, 1984.4296875]
+  UnitConfigName: Item_Plant_F
+- HashId: !u 0xf2922262
+  Rotate: [0.5616391897201538, 1.2732986211776733, 0.5810854434967041]
+  SRTHash: -1195685836
+  Translate: [-4176.046875, 192.56655883789062, 1987.875]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf29cf5be
+  Rotate: -3.1399998664855957
+  SRTHash: -214185227
+  Translate: [-4421.60791015625, 563.189453125, 1412.1201171875]
+  UnitConfigName: Obj_MineralBury_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf2a533b6
+  Rotate: [1.2337646484375, -1.2133787870407104, 0.5240477919578552]
+  SRTHash: 0
+  Translate: [-4167.68359375, 357.3828125, 1743.5078125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xf2bc8f51
+  Rotate: [0.26876839995384216, 0.580146074295044, 0.2519608438014984]
+  SRTHash: -1641342343
+  Scale: 1.0219730138778687
+  Translate: [-4392.52734375, 618.7485961914062, 1006.45703125]
+  UnitConfigName: Obj_Plant_HopBush_C_Snow_01
+- '!Parameters': {DropActor: Weapon_Lsword_029, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf4037e04
+  Rotate: [2.772202491760254, -0.08111440390348434, -3.0293991565704346]
+  SRTHash: 56417655
+  Translate: [-4306.57470703125, 492.6751403808594, 1372.2232666015625]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xf4c29f60
+  Rotate: 0.059995055198669434
+  SRTHash: 81027209
+  Translate: [-4527.66259765625, 571.82373046875, 1419.34033203125]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- '!Parameters': {ArrowName: NormalArrow, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, FortressEatPer: -1,
+    IsMimicry: false, IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 0,
+    OnCliff: true, OnCliffTurn: false, RotAngle: 0.0, SharpWeaponJudgeType: 1, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xf4e53e03
+  Rotate: [1.4434770345687866, -0.6484030485153198, -0.04558256268501282]
+  SRTHash: -728052737
+  Translate: [-4256.81640625, 172.6734619140625, 1970.655029296875]
+  UnitConfigName: Enemy_Lizalfos_Junior
+- '!Parameters': {AngleY: 0.0, CutRate: 0.0, DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf51da576
+  SRTHash: 1794652991
+  Translate: [-4700.6328125, 624.9166870117188, 1219.7091064453125]
+  UnitConfigName: Obj_TreeDead_A_01
+- '!Parameters': {DropTable: Normal, EnableNoEntryAreaCheck: true, IsLocatorCreate: false,
+    SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0xf52c939d
+  SRTHash: 1700474469
+  Translate: [-4596.37646484375, 562.64013671875, 1426.786376953125]
+  UnitConfigName: Animal_Elk_A
+- HashId: !u 0xf5ca8cf8
+  Rotate: [0.5737464427947998, 1.3172707557678223, 0.5825420022010803]
+  SRTHash: -1348882465
+  Translate: [-4166.5791015625, 192.90423583984375, 1993.1968994140625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf723694e
+  Rotate: [1.4584959745407104, -0.039794921875, -0.3315429389476776]
+  SRTHash: 0
+  Translate: [-4810.30078125, 595.71484375, 1423.84375]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xf753f6bc
+  Rotate: [-2.9763615131378174, 0.018652653321623802, 3.138624906539917]
+  SRTHash: -709551836
+  Translate: [-4235.3037109375, 538.0753784179688, 1186.8909912109375]
+  UnitConfigName: Obj_MineralGrain_A_04
+- HashId: !u 0xf76adad4
+  Rotate: [0.06881805509328842, 0.5463108420372009, -0.0792962834239006]
+  SRTHash: 1980068162
+  Translate: [-4124.68017578125, 278.80328369140625, 1572.283203125]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- HashId: !u 0xf84151c5
+  Rotate: -2.0599958896636963
+  SRTHash: -40815690
+  Translate: [-4219.8583984375, 256.3834228515625, 1659.8856201171875]
+  UnitConfigName: FldObj_SecretBaseFrogStatue_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf8b571c0
+  Rotate: [1.4080809354782104, -0.7073974609375, -0.2952880561351776]
+  SRTHash: 0
+  Translate: [-4619.703125, 329.54296875, 1699.453125]
+  UnitConfigName: Item_Mushroom_D
+- HashId: !u 0xf8c69af2
+  Rotate: 0.8742892146110535
+  SRTHash: -1123021909
+  Translate: [-4143.3564453125, 399.86383056640625, 1709.4320068359375]
+  UnitConfigName: Obj_LiftRockWhite_Korok_A_01
+- HashId: !u 0xf8f2b8b3
+  Rotate: [0.2269269824028015, 0.8039282560348511, 0.20425793528556824]
+  SRTHash: 1332479868
+  Translate: [-4175.41162109375, 192.81251525878906, 1986.478759765625]
+  UnitConfigName: Obj_LiftRockGerudo_Korok_A_01
+- HashId: !u 0xfa12218d
+  Rotate: -2.199998140335083
+  SRTHash: 1383226771
+  Translate: [-4244.88330078125, 250.7841796875, 1648.9482421875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- HashId: !u 0xfa12792c
+  Rotate: 2.090256690979004
+  SRTHash: -700457140
+  Translate: [-4126.0380859375, 401.8627624511719, 1729.00048828125]
+  UnitConfigName: Obj_Plant_HopBush_C_02
+- '!Parameters': {DropActor: Weapon_Bow_015, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xfa2fa823
+  Rotate: 3.140000104904175
+  SRTHash: -621590935
+  Translate: [-4113.0869140625, 559.9806518554688, 1382.02587890625]
+  UnitConfigName: TBox_Field_Iron
+- '!Parameters': {EquipItem1: Weapon_Spear_009, FortressEatPer: -1, IsMimicry: false,
+    IsNearCreate: false, IsWatchKeeping: false, LevelSensorMode: 1, NearCreateAppearID: 0,
+    OnCliff: false, OnCliffTurn: true, RotAngle: 0.0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0,
+    WaitTime: 1.0}
+  HashId: !u 0xfa4a1642
+  Rotate: 0.6200000047683716
+  SRTHash: 1880048849
+  Translate: [-4683.0, 623.176513671875, 1238.0]
+  UnitConfigName: Enemy_Lizalfos_Ice
+- HashId: !u 0xfa673453
+  Rotate: 0.7615904808044434
+  SRTHash: 1208252023
+  Translate: [-4180.20263671875, 437.37005615234375, 1481.8038330078125]
+  UnitConfigName: FldObj_KorokStone_A_01
+- HashId: !u 0xfaeff47b
+  SRTHash: 2133601944
+  Translate: [-4673.52978515625, 131.1199951171875, 1967.7900390625]
+  UnitConfigName: DgnObj_DungeonEntrance_DecalSand
+- '!Parameters': {DropActor: Weapon_Bow_035, EnableRevival: false, IsInGround: true,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xfb154211
+  Rotate: [0.26193758845329285, -0.9658510088920593, -0.23327180743217468]
+  SRTHash: -2126919744
+  Translate: [-4610.64111328125, 626.8524169921875, 1277.445556640625]
+  UnitConfigName: TBox_Field_Iron
+- HashId: !u 0xfb738888
+  Rotate: 1.274462342262268
+  SRTHash: 386050114
+  Translate: [-4814.0, 156.60000610351562, 1926.699951171875]
+  UnitConfigName: FldObj_Magnetic_Fld_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfc6958a8
+  Rotate: [0.14321587979793549, 0.5418155193328857, 0.34549248218536377]
+  SRTHash: -3909866
+  Translate: [-4236.095703125, 538.0371704101562, 1186.22900390625]
+  UnitConfigName: Obj_Mineral_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfcc58397
+  Rotate: -1.6200019121170044
+  SRTHash: -862510238
+  Translate: [-4421.19970703125, 561.62548828125, 1423.4420166015625]
+  UnitConfigName: Obj_MineralBury_A_01
+- HashId: !u 0xfcde0dda
+  Rotate: -1.3600000143051147
+  SRTHash: 2138073924
+  Translate: [-4330.46728515625, 195.060302734375, 1764.93310546875]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_02
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xfdb5b244
+  Rotate: [1.6938475370407104, 0.9399413466453552, 0.065673828125]
+  SRTHash: 0
+  Translate: [-4615.54296875, 535.19140625, 1527.02734375]
+  UnitConfigName: Item_Mushroom_D
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xfeedb603
+  Rotate: -0.7456054091453552
+  SRTHash: 989084587
+  Translate: [-4632.3203125, 134.2440185546875, 1954.5078125]
+  UnitConfigName: Item_Plant_L
+- HashId: !u 0xfef1bcb3
+  Rotate: [1.3150293827056885, 1.3333228826522827, 1.1916916370391846]
+  SRTHash: 90323632
+  Scale: 0.8754879832267761
+  Translate: [-4549.6640625, 630.4464111328125, 1190.49609375]
+  UnitConfigName: Obj_Plant_CypressLow_B_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xff02e3bd
+  SRTHash: 1276336826
+  Scale: 25.0
+  Translate: [-4475.7001953125, 566.5228881835938, 1360.199951171875]
+  UnitConfigName: Area
+- HashId: !u 0xff46c8dc
+  Rotate: [2.7232680320739746, 1.2651698589324951, 2.523912191390991]
+  SRTHash: 1980068162
+  Translate: [-4230.81298828125, 187.24560546875, 1962.40673828125]
+  UnitConfigName: FldObj_GerudoSecrerBaseRoot_A_01
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xff4d825e
+  SRTHash: -1632205521
+  Translate: [-4340.4404296875, 625.1923217773438, 1058.051513671875]
+  UnitConfigName: Item_Plant_A
+- '!Parameters': {DropTable: Normal, InitMotionStatus: 0, IsEnemyLiftable: true, IsPlayerPut: false,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xff6f3515
+  Rotate: [1.6191405057907104, 0.7476806044578552, 0.5242919325828552]
+  SRTHash: 0
+  Translate: [-4868.05078125, 181.16015625, 1893.79296875]
+  UnitConfigName: Item_Mushroom_D
+Rails: []
