@@ -1,0 +1,245 @@
+ActorOption:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: ActorOption
+  priority: AllAfter
+ActorReaction: {class: ActorReaction, priority: Player}
+AirWall: {class: AirWall, priority: PlayerAfter}
+Anchor: {class: Anchor, priority: PlayerAfter}
+Area: {class: Area, priority: AllAfter}
+AreaManagementForOthers: {class: AreaManagement, priority: PlayerAfter}
+AreaManagementForPlayer: {class: AreaManagement, priority: PlayerAfter}
+ArmorExtra0: {class: Armor, priority: AllAfter}
+ArmorExtra1: {class: Armor, priority: AllAfter}
+ArmorExtra2: {class: Armor, priority: AllAfter}
+ArmorHead: {class: Armor, priority: AllAfter}
+ArmorLower: {class: Armor, priority: AllAfter}
+ArmorUpper: {class: Armor, priority: AllAfter}
+BasicMountableActor:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: BasicMountableActor
+  priority: PlayerAfter
+Beam: {class: Beam, priority: AllAfter}
+Bullet:
+  attdefpriority: Bullet
+  attpriority: [Bullet, Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Bullet
+  priority: AllAfter
+Camera: {class: Camera, priority: AllAfter}
+CapturedActor:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Enemy
+  priority: PlayerAfter
+Chemical: {class: Chemical, priority: PlayerBefore}
+ComplexTag: {class: Tag, priority: AllAfter}
+CookResult: {class: CookResult, priority: PlayerAfter}
+DemoEquipment:
+  attdefpriority: Npc
+  attpriority: [Npc]
+  class: DemoNPC
+  priority: AllAfter
+DemoNPC:
+  attdefpriority: Npc
+  attpriority: [Npc]
+  class: DemoNPC
+  priority: PlayerAfter
+Dragon:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: Dragon
+  priority: PlayerAfter
+Dummy: {class: Dummy, priority: PlayerAfter}
+EcoSystemTag: {class: Dummy, priority: AllAfter}
+EditCamera: {class: EditCamera, priority: PlayerAfter}
+EffectLocater: {class: MapConstPassive, priority: AllAfter}
+Enemy:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: Enemy
+  priority: PlayerAfter
+EnemySwarm:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: Swarm
+  priority: PlayerAfter
+EnvSeEmitPoint: {class: EnvSeEmitPoint, priority: PlayerAfter}
+EventArea: {class: EventArea, priority: PlayerAfter}
+EventSystem: {class: EventSystemActor, priority: PlayerAfter}
+EventTag: {class: EventTag, priority: AllAfter}
+GameBlanceLocater: {class: MapDynamicPassive, priority: PlayerAfter}
+GelEnemy:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: GelEnemy
+  priority: PlayerAfter
+GiantArmor: {class: GiantArmor, priority: AllAfter}
+GiantEnemy:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: GiantEnemy
+  priority: PlayerAfter
+GlobalParameter: {class: Dummy, priority: AllAfter}
+Guardian:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: Guardian
+  priority: PlayerAfter
+GuardianComponent:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: GuardianComponent
+  priority: PlayerAfter
+HavokActiveObject:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: HavokActiveObject
+  priority: PlayerAfter
+Horse:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: Horse
+  priority: PlayerAfter
+HorseObject: {class: HorseObject, priority: AllAfter}
+HorseReins: {class: HorseReins, priority: AllAfter}
+HorseSaddle: {class: HorseReins, priority: AllAfter}
+Item:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Item
+  priority: PlayerAfter
+LastBoss:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: LastBoss
+  priority: PlayerAfter
+LineBeam: {class: LineBeam, priority: AllAfter}
+LinkTag: {class: LinkTag, priority: AllAfter}
+MapConstActive:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: MapConstActive
+  priority: PlayerAfter
+MapConstPassive: {class: MapConstPassive, priority: PlayerAfter}
+MapDynamicActive:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: MapDynamicActive
+  priority: PlayerAfter
+MapDynamicPassive:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: MapDynamicPassive
+  priority: PlayerAfter
+MergedDungeonParts: {class: MergedDungeonParts, priority: PlayerAfter}
+Motorcycle:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: Motorcycle
+  priority: PlayerAfter
+NPC:
+  attdefpriority: Npc
+  attpriority: [Npc]
+  class: NPC
+  priority: PlayerAfter
+NavTestObject: {class: NavTestObject, priority: PlayerAfter}
+NoCalcActor: {class: NoCalcActor, priority: PlayerAfter}
+NoWork: {class: NoWork, priority: PlayerAfter}
+OptionalWeapon:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: OptionalWeapon
+  priority: AllAfter
+PauseMenuPlayer: {class: PauseMenuPlayer, priority: PlayerAfter}
+Player: {class: Player, priority: Player}
+Player2: {class: Player2, priority: Player}
+PlayerItem:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Item
+  priority: AllAfter
+Pod:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Pod
+  priority: AllAfter
+Prey:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Enemy
+  priority: PlayerAfter
+Remains:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Remains
+  priority: PlayerAfter
+Rope:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Rope
+  priority: AllAfter
+Sandworm:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: Sandworm
+  priority: PlayerAfter
+SiteBoss:
+  attdefpriority: Enemy
+  attpriority: [Enemy]
+  class: SiteBoss
+  priority: PlayerAfter
+SoleTag: {class: Tag, priority: AllAfter}
+SoundProxy: {class: SoundProxy, priority: AllAfter}
+SoundSystemActor: {class: SoundSystemActor, priority: AllAfter}
+SpotBgmTag: {class: Tag, priority: AllAfter}
+StaticAnchor: {class: Anchor, priority: PlayerAfter}
+Swarm:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Swarm
+  priority: PlayerAfter
+SweepCollision: {class: SweepCollision, priority: PlayerAfter}
+System: {class: System, priority: PlayerAfter}
+UserEdgeActor: {class: UserEdgeActor, priority: PlayerAfter}
+Weapon:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Weapon
+  priority: AllAfter
+WeaponBow:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Weapon
+  priority: AllAfter
+WeaponDagger:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Weapon
+  priority: AllAfter
+WeaponLargeSword:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Weapon
+  priority: AllAfter
+WeaponShield:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Weapon
+  priority: AllAfter
+WeaponSmallSword:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Weapon
+  priority: AllAfter
+WeaponSpear:
+  attdefpriority: Obj
+  attpriority: [Obj, ObjLow, ObjMiddle, ObjHigh]
+  class: Weapon
+  priority: AllAfter
+WolfLink:
+  attdefpriority: Npc
+  attpriority: [Npc]
+  class: WolfLink
+  priority: PlayerAfter
+Zelmon: {class: Enemy, priority: PlayerAfter}
