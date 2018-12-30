@@ -81,6 +81,7 @@ def main() -> None:
                     "perms": "".join(perms),
                     "event": flag["IsEventAssociated"],
                     "save": flag["IsSave"],
+                    "hash": flag["HashValue"] & 0xffffffff,
                     "reset_type": reset_type,
                 })
 
