@@ -70,7 +70,7 @@ def main() -> None:
                 perms = ["-", "-"]
                 if flag["IsProgramReadable"]:
                     perms[0] = "r"
-                if flag["IsProgramReadable"]:
+                if flag["IsProgramWritable"]:
                     perms[1] = "w"
                 flags_per_reset_type[reset_type].append({
                     "name": flag["DataName"],
