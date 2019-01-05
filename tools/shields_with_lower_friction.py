@@ -1,38 +1,17 @@
-import aamp
-import csv
-import json
 from pathlib import Path
 import sys
+from _actorparam_utils import Prop, dump_to_csv
 
-names = json.load((Path(__file__).resolve().parent / 'botw_names.json').open('r'))
-content_dir = Path(sys.argv[1])
-actorpack_dir = (content_dir/'Actor/Pack')
+PROPERTIES = (
+    Prop('General', 'Life', 'Life'),
+    Prop('Shield', 'RideBreakRatio', 'RideBreakRatio'),
+    Prop('Shield', 'MirrorLevel', 'MirrorLevel'),
+    Prop('Shield', 'SurfingFriction', 'SurfingFriction'),
+)
 
-def represent_float(value: float):
-    s = f'{value:g}'
-    if 'e' not in s and '.' not in s:
-        s += '.0'
-    return s
-
-print('Actor,Name,Life,RideBreakRatio,MirrorLevel,SurfingFriction')
-for actorpack in actorpack_dir.glob('*'):
-    actor_name = actorpack.stem
+def predicate(actor_name: str) -> bool:
     if not actor_name.startswith('Weapon_Shield_'):
-        continue
-    try:
-        bgparamlist_p = next((actorpack/'Actor/GeneralParamList').glob('*.bgparamlist'))
-        pio = aamp.Reader(bgparamlist_p.open('rb').read()).parse()
-        proot = pio.list('param_root')
-        general = proot.object('General')
-        shield = proot.object('Shield')
+        return False
+    return True
 
-        print(','.join((
-            actor_name,
-            names[actor_name],
-            str(general.param('Life')),
-            represent_float(shield.param('RideBreakRatio')),
-            str(shield.param('MirrorLevel')),
-            represent_float(shield.param('SurfingFriction')),
-        )))
-    except StopIteration:
-        continue
+dump_to_csv(Path(sys.argv[1]), predicate, PROPERTIES, sys.stdout)
