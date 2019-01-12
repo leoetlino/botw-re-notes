@@ -28,7 +28,7 @@ def main() -> None:
     gen_group = pmap.build_gen_group(pmap.get_obj(MAP_OBJID))
 
     for obj in gen_group:
-        print(f"[0x{obj['HashId']:08x}] {obj['UnitConfigName']} {tuple(obj['Translate'])}")
+        print(f"[0x{obj['HashId']:08x} ({obj['HashId']})] {obj['UnitConfigName']} {tuple(obj['Translate'])}")
         if '!Parameters' in obj:
             pprint.pprint(obj['!Parameters'], indent=2)
         for link in obj['__links']:
