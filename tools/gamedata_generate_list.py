@@ -46,6 +46,7 @@ def represent_dict_sort(dumper, mapping, flow_style=None):
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("gamedata_dir", help="Path to the gamedata.sarc/ directory")
+    parser.add_argument("--by-data-type", help="Group flags by data type", action="store_true")
     args = parser.parse_args()
     DIR = Path(args.gamedata_dir)
 
@@ -53,7 +54,7 @@ def main() -> None:
     yaml.add_representer(dict, represent_dict, Dumper=yaml.CSafeDumper)
     yaml.add_representer(defaultdict, represent_dict_sort, Dumper=yaml.CSafeDumper)
 
-    flags_per_reset_type: typing.Dict[int, list] = defaultdict(list)
+    all_flags: typing.Dict[typing.Union[int, str], list] = defaultdict(list)
     DATATYPES = ("bool", "s32", "f32", "string", "string64", "string256", "vector2f", "vector3f", "vector4",
         "bool_array", "s32_array", "f32_array", "string32_array", "string64_array", "string256_array", "vector2f_array", "vector3f_array", "vector4_array")
 
@@ -73,7 +74,8 @@ def main() -> None:
                     perms[0] = "r"
                 if flag["IsProgramWritable"]:
                     perms[1] = "w"
-                flags_per_reset_type[reset_type].append({
+                k = datatype if args.by_data_type else reset_type
+                all_flags[k].append({
                     "name": flag["DataName"],
                     "t": datatype,
                     "init": flag["InitValue"],
@@ -86,8 +88,8 @@ def main() -> None:
                     "reset_type": reset_type,
                 })
 
-    for x in flags_per_reset_type.values():
+    for x in all_flags.values():
         x.sort(key=itemgetter("name"))
-    yaml.dump(flags_per_reset_type, sys.stdout, Dumper=yaml.CSafeDumper)
+    yaml.dump(all_flags, sys.stdout, Dumper=yaml.CSafeDumper)
 
 main()
