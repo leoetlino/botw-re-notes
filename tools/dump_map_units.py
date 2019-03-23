@@ -21,7 +21,7 @@ def main() -> None:
         print(rel_path)
 
         dest_path = dest_dir / rel_path
-        dest_path.parent.mkdir(exist_ok=True)
+        dest_path.parent.mkdir(parents=True, exist_ok=True)
         subprocess.check_call(['byml_to_yml', mubinp, dest_path.with_suffix('.yml')])
 
     Parallel(n_jobs=num_cores)(delayed(process_mubin)(mubinp) for mubinp in map_dir.glob('**/*.smubin'))
