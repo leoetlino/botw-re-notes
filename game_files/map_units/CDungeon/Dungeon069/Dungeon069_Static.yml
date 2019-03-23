@@ -1,0 +1,688 @@
+LocationPosX: 0.0
+LocationPosZ: 0.0
+LocationSize: 2000.0
+Objs:
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x06aed54e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9112cd7b
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  Rotate: -3.1415927410125732
+  SRTHash: -878924557
+  Translate: [16.5, 16.0, -13.499999046325684]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0a7a46d2
+  Rotate: 1.5707963705062866
+  SRTHash: -878917595
+  Translate: [12.0, 8.0, -28.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {EventFlowEntryName: GoalExit, EventFlowName: Demo033_1, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x0c6bdc57
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x0d126089}
+  Rotate: -3.1415927410125732
+  SRTHash: 1598203203
+  Translate: [27.5, 16.0, -14.500000953674316]
+  UnitConfigName: EventTag
+- '!Parameters':
+    DropTable: Normal
+    RotateFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+    SharpWeaponJudgeType: 0
+    TransFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+  HashId: !u 0x0d126089
+  OnlyOne: true
+  SRTHash: 0
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: DgnMrgPrt_Dungeon069
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x13ff2c78
+  Rotate: 1.5707963705062866
+  SRTHash: -1682426482
+  Translate: [-28.0, 4.0, 20.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x151158be
+  Rotate: 3.1415927410125732
+  SRTHash: 102477277
+  Translate: [19.0, 6.0, 5.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0x19e1ce65
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: 865924496
+  Translate: [22.0, 19.0, -12.5]
+  UnitConfigName: Npc_DungeonPriest001
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x1f782f9d
+  SRTHash: 440394131
+  Translate: [-28.0, 0.0, -24.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x1f9dca98
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5db8cde5
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: 145090504
+  Translate: [22.0, 16.0, -12.5]
+  UnitConfigName: DgnObj_GoalShield_A
+- '!Parameters': {DropActor: Item_Ore_D, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x22b30bd3
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x85920d6c}
+  Rotate: -1.5707963705062866
+  SRTHash: 1438595232
+  Translate: [25.5, 0.0, 0.0]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x34010965
+  SRTHash: -1275229497
+  Translate: [-28.0, 4.0, -4.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3535485f
+  SRTHash: 246119364
+  Translate: [4.0, 4.0, -20.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x398e4e67
+  SRTHash: 2088305303
+  Translate: [4.0, 4.0, -28.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x3f458c8c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x423278c9
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd7802f4b
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4e897ef1
+  SRTHash: 1899263657
+  Translate: [41.0, 0.0, -8.0]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x423278c9
+  Rotate: 1.5707963705062866
+  SRTHash: -1254216145
+  Translate: [-4.0, 0.0, -20.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4842bc1a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3535485f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x398e4e67
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x49e4bae8
+  SRTHash: 491972372
+  Translate: [46.0, 0.0, -16.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x49e4bae8
+  Rotate: 1.5707963705062866
+  SRTHash: -947451150
+  Translate: [4.0, 4.0, -24.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4a0d01a0
+  Rotate: 1.5707963705062866
+  SRTHash: -1428239580
+  Translate: [-25.0, 9.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x4b1a59ef
+  Rotate: -1.5707963705062866
+  SRTHash: 1231833391
+  Translate: [-28.000001907348633, 0.0, -16.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- HashId: !u 0x4bb8e078
+  SRTHash: 0
+  Translate: [22.0, 17.5, -16.25]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x4d4bc07f
+  SRTHash: -791095919
+  Translate: [-28.0, 4.0, 4.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 1, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4e4edb2a
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x8821d2ad
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x19e1ce65}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9112cd7b
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  Rotate: -3.1415927410125732
+  SRTHash: 1481925240
+  Translate: [16.5, 16.0, -9.499999046325684]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x4e897ef1
+  Rotate: 1.5707963705062866
+  SRTHash: 337661250
+  Translate: [-4.0, 0.0, -28.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4f2f7803
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd14beda0
+  OnlyOne: true
+  SRTHash: -415520635
+  Translate: [-2.0, 0.0, 0.0]
+  UnitConfigName: SwitchHit
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5138b782
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xa52c074a}
+  OnlyOne: true
+  SRTHash: -1930244898
+  Translate: [22.0, 16.0, 24.0]
+  UnitConfigName: DgnObj_Hrl_Warpin_2x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x53e11ac5
+  Rotate: -3.1415927410125732
+  SRTHash: 1510813280
+  Translate: [11.0, 6.0, 5.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropActor: Item_Enemy_30, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x59c21244
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x85920d6c}
+  Rotate: 1.5707963705062866
+  SRTHash: -875335120
+  Translate: [-29.0, 12.0, 0.0]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5a1cda72
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1f782f9d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4b1a59ef
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7da297f2
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa86de631
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5d6593f1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe3e7ef1e
+  SRTHash: -383251736
+  Translate: [-49.70000076293945, 11.90000057220459, -2.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5d6593f1
+  SRTHash: 903158203
+  Translate: [-28.000001907348633, 0.0, 16.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5db8cde5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xca04d5d0
+  Rotate: -3.1415927410125732
+  SRTHash: -738732123
+  Translate: [29.5, 16.0, -13.000000953674316]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x6eb460a2
+  SRTHash: 1077276775
+  Translate: [-28.0, 4.0, 28.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7771aa53
+  SRTHash: -1721825104
+  Translate: [27.0, 6.0, -5.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 0.10000000149011612, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7a10b25d
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x85920d6c}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x526f94f2}
+  OnlyOne: true
+  SRTHash: -1620536538
+  Translate: [-18.0, 0.699999988079071, -8.0]
+  UnitConfigName: DgnObj_Hrl_RailLift_6x6_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7d7d7644
+  SRTHash: 1329766477
+  Translate: [12.0, 8.0, -24.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x7da297f2
+  Rotate: -1.5707963705062866
+  SRTHash: 1438238427
+  Translate: [-28.000001907348633, 0.0, -8.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x7e14578f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xd4dbb3d6
+  OnlyOne: true
+  SRTHash: -775467176
+  Scale: [8.0, 1.0, 12.0]
+  Translate: [22.5, 16.5, -18.5]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x814616a5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb82eac6d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb33fb10a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa17354c9
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x34010965
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4d4bc07f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x99b88c90
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x13ff2c78
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6eb460a2
+  SRTHash: -1428311490
+  Translate: [-42.60000228881836, -3.299999952316284, 3.299999952316284]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0x82e4dbb4
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  OnlyOne: true
+  Rotate: 1.7484555314695172e-07
+  SRTHash: 995529659
+  Translate: [22.0, 17.5, -16.25]
+  UnitConfigName: DestinationAnchor
+- HashId: !u 0x85920d6c
+  SRTHash: 0
+  Translate: [-29.0, 12.0, 0.0]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x8821d2ad
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x994b9dc4
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: 1456738101
+  Scale: 0.699999988079071
+  Translate: [22.0, 17.5, -16.0]
+  UnitConfigName: DgnObj_GoalExit
+- '!Parameters': {ArrowName: NormalArrow, BeamRange: 0.0, DropTable: Normal, EquipItem1: Default,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsEnemyLiftable: true,
+    IsNearCreate: false, LevelSensorMode: 0, SharpWeaponJudgeType: 0, TerritoryArea: 0.0}
+  HashId: !u 0x89aeaed1
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x85920d6c}
+  OnlyOne: true
+  SRTHash: 653680605
+  Translate: [11.0, 0.5, -5.0]
+  UnitConfigName: Enemy_Beamos_Static
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x9112cd7b
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x1f9dca98}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: 978075651
+  Translate: [15.0, 16.0, -10.999999046325684]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x93731768
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xedc26bd5
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0a7a46d2
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7d7d7644
+  SRTHash: -1147433821
+  Translate: [55.20000076293945, 0.0, -20.700000762939453]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9726865d
+  OnlyOne: true
+  SRTHash: -1064364119
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_BaseRoom60x60x60_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x981c489f
+  SRTHash: 484862223
+  Translate: [11.0, 6.0, -5.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x994b9dc4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0c6bdc57
+  SRTHash: 0
+  Translate: [22.0, 17.5, -16.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x99b88c90
+  Rotate: -1.5707963705062866
+  SRTHash: -174523850
+  Translate: [-28.0, 4.0, 12.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa0871fdd
+  Rotate: 1.5707963705062866
+  SRTHash: 645596717
+  Translate: [-12.0, -3.9000000953674316, -24.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa17354c9
+  Rotate: -1.5707963705062866
+  SRTHash: -150163248
+  Translate: [-28.0, 4.0, -12.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- HashId: !u 0xa52c074a
+  SRTHash: 0
+  Translate: [22.0, 16.0, 19.0]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xa64cdd36
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdb3b2973
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa0871fdd
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xde366360
+  SRTHash: -1382392686
+  Translate: [38.0, 0.0, 0.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa86de631
+  Rotate: 3.1415927410125732
+  SRTHash: 1101115802
+  Translate: [-28.000001907348633, 0.0, 8.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xae1b1e55
+  Rotate: 3.1415927410125732
+  SRTHash: 784989354
+  Translate: [27.0, 6.0, 5.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb33fb10a
+  Rotate: 3.1415927410125732
+  SRTHash: -1579172426
+  Translate: [-28.0, 4.0, -20.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb82eac6d
+  Rotate: 1.5707963705062866
+  SRTHash: -1844006195
+  Translate: [-28.0, 4.0, -28.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters':
+    EventFlowEntryName: Demo033_0
+    EventFlowName: Demo033_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: 22.0, Y: 17.5, Z: -16.25}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0xca04d5d0
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x06aed54e
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x82e4dbb4}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x0d126089}
+  Rotate: 1.7484555314695172e-07
+  SRTHash: 892728205
+  Translate: [22.0, 17.5, -16.25]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, EventFlowEntryName: Demo008_3, EventFlowName: Demo008_3,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xcbb62e9a
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xfa5e3407}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xa52c074a}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: -1323267158
+  Translate: [22.0, 26.0, 24.0]
+  UnitConfigName: DgnObj_EntranceElevator_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd14beda0
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa64cdd36
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3f458c8c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4842bc1a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x93731768
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5a1cda72
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x814616a5
+  SRTHash: 1710882977
+  Translate: [38.0, 0.0, 10.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd337ca06
+  LinksToObj:
+  - {DefinitionName: PhysSystemGroup, DestUnitHashId: !u 0x1f9dca98}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: -376039716
+  Translate: [22.0, 16.0, -12.5]
+  UnitConfigName: DgnObj_Hrl_GoalSystem_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd4dbb3d6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdc049962
+  SRTHash: -1213807997
+  Translate: [19.0, 15.5, -18.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd54bcefb
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x19e1ce65}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x4bb8e078}
+  Rotate: -3.1415927410125732
+  SRTHash: -1586897157
+  Translate: [27.5, 16.0, -12.000000953674316]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd7802f4b
+  SRTHash: -1057016318
+  Translate: [-4.0, 0.0, -24.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xdb3b2973
+  SRTHash: -431411727
+  Translate: [-12.0, -3.9000000953674316, -20.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {EventFlowEntryName: OnlySE, EventFlowName: Demo024_2, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xdc049962
+  LinksToObj:
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x0d126089}
+  SRTHash: 1693606438
+  Translate: [16.5, 15.5, -19.5]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xde366360
+  SRTHash: -604063637
+  Translate: [-12.0, -3.9000000953674316, -28.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsInside_Dungeon,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xdfb7b061
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcbb62e9a
+  SRTHash: -1220747738
+  Translate: [28.0, 16.0, 21.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.15000000596046448,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xe3e7ef1e
+  Rotate: 1.5707963705062866
+  SRTHash: 996810342
+  Translate: [-28.000001907348633, 0.0, 24.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 4.0, MoveSpeed: 0.10000000149011612,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xedc26bd5
+  Rotate: 1.5707963705062866
+  SRTHash: 1998809458
+  Translate: [12.0, 8.0, -20.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4_Slow
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf1545472
+  SRTHash: -1669751020
+  Translate: [19.0, 6.0, -5.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- HashId: !u 0xfa5e3407
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xa52c074a}
+  OnlyOne: true
+  SRTHash: 1669020473
+  Translate: [22.0, 16.0, 19.0]
+  UnitConfigName: LookTag
+Rails:
+- HashId: !u 0x526f94f2
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 5.0}
+    NextDistance: 16.0
+    PrevDistance: 0.0
+    Translate: [-18.0, 0.699999988079071, -8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 5.0}
+    NextDistance: 0.0
+    PrevDistance: 16.0
+    Translate: [-18.0, 0.699999988079071, 8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-18.0, 0.699999988079071, 0.0]
+  UnitConfigName: Guide

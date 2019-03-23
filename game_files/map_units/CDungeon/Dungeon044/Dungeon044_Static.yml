@@ -1,0 +1,1217 @@
+LocationPosX: 0.0
+LocationPosZ: 0.0
+LocationSize: 2000.0
+Objs:
+- HashId: !u 0x03394560
+  OnlyOne: true
+  SRTHash: 1983032616
+  Translate: [0.0, 4.0, -22.5]
+  UnitConfigName: DgnObj_ShutterFenceFrame_A
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x036c7d26
+  SRTHash: -1720553023
+  Translate: [8.0, 2.0, 6.0]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x0401b93f
+  SRTHash: -1720553023
+  Translate: [0.0, 2.0, -2.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, EventFlowEntryName: Demo008_3, EventFlowName: Demo008_3,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x0485b55e
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x356dafc3}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x1055dc91}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: -1323267158
+  Translate: [-22.0, 14.0, 26.0]
+  UnitConfigName: DgnObj_EntranceElevator_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x05cef804
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb6708300
+  SRTHash: 0
+  Translate: [-18.0, 6.0, -14.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x06c8c37b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb11d4719
+  SRTHash: 0
+  Translate: [-18.0, 6.0, 2.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x100788b4
+  SRTHash: -1720553023
+  Translate: [-16.0, 2.0, -10.0]
+  UnitConfigName: Area
+- HashId: !u 0x1055dc91
+  SRTHash: 0
+  Translate: [-22.0, 4.0, 21.0]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x118ed7bb
+  SRTHash: 1905638229
+  Translate: [-8.0, 0.0, -18.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x12deab5a
+  Rotate: 3.1415927410125732
+  SRTHash: 26766979
+  Translate: [-7.0, 19.5, -24.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x15259b5a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4da4b4ee
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7b399a8d
+  SRTHash: 1586655554
+  Translate: [11.0, 4.5, -13.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x16e313a2
+  SRTHash: 343707573
+  Translate: [-16.0, 0.0, -2.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x176a4cad
+  SRTHash: -1720553023
+  Translate: [-16.0, 2.0, 6.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x19e4fcd9
+  SRTHash: -638959177
+  Translate: [16.0, 0.0, -18.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x1a13d411
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5836d36c
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: 145090504
+  Translate: [-24.5, 16.0, -22.0]
+  UnitConfigName: DgnObj_GoalShield_A
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1c93d771
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4da4b4ee
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x118ed7bb
+  SRTHash: 516325776
+  Translate: [-5.0, 4.5, -20.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x1ec4f061
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x2f2ceafc}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe01e894c
+  SRTHash: -1534018777
+  Translate: [6.0, 6.0, -22.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x21a25a88
+  SRTHash: -638959177
+  Translate: [-8.0, 0.0, 14.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x21ef9229
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x100788b4}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x05cef804
+  SRTHash: -1534018777
+  Translate: [-18.0, 6.0, -14.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x22df2d47
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd82f52bf
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: 1456738101
+  Scale: 0.699999988079071
+  Translate: [-21.0, 17.5, -22.0]
+  UnitConfigName: DgnObj_GoalExit
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x23b8b539
+  SRTHash: -1266000448
+  Translate: [8.0, 2.0, -10.0]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x24d57120
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xcadb100c}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x53d241b6
+  SRTHash: 1136280112
+  Translate: [3.0, 4.5, 7.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x25091669
+  SRTHash: -638959177
+  Translate: [0.0, 0.0, -10.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x26825630
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x176a4cad}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x06c8c37b
+  SRTHash: -1534018777
+  Translate: [-18.0, 6.0, 2.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2713f9d8
+  SRTHash: 556348179
+  Translate: [16.0, 0.0, 14.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x281416a3
+  SRTHash: -638959177
+  Translate: [-8.0, 0.0, -2.0]
+  UnitConfigName: AncientBallSwitch2
+- HashId: !u 0x281a245e
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  OnlyOne: true
+  Rotate: -1.5707963705062866
+  SRTHash: 995529659
+  Translate: [-20.75, 17.5, -22.0]
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x294c0c0d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3c122728
+  SRTHash: 0
+  Translate: [6.0, 6.0, 10.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x29c871ea
+  OnlyOne: true
+  SRTHash: 1978602325
+  Translate: [0.0, -13.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_BaseRoom60x60x60_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2a4a3772
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3b7fe331
+  SRTHash: 0
+  Translate: [14.0, 6.0, 2.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2c63c218
+  SRTHash: 1315506202
+  Translate: [-25.0, 9.5, -22.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2d633d0b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4da4b4ee
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2713f9d8
+  SRTHash: -881312640
+  Translate: [19.0, 4.5, 11.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x2f2ceafc
+  SRTHash: -1720553023
+  Translate: [8.0, 2.0, -18.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2f79d2ba
+  SRTHash: -638959177
+  Translate: [-16.0, 0.0, -18.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x328467bb
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x036c7d26}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5ed2defd
+  SRTHash: -1534018777
+  Translate: [6.0, 6.0, 2.0]
+  UnitConfigName: ActorObserverTag
+- HashId: !u 0x356dafc3
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x1055dc91}
+  SRTHash: 1669020473
+  Translate: [-22.0, 4.0, 21.0]
+  UnitConfigName: LookTag
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x35e9a3a2
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x0401b93f}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5dd4e582
+  SRTHash: -1534018777
+  Translate: [-2.0, 6.0, -6.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x3aa38478
+  SRTHash: 1249312556
+  Translate: [16.0, 2.0, 14.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3b7fe331
+  SRTHash: -638959177
+  Translate: [16.0, 0.0, 6.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3c122728
+  SRTHash: -638959177
+  Translate: [8.0, 0.0, 14.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3c98bdb9
+  Rotate: -3.1415927410125732
+  SRTHash: -267707250
+  Translate: [18.0, 9.5, 29.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x3dce4061
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x03394560
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa54e4ed4
+  SRTHash: -351876148
+  Translate: [0.0, 4.0, -22.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x42ee9334
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x730689a9}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc671a9ed
+  SRTHash: -1534018777
+  Translate: [14.0, 6.0, -6.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x45ce9f8c
+  SRTHash: -638959177
+  Translate: [16.0, 0.0, -10.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropActor: Weapon_Spear_037, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x48d5df6e
+  OnlyOne: true
+  Rotate: 3.1415927410125732
+  SRTHash: 900916026
+  Translate: [16.0, 18.0, 28.5]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4b1517be
+  SRTHash: -638959177
+  Translate: [0.0, 0.0, 14.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4c78d3a7
+  SRTHash: -638959177
+  Translate: [8.0, 0.0, -2.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4da4b4ee
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8ba7f329
+  SRTHash: 2046919709
+  Translate: [4.0, 4.0, -20.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    DropTable: Normal
+    RotateFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+    SharpWeaponJudgeType: 0
+    TransFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+  HashId: !u 0x4f347484
+  OnlyOne: true
+  SRTHash: 0
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: DgnMrgPrt_Dungeon044
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x518566a6
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x606d7c3b}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9d6d8f14
+  SRTHash: -1534018777
+  Translate: [-10.0, 6.0, 2.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x53d241b6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4da4b4ee
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9bec7393
+  SRTHash: 240343225
+  Translate: [3.0, 4.5, 3.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x54bf85af
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xbab1e483}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcdb6d415
+  SRTHash: 59596667
+  Translate: [-13.0, 4.5, -1.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x56a56a1e
+  SRTHash: -638959177
+  Translate: [-16.0, 0.0, 14.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x56e8a2bf
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x6700b822}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9e6bb46b
+  SRTHash: -1534018777
+  Translate: [-10.0, 6.0, -14.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x582bda6a
+  SRTHash: -1720553023
+  Translate: [0.0, 2.0, -18.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5836d36c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x60fa2a3a
+  Rotate: 1.5707963705062866
+  SRTHash: -738732123
+  Translate: [-24.0, 16.0, -14.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x5a640d9d
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x3aa38478}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2d633d0b
+  SRTHash: 901810340
+  Translate: [19.0, 4.5, 15.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5dd4e582
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa276b28b
+  SRTHash: 0
+  Translate: [-2.0, 6.0, -6.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5ed2defd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa51b7692
+  SRTHash: 0
+  Translate: [6.0, 6.0, 2.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x606d7c3b
+  SRTHash: -1720553023
+  Translate: [-8.0, 2.0, 6.0]
+  UnitConfigName: Area
+- '!Parameters':
+    EventFlowEntryName: Demo033_0
+    EventFlowName: Demo033_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: -20.75, Y: 17.5, Z: -22.0}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x60fa2a3a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xac502aa4
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x281a245e}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x4f347484}
+  Rotate: -1.5707963705062866
+  SRTHash: 892728205
+  Translate: [-20.75, 17.5, -22.0]
+  UnitConfigName: EventTag
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x6222abcc
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x23b8b539}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x15259b5a
+  SRTHash: 42582729
+  Translate: [11.0, 4.5, -9.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x6700b822
+  SRTHash: -1720553023
+  Translate: [-8.0, 2.0, -10.0]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x69c3c0f7
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x582bda6a}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7bbbc523
+  SRTHash: -1534018777
+  Translate: [-2.0, 6.0, -22.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsInside_Dungeon,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x6a7e040c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0485b55e
+  SRTHash: -1220747738
+  Translate: [-16.0, 4.0, 23.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x7156118b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x281416a3
+  SRTHash: 0
+  Translate: [-10.0, 6.0, -6.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x72502af4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2f79d2ba
+  SRTHash: 0
+  Translate: [-18.0, 6.0, -22.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x730689a9
+  SRTHash: -1720553023
+  Translate: [16.0, 2.0, -2.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x745c5c0a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x21a25a88
+  SRTHash: 0
+  Translate: [-10.0, 6.0, 10.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7b399a8d
+  SRTHash: -404186945
+  Translate: [8.0, 0.0, -10.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x7bbbc523
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfe5cd1de
+  SRTHash: 0
+  Translate: [-2.0, 6.0, -22.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7da4a440
+  SRTHash: -1091689857
+  Translate: [-2.5, 7.0, -21.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x7fb53111
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0xb31f318f}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: -1586897157
+  Translate: [-25.0, 16.0, -16.5]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x837e1ddd
+  SRTHash: -1720553023
+  Translate: [0.0, 2.0, -10.0]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x859a86cb
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xf29db65d}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1c93d771
+  SRTHash: -1190644215
+  Translate: [-5.0, 4.5, -18.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x87d5513c
+  SRTHash: -1720553023
+  Translate: [-8.0, 2.0, 14.0]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x890ed90e
+  SRTHash: -1720553023
+  Translate: [-16.0, 2.0, -18.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x895be148
+  SRTHash: -638959177
+  Translate: [8.0, 0.0, -18.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 0.20000000298023224, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8b067e7e
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xd95920e1}
+  OnlyOne: true
+  SRTHash: -776853034
+  Translate: [8.0, 8.0, 24.0]
+  UnitConfigName: RailLift
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 30.0}
+  HashId: !u 0x8ba7f329
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x933a23dc
+  OnlyOne: true
+  SRTHash: 956059141
+  Translate: [4.5, 4.529732704162598, -22.5]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x8e631d17
+  SRTHash: -1720553023
+  Translate: [-8.0, 2.0, -2.0]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0x8e7bedf0
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xbf93f76d}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x928a163d
+  SRTHash: -1534018777
+  Translate: [14.0, 6.0, -22.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x928a163d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x19e4fcd9
+  SRTHash: 0
+  Translate: [14.0, 6.0, -22.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x933a23dc
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd4ade554
+  SRTHash: 0
+  Translate: [4.5, 4.529732704162598, -22.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x93ad1b8b
+  SRTHash: 779884394
+  Translate: [2.5, 7.0, -21.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x949cd3f2
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x1a13d411}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: 978075651
+  Translate: [-26.0, 16.0, -29.0]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x9a652c9c
+  SRTHash: -1720553023
+  Translate: [8.0, 2.0, 14.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9bec7393
+  SRTHash: -319473677
+  Translate: [0.0, 0.0, 6.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9cae6605
+  SRTHash: 204524085
+  Translate: [17.0, 9.5, -22.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x9d08e885
+  SRTHash: -1720553023
+  Translate: [16.0, 2.0, 6.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x9d6d8f14
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc61a778f
+  SRTHash: 0
+  Translate: [-10.0, 6.0, 2.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x9e6bb46b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc177b396
+  SRTHash: 0
+  Translate: [-10.0, 6.0, -14.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x9f88e90b
+  SRTHash: 0
+  Translate: [-20.75, 17.5, -22.0]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa276b28b
+  SRTHash: -638959177
+  Translate: [0.0, 0.0, -2.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa2aef700
+  Rotate: -1.5707963705062866
+  SRTHash: 2004555929
+  Translate: [29.0, 9.5, 20.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- HashId: !u 0xa3aad5c2
+  SRTHash: -283179269
+  Translate: [0.0, 6.0, -20.5]
+  UnitConfigName: LookTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa51b7692
+  SRTHash: -638959177
+  Translate: [8.0, 0.0, 6.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 5.0, MoveSpeed: 0.5, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa54e4ed4
+  OnlyOne: true
+  SRTHash: 1303013990
+  Translate: [0.0, 4.0, -22.5]
+  UnitConfigName: SS_object_ShutterFenceOnly00
+- '!Parameters': {EventFlowEntryName: GoalExit, EventFlowName: Demo033_1, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xa69523bd
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x4f347484}
+  Rotate: 1.5707963705062866
+  SRTHash: 1598203203
+  Translate: [-22.5, 16.0, -16.5]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaade17d9
+  Rotate: -1.5707963705062866
+  SRTHash: -1732982675
+  Translate: [29.0, 9.5, 0.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xab8d3601
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x9a652c9c}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x294c0c0d
+  SRTHash: -1534018777
+  Translate: [6.0, 6.0, 10.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xac502aa4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x949cd3f2
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  Rotate: 1.5707963705062866
+  SRTHash: -878924557
+  Translate: [-23.5, 16.0, -27.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xace0f218
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x9d08e885}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2a4a3772
+  SRTHash: -1534018777
+  Translate: [14.0, 6.0, 2.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xae409e84
+  Rotate: -3.1415927410125732
+  SRTHash: 215438170
+  Translate: [0.0, 9.5, 29.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb11d4719
+  SRTHash: -638959177
+  Translate: [-16.0, 0.0, 6.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb1ef7b1d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4c78d3a7
+  SRTHash: 0
+  Translate: [6.0, 6.0, -6.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xb2960740
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x837e1ddd}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf4dad588
+  SRTHash: -1534018777
+  Translate: [-2.0, 6.0, -14.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb2e94062
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4b1517be
+  SRTHash: 0
+  Translate: [-2.0, 6.0, 10.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0xb31f318f
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: 865924496
+  Translate: [-24.5, 19.0, -22.0]
+  UnitConfigName: Npc_DungeonPriest001
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb37d9172
+  SRTHash: 818847842
+  Translate: [25.0, 9.5, -22.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb4e5369c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x45ce9f8c
+  SRTHash: 0
+  Translate: [14.0, 6.0, -14.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xb63d4ba1
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x87d5513c}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x745c5c0a
+  SRTHash: -1534018777
+  Translate: [-10.0, 6.0, 10.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb6708300
+  SRTHash: -638959177
+  Translate: [-16.0, 0.0, -10.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xb8e6c393
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x890ed90e}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x72502af4
+  SRTHash: -1534018777
+  Translate: [-18.0, 6.0, -22.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xbab1e483
+  SRTHash: 709963773
+  Translate: [-16.0, 2.0, -2.0]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xbf8b078a
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x8e631d17}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7156118b
+  SRTHash: -1534018777
+  Translate: [-10.0, 6.0, -6.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xbf93f76d
+  SRTHash: -1720553023
+  Translate: [16.0, 2.0, -18.0]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xc13a7b37
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xf0d261aa}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xeff91065
+  SRTHash: -1534018777
+  Translate: [-18.0, 6.0, 10.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc177b396
+  SRTHash: -638959177
+  Translate: [-8.0, 0.0, -10.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc1b78abf
+  Rotate: 1.5707963705062866
+  SRTHash: 2072866016
+  Translate: [-29.0, 9.5, 0.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc4352c44
+  Rotate: 1.5707963705062866
+  SRTHash: 2139325576
+  Translate: [-29.0, 9.5, 20.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc61a778f
+  SRTHash: -638959177
+  Translate: [-8.0, 0.0, 6.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc671a9ed
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd571821d
+  SRTHash: 0
+  Translate: [14.0, 6.0, -6.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xcadb100c
+  SRTHash: -1312722509
+  Translate: [0.0, 2.0, 6.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xcdb6d415
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4da4b4ee
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x16e313a2
+  SRTHash: 50192242
+  Translate: [-13.0, 4.5, -5.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd19e34ad
+  Rotate: 1.5707963705062866
+  SRTHash: -85887880
+  Translate: [-6.0, 9.5, -24.5]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xd2518ea5
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xe3b99438}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb4e5369c
+  SRTHash: -1534018777
+  Translate: [14.0, 6.0, -14.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {EventFlowEntryName: EntryPoint0, EventFlowName: Demo024_0, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xd4ade554
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xa3aad5c2}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3dce4061
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x4f347484}
+  SRTHash: 1664497783
+  Translate: [3.0, 4.5, -21.0]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd571821d
+  SRTHash: -638959177
+  Translate: [16.0, 0.0, -2.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd6b9d48f
+  LinksToObj:
+  - {DefinitionName: PhysSystemGroup, DestUnitHashId: !u 0x1a13d411}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: -376039716
+  Translate: [-24.5, 16.0, -22.0]
+  UnitConfigName: DgnObj_Hrl_GoalSystem_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd7b69aa6
+  SRTHash: 771411834
+  Translate: [-17.0, 9.5, -22.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd82f52bf
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa69523bd
+  SRTHash: 0
+  Translate: [-21.0, 17.5, -22.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xdbe7c28e
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xea0fd813}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb1ef7b1d
+  SRTHash: -1534018777
+  Translate: [6.0, 6.0, -6.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {ActorName: AncientBall, Count: 1, DefaultBasicSignal: false, ForceCalcInEvent: false,
+    IsMagneGrabbed: 0, IsSendMessage: true, IsStopFromStopTimer: 0}
+  HashId: !u 0xdc8a0697
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xed621c0a}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb2e94062
+  SRTHash: -1534018777
+  Translate: [-2.0, 6.0, 10.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe01e894c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x895be148
+  SRTHash: 0
+  Translate: [6.0, 6.0, -22.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xe3b99438
+  SRTHash: -1720553023
+  Translate: [16.0, 2.0, -10.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 1, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe4b024c0
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x22df2d47
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xb31f318f}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x949cd3f2
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x9f88e90b}
+  Rotate: 1.5707963705062866
+  SRTHash: 1481925240
+  Translate: [-27.5, 16.0, -27.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe4f103ef
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x1055dc91}
+  OnlyOne: true
+  SRTHash: -1930244898
+  Translate: [-22.0, 4.0, 26.0]
+  UnitConfigName: DgnObj_Hrl_Warpin_2x2_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xea0fd813
+  SRTHash: -1720553023
+  Translate: [8.0, 2.0, -2.0]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xed621c0a
+  SRTHash: -1720553023
+  Translate: [0.0, 2.0, 14.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xeff91065
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x56a56a1e
+  SRTHash: 0
+  Translate: [-18.0, 6.0, 10.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xf0d261aa
+  SRTHash: -1720553023
+  Translate: [-16.0, 2.0, 14.0]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xf29db65d
+  SRTHash: -90639969
+  Translate: [-8.0, 2.0, -18.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf4dad588
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x25091669
+  SRTHash: 0
+  Translate: [-2.0, 6.0, -14.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfe5cd1de
+  SRTHash: -638959177
+  Translate: [0.0, 0.0, -18.0]
+  UnitConfigName: AncientBallSwitch2
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0xfea0489c
+  OnlyOne: true
+  SRTHash: -605543810
+  Translate: [-22.0, 4.0, 16.0]
+  UniqueName: CDungeon_Futago
+  UnitConfigName: DgnObj_HintBoard
+Rails:
+- HashId: !u 0xd95920e1
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 120.0}
+    NextDistance: 20.0
+    PrevDistance: 0.0
+    Translate: [8.0, 8.0, 24.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 120.0}
+    NextDistance: 0.0
+    PrevDistance: 20.0
+    Translate: [8.0, 28.0, 24.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [8.0, 18.0, 24.0]
+  UnitConfigName: Guide

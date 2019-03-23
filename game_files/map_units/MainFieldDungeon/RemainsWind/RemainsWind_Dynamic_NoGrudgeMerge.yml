@@ -1,0 +1,69 @@
+Objs:
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0x03a41d56
+  SRTHash: 1441239742
+  Scale: [2.0, 10.0, 2.0]
+  Translate: [123.0, 19.0, 27.0]
+  UnitConfigName: AscendingCurrent_Side
+- HashId: !u 0x13867b2b
+  SRTHash: -392288139
+  Translate: [125.5, -2.0, 26.5]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x1ce46afd
+  SRTHash: -163843441
+  Scale: [39.260215759277344, 19.927452087402344, 7.80088996887207]
+  Translate: [-1.9718824625015259, 30.578125, -18.66095542907715]
+  UnitConfigName: AirWallCurseGanon
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0x1dd2e80e
+  SRTHash: 928376745
+  Scale: [2.0, 10.0, 2.0]
+  Translate: [29.0, 17.0, 27.0]
+  UnitConfigName: AscendingCurrent_Side
+- HashId: !u 0x47cd5283
+  SRTHash: 945658775
+  Scale: 1.5
+  Translate: [15.5, 17.0, -77.0]
+  UnitConfigName: Obj_MapModel_A_01
+- HashId: !u 0x4854dca4
+  SRTHash: -500569239
+  Scale: [3.0, 25.0, 3.0]
+  Translate: [0.0, -21.5, -15.0]
+  UnitConfigName: AscendingCurrent_Slow
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0x74a32dc0
+  SRTHash: 355919067
+  Scale: [2.0, 10.0, 2.0]
+  Translate: [-123.0, 19.0, 27.0]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {ArrowName: NormalArrow, BeamRange: 0.0, DropTable: Normal, EquipItem1: Weapon_Spear_013,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsAnnihilateDungeonEnemy: false,
+    IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 1,
+    TerritoryArea: 0.0}
+  HashId: !u 0x9bb30f8a
+  Rotate: 3.1415927410125732
+  SRTHash: -2016182539
+  Translate: [5.364418029785156e-07, -2.75, 62.4375]
+  UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
+- HashId: !u 0x9e6ea337
+  SRTHash: -1046003916
+  Translate: [-44.0, -15.0, 16.0]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0xe69d4f4e
+  Rotate: 1.7484555314695172e-07
+  SRTHash: 1656005288
+  Translate: [1.9768076526816003e-06, 3.100001096725464, -72.6640625]
+  UnitConfigName: DungeonResetPosTag
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xf3dc8922
+  SRTHash: 562182475
+  Scale: [2.0, 10.0, 2.0]
+  Translate: [-29.0, 17.0, 27.0]
+  UnitConfigName: AscendingCurrent_Side
+- '!Parameters': {FieldBodyGroup: 0}
+  HashId: !u 0xf4b14d3b
+  SRTHash: -537137332
+  Scale: [4.0, 25.0, 4.0]
+  Translate: [-36.5, -21.5, 63.5]
+  UnitConfigName: AscendingCurrent_Side
+Rails: []

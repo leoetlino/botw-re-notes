@@ -1,0 +1,55 @@
+Objs:
+- '!Parameters': {DropTable: Normal, IsNoBindAlive: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x48457a3b
+  LinksToObj:
+  - '!Parameters':
+      Pos: {X: 0.0, Y: -0.9800000190734863, Z: 0.0}
+      Rot: {X: 180.0, Y: 40.0, Z: 0.0}
+    DefinitionName: ModelBind
+    DestUnitHashId: !u 0x65b26f7e
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x499090d1}
+  Rotate: [-1.5707963705062866, 0.0, 0.0]
+  SRTHash: -333065957
+  Translate: [-8.85162353515625, 0.5888671875, -1.951568603515625]
+  UnitConfigName: FldObj_ChainEyeBolt_A_01
+- HashId: !u 0x499090d1
+  SRTHash: 0
+  Translate: [-8.85162353515625, 0.5888671875, -0.9656295776367188]
+  UnitConfigName: LinkTagNone
+- HashId: !u 0x65b26f7e
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x499090d1}
+  Rotate: [1.5707963705062866, 0.0, 0.0]
+  SRTHash: 113428548
+  Scale: 1.2000000476837158
+  Translate: [-8.85162353515625, 0.5888671875, -0.9656295776367188]
+  UnitConfigName: RockRollA
+- HashId: !u 0x8c580304
+  SRTHash: -583131557
+  Translate: [1.7000007629394531, 0.0, -1.3000030517578125]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0xca0fc2de
+  Rotate: -1.5707963705062866
+  SRTHash: 760416447
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: ElectricGenerator
+- '!Parameters': {DropTable: Normal, RopeAlwaysUpdateRigidParam: false, RopeFlag: 0,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xf71a8c39
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x65b26f7e
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x8c580304
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x48457a3b}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x499090d1}
+  Rotate: [3.141592264175415, 5.0504421977848324e-08, -1.6057028770446777]
+  SRTHash: -1700522414
+  Scale: [1.0, 9.0, 1.0]
+  Translate: [-8.8515625, 0.5810546875, -1.8000030517578125]
+  UnitConfigName: RopeWire
+Rails: []

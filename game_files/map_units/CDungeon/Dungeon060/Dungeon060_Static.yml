@@ -1,0 +1,2754 @@
+LocationPosX: 0.0
+LocationPosZ: 0.0
+LocationSize: 2000.0
+Objs:
+- HashId: !u 0x002c58fc
+  SRTHash: -1332803602
+  Translate: [-13.0, 3.0, -17.5]
+  UnitConfigName: LookTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x00dda8c5
+  Rotate: -3.1415927410125732
+  SRTHash: -609567229
+  Translate: [-22.5, 0.0, 0.5]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x014575cf
+  SRTHash: 878277383
+  Translate: [5.5, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropActor: Weapon_Sword_035, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x01ee32cb
+  OnlyOne: true
+  SRTHash: -1839558248
+  Translate: [-13.0, 0.0, -23.0]
+  UnitConfigName: TBox_Dungeon_Iron
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x03a2ad45
+  Rotate: -3.1415927410125732
+  SRTHash: -300312581
+  Translate: [-19.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x07688f66
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x364afcfa
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8d73b31e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x634449e1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6d080f80
+  SRTHash: -172911153
+  Translate: [8.5, 12.000225067138672, -19.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {EventFlowEntryName: EntryPoint0, EventFlowName: Demo024_0, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x099a14d7
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x7e9d2441}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2c6ccf26
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x6600e9d3}
+  SRTHash: -54326449
+  Translate: [-23.0, 0.0, -18.0]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x09ac62f9
+  Rotate: -1.5707963705062866
+  SRTHash: 2046092791
+  Translate: [26.0, 0.0, -8.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Up_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0c16f9ff
+  Rotate: [1.5707963705062866, 0.0, 1.5707963705062866]
+  SRTHash: -1474247335
+  Translate: [-8.0, 5.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0c3a730a
+  Rotate: 1.5707963705062866
+  SRTHash: 972360127
+  Translate: [-20.5, 0.0, -14.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Cross_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 40.0}
+  HashId: !u 0x0ce61b5a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x99250946
+  SRTHash: -1981535101
+  Translate: [-18.5, 0.0, -21.0]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0df48ce9
+  Rotate: -1.5707963705062866
+  SRTHash: -1005151328
+  Translate: [-15.5, 0.0, -16.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x11885db3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa0e3f741
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x605e1f71
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3951931f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x87cbc468
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3b6ed016
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xae025c97
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x946478c0
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x92a57472
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8cd8d0be
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5e5b2fda
+  SRTHash: -1211095834
+  Translate: [-25.5, 0.0, 8.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1285c759
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x07688f66
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x4970add2}
+  SRTHash: 1003074769
+  Translate: [7.0, 12.5, -21.0]
+  UnitConfigName: Test_ElectricCable
+- HashId: !u 0x128c8ae6
+  SRTHash: 1983032616
+  Translate: [-13.0, 0.0, -20.5]
+  UnitConfigName: DgnObj_ShutterFenceFrame_A
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1347ad6e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x40338d0f
+  Rotate: [1.5707963705062866, 0.14919602870941162, -0.0016208848683163524]
+  SRTHash: 607187384
+  Translate: [8.0, 10.5, -18.0]
+  UnitConfigName: SwitchElectric0
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x14ecfcc9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xef43e014
+  SRTHash: 0
+  Translate: [-15.5, 0.0, -19.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x155a1fcf
+  SRTHash: 823024433
+  Translate: [3.0, 4.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x15db907c
+  SRTHash: -2048623403
+  Translate: [-18.5, 0.0, 0.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 5.0, MoveSpeed: 0.5, SharpWeaponJudgeType: 0}
+  HashId: !u 0x181c69d5
+  SRTHash: 1303013990
+  Translate: [0.0, 4.0, -22.5]
+  UnitConfigName: SS_object_ShutterFenceOnly00
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1b5e3c4d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4b051330
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x529d545c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbce66af6
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x37913aaf
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xee011e67
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe497424e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6ef0b05d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x47c4e849
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2f3a5d0b
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x862f2fc5
+  SRTHash: -527719631
+  Translate: [23.5, 0.0, 0.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1bc49604
+  Rotate: [0.0, 0.0, 1.5707963705062866]
+  SRTHash: -1360276224
+  Translate: [-4.0, 1.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1bd86b7d
+  Rotate: [1.5707963705062866, 0.0, -1.5707963705062866]
+  SRTHash: -1929888828
+  Translate: [26.0, 3.0, -3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1c67844c
+  SRTHash: 864586977
+  Translate: [2.0, 4.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1cbce737
+  SRTHash: 1401446449
+  Translate: [-3.0, 4.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1d1ead2a
+  Rotate: [0.0, 1.5707963705062866, 1.5707963705062866]
+  SRTHash: 1574635554
+  Translate: [-6.0, 2.0, -16.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1d348a7e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xac77e262
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x181c69d5}
+  SRTHash: -738732123
+  Translate: [-7.5, 4.0, -32.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1d404a79
+  Rotate: 1.5707963705062866
+  SRTHash: -17659026
+  Translate: [26.0, 0.0, -8.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1f98c793
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb0e3be54
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xf2e2e380}
+  SRTHash: -1759891318
+  Translate: [24.0, 0.0, -11.5]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x22745495
+  SRTHash: 1693514742
+  Translate: [5.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x22eaaa34
+  Rotate: 1.5707963705062866
+  SRTHash: 757197667
+  Translate: [7.5, 0.0, -3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x234fb97e
+  Rotate: 1.5707963705062866
+  SRTHash: -1503275184
+  Translate: [-20.5, 0.0, -2.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Cross_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2368610c
+  SRTHash: 1414924746
+  Translate: [-4.0, 4.0, -17.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x23f63d77
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc05dc49f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa7653de8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb8e1a592
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd0407ef6
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x00dda8c5
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x34f9b85d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x15db907c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5d9c5a72
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7be8c9f4
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x58d7aed8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe5ffb048
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xea90c517
+  SRTHash: 775834510
+  Translate: [-25.0, 0.0, -2.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x24d2fd9b
+  SRTHash: 1268156670
+  Translate: [23.0, 5.5, -17.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x26fbb3d8
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4e954fcf
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xfb54afab}
+  SRTHash: -91798085
+  Translate: [-13.5, 0.0, -16.0]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x28062809
+  Rotate: 1.5707963705062866
+  SRTHash: 1555867577
+  Translate: [7.5, 0.0, -12.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 1, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x283dec98
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xee52e51f
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x7f92f9d7}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd19e8ae0
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  SRTHash: 1481925240
+  Translate: [5.5, 4.0, -36.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x2b010b3f
+  SRTHash: 1469067401
+  Translate: [18.0, 2.0, -15.0]
+  UnitConfigName: LookTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2b65f415
+  Rotate: 1.5707963705062866
+  SRTHash: 878408606
+  Translate: [13.0, 0.0, -5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2c6ccf26
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa7c54c86
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6b6f4c18
+  SRTHash: -554232090
+  Translate: [-23.0, 0.0, -20.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2c76be6f
+  Rotate: [3.1415927410125732, -1.5707963705062866, 1.5707961320877075]
+  SRTHash: -933801429
+  Translate: [6.0, 2.0, -16.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2c7e3bb1
+  Rotate: 3.1415927410125732
+  SRTHash: 329730879
+  Translate: [1.0, 4.0, -17.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2d5f5f77
+  Rotate: -3.1415927410125732
+  SRTHash: -234236439
+  Translate: [-2.0, 4.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Consent_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2df35eed
+  SRTHash: 546688060
+  Translate: [6.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e2e2b81
+  SRTHash: 2083368556
+  Translate: [-15.5, 0.0, -12.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2f3a5d0b
+  Rotate: [-3.1415927410125732, 2.780640420990907e-17, -1.5707963705062866]
+  SRTHash: -1269668487
+  Translate: [22.0, 2.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2febe0a5
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfd9d82f9
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x55512ca1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe9b86d28
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6f591ef3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9c6d187f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6957b09f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd22796a0
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x421f846c
+  SRTHash: 935389145
+  Translate: [20.0, 0.0, -6.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x31985f78
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3d98b9f0
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfa6320ef
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9ddbd13a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xff19d44e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2b65f415
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x753279eb
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbbf7558b
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa0ae7e04
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf0dc12aa
+  SRTHash: 551078001
+  Translate: [15.5, 0.0, 7.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x33d85049
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb3c29381
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x391a595d}
+  SRTHash: -665530861
+  Translate: [6.0, 4.0, 8.0]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3463ba36
+  SRTHash: -2006119084
+  Translate: [2.0, 4.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Consent_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x34f9b85d
+  SRTHash: -1480521629
+  Translate: [-22.5, 0.0, 0.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x350643a0
+  Rotate: [-1.5707963705062866, 0.0, -1.5707963705062866]
+  SRTHash: 1814474245
+  Translate: [26.0, 3.0, -7.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x364afcfa
+  Rotate: [1.5707963705062866, 7.391153249459371e-17, -1.5707963705062866]
+  SRTHash: 327830251
+  Translate: [8.0, 4.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- HashId: !u 0x3734bd99
+  SRTHash: -283179269
+  Translate: [0.0, 6.0, -20.5]
+  UnitConfigName: LookTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x37913aaf
+  SRTHash: 1023640831
+  Translate: [20.5, 0.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Up_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3951931f
+  Rotate: 1.5707963705062866
+  SRTHash: 143559859
+  Translate: [-23.5, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 5.0, MoveSpeed: 0.5, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39a1d925
+  OnlyOne: true
+  SRTHash: 2127311547
+  Translate: [18.0, 0.0, -18.5]
+  UnitConfigName: SwitchShutterFenceWide
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x39a8949a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd3fd6a69
+  SRTHash: -1619614139
+  Translate: [2.0, 5.0, -18.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x39c29422
+  Rotate: [1.5707963705062866, 7.391153249459371e-17, -1.5707963705062866]
+  SRTHash: -460866920
+  Translate: [-8.0, 5.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3b6ed016
+  Rotate: -1.5707963705062866
+  SRTHash: 105999054
+  Translate: [-16.5, 0.0, 6.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3c12d8b3
+  SRTHash: -522046445
+  Translate: [-3.0, 4.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3caec7dd
+  Rotate: -3.1415927410125732
+  SRTHash: 1658312923
+  Translate: [-13.5, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3d98b9f0
+  Rotate: -1.5707963705062866
+  SRTHash: 1078282031
+  Translate: [10.0, 0.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x402ae133
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x849d3b31
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2d5f5f77
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7009b6cb
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3caec7dd
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xae721d8c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1bc49604
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8b447c11
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa1a66398
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1cbce737
+  SRTHash: -1786334254
+  Translate: [-3.5, 4.000226020812988, 1.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x40338d0f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x39a8949a
+  SRTHash: -1734724658
+  Translate: [5.0, 4.0, -21.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x40939135
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xacdf9144
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdce56855
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2e2e2b81
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb4012512
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0c3a730a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd2a18d7f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe4ad922d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4182add2
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xddd7b2d7
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x880f8562
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x47d06cab
+  SRTHash: 234566818
+  Translate: [-26.5, 0.0, -8.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4182add2
+  Rotate: 1.5707963705062866
+  SRTHash: -1765114868
+  Translate: [-20.5, 0.0, -17.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x41c4eced
+  SRTHash: -1102140471
+  Translate: [-22.5, 0.0, -15.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x421f846c
+  SRTHash: 55009222
+  Translate: [15.5, 0.0, -2.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x44df60df
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x31985f78
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xa77eccfe}
+  SRTHash: -34202005
+  Translate: [9.5, 0.0, 8.5]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x465c2464
+  Rotate: -1.5707963705062866
+  SRTHash: -1717418827
+  Translate: [26.0, 4.0, -4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- '!Parameters': {EventFlowEntryName: EntryPoint0, EventFlowName: Demo024_0, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x475e4916
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x3734bd99}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xde5718ac
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x6600e9d3}
+  SRTHash: -517394524
+  Translate: [2.0, 4.0, -21.0]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x477831b3
+  Rotate: [0.0, -1.5707963705062866, 1.5707963705062866]
+  SRTHash: 1764741461
+  Translate: [-6.0, 2.0, -16.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x47c4e849
+  Rotate: [-3.1415927410125732, 2.780640420990907e-17, -1.5707963705062866]
+  SRTHash: -1964465967
+  Translate: [22.0, 3.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x47d06cab
+  SRTHash: 294576858
+  Translate: [-14.5, 0.0, -12.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4909bd4f
+  Rotate: 1.5707963705062866
+  SRTHash: -807764106
+  Translate: [7.5, 0.0, 1.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4b051330
+  Rotate: [-1.5707963705062866, 0.0, -1.5707963705062866]
+  SRTHash: -1695570387
+  Translate: [26.0, 3.0, 2.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4d270877
+  Rotate: [1.5707963705062866, 0.0, -1.5707963705062866]
+  SRTHash: -1176591857
+  Translate: [-8.0, 9.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Consent_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4e954fcf
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xba7524ca
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0df48ce9
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6b16f190
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x41c4eced
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x570d58c8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7dff7e45
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfe3f8200
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe10ecd06
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5f5db53e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd2f38a25
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x729108bd
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9c94c88f
+  SRTHash: 1824798461
+  Translate: [-13.5, 0.0, -14.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4eafa40c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x39a8949a
+  SRTHash: -16823963
+  Translate: [-5.0, 4.0, -21.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4fc2dc26
+  Rotate: [2.224671486342581e-17, 0.0, 1.5707961320877075]
+  SRTHash: 778150209
+  Translate: [-6.0, 3.0, -17.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x51fc834e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x23f63d77
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x625dfe11}
+  SRTHash: 215387369
+  Translate: [-25.0, 0.0, -5.0]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x529d545c
+  Rotate: -1.5707963705062866
+  SRTHash: 388610268
+  Translate: [26.0, 4.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5303e5ab
+  Rotate: 1.5707963705062866
+  SRTHash: 1601790658
+  Translate: [24.0, 0.0, -14.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x55512ca1
+  SRTHash: 1764143808
+  Translate: [16.5, 0.0, -2.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x570d58c8
+  Rotate: 1.5707963705062866
+  SRTHash: -563025727
+  Translate: [-23.5, 0.0, -14.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x58d7aed8
+  Rotate: -1.5707963705062866
+  SRTHash: -2111411768
+  Translate: [-23.5, 0.0, -5.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5b53ea0c
+  Rotate: 1.5707963705062866
+  SRTHash: 1693392830
+  Translate: [26.0, 4.0, -6.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5bfe3602
+  Rotate: 1.5707963705062866
+  SRTHash: -1708754677
+  Translate: [-20.5, 0.0, -1.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x5c063ba9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x39a1d925
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf50bd9bb
+  SRTHash: 463807063
+  Translate: [18.0, 0.0, -17.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5c38b5ba
+  Rotate: [0.0, 0.0, -1.5707963705062866]
+  SRTHash: 1498563222
+  Translate: [4.0, 3.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- HashId: !u 0x5c49afb0
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x7f25349e}
+  SRTHash: 1669020473
+  Translate: [0.0, 4.0, 12.5]
+  UnitConfigName: LookTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5d9c5a72
+  Rotate: -1.5707963705062866
+  SRTHash: 380667899
+  Translate: [-16.5, 0.0, -1.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5e2f0f6b
+  SRTHash: 655944080
+  Translate: [7.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5e5b2fda
+  SRTHash: -572603198
+  Translate: [-18.5, 0.0, 7.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f118d03
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1d348a7e
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  OnlyOne: true
+  SRTHash: 145090504
+  Translate: [0.0, 4.0, -33.0]
+  UnitConfigName: DgnObj_GoalShield_A
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5f5db53e
+  Rotate: 1.5707963705062866
+  SRTHash: 338847184
+  Translate: [-15.5, 0.0, -16.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x60236251
+  Rotate: 3.1415927410125732
+  SRTHash: 1588813460
+  Translate: [5.0, 4.0, -17.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x605e1f71
+  Rotate: 1.5707963705062866
+  SRTHash: -1589858392
+  Translate: [-23.5, 0.0, 6.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x60dde2fc
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd19e8ae0
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  SRTHash: -878924557
+  Translate: [5.5, 4.0, -32.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x61314ac6
+  SRTHash: 1959560314
+  Translate: [3.0, 4.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x634449e1
+  Rotate: [1.5707963705062866, 0.0, 1.5707963705062866]
+  SRTHash: -1470359354
+  Translate: [8.0, 5.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6369ee96
+  Rotate: 1.5707963705062866
+  SRTHash: -1744509078
+  Translate: [-20.5, 0.0, -5.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x65d8ea86
+  SRTHash: 1889908069
+  Translate: [2.0, 4.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Consent_01
+- '!Parameters':
+    DropTable: Normal
+    RotateFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+    SharpWeaponJudgeType: 0
+    TransFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+  HashId: !u 0x6600e9d3
+  OnlyOne: true
+  SRTHash: 0
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: DgnMrgPrt_Dungeon060
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x677f38e5
+  Rotate: [3.1415927410125732, 7.391153249459371e-17, -1.5707963705062866]
+  SRTHash: 1492129535
+  Translate: [26.5, 2.0, -15.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x67eaf7bd
+  Rotate: 1.5707963705062866
+  SRTHash: 96451913
+  Translate: [7.5, 0.0, 2.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x689ff705
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x72f3032d
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xa01308e7}
+  SRTHash: 985466794
+  Translate: [-5.5, 4.0, 8.5]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6957b09f
+  Rotate: 1.5707963705062866
+  SRTHash: 1156047815
+  Translate: [17.5, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {EventFlowEntryName: GoalExit, EventFlowName: Demo033_1, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x6a18ebe5
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x6600e9d3}
+  SRTHash: 1598203203
+  Translate: [-5.5, 4.0, -31.0]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6ac18dc8
+  Rotate: -3.1415927410125732
+  SRTHash: 2039674304
+  Translate: [-2.0, 4.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Consent_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6b16f190
+  SRTHash: 1220819324
+  Translate: [-21.5, 0.0, -15.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 5.0, MoveSpeed: 0.5, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6b6f4c18
+  SRTHash: 1303013990
+  Translate: [-23.0, 0.0, -20.5]
+  UnitConfigName: SS_object_ShutterFenceOnly00
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6d080f80
+  Rotate: [1.5707963705062866, 7.391153249459371e-17, -1.5707963705062866]
+  SRTHash: 525557513
+  Translate: [8.0, 5.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6dc017a0
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2c76be6f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2368610c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe431ab46
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x477831b3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2c7e3bb1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x60236251
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa39dc970
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4fc2dc26
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1d1ead2a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x73056f82
+  SRTHash: 1389260961
+  Translate: [2.5, 4.000226020812988, -15.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6ef0b05d
+  Rotate: 3.1415927410125732
+  SRTHash: -784460413
+  Translate: [25.0, 4.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6f591ef3
+  Rotate: 1.5707963705062866
+  SRTHash: 1417102702
+  Translate: [14.5, 0.0, -3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7009b6cb
+  SRTHash: 120013583
+  Translate: [-5.5, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Up_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7015b640
+  Rotate: [0.0, 0.0, -1.5707963705062866]
+  SRTHash: -2027177054
+  Translate: [4.0, 3.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x724d2808
+  Rotate: 1.5707963705062866
+  SRTHash: -410849747
+  Translate: [26.0, 0.0, -9.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x729108bd
+  Rotate: 1.5707963705062866
+  SRTHash: -2038844213
+  Translate: [-23.5, 0.0, -12.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x72f3032d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb8433d3d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6ac18dc8
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xdeed5722
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7e6a80be
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x03a2ad45
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd5f1266c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x76fb4e37
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe4343af7
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x80b56779
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xed14c6a2
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x89d70454
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3c12d8b3
+  SRTHash: 1527185406
+  Translate: [-3.5, 4.0, 9.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x73056f82
+  Rotate: [0.0, 0.0, -1.5707963705062866]
+  SRTHash: -1277548785
+  Translate: [6.0, 3.0, -17.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- HashId: !u 0x74de1d7a
+  SRTHash: 0
+  Translate: [0.0, 5.5, -29.25]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x753279eb
+  Rotate: 1.5707963705062866
+  SRTHash: 789482023
+  Translate: [13.0, 0.0, -3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x76fb4e37
+  Rotate: [0.0, 0.0, 1.5707963705062866]
+  SRTHash: 939345808
+  Translate: [-4.0, 1.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x772b686a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x128c8ae6
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xde268a78
+  SRTHash: 283867521
+  Translate: [-13.0, 0.0, -20.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x77edfd0c
+  Rotate: 1.5707963705062866
+  SRTHash: -839153358
+  Translate: [7.5, 0.0, -11.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7be8c9f4
+  Rotate: -1.5707963705062866
+  SRTHash: 1325770369
+  Translate: [-16.5, 0.0, -2.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7dff7e45
+  Rotate: 1.5707963705062866
+  SRTHash: -2071715566
+  Translate: [-23.5, 0.0, -11.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7e6a80be
+  SRTHash: 1329254916
+  Translate: [-19.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- HashId: !u 0x7e9d2441
+  SRTHash: -1793070483
+  Translate: [-23.0, 3.0, -17.5]
+  UnitConfigName: LookTag
+- HashId: !u 0x7f25349e
+  SRTHash: 0
+  Translate: [0.0, 4.0, 12.5]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0x7f92f9d7
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  OnlyOne: true
+  SRTHash: 865924496
+  Translate: [0.0, 7.0, -33.0]
+  UnitConfigName: Npc_DungeonPriest001
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8016f721
+  Rotate: 1.5707963705062866
+  SRTHash: 2102333682
+  Translate: [26.0, 0.0, -10.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x80b56779
+  SRTHash: 1804816759
+  Translate: [-13.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x849d3b31
+  Rotate: -3.1415927410125732
+  SRTHash: 1812779205
+  Translate: [-3.0, 4.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x862f2fc5
+  Rotate: 1.5707963705062866
+  SRTHash: -157781454
+  Translate: [26.0, 4.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x87cbc468
+  Rotate: 1.5707963705062866
+  SRTHash: -1190424209
+  Translate: [-23.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x880f8562
+  SRTHash: -1644576554
+  Translate: [-19.5, 0.0, -12.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x89d70454
+  SRTHash: -1772190060
+  Translate: [-18.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8a4efcd4
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8c4f8bd9
+  Rotate: [2.769754648208618, -1.5707963705062866, -1.198958396911621]
+  SRTHash: 907076188
+  Translate: [26.5, 4.5, -15.5]
+  UnitConfigName: SwitchElectric0
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8aff5516
+  SRTHash: 435346138
+  Translate: [-19.5, 0.0, -6.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8b447c11
+  SRTHash: 804130710
+  Translate: [-9.5, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8b8c96e3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc7f727e2
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x3e779d44}
+  SRTHash: -642720265
+  Translate: [10.0, 0.5, -9.5]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8c4f8bd9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8dc994ad
+  SRTHash: 0
+  Translate: [26.5, 4.5, -15.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8cd8d0be
+  SRTHash: 2096262638
+  Translate: [-22.5, 0.0, 7.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8d2338cd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8f49b0a6
+  SRTHash: -1813530667
+  Translate: [-20.5, 0.0, -19.5]
+  UnitConfigName: SwitchElectric0
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8d73b31e
+  Rotate: [1.5707963705062866, 0.0, -1.5707961320877075]
+  SRTHash: -1529761171
+  Translate: [8.0, 9.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Consent_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 40.0}
+  HashId: !u 0x8dc994ad
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xc262ae0a
+  SRTHash: 2067175646
+  Translate: [24.0, 0.0, -17.5]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8dd4e4d3
+  Rotate: 3.1415927410125732
+  SRTHash: -138845229
+  Translate: [5.5, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Up_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8ddfeb65
+  Rotate: 1.5707963705062866
+  SRTHash: -2139363576
+  Translate: [-20.5, 0.0, 2.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8f49b0a6
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0ce61b5a
+  SRTHash: 0
+  Translate: [-20.5, 0.0, -19.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x92a57472
+  Rotate: 1.5707963705062866
+  SRTHash: 390878213
+  Translate: [-23.5, 0.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9344c460
+  Rotate: -3.1415927410125732
+  SRTHash: -1901316674
+  Translate: [25.0, 0.0, -12.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x93bb8d9d
+  LinksToObj:
+  - {DefinitionName: PhysSystemGroup, DestUnitHashId: !u 0x5f118d03}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  OnlyOne: true
+  SRTHash: -376039716
+  Translate: [0.0, 4.0, -33.0]
+  UnitConfigName: DgnObj_Hrl_GoalSystem_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x946478c0
+  Rotate: 1.5707963705062866
+  SRTHash: 1653507689
+  Translate: [-16.5, 0.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x94eb296f
+  OnlyOne: true
+  SRTHash: 892625114
+  Translate: [0.0, 0.0, -8.5]
+  UnitConfigName: DgnObj_Hrl_BaseRoom60x60x20_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9743e555
+  Rotate: [0.0, 0.0, -1.5707963705062866]
+  SRTHash: -730039377
+  Translate: [4.0, 2.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9761908b
+  SRTHash: 147380030
+  Translate: [25.0, 0.0, -15.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Up_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x99250946
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x099a14d7
+  SRTHash: 476354549
+  Translate: [-18.5, 0.5, -18.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9c6d187f
+  Rotate: 1.5707963705062866
+  SRTHash: 910446026
+  Translate: [14.5, 0.0, -5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9c94c88f
+  Rotate: 1.5707963705062866
+  SRTHash: 773550154
+  Translate: [-23.5, 0.0, -13.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9cfac44c
+  Rotate: [0.0, 0.0, -1.5707963705062866]
+  SRTHash: -334733827
+  Translate: [4.0, 2.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9ddbd13a
+  Rotate: 1.5707963705062866
+  SRTHash: -587403133
+  Translate: [10.0, 0.0, -1.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {EventFlowEntryName: EntryPoint0, EventFlowName: Demo024_0, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x9e48cd5f
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x002c58fc}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x772b686a
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x6600e9d3}
+  SRTHash: -108599022
+  Translate: [-13.0, 0.0, -18.0]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa016b1cc
+  Rotate: [3.1415927410125732, 7.391153249459371e-17, -1.5707963705062866]
+  SRTHash: 2026672470
+  Translate: [26.5, 3.0, -15.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Consent_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa0a1c520
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6dc017a0
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xd9cfb043}
+  SRTHash: -867568946
+  Translate: [-0.5, 4.0, -15.5]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa0ae7e04
+  SRTHash: 1873808608
+  Translate: [11.0, 0.0, -2.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa0e3f741
+  Rotate: -3.1415927410125732
+  SRTHash: -396428109
+  Translate: [-22.5, 0.0, 7.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa1a66398
+  SRTHash: 207028870
+  Translate: [-13.5, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa39dc970
+  Rotate: [-3.1415927410125732, 0.0, 1.5707961320877075]
+  SRTHash: 1633206718
+  Translate: [6.0, 3.0, -17.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa3e9379d
+  Rotate: 1.5707963705062866
+  SRTHash: -1450129948
+  Translate: [-20.5, 0.0, -0.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xa400d8db
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x475e4916
+  SRTHash: -1184509815
+  Translate: [3.499999761581421, 4.000226020812988, -20.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa7653de8
+  Rotate: 3.1415927410125732
+  SRTHash: 1141071368
+  Translate: [-22.5, 0.0, -3.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- HashId: !u 0xa7c54c86
+  SRTHash: 1983032616
+  Translate: [-23.0, 0.0, -20.5]
+  UnitConfigName: DgnObj_ShutterFenceFrame_A
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa7cc0139
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xac2e2230
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xaec880d5}
+  SRTHash: -827656135
+  Translate: [-8.0, 12.0, -22.0]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xac2e2230
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xde92586d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x39c29422
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0c16f9ff
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4d270877
+  SRTHash: 1572863988
+  Translate: [-7.5, 12.000225067138672, -19.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters':
+    EventFlowEntryName: Demo033_0
+    EventFlowName: Demo033_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: 0.0, Y: 5.5, Z: -29.25}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0xac77e262
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x60dde2fc
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xe497ec06}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x6600e9d3}
+  Rotate: -3.1415927410125732
+  SRTHash: 892728205
+  Translate: [0.0, 5.5, -29.25]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xacdf9144
+  SRTHash: -1647780650
+  Translate: [-13.5, 0.0, -12.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xadb68e26
+  SRTHash: 239769845
+  Translate: [13.0, 5.5, -17.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xadbcc5ea
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1b5e3c4d
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x4e1d69cb}
+  SRTHash: -25155644
+  Translate: [26.0, 0.0, 0.5]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xae025c97
+  Rotate: -1.5707963705062866
+  SRTHash: -425193138
+  Translate: [-16.5, 0.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Cross_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xae721d8c
+  Rotate: [0.0, 0.0, 1.5707963705062866]
+  SRTHash: -693598343
+  Translate: [-4.0, 2.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb0e3be54
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1bd86b7d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc4cfdb78
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5b53ea0c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe3553252
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x677f38e5
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x724d2808
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8016f721
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1d404a79
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x09ac62f9
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf02eed32
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb466ad0f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x465c2464
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x350643a0
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc6e4cc1a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbcbba407
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9344c460
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5303e5ab
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9761908b
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa016b1cc
+  SRTHash: -2058813265
+  Translate: [21.500001907348633, 0.0, -10.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb2085671
+  Rotate: 1.5707963705062866
+  SRTHash: -1907385871
+  Translate: [7.5, 0.0, -13.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb338f949
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x7f92f9d7}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  OnlyOne: true
+  SRTHash: -1586897157
+  Translate: [-5.5, 4.0, -33.5]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb3c29381
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x61314ac6
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x65d8ea86
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbbe42716
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x22745495
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5e2f0f6b
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1c67844c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5c38b5ba
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9cfac44c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2df35eed
+  SRTHash: 133422225
+  Translate: [3.5, 4.0, 9.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb4012512
+  Rotate: 3.1415927410125732
+  SRTHash: -1302305672
+  Translate: [-19.5, 0.0, -12.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb466ad0f
+  Rotate: 1.5707963705062866
+  SRTHash: 1114054481
+  Translate: [26.0, 4.0, -5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {EventFlowEntryName: EntryPoint0, EventFlowName: Demo024_0, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xb5659e9c
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x2b010b3f}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5c063ba9
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x6600e9d3}
+  SRTHash: 415868061
+  Translate: [20.5, 0.0, -16.0]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb644ae49
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x11885db3
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x85e5d316}
+  SRTHash: 365001999
+  Translate: [-25.5, 0.0, 5.5]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb8433d3d
+  Rotate: -3.1415927410125732
+  SRTHash: -1852177219
+  Translate: [-3.0, 4.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb8789e56
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x40939135
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x8c539f3d}
+  SRTHash: 1495504986
+  Translate: [-26.5, 0.0, -10.0]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb8e1a592
+  SRTHash: -1807836376
+  Translate: [-17.5, 0.0, -3.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xba7524ca
+  Rotate: -1.5707963705062866
+  SRTHash: -662811830
+  Translate: [-15.5, 0.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Consent_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbb4195a8
+  SRTHash: 56369433
+  Translate: [-18.0, 5.5, -25.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbbe42716
+  Rotate: 3.1415927410125732
+  SRTHash: 716761835
+  Translate: [5.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Up_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbbf7558b
+  Rotate: 1.5707963705062866
+  SRTHash: 1156047815
+  Translate: [10.0, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbcbba407
+  SRTHash: -796883071
+  Translate: [25.0, 0.0, -12.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbce66af6
+  Rotate: 3.1415927410125732
+  SRTHash: -1529932012
+  Translate: [23.0, 4.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Down_01
+- HashId: !u 0xbe6b6261
+  SRTHash: 1983032616
+  Translate: [0.0, 4.0, -22.5]
+  UnitConfigName: DgnObj_ShutterFenceFrame_A
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc05dc49f
+  Rotate: 1.5707963705062866
+  SRTHash: 407044333
+  Translate: [-23.5, 0.0, -5.5]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc1439edf
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xefa0d220
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x155ace87}
+  SRTHash: -926841972
+  Translate: [-9.5, 0.0, -5.0]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc262ae0a
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb5659e9c
+  SRTHash: -1869445784
+  Translate: [22.0, 0.0, -17.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc4cfdb78
+  Rotate: 1.5707963705062866
+  SRTHash: -1043332637
+  Translate: [26.0, 4.0, -4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc6e4cc1a
+  Rotate: [-1.5707963705062866, 0.0, -1.5707963705062866]
+  SRTHash: 374414688
+  Translate: [26.0, 2.0, -7.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc7f727e2
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe8d9e2e0
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x67eaf7bd
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfa09850a
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8dd4e4d3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x155a1fcf
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc993c40c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x014575cf
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4909bd4f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x22eaaa34
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xca4bb602
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x77edfd0c
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9743e555
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7015b640
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3463ba36
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x28062809
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb2085671
+  SRTHash: 1049911816
+  Translate: [10.0, 0.0, -7.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc993c40c
+  SRTHash: -2061098750
+  Translate: [2.0, 4.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xca4bb602
+  Rotate: 1.5707963705062866
+  SRTHash: 997120120
+  Translate: [7.5, 0.0, -7.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xcb2995eb
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6a18ebe5
+  SRTHash: 0
+  Translate: [0.0, 5.5, -29.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd0407ef6
+  Rotate: -1.5707963705062866
+  SRTHash: -272757972
+  Translate: [-16.5, 0.0, -0.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd0cb31af
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4eafa40c
+  Rotate: [1.5707963705062866, -0.056122805923223495, 0.0]
+  SRTHash: -1522507029
+  Translate: [-8.0, 10.5, -18.0]
+  UnitConfigName: SwitchElectric0
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd19e8ae0
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x5f118d03}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  OnlyOne: true
+  SRTHash: 978075651
+  Translate: [7.0, 4.0, -34.5]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd22796a0
+  Rotate: 1.5707963705062866
+  SRTHash: -1263292348
+  Translate: [14.5, 0.0, -4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd2a18d7f
+  Rotate: 1.5707963705062866
+  SRTHash: -870669000
+  Translate: [-20.5, 0.0, -16.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, EventFlowEntryName: Demo008_3, EventFlowName: Demo008_3,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xd2c6a853
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x5c49afb0}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x7f25349e}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: -1323267158
+  Translate: [0.0, 14.0, 17.5]
+  UnitConfigName: DgnObj_EntranceElevator_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd2f38a25
+  Rotate: 1.5707963705062866
+  SRTHash: -777435204
+  Translate: [-15.5, 0.0, -17.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd39068f2
+  SRTHash: 1816269807
+  Translate: [-14.5, 0.0, -6.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 40.0}
+  HashId: !u 0xd3fd6a69
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xa400d8db
+  SRTHash: -696656838
+  Translate: [4.5, 4.0, -19.0]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd42cb626
+  Rotate: -1.5707963705062866
+  SRTHash: -58547069
+  Translate: [-20.5, 0.0, -0.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Cross_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd5f1266c
+  Rotate: [0.0, 0.0, 1.5707963705062866]
+  SRTHash: -336557345
+  Translate: [-4.0, 2.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd862a195
+  SRTHash: 889397767
+  Translate: [-13.5, 0.0, -6.5]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdce56855
+  Rotate: -1.5707963705062866
+  SRTHash: -1009585189
+  Translate: [-12.5, 0.0, -11.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xddd63165
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2febe0a5
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xd079fc68}
+  SRTHash: -1934732098
+  Translate: [19.5, 0.0, -3.5]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xddd7b2d7
+  Rotate: 1.5707963705062866
+  SRTHash: 218679473
+  Translate: [-20.5, 0.0, -13.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 5.0, MoveSpeed: 0.5, SharpWeaponJudgeType: 0}
+  HashId: !u 0xde268a78
+  SRTHash: 1303013990
+  Translate: [-13.0, 0.0, -20.5]
+  UnitConfigName: SS_object_ShutterFenceOnly00
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsInside_Dungeon,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xde42f270
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd2c6a853
+  SRTHash: -1220747738
+  Translate: [6.0, 4.0, 14.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xde5718ac
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbe6b6261
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x181c69d5
+  SRTHash: -706834217
+  Translate: [-2.0, 4.0, -21.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xde92586d
+  Rotate: [1.5707963705062866, 7.391153249459371e-17, -1.5707963705062866]
+  SRTHash: 649667731
+  Translate: [-8.0, 4.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xdeed5722
+  SRTHash: 1142752235
+  Translate: [-5.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Up_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe10ecd06
+  SRTHash: 1810692028
+  Translate: [-20.5, 0.0, -15.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe3553252
+  Rotate: [3.1415927410125732, 7.391153249459371e-17, -1.5707963705062866]
+  SRTHash: 548759038
+  Translate: [26.5, 3.0, -15.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe431ab46
+  SRTHash: 1552991394
+  Translate: [-5.0, 4.0, -17.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe4343af7
+  SRTHash: 1060800383
+  Translate: [-9.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe497424e
+  Rotate: 3.1415927410125732
+  SRTHash: -488065403
+  Translate: [24.0, 4.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- HashId: !u 0xe497ec06
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: 995529659
+  Translate: [0.0, 5.5, -29.25]
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe4ad922d
+  Rotate: -1.5707963705062866
+  SRTHash: 1834063812
+  Translate: [-20.5, 0.0, -18.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Consent_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe5ffb048
+  SRTHash: -654041342
+  Translate: [-22.5, 0.0, -3.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe7cfceb5
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x7f25349e}
+  OnlyOne: true
+  SRTHash: -1930244898
+  Translate: [0.0, 4.0, 17.5]
+  UnitConfigName: DgnObj_Hrl_Warpin_2x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe8d9e2e0
+  Rotate: 1.5707963705062866
+  SRTHash: 669273397
+  Translate: [7.5, 0.0, -14.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe94ffdc9
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x9e48cd5f
+  SRTHash: 2014214565
+  Translate: [-17.0, 0.5, -18.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe9b86d28
+  Rotate: -3.1415927410125732
+  SRTHash: -1351692282
+  Translate: [15.5, 0.0, -2.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xea90c517
+  SRTHash: 1253627354
+  Translate: [-18.5, 0.0, -3.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xed14c6a2
+  SRTHash: 1804816759
+  Translate: [-17.5, 0.0, 5.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xee011e67
+  Rotate: -3.1415927410125732
+  SRTHash: 1865974627
+  Translate: [20.5, 0.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xee52e51f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcb2995eb
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x74de1d7a}
+  OnlyOne: true
+  SRTHash: 1456738101
+  Scale: 0.699999988079071
+  Translate: [0.0, 5.5, -29.5]
+  UnitConfigName: DgnObj_GoalExit
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, WaitTime: 40.0}
+  HashId: !u 0xef43e014
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xe94ffdc9
+  SRTHash: 1720216523
+  Translate: [-17.0, 0.0, -21.0]
+  UnitConfigName: SwitchTimeLag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xefa0d220
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd862a195
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd39068f2
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xffb8a44e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x6369ee96
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x234fb97e
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa3e9379d
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xd42cb626
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf7292abc
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8ddfeb65
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x5bfe3602
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf7c722a1
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8aff5516
+  SRTHash: 589032075
+  Translate: [-9.5, 0.0, -3.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, IsDisplayOnUI: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xefe053e7
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x402ae133
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xd7143871}
+  SRTHash: -1121924589
+  Translate: [-5.5, 4.0, 1.5]
+  UnitConfigName: Test_ElectricCable
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf02eed32
+  Rotate: 1.5707963705062866
+  SRTHash: -1515053911
+  Translate: [24.0, 0.0, -13.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf0dc12aa
+  Rotate: 1.5707963705062866
+  SRTHash: 2057013617
+  Translate: [13.0, 0.0, -4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- HashId: !u 0xf50bd9bb
+  OnlyOne: true
+  SRTHash: 888879238
+  Translate: [18.0, 0.0, -18.5]
+  UnitConfigName: DgnObj_ShutterFenceFrame_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf7292abc
+  Rotate: -1.5707963705062866
+  SRTHash: 1535590554
+  Translate: [-20.5, 0.0, 2.5]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf7c722a1
+  Rotate: 1.5707963705062866
+  SRTHash: 1216976035
+  Translate: [-20.5, 0.0, -4.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfa09850a
+  Rotate: -1.5707963705062866
+  SRTHash: -467128767
+  Translate: [7.5, 0.0, 2.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfa24085b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x14ecfcc9
+  SRTHash: -943760443
+  Translate: [-15.5, 0.0, -19.5]
+  UnitConfigName: SwitchElectric0
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfa6320ef
+  Rotate: 1.5707963705062866
+  SRTHash: 1944977342
+  Translate: [10.0, 0.0, 4.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfd9d82f9
+  Rotate: -1.5707963705062866
+  SRTHash: 667623487
+  Translate: [17.5, 0.0, 3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfe3f8200
+  Rotate: -1.5707963705062866
+  SRTHash: -171764879
+  Translate: [-23.5, 0.0, -11.0]
+  UnitConfigName: DgnObj_ElectricWire_B_End_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff19d44e
+  Rotate: -1.5707963705062866
+  SRTHash: -837391654
+  Translate: [13.0, 0.0, -3.0]
+  UnitConfigName: DgnObj_ElectricWire_B_Turn_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xffb8a44e
+  SRTHash: -1556746649
+  Translate: [-15.5, 0.0, -6.5]
+  UnitConfigName: DgnObj_ElectricWire_B_Straight_01
+Rails:
+- HashId: !u 0x155ace87
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 8.0
+    PrevDistance: 0.0
+    Translate: [-12.5, 0.0, -6.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 10.0
+    PrevDistance: 8.0
+    Translate: [-20.5, 0.0, -6.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 10.0
+    Translate: [-20.5, 0.0, 3.5]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-17.83333396911621, 0.0, -3.1666667461395264]
+  UnitConfigName: Guide
+- HashId: !u 0x391a595d
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 3.0
+    PrevDistance: 0.0
+    Translate: [1.0, 4.0, 5.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.000000476837158
+    PrevDistance: 3.0
+    Translate: [4.0, 4.0, 5.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.5
+    PrevDistance: 4.000000476837158
+    Translate: [4.0, 0.0, 5.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 4.5
+    Translate: [8.5, 0.0, 5.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4.375, 2.0, 5.0]
+  UnitConfigName: Guide
+- HashId: !u 0x3e779d44
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 18.000001907348633
+    PrevDistance: 0.0
+    Translate: [7.5, 0.0, -15.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 3.5
+    PrevDistance: 18.000001907348633
+    Translate: [7.5, 0.0, 3.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.0
+    PrevDistance: 3.5
+    Translate: [4.0, 0.0, 3.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.000000476837158
+    PrevDistance: 4.0
+    Translate: [4.0, 4.0, 3.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 4.000000476837158
+    Translate: [0.0, 4.0, 3.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4.599999904632568, 1.600000023841858, -0.6000000238418579]
+  UnitConfigName: Guide
+- HashId: !u 0x4970add2
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 7.0
+    PrevDistance: 0.0
+    Translate: [8.0, 10.0, -18.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 7.0
+    Translate: [8.0, 3.0, -18.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [8.0, 6.5, -18.0]
+  UnitConfigName: Guide
+- HashId: !u 0x4e1d69cb
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 0.0
+    Translate: [26.0, 2.0, 2.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 2.0
+    Translate: [26.0, 4.0, 2.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.0
+    PrevDistance: 2.0
+    Translate: [26.0, 4.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.000000476837158
+    PrevDistance: 4.0
+    Translate: [22.0, 4.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.5
+    PrevDistance: 4.000000476837158
+    Translate: [22.0, 0.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 2.5
+    Translate: [19.5, 0.0, 4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [23.58333396911621, 2.3333332538604736, 3.3333332538604736]
+  UnitConfigName: Guide
+- HashId: !u 0x625dfe11
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 3.0
+    PrevDistance: 0.0
+    Translate: [-23.5, 0.0, -6.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 7.0
+    PrevDistance: 3.0
+    Translate: [-23.5, 0.0, -3.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.0
+    PrevDistance: 7.0
+    Translate: [-16.5, 0.0, -3.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 7.0
+    PrevDistance: 4.0
+    Translate: [-16.5, 0.0, 0.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 7.0
+    Translate: [-23.5, 0.0, 0.5]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-20.700000762939453, 0.0, -2.5]
+  UnitConfigName: Guide
+- HashId: !u 0x85e5d316
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 5.0
+    PrevDistance: 0.0
+    Translate: [-23.5, 0.0, 2.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 7.0
+    PrevDistance: 5.0
+    Translate: [-23.5, 0.0, 7.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.0
+    PrevDistance: 7.0
+    Translate: [-16.5, 0.0, 7.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 4.0
+    Translate: [-16.5, 0.0, 3.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-20.0, 0.0, 4.75]
+  UnitConfigName: Guide
+- HashId: !u 0x8c539f3d
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 7.0
+    PrevDistance: 0.0
+    Translate: [-20.5, 0.0, -19.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 8.0
+    PrevDistance: 7.0
+    Translate: [-20.5, 0.0, -12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 8.0
+    Translate: [-12.5, 0.0, -12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 2.0
+    Translate: [-12.5, 0.0, -10.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-16.5, 0.0, -13.25]
+  UnitConfigName: Guide
+- HashId: !u 0xa01308e7
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 3.0
+    PrevDistance: 0.0
+    Translate: [-1.0, 4.0, 5.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.000000476837158
+    PrevDistance: 3.0
+    Translate: [-4.0, 4.0, 5.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 16.5
+    PrevDistance: 4.000000476837158
+    Translate: [-4.0, 0.0, 5.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 16.5
+    Translate: [-20.5, 0.0, 5.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-7.375, 2.0, 5.0]
+  UnitConfigName: Guide
+- HashId: !u 0xa77eccfe
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 7.0
+    PrevDistance: 0.0
+    Translate: [10.0, 0.0, 5.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 3.0
+    PrevDistance: 7.0
+    Translate: [10.0, 0.0, -2.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.0
+    PrevDistance: 3.0
+    Translate: [13.0, 0.0, -2.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 4.0
+    Translate: [13.0, 0.0, -6.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [11.5, 0.0, -1.25]
+  UnitConfigName: Guide
+- HashId: !u 0xaec880d5
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 7.0
+    PrevDistance: 0.0
+    Translate: [-8.0, 10.0, -18.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 7.0
+    Translate: [-8.0, 3.0, -18.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-8.0, 6.5, -18.0]
+  UnitConfigName: Guide
+- HashId: !u 0xd079fc68
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.0
+    PrevDistance: 0.0
+    Translate: [14.5, 0.0, -6.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 3.0
+    PrevDistance: 4.0
+    Translate: [14.5, 0.0, -2.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 6.0
+    PrevDistance: 3.0
+    Translate: [17.5, 0.0, -2.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 6.0
+    Translate: [17.5, 0.0, 4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [16.0, 0.0, -1.5]
+  UnitConfigName: Guide
+- HashId: !u 0xd7143871
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 3.0
+    PrevDistance: 0.0
+    Translate: [-1.0, 4.0, 3.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.000000476837158
+    PrevDistance: 3.0
+    Translate: [-4.0, 4.0, 3.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 10.5
+    PrevDistance: 4.000000476837158
+    Translate: [-4.0, 0.0, 3.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 10.5
+    Translate: [-14.5, 0.0, 3.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-5.875, 2.0, 3.0]
+  UnitConfigName: Guide
+- HashId: !u 0xd9cfb043
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 0.0
+    Translate: [-6.0, 2.0, -15.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 2.0
+    Translate: [-6.0, 2.0, -17.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 12.0
+    PrevDistance: 2.0
+    Translate: [-6.0, 4.0, -17.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 12.0
+    Translate: [6.0, 4.0, -17.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 2.0
+    Translate: [6.0, 2.0, -17.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 2.0
+    Translate: [6.0, 2.0, -15.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [0.0, 2.6666667461395264, -16.33333396911621]
+  UnitConfigName: Guide
+- HashId: !u 0xf2e2e380
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.000000476837158
+    PrevDistance: 0.0
+    Translate: [26.0, 4.0, -15.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 4.000000476837158
+    Translate: [26.0, 0.0, -15.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 3.0
+    PrevDistance: 2.0
+    Translate: [24.0, 0.0, -15.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 3.0
+    Translate: [24.0, 0.0, -12.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 5.5
+    PrevDistance: 2.0
+    Translate: [26.0, 0.0, -12.5]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.0
+    PrevDistance: 5.5
+    Translate: [26.0, 0.0, -7.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.0
+    PrevDistance: 4.0
+    Translate: [26.0, 4.0, -7.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 2.0
+    PrevDistance: 4.0
+    Translate: [26.0, 4.0, -3.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 2.0
+    Translate: [26.0, 2.0, -3.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [25.55555534362793, 1.5555555820465088, -10.166666984558105]
+  UnitConfigName: Guide
+- HashId: !u 0xfb54afab
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 4.0
+    PrevDistance: 0.0
+    Translate: [-15.5, 0.0, -19.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 8.0
+    PrevDistance: 4.0
+    Translate: [-15.5, 0.0, -15.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 5.0
+    PrevDistance: 8.0
+    Translate: [-23.5, 0.0, -15.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 5.0
+    Translate: [-23.5, 0.0, -10.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-19.5, 0.0, -14.75]
+  UnitConfigName: Guide

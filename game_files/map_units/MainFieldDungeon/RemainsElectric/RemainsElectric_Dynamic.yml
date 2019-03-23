@@ -1,0 +1,79 @@
+Objs:
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x0485ffb1
+  SRTHash: -115782840
+  Translate: [14.5, 131.0, 8.5]
+  UnitConfigName: Barrel
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0x056fdb38
+  Rotate: [1.5707963705062866, -0.6981316804885864, 4.674611054135198e-17]
+  SRTHash: -1274948358
+  Translate: [16.5, 131.5, 7.5]
+  UnitConfigName: Barrel
+- '!Parameters': {ArrowName: NormalArrow, BeamRange: 0.0, DropTable: Normal, EquipItem1: Weapon_Lsword_013,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsAnnihilateDungeonEnemy: false,
+    IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 1,
+    TerritoryArea: 0.0}
+  HashId: !u 0x0ae9bdbc
+  Rotate: 3.1415927410125732
+  SRTHash: -1778054058
+  Translate: [31.0, 100.0, 24.0]
+  UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
+- HashId: !u 0x209704ff
+  OnlyOne: true
+  SRTHash: -1773777215
+  Translate: [19.5, 72.0, 5.5]
+  UnitConfigName: Obj_MapModel_A_01
+- '!Parameters': {ArrowName: ElectricArrow, BeamRange: 0.0, DropTable: Normal, EquipItem1: Weapon_Spear_013,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsAnnihilateDungeonEnemy: false,
+    IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 1,
+    TerritoryArea: 0.0}
+  HashId: !u 0x2f3017af
+  Rotate: 3.1415927410125732
+  SRTHash: -540081597
+  Translate: [0.0, 72.0, 40.0]
+  UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
+- '!Parameters': {DropTable: Normal, EnableRevival: false, IsEnemyLiftable: true,
+    IsInGround: false, TurnActorNearEnemy: true}
+  HashId: !u 0x3d29d2ab
+  Rotate: 0.8726646304130554
+  SRTHash: 1972302
+  Translate: [14.5, 131.0, -5.0]
+  UnitConfigName: TreasureLocaterKibako
+- '!Parameters': {DropTable: Normal, EnableRevival: false, IsEnemyLiftable: true,
+    IsInGround: false, TurnActorNearEnemy: true}
+  HashId: !u 0x52e8ca4e
+  Rotate: -0.5235987901687622
+  SRTHash: 1519748838
+  Translate: [13.0, 131.0, -7.5]
+  UnitConfigName: TreasureLocaterKibako
+- HashId: !u 0x801a84ac
+  OnlyOne: true
+  SRTHash: 40549530
+  Translate: [0.0, 72.5, -1.0]
+  UnitConfigName: DungeonResetPosTag
+- '!Parameters': {ArrowName: NormalArrow, BeamRange: 0.0, DropTable: Normal, EquipItem1: Weapon_Sword_013,
+    EquipItem2: Default, EquipItem3: Default, EquipItem4: Default, IsAnnihilateDungeonEnemy: false,
+    IsNearCreate: false, LevelSensorMode: 0, NearCreateAppearID: 0, SharpWeaponJudgeType: 1,
+    TerritoryArea: 0.0}
+  HashId: !u 0xb6bf5d32
+  Rotate: 3.1415927410125732
+  SRTHash: -114071343
+  Translate: [-30.0, 100.0, 1.0]
+  UnitConfigName: Enemy_Guardian_Mini_Junior_Dark
+- '!Parameters': {DropTable: Normal, IsEnemyLiftable: true, SharpWeaponJudgeType: 0,
+    TurnActorNearEnemy: true}
+  HashId: !u 0xc0b0c1ea
+  SRTHash: -922544561
+  Translate: [16.0, 131.0, 6.5]
+  UnitConfigName: Barrel
+- '!Parameters': {DropTable: Normal, EnableRevival: false, IsEnemyLiftable: true,
+    IsInGround: false, TurnActorNearEnemy: true}
+  HashId: !u 0xd2603e18
+  Rotate: 0.3490658402442932
+  SRTHash: 827290388
+  Translate: [16.0, 131.0, -7.5]
+  UnitConfigName: TreasureLocaterKibako
+Rails: []

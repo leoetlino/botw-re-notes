@@ -1,0 +1,896 @@
+Objs:
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0004df4a
+  SRTHash: 886790116
+  Translate: [-28.0, 12.0, -12.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x00dd9ea9
+  SRTHash: 2070874839
+  Translate: [0.0, 0.0, 14.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x00f635a4
+  Rotate: 1.5707963705062866
+  SRTHash: 1546403059
+  Translate: [-28.0, 0.0, -26.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x022820bd
+  Rotate: -1.5707963705062866
+  SRTHash: -835755782
+  Translate: [24.0, 0.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x02daca53
+  Rotate: -1.5707963705062866
+  SRTHash: 1212307864
+  Translate: [-4.0, 2.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x4_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x063d06cf
+  SRTHash: 492283945
+  Translate: [2.0, 6.0, -32.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x071a1d76
+  SRTHash: -981108906
+  Translate: [2.0, 6.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- HashId: !u 0x0a3355f0
+  SRTHash: -1317492167
+  Translate: [32.0, 12.0, 24.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0b3fe544
+  SRTHash: -1813654462
+  Translate: [-3.0, 6.0, -8.0]
+  UnitConfigName: DgnObj_Hrl_CandlePoleB_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0cd3cd96
+  SRTHash: -2072997639
+  Translate: [8.0, 0.0, -2.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0e267382
+  Rotate: -1.5707963705062866
+  SRTHash: 686032083
+  Translate: [24.0, 0.0, 24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- HashId: !u 0x10860d75
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: 955776311
+  Translate: [0.0, 2.0, 21.0]
+  UnitConfigName: DungeonResetPosTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x11d6fd2e
+  Rotate: 1.5707963705062866
+  SRTHash: -40573748
+  Translate: [4.0, 2.0, -4.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x4_03
+- HashId: !u 0x122ff38e
+  Rotate: 3.1415927410125732
+  SRTHash: 1054731263
+  Translate: [0.0, 2.0, 13.0]
+  UnitConfigName: DgnObj_Hrl_RoadEnd4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1323433a
+  Rotate: -1.5707963705062866
+  SRTHash: 1955050917
+  Translate: [24.0, 0.0, 16.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- HashId: !u 0x15c3db5c
+  SRTHash: 282084175
+  Translate: [0.0, 8.0, -16.5]
+  UnitConfigName: DgnObj_Hrl_RoadEnd4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x17366548
+  SRTHash: -629883365
+  Translate: [28.0, 6.0, 28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1b383677
+  SRTHash: 1563697321
+  Translate: [5.0, 4.0, -31.0]
+  UnitConfigName: DgnObj_Hrl_Box2x2x4Top_01
+- HashId: !u 0x1cd41ea5
+  SRTHash: 883726394
+  Translate: [32.0, 12.0, 16.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1d01eff2
+  SRTHash: -661276989
+  Translate: [-2.0, 6.0, -16.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1dd8ae11
+  Rotate: -1.5707963705062866
+  SRTHash: 1573512804
+  Translate: [24.0, 0.0, 8.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1df3051c
+  SRTHash: -201154337
+  Translate: [-28.0, 12.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1f2d1005
+  SRTHash: 99045186
+  Translate: [2.0, 0.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Under_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1fdffaeb
+  SRTHash: -119235708
+  Translate: [4.5, 8.0, -15.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof2x2_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x203ee7b3
+  OnlyOne: true
+  SRTHash: 1468833002
+  Translate: [0.0, 2.0, 8.0]
+  UnitConfigName: DgnObj_hrl_Stair8x4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x20e7a650
+  Rotate: -1.5707963705062866
+  SRTHash: -189852144
+  Translate: [24.0, 0.0, -16.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2239b349
+  SRTHash: -58150470
+  Translate: [-2.0, 0.0, -20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Under_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x242bc1c1
+  OnlyOne: true
+  SRTHash: 849284493
+  Translate: [0.0, 7.5, 26.0]
+  UnitConfigName: DgnObj_Hrl_CeilingPillarA_01
+- HashId: !u 0x26de7fd5
+  SRTHash: 348219920
+  Translate: [32.0, 12.0, -8.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x282592fe
+  Rotate: [0.0, 0.0, -3.1415927410125732]
+  SRTHash: 243239258
+  Translate: [0.0, 26.5, -24.0]
+  UnitConfigName: DgnObj_Hrl_GoalSystemCenter_01
+- HashId: !u 0x2ad02cea
+  SRTHash: -10591794
+  Translate: [-10.0, 2.0, -32.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2c30b48c
+  Rotate: -1.5707963705062866
+  SRTHash: 1399614918
+  Translate: [-4.0, 2.0, -12.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x4_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2d3c0438
+  SRTHash: 154341273
+  Translate: [-28.0, 6.0, 28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2ec50a98
+  Rotate: -1.5707963705062866
+  SRTHash: 1816653485
+  Translate: [24.0, 0.0, 28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x31358434
+  Rotate: 1.5707963705062866
+  SRTHash: -279171837
+  Translate: [-28.0, 0.0, -10.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x33c03a20
+  Rotate: 1.5707963705062866
+  SRTHash: -1511370984
+  Translate: [-28.0, 0.0, 22.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x342c12f2
+  Rotate: 1.5707963705062866
+  SRTHash: -700838495
+  Translate: [28.0, 0.0, 22.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3520a246
+  SRTHash: -831027416
+  Translate: [8.0, 2.0, 1.0]
+  UnitConfigName: DgnObj_hrl_Pillar1x1x4_01
+- HashId: !u 0x37d51c52
+  SRTHash: 865331230
+  Translate: [-6.0, 2.0, -32.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x392ef179
+  OnlyOne: true
+  SRTHash: 1847911410
+  Translate: [0.0, 24.5, 26.0]
+  UnitConfigName: DgnObj_Hrl_CeilingPillarA_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3a0ebe3a
+  Rotate: 1.5707963705062866
+  SRTHash: -129054375
+  Translate: [4.0, 2.0, -8.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x4_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3ad7ffd9
+  Rotate: 1.5707963705062866
+  SRTHash: -1642376030
+  Translate: [-28.0, 0.0, 14.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- HashId: !u 0x3bdb4f6d
+  SRTHash: 679503879
+  Translate: [-32.0, 12.0, 24.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3d107c06
+  SRTHash: -524288833
+  Translate: [8.0, 0.0, -26.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3d3bd70b
+  SRTHash: -439002403
+  Translate: [8.0, 0.0, 6.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3de296e8
+  SRTHash: -549615788
+  Translate: [2.0, 6.0, -20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3f3c83f1
+  SRTHash: 1671543842
+  Translate: [0.0, 0.0, 2.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x411b6c9d
+  Rotate: 1.5707963705062866
+  SRTHash: -1595286390
+  Translate: [28.0, 0.0, -10.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x450e4aef
+  SRTHash: -100443639
+  Translate: [11.0, 2.0, -31.219999313354492]
+  UnitConfigName: DgnObj_Hrl_Box2x2Wainscot_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x47fbf4fb
+  OnlyOne: true
+  SRTHash: -1067609467
+  Translate: [0.0, 8.0, -32.099998474121094]
+  UnitConfigName: DgnObj_Hrl_Box4x4Wainscot_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4d153fa2
+  Rotate: 1.5707963705062866
+  SRTHash: 264709019
+  Translate: [-24.0, 0.0, 8.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4d3e94af
+  Rotate: -1.5707963705062866
+  SRTHash: -1711241763
+  Translate: [-6.0, 2.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4dcc7e41
+  Rotate: 1.5707963705062866
+  SRTHash: -1070585869
+  Translate: [-24.0, 0.0, -12.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x50100f1a
+  SRTHash: -856365542
+  Translate: [-10.0, 2.0, 8.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x503ba417
+  SRTHash: 114262653
+  Translate: [8.0, 0.0, -18.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x50c94ef9
+  SRTHash: 473593924
+  Translate: [8.0, 0.0, -10.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x52175be0
+  SRTHash: -1906973279
+  Translate: [-4.5, 8.0, -15.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof2x2_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x52e5b10e
+  SRTHash: 35539575
+  Translate: [-8.0, 0.0, -26.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x56f0977c
+  Rotate: -3.1415927410125732
+  SRTHash: -1662843192
+  Translate: [-1.0, 2.0, 31.0]
+  UnitConfigName: DgnObj_Hrl_Box2x2Wainscot_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5725662b
+  Rotate: -1.5707963705062866
+  SRTHash: 505435108
+  Translate: [-6.0, 2.0, -16.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x57fc27c8
+  SRTHash: -651348918
+  Translate: [-28.0, 12.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- HashId: !u 0x580b7a57
+  SRTHash: -2050181218
+  Translate: [0.0, 6.0, -0.5]
+  UnitConfigName: DgnObj_Hrl_RoadEnd4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5afec443
+  SRTHash: -1452369234
+  Translate: [-10.0, 2.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof2x2_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5c1e5c25
+  Rotate: 1.5707963705062866
+  SRTHash: 1792448605
+  Translate: [-28.0, 0.0, -2.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5eebe231
+  Rotate: 1.5707963705062866
+  SRTHash: 701516374
+  Translate: [-24.0, 0.0, 16.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x61f81587
+  SRTHash: -1158558609
+  Translate: [-8.0, 0.0, -10.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x630dab93
+  SRTHash: -30488644
+  Translate: [28.0, 12.0, 24.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- HashId: !u 0x65ed33f5
+  OnlyOne: true
+  SRTHash: 752850861
+  Translate: [0.0, 25.5, -24.0]
+  UnitConfigName: DgnObj_Hrl_GoalSystemTop_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x66143d55
+  Rotate: 1.5707963705062866
+  SRTHash: -486155873
+  Translate: [28.0, 0.0, -2.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x67188de1
+  SRTHash: -1148954833
+  Translate: [-11.0, 2.0, -31.0]
+  UnitConfigName: DgnObj_Hrl_Box2x2Wainscot_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x68efd07e
+  Rotate: 1.5707963705062866
+  SRTHash: 2047050237
+  Translate: [-24.0, 0.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6a31c567
+  Rotate: 1.5707963705062866
+  SRTHash: -1307986436
+  Translate: [6.0, 2.0, -20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- HashId: !u 0x6b16dede
+  SRTHash: -472018153
+  Translate: [32.0, 12.0, -16.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6d2f075b
+  Rotate: 1.5707963705062866
+  SRTHash: 1766366510
+  Translate: [6.0, 2.0, -16.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6df646b8
+  Rotate: 1.5707963705062866
+  SRTHash: -692311377
+  Translate: [-24.0, 0.0, 4.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6f03f8ac
+  SRTHash: -1522330856
+  Translate: [-2.0, 6.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6ff11242
+  SRTHash: -1454198633
+  Translate: [-2.0, 0.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Under_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x70d8dd0d
+  Rotate: 1.5707963705062866
+  SRTHash: -1360528617
+  Translate: [28.0, 0.0, -26.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x70f37600
+  Rotate: 1.5707963705062866
+  SRTHash: 171050473
+  Translate: [4.0, 2.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x4_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x71ffc6b4
+  SRTHash: 1563697321
+  Translate: [5.0, 4.0, -33.0]
+  UnitConfigName: DgnObj_Hrl_Box2x2x4Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x72f422fa
+  SRTHash: -1831658010
+  Translate: [3.0, 6.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_CandlePoleB_01
+- HashId: !u 0x7613ee66
+  SRTHash: 592125259
+  Translate: [-32.0, 12.0, -8.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x78e8034d
+  SRTHash: -1178587906
+  Translate: [-8.0, 2.0, -12.0]
+  UnitConfigName: DgnObj_hrl_Pillar1x1x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7e089b2b
+  Rotate: 1.5707963705062866
+  SRTHash: -609435702
+  Translate: [-24.0, 0.0, 24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7f042b9f
+  OnlyOne: true
+  SRTHash: 1145155092
+  Translate: [10.0, 0.0, -32.0]
+  UnitConfigName: DgnObj_hrl_Box4x4x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x844eb8fd
+  SRTHash: -1606702962
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: DgnObj_hrl_Box4x4x6_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8649ec07
+  Rotate: -1.5707963705062866
+  SRTHash: 502086275
+  Translate: [24.0, 0.0, 12.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8662470a
+  SRTHash: -1695777778
+  Translate: [-2.0, 6.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8690ade4
+  SRTHash: -52982815
+  Translate: [28.0, 12.0, -12.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x88b2012c
+  SRTHash: 1608234537
+  Translate: [-28.0, 12.0, 12.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8a47bf38
+  Rotate: -1.5707963705062866
+  SRTHash: 38399784
+  Translate: [24.0, 0.0, -4.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8ca7275e
+  Rotate: -1.5707963705062866
+  SRTHash: -1165560680
+  Translate: [8.0, 8.0, -32.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4Wainscot_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x91a217e6
+  SRTHash: -2107611699
+  Translate: [10.0, 2.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof2x2_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x925b1946
+  SRTHash: 2016211333
+  Translate: [-28.0, 12.0, 24.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- HashId: !u 0x9357a9f2
+  Rotate: 3.1415927410125732
+  SRTHash: -752963815
+  Translate: [0.0, 6.0, -7.5]
+  UnitConfigName: DgnObj_Hrl_RoadEnd4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x97428f80
+  Rotate: -1.5707963705062866
+  SRTHash: -161366045
+  Translate: [-4.0, 2.0, -4.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x4_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x99b962ab
+  Rotate: 1.5707963705062866
+  SRTHash: -291682245
+  Translate: [6.0, 2.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9b4cdcbf
+  SRTHash: 550470387
+  Translate: [10.0, 2.0, 8.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9b6777b2
+  Rotate: 1.5707963705062866
+  SRTHash: 1229979065
+  Translate: [-24.0, 0.0, -20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9b959d5c
+  Rotate: -1.5707963705062866
+  SRTHash: -1487227758
+  Translate: [24.0, 0.0, -12.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9c79b58e
+  Rotate: 1.5707963705062866
+  SRTHash: -1698052870
+  Translate: [-24.0, 0.0, -16.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9ca0f46d
+  Rotate: 1.5707963705062866
+  SRTHash: -1004182189
+  Translate: [-28.0, 0.0, 6.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9dac44d9
+  Rotate: -3.1415927410125732
+  SRTHash: -1030384519
+  Translate: [2.0, 2.0, 32.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4Wainscot_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9ea7a097
+  SRTHash: -1544497140
+  Translate: [2.0, 0.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Under_01
+- HashId: !u 0xa04a0d7b
+  SRTHash: 1439352486
+  Translate: [-32.0, 12.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa16d16c2
+  Rotate: -1.5707963705062866
+  SRTHash: 553475103
+  Translate: [-6.0, 2.0, -20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa3b303db
+  Rotate: -1.5707963705062866
+  SRTHash: -153302569
+  Translate: [-6.0, 2.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa45f2b09
+  SRTHash: -1978009281
+  Translate: [-8.0, 0.0, -18.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa4adc1e7
+  SRTHash: 1776452760
+  Translate: [2.0, 0.0, -20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Under_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa673d4fe
+  Rotate: 1.5707963705062866
+  SRTHash: 1854419856
+  Translate: [-28.0, 0.0, -18.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa6aa951d
+  SRTHash: -280913101
+  Translate: [-8.0, 0.0, 6.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa8517836
+  SRTHash: -776058098
+  Translate: [0.0, 0.0, 30.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaaa4c622
+  Rotate: -1.5707963705062866
+  SRTHash: 396447001
+  Translate: [-4.0, 2.0, -8.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x4_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xad48eef0
+  SRTHash: -277451458
+  Translate: [0.0, 0.5, -4.0]
+  UnitConfigName: DgnObj_hrl_Box4x4x6_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xaeb1e050
+  SRTHash: -1874250219
+  Translate: [0.0, 22.5, -24.0]
+  UnitConfigName: DgnObj_Hrl_GoalSystemCenter_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb3b4d0e8
+  SRTHash: 977332335
+  Translate: [8.0, 2.0, -12.0]
+  UnitConfigName: DgnObj_hrl_Pillar1x1x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb458f83a
+  SRTHash: -398505156
+  Translate: [9.0, 2.0, -30.979999542236328]
+  UnitConfigName: DgnObj_Hrl_Box2x2Wainscot_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb7a1f69a
+  SRTHash: -746125922
+  Translate: [0.0, 0.0, -8.0]
+  UnitConfigName: DgnObj_hrl_Box4x4x6_01
+- HashId: !u 0xbaa31511
+  SRTHash: 1397672956
+  Translate: [-32.0, 12.0, 16.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbb840ea8
+  SRTHash: 32702232
+  Translate: [28.0, 12.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbbafa5a5
+  SRTHash: -2129741074
+  Translate: [28.0, 12.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- HashId: !u 0xbd4f3dc3
+  SRTHash: 156869482
+  Translate: [-32.0, 12.0, -16.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc06336e1
+  SRTHash: 326360435
+  Translate: [3.0, 6.0, -8.0]
+  UnitConfigName: DgnObj_Hrl_CandlePoleB_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc16f8655
+  SRTHash: 272847263
+  Translate: [-4.0, 8.0, -32.02000045776367]
+  UnitConfigName: DgnObj_Hrl_Box4x4Wainscot_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc57aa027
+  Rotate: -1.5707963705062866
+  SRTHash: 374457291
+  Translate: [24.0, 0.0, 20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc78f1e33
+  SRTHash: 1486182333
+  Translate: [-8.0, 0.0, -2.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc98619f6
+  SRTHash: 1464510842
+  Translate: [-3.0, 6.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_CandlePoleB_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcb580cef
+  Rotate: 1.5707963705062866
+  SRTHash: 1749695461
+  Translate: [-24.0, 0.0, -8.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcb814d0c
+  Rotate: 1.5707963705062866
+  SRTHash: 427873451
+  Translate: [-24.0, 0.0, 12.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcbaae601
+  Rotate: 1.5707963705062866
+  SRTHash: 1647112657
+  Translate: [-24.0, 0.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcc46ced3
+  Rotate: 1.5707963705062866
+  SRTHash: -767961526
+  Translate: [6.0, 2.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcd61d56a
+  SRTHash: 710835978
+  Translate: [-2.0, 6.0, -32.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xce98dbca
+  Rotate: 1.5707963705062866
+  SRTHash: 1797472505
+  Translate: [-24.0, 0.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd064e5d2
+  Rotate: -3.1415927410125732
+  SRTHash: -1072520381
+  Translate: [-3.0, 2.0, 31.209999084472656]
+  UnitConfigName: DgnObj_Hrl_Box2x2Wainscot_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd471c3a0
+  SRTHash: -458112094
+  Translate: [-2.0, 0.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Under_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd65d3c57
+  SRTHash: 363979386
+  Translate: [2.0, 6.0, -16.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd6847db4
+  Rotate: 1.5707963705062866
+  SRTHash: 373372182
+  Translate: [28.0, 0.0, 6.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd6afd6b9
+  Rotate: -1.5707963705062866
+  SRTHash: -1879426183
+  Translate: [24.0, 0.0, -20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- HashId: !u 0xd788cd00
+  SRTHash: 883726394
+  Translate: [32.0, 12.0, 8.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd87f909f
+  SRTHash: -2043289657
+  Translate: [28.0, 12.0, 12.0]
+  UnitConfigName: DgnObj_Hrl_TowerRoof4x4_A_01
+- HashId: !u 0xd973202b
+  OnlyOne: true
+  SRTHash: -267271329
+  Translate: [0.0, 2.0, 17.0]
+  UnitConfigName: DgnObj_Hrl_Road4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xda8a2e8b
+  Rotate: 1.5707963705062866
+  SRTHash: -323596336
+  Translate: [-24.0, 0.0, -4.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- HashId: !u 0xdc6ab6ed
+  SRTHash: 1641157199
+  Translate: [28.0, 0.0, 28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Center_01
+- HashId: !u 0xde9f08f9
+  Rotate: 3.1415927410125732
+  SRTHash: -2085023885
+  Translate: [0.0, 8.0, -20.5]
+  UnitConfigName: DgnObj_Hrl_RoadEnd4x4_01
+- HashId: !u 0xe379415b
+  SRTHash: -903868942
+  Translate: [0.0, 2.0, 21.0]
+  UnitConfigName: DgnObj_Hrl_RoadEnd4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe599d93d
+  Rotate: 1.5707963705062866
+  SRTHash: -238249242
+  Translate: [-24.0, 0.0, 28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- HashId: !u 0xe660d79d
+  SRTHash: -1883499043
+  Translate: [-28.0, 0.0, 28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Center_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe76c6729
+  OnlyOne: true
+  SRTHash: -712969426
+  Translate: [0.0, 6.0, -12.0]
+  UnitConfigName: DgnObj_hrl_Stair4x4x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe96560ec
+  SRTHash: 1608562750
+  Translate: [-2.0, 0.0, -16.5]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Under_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe9978a02
+  SRTHash: -905228792
+  Translate: [2.0, 6.0, -28.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xeb623416
+  SRTHash: 1265005366
+  Translate: [0.0, 0.0, 6.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xebbb75f5
+  Rotate: 1.5707963705062866
+  SRTHash: 1027264208
+  Translate: [28.0, 0.0, -18.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- HashId: !u 0xed82ac70
+  SRTHash: 812492697
+  Translate: [32.0, 12.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xef771264
+  SRTHash: 677356061
+  Translate: [0.0, 16.5, 26.0]
+  UnitConfigName: DgnObj_Hrl_CeilingPillarA_03
+- HashId: !u 0xf0879cc8
+  SRTHash: -2083315373
+  Translate: [-32.0, 12.0, 8.0]
+  UnitConfigName: DgnObj_Hrl_BoxCover4x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf1526d9f
+  Rotate: 1.5707963705062866
+  SRTHash: 632073278
+  Translate: [4.0, 2.0, -12.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x4_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf18b2c7c
+  Rotate: 1.5707963705062866
+  SRTHash: -703190493
+  Translate: [28.0, 0.0, 14.0]
+  UnitConfigName: DgnObj_Hrl_Box4x8x12_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf27222dc
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -189432538
+  Translate: [0.0, 24.5, 26.0]
+  UnitConfigName: DgnObj_Hrl_CeilingPillarA_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf4605054
+  SRTHash: 1150394864
+  Translate: [2.0, 0.0, -16.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6Under_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf492baba
+  Rotate: -1.5707963705062866
+  SRTHash: -918142347
+  Translate: [24.0, 0.0, 0.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf64cafa3
+  Rotate: -1.5707963705062866
+  SRTHash: -18005042
+  Translate: [24.0, 0.0, -24.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf66704ae
+  Rotate: -1.5707963705062866
+  SRTHash: -1582703062
+  Translate: [24.0, 0.0, 4.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf6be454d
+  SRTHash: 2108283874
+  Translate: [-2.0, 6.0, -20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x2Top_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf89ce985
+  Rotate: 1.5707963705062866
+  SRTHash: 276417293
+  Translate: [-24.0, 0.0, 20.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfa695791
+  Rotate: -1.5707963705062866
+  SRTHash: 911555751
+  Translate: [24.0, 0.0, -8.0]
+  UnitConfigName: DgnObj_Hrl_Box4x4x6_03
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfc89cff7
+  SRTHash: 259114396
+  Translate: [-8.0, 2.0, -32.20000076293945]
+  UnitConfigName: DgnObj_Hrl_Box4x4Wainscot_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfe7c71e3
+  SRTHash: 631888162
+  Translate: [-8.0, 2.0, 1.0]
+  UnitConfigName: DgnObj_hrl_Pillar1x1x4_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xff70c157
+  SRTHash: -776058098
+  Translate: [0.0, 0.0, 22.0]
+  UnitConfigName: DgnObj_hrl_Box8x8x2_01
+Rails: []

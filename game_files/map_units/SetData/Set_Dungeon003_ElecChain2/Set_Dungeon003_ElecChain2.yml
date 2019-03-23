@@ -1,0 +1,167 @@
+LocationPosX: 0.0
+LocationPosZ: 0.0
+LocationSize: 2000.0
+Objs:
+- '!Parameters':
+    DropTable: Normal
+    RopeAlwaysUpdateRigidParam: false
+    RopeFlag: 0
+    SharpWeaponJudgeType: 0
+    TraversePos: {X: 3.207808017730713, Y: 0.28749990463256836, Z: -1.2499920129776}
+    TraverseRadiusXZ: 1.9525630474090576
+  HashId: !u 0x311fecaf
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x7abec5d8
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xce0fc970
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x690c9919}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xeae1f26c}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x5910b6b0}
+  Rotate: [1.5707963705062866, 0.0, -1.5707963705062866]
+  SRTHash: -2025196412
+  Scale: [1.0, 9.0, 1.0]
+  Translate: [1.745312213897705, 0.34999990463256836, -0.16405487060546875]
+  UnitConfigName: RopeWire
+- '!Parameters': {DropTable: Normal, IsNoBindAlive: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x690c9919
+  LinksToObj:
+  - '!Parameters':
+      Pos: {X: 0.0, Y: -0.9800000190734863, Z: 0.0}
+      Rot: {X: 180.0, Y: 40.0, Z: 0.0}
+    DefinitionName: ModelBind
+    DestUnitHashId: !u 0x7abec5d8
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xeae1f26c}
+  Rotate: [-1.9198628664016724, 8.21504855252897e-08, 2.990039149608492e-08]
+  SRTHash: 591821024
+  Translate: [3.205469846725464, 0.2575308084487915, -0.6320903301239014]
+  UnitConfigName: FldObj_ChainEyeBolt_A_01
+- HashId: !u 0x7abec5d8
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xeae1f26c}
+  Rotate: [1.2217299938201904, 8.21504855252897e-08, 2.990039149608492e-08]
+  SRTHash: -881999388
+  Scale: 1.2000000476837158
+  Translate: [3.205469846725464, 0.594739556312561, 0.29438140988349915]
+  UnitConfigName: RockRollA
+- HashId: !u 0xce0fc970
+  Rotate: -1.5707963705062866
+  SRTHash: -583131557
+  Translate: [1.2999999523162842, 0.0, 2.0]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0xdb2ccb61
+  Rotate: 3.1415927410125732
+  SRTHash: -1079320551
+  Translate: [-3.0994415283203125e-06, 0.0, 7.62939453125e-06]
+  UnitConfigName: ElectricGenerator
+- HashId: !u 0xeae1f26c
+  SRTHash: 0
+  Translate: [3.205469846725464, 0.594739556312561, 0.29438140988349915]
+  UnitConfigName: LinkTagNone
+Rails:
+- HashId: !u 0x5910b6b0
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.0
+    Translate: [1.707808256149292, 0.28749990463256836, 7.62939453125e-06]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [2.207808256149292, 0.28749990463256836, 7.62939453125e-06]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [2.707808256149292, 0.28749990463256836, 7.62939453125e-06]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [2.707808256149292, 0.28749990463256836, -0.49999237060546875]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [2.707808256149292, 0.28749990463256836, -0.9999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [3.207808256149292, 0.28749990463256836, -0.9999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5000002384185791
+    PrevDistance: 0.5
+    Translate: [3.707808256149292, 0.28749990463256836, -0.9999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5000002384185791
+    Translate: [4.207808494567871, 0.28749990463256836, -0.9999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [4.707808494567871, 0.28749990463256836, -0.9999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [4.707808494567871, 0.28749990463256836, -1.4999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [4.707808494567871, 0.28749990463256836, -1.9999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [4.707808494567871, 0.28749990463256836, -2.4999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5000002384185791
+    PrevDistance: 0.5
+    Translate: [4.207808494567871, 0.28749990463256836, -2.4999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5000002384185791
+    Translate: [3.707808256149292, 0.28749990463256836, -2.4999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [3.207808256149292, 0.28749990463256836, -2.4999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [3.207808256149292, 0.28749990463256836, -1.9999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [3.207808256149292, 0.28749990463256836, -1.4999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.5
+    PrevDistance: 0.5
+    Translate: [3.207808256149292, 0.28749990463256836, -0.9999923706054688]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 0.0}
+    NextDistance: 0.0
+    PrevDistance: 0.5
+    Translate: [3.207808256149292, 0.28749990463256836, -0.49999237060546875]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [3.470966339111328, 0.28749990463256836, -1.2631502151489258]
+  UnitConfigName: Guide

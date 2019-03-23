@@ -1,0 +1,2497 @@
+LocationPosX: 0.0
+LocationPosZ: 0.0
+LocationSize: 2000.0
+Objs:
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0017991c
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 80.0
+      LimitAngMin: -10.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x176c8d5f
+  Rotate: [0.17453287541866302, 9.626349850577753e-08, -1.5707963705062866]
+  SRTHash: -484945108
+  Translate: [-48.88646697998047, 10.100000381469727, 35.051795959472656]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x00d08645
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x60170fa0}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x77d7b6d3
+  Rotate: [0.0, 2.3313306840577752e-08, 6.579332278988659e-08]
+  SRTHash: -927474049
+  Translate: [-15.509200096130371, 3.9816012382507324, -35.230735778808594]
+  UnitConfigName: ActorObserverTag
+- HashId: !u 0x0223b3c4
+  SRTHash: -1765952523
+  Translate: [64.5, 13.983083724975586, 2.500033378601074]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, StartNoDraw: false}
+  HashId: !u 0x0257b062
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xf828f90f}
+  SRTHash: -1882467586
+  Translate: [-31.0, 15.0, 16.0]
+  UnitConfigName: DgnObj_SpikeBall_B
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x02f6dba5
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 90.0
+      LimitAngMin: 0.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0xc0d5d81e
+  Rotate: [-1.5707963705062866, 4.371138118131057e-08, -1.5707963705062866]
+  SRTHash: 970160993
+  Translate: [63.0, 10.100000381469727, 64.5]
+  UnitConfigName: DgnObj_DoorStone_A
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x03474c8b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x22f11c5a
+  SRTHash: 0
+  Translate: [14.0, 37.5, -71.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x04e5ef7e
+  Rotate: [0.0, 1.5707963705062866, 3.1415927410125732]
+  SRTHash: -2043624005
+  Translate: [10.0, -34.0, 62.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x05c994ab
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 0.0
+      LimitAngMin: -90.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0xc9639435
+  Rotate: [1.5707963705062866, 4.371138473402425e-08, -1.5707963705062866]
+  SRTHash: -2129199971
+  Translate: [-47.0, 10.100000381469727, 38.0]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- HashId: !u 0x06425757
+  SRTHash: 1876191875
+  Translate: [34.0, -34.0, 2.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- HashId: !u 0x06ef6aca
+  Rotate: 3.1415927410125732
+  SRTHash: -2044149976
+  Translate: [34.0, -28.0, 38.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x077a5d05
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 80.0
+      LimitAngMin: -10.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x10014946
+  Rotate: [0.17453287541866302, 9.626349850577753e-08, -1.5707963705062866]
+  SRTHash: -484945108
+  Translate: [9.113533020019531, 14.350000381469727, -40.948204040527344]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- HashId: !u 0x0ae21e00
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x114b5c3a}
+  Rotate: [-0.07853981852531433, 3.1415927410125732, 0.0]
+  SRTHash: 920174086
+  Translate: [4.0, 13.0, 69.0]
+  UnitConfigName: DgnObj_BoardWood_L
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0b40978e
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 90.0
+      LimitAngMin: 0.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0xc9639435
+  Rotate: [1.5707963705062866, 4.371138473402425e-08, -1.5707963705062866]
+  SRTHash: 970160993
+  Translate: [-41.0, 10.100000381469727, 38.0]
+  UnitConfigName: DgnObj_DoorStone_A
+- HashId: !u 0x0bb57075
+  Rotate: -3.1415927410125732
+  SRTHash: 211759193
+  Translate: [50.0, -34.0, 66.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- HashId: !u 0x0c4a2962
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: 1289158935
+  Translate: [46.0, 2.0, -18.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, StartNoDraw: false}
+  HashId: !u 0x0c4db02e
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xf828f90f}
+  SRTHash: -1299665878
+  Translate: [-57.0, 34.79999923706055, -7.999614715576172]
+  UnitConfigName: DgnObj_SpikeBall_B
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0c7fd880
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 0.0
+      LimitAngMin: -90.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0xc0d5d81e
+  Rotate: [-1.5707963705062866, 4.371138118131057e-08, -1.5707963705062866]
+  SRTHash: -2129199971
+  Translate: [69.0, 10.100000381469727, 64.5]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- HashId: !u 0x10014946
+  Rotate: 1.5707963705062866
+  SRTHash: 764983454
+  Translate: [14.0, 8.25, -38.5]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Dungeon040_DoorStone_4,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x107dfb2f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa5bd30ee
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xfe739a03
+  SRTHash: 1632800930
+  Translate: [1.8431086540222168, 8.000205039978027, -2.9363207817077637]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x10d73a1a
+  Rotate: [0.0, 1.5707963705062866, 3.1415927410125732]
+  SRTHash: 1830554268
+  Translate: [10.0, -34.0, 50.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0x114b5c3a
+  SRTHash: 0
+  Translate: [4.0, 21.5, 67.5]
+  UnitConfigName: LinkTagNone
+- HashId: !u 0x124e0699
+  Rotate: 1.5707963705062866
+  SRTHash: 914219227
+  Translate: [-30.0, -34.0, -74.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {AngleVelocityControlAccelDeg: 0.009999999776482582, CameraPattern: 1,
+    CameraPower: 0.10000000149011612, CameraRange: 100.0, FieldBodyGroup: 4, InitDgnPriority: 0,
+    InitDgnRotRad: 0.0, RemainsPartType: -1, TiltAngle: -20.0, TiltAngularSpeed: 1.5,
+    VelocityControlRate: 1.0}
+  HashId: !u 0x14735375
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x35d98f9a}
+  OnlyOne: true
+  Rotate: [-1.5707963705062866, -1.5707963705062866, -3.1415927410125732]
+  SRTHash: 61627054
+  Translate: [5.0, 8.0, 62.0]
+  UnitConfigName: DungeonRotateTagShuttle
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x150022b5
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  OnlyOne: true
+  Rotate: -0.7853981852531433
+  SRTHash: -1930244898
+  Translate: [-75.5, 12.0, 75.5]
+  UnitConfigName: DgnObj_Hrl_Warpin_2x2_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x1603c8ce
+  Rotate: -1.5707963705062866
+  SRTHash: 2062779092
+  Scale: 2.0
+  Translate: [-23.5, 4.0, -41.5]
+  UnitConfigName: Area
+- HashId: !u 0x16269823
+  SRTHash: 0
+  Translate: [-42.121376037597656, 17.79009246826172, 43.20513153076172]
+  UnitConfigName: LinkTagNone
+- HashId: !u 0x166902de
+  Rotate: 1.5707963705062866
+  SRTHash: -865587708
+  Translate: [42.0, -30.0, 58.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Dungeon040_DoorStone_3,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x17103f36
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x889ac112
+  Rotate: 1.5707963705062866
+  SRTHash: -321540469
+  Translate: [52.0, 4.0, 76.0]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x176c8d5f
+  Rotate: 1.5707963705062866
+  SRTHash: 764983454
+  Translate: [-44.0, 4.0, 37.5]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x17f7871b
+  Rotate: 1.5707963705062866
+  SRTHash: -1081355218
+  Translate: [18.0, 24.0, -74.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0x18fb7d2a
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  OnlyOne: true
+  SRTHash: 865924496
+  Translate: [14.0, 39.0, -75.0]
+  UnitConfigName: Npc_DungeonPriest001
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0x19cbb704
+  Rotate: [0.0, 0.0, 1.5707963705062866]
+  SRTHash: 1557969213
+  Scale: 5.0
+  Translate: [14.0, 8.0, -43.5]
+  UnitConfigName: Area
+- HashId: !u 0x1ba70057
+  Rotate: -3.1415927410125732
+  SRTHash: -1721958306
+  Translate: [6.0, -34.0, 72.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1c3f48bf
+  Rotate: -1.5707963705062866
+  SRTHash: 543611372
+  Translate: [39.0, 10.0, 58.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x1c7d71fd
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe189ccfc
+  SRTHash: -440440153
+  Translate: [63.0, 4.5, 0.5]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x1cc6c1d7
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xd06cc149}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbcc2fb71
+  Rotate: -1.5707963705062866
+  SRTHash: -1918310787
+  Translate: [-24.5, 4.0, -27.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {EventFlowEntryName: OnlySE, EventFlowName: Demo024_2, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x1d8743c8
+  LinksToObj:
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x39d3aab7}
+  SRTHash: 811039265
+  Translate: [-48.51424789428711, 4.002756595611572, 22.366588592529297]
+  UnitConfigName: EventTag
+- HashId: !u 0x1e551423
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -626045604
+  Translate: [26.0, 14.0, -62.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- HashId: !u 0x20174646
+  SRTHash: 1841810635
+  Translate: [38.0, -32.0, 2.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x211ef062
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x5426cfb3
+  SRTHash: 0
+  Translate: [-24.5, 4.0, -46.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x21854f59
+  Rotate: -1.5707963705062866
+  SRTHash: -1943156423
+  Translate: [39.0, 10.0, 70.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x21b6e7bb
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 10.0
+      LimitAngMin: -80.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0xfe0f286a
+  Rotate: [2.96705961227417, 1.891780776475116e-08, -1.5707963705062866]
+  SRTHash: -1139342537
+  Translate: [8.886466979980469, 14.100000381469727, 11.051796913146973]
+  UnitConfigName: DgnObj_DoorStone_A
+- '!Parameters': {EventFlowEntryName: GoalExit, EventFlowName: Demo033_1, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x22f11c5a
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x39d3aab7}
+  SRTHash: 1598203203
+  Translate: [8.5, 36.0, -73.0]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x230a2772
+  SRTHash: 1033471895
+  Translate: [6.999875068664551, 17.0, -34.99956512451172]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2321ff25
+  SRTHash: 451962415
+  Translate: [0.5, 6.800000190734863, 10.0]
+  UnitConfigName: DgnObj_DoorStopper
+- HashId: !u 0x23687520
+  SRTHash: 113290830
+  Translate: [69.49069213867188, 12.5, 8.081520080566406]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x24038fae
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x291e8f64
+  SRTHash: -464947014
+  Translate: [17.5, 12.0, -65.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropActor: Item_Enemy_30, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x24bfc191
+  Rotate: -1.5707963705062866
+  SRTHash: -1280002133
+  Translate: [78.0, 4.0, 62.0]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsInside_Dungeon,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x24e83828
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xccff7d76
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  Rotate: -0.7853981852531433
+  SRTHash: -1220747738
+  Translate: [-69.13603973388672, 12.0, 77.62132263183594]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x2767b71e
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x29e4f63c
+  SRTHash: 0
+  Translate: [13.0, 8.0, 8.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x276df519
+  Rotate: 1.5707963705062866
+  SRTHash: 578004681
+  Translate: [-4.5, 8.0, 9.0]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 16.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x291e8f64
+  OnlyOne: true
+  SRTHash: -209419456
+  Translate: [14.0, 8.0, -62.0]
+  UnitConfigName: DgnObj_BoxShutter_4x4x4
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x29e4f63c
+  SRTHash: 283695472
+  Translate: [7.5, 6.800000190734863, 10.0]
+  UnitConfigName: DgnObj_DoorStopper
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: -7.0, MoveSpeed: 0.5, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2cff8e18
+  OnlyOne: true
+  SRTHash: 322615284
+  Translate: [14.0, 8.0, -15.5]
+  UnitConfigName: DgnObj_ShutterFence_A_06
+- HashId: !u 0x2e51b21b
+  Rotate: 1.5707963705062866
+  SRTHash: -1395038224
+  Translate: [30.0, -26.0, 18.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2e734b7d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x24038fae
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: -1693568333
+  Translate: [14.0, 12.0, -65.0]
+  UnitConfigName: SwitchHit
+- HashId: !u 0x2fe7ad1d
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -1810881067
+  Translate: [50.29999923706055, 10.0, -2.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3052903c
+  LinksToObj:
+  - {DefinitionName: PhysSystemGroup, DestUnitHashId: !u 0xfb0e4399}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  OnlyOne: true
+  SRTHash: -376039716
+  Translate: [14.0, 36.0, -75.0]
+  UnitConfigName: DgnObj_Hrl_GoalSystem_A_01
+- HashId: !u 0x3224dccb
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x4523ec5d}
+  - {DefinitionName: Recreate, DestUnitHashId: !u 0x0257b062}
+  Rotate: -1.5707963705062866
+  SRTHash: 393972275
+  Translate: [-37.61884307861328, 6.0, 18.020816802978516]
+  UnitConfigName: ActorRecreateTag
+- HashId: !u 0x3333419d
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x16269823}
+  Rotate: [-0.1745333969593048, 2.842751101184149e-08, 3.2492701507180755e-07]
+  SRTHash: -496934715
+  Translate: [-42.121376037597656, 17.79009246826172, 43.20513153076172]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x3488c297
+  SRTHash: -578454738
+  Translate: [18.149890899658203, 8.000312805175781, -7.535412788391113]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x358ec2f1
+  SRTHash: -1281585256
+  Scale: [5.0, 40.0, 25.0]
+  Translate: [34.453125, 40.716609954833984, 14.997268676757812]
+  UnitConfigName: Area
+- HashId: !u 0x35d98f9a
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xa2f426be}
+  OnlyOne: true
+  SRTHash: 1721392376
+  Translate: [5.0, 8.0, 62.0]
+  UnitConfigName: SoundProxyDungeonRotateTag_Slope
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x37d4ec4e
+  SRTHash: 2020936123
+  Scale: 2.0
+  Translate: [19.5, 8.25, -44.5]
+  UnitConfigName: Area
+- HashId: !u 0x38210cb9
+  OnlyOne: true
+  SRTHash: 354776780
+  Scale: 20.0
+  Translate: [0.0, -15.0, 0.0]
+  UnitConfigName: DungeonPit
+- HashId: !u 0x3833c4af
+  SRTHash: 979728511
+  Translate: [47.10377502441406, 3.999870777130127, -17.825092315673828]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x38bbd588
+  Rotate: 1.5707963705062866
+  SRTHash: 829847397
+  Translate: [33.0, 10.0, 64.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3995c25d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe08447de
+  OnlyOne: true
+  Rotate: -1.5707963705062866
+  SRTHash: -560565653
+  Translate: [49.99995422363281, 8.000226020812988, 39.99999237060547]
+  UnitConfigName: SwitchGyroTilt
+- '!Parameters':
+    DropTable: Normal
+    RotateFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+    SharpWeaponJudgeType: 0
+    TransFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+  HashId: !u 0x39d3aab7
+  OnlyOne: true
+  SRTHash: 0
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: DgnMrgPrt_Dungeon040
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0x3a111633
+  Rotate: [-1.5707963705062866, -1.5707963705062866, 3.1415927410125732]
+  SRTHash: 1266161485
+  Scale: 5.5
+  Translate: [-43.50031280517578, 3.999999761581421, -7.999610424041748]
+  UnitConfigName: Area
+- HashId: !u 0x3a64733a
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 0.0, Y: 0.0, Z: 1.0}
+      Friction: 100000.0
+      LimitTransMax: 10.0
+      LimitTransMin: 0.0
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: SliderCs
+    DestUnitHashId: !u 0x23687520
+  OnlyOne: true
+  Rotate: [-0.1745329350233078, 0.0, 0.0]
+  SRTHash: -104060358
+  Scale: 4.0
+  Translate: [66.0, 12.5, 8.081520080566406]
+  UnitConfigName: DgnObj_IronBall_Gyro
+- HashId: !u 0x3b38ea20
+  Rotate: [3.1415927410125732, 0.0, 0.0]
+  SRTHash: -1269999088
+  Translate: [46.0, 6.0, -30.0]
+  UnitConfigName: DgnObj_PartitionWall_A_02
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x3bd37c04
+  SRTHash: -1894761816
+  Scale: [90.0, 80.0, 90.0]
+  Translate: [1.0, -87.0, 0.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, FlowSpeedFactor: 1.0, RiseLength: 5.0, RiseSpeed: 1.0,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x3cdad4d8
+  SRTHash: 468853878
+  Scale: 0.699999988079071
+  Translate: [-51.5, 3.5, -33.5]
+  UnitConfigName: DgnObj_DungeonWater50x50_A_01
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x3d11e557
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xf1bbe5c9}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc82f237c
+  SRTHash: 2055379153
+  Translate: [4.0, 8.25, -43.5]
+  UnitConfigName: ActorObserverTag
+- HashId: !u 0x3fde642c
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x6121a8b5}
+  Rotate: [0.0, 1.5707963705062866, 0.07853981852531433]
+  SRTHash: 528041473
+  Translate: [-79.0999984741211, 9.199999809265137, -36.000396728515625]
+  UnitConfigName: DgnObj_BoardWood_L
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x3ff42ce2
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7d9a3137
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  SRTHash: -878924557
+  Translate: [19.5, 36.0, -74.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x40d3dcd8
+  Rotate: 3.1415927410125732
+  SRTHash: 2020936123
+  Scale: 2.0
+  Translate: [60.5, 4.0, 71.0]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x43a099ea
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x8f0a9974}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x56802292
+  SRTHash: 2055379153
+  Translate: [-54.0, 4.0, 32.5]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {StartNoDraw: false}
+  HashId: !u 0x43ae7470
+  OnlyOne: true
+  SRTHash: -1528058020
+  Translate: [66.0, 23.0, 22.0]
+  UnitConfigName: DgnObj_StoneBall_040
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0x4523ec5d
+  Rotate: [0.0, 0.0, 1.5707963705062866]
+  SRTHash: 1286709919
+  Scale: 10.0
+  Translate: [-66.00030517578125, -12.0, 16.000389099121094]
+  UnitConfigName: Area
+- HashId: !u 0x471639fc
+  Rotate: [3.1415927410125732, 1.2246063538223773e-16, 0.0]
+  SRTHash: -1256785967
+  Translate: [2.0, -34.0, 72.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x480bb7cc
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x17103f36
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x4f92e979
+  SRTHash: 0
+  Translate: [54.5, 4.0, 75.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x481cd65f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x72298c54
+  SRTHash: -382814793
+  Translate: [55.0, 12.0, 40.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x4865bd5d
+  Rotate: [0.0, 0.0, -3.1415927410125732]
+  SRTHash: -701045920
+  Translate: [42.0, 8.0, -14.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- HashId: !u 0x489b7a25
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x16269823}
+  SRTHash: 380698934
+  Translate: [-44.000831604003906, 6.718689918518066, 44.58599853515625]
+  UnitConfigName: StoneBall
+- HashId: !u 0x48a1bc72
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -215199021
+  Translate: [46.0, 2.0, -1.600000023841858]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- HashId: !u 0x4923cafa
+  Rotate: [3.1415927410125732, 1.2246063538223773e-16, 0.0]
+  SRTHash: -2102386676
+  Translate: [70.0, -36.0, 66.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x496590f3
+  SRTHash: 2020936123
+  Scale: 2.0
+  Translate: [-38.5, 4.0, 31.5]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x4a16d5c1
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x86bcd55f}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x538a6f13
+  Rotate: 3.1415927410125732
+  SRTHash: 2055379153
+  Translate: [76.0, 4.0, 70.0]
+  UnitConfigName: ActorObserverTag
+- HashId: !u 0x4a6b0fd8
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  Rotate: -0.7853981852531433
+  SRTHash: 1669020473
+  Translate: [-71.96446990966797, 12.0, 71.96446990966797]
+  UnitConfigName: LookTag
+- '!Parameters': {DropTable: Normal, FlowSpeedFactor: 1.0, RiseLength: 5.0, RiseSpeed: 1.0,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x4bdde44e
+  SRTHash: 1674511742
+  Scale: 0.4000000059604645
+  Translate: [-50.0, 3.5, -6.0]
+  UnitConfigName: DgnObj_DungeonWater50x50_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x4f3b1e97
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x1c7d71fd
+  SRTHash: -1469398993
+  Translate: [57.0, 12.0, 40.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Dungeon040_Gyro_1_Open,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x4f92e979
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x3995c25d}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xc532f406}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xb65d7acb}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x9aadc946}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xaab97efe}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x358ec2f1}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xa8dc749e
+  SRTHash: -1269115387
+  Translate: [50.0, 4.000226020812988, 63.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x506ac58f
+  SRTHash: 578004681
+  Translate: [-25.0, 4.0, -44.5]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0x517ee3ad
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -94283205
+  Translate: [27.0, 12.0, -50.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- HashId: !u 0x52acc47d
+  Rotate: 1.5707963705062866
+  SRTHash: -1610221775
+  Translate: [42.0, -28.0, -6.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x538a6f13
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xc499d222
+  SRTHash: 0
+  Translate: [76.0, 4.0, 70.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropActor: Weapon_Sword_003, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5391bdc0
+  SRTHash: -1092601471
+  Translate: [-22.0, 4.0, -59.0]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x540d17e4
+  SRTHash: -805633600
+  Translate: [20.999874114990234, 17.0, -34.99956512451172]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5426cfb3
+  Rotate: -1.5707963705062866
+  SRTHash: 451962415
+  Translate: [-26.0, 2.799999952316284, -39.5]
+  UnitConfigName: DgnObj_DoorStopper
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x55f3286f
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xb95bebad
+  SRTHash: 0
+  Translate: [23.0, 8.25, -43.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x56802292
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xcd2f9e09
+  SRTHash: 0
+  Translate: [-54.0, 4.0, 32.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x56aa88cb
+  SRTHash: 0
+  Translate: [14.0, 37.5, -71.25]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x56b1d72d
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 10.0
+      LimitAngMin: -80.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x890818fc
+  Rotate: [-0.17453297972679138, 1.891781131746484e-08, -1.5707963705062866]
+  SRTHash: -1139342537
+  Translate: [61.11353302001953, 10.100000381469727, 67.44820404052734]
+  UnitConfigName: DgnObj_DoorStone_A
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x586835a6
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x677acbb9}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcd8b706b
+  Rotate: 1.5707963705062866
+  SRTHash: -16991815
+  Translate: [57.5, 4.0, 75.5]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, RopeAlwaysUpdateRigidParam: false, RopeFlag: 0,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x587429d0
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xc8cb3441
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: -6.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0xbfcc04d7
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: -1258562839
+  Scale: [1.0, 6.0, 1.0]
+  Translate: [-67.99958801269531, 16.0, -36.000396728515625]
+  UnitConfigName: Rope
+- HashId: !u 0x5a0910f3
+  Rotate: 1.5707963705062866
+  SRTHash: -226882710
+  Translate: [30.0, -28.0, 30.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0x5ba5480e
+  Rotate: 1.5707963705062866
+  SRTHash: -399705435
+  Translate: [22.0, -26.0, -66.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0x5bccdf57
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: 1647844555
+  Translate: [28.0, 8.0, -54.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- '!Parameters': {EventFlowEntryName: OnlySE, EventFlowName: Demo024_2, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x5e19bff2
+  LinksToObj:
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x39d3aab7}
+  SRTHash: -776068619
+  Translate: [15.136085510253906, 8.001165390014648, -54.568702697753906]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5ee3c6aa
+  Rotate: -1.5707963705062866
+  SRTHash: 283695472
+  Translate: [-26.0, 2.799999952316284, -32.5]
+  UnitConfigName: DgnObj_DoorStopper
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0x60170fa0
+  Rotate: [1.5707963705062866, 0.0, 1.5707963705062866]
+  SRTHash: 2133482054
+  Scale: 5.0
+  Translate: [-24.5, 4.0, -36.0]
+  UnitConfigName: Area
+- HashId: !u 0x60a7f2a2
+  Rotate: 1.5707963705062866
+  SRTHash: 846424484
+  Translate: [42.0, -30.0, 46.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x60f0b78d
+  Rotate: 1.5707963705062866
+  SRTHash: 1371643749
+  Translate: [18.0, 29.0, -74.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x6104f858
+  SRTHash: 2062779092
+  Scale: 2.0
+  Translate: [-1.5, 8.0, 7.5]
+  UnitConfigName: Area
+- HashId: !u 0x6121a8b5
+  SRTHash: 0
+  Translate: [-77.0, 12.5, -36.0]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x637463e3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf18dc02b
+  OnlyOne: true
+  SRTHash: -67797826
+  Translate: [-2.0, 8.000288009643555, 46.0]
+  UnitConfigName: SwitchStep
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Dungeon040_DoorGyro_SE,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x63c22d56
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc8d86467
+  SRTHash: -1570659937
+  Translate: [55.0, 4.0, 58.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x64230975
+  Rotate: [-1.7633694410324097, -1.5707963705062866, -1.378223180770874]
+  SRTHash: -688527258
+  Translate: [-2.0, -34.0, 58.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0x658509da
+  Rotate: 1.5707963705062866
+  SRTHash: 835442707
+  Translate: [30.0, -26.0, 6.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0x6671eee3
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -607743947
+  Translate: [26.0, 10.0, -30.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- HashId: !u 0x670679d0
+  SRTHash: 764983454
+  Translate: [-29.5, 4.0, -36.0]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0x677acbb9
+  Rotate: [-3.1415927410125732, 4.371138828673793e-08, 1.5707963705062866]
+  SRTHash: -196808270
+  Scale: 5.0
+  Translate: [66.0, 4.0, 70.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x67965e03
+  SRTHash: 1609795932
+  Translate: [-30.0, 8.5, 41.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x679d7394
+  Rotate: -1.5707963705062866
+  SRTHash: -339756129
+  Translate: [10.0, 19.0, -74.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- HashId: !u 0x67a39b40
+  Rotate: -3.1415927410125732
+  SRTHash: 958654124
+  Translate: [42.0, -38.0, 66.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x6a80735e
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xf38922e4}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8d385e59
+  Rotate: [0.0, 2.3313306840577752e-08, 6.579332278988659e-08]
+  SRTHash: -2124349199
+  Translate: [-49.985137939453125, 3.984069347381592, 23.988637924194336]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6ad30987
+  OnlyOne: true
+  SRTHash: 595680987
+  Translate: [0.0, -8.5, 0.0]
+  UnitConfigName: DgnObj_Hrl_BaseRoom160x160x80_D_01
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x6bc1f141
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xa76bf1df}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2767b71e
+  SRTHash: -1918310787
+  Translate: [13.0, 8.0, 8.5]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0x6ecc8792
+  Rotate: [0.0, 0.0, 1.5707963705062866]
+  SRTHash: 1229885344
+  Scale: 5.0
+  Translate: [4.0, 8.0, 8.5]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 1, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x6f39bd51
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xb9605e4c
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x18fb7d2a}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7d9a3137
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  SRTHash: 1481925240
+  Translate: [19.5, 36.0, -78.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x707d6d93
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 80.0
+      LimitAngMin: -10.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x670679d0
+  Rotate: [1.7453292608261108, 4.371139183945161e-08, -1.5707963705062866]
+  SRTHash: -484945108
+  Translate: [-27.051795959472656, 10.100000381469727, -40.88646697998047]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- HashId: !u 0x70b6c45c
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: 1163456067
+  Translate: [50.0, 2.0, -18.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- HashId: !u 0x711646e0
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 0.0, Y: 0.0, Z: 1.0}
+      Friction: 0.0
+      LimitTransMax: 12.0
+      LimitTransMin: 0.0
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: SliderCs
+    DestUnitHashId: !u 0x3333419d
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x16269823}
+  OnlyOne: true
+  Rotate: [-0.1745329350233078, 0.0, 0.0]
+  SRTHash: -1543443263
+  Scale: 3.0
+  Translate: [-44.000831604003906, 15.99993896484375, 44.58599853515625]
+  UnitConfigName: DgnObj_IronBall_Crane
+- HashId: !u 0x71356801
+  Rotate: -3.1415927410125732
+  SRTHash: -1458972923
+  Translate: [-22.0, -28.0, -62.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0x71e14de7
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -544481180
+  Translate: [28.0, 12.0, -58.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- '!Parameters': {EventFlowEntryName: EntryGyro_040_1, EventFlowName: Demo043_0, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x72298c54
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xb82b2646}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x39d3aab7}
+  SRTHash: 554713639
+  Translate: [56.0, 12.0, 38.0]
+  UnitConfigName: EventTag
+- HashId: !u 0x745362bd
+  SRTHash: 1092380531
+  Translate: [6.053370475769043, 7.999870777130127, 18.783164978027344]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x75f1eb33
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 90.0
+      LimitAngMin: 0.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0xb7d2e888
+  Rotate: [1.5707963705062866, 4.371138473402425e-08, -1.5707963705062866]
+  SRTHash: 970160993
+  Translate: [17.0, 14.350000381469727, -38.0]
+  UnitConfigName: DgnObj_DoorStone_A
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Dungeon040_DoorStone_2,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x77d7b6d3
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa9ff21d0
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xe768ab42
+  SRTHash: -1484495681
+  Translate: [-16.370746612548828, 4.000741481781006, -37.7264404296875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x78807b9a
+  LinksToObj:
+  - {DefinitionName: FixedCs, DestUnitHashId: !u 0xcc55bb4c}
+  Rotate: [-0.17453345656394958, 3.1016753609947045e-09, 1.285608988155218e-07]
+  SRTHash: -1146150142
+  Scale: 2.0
+  Translate: [66.0, 17.78603744506836, 41.08346176147461]
+  UnitConfigName: DgnObj_KibakoDungeon_040
+- HashId: !u 0x79d99474
+  Rotate: 1.5707963705062866
+  SRTHash: 802518628
+  Translate: [22.0, -32.0, -74.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- HashId: !u 0x7a332365
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -1411860736
+  Translate: [42.0, 6.0, 38.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, StartNoDraw: false}
+  HashId: !u 0x7b4a80b8
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xf828f90f}
+  SRTHash: -928091051
+  Translate: [-57.0, 29.799999237060547, -7.999614715576172]
+  UnitConfigName: DgnObj_SpikeBall_B
+- HashId: !u 0x7b71edc0
+  Rotate: [-1.7633694410324097, -1.5707963705062866, -1.378223180770874]
+  SRTHash: -1030501610
+  Translate: [-2.0, -34.0, 46.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7b78e816
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 0.0
+      LimitAngMin: -90.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0xb7d2e888
+  Rotate: [1.5707963705062866, 4.371138473402425e-08, -1.5707963705062866]
+  SRTHash: -2129199971
+  Translate: [11.0, 14.350000381469727, -38.0]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- HashId: !u 0x7ce20c40
+  Rotate: -3.1415927410125732
+  SRTHash: 48432671
+  Translate: [46.0, -32.0, 66.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- HashId: !u 0x7d1f222e
+  Rotate: [3.141592264175415, -1.5707963705062866, 7.343848551499832e-08]
+  SRTHash: 1510394792
+  Translate: [50.29999923706055, 8.0, -22.0]
+  UnitConfigName: DgnObj_PartitionWall_A_02
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7d499bd9
+  OnlyOne: true
+  Rotate: -1.5707963705062866
+  SRTHash: 1076010395
+  Translate: [49.99995422363281, 8.000226020812988, 39.99999237060547]
+  UnitConfigName: DgnObj_SwitchGyroTiltBody
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x7d9a3137
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfb0e4399}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  SRTHash: 978075651
+  Translate: [21.0, 36.0, -76.5]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {StartNoDraw: false}
+  HashId: !u 0x7de52e96
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x114b5c3a}
+  SRTHash: -1706014010
+  Translate: [4.0, 21.5, 67.5]
+  UnitConfigName: StoneBall
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7e55ead0
+  Rotate: -1.5707963705062866
+  SRTHash: -677913472
+  Translate: [39.0, 10.0, 46.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- HashId: !u 0x7f4a8c9a
+  Rotate: 1.5707963705062866
+  SRTHash: -1588319196
+  Translate: [-2.0, -34.0, 70.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- HashId: !u 0x8141ed28
+  Rotate: [2.0905338268030629e-16, 0.0, 3.1415927410125732]
+  SRTHash: 2048304389
+  Translate: [6.0, -34.0, 18.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0x8237c4a6
+  Rotate: 1.5707963705062866
+  SRTHash: 921642946
+  Translate: [22.0, -30.0, -78.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {DropActor: Item_Ore_A, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x83414e16
+  Rotate: -3.1415927410125732
+  SRTHash: 526252553
+  Translate: [14.0, 16.0, -73.0]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x85cf906d
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x496590f3}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcb5c2981
+  SRTHash: -1918310787
+  Translate: [-35.0, 4.0, 32.5]
+  UnitConfigName: ActorObserverTag
+- HashId: !u 0x86299e9d
+  Rotate: [0.0, 1.5707963705062866, 3.1415927410125732]
+  SRTHash: 1450440904
+  Translate: [10.0, -34.0, 26.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0x863ebc20
+  Rotate: -3.1415927410125732
+  SRTHash: 1831136606
+  Translate: [2.0, -26.0, -62.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x86bcd55f
+  Rotate: 3.1415927410125732
+  SRTHash: 2062779092
+  Scale: 2.0
+  Translate: [71.5, 4.0, 71.0]
+  UnitConfigName: Area
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlag: Dungeon040_DoorStone_3,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x889ac112
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x0c7fd880}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x02f6dba5}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xce5cdb3b}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x40d3dcd8}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x8c79dc46}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x86bcd55f}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x4a16d5c1}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xc499d222}
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x56b1d72d
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x9e730cbf
+  Rotate: 1.5707963705062866
+  SRTHash: 1606859657
+  Translate: [52.5, 4.0, 70.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0x890818fc
+  Rotate: -1.5707963705062866
+  SRTHash: 764983454
+  Translate: [66.0, 4.0, 65.0]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x8974aa95
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x6ecc8792}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x107dfb2f
+  Rotate: [0.0, 2.3313306840577752e-08, 6.579332278988659e-08]
+  SRTHash: -1779069492
+  Translate: [2.7046542167663574, 8.000205039978027, -0.44061994552612305]
+  UnitConfigName: ActorObserverTag
+- HashId: !u 0x89de80f8
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -503486924
+  Translate: [50.29999923706055, 8.0, 2.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x8af07efb
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x2cff8e18
+  SRTHash: 462814470
+  Translate: [17.82027816772461, 8.003338813781738, -13.931096076965332]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlag: Dungeon040_DoorStone_5,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x8b8b70fb
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x5e19bff2}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x7b78e816}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x75f1eb33}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xb95bebad}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x37d4ec4e}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfb7eecd0}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xf1bbe5c9}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x3d11e557}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xb39ee2b4}
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xcfb88697
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x077a5d05
+  SRTHash: 947616715
+  Translate: [10.0, 8.0, -54.000003814697266]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0x8c79dc46
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x40d3dcd8}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xce566400
+  Rotate: 3.1415927410125732
+  SRTHash: -1918310787
+  Translate: [57.0, 4.0, 70.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, StartNoDraw: false}
+  HashId: !u 0x8d1dde78
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xf828f90f}
+  SRTHash: -978367511
+  Translate: [-57.0, 14.799999237060547, -7.999610900878906]
+  UnitConfigName: DgnObj_SpikeBall_B
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Dungeon040_DoorStone_1,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x8d385e59
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa9b979b3
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x1d8743c8
+  SRTHash: 124438041
+  Translate: [-50.846683502197266, 4.003209590911865, 21.492937088012695]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0x8dc264e8
+  Rotate: -3.1415927410125732
+  SRTHash: -103428819
+  Translate: [-10.0, -28.0, -62.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x8ebc8a37
+  SRTHash: -615875776
+  Scale: [90.0, 55.0, 90.0]
+  Translate: [1.5, -60.0, -1.5]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, IsNoBindAlive: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8ef473a2
+  LinksToObj:
+  - '!Parameters':
+      Pos: {X: 0.0, Y: 2.9000000953674316, Z: 0.0}
+      Rot: {X: 0.0, Y: 30.0, Z: 0.0}
+    DefinitionName: ModelBind
+    DestUnitHashId: !u 0x489b7a25
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x16269823}
+  OnlyOne: true
+  SRTHash: -1676755159
+  Translate: [-44.00041580200195, 9.618470191955566, 44.5859375]
+  UnitConfigName: FldObj_ChainEyeBolt_A_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8efed6a1
+  Rotate: -1.5707963705062866
+  SRTHash: -935013827
+  Translate: [10.0, 29.0, -74.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0x8f0a9974
+  SRTHash: 2062779092
+  Scale: 2.0
+  Translate: [-49.5, 4.0, 31.5]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8f7ee000
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8af07efb
+  OnlyOne: true
+  SRTHash: 1710199068
+  Translate: [14.0, 8.0, -2.0]
+  UnitConfigName: SwitchStepOnce
+- HashId: !u 0x8fd73de9
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x8ebc8a37}
+  - {DefinitionName: Recreate, DestUnitHashId: !u 0x43ae7470}
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xc532f406}
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xb65d7acb}
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x9aadc946}
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xaab97efe}
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x358ec2f1}
+  SRTHash: -675874701
+  Translate: [51.9765625, 21.5, 67.5]
+  UnitConfigName: ActorRecreateTag
+- HashId: !u 0x8fe42fe4
+  Rotate: 1.5707963705062866
+  SRTHash: 1318504137
+  Translate: [-2.0, -34.0, 66.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x90658fb7
+  LinksToObj:
+  - {DefinitionName: FixedCs, DestUnitHashId: !u 0xcc55bb4c}
+  Rotate: [-0.17453345656394958, 3.1016753609947045e-09, 1.285608988155218e-07]
+  SRTHash: 23010803
+  Translate: [65.99999237060547, 13.541104316711426, 28.123699188232422]
+  UnitConfigName: DgnObj_KibakoDungeon_040
+- HashId: !u 0x909dc495
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x8ebc8a37}
+  - {DefinitionName: Recreate, DestUnitHashId: !u 0x7de52e96}
+  SRTHash: -1369988420
+  Translate: [12.0, 21.5, 67.5]
+  UnitConfigName: ActorRecreateTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x90c59b82
+  SRTHash: -126896471
+  Translate: [-58.0, 8.5, 41.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9249c634
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 90.0
+      LimitAngMin: 0.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x506ac58f
+  Rotate: [-3.1415927410125732, 4.371139183945161e-08, -1.5707963705062866]
+  SRTHash: 970160993
+  Translate: [-30.0, 10.100000381469727, -33.0]
+  UnitConfigName: DgnObj_DoorStone_A
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x9266b921
+  SRTHash: 1542010862
+  Scale: [35.0, 15.0, 25.0]
+  Translate: [-46.5, 15.0, -35.5]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, StartNoDraw: false}
+  HashId: !u 0x92e8adf3
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xf828f90f}
+  SRTHash: 743620891
+  Translate: [-57.0, 19.799999237060547, -7.999614715576172]
+  UnitConfigName: DgnObj_SpikeBall_B
+- HashId: !u 0x9339f32e
+  Rotate: [1.7633694410324097, -1.5707963705062866, 1.378223180770874]
+  SRTHash: -183256625
+  Translate: [26.0, -28.0, -38.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0x93f87268
+  Rotate: -1.5707963705062866
+  SRTHash: 1130300366
+  Translate: [6.0, -32.0, -78.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- HashId: !u 0x99f92038
+  Rotate: 1.5707963705062866
+  SRTHash: -1460700600
+  Translate: [-30.0, -32.0, -78.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x9aadc946
+  SRTHash: -1013140289
+  Scale: [5.0, 20.0, 20.0]
+  Translate: [77.8046875, 20.716609954833984, 65.05976867675781]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9c261506
+  Rotate: 1.5707963705062866
+  SRTHash: 881907966
+  Translate: [33.0, 10.0, 52.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9cc0c511
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 0.0
+      LimitAngMin: -90.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x506ac58f
+  Rotate: [-3.1415927410125732, 4.371139183945161e-08, -1.5707963705062866]
+  SRTHash: -2129199971
+  Translate: [-30.0, 10.100000381469727, -39.0]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9e730cbf
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 80.0
+      LimitAngMin: -10.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x890818fc
+  Rotate: [-2.96705961227417, 9.626349140035018e-08, -1.5707963705062866]
+  SRTHash: -484945108
+  Translate: [70.88646697998047, 10.100000381469727, 67.44820404052734]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xa0eb01af
+  SRTHash: 1849594356
+  Scale: [5.0, 6.0, 10.0]
+  Translate: [4.0, 10.5, 63.0]
+  UnitConfigName: Area
+- HashId: !u 0xa13a9515
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 0.0, Y: 0.0, Z: 1.0}
+      Friction: 0.0
+      LimitAngMax: 80.0
+      LimitAngMin: 0.0
+      Pivot: {X: 0.0, Y: 0.15000000596046448, Z: 0.0}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x3833c4af
+  OnlyOne: true
+  Rotate: [3.1415927410125732, 1.5707963705062866, 1.2246063538223773e-16]
+  SRTHash: 1035651977
+  Translate: [46.150001525878906, 4.0, -9.800000190734863]
+  UnitConfigName: DgnObj_BoardSeesaw_A
+- HashId: !u 0xa2da2dbe
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x3bd37c04}
+  OnlyOne: true
+  Rotate: -1.5707963705062866
+  SRTHash: -651284735
+  Translate: [-67.9009780883789, 0.0, 4.131415367126465]
+  UnitConfigName: BottomTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', FieldBodyGroup: 4,
+    ForceCalcInEvent: false, Shape: Box}
+  HashId: !u 0xa2f426be
+  SRTHash: 1925242234
+  Scale: [4.0, 1.0, 4.0]
+  Translate: [4.0, 7.0, 58.0]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0xa3184789
+  Rotate: [-1.5707963705062866, -1.5707963705062866, 3.1415927410125732]
+  SRTHash: 26664247
+  Scale: 5.5
+  Translate: [-43.50031280517578, 3.999999761581421, 16.000389099121094]
+  UnitConfigName: Area
+- HashId: !u 0xa4656ef4
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: 995529659
+  Translate: [14.0, 37.5, -71.25]
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlag: Dungeon040_DoorStone_4,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xa5bd30ee
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xfe739a03}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xebc7f587}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xe54ef6a2}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x29e4f63c}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xa76bf1df}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x6bc1f141}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x6104f858}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xadaef8c6}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x2321ff25}
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x21b6e7bb
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xe9743c29
+  SRTHash: 1290847371
+  Translate: [5.5, 7.974999904632568, -4.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, FlowSpeedFactor: 1.0, RiseLength: 5.0, RiseSpeed: 1.0,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xa5d38562
+  SRTHash: 669774728
+  Scale: 1.2999999523162842
+  Translate: [-64.0, 3.5, 56.5]
+  UnitConfigName: DgnObj_DungeonWater50x50_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xa76bf1df
+  SRTHash: 2020936123
+  Scale: 2.0
+  Translate: [9.5, 8.0, 7.5]
+  UnitConfigName: Area
+- '!Parameters': {EventFlowEntryName: OnlySE, EventFlowName: Demo024_2, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xa8dc749e
+  LinksToObj:
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x39d3aab7}
+  SRTHash: -1696587856
+  Translate: [52.5, 4.0, 61.5]
+  UnitConfigName: EventTag
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlag: Dungeon040_DoorStone_1,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xa9b979b3
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x1d8743c8}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x05c994ab}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x0b40978e}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xc7ea9710}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x496590f3}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x85cf906d}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x8f0a9974}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x43a099ea}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xcd2f9e09}
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xc8d5428e
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x0017991c
+  SRTHash: 977144606
+  Translate: [-51.5, 4.0, 24.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlag: Dungeon040_DoorStone_2,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xa9ff21d0
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xe768ab42}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x9cc0c511}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x9249c634}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x5ee3c6aa}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xd06cc149}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x1cc6c1d7}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x1603c8ce}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xdaa9c850}
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x5426cfb3}
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0xb8bfb601
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x707d6d93
+  SRTHash: -1026169517
+  Translate: [-15.5, 4.0, -41.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xaab97efe
+  SRTHash: 231548301
+  Scale: [25.0, 40.0, 10.0]
+  Translate: [64.515625, 40.716609954833984, -19.799606323242188]
+  UnitConfigName: Area
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xadaef8c6
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x6104f858}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xbabbbc0d
+  SRTHash: 2055379153
+  Translate: [-6.0, 8.0, 8.5]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropActor: PutRupee_Silver, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xadb1f9a0
+  Rotate: 1.5707963705062866
+  SRTHash: 2123915251
+  Translate: [18.0, 8.0, 16.0]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xb017dede
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x19cbb704}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc710ee48
+  Rotate: [0.0, 2.3313306840577752e-08, 6.579332278988659e-08]
+  SRTHash: 1615710873
+  Translate: [13.66519546508789, 8.001165390014648, -51.766963958740234]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xb131e4db
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x19cbb704}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc710ee48
+  Rotate: [0.0, 2.3313306840577752e-08, 6.579332278988659e-08]
+  SRTHash: -1171710365
+  Translate: [17.0, 8.0, -52.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {StartNoDraw: false}
+  HashId: !u 0xb1f034c8
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x6121a8b5}
+  SRTHash: -1393767600
+  Translate: [-77.0, 12.5, -36.0]
+  UnitConfigName: StoneBall
+- HashId: !u 0xb32a2df8
+  Rotate: [0.0, 1.5707963705062866, 3.1415927410125732]
+  SRTHash: -1376095900
+  Translate: [10.0, -34.0, 38.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb39ee2b4
+  SRTHash: 451962415
+  Translate: [10.5, 7.050000190734863, -42.0]
+  UnitConfigName: DgnObj_DoorStopper
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xb65d7acb
+  SRTHash: 1746140621
+  Scale: [10.0, 40.0, 20.0]
+  Translate: [49.140625, 40.716609954833984, 57.41914367675781]
+  UnitConfigName: Area
+- HashId: !u 0xb67a6804
+  Rotate: [3.141592264175415, -1.5707963705062866, 7.343848551499832e-08]
+  SRTHash: 693417712
+  Translate: [50.29999923706055, 8.0, -10.0]
+  UnitConfigName: DgnObj_PartitionWall_A_02
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb6c6e292
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf4a8ff47
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  SRTHash: -738732123
+  Translate: [6.5, 36.0, -74.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xb7d2e888
+  Rotate: 1.5707963705062866
+  SRTHash: 578004681
+  Translate: [5.5, 8.25, -43.0]
+  UnitConfigName: ConstraintDummy
+- HashId: !u 0xb82b2646
+  Rotate: -1.5707963705062866
+  SRTHash: -1244050017
+  Translate: [43.99995422363281, 32.5, 32.99999237060547]
+  UnitConfigName: LookTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb8bfb601
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 10.0
+      LimitAngMin: -80.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x670679d0
+  Rotate: [-1.7453293800354004, 4.371138828673793e-08, -1.5707963705062866]
+  SRTHash: -1139342537
+  Translate: [-27.05179786682129, 10.100000381469727, -31.11353302001953]
+  UnitConfigName: DgnObj_DoorStone_A
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb95bebad
+  SRTHash: 283695472
+  Translate: [17.5, 7.050000190734863, -42.0]
+  UnitConfigName: DgnObj_DoorStopper
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xb9605e4c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x03474c8b
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  OnlyOne: true
+  SRTHash: 1456738101
+  Scale: 0.699999988079071
+  Translate: [14.0, 37.5, -71.5]
+  UnitConfigName: DgnObj_GoalExit
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xbabbbc0d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x2321ff25
+  SRTHash: 0
+  Translate: [-6.0, 8.0, 8.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xbcc2fb71
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x5ee3c6aa
+  SRTHash: 0
+  Translate: [-24.5, 4.0, -27.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbe63cce2
+  LinksToObj:
+  - {DefinitionName: FixedCs, DestUnitHashId: !u 0xcc55bb4c}
+  Rotate: [-0.17453345656394958, 3.1016753609947045e-09, 1.285608988155218e-07]
+  SRTHash: -1514956712
+  Scale: 1.5
+  Translate: [65.99999237060547, 14.496169090270996, 33.54013442993164]
+  UnitConfigName: DgnObj_KibakoDungeon_040
+- HashId: !u 0xbf7080b3
+  Rotate: 3.1415927410125732
+  SRTHash: 1872516334
+  Translate: [34.0, -26.0, -30.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbfcc04d7
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: -1427401031
+  Translate: [-67.99958801269531, 10.0, -36.000396728515625]
+  UnitConfigName: DgnObj_HangedLamp_A
+- HashId: !u 0xbff3c00b
+  Rotate: 1.5707963705062866
+  SRTHash: -247362838
+  Translate: [26.0, -34.0, -46.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- HashId: !u 0xc0d5d81e
+  Rotate: -1.5707963705062866
+  SRTHash: 578004681
+  Translate: [74.5, 4.0, 69.5]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {FieldBodyGroup: 1}
+  HashId: !u 0xc12e53f2
+  LinksToObj:
+  - {DefinitionName: FixedCs, DestUnitHashId: !u 0x0223b3c4}
+  OnlyOne: true
+  Rotate: [-0.3490641117095947, 0.0, 0.0]
+  SRTHash: -1032216472
+  Translate: [66.0, 12.406030654907227, 3.0342018604278564]
+  UnitConfigName: DgnObj_HammerTop
+- HashId: !u 0xc2a9f80e
+  Rotate: -3.1415927410125732
+  SRTHash: 598662907
+  Translate: [78.0, -30.0, 66.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xc36d44e1
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xf38922e4}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8d385e59
+  Rotate: [0.0, 2.3313306840577752e-08, 6.579332278988659e-08]
+  SRTHash: 2079572463
+  Translate: [-47.5, 4.0, 24.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc499d222
+  Rotate: 3.1415927410125732
+  SRTHash: 451962415
+  Translate: [69.5, 2.799999952316284, 68.5]
+  UnitConfigName: DgnObj_DoorStopper
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0xc532f406
+  SRTHash: -223576806
+  Scale: [25.0, 2.0, 5.0]
+  Translate: [52.484375, 6.240048408508301, 75.76289367675781]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, RopeAlwaysUpdateRigidParam: false, RopeFlag: 0,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xc6147dc6
+  LinksToObj:
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x711646e0
+  - '!Parameters':
+      Pivot: {X: 0.0, Y: -6.0, Z: 0.0}
+    DefinitionName: BAndSCs
+    DestUnitHashId: !u 0x489b7a25
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x16269823}
+  OnlyOne: true
+  SRTHash: -1052630274
+  Scale: [1.0, 5.0, 1.0]
+  Translate: [-44.000831604003906, 14.460657119750977, 44.58599853515625]
+  UnitConfigName: RopeWire
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: Dungeon040_DoorStone_5,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xc710ee48
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x8b8b70fb
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x5e19bff2
+  SRTHash: 1535579405
+  Translate: [12.80364990234375, 8.001165390014648, -54.262664794921875]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc7ea9710
+  SRTHash: 283695472
+  Translate: [-40.5, 2.799999952316284, 34.0]
+  UnitConfigName: DgnObj_DoorStopper
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc82f237c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xb39ee2b4
+  SRTHash: 0
+  Translate: [4.0, 8.25, -43.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xc8cb3441
+  Rotate: 1.5707963705062866
+  SRTHash: 1446891054
+  Translate: [-59.891700744628906, 14.346853256225586, -37.919090270996094]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xc8d5428e
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 10.0
+      LimitAngMin: -80.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x176c8d5f
+  Rotate: [2.96705961227417, 1.891780776475116e-08, -1.5707963705062866]
+  SRTHash: -1139342537
+  Translate: [-39.11353302001953, 10.100000381469727, 35.051795959472656]
+  UnitConfigName: DgnObj_DoorStone_A
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xc8d86467
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xa8dc749e}
+  SRTHash: -1630273119
+  Translate: [53.5, 4.0, 59.5]
+  UnitConfigName: LinkTagOr
+- HashId: !u 0xc9639435
+  Rotate: 1.5707963705062866
+  SRTHash: 578004681
+  Translate: [-52.5, 4.0, 33.0]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xcb5c2981
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xc7ea9710
+  SRTHash: 0
+  Translate: [-35.0, 4.0, 32.5]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xcc483ded
+  Rotate: [0.0, 1.5707963705062866, 3.1415927410125732]
+  SRTHash: 878717963
+  Translate: [6.0, -26.0, -70.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0xcc55bb4c
+  Rotate: [-0.17453306913375854, 1.3858046088444098e-07, 2.6876861625169113e-08]
+  SRTHash: -464898121
+  Translate: [65.9906997680664, 21.272838592529297, 32.42029571533203]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xcca17e7c
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x60170fa0}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x77d7b6d3
+  Rotate: [0.0, 2.3313306840577752e-08, 6.579332278988659e-08]
+  SRTHash: -1212575642
+  Translate: [-18.0, 4.0, -35.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, EventFlowEntryName: Demo008_3, EventFlowName: Demo008_3,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xccff7d76
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x4a6b0fd8}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  OnlyOne: true
+  Rotate: 2.356194496154785
+  SRTHash: -1323267158
+  Translate: [-75.5, 22.0, 75.5]
+  UnitConfigName: DgnObj_EntranceElevator_A_01
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcd2f9e09
+  SRTHash: 451962415
+  Translate: [-47.5, 2.799999952316284, 34.0]
+  UnitConfigName: DgnObj_DoorStopper
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xcd8b706b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x17103f36
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x4f92e979
+  SRTHash: 0
+  Translate: [57.5, 4.0, 75.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xce566400
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0xce5cdb3b
+  SRTHash: 0
+  Translate: [57.0, 4.0, 70.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 1.0, MoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xce5cdb3b
+  Rotate: 3.1415927410125732
+  SRTHash: 283695472
+  Translate: [62.5, 2.799999952316284, 68.5]
+  UnitConfigName: DgnObj_DoorStopper
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcfb88697
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 10.0
+      LimitAngMin: -80.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x10014946
+  Rotate: [2.96705961227417, 1.891780776475116e-08, -1.5707963705062866]
+  SRTHash: -1139342537
+  Translate: [18.88646697998047, 14.350000381469727, -40.948204040527344]
+  UnitConfigName: DgnObj_DoorStone_A
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xd06cc149
+  Rotate: -1.5707963705062866
+  SRTHash: 2020936123
+  Scale: 2.0
+  Translate: [-23.5, 4.0, -30.5]
+  UnitConfigName: Area
+- '!Parameters': {DropActor: Weapon_Lsword_055, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd078bdca
+  Rotate: 1.5707963705062866
+  SRTHash: -1209008492
+  Translate: [-70.5, 4.0, -42.5]
+  UnitConfigName: TBox_Dungeon_Stone
+- HashId: !u 0xd15c81a8
+  LinksToObj:
+  - {DefinitionName: Recreate, DestUnitHashId: !u 0xb1f034c8}
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x9266b921}
+  OnlyOne: true
+  SRTHash: 179143653
+  Translate: [-68.5, 21.5, -41.5]
+  UnitConfigName: OutActorRecreateTag
+- HashId: !u 0xd197062e
+  Rotate: [-1.7633694410324097, -1.5707963705062866, -1.378223180770874]
+  SRTHash: 152794328
+  Translate: [-2.0, -34.0, 34.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0xd2c1ed99
+  Rotate: [0.0, 0.0, -3.1415927410125732]
+  SRTHash: 1507355351
+  Translate: [42.0, 12.0, -18.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xd3a7ae8f
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0x18fb7d2a}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  OnlyOne: true
+  SRTHash: -1586897157
+  Translate: [8.5, 36.0, -75.5]
+  UnitConfigName: LinkTagNAnd
+- HashId: !u 0xd41f771f
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xa3184789}
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x3a111633}
+  Rotate: -1.5707963705062866
+  SRTHash: -1443083765
+  Translate: [-50.000308990478516, 6.0, 4.187889099121094]
+  UnitConfigName: PlayerForbidComebackTag
+- HashId: !u 0xd45d2b89
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 500000.0
+      LimitTransMax: 43.5
+      LimitTransMin: 0.0
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: SliderCs
+    DestUnitHashId: !u 0x3488c297
+  OnlyOne: true
+  Rotate: 1.5707963705062866
+  SRTHash: -1675423370
+  Translate: [14.0, 8.0, -8.199999809265137]
+  UnitConfigName: DgnObj_SliderTruck_A
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: true, SaveFlag: Dungeon040_DoorStone_3,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0xd4cd62df
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc8d86467
+  SRTHash: -105212585
+  Translate: [53.5, 4.0, 58.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd8bea787
+  OnlyOne: true
+  SRTHash: -1976112355
+  Translate: [-56.0, 4.0, -8.0]
+  UnitConfigName: DgnObj_BoxTower_A_01
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xdaa9c850
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x1603c8ce}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x211ef062
+  Rotate: -1.5707963705062866
+  SRTHash: 2055379153
+  Translate: [-24.5, 4.0, -46.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, FlowSpeedFactor: 1.0, RiseLength: 5.0, RiseSpeed: 1.0,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xdb62f9df
+  SRTHash: -1529001636
+  Scale: 0.4000000059604645
+  Translate: [-38.0, 3.5, 14.0]
+  UnitConfigName: DgnObj_DungeonWater50x50_A_01
+- HashId: !u 0xdcb85699
+  Rotate: 1.5707963705062866
+  SRTHash: 1148180869
+  Translate: [-30.0, -28.0, -66.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe08447de
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x481cd65f
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x4f3b1e97
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x7d499bd9
+  SRTHash: -1115977251
+  Translate: [56.0, 12.0, 42.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {ActorName: DgnObj_DoorStone_A_R, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xe1454a0b
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x6ecc8792}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x107dfb2f
+  Rotate: [0.0, 2.3313306840577752e-08, 6.579332278988659e-08]
+  SRTHash: 1366815818
+  Translate: [7.704654216766357, 8.000205039978027, -0.44061994552612305]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {FieldBodyGroup: 1, GyroSlerpRatio: 0.10000000149011612, InitDgnPriority: 1}
+  HashId: !u 0xe189ccfc
+  OnlyOne: true
+  SRTHash: -515017056
+  Translate: [66.0, 4.36899995803833, 0.5260000228881836]
+  UnitConfigName: DungeonRotateTagGyroHammer
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe3d056a2
+  Rotate: 1.5707963705062866
+  SRTHash: -1144290044
+  Translate: [33.0, 10.0, 76.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- HashId: !u 0xe4ec7f2c
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 0.0, Y: 0.0, Z: 1.0}
+      Friction: 0.0
+      LimitAngMax: 70.0
+      LimitAngMin: 0.0
+      Pivot: {X: 0.0, Y: 0.27000001072883606, Z: 0.0}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x745362bd
+  OnlyOne: true
+  Rotate: [2.6880600507282572e-17, -1.5707963705062866, -3.1415927410125732]
+  SRTHash: -2126550813
+  Translate: [4.0, 7.999999523162842, 31.0]
+  UnitConfigName: DgnObj_BoardSeesaw_C
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe54ef6a2
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 90.0
+      LimitAngMin: 0.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: -2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x276df519
+  Rotate: [1.5707963705062866, 4.371138473402425e-08, -1.5707963705062866]
+  SRTHash: 970160993
+  Translate: [7.0, 14.100000381469727, 14.0]
+  UnitConfigName: DgnObj_DoorStone_A
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0, StartNoDraw: false}
+  HashId: !u 0xe5ef9d65
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xf828f90f}
+  SRTHash: 668515348
+  Translate: [-57.0, 24.799999237060547, -7.999614715576172]
+  UnitConfigName: DgnObj_SpikeBall_B
+- HashId: !u 0xe6f99f69
+  Rotate: [0.0, 0.0, -3.1415927410125732]
+  SRTHash: 1286543725
+  Translate: [42.0, 12.0, 2.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- '!Parameters': {EventFlowEntryName: OnlySE, EventFlowName: Demo024_2, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xe768ab42
+  LinksToObj:
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x39d3aab7}
+  SRTHash: 310517937
+  Translate: [-14.038310050964355, 4.000288486480713, -36.852787017822266]
+  UnitConfigName: EventTag
+- HashId: !u 0xe7929d2f
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -741154856
+  Translate: [50.0, 2.0, -1.600000023841858]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- HashId: !u 0xe800ce26
+  Rotate: [-1.7633694410324097, -1.5707963705062866, -1.378223180770874]
+  SRTHash: -1417905537
+  Translate: [-2.0, -34.0, 22.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe9743c29
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 80.0
+      LimitAngMin: -10.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0xfe0f286a
+  Rotate: [0.17453287541866302, 9.626349850577753e-08, -1.5707963705062866]
+  SRTHash: -484945108
+  Translate: [-0.8864672183990479, 14.100000381469727, 11.051795959472656]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xebc7f587
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 1.0, Y: 0.0, Z: 0.0}
+      Friction: 100000.0
+      LimitAngMax: 0.0
+      LimitAngMin: -90.0
+      Pivot: {X: 0.0, Y: -0.3499999940395355, Z: 2.700000047683716}
+      TauFactor: 1.0
+    DefinitionName: LimitHingeCs
+    DestUnitHashId: !u 0x276df519
+  Rotate: [1.5707963705062866, 4.371138473402425e-08, -1.5707963705062866]
+  SRTHash: -2129199971
+  Translate: [1.0, 14.100000381469727, 14.000000953674316]
+  UnitConfigName: DgnObj_DoorStone_A_R
+- HashId: !u 0xefb4eb8d
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  OnlyOne: true
+  Rotate: 2.356194496154785
+  SRTHash: 955776311
+  Translate: [-71.96446990966797, 12.0, 71.96446990966797]
+  UnitConfigName: DungeonResetPosTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf04faa1c
+  Rotate: 1.5707963705062866
+  SRTHash: -2140486244
+  Translate: [18.0, 19.0, -74.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xf18dc02b
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x14735375
+  SRTHash: -710253745
+  Translate: [-2.0124292373657227, 8.000584602355957, 49.94717788696289]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Sphere}
+  HashId: !u 0xf1bbe5c9
+  SRTHash: 2062779092
+  Scale: 2.0
+  Translate: [8.5, 8.25, -44.5]
+  UnitConfigName: Area
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0xf38922e4
+  Rotate: [0.0, 0.0, 1.5707963705062866]
+  SRTHash: -1126198851
+  Scale: 5.0
+  Translate: [-44.0, 3.999999761581421, 32.5]
+  UnitConfigName: Area
+- '!Parameters':
+    EventFlowEntryName: Demo033_0
+    EventFlowName: Demo033_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: 14.0, Y: 37.5, Z: -71.25}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0xf4a8ff47
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3ff42ce2
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xa4656ef4}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x39d3aab7}
+  Rotate: -3.1415927410125732
+  SRTHash: 892728205
+  Translate: [14.0, 37.5, -71.25]
+  UnitConfigName: EventTag
+- HashId: !u 0xf6550df6
+  Rotate: [3.1415927410125732, 1.2246063538223773e-16, 0.0]
+  SRTHash: -333868832
+  Translate: [58.0, -36.0, 66.0]
+  UnitConfigName: DgnObj_PartitionWall_A_04
+- HashId: !u 0xf682b8e5
+  Rotate: -1.5707963705062866
+  SRTHash: 901015973
+  Translate: [10.0, -34.0, 70.0]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- HashId: !u 0xf828f90f
+  SRTHash: 0
+  Translate: [-57.0, 14.799999237060547, -7.999610900878906]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xf91e5e1a
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x677acbb9}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x480bb7cc
+  Rotate: 1.5707963705062866
+  SRTHash: -640684915
+  Translate: [54.5, 4.0, 75.5]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf9f9e637
+  Rotate: -1.5707963705062866
+  SRTHash: 536566425
+  Translate: [10.0, 24.0, -74.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- HashId: !u 0xfa1aeeee
+  LinksToObj:
+  - {DefinitionName: Recreate, DestUnitHashId: !u 0x8d1dde78}
+  - {DefinitionName: Recreate, DestUnitHashId: !u 0x92e8adf3}
+  - {DefinitionName: Recreate, DestUnitHashId: !u 0xe5ef9d65}
+  - {DefinitionName: Recreate, DestUnitHashId: !u 0x7b4a80b8}
+  - {DefinitionName: Recreate, DestUnitHashId: !u 0x0c4db02e}
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xfd772af7}
+  Rotate: -1.5707963705062866
+  SRTHash: -5419241
+  Translate: [-50.13446807861328, 6.0, -6.104183673858643]
+  UnitConfigName: ActorRecreateTag
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xfb0e4399
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb6c6e292
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0x56aa88cb}
+  OnlyOne: true
+  SRTHash: 145090504
+  Translate: [14.0, 36.0, -75.0]
+  UnitConfigName: DgnObj_GoalShield_A
+- '!Parameters': {ActorName: DgnObj_DoorStone_A, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xfb7eecd0
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0x37d4ec4e}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x55f3286f
+  SRTHash: -1918310787
+  Translate: [23.0, 8.25, -43.5]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Capsule}
+  HashId: !u 0xfd772af7
+  Rotate: [0.0, 0.0, -1.5707963705062866]
+  SRTHash: -789969468
+  Scale: 10.0
+  Translate: [-22.00031280517578, -12.0, -7.999610900878906]
+  UnitConfigName: Area
+- HashId: !u 0xfe0f286a
+  Rotate: 1.5707963705062866
+  SRTHash: 764983454
+  Translate: [4.0, 8.0, 13.5]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {EventFlowEntryName: OnlySE, EventFlowName: Demo024_2, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xfe739a03
+  LinksToObj:
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x39d3aab7}
+  SRTHash: -552268903
+  Translate: [4.175544738769531, 8.000205039978027, -7.093919277191162]
+  UnitConfigName: EventTag
+- HashId: !u 0xff144c50
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xa0eb01af}
+  SRTHash: -214777237
+  Translate: [-7.0, 16.0, 59.0]
+  UnitConfigName: PlayerForbidComebackTag
+Rails: []

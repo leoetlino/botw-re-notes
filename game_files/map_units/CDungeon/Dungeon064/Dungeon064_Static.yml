@@ -1,0 +1,1694 @@
+LocationPosX: 0.0
+LocationPosZ: 0.0
+LocationSize: 2000.0
+Objs:
+- '!Parameters': {EventFlowEntryName: OnlySE, EventFlowName: Demo024_2, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0x0095a1f2
+  LinksToObj:
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x10e737e0}
+  SRTHash: 1299246434
+  Translate: [-5.0, 28.5, -20.5]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x06f82cd1
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x27b39e9a}
+  SRTHash: -1632105950
+  Translate: [12.0, -4.0, 0.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0db1037f
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x228783b0}
+  SRTHash: 1481801599
+  Translate: [-12.0, -4.0, 4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x0e6325ce
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x0346831b}
+  SRTHash: -1266195566
+  Translate: [8.0, -4.0, 4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters':
+    DropTable: Normal
+    RotateFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    RotateFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+    SharpWeaponJudgeType: 0
+    TransFieldBodyGroup00: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup01: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup02: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup03: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup04: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup05: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup06: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup07: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup08: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup09: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup10: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup11: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup12: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup13: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup14: {X: 0.0, Y: 0.0, Z: 0.0}
+    TransFieldBodyGroup15: {X: 0.0, Y: 0.0, Z: 0.0}
+  HashId: !u 0x10e737e0
+  OnlyOne: true
+  SRTHash: 0
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: DgnMrgPrt_Dungeon064
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1217db22
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x5357be58}
+  SRTHash: 1555675526
+  Translate: [4.0, -4.0, -12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x14172682
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x003f72f5}
+  SRTHash: -661797370
+  Translate: [8.0, -4.0, 12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x1608236e
+  SRTHash: -966792280
+  Scale: [50.0, 40.0, 50.0]
+  Translate: [0.0, -50.0, 0.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1a4fc07a
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x9137ebcf}
+  SRTHash: -646881757
+  Translate: [4.0, -4.0, 12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1ac22696
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xa68b0134}
+  SRTHash: 707290902
+  Translate: [-4.0, -4.0, 0.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x1ff15bcc
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x6e587809}
+  SRTHash: -1081471293
+  Translate: [-12.0, -4.0, -12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x20d0f9eb
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x3616774c
+  SRTHash: -738732123
+  Translate: [-7.5, 26.0, -31.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2451b47f
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x2434f995}
+  SRTHash: 223485042
+  Translate: [8.0, -4.0, -12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x29596c67
+  LinksToObj:
+  - {DefinitionName: ForbidAttention, DestUnitHashId: !u 0xe5f36cf9}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  OnlyOne: true
+  SRTHash: -1586897157
+  Translate: [-5.5, 26.0, -32.5]
+  UnitConfigName: LinkTagNAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x29676050
+  Rotate: [0.0, 0.0, -3.1415927410125732]
+  SRTHash: 2011792362
+  Translate: [-23.0, 53.0, -33.0]
+  UnitConfigName: DgnObj_PartitionWall_A_03
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x2ac34c59
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x2e6bc1a8}
+  SRTHash: -1232229842
+  Translate: [-4.0, -4.0, 8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- HashId: !u 0x2be451e5
+  SRTHash: 121935522
+  Translate: [-31.0, 7.0, -32.005001068115234]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x32f50bab
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x98df083e}
+  SRTHash: 927861839
+  Translate: [-4.0, -4.0, -8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters':
+    EventFlowEntryName: Demo033_0
+    EventFlowName: Demo033_0
+    IsEndlessEvent: false
+    LaunchEventByOffSignal: false
+    LaunchEventByOnSignal: true
+    TraversePos: {X: 0.0, Y: 27.5, Z: -28.25}
+    TraverseRadiusXZ: 0.0
+  HashId: !u 0x3616774c
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xfabc77d2
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x7ef67928}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x10e737e0}
+  Rotate: -3.1415927410125732
+  SRTHash: 892728205
+  Translate: [0.0, 27.5, -28.25]
+  UnitConfigName: EventTag
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x37f28823
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x5352a01b}
+  SRTHash: -1031114317
+  Translate: [-8.0, -4.0, -4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3b8532fb
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x35813017}
+  SRTHash: -1682235849
+  Translate: [-12.0, -4.0, 8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- HashId: !u 0x3cb74394
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xfc91cdca}
+  OnlyOne: true
+  SRTHash: 1669020473
+  Translate: [0.0, 6.0, 21.0]
+  UnitConfigName: LookTag
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3cfcdc00
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xf3d43e17}
+  SRTHash: 188934119
+  Translate: [-4.0, -4.0, 12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3d4fe954
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x225aa594}
+  SRTHash: 931555517
+  Translate: [-4.0, -4.0, -4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- HashId: !u 0x3e7e6d53
+  Rotate: [0.0, 0.0, -3.1415927410125732]
+  SRTHash: 1794783273
+  Translate: [-15.0, 49.0, -32.0]
+  UnitConfigName: DgnObj_PartitionWall_A_02
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x3f2f7b5c
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x942e90f7}
+  SRTHash: 549049499
+  Translate: [4.0, -4.0, -8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x476470d9
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x5fb1c8f5}
+  SRTHash: 814263516
+  Translate: [4.0, -4.0, 4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4aace088
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x435f8a33}
+  SRTHash: 1879401195
+  Translate: [12.0, -4.0, 8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4c5ab75e
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x442c0619}
+  SRTHash: 1727311059
+  Translate: [-8.0, -4.0, 4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x4ca96bc2
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x000911dc}
+  SRTHash: 1826579609
+  Translate: [12.0, -4.0, 4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, FieldBodyGroup: 0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x530d834d
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  OnlyOne: true
+  SRTHash: 86752414
+  Translate: [34.5, 0.0, -28.0]
+  UnitConfigName: DgnObj_hrl_Box4x4x6_01
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x54604754
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x3837e44c}
+  SRTHash: -1011210308
+  Translate: [0.0, -4.0, 0.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x57321d0d
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x20021aca}
+  SRTHash: -180404620
+  Translate: [4.0, -4.0, 0.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0x57480716
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x0095a1f2
+  SRTHash: 93044937
+  Translate: [-2.5, 28.5, -19.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5b27654e
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xf7dbc325}
+  SRTHash: 783629778
+  Translate: [-8.0, -4.0, -12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlag: IsInside_Dungeon,
+    SaveFlagOnOffType: 0}
+  HashId: !u 0x5bf4e9df
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xba23313a
+  SRTHash: -1220747738
+  Translate: [6.0, 6.0, 23.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5db43032
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x0fcd5ea1}
+  SRTHash: 1870930583
+  Translate: [0.0, -4.0, -8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x5de4fc74
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x8c7f1e1e}
+  SRTHash: -808245098
+  Translate: [0.0, -4.0, -4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- HashId: !u 0x5efdd387
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x1608236e}
+  OnlyOne: true
+  SRTHash: -1231981583
+  Translate: [24.5, 6.0, 0.5]
+  UnitConfigName: BottomTag
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6074685b
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x84407187}
+  SRTHash: 1126603148
+  Translate: [0.0, -4.0, -12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x62f5fe96
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x20d0f9eb
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  OnlyOne: true
+  SRTHash: 145090504
+  Translate: [0.0, 26.0, -32.0]
+  UnitConfigName: DgnObj_GoalShield_A
+- HashId: !u 0x64d8e271
+  OnlyOne: true
+  SRTHash: 888879238
+  Translate: [0.0, 26.0, -14.5]
+  UnitConfigName: DgnObj_ShutterFenceFrame_A_02
+- HashId: !u 0x6602b64b
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: -189034481
+  Translate: [-27.0, 51.0, -32.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x6966b211
+  SRTHash: -820133961
+  Scale: 6.0
+  Translate: [0.0, -3.5, 0.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6a1cf342
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xfc91cdca}
+  OnlyOne: true
+  SRTHash: -1930244898
+  Translate: [0.0, 6.0, 26.0]
+  UnitConfigName: DgnObj_Hrl_Warpin_2x2_01
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6ef1e417
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x57e465e4}
+  SRTHash: 316848322
+  Translate: [-12.0, -4.0, -8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x6f22dbd5
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x6314ea08}
+  SRTHash: 1405518693
+  Translate: [12.0, -4.0, -12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RemainsTerminalIndex: -1, RemainsTerminalType: -1,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0x74337031
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xcd194f49
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  OnlyOne: true
+  SRTHash: 1456738101
+  Scale: 0.699999988079071
+  Translate: [0.0, 27.5, -28.5]
+  UnitConfigName: DgnObj_GoalExit
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x782df528
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x89230e22}
+  SRTHash: 39710805
+  Translate: [-8.0, -4.0, 8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7b60c8ec
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x23d85b8e}
+  SRTHash: 1155932341
+  Translate: [0.0, -4.0, 12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7c398a5e
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x54066202}
+  SRTHash: -1320712259
+  Translate: [-12.0, -4.0, 12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- HashId: !u 0x7ef67928
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: 995529659
+  Translate: [0.0, 27.5, -28.25]
+  UnitConfigName: DestinationAnchor
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x7f71e675
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x5a8000cc}
+  SRTHash: -766248071
+  Translate: [-12.0, -4.0, 0.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x8080b20a
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xac221b6f}
+  SRTHash: 1720051441
+  Translate: [8.0, -4.0, 0.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x83f913f4
+  Rotate: [0.0, 0.0, -3.1415927410125732]
+  SRTHash: 1538961040
+  Translate: [23.0, 53.0, -33.0]
+  UnitConfigName: DgnObj_PartitionWall_A_03
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x842423b5
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x5379d7da}
+  SRTHash: -466816660
+  Translate: [12.0, -4.0, 12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x84d18c36
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x300ae86a}
+  SRTHash: -1652137922
+  Translate: [0.0, -4.0, 8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0x95f9ac70
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x81ef9f46}
+  SRTHash: 1952624149
+  Translate: [0.0, -4.0, 4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Box}
+  HashId: !u 0x968860c8
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSigOnOnly
+    DestUnitHashId: !u 0x57480716
+  SRTHash: -767293131
+  Scale: [8.0, 2.0, 4.0]
+  Translate: [0.0, 27.5, -19.0]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0x9c57c809
+  Rotate: 3.1415927410125732
+  SRTHash: 1976823088
+  Translate: [20.0, 22.5, 28.799999237060547]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- HashId: !u 0xa16d4aa7
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x6966b211}
+  OnlyOne: true
+  SRTHash: -1957411305
+  Translate: [0.0, -0.5, 0.0]
+  UnitConfigName: SoundProxyDungeonMoveTag_StoneBox
+- '!Parameters': {ActorName: DgnObj_BoxStone_B, Count: 1, DefaultBasicSignal: false,
+    ForceCalcInEvent: false, IsMagneGrabbed: 0, IsSendMessage: false, IsStopFromStopTimer: 0}
+  HashId: !u 0xa3751739
+  LinksToObj:
+  - {DefinitionName: AreaCol, DestUnitHashId: !u 0xd47227af}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xe5b1b48d
+  OnlyOne: true
+  SRTHash: -515295876
+  Translate: [25.5, 5.750000476837158, -2.0]
+  UnitConfigName: ActorObserverTag
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa4f6e6b1
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x87c890fa}
+  SRTHash: 59755171
+  Translate: [-4.0, -4.0, -12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa71b88d2
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x0d6adb06}
+  SRTHash: -1580830874
+  Translate: [8.0, -4.0, -8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa791d00c
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x876566b3}
+  SRTHash: 403406222
+  Translate: [12.0, -4.0, -8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, MoveAxis: 1, MoveDis: 5.0, MoveSpeed: 0.5, SharpWeaponJudgeType: 0}
+  HashId: !u 0xa872e2ef
+  OnlyOne: true
+  SRTHash: 2127311547
+  Translate: [0.0, 26.0, -14.5]
+  UnitConfigName: SwitchShutterFenceWide
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xab61c826
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x793e6eac}
+  SRTHash: 353765242
+  Translate: [-8.0, -4.0, 12.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xae05827f
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xbbddbe0b}
+  SRTHash: 30255713
+  Translate: [8.0, -4.0, 8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xae5ffe08
+  LinksToObj:
+  - {DefinitionName: PhysSystemGroup, DestUnitHashId: !u 0x62f5fe96}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  OnlyOne: true
+  SRTHash: -376039716
+  Translate: [0.0, 26.0, -32.0]
+  UnitConfigName: DgnObj_Hrl_GoalSystem_A_01
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb2157406
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xa872e2ef
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0x64d8e271
+  SRTHash: 0
+  Translate: [0.0, 37.5, 0.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 1, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xb25c79b6
+  LinksToObj:
+  - '!Parameters': {AppearFade: false}
+    DefinitionName: Create
+    DestUnitHashId: !u 0x74337031
+  - {DefinitionName: Delete, DestUnitHashId: !u 0xe5f36cf9}
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xec7af975
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  SRTHash: 1481925240
+  Translate: [5.5, 26.0, -35.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb7f35b9e
+  SRTHash: 1375152403
+  Translate: [7.5, 28.0, -13.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xb887dfeb
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xa1556556}
+  SRTHash: 1442449109
+  Translate: [4.0, -4.0, 8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, EventFlowEntryName: Demo008_3, EventFlowName: Demo008_3,
+    SharpWeaponJudgeType: 0}
+  HashId: !u 0xba23313a
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0x3cb74394}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xfc91cdca}
+  OnlyOne: true
+  Rotate: -3.1415927410125732
+  SRTHash: -1323267158
+  Translate: [0.0, 16.0, 26.0]
+  UnitConfigName: DgnObj_EntranceElevator_A_01
+- HashId: !u 0xbc48ef5a
+  Rotate: [0.0, 0.0, 3.1415927410125732]
+  SRTHash: 345169276
+  Translate: [27.0, 51.0, -32.0]
+  UnitConfigName: DgnObj_PartitionWall_A_01
+- HashId: !u 0xbd03e261
+  LinksToObj:
+  - '!Parameters':
+      Axis: {X: 0.0, Y: 1.0, Z: 0.0}
+      Friction: 0.0
+      LimitTransMax: 21.5
+      LimitTransMin: -10.0
+      Pivot: {X: 0.0, Y: 0.0, Z: 0.0}
+    DefinitionName: SliderCs
+    DestUnitHashId: !u 0xca04d2f7
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  OnlyOne: true
+  Rotate: -1.5707963705062866
+  SRTHash: -68141157
+  Translate: [0.0, 0.0, 0.0]
+  UnitConfigName: DgnObj_BoxStone_B
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xbe5e27da
+  SRTHash: 2029228413
+  Translate: [-7.5, 28.0, -13.0]
+  UnitConfigName: DgnObj_Hrl_CandleStandA_01
+- '!Parameters': {CameraPattern: 1, CameraPower: 0.5, CameraRange: 100.0, FieldBodyGroup: 0,
+    InitDgnMoveDis: 0.0, InitDgnPriority: 0, MoveDis: 0.10000000149011612, MoveSpeed: 2.0}
+  HashId: !u 0xc3b29edc
+  LinksToObj:
+  - {DefinitionName: Reference, DestUnitHashId: !u 0xa16d4aa7}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  OnlyOne: true
+  SRTHash: -189104893
+  Translate: [0.0, -0.5, 0.0]
+  UnitConfigName: DungeonMoveTag
+- HashId: !u 0xca04d2f7
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  OnlyOne: true
+  Rotate: [0.0, 0.0, 1.5707963705062866]
+  SRTHash: -493327207
+  Translate: [0.5, 14.5, -1.0]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xcd194f49
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xf0797ecb
+  SRTHash: 0
+  Translate: [0.0, 27.5, -28.5]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xcd4f3417
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x9573dbc4}
+  SRTHash: -1624178128
+  Translate: [-12.0, -4.0, -4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xce73fd84
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xe8457470}
+  SRTHash: -717680892
+  Translate: [-8.0, -4.0, 0.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {AutoSave: false, CameraPriority: 1, CameraSet: '-', ForceCalcInEvent: false,
+    Shape: Cylinder}
+  HashId: !u 0xd47227af
+  SRTHash: -1306920788
+  Translate: [-1.0, -0.5, 4.5]
+  UnitConfigName: Area
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xd68ad936
+  OnlyOne: true
+  SRTHash: -1856038977
+  Translate: [0.0, 29.0, -60.0]
+  UnitConfigName: DgnObj_Hrl_BaseRoom60x180x20_B_01
+- HashId: !u 0xd90c690b
+  SRTHash: 0
+  Translate: [0.0, -4.0, 0.0]
+  UnitConfigName: LinkTagNone
+- HashId: !u 0xdd8212be
+  Rotate: [0.0, 0.0, -3.1415927410125732]
+  SRTHash: 1847123113
+  Translate: [15.0, 49.0, -32.0]
+  UnitConfigName: DgnObj_PartitionWall_A_02
+- HashId: !u 0xde448f7a
+  SRTHash: 0
+  Translate: [0.0, 27.5, -28.25]
+  UnitConfigName: LinkTagNone
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xe5b1b48d
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xc3b29edc
+  SRTHash: 0
+  Translate: [25.5, 5.750000476837158, -2.0]
+  UnitConfigName: LinkTagAnd
+- '!Parameters': {TerritoryArea: 0.0}
+  HashId: !u 0xe5f36cf9
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  OnlyOne: true
+  SRTHash: 865924496
+  Translate: [0.0, 29.0, -32.0]
+  UnitConfigName: Npc_DungeonPriest001
+- '!Parameters': {DropActor: PutRupee_Silver, DropTable: Normal, EnableRevival: false,
+    IsInGround: false, SharpWeaponJudgeType: 0}
+  HashId: !u 0xe787e69f
+  OnlyOne: true
+  Rotate: 3.1415927410125732
+  SRTHash: 546873069
+  Translate: [18.5, 19.0, 29.0]
+  UnitConfigName: TBox_Dungeon_Stone
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xebee7931
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x5f8349d8}
+  SRTHash: 2132191485
+  Translate: [-4.0, -4.0, 4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xec7af975
+  LinksToObj:
+  - {DefinitionName: Delete, DestUnitHashId: !u 0x62f5fe96}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  OnlyOne: true
+  SRTHash: 978075651
+  Translate: [7.0, 26.0, -33.5]
+  UnitConfigName: LinkTagOr
+- '!Parameters': {DropTable: Normal, SharpWeaponJudgeType: 0}
+  HashId: !u 0xef6cb7cb
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xb2157406
+  OnlyOne: true
+  Rotate: [3.1415927410125732, 0.0, 0.0]
+  SRTHash: -1639050306
+  Translate: [0.0, 37.5, 0.0]
+  UnitConfigName: SwitchElectric0
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xeff5ca7c
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x57aa1e88}
+  SRTHash: 1095987938
+  Translate: [4.0, -4.0, -4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {EventFlowEntryName: GoalExit, EventFlowName: Demo033_1, IsEndlessEvent: false,
+    LaunchEventByOffSignal: false, LaunchEventByOnSignal: true}
+  HashId: !u 0xf0797ecb
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  - {DefinitionName: DemoMember, DestUnitHashId: !u 0x10e737e0}
+  SRTHash: 1598203203
+  Translate: [-5.5, 26.0, -30.0]
+  UnitConfigName: EventTag
+- HashId: !u 0xf3a126a7
+  LinksToObj:
+  - {DefinitionName: FixedCs, DestUnitHashId: !u 0xbd03e261}
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  OnlyOne: true
+  SRTHash: -1639291920
+  Translate: [7.450580596923828e-08, 9.999999046325684, 3.725290298461914e-08]
+  UnitConfigName: ElectricGenerator_Dynamic
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf433f44e
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0x8777f07d}
+  SRTHash: 2062271850
+  Translate: [12.0, -4.0, -4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xf586e92a
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xedb4e3bb}
+  SRTHash: -815568940
+  Translate: [8.0, -4.0, -4.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {DropTable: Normal, RailMoveSpeed: 1.0, SharpWeaponJudgeType: 0}
+  HashId: !u 0xfa6886e3
+  LinksToObj:
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xd90c690b}
+  LinksToRail:
+  - {DefinitionName: GuideRef, DestUnitHashId: !u 0xf49aaafa}
+  SRTHash: 306014444
+  Translate: [-8.0, -4.0, -8.0]
+  UnitConfigName: DgnObj_RailLift_Box
+- '!Parameters': {IncrementSave: false, MakeSaveFlag: 0, NoChangeSignal: false, SaveFlagOnOffType: 0}
+  HashId: !u 0xfabc77d2
+  LinksToObj:
+  - '!Parameters': {NoAutoDemoMember: false}
+    DefinitionName: BasicSig
+    DestUnitHashId: !u 0xec7af975
+  - {DefinitionName: SyncLink, DestUnitHashId: !u 0xde448f7a}
+  SRTHash: -878924557
+  Translate: [5.5, 26.0, -31.0]
+  UnitConfigName: LinkTagAnd
+- HashId: !u 0xfc91cdca
+  SRTHash: 0
+  Translate: [0.0, 6.0, 21.0]
+  UnitConfigName: LinkTagNone
+- HashId: !u 0xfca80653
+  SRTHash: 1466149475
+  Translate: [31.0, 7.0, -32.005001068115234]
+  UnitConfigName: DgnObj_PartitionWall_A_05
+Rails:
+- HashId: !u 0x000911dc
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [12.0, -4.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [12.0, 2.0, 4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [12.0, -1.0, 4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x003f72f5
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [8.0, -4.0, 12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [8.0, 2.0, 12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [8.0, -1.0, 12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x0346831b
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [8.0, -4.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [8.0, 2.0, 4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [8.0, -1.0, 4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x0d6adb06
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [8.0, -4.0, -8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [8.0, 2.0, -8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [8.0, -1.0, -8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x0fcd5ea1
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [0.0, -4.0, -8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [0.0, 2.0, -8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [0.0, -1.0, -8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x20021aca
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [4.0, -4.0, 0.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [4.0, 2.0, 0.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4.0, -1.0, 0.0]
+  UnitConfigName: Guide
+- HashId: !u 0x225aa594
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-4.0, -4.0, -4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-4.0, 2.0, -4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-4.0, -1.0, -4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x228783b0
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-12.0, -4.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-12.0, 2.0, 4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-12.0, -1.0, 4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x23d85b8e
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [0.0, -4.0, 12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [0.0, 2.0, 12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [0.0, -1.0, 12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x2434f995
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [8.0, -4.0, -12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [8.0, 2.0, -12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [8.0, -1.0, -12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x27b39e9a
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [12.0, -4.0, 0.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [12.0, 2.0, 0.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [12.0, -1.0, 0.0]
+  UnitConfigName: Guide
+- HashId: !u 0x2e6bc1a8
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-4.0, -4.0, 8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-4.0, 2.0, 8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-4.0, -1.0, 8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x300ae86a
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [0.0, -4.0, 8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [0.0, 2.0, 8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [0.0, -1.0, 8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x35813017
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-12.0, -4.0, 8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-12.0, 2.0, 8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-12.0, -1.0, 8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x3837e44c
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [0.0, -4.0, 0.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [0.0, 2.0, 0.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [0.0, -1.0, 0.0]
+  UnitConfigName: Guide
+- HashId: !u 0x435f8a33
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [12.0, -4.0, 8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [12.0, 2.0, 8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [12.0, -1.0, 8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x442c0619
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-8.0, -4.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-8.0, 2.0, 4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-8.0, -1.0, 4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x5352a01b
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-8.0, -4.0, -4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-8.0, 2.0, -4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-8.0, -1.0, -4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x5357be58
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [4.0, -4.0, -12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [4.0, 2.0, -12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4.0, -1.0, -12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x5379d7da
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [12.0, -4.0, 12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [12.0, 2.0, 12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [12.0, -1.0, 12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x54066202
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-12.0, -4.0, 12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-12.0, 2.0, 12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-12.0, -1.0, 12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x57aa1e88
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [4.0, -4.0, -4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [4.0, 2.0, -4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4.0, -1.0, -4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x57e465e4
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-12.0, -4.0, -8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-12.0, 2.0, -8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-12.0, -1.0, -8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x5a8000cc
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-12.0, -4.0, 0.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-12.0, 2.0, 0.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-12.0, -1.0, 0.0]
+  UnitConfigName: Guide
+- HashId: !u 0x5f8349d8
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-4.0, -4.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-4.0, 2.0, 4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-4.0, -1.0, 4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x5fb1c8f5
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [4.0, -4.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [4.0, 2.0, 4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4.0, -1.0, 4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x6314ea08
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [12.0, -4.0, -12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [12.0, 2.0, -12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [12.0, -1.0, -12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x6e587809
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-12.0, -4.0, -12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-12.0, 2.0, -12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-12.0, -1.0, -12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x793e6eac
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-8.0, -4.0, 12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-8.0, 2.0, 12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-8.0, -1.0, 12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x81ef9f46
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [0.0, -4.0, 4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [0.0, 2.0, 4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [0.0, -1.0, 4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x84407187
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [0.0, -4.0, -12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [0.0, 2.0, -12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [0.0, -1.0, -12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x876566b3
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [12.0, -4.0, -8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [12.0, 2.0, -8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [12.0, -1.0, -8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x8777f07d
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [12.0, -4.0, -4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [12.0, 2.0, -4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [12.0, -1.0, -4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x87c890fa
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-4.0, -4.0, -12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-4.0, 2.0, -12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-4.0, -1.0, -12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x89230e22
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-8.0, -4.0, 8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-8.0, 2.0, 8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-8.0, -1.0, 8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x8c7f1e1e
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [0.0, -4.0, -4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [0.0, 2.0, -4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [0.0, -1.0, -4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x9137ebcf
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [4.0, -4.0, 12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [4.0, 2.0, 12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4.0, -1.0, 12.0]
+  UnitConfigName: Guide
+- HashId: !u 0x942e90f7
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [4.0, -4.0, -8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [4.0, 2.0, -8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4.0, -1.0, -8.0]
+  UnitConfigName: Guide
+- HashId: !u 0x9573dbc4
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-12.0, -4.0, -4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-12.0, 2.0, -4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-12.0, -1.0, -4.0]
+  UnitConfigName: Guide
+- HashId: !u 0x98df083e
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-4.0, -4.0, -8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-4.0, 2.0, -8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-4.0, -1.0, -8.0]
+  UnitConfigName: Guide
+- HashId: !u 0xa1556556
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [4.0, -4.0, 8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [4.0, 2.0, 8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [4.0, -1.0, 8.0]
+  UnitConfigName: Guide
+- HashId: !u 0xa68b0134
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-4.0, -4.0, 0.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-4.0, 2.0, 0.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-4.0, -1.0, 0.0]
+  UnitConfigName: Guide
+- HashId: !u 0xac221b6f
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [8.0, -4.0, 0.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [8.0, 2.0, 0.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [8.0, -1.0, 0.0]
+  UnitConfigName: Guide
+- HashId: !u 0xbbddbe0b
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [8.0, -4.0, 8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [8.0, 2.0, 8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [8.0, -1.0, 8.0]
+  UnitConfigName: Guide
+- HashId: !u 0xe8457470
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-8.0, -4.0, 0.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-8.0, 2.0, 0.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-8.0, -1.0, 0.0]
+  UnitConfigName: Guide
+- HashId: !u 0xedb4e3bb
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [8.0, -4.0, -4.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [8.0, 2.0, -4.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [8.0, -1.0, -4.0]
+  UnitConfigName: Guide
+- HashId: !u 0xf3d43e17
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-4.0, -4.0, 12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-4.0, 2.0, 12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-4.0, -1.0, 12.0]
+  UnitConfigName: Guide
+- HashId: !u 0xf49aaafa
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-8.0, -4.0, -8.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-8.0, 2.0, -8.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-8.0, -1.0, -8.0]
+  UnitConfigName: Guide
+- HashId: !u 0xf7dbc325
+  IsClosed: false
+  RailPoints:
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 180.0}
+    NextDistance: 5.999999523162842
+    PrevDistance: 0.0
+    Translate: [-8.0, -4.0, -12.0]
+    UnitConfigName: GuidePoint
+  - '!Parameters': {IsAdjustPosAndDirToPoint: false, WaitFrame: 30.0}
+    NextDistance: 0.0
+    PrevDistance: 5.999999523162842
+    Translate: [-8.0, 2.0, -12.0]
+    UnitConfigName: GuidePoint
+  RailType: Linear
+  Translate: [-8.0, -1.0, -12.0]
+  UnitConfigName: Guide

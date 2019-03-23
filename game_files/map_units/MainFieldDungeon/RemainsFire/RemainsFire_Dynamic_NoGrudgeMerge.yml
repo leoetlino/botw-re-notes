@@ -1,0 +1,24 @@
+Objs:
+- HashId: !u 0x341efe92
+  SRTHash: -312645511
+  Translate: [11.5, 14.445329666137695, 64.0]
+  UnitConfigName: Obj_MapModel_A_01
+- HashId: !u 0x7a95a1c4
+  SRTHash: -417972131
+  Translate: [12.5, 0.0, 25.5]
+  UnitConfigName: ConstraintDummy
+- '!Parameters': {DropTable: Normal, FieldBodyGroup: 0, SharpWeaponJudgeType: 0, SwitchTorchSpType: 2}
+  HashId: !u 0x8423d5ca
+  SRTHash: 1689086969
+  Translate: [3.0, 0.0, 33.0]
+  UnitConfigName: DgnObj_AncientReactor_B_01_on
+- '!Parameters': {DropTable: Normal, FieldBodyGroup: 0, SharpWeaponJudgeType: 0, SwitchTorchSpType: 2}
+  HashId: !u 0xa7f91eb2
+  SRTHash: 1644722566
+  Translate: [-3.0, 0.0, 33.0]
+  UnitConfigName: DgnObj_AncientReactor_B_01_on
+- HashId: !u 0xdc6c30f8
+  SRTHash: -1461024693
+  Translate: [-4.5, 0.0, -44.5]
+  UnitConfigName: ConstraintDummy
+Rails: []
