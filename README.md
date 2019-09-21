@@ -16,6 +16,8 @@ from the executable in [tools/ida](tools/ida).
 * [A 010 Editor Template for beco files](tools/beco.bt), which are used to map coordinates to
 map areas and/or tower areas.
 
+* Some code snippets in [code](code/). I usually rewrite the function in C++ to make game logic easier to understand, since optimised code is hard to read. Sometimes the snippet is just pseudocode output from Hex-Rays. (A lot of snippets are currently in my gists, but I'll probably move them to this repo in the future)
+
 ## Tools
 
 Originally this repository also contained a lot of tools for working with the ROM,
